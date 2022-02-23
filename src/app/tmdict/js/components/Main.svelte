@@ -1,7 +1,7 @@
 <script>
-  import MainEn from './MainEn.svelte'
-  import MainJa from './MainJa.svelte'
-  import MainZh from './MainZh.svelte'
+  import NewsEn from './news/En.svelte'
+  import NewsJa from './news/Ja.svelte'
+  import NewsZh from './news/Zh.svelte'
   import { navLang, navIndex, filterSrc } from '../stores.js'
 
   export let env
@@ -10,9 +10,9 @@
   export let filterlistIndex
 
   const pageComponent = {
-    'en': { component: MainEn },
-    'ja': { component: MainJa },
-    'zh': { component: MainZh }
+    'en': { component: NewsEn },
+    'ja': { component: NewsJa },
+    'zh': { component: NewsZh }
   }
 
   // Returns an array of objects, each representing an index + entries 
