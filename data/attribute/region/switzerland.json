@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Switzerland",
+      "ja": "スイス",
+      "zh": "瑞士"
+    }
+  }
+}

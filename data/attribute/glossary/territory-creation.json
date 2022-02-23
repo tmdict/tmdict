@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Territory Creation",
+      "ja": "陣地作成",
+      "zh": "阵地作成"
+    }
+  }
+}

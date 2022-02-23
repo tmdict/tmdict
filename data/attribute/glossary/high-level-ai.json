@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "High Level AI",
+      "ja": "上級AI",
+      "zh": "高级AI"
+    }
+  }
+}

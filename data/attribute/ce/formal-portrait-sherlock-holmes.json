@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 640,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0640.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "yamanaka-kotetsu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Sherlock Holmes",
+      "ja": "英霊正装：シャーロック・ホームズ",
+      "zh": "英灵正装：夏洛克·福尔摩斯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

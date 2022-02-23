@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "to",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Storehouse",
+      "ja": "土蔵",
+      "zh": "仓库"
+    }
+  }
+}

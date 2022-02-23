@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1149,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1149.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "hirai-yukio",
+    "ce-type": "regular",
+    "obtained": "mana-prism-shop"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gran Cavallo",
+      "ja": "グラン・カヴァッロ",
+      "zh": "格兰·卡瓦洛"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1138,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1138.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takeuchi-takashi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-stay-night-15th-anniversary-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/stay night -Tracing 15 Years-",
+      "ja": "Fate/stay night -15年の軌跡-",
+      "zh": "Fate/stay night -15年的轨迹-"
+    },
+    "notes": {
+      "en": "",
+      "ja": "",
+      "zh": "「Fate/stay night」大暑特别纪念活动"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

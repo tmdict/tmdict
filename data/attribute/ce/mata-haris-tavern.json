@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 349,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0349.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "melon22",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "halloween-comeback-super-ghouls-n-pumpkins-the-seeds-of-adventure"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mata Hari’s Tavern",
+      "ja": "マタ･ハリの酒場",
+      "zh": "玛塔·哈丽的酒吧"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

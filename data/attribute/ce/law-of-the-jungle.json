@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 78,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0078.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "riyo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "happy-new-year-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "Law of the Jungle",
+      "ja": "ジャングルの掟",
+      "zh": "雨林规则"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

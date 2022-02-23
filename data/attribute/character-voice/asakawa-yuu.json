@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Asakawa Yuu",
+      "ja": "浅川悠",
+      "zh": "浅川悠"
+    }
+  }
+}

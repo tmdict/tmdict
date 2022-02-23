@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "1999-05-04",
+  "weight": 1999050,
+
+  "attribute": {
+    "work": "misc"
+  },
+
+  "data": {
+    "name": {
+      "en": "Angel Voice",
+      "ja": "Angel Voice",
+      "zh": "Angel Voice"
+    }
+  }
+}

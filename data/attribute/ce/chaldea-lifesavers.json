@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 296,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0296.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "shaka-p",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "summer-ocean-pioneering-fgo-summer-2018-chaldea-summer-memory-the-white-beach-of-relaxation"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Lifesavers",
+      "ja": "カルデア・ライフセーバーズ",
+      "zh": "迦勒底救生员"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

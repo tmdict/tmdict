@@ -1,0 +1,70 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 1,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0001a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0001b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0001c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0001d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0001e_april-fools.png" },
+    { "weight": 6, "id": "img_april-fools-ortinax", "src": "S0001f_april-fools-ortinax.png" },
+    { "weight": 7, "id": "img_swimsuit-of-perpetual-summer", "src": "S0001g_swimsuit-of-perpetual-summer.png" },
+    { "weight": 8, "id": "img_ortinax", "src": "S0001h_ortinax.png" },
+    { "weight": 9, "id": "img_ortinax-upgraded", "src": "S0001i_ortinax-upgraded.png" },
+    { "weight": 10, "id": "img_swimsuit-of-perpetual-summer-ver02", "src": "S0001j_swimsuit-of-perpetual-summer-ver02.png" },
+    { "weight": 11, "id": "img_bright-voyager", "src": "S0001k_bright-voyager.png" }
+  ],
+
+  "attribute": {
+    "class": "shielder",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": "chaldea",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "a",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "_qm",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "taneda-risa",
+    "major-appearances": "fate-grand-order",
+    "valentine.ce": ["chaldea-standard", "stranger-amande", "tropical-memoria"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Mash Kyrielight",
+      "ja": "マシュ・キリエライト",
+      "zh": "玛修·基列莱特"
+    },
+    "true-name": {
+      "en": "Cannot be enquired due to a lack of a summoned form",
+      "ja": "召喚形式の不備により照会できず",
+      "zh": "由于召唤形式不完整无法查询"
+    },
+    "height": {
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["valentine.ce"]
+  ]
+}

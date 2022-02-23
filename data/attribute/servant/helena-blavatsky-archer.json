@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 180,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0180a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0180b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0180c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0180d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0180e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "dead-heat-summer-race"],
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "matsuryuu",
+    "character-voice": "kanemoto-hisako",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "nyarf",
+    "valentine.ce": "heroic-spirit-chocolate-lollipops",
+    "related.servant": "helena-blavatsky"
+  },
+
+  "data": {
+    "name": {
+      "en": "Helena Blavatsky (Archer)",
+      "ja": "エレナ・ブラヴァツキー（アーチャー）",
+      "zh": "海伦娜·布拉瓦茨基（Archer）"
+    },
+    "true-name": {
+      "en": "Helena Blavatsky",
+      "ja": "エレナ・ブラヴァツキー",
+      "zh": "海伦娜·布拉瓦茨基"
+    },
+    "height": {
+      "en": "145cm",
+      "ja": "145cm",
+      "zh": "145cm"
+    },
+    "weight": {
+      "en": "38kg",
+      "ja": "38kg",
+      "zh": "38kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

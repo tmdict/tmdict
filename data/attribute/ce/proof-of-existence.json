@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 386,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0386.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "hassan-of-the-serenity"
+  },
+
+  "data": {
+    "name": {
+      "en": "Proof of Existence",
+      "ja": "存在の証明",
+      "zh": "存在的证明"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

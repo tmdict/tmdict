@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 908,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0908.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "sitonai"
+  },
+
+  "data": {
+    "name": {
+      "en": "Never To Be Forgotten",
+      "ja": "忘れえぬもの",
+      "zh": "难以忘怀之物"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

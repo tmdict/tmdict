@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Grail Dialogue",
+      "ja": "聖杯問答",
+      "zh": "圣杯问答"
+    }
+  }
+}

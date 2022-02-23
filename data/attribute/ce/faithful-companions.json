@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 259,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0259.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sino",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "tenmas-marvelous-folklore-onigashima"
+  },
+
+  "data": {
+    "name": {
+      "en": "Faithful Companions",
+      "ja": "忠犬待ったなし",
+      "zh": "忠犬蓄势待发"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

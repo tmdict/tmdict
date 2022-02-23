@@ -1,0 +1,226 @@
+.top {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 2em auto 0;
+  min-height: 460px;
+}
+
+.content {
+  line-height: 1.5rem;
+  margin-bottom: 8em;
+
+  &:not(.no-break):after {
+    content: $content-break;
+    position: absolute;
+    left: $content-break-position;
+    margin-top: 35px;
+  }
+
+  .metadata {
+    color: $text-light;
+    font-size: 0.8rem;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+
+    .language {
+      margin-top: 8px;
+      font-size: 0.85rem;
+    }
+  }
+
+  .note {
+    font-weight: bold;
+    margin: 0 1px 0 3px;
+  
+    &:before {
+      font-weight: normal;
+      content: $bracket-left;
+    }
+  
+    &:after {
+      font-weight: normal;
+      content: $bracket-right;
+    }
+  }
+
+  .notelink {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .contact {
+    a {
+      color: $primary-heading;
+      text-decoration: none;
+      border-bottom: $dotted-border;
+
+      &:hover {
+        color: $primary-link;
+      }
+    }
+
+    &:before {
+      content: "[";
+      margin-left: 3px;
+      color: $text-light;
+    }
+
+    &:after {
+      content: "]";
+      margin-right: 3px;
+      color: $text-light;
+    }
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  tr {
+    padding: 1px 0;
+    line-height: 1.2rem;
+    font-size: 0.75rem;
+
+    &:nth-child(odd) {
+      background: $bg-row-grey-light;
+    }
+
+    &:hover {
+      background: $bg-row-grey-dark;
+    }
+
+    &.break td {
+      border-top: $dotted-border;
+    }
+  }
+
+  td:nth-child(1) {
+    width: 240px;
+    font-weight: bold;
+
+    @media #{$media-mobile} {
+      width: 140px;
+    }
+  }
+
+  &.top {
+    display: grid;
+    grid-template-columns: [top-col-start] 258px [top-col-mid] auto [top-col-end];
+    grid-template-rows: [top-row-start] auto [top-row-after] 30px [top-row-end];
+    margin-bottom: 6em;
+  
+    &:after {
+      content: $content-break;
+      grid-column: top-col-start / top-col-end;
+      grid-row: top-row-after / top-row-end;
+    }
+
+    .image {
+      grid-column: top-col-start / top-col-mid;
+      grid-row: top-row-start / top-row-after;
+  
+      img {
+        width: 256px;
+        border: 1px solid $content-gold;
+        outline: 2px solid $content-gold;
+        outline-offset: 1px;
+      }
+    }
+  
+    .attribute {
+      grid-column: top-col-mid / top-col-end;
+      grid-row: top-row-start / top-row-after;
+      margin-left: 18px;
+
+      h5 {
+        margin: 15px 0 0;
+      }
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+  
+      li {
+        font-weight: 700;
+        line-height: 1.4em;
+        padding: 3px 5px;
+        border-bottom: $dotted-border;
+  
+        &:first-child {
+          border-top: $dotted-border;
+        }
+  
+        &.active {
+          background: $bg-row-grey-light;
+        }
+  
+        &:hover {
+          background: $bg-row-grey-light;
+        }
+  
+        a {
+          display: block;
+          font-size: 0.75rem;
+        }
+      }
+    }
+  
+    table {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      
+      @media #{$media-compact} {
+        width: 346px;
+      }
+    }
+  
+    tr {
+      padding: 1px 0;
+      line-height: 1.2rem;
+      font-size: 0.75rem;
+    }
+
+    td a {
+      text-decoration: none;
+    }
+  
+    td:nth-child(1) {
+      width: 150px;
+      color: $text-light;
+
+      @media #{$media-mobile} {
+        width: 140px;
+      }
+    }
+  
+    @media #{$media-mobile} {
+      display: grid;
+      grid-template-columns: [top-col-start] auto [top-col-end];
+      grid-template-rows: [top-row-start] auto [top-row-mid] auto [top-row-end];
+    
+      .image {
+        grid-column: top-col-start / top-col-end;
+        grid-row: top-row-start / top-row-mid;
+  
+        img {
+          width: 100%;
+        }
+      }
+    
+      .attribute {
+        grid-column: top-col-start / top-col-end;
+        grid-row: top-row-mid / top-row-end;
+        margin-left: 0;
+      }
+      
+      table {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 337,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0337.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "rama"
+  },
+
+  "data": {
+    "name": {
+      "en": "Indestructible Blade",
+      "ja": "不滅なる刃",
+      "zh": "不灭之刃"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 954,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0954.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "take",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "antonio-salieri"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pitch Black Conductor’s Baton",
+      "ja": "漆黒の指揮棒",
+      "zh": "漆黑的指挥棒"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

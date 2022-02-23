@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "fu",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "Photonic Crystal",
+      "ja": "フォトニック結晶",
+      "zh": "光子结晶"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 313,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0313.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mashimasaki",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "a-magical-girls-travelogue-prisma-causeway"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kaleid Sapphire",
+      "ja": "カレイドサファイア",
+      "zh": "万华蓝宝石"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 250,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0250.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "anne-bonny-mary-read"
+  },
+
+  "data": {
+    "name": {
+      "en": "Calico Jack",
+      "ja": "キャリコ・ジャック",
+      "zh": "棉布杰克"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

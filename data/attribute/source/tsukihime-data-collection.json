@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2000-12-31",
+  "weight": 2000120,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tsukihime Data Collection",
+      "ja": "月姫資料集",
+      "zh": "月姬资料集"
+    }
+  }
+}

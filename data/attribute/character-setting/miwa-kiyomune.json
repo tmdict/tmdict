@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Miwa Kiyomune",
+      "ja": "三輪清宗",
+      "zh": "三轮清宗"
+    }
+  }
+}

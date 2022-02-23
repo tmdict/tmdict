@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Cross",
+      "ja": "十字架",
+      "zh": "十字架"
+    }
+  }
+}

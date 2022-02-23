@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 190,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0190.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "fate-accel-zero-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Crest Worms",
+      "ja": "概念礼装EXPカード：刻印虫",
+      "zh": "概念礼装EXP卡：刻印虫"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

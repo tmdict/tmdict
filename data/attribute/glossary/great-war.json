@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Great War",
+      "ja": "大戦",
+      "zh": "大战"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 911,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C911.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shishizaru",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-arcade-craft-essence-present-part-3"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Dragon and the Dragon Swordsman",
+      "ja": "竜と竜の剣士",
+      "zh": "龙与龙之剑士"
+    },
+    "notes": {
+      "en": "",
+      "ja": "",
+      "zh": "「Fate/Grand Order Arcade」立夏特别纪念活动"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

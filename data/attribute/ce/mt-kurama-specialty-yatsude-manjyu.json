@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 967,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0967.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "beppu-mitsunaka",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "ushiwakamaru-assassin"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mt. Kurama Specialty: Yatsude Manjyu",
+      "ja": "鞍馬山名産・やつでまんじゅう",
+      "zh": "鞍马山名产·八角金盘馒头"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

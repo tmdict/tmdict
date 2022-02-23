@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 790,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0790.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tatsuyo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "antonio-salieri"
+  },
+
+  "data": {
+    "name": {
+      "en": "Inferno Sword",
+      "ja": "燎原の刃",
+      "zh": "燎原之刃"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

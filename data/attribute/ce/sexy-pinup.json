@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1014,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1014.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "riyo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "even-more-learning-with-manga-fate-grand-order-release-celebration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sexy Pinup",
+      "ja": "セクシーピンナップ",
+      "zh": "性感招贴"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

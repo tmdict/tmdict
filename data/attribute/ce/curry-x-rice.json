@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 877,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0877.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "pako",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Curry × Rice",
+      "ja": "カレー×ライス",
+      "zh": "咖喱×米饭"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

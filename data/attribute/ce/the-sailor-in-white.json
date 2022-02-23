@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 806,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0806.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kamiya-miwo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "gudaguda-legend-of-the-imperial-capital-grail"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Sailor in White",
+      "ja": "白い服の水兵さん",
+      "zh": "白衣水手小姐"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

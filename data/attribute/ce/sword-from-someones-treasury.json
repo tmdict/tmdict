@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 530,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0530.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "lancelot"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sword from Someone’s Treasury",
+      "ja": "何者かの宝剣",
+      "zh": "某个人的宝剑"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

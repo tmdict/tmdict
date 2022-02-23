@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "k",
+  "ja": "na",
+  "jaRow": "n",
+
+  "data": {
+    "name": {
+      "en": "Knight of Owner",
+      "ja": "騎士は徒手にて死せず",
+      "zh": "骑士不死于徒手"
+    }
+  }
+}

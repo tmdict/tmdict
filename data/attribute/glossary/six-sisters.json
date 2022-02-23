@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "ro",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Six Sisters",
+      "ja": "六人姉妹",
+      "zh": "六姐妹"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "page",
+  "attrType": 1,
+
+  "attribute": {},
+
+  "data": {
+    "name": {
+      "en": "Home",
+      "ja": "Home",
+      "zh": "Home"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 57,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0057.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "wada-arco",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Victor of the Moon",
+      "ja": "月の勝利者",
+      "zh": "月之胜利者"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

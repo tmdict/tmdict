@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 17,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0017.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Spell Tome",
+      "ja": "魔導書",
+      "zh": "魔导书"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

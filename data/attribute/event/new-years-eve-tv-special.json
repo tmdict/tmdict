@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "New Year’s Eve TV Special",
+      "ja": "大晦日TVスペシャル記念概念礼装獲得クエスト",
+      "zh": "除夕TV特别篇纪念概念礼装获得关卡"
+    }
+  }
+}

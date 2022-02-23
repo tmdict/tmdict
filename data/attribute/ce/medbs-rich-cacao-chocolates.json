@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 970,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0970.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "aonoesu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "medb-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Medb’s Rich Cacao Chocolates",
+      "ja": "メイヴちゃん印の濃厚カカオチョコ",
+      "zh": "梅芙亲牌浓郁可可巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

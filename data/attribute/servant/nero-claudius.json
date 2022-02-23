@@ -1,0 +1,69 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 5,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0005a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0005b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0005c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0005d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0005e_april-fools.png" },
+    { "weight": 6, "id": "img_olympian-bloomers", "src": "S0005f_olympian-bloomers.png" },
+    { "weight": 7, "id": "img_silk-of-venus", "src": "S0005g_silk-of-venus.png" },
+    { "weight": 8, "id": "img_barbaric-tyrants-rhapsodia", "src": "S0005h_barbaric-tyrants-rhapsodia.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "rome",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "tange-sakura",
+    "major-appearances": ["fate-extra", "fate-extra-ccc"],
+    "bond.ce": "thunderous-applause",
+    "valentine.ce": "the-emperor",
+    "related.servant": "nero-claudius-caster"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nero Claudius",
+      "ja": "ネロ・クラウディウス",
+      "zh": "尼禄·克劳狄乌斯"
+    },
+    "true-name": {
+      "en": "Nero Claudius Caesar Augustus Germanicus",
+      "ja": "ネロ・クラウディウス・カエサル・アウグストゥス・ゲルマニクス",
+      "zh": "尼禄·克劳狄乌斯·凯萨·奥古斯都·日耳曼尼库斯"
+    },
+    "height": {
+      "en": "150cm",
+      "ja": "150cm",
+      "zh": "150cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

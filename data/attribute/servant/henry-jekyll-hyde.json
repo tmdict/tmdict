@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 81,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0081a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0081b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0081c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0081d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0081e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "novel-dr-jekyll-and-mr-hyde",
+    "region": "europe",
+    "alignment": ["lawful-good", "chaotic-evil"],
+    "strength.parameter": "cp",
+    "endurance.parameter": "e",
+    "agility.parameter": "ap",
+    "magic.parameter": "e",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "nakahara",
+    "character-voice": "miyano-mamoru",
+    "major-appearances": "fate-prototype-sougin-no-fragments",
+    "bond.ce": "things-to-calm-the-heart",
+    "valentine.ce": "handmade-rice-balls"
+  },
+
+  "data": {
+    "name": {
+      "en": "Henry Jekyll & Hyde",
+      "ja": "ヘンリー・ジキル＆ハイド",
+      "zh": "亨利·杰基尔＆海德"
+    },
+    "true-name": {
+      "en": "Henry Jekyll / Edward Hyde",
+      "ja": "ヘンリー・ジキル／エドワード・ハイド",
+      "zh": "查尔斯·巴贝奇／爱德华·海德"
+    },
+    "height": {
+      "en": "175cm",
+      "ja": "175cm",
+      "zh": "175cm"
+    },
+    "weight": {
+      "en": "60kg",
+      "ja": "60kg",
+      "zh": "60kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

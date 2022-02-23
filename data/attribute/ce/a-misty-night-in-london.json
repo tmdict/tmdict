@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 267,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0267.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "jack-the-ripper"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Misty Night in London",
+      "ja": "霧夜の倫敦",
+      "zh": "雾夜伦敦"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

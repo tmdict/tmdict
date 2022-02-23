@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "ri",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Spiritron Composition",
+      "ja": "霊子構造",
+      "zh": "灵子构造"
+    }
+  }
+}

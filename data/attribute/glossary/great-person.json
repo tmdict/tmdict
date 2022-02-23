@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "e",
+  "jaRow": "_",
+
+  "data": {
+    "name": {
+      "en": "Great Person",
+      "ja": "偉い人",
+      "zh": "那位大人"
+    }
+  }
+}

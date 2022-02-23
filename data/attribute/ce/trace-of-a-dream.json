@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 668,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0668.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "shiojima-yuka",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "fate-stay-night-heavens-feel-movie-premiere-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Trace of a Dream",
+      "ja": "夢の跡",
+      "zh": "梦之痕迹"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

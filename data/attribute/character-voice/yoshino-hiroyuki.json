@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Yoshino Hiroyuki",
+      "ja": "吉野裕行",
+      "zh": "吉野裕行"
+    }
+  }
+}

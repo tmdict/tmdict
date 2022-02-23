@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1034,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1034.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "nagao-kagetora"
+  },
+
+  "data": {
+    "name": {
+      "en": "Touhachi Bishamonten",
+      "ja": "刀八毘沙門天",
+      "zh": "刀八毗沙门天"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

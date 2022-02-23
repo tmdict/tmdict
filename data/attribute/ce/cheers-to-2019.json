@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 415,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0415.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mika-pikazo",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "happy-new-year-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cheers To 2019",
+      "ja": "チアーズ・トゥ・2017",
+      "zh": "为2018喝彩"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1121,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1121.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "noco",
+    "ce-type": "regular",
+    "obtained": "mana-prism-shop"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Dinnertime",
+      "ja": "カルデア・ディナータイム",
+      "zh": "迦勒底晚餐时光"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

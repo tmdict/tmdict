@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "r",
+  "ja": "ro",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Robin Hood",
+      "ja": "ロビン・フッド",
+      "zh": "罗宾汉"
+    }
+  }
+}

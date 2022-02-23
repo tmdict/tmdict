@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1071,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1071.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ginka",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Marie Antoinette",
+      "ja": "英霊祭装：マリー・アントワネット",
+      "zh": "英灵祭装：玛丽·安托瓦内特"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

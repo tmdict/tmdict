@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 638,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0638.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shima-drill",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Asterios",
+      "ja": "英霊正装：アステリオス",
+      "zh": "英灵正装：阿斯忒里俄斯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

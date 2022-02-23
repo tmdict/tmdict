@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>{{attribute.name}} | TMdict</title>
+
+  <link rel="canonical" href="https://www.tmdict.com/{{lang}}/{{attribute.id}}" />
+  <link rel="shortcut icon" href="{{level}}favicon.ico" />
+  {{#if (equals attribute.id 'search')}}
+    <link rel="stylesheet" href="{{level}}src/vendor/tipuesearch/tipuesearch.css" />
+  {{/if}}
+  <link rel='stylesheet' href='{{level}}src/css/bamboo.css'/>
+</head>
+<body>
+  <div id="container">
+    <div class="wrapper group">
+      <div class="top">
+        <div class="top-img"><a title="Home" href="{{level}}{{lang}}/">Home</a></div>
+        <div class="nav">
+          <h1><span class="tm">TM</span>dict</h1>
+          <div class="nav-ver">v3</div>
+          <div class="nav-index">
+            {{~#each nav.ja~}}
+              <span class="{{#unless @index}}first{{/unless}}"><a href="{{../level}}{{../lang}}/#?nav=ja.{{this.id}}" title="{{this.name}}">{{this.name}}</a></span>
+            {{~/each~}}
+            <span><a href="{{level}}{{lang}}/#?nav=ja" title="全">全</a></span>
+          <br />
+            {{~#each nav.en~}}
+              <span class="{{#unless @index}}first{{/unless}}"><a href="{{../level}}{{../lang}}/#?nav=en.{{this.id}}" title="{{this.name}}">{{this.name}}</a></span>
+            {{~/each~}}
+            <span><a href="{{level}}{{lang}}/#?nav=en" title="all">all</a></span>
+          </div>
+        </div>
+        <div class="side">
+          <div class="search">
+            <form action="search"><input type="text" name="q" id="tipue_search_input" autoComplete="off" required="" /></form>
+          </div>
+          <div class="menu"><a title="{{app.i18n.about.lang}}" href="{{level}}{{lang}}/about{{ext}}">{{lookup app.i18n.about lang}}</a> | <a title="{{lookup app.i18n.site lang}}" href="{{level}}{{lang}}/site{{ext}}">{{lookup app.i18n.site lang}}</a> | <a title="{{lookup app.i18n.misc lang}}" href="{{level}}{{lang}}/misc{{ext}}">{{lookup app.i18n.misc lang}}</a> | <a title="{{lookup app.i18n.book lang}}" href="{{level}}book/">{{lookup app.i18n.book lang}}</a></div>
+          <div class="lang"><span class="first"><a class="{{#if (equals lang 'en')}}active{{/if}}" href="{{level}}en/{{attribute.id}}{{ext}}" title="EN">EN</a></span><span class=""><a class="{{#if (equals lang 'zh')}}active{{/if}}" href="{{level}}zh/{{attribute.id}}{{ext}}" title="ZH">ZH</a></span><span class=""><a class="{{#if (equals lang 'ja')}}active{{/if}}" href="{{level}}ja/{{attribute.id}}{{ext}}" title="JA">JA</a></span></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main-content">
+          <div class="page-content">
+            {{{content}}}
+          </div>
+        </div>
+      </div>
+      <div class="side">
+        <div class="side-content">
+          <h2><span class="first-char">{{sidebar.fname}}</span>{{sidebar.lname}}</h2>
+          {{{sidebar.content.top}}}
+          {{{sidebar.content.contribute}}}
+          {{{sidebar.content.project}}}
+          <div class="side-menu">
+            <div class="menu-arrow"><a title="Return" href="./">«</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+{{#if (equals attribute.id 'search')}}
+  <script src="../src/vendor/jquery-3.3.1.min.js"></script>
+  <script src="../src/vendor/tipuesearch/tipuesearch_set.js"></script>
+  <script src="../src/vendor/tipuesearch/tipuesearch.min.js"></script>
+  <script src="../src/js/search.data.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'minimumLength': 2,
+        'highlightTerms': true,
+        'wholeWords': false,
+      });
+    });
+  </script>
+{{/if}}
+</html>

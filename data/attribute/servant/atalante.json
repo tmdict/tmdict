@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 14,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0014a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0014b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0014c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0014d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0014e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "neutral-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": ["higashide-yuuichirou", "myougaya-jinroku"],
+    "illustrator": "rin-kususaga",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-apocrypha",
+    "bond.ce": "golden-apple",
+    "valentine.ce": "apple-arrow",
+    "related.servant": "atalante-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Atalante",
+      "ja": "アタランテ",
+      "zh": "阿塔兰忒"
+    },
+    "true-name": {
+      "en": "Atalante",
+      "ja": "アタランテ",
+      "zh": "阿塔兰忒"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

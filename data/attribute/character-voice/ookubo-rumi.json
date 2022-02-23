@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ookubo Rumi",
+      "ja": "大久保瑠美",
+      "zh": "大久保瑠美"
+    }
+  }
+}

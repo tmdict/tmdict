@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 942,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0942.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "eiri-shirai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "prisma-causeway-re-install"
+  },
+
+  "data": {
+    "name": {
+      "en": "Paradox Ace Killer",
+      "ja": "パラドクス・エースキラー",
+      "zh": "悖论的王牌杀手"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

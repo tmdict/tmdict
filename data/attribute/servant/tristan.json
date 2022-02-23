@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 122,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0122a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0122b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0122c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0122d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0122e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": ["legend-of-king-arthur", "tristan-and-isolde"],
+    "region": "britain",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "morii-shizuki",
+    "character-voice": "uchiyama-kouki",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "a-single-lie",
+    "valentine.ce": "tristans-greatest-hits"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tristan",
+      "ja": "トリスタン",
+      "zh": "崔斯坦"
+    },
+    "true-name": {
+      "en": "Tristan",
+      "ja": "トリスタン",
+      "zh": "崔斯坦"
+    },
+    "height": {
+      "en": "186cm",
+      "ja": "186cm",
+      "zh": "186cm"
+    },
+    "weight": {
+      "en": "78kg",
+      "ja": "78kg",
+      "zh": "78kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

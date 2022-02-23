@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "wa",
+  "jaRow": "w",
+
+  "data": {
+    "name": {
+      "en": "My Friend",
+      "ja": "我が朋友",
+      "zh": "我的朋友"
+    }
+  }
+}

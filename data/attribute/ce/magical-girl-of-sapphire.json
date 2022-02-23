@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 309,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0309.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "hiroyama-hiroshi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "a-magical-girls-travelogue-prisma-causeway"
+  },
+
+  "data": {
+    "name": {
+      "en": "Magical Girl of Sapphire",
+      "ja": "蒼玉の魔法少女",
+      "zh": "苍玉之魔法少女"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

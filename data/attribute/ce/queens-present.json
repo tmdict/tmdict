@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 202,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0202.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "chevalier-deon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Queen’s Present",
+      "ja": "永劫の孤独",
+      "zh": "王妃的赠礼"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

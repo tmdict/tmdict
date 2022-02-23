@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Spellcasting",
+      "ja": "呪文詠唱",
+      "zh": "咒文咏唱"
+    }
+  }
+}

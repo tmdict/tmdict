@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 51,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0051.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "t-ray",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "adventure-of-singing-pumpkin-castle-mad-party-2017"
+  },
+
+  "data": {
+    "name": {
+      "en": "Halloween Arrangement",
+      "ja": "ハロウィン・アレンジメント",
+      "zh": "万圣节筹备"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

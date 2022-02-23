@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 366,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0366.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wada-arco",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-extella-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Spiritron Portrait: Gilgamesh",
+      "ja": "霊子肖像：ギルガメッシュ",
+      "zh": "灵子肖像：吉尔伽美什"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2021-08-26",
+  "weight": 2021080,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tsukihime Material I",
+      "ja": "月姫マテリアルI",
+      "zh": "月姬Material I"
+    }
+  }
+}

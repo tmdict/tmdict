@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 258,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0258.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kawai-makoto",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "tenmas-marvelous-folklore-onigashima"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dumplings Over Flowers",
+      "ja": "花より団子",
+      "zh": "舍华求实"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

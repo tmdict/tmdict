@@ -1,0 +1,64 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 182,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0182a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0182d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0182e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["ancient-mesopotamian-mythology", "dead-heat-summer-race"],
+    "region": "mesopotamia",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "morii-shizuki",
+    "character-voice": "ueda-kana",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "goddesss-winning-cup",
+    "valentine.ce": "ishtars-arc-de-triomphe-rice-cakes",
+    "related.servant": ["ishtar", "space-ishtar"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Ishtar (Rider)",
+      "ja": "伊什塔尔（ライダー）",
+      "zh": "源赖光（Rider）"
+    },
+    "true-name": {
+      "en": "Ishtar",
+      "ja": "イシュタル",
+      "zh": "伊什塔尔"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

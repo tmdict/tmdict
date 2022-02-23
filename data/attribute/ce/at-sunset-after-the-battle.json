@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1098,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1098.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tsuzuki-neko",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "osakabehime-archer"
+  },
+
+  "data": {
+    "name": {
+      "en": "At Sunset, After the Battle",
+      "ja": "戦い終わって日が暮れて",
+      "zh": "战已终日已暮"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

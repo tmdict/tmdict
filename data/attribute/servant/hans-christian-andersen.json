@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 33,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0033a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0033b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0033c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0033d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0033e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_2",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "denmark",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "e",
+    "magic.parameter": "ex",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "koyasu-takehito",
+    "major-appearances": "fate-extra-ccc",
+    "bond.ce": "to-my-dear-friend",
+    "valentine.ce": "bluebird-mouse"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hans Christian Andersen",
+      "ja": "ハンス・クリスチャン・アンデルセン",
+      "zh": "汉斯·克里斯蒂安·安徒生"
+    },
+    "true-name": {
+      "en": "Hans Christian Andersen",
+      "ja": "ハンス・クリスチャン・アンデルセン",
+      "zh": "汉斯·克里斯蒂安·安徒生"
+    },
+    "height": {
+      "en": "146cm",
+      "ja": "146cm",
+      "zh": "146cm"
+    },
+    "weight": {
+      "en": "39kg",
+      "ja": "39kg",
+      "zh": "39kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

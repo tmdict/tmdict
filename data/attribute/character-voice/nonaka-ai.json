@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Nonaka Ai",
+      "ja": "野中藍",
+      "zh": "野中蓝"
+    }
+  }
+}

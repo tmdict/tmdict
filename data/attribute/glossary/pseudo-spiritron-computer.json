@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Pseudo-Spiritron Computer",
+      "ja": "疑似霊子コンピューター",
+      "zh": "疑似灵子电脑"
+    }
+  }
+}

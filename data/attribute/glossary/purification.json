@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Purification",
+      "ja": "浄化",
+      "zh": "净化"
+    }
+  }
+}

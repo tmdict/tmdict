@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 712,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0712.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": ["takiyama-masaaki", "yamamura-hiroki"],
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-extra-last-encore-anime-broadcast-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/EXTRA",
+      "ja": "Fate/EXTRA",
+      "zh": "Fate/EXTRA"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

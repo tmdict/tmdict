@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1139,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1139.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "namie",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "chaldea-park-caravan-2019-2020-fukuoka-commemorative-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Park Caravan",
+      "ja": "カルデアパークキャラバン",
+      "zh": "迦勒底游园车队"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

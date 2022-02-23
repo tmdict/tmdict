@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 930,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0930.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "riyo",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "new-years-campaign-2021"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Boar King",
+      "ja": "概念礼装EXPカード：猪王",
+      "zh": "概念礼装EXP卡：猪王"
+    },
+    "notes": {
+      "en": "Released during The FGO Thanksgiving Special 2020",
+      "ja": "",
+      "zh": ""
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

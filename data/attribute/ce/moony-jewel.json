@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 43,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0043.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shima-shinoji",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "can-the-moon-goddess-achieve-her-dream-of-dangos"
+  },
+
+  "data": {
+    "name": {
+      "en": "Moony Jewel",
+      "ja": "ムーニー・ジュエル",
+      "zh": "月之宝石"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

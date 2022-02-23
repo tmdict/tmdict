@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Takano Urara",
+      "ja": "高乃麗",
+      "zh": "高乃丽"
+    }
+  }
+}

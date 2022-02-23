@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Plain Clothes",
+      "ja": "私服",
+      "zh": "便装"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1056,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1056.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "pako",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Sakamoto Ryouma",
+      "ja": "英霊祭装：坂本龍馬",
+      "zh": "英灵祭装：坂本龙马"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

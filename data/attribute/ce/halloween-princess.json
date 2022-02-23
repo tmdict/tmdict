@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 52,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0052.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "redrop",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "adventure-of-singing-pumpkin-castle-mad-party-2017"
+  },
+
+  "data": {
+    "name": {
+      "en": "Halloween Princess",
+      "ja": "ハロウィン・プリンセス",
+      "zh": "万圣节公主"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "to",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Gradation Air",
+      "ja": "投影",
+      "zh": "投影"
+    }
+  }
+}

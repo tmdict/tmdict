@@ -1,0 +1,34 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1132,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1132.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kodama",
+    "ce-type": "story",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Argonauts",
+      "ja": "アルゴノーツ",
+      "zh": "阿耳戈船英雄"
+    },
+    "notes": {
+      "en": "Obtained after completing Lostbelt 5.1",
+      "ja": "Lostbelt5.1クリア後にガチャ追加",
+      "zh": "通关Lostbelt5.1后获得"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "notes"]
+  ]
+}

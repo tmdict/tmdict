@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1107,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1107.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mizutametori",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "battle-in-new-york-2021"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fly Off",
+      "ja": "フライ・オフ",
+      "zh": "乘机飞抵"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

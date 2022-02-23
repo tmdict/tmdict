@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 254,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0254.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "gin-no-fude",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "medusa"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shapeless Isle",
+      "ja": "カタチのない島",
+      "zh": "无形之岛"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "d",
+  "ja": "chi",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Displacement Magecraft",
+      "ja": "置換魔術",
+      "zh": "置换魔术"
+    }
+  }
+}

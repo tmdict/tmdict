@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 81,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0081.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "nakahara",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "happy-new-year-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "Happy x3 Order",
+      "ja": "ハッピー×3・オーダー",
+      "zh": "Happy×3 Order"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

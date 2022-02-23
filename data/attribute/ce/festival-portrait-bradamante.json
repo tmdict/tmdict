@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1068,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1068.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "saitom",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Bradamante",
+      "ja": "英霊祭装：ブラダマンテ",
+      "zh": "英灵祭装：布拉达曼特"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

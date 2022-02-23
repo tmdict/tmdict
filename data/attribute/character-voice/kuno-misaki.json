@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kuno Misaki",
+      "ja": "久野美咲",
+      "zh": "久野美咲"
+    }
+  }
+}

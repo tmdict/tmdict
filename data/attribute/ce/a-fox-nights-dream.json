@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 213,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0213.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kou-mashiro",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "restless-drunk-demons-capital-rashomon"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Fox Night’s Dream",
+      "ja": "狐の夜の夢",
+      "zh": "狐狸的夜之梦"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

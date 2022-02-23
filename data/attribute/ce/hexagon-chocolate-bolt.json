@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 152,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0152.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "frankenstein"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hexagon Chocolate Bolt",
+      "ja": "ヘキサゴン・チョコボルト",
+      "zh": "六角巧克力螺母"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

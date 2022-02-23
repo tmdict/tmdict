@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 83,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0083.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "ishida-akira",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "saber-wars-lilys-cosmic-winter-rebellion-the-caliburn-awakens"
+  },
+
+  "data": {
+    "name": {
+      "en": "Star of Altria",
+      "ja": "アルトリアの星",
+      "zh": "阿尔托莉雅之星"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

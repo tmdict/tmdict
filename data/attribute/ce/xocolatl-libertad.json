@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 480,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0480.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kuzuboshi-hikaru",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "quetzalcoatl"
+  },
+
+  "data": {
+    "name": {
+      "en": "Xocolatl Libertad",
+      "ja": "自由なるカカワトル",
+      "zh": "自由的可可水"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

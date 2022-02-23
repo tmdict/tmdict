@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Suwabe Junichi",
+      "ja": "諏訪部順一",
+      "zh": "诹访部顺一"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "u",
+  "ja": "ra",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "User of the Lancer Card",
+      "ja": "ランサーカードの使用者",
+      "zh": "Lancer卡片的使用者"
+    }
+  }
+}

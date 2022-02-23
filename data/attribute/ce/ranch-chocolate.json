@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 116,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0116.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "altria-pendragon-lily"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ranch Chocolate",
+      "ja": "牧場のチョコ",
+      "zh": "牧场巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

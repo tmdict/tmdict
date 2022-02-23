@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1063,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1063.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wada-arco",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Sessyoin Kiara",
+      "ja": "英霊祭装：殺生院キアラ",
+      "zh": "英灵祭装：杀生院祈荒"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

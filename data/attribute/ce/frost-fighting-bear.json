@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 907,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0907.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "suzuki-jirou",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-land-of-mystique-oniland-the-great-oni-and-the-kamuys-gold"
+  },
+
+  "data": {
+    "name": {
+      "en": "Frost Fighting Bear",
+      "ja": "氷結闘熊",
+      "zh": "冰结斗熊"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

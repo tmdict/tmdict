@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 131,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0131.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "brynhild"
+  },
+
+  "data": {
+    "name": {
+      "en": "Wisdom of Ice",
+      "ja": "氷の叡智チョコ",
+      "zh": "冰之睿智巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

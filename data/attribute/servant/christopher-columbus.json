@@ -1,0 +1,70 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 172,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0172a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0172b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0172c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0172d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0172e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "spain",
+    "alignment": "neutral-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "e",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "minase-hazuki",
+    "illustrator": "moto-murabito",
+    "character-voice": "ootsuka-houchuu",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "la-nina",
+    "valentine.ce": "standing-boiled-eggs"
+  },
+
+  "data": {
+    "name": {
+      "en": "Christopher Columbus",
+      "ja": "クリストファー・コロンブス",
+      "zh": "克里斯托弗·哥伦布"
+    },
+    "other-names": {
+      "en": "Rider of Resistance",
+      "ja": "レジスタンスのライダー",
+      "zh": "反抗军的Rider"
+    },
+    "true-name": {
+      "en": "Christopher Columbus",
+      "ja": "クリストファー・コロンブス",
+      "zh": "克里斯托弗·哥伦布"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "84kg",
+      "ja": "84kg",
+      "zh": "84kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

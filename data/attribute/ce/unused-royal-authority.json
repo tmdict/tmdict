@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 374,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0374.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "nitocris"
+  },
+
+  "data": {
+    "name": {
+      "en": "Unused Royal Authority",
+      "ja": "行使されざる王権",
+      "zh": "未被行使的王权"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

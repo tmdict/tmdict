@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 899,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0899.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "osanai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "battle-in-new-york-2020"
+  },
+
+  "data": {
+    "name": {
+      "en": "Grudge Match",
+      "ja": "リターン・マッチ",
+      "zh": "复仇战"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

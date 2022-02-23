@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "summoned creature",
+      "ja": "召喚生物",
+      "zh": "召唤生物"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Cathedral (Bounded Field)",
+      "ja": "大聖堂（結界）",
+      "zh": "大圣堂（结界）"
+    }
+  }
+}

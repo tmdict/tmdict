@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 105,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0105.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mineji-sakamoto",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "2m-downloads-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heroic Portrait: Ushiwakamaru",
+      "ja": "英霊肖像：牛若丸",
+      "zh": "英灵肖像：牛若丸"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

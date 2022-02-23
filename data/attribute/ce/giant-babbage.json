@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 879,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0879.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hirai-yukio",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Giant Babbage",
+      "ja": "ジャイアントバベッジ",
+      "zh": "巨神巴贝奇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

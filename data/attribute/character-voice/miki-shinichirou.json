@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Miki Shinichirou",
+      "ja": "三木眞一郎",
+      "zh": "三木真一郎"
+    }
+  }
+}

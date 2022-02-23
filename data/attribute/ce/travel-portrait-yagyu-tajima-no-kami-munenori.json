@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 856,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0856.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "furumi-shouichi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Yagyu Tajima-no-kami Munenori",
+      "ja": "英霊旅装：柳生但馬守宗矩",
+      "zh": "英灵旅装：柳生但马守宗矩"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

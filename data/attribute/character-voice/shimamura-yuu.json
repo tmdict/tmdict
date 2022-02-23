@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Shimamura Yuu",
+      "ja": "嶋村侑",
+      "zh": "嶋村侑"
+    }
+  }
+}

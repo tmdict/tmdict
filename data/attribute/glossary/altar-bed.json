@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "a",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Altar Bed",
+      "ja": "寝台神殿",
+      "zh": "睡床神殿"
+    }
+  }
+}

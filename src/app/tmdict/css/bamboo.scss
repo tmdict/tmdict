@@ -1,0 +1,50 @@
+/* Bamboo */
+
+@import 'normalize';
+
+$media-mobile: "only screen and (max-width: 640px)";
+
+$font-title: ("Trebuchet MS", Trebuchet, Verdana, Arial, "Microsoft YaHei", Sans-serif);
+$font-content: (Verdana, Arial, "Microsoft YaHei", Sans-Serif);
+
+$primary-background: #f5f5f5;
+$primary-teal: #36958e;
+$primary-orange: #c05b4d;
+$primary-green: #637c84;
+$primary-red: #a5473a;
+$nav-background: #f1ede4;
+$side-background: #f8f5ec;
+$highlight-background: #f7ebc6;
+$highlight-border: #f7d87c;
+$text-dark: #333;
+$text-light: #777;
+$dotted-border: 1px dotted #ccc;
+$separator: "|";
+$bracket-left: "[";
+$bracket-right: "]";
+
+$img-top: url('../img/top.png') no-repeat top left;
+$img-quote: url('../img/quote.gif') no-repeat top left;
+
+.clear-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bracket-before {
+  content: $bracket-left;
+  margin-right: 3px;
+}
+
+.bracket-after {
+  content: $bracket-right;
+  margin-left: 3px;
+}
+
+@import 'basic';
+@import 'header';
+@import 'main';
+@import 'side';
+@import 'entry';
+@import 'search';

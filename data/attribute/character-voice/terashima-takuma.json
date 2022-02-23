@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Terashima Takuma",
+      "ja": "寺島拓篤",
+      "zh": "寺岛拓笃"
+    }
+  }
+}

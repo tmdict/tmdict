@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ueda Kana",
+      "ja": "植田佳奈",
+      "zh": "植田佳奈"
+    }
+  }
+}

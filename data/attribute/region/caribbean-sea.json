@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Caribbean Sea",
+      "ja": "カリブ海",
+      "zh": "加勒比海"
+    }
+  }
+}

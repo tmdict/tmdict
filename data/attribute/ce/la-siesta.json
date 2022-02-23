@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 558,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0558.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "yamada-j-dai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "La Siesta",
+      "ja": "ラ・シエスタ",
+      "zh": "短暂的休憩"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "GUDAGUDA Honnoji",
+      "ja": "ぐだぐだ本能寺",
+      "zh": "唠唠叨叨本能寺"
+    }
+  }
+}

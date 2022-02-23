@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 220,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0220.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "stheno"
+  },
+
+  "data": {
+    "name": {
+      "en": "Radiance of the Goddess",
+      "ja": "女神のきらめき",
+      "zh": "女神的闪耀"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ogura Yui",
+      "ja": "小倉唯",
+      "zh": "小仓唯"
+    }
+  }
+}

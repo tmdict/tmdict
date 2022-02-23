@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 22,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0022.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ginka",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Primeval Curse",
+      "ja": "原始呪術",
+      "zh": "原始咒术"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

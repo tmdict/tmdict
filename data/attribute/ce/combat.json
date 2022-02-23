@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 777,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0777.png" }
+  ],
+
+  "attribute": {
+    "star": "star_1",
+    "illustrator": "akita-inu",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Combat",
+      "ja": "闘争",
+      "zh": "斗争"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

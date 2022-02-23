@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "ke",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Primeval Battery",
+      "ja": "原始電池",
+      "zh": "原始电池"
+    }
+  }
+}

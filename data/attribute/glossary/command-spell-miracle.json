@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "re",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Command Spell Miracle",
+      "ja": "令呪の奇跡",
+      "zh": "令咒的奇迹"
+    }
+  }
+}

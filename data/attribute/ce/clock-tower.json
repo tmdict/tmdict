@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 72,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0072.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Clock Tower",
+      "ja": "時計塔",
+      "zh": "时钟塔"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

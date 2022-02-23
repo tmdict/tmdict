@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 671,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0671.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tsuji-masatoshi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-stay-night-heavens-feel-i-presage-flower-movie-premiere-gps-theatre-attendance-craft-essences"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heroic Costume: Leonardo da Vinci",
+      "ja": "英霊装束：レオナルド・ダ・ヴィンチ",
+      "zh": "英灵装束：莱昂纳多·达·芬奇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 723,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0723.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "hijikata-toshizo"
+  },
+
+  "data": {
+    "name": {
+      "en": "Vice Commander-Produced Powdered Medicine",
+      "ja": "副長謹製の散薬",
+      "zh": "副长谨制的散药"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

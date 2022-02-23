@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 108,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0108a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0108b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0108c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0108d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0108e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "macedonia",
+    "alignment": "neutral-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "d",
+    "magic.parameter": "c",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "urobuchi-gen",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "ootsuka-akio",
+    "major-appearances": "fate-zero",
+    "bond.ce": "gordian-knot",
+    "valentine.ce": "goblet-of-a-hero"
+  },
+
+  "data": {
+    "name": {
+      "en": "Iskandar",
+      "ja": "イスカンダル",
+      "zh": "伊斯坎达尔"
+    },
+    "true-name": {
+      "en": "Iskandar",
+      "ja": "イスカンダル",
+      "zh": "伊斯坎达尔"
+    },
+    "height": {
+      "en": "212cm",
+      "ja": "212cm",
+      "zh": "212cm"
+    },
+    "weight": {
+      "en": "130kg",
+      "ja": "130g",
+      "zh": "130g"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

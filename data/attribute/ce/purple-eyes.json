@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1090,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1090.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "souji-hougu",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "all-in-las-vegas-championship-match-seven-duels-of-swordbeauties"
+  },
+
+  "data": {
+    "name": {
+      "en": "Purple Eyes",
+      "ja": "パープル・アイ",
+      "zh": "紫眸"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

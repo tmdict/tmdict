@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 686,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0686.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "osakabehime"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Princess’s Origami",
+      "ja": "お姫様の折り紙",
+      "zh": "公主殿下的折纸"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

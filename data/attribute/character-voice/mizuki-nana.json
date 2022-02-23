@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Mizuki Nana",
+      "ja": "水樹奈々",
+      "zh": "水树奈奈"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 319,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0319.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "ryougi-shiki-assassin"
+  },
+
+  "data": {
+    "name": {
+      "en": "Red Leather Jacket",
+      "ja": "赤いジャンパー",
+      "zh": "红色夹克衫"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

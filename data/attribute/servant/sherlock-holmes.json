@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 173,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0173a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0173b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0173c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0173d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0173e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["sherlock-holmes-series", "etc"],
+    "region": ["united-kingdom", "entire-world"],
+    "alignment": "neutral-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "bp",
+    "magic.parameter": "b",
+    "luck.parameter": "app",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "yamanaka-kotetsu",
+    "character-voice": "mizushima-takahiro",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "prized-piece",
+    "valentine.ce": "a-study-in-scarlet"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sherlock Holmes",
+      "ja": "シャーロック・ホームズ",
+      "zh": "夏洛克·福尔摩斯"
+    },
+    "true-name": {
+      "en": "Sherlock Holmes",
+      "ja": "シャーロック・ホームズ",
+      "zh": "夏洛克·福尔摩斯"
+    },
+    "height": {
+      "en": "183cm",
+      "ja": "183cm",
+      "zh": "183cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

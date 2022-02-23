@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Hara Yumi",
+      "ja": "原由実",
+      "zh": "原由实"
+    }
+  }
+}

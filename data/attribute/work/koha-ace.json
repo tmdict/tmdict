@@ -1,0 +1,12 @@
+{
+  "type": "work",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Koha-Ace",
+      "ja": "コハエース",
+      "zh": "琥珀ACE"
+    }
+  }
+}

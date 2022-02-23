@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Fujii Hayato",
+      "ja": "藤井隼",
+      "zh": "藤井隼"
+    }
+  }
+}

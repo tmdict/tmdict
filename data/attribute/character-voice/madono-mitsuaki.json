@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Madono Mitsuaki",
+      "ja": "真殿光昭",
+      "zh": "真殿光昭"
+    }
+  }
+}

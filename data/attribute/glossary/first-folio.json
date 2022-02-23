@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "f",
+  "ja": "fu",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "First Folio",
+      "ja": "開演の刻は来たれり、此処に万雷の喝采を",
+      "zh": "开演的时刻已到，请献上如雷的喝采！"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Morinaga Chitose",
+      "ja": "森永千才",
+      "zh": "森永千才"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Takeuchi Shunsuke",
+      "ja": "武内駿輔",
+      "zh": "武内骏辅"
+    }
+  }
+}

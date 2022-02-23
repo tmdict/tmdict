@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Innate Time Control",
+      "ja": "固有時制御",
+      "zh": "固有時制御"
+    }
+  }
+}

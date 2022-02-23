@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "re",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Command Seal",
+      "ja": "令呪",
+      "zh": "令咒"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 927,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0927.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "bradamante"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Lovely Princess’s Ring",
+      "ja": "麗しきは美姫の指輪",
+      "zh": "秀美公主的戒指"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

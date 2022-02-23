@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 141,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0141.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ichihashi-makoto",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "medea-lily"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolat Jewel",
+      "ja": "ショコラ・ジュエル",
+      "zh": "巧克力珠宝"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

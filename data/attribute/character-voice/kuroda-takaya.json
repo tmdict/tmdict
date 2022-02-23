@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kuroda Takaya",
+      "ja": "黒田崇矢",
+      "zh": "黑田崇矢"
+    }
+  }
+}

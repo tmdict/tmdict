@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 119,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0119.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kuzuboshi-hikaru",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "chevalier-deon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Maxim de Chevalier",
+      "ja": "マキシム・ド・シュヴァリエ",
+      "zh": "骑士格调"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

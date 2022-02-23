@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 852,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0852.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "taiki",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Merlin",
+      "ja": "英霊旅装：マーリン",
+      "zh": "英灵旅装：梅林"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

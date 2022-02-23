@@ -1,0 +1,71 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 132,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0132a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0132b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0132c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0132d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0132e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "britain",
+    "alignment": "chaotic-good",
+    "strength.parameter": "cp",
+    "endurance.parameter": "b",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "sawashiro-miyuki",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "prydwen",
+    "valentine.ce": "super-thunder-chocolate-crunch-stick",
+    "related.servant": "mordred"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mordred (Rider)",
+      "ja": "モードレッド（ライダー）",
+      "zh": "莫德雷德（Rider）"
+    },
+    "true-name": {
+      "en": "Mordred",
+      "ja": "モードレッド",
+      "zh": "莫德雷德"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    },
+    "notes": {
+      "en": "(more or less)",
+      "ja": "（ー応）",
+      "zh": "（勉強）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "notes", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

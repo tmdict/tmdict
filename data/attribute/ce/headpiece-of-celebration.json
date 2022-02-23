@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 533,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0533.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "lu-bu-fengxian"
+  },
+
+  "data": {
+    "name": {
+      "en": "Headpiece of Celebration",
+      "ja": "祝いの飾り",
+      "zh": "祝贺的饰物"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

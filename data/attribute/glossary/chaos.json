@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Chaos",
+      "ja": "混沌",
+      "zh": "混沌"
+    }
+  }
+}

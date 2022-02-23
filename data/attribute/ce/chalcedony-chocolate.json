@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 979,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0979.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "qin-shi-huang"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chalcedony Chocolate",
+      "ja": "玉髄チョコ",
+      "zh": "玉髓巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 176,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0176a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0176b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0176c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0176d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0176e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["literary-work-frankenstein-or-the-modern-prometheus", "dead-heat-summer-race"],
+    "region": "all-of-europe",
+    "alignment": "neutral-summer",
+    "strength.parameter": "cpp",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "okazaki-takashi",
+    "character-voice": "nonaka-ai",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "all-purpose-bandage",
+    "valentine.ce": "electric-steam-chocolates",
+    "related.servant": "frankenstein"
+  },
+
+  "data": {
+    "name": {
+      "en": "Frankenstein (Saber)",
+      "ja": "フランケンシュタイン（セイバー）",
+      "zh": "弗兰肯斯坦（Saber）"
+    },
+    "true-name": {
+      "en": "Frankenstein (nameless to be exact, Frankenstein’s Monster)",
+      "ja": "フランケンシュタイン（正確には無名、フランケンシュタインの怪物である）",
+      "zh": "弗兰肯斯坦（正确地说无名，弗兰肯斯坦的怪物）"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "48kg",
+      "ja": "48kg",
+      "zh": "48kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

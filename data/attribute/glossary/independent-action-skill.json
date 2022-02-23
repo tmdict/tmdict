@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Independent Action Skill",
+      "ja": "単独行動スキル",
+      "zh": "单独行动技能"
+    }
+  }
+}

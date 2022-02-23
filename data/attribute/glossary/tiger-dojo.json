@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Tiger Dojo",
+      "ja": "タイガー道場",
+      "zh": "老虎道场"
+    }
+  }
+}

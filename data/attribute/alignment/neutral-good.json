@@ -1,0 +1,12 @@
+{
+  "type": "alignment",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Neutral Good",
+      "ja": "中立・善",
+      "zh": "中立·善"
+    }
+  }
+}

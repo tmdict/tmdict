@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Taniyama Kishou",
+      "ja": "谷山紀章",
+      "zh": "谷山纪章"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kanna Nobutoshi",
+      "ja": "神奈延年",
+      "zh": "神奈延年"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 631,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0631.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "honjou-raita",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Sakata Kintoki",
+      "ja": "英霊正装：坂田金時",
+      "zh": "英灵正装：坂田金时"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

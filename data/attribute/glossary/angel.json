@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "a",
+  "ja": "te",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Angel",
+      "ja": "天使",
+      "zh": "天使"
+    }
+  }
+}

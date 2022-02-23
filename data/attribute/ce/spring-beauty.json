@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1000,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1000.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ono-tako",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "ooku-tokugawa-restoration-labyrinth"
+  },
+
+  "data": {
+    "name": {
+      "en": "Spring Beauty",
+      "ja": "春うらら",
+      "zh": "春光明媚"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

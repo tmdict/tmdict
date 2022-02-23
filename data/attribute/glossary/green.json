@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "mi",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Green",
+      "ja": "緑",
+      "zh": "绿"
+    }
+  }
+}

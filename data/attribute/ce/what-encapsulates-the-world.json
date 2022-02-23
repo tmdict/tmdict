@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 798,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0798.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kamikokuryou-haruka",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "achilles"
+  },
+
+  "data": {
+    "name": {
+      "en": "What Encapsulates the World",
+      "ja": "世界を内包せしもの",
+      "zh": "包容世界之物"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

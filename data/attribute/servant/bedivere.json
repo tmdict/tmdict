@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 126,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0126a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0126b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0126c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0126d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0126e_april-fools.png" },
+    { "weight": 6, "id": "img_silver-butler", "src": "S0126f_silver-butler.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "legend-of-king-arthur",
+    "region": "united-kingdom",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["nasu-kinoko", "sakurai-hikaru"],
+    "illustrator": "tenku-sphere",
+    "character-voice": "miyano-mamoru",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "lost-right-arm",
+    "valentine.ce": "silver-box-of-cookies"
+  },
+
+  "data": {
+    "name": {
+      "en": "Bedivere",
+      "ja": "ベディヴィエール",
+      "zh": "贝德维尔"
+    },
+    "true-name": {
+      "en": "Bedivere",
+      "ja": "ベディヴィエール",
+      "zh": "贝德维尔"
+    },
+    "height": {
+      "en": "187cm",
+      "ja": "187cm",
+      "zh": "187cm"
+    },
+    "weight": {
+      "en": "88kg (10 kg were due to his silver arm)",
+      "ja": "88kg（うち10kg以上が「銀の腕」による）",
+      "zh": "88kg（银之臂占据了10kg以上）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

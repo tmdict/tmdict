@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 179,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0179.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "cherokee",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "da-vinci-and-the-7-counterfeit-heroic-spirits"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Scholars of Chaldea",
+      "ja": "カルデアの顕学",
+      "zh": "迦勒底的学者"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 139,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0139a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0139b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0139c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0139d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0139e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "egypt",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "d",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "komatsuzaki-rui",
+    "character-voice": "kugimiya-rie",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "serpent-of-fate",
+    "valentine.ce": "super-nile-fruit-basket"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cleopatra",
+      "ja": "クレオパトラ",
+      "zh": "克娄巴特拉"
+    },
+    "true-name": {
+      "en": "Cleopatra VII",
+      "ja": "クレオパトラ七世",
+      "zh": "克娄巴特拉七世"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "58kg",
+      "ja": "58kg",
+      "zh": "58kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

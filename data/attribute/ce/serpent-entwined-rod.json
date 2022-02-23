@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1024,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1024.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "higashiyama-yuusei",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "asclepius"
+  },
+
+  "data": {
+    "name": {
+      "en": "Serpent-Entwined Rod",
+      "ja": "蛇の杖",
+      "zh": "蛇之杖"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

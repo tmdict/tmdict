@@ -1,0 +1,2 @@
+/book/* /book/#:splat 301
+https://tmdict.netlify.com/* https://www.tmdict.com/:splat 301!

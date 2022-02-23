@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 84,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0084a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0084b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0084c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0084d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0084e_april-fools.png" },
+    { "weight": 6, "id": "img_endowed-travel-wear", "src": "S0084f_endowed-travel-wear.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "mahabharata",
+    "region": "india",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "app",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "pako",
+    "character-voice": "shimazaki-nobunaga",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "hero-of-the-endowed",
+    "valentine.ce": "karnas-bane"
+  },
+
+  "data": {
+    "name": {
+      "en": "Arjuna",
+      "ja": "アルジュナ",
+      "zh": "阿周那"
+    },
+    "true-name": {
+      "en": "Arjuna",
+      "ja": "アルジュナ",
+      "zh": "阿周那"
+    },
+    "height": {
+      "en": "177cm",
+      "ja": "177cm",
+      "zh": "177cm"
+    },
+    "weight": {
+      "en": "72kg",
+      "ja": "72kg",
+      "zh": "72kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

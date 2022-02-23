@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 857,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0857.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shimokoshi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Leonardo da Vinci",
+      "ja": "英霊旅装：レオナルド・ダ・ヴィンチ",
+      "zh": "英灵旅装：莱昂纳多·达·芬奇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

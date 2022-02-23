@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 620,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0620.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "aotsuki-takao",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Boudica",
+      "ja": "英霊正装：ブーディカ",
+      "zh": "英灵正装：布狄卡"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

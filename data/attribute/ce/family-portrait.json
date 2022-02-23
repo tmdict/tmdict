@@ -1,0 +1,34 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1018,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1018.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "bob",
+    "ce-type": "story",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Family Portrait",
+      "ja": "家族の肖像",
+      "zh": "家人的肖像"
+    },
+    "notes": {
+      "en": "Obtained after completing Lostbelt 4",
+      "ja": "Lostbelt4クリア後にガチャ追加",
+      "zh": "通关Lostbelt4后获得"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "notes"]
+  ]
+}

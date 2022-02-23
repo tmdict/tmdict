@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 945,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0945.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "iida-pochi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books"
+  },
+
+  "data": {
+    "name": {
+      "en": "Valkyrie Style",
+      "ja": "ワルキューレ・スタイル",
+      "zh": "瓦尔基里风格"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

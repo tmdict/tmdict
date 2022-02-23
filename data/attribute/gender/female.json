@@ -1,0 +1,12 @@
+{
+  "type": "gender",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Female",
+      "ja": "女性",
+      "zh": "女性"
+    }
+  }
+}

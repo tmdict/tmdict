@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 155,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0155.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "sudou-tomonori",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mature Gentleman",
+      "ja": "老成の翁",
+      "zh": "老成之翁"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

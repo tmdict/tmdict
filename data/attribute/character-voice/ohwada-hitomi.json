@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ohwada Hitomi",
+      "ja": "大和田仁美",
+      "zh": "大和田仁美"
+    }
+  }
+}

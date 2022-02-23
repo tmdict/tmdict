@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 412,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0412.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "mifuji-kiichi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "happy-new-year-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "First Sunrise",
+      "ja": "ファースト・サンライズ",
+      "zh": "朝日初升"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

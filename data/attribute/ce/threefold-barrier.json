@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 157,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0157.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "takahashi-takurowo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Threefold Barrier",
+      "ja": "三重結界",
+      "zh": "三重结界"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

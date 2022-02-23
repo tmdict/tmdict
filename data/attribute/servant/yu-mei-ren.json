@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 230,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0230a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0230b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0230c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0230d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0230e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "lawful-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "ap",
+    "agility.parameter": "d",
+    "magic.parameter": "ap",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "cp",
+    "character-setting": "urobuchi-gen",
+    "illustrator": "toi8",
+    "character-voice": "ise-mariya",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "half-read-book",
+    "valentine.ce": "modern-return-sweets"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yu Mei-ren",
+      "ja": "虞美人",
+      "zh": "虞美人"
+    },
+    "true-name": {
+      "en": "Yu Mei-ren (Akuta Hinako)",
+      "ja": "虞美人（芥ヒナコ）",
+      "zh": "虞美人（芥雏子）"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

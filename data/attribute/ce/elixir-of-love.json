@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 91,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0091.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Elixir of Love",
+      "ja": "愛の霊薬",
+      "zh": "爱之灵药"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

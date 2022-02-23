@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 448,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0448.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "aono-sumio",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "emiya"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kitchen Starter Set",
+      "ja": "今から間に合う家事セット",
+      "zh": "从今往后派上用处家务套装"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "valentine.servant"]
+  ]
+}

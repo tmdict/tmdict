@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1097,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1097.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "watanabe-satoru",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "miyamoto-musashi-berserker"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Summer I Will Never Forget",
+      "ja": "忘れじの夏、二天の懐",
+      "zh": "难忘夏日，二天胸怀"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 230,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0230.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "orion"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tri-star Belt",
+      "ja": "トライスター・ベルト",
+      "zh": "三星腰带"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

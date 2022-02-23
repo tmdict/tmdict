@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 1,
+
+  "data": {
+    "name": {
+      "en": "cloud sky",
+      "ja": "cloud sky",
+      "zh": "cloud sky"
+    }
+  }
+}

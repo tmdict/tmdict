@@ -1,0 +1,12 @@
+{
+  "type": "ce-type",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Gift",
+      "ja": "記念礼装",
+      "zh": "纪念礼装"
+    }
+  }
+}

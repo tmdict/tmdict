@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 403,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0403.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "ishtar"
+  },
+
+  "data": {
+    "name": {
+      "en": "Seven-Headed Warhammer Cita",
+      "ja": "七頭の戦鎚シタ",
+      "zh": "七头战锤希塔"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

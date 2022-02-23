@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 525,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0525.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "nightingale"
+  },
+
+  "data": {
+    "name": {
+      "en": "First Aid Kit",
+      "ja": "救急キット",
+      "zh": "急救包"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

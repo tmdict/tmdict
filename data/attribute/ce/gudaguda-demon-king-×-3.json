@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1030,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1030.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "keikenchi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "all-out-nobunaga-assault-gudaguda-final-honnoji-2021"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: GUDAGUDA Demon King × 3",
+      "ja": "概念礼装EXPカード：ぐだぐだ天魔王×３",
+      "zh": "概念礼装EXP卡：唠唠叨叨天魔王×3"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

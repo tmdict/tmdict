@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 810,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0810.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "okada-izo"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Sky on that Day",
+      "ja": "あの日の空",
+      "zh": "那日的天空"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

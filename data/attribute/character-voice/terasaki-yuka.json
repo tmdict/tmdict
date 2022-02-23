@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Terasaki Yuka",
+      "ja": "寺崎裕香",
+      "zh": "寺崎裕香"
+    }
+  }
+}

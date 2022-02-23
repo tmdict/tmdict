@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 238,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0238.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "edward-teach"
+  },
+
+  "data": {
+    "name": {
+      "en": "Glory of Past Days",
+      "ja": "在りし日の栄光",
+      "zh": "曾经的辉煌"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

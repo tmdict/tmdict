@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 756,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0756.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "nezha"
+  },
+
+  "data": {
+    "name": {
+      "en": "Who Does the Lotus Flower Love?",
+      "ja": "蓮花愛すは何人ぞ",
+      "zh": "爱莲之人有几何"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

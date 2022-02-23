@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 874,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0874.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "toi8",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Melancholy of a Dramatic Demon",
+      "ja": "演劇的魔人のメランコリー",
+      "zh": "戏剧魔人的忧郁"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

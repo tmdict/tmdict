@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 702,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0702.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "nagasaku-tomokatsu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "part-2-prelude-prologue-dec-26th-2019-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "MOONLIGHT/LOSTROOM",
+      "ja": "MOONLIGHT/LOSTROOM",
+      "zh": "MOONLIGHT/LOSTROOM"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

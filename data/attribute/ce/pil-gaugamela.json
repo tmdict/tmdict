@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 534,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0534.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tawawa-minoru",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "darius-iii"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pil Gaugamela",
+      "ja": "ピール・ガウガメラ",
+      "zh": "高加米拉之象"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

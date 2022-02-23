@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 97,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0097.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "hanabana-tsubomi",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Vessel of the Saint",
+      "ja": "聖者の依代",
+      "zh": "圣者凭依之躯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

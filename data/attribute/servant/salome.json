@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 260,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0260a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0260b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0260c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0260d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0260e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_2",
+    "gender": "female",
+    "origin": ["new-testament", "antiquities-of-the-jews", "salome", "etc"],
+    "region": "israel",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shimokoshi",
+    "character-voice": "sarah-emi-bridcutt",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "jokanaans-head",
+    "valentine.ce": "for-you-from-salome"
+  },
+
+  "data": {
+    "name": {
+      "en": "Salome",
+      "ja": "サロメ",
+      "zh": "莎乐美"
+    },
+    "true-name": {
+      "en": "Salome",
+      "ja": "サロメ",
+      "zh": "莎乐美"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

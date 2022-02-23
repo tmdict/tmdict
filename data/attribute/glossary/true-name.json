@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "True Name",
+      "ja": "真名",
+      "zh": "真名"
+    }
+  }
+}

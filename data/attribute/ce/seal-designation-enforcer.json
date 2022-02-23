@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 38,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0038.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "soga-makoto",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Seal Designation Enforcer",
+      "ja": "封印指定執行者",
+      "zh": "理想的王圣"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

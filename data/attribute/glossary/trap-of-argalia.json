@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "to",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Trap of Argalia",
+      "ja": "触れれば転倒！",
+      "zh": "一触即倒！"
+    }
+  }
+}

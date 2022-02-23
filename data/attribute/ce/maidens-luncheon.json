@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1123,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1123.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "yamazaki-kore",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "christmas-2021-nightingales-christmas-carol"
+  },
+
+  "data": {
+    "name": {
+      "en": "Maidens’ Luncheon",
+      "ja": "乙女たちの午餐会",
+      "zh": "少女们的午餐会"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

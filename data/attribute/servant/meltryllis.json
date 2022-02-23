@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 163,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0163a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0163b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0163c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0163d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0163e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-extra-ccc",
+    "region": "se-ra-ph",
+    "alignment": "lawful-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-extra-ccc",
+    "bond.ce": "dazzling-radiance",
+    "valentine.ce": "melty-heart",
+    "related.servant": "mysterious-alter-ego_"
+  },
+
+  "data": {
+    "name": {
+      "en": "Meltryllis",
+      "ja": "メルトリリス",
+      "zh": "Meltryllis"
+    },
+    "true-name": {
+      "en": "Meltryllis",
+      "ja": "メルトリリス",
+      "zh": "Meltryllis"
+    },
+    "height": {
+      "en": "190cm",
+      "ja": "190cm",
+      "zh": "190cm"
+    },
+    "weight": {
+      "en": "33kg",
+      "ja": "33kg",
+      "zh": "33kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

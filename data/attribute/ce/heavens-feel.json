@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 35,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0035.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "wada-arco",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heaven’s Feel",
+      "ja": "ヘブンズ・フィール",
+      "zh": "天之杯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

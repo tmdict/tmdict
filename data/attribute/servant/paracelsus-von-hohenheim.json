@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 79,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0079a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0079b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0079c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0079d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0079e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "nakahara",
+    "character-voice": "miki-shinichirou",
+    "major-appearances": "fate-prototype-sougin-no-fragments",
+    "bond.ce": "elemental",
+    "valentine.ce": "tea-time-with-the-five-elements"
+  },
+
+  "data": {
+    "name": {
+      "en": "Paracelsus von Hohenheim",
+      "ja": "ヴァン・ホーエンハイム・パラケルスス",
+      "zh": "冯·霍恩海姆·帕拉塞尔苏斯"
+    },
+    "true-name": {
+      "en": "Paracelsus von Hohenheim",
+      "ja": "ヴァン・ホーエンハイム・パラケルスス",
+      "zh": "冯·霍恩海姆·帕拉塞尔苏斯"
+    },
+    "height": {
+      "en": "183cm",
+      "ja": "183cm",
+      "zh": "183cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Servant Universe",
+      "ja": "サーヴァント・ユニヴァース",
+      "zh": "从者宇宙"
+    }
+  }
+}

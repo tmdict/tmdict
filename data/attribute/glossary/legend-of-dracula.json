@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "l",
+  "ja": "re",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Legend of Dracula",
+      "ja": "鮮血の伝承",
+      "zh": "鲜血的传承"
+    }
+  }
+}

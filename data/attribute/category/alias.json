@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "alias",
+      "ja": "異名",
+      "zh": "异名"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ohara Sayaka",
+      "ja": "大原さやか",
+      "zh": "大原沙耶香"
+    }
+  }
+}

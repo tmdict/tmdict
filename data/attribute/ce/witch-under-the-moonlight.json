@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 345,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0345.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "jikeshibann",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "halloween-comeback-super-ghouls-n-pumpkins-the-seeds-of-adventure"
+  },
+
+  "data": {
+    "name": {
+      "en": "Witch Under the Moonlight",
+      "ja": "月夜の魔女",
+      "zh": "月夜魔女"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

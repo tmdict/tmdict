@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "to",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Clock Tower",
+      "ja": "時計塔",
+      "zh": "时钟塔"
+    }
+  }
+}

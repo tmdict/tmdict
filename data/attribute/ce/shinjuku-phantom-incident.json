@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1148,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1148.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sasaki-shounen",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-epic-of-remnant-episode-i-comic-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shinjuku Phantom Incident",
+      "ja": "新宿幻霊事件",
+      "zh": "新宿幻灵事件"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

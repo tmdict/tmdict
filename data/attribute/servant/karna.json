@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 85,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0085a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0085b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0085c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0085d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0085e_april-fools.png" },
+    { "weight": 6, "id": "img_burning-garment-of-three-gods", "src": "S0085f_burning-garment-of-three-gods.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "mahabharata",
+    "region": "india",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "pako",
+    "character-voice": "yusa-kouji",
+    "major-appearances": ["fate-extra-ccc", "fate-apocrypha"],
+    "bond.ce": "light-of-the-deprived",
+    "valentine.ce": "dusk-earrings"
+  },
+
+  "data": {
+    "name": {
+      "en": "Karna",
+      "ja": "カルナ",
+      "zh": "迦尔纳"
+    },
+    "true-name": {
+      "en": "Karna",
+      "ja": "カルナ",
+      "zh": "迦尔纳"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

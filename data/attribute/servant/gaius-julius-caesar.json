@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 7,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0007a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0007b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0007c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0007d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0007e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "true-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shima-drill",
+    "character-voice": "okiayu-ryoutarou",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "legend-of-the-gallic-war",
+    "valentine.ce": "cena-caesar-style"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gaius Julius Caesar",
+      "ja": "ガイウス・ユリウス・カエサル",
+      "zh": "盖乌斯·尤利乌斯·恺撒"
+    },
+    "true-name": {
+      "en": "Gaius Julius Caesar",
+      "ja": "ガイウス・ユリウス・カエサル",
+      "zh": "盖乌斯·尤利乌斯·恺撒"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "154kg",
+      "ja": "154kg",
+      "zh": "154kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

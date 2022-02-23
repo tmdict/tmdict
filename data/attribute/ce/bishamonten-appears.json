@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1031,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1031.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "keikenchi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "all-out-nobunaga-assault-gudaguda-final-honnoji-2021"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Bishamonten Appears!",
+      "ja": "概念礼装EXPカード：毘沙門天ぞ是にあり！",
+      "zh": "概念礼装EXP卡：毗沙门天在此！"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

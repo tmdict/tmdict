@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 273,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0273.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "georgios"
+  },
+
+  "data": {
+    "name": {
+      "en": "What Can Be Left Behind",
+      "ja": "残せるもの",
+      "zh": "留存之物"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

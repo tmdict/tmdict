@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 741,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0741.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ichihashi-makoto",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "oda-nobunaga-berserker"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Burns, It Can’t Be Helped",
+      "ja": "バーニング是非もないチョコ",
+      "zh": "燃烧无对错巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

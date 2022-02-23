@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 339,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0339.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "thomas-edison"
+  },
+
+  "data": {
+    "name": {
+      "en": "Lights of Civilization",
+      "ja": "文明の灯火",
+      "zh": "文明的灯火"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

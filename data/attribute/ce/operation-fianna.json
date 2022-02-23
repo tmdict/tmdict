@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 555,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0555.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kasukabe-akira",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "Operation Fianna",
+      "ja": "オペレーション・フィオナ",
+      "zh": "费奥纳行动"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

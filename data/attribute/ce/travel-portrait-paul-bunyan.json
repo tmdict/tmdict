@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 851,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0851.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "riyo",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Paul Bunyan",
+      "ja": "英霊旅装：ポール・バニヤン",
+      "zh": "英灵旅装：保罗·班扬"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

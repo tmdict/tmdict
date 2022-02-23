@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 871,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0871.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "mitsumi-misato",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Painting Summer",
+      "ja": "ペインティング・サマー",
+      "zh": "绘画之夏"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

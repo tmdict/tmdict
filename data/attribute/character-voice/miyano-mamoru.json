@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Miyano Mamoru",
+      "ja": "宮野真守",
+      "zh": "宫野真守"
+    }
+  }
+}

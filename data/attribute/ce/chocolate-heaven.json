@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1150,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1150.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "homunculus",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Heaven",
+      "ja": "チョコレート・ヘヴン",
+      "zh": "巧克力天堂"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

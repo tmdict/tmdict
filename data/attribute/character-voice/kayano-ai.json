@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kayano Ai",
+      "ja": "茅野愛衣",
+      "zh": "茅野爱衣"
+    }
+  }
+}

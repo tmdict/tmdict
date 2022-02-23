@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 243,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0243.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Bronze-Link Manipulator",
+      "ja": "ブロンズリンク・マニピュレーター",
+      "zh": "Bronze-Link Manipulators"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

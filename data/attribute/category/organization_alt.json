@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 3,
+
+  "data": {
+    "name": {
+      "en": "organization",
+      "ja": "組織",
+      "zh": "组织"
+    }
+  }
+}

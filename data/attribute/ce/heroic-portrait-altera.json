@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 102,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0102.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "huke",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "2m-downloads-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heroic Portrait: Altera",
+      "ja": "英霊肖像：アルテラ",
+      "zh": "英灵肖像：阿蒂拉"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

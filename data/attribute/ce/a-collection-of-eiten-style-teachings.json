@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 884,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0884.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "syatey",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Collection of Eiten-Style Teachings",
+      "ja": "詠天流受法用心集",
+      "zh": "咏天流受法用心集"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

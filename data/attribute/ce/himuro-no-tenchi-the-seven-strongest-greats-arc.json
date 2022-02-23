@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 703,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0703.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "nagamori-masato",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "part-2-prelude-prologue-dec-26th-2019-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Himuro no Tenchi - The Seven Strongest Greats Arc -",
+      "ja": "氷室の天地 ～7人の最強偉人篇～",
+      "zh": "冰室的天地 ～7位最强伟人篇～"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

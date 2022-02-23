@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 863,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0863.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kazama-raita",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-arcade-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Singularity F",
+      "ja": "Singularity F",
+      "zh": "Singularity F"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

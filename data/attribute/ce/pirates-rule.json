@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1085,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1085.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "nabe",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "bartholomew-roberts"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pirate’s Rule",
+      "ja": "パイレーツ・ルール",
+      "zh": "海盗准则"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

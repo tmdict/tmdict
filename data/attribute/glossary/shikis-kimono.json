@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Shiki’s Kimono",
+      "ja": "式の着物",
+      "zh": "式的和服"
+    }
+  }
+}

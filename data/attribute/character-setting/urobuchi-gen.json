@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Urobuchi Gen",
+      "ja": "虚淵玄",
+      "zh": "虚渊玄"
+    }
+  }
+}

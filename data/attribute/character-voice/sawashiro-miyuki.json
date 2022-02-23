@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sawashiro Miyuki",
+      "ja": "沢城みゆき",
+      "zh": "泽城美雪"
+    }
+  }
+}

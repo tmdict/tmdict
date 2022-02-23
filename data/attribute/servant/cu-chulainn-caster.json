@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 38,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0038a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0038b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0038c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0038d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0038e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "celtic-mythology",
+    "region": "europe",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "mata",
+    "character-voice": "kanna-nobutoshi",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "yggdrasil-tree",
+    "valentine.ce": "druids-staff",
+    "related.servant": "cu-chulainn"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cú Chulainn (Caster)",
+      "ja": "クー・フーリン（キャスター）",
+      "zh": "库·丘林（Caster）"
+    },
+    "true-name": {
+      "en": "Cú Chulainn",
+      "ja": "クー・フーリン",
+      "zh": "库·丘林"
+    },
+    "height": {
+      "en": "185cm",
+      "ja": "185cm",
+      "zh": "185cm"
+    },
+    "weight": {
+      "en": "70kg",
+      "ja": "70kg",
+      "zh": "70kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2019-12-28",
+  "weight": 20191200,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material VII",
+      "ja": "FGO material VII",
+      "zh": "FGO material VII"
+    }
+  }
+}

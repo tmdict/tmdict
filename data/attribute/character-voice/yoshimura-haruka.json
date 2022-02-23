@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Yoshimura Haruka",
+      "ja": "佳村はるか",
+      "zh": "佳村遥"
+    }
+  }
+}

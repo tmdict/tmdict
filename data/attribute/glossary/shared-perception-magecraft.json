@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Shared Perception Magecraft",
+      "ja": "共感知覚の魔術",
+      "zh": "共感知觉的魔术"
+    }
+  }
+}

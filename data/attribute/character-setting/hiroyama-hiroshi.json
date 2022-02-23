@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Hiroyama Hiroshi",
+      "ja": "ひろやまひろし",
+      "zh": "ひろやまひろし"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Shitaya Noriko",
+      "ja": "下屋則子",
+      "zh": "下屋则子"
+    }
+  }
+}

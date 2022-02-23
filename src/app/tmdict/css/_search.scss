@@ -1,0 +1,72 @@
+
+#tipue_search_input {
+  font: 13px/1.6 Verdana, Sans-serif;
+  color: $text-dark;
+  width: 144px;
+  height: 26px;
+  padding: 0 0 0 28px;
+  margin: 11px 10px 8px 18px;
+  border: 1px solid #e2e2e2;
+  //border-radius: 0;
+  background: #fff url('../vendor/tipuesearch/img/search.png') no-repeat 6px 6px;
+
+  @media #{$media-mobile} {
+    margin: 11px 10px 8px 10px;
+  }
+}
+
+#tipue_search_content {
+  margin-bottom: 20px;
+
+  a {
+    border: 0;
+  }
+}
+
+#tipue_search_results_count {
+  font: normal 1.2em $font-title;
+  color: $primary-orange;
+  margin-top: 0;
+}
+
+.tipue_search_content_title {
+  font-size: 1.15em;
+  font-weight: bold;
+
+  a {
+    color: $text-dark;
+  }
+}
+
+.tipue_search_content_url a {
+  font: normal 0.95em $font-content;
+  color: $primary-teal;
+
+  &:hover {
+    color: $primary-orange;
+    border-bottom: 1px dotted #ccc;
+  }
+}
+
+.tipue_search_content_text {
+  font: normal 0.95em $font-content;
+  color: #444;
+}
+
+.tipue_search_content_bold {
+  color: $primary-orange;
+  font-weight: bold;
+}
+
+.h01 {
+  color: $primary-orange;
+  font-weight: normal;
+}
+
+#tipue_search_foot {
+  margin: 50px 0 25px;
+}
+
+#tipue_search_foot_boxes {
+  font: normal 0.95em $font-title;
+}

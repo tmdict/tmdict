@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1154,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1154.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tatsuyo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "sei-shounagon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Soushi",
+      "ja": "かるであ草子",
+      "zh": "迦勒底草子"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 766,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0766.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hanamura-mai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2020"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gâteau au Chocolat",
+      "ja": "ガトー・オ・ショコラ",
+      "zh": "巧克力蛋糕"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

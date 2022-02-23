@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 551,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0551.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kazuki-yone",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Dantès Files: The Case of the Spring Jaunt",
+      "ja": "探偵ヱドモン～春先旅情編～",
+      "zh": "侦探爱德蒙～早春旅情篇～"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

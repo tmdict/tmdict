@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 991,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0991.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "usuba-kagero",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2021"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dance with the Round Table",
+      "ja": "ダンス・ウィズ・ラウンズ",
+      "zh": "与圆桌骑士共舞"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

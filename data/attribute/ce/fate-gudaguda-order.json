@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 59,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0059.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "keikenchi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "gudaguda-honnoji"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate GUDAGUDA Order",
+      "ja": "Fate ぐだぐだオーダー",
+      "zh": "唠叨指定"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

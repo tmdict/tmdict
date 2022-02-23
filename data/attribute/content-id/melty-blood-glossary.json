@@ -1,0 +1,17 @@
+{
+  "type": "content-id",
+  "attrType": 0,
+  "page": "77",
+
+  "attribute": {
+    "source": "melty-blood-official-strategy-guide"
+  },
+
+  "data": {
+    "name": {
+      "en": "Melty Blood Glossary",
+      "ja": "メルティブラッド用語解説",
+      "zh": "Melty Blood用語解説"
+    }
+  }
+}

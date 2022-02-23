@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 943,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0943.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "higashiyama-yuusei",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "miyu-edelfelt"
+  },
+
+  "data": {
+    "name": {
+      "en": "Memory of Mother",
+      "ja": "母の思い出",
+      "zh": "母亲的回忆"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

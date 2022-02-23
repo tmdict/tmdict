@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Imaginary Number Observation Device Paper Moon",
+      "ja": "虚数羅針盤ペーパームーン",
+      "zh": "虚数指南针Paper Moon"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Koyasu Takehito",
+      "ja": "子安武人",
+      "zh": "子安武人"
+    }
+  }
+}

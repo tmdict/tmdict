@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 471,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0471.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "romulus"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pax Romana",
+      "ja": "パックス・ロマーナ",
+      "zh": "罗马和平"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

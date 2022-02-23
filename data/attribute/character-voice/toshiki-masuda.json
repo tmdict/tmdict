@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Toshiki Masuda",
+      "ja": "増田俊樹",
+      "zh": "增田俊树"
+    }
+  }
+}

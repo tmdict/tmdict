@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Omigawa Chiaki",
+      "ja": "小見川千明",
+      "zh": "小见川千明"
+    }
+  }
+}

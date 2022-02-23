@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 763,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C763.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "azusa",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-winter-festival-2017-2018-the-pharaohs-great-winter-thanksgiving-festival-commemoration"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pharaoh’s Great Winter Celebration",
+      "ja": "冬のファラオ大感謝祭",
+      "zh": "冬日法老大感谢祭"
+    },
+    "notes": {
+      "en": "Released during Early Winter Campaign",
+      "ja": "",
+      "zh": ""
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

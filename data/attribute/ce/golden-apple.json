@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 233,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0233.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "atalante"
+  },
+
+  "data": {
+    "name": {
+      "en": "Golden Apple",
+      "ja": "黄金のリンゴ",
+      "zh": "黄金苹果"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

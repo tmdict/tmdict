@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 662,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0662.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "mo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-return-of-nero-fest-autumn-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cheer for Master",
+      "ja": "チア・フォー・マスター",
+      "zh": "为御主喝彩"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

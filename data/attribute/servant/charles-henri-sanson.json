@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 43,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0043a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0043b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0043c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0043d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0043e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_2",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "france",
+    "alignment": "lawful-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shima-drill",
+    "character-voice": "miyano-mamoru",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "my-loathsome-life",
+    "valentine.ce": "sansons-nutritious-chocolate-drink"
+  },
+
+  "data": {
+    "name": {
+      "en": "Charles-Henri Sanson",
+      "ja": "シャルル＝アンリ・サンソン",
+      "zh": "夏尔·亨利·桑松"
+    },
+    "true-name": {
+      "en": "Charles-Henri Sanson",
+      "ja": "シャルル＝アンリ・サンソン",
+      "zh": "夏尔·亨利·桑松"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "68kg",
+      "ja": "68kg",
+      "zh": "68kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

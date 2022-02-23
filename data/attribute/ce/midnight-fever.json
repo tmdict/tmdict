@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1152,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1152.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "michihasu",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens"
+  },
+
+  "data": {
+    "name": {
+      "en": "Midnight Fever",
+      "ja": "ミッドナイト・テンション",
+      "zh": "午夜慌忙"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 423,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0423.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sino",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Angel",
+      "ja": "チョコ・エンゼル",
+      "zh": "巧克力天使"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

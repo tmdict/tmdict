@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "e",
+  "ja": "ya",
+  "jaRow": "y",
+
+  "data": {
+    "name": {
+      "en": "Excalibur",
+      "ja": "約束された勝利の剣",
+      "zh": "誓约胜利之剑"
+    }
+  }
+}

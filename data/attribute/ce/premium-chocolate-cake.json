@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1160,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1160.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wapokichi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "great-stone-statue-god"
+  },
+
+  "data": {
+    "name": {
+      "en": "Premium Chocolate Cake",
+      "ja": "プレミアチョコケーキ",
+      "zh": "豪华巧克力蛋糕"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

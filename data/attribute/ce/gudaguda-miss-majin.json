@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 807,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0807.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "keikenchi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "gudaguda-legend-of-the-imperial-capital-grail"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: GUDAGUDA Miss Majin",
+      "ja": "概念礼装EXPカード：ぐだぐだまじんさん",
+      "zh": "概念礼装EXP卡：唠唠叨叨魔神(人)小姐"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

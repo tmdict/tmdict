@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 603,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0603.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tenku-sphere",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Bedivere",
+      "ja": "英霊正装：ベディヴィエール",
+      "zh": "英灵正装：贝德维尔"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

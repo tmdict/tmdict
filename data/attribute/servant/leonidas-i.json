@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 21,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0021a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0021b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0021c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0021d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0021e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_2",
+    "gender": "male",
+    "origin": ["historical-fact", "battle-of-thermopylae"],
+    "region": "sparta",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "d",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shimaudon",
+    "character-voice": "miki-shinichirou",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "hot-gate",
+    "valentine.ce": "iron-marshmallows"
+  },
+
+  "data": {
+    "name": {
+      "en": "Leonidas I",
+      "ja": "レオニダス一世",
+      "zh": "列奥尼达一世"
+    },
+    "true-name": {
+      "en": "Leonidas I",
+      "ja": "レオニダス一世",
+      "zh": "列奥尼达一世"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "110kg",
+      "ja": "110kg",
+      "zh": "110kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

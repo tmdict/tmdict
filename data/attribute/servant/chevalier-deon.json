@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 10,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0010a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0010b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0010c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0010d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0010e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "_qm",
+    "origin": "historical-fact",
+    "region": "france",
+    "alignment": "true-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "moriyama-daisuke",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "queens-present",
+    "valentine.ce": ["maxim-de-chevalier", "brief-moment-of-joy"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Chevalier d’Éon",
+      "ja": "シュヴァリエ・デオン",
+      "zh": "骑士迪昂"
+    },
+    "true-name": {
+      "en": "Chevalier d’Éon",
+      "ja": "シュヴァリエ・デオン",
+      "zh": "骑士迪昂"
+    },
+    "height": {
+      "en": "157cm",
+      "ja": "157cm",
+      "zh": "157cm"
+    },
+    "weight": {
+      "en": "45kg",
+      "ja": "45kg",
+      "zh": "45kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

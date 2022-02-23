@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Gold",
+      "ja": "金",
+      "zh": "金"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 917,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0917.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "prince-of-lanling"
+  },
+
+  "data": {
+    "name": {
+      "en": "My Poisoned Chalice, My Mask",
+      "ja": "我が毒杯、我が仮面",
+      "zh": "吾之毒杯，吾之假面"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

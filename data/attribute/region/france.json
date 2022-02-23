@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "France",
+      "ja": "フランス",
+      "zh": "法国"
+    }
+  }
+}

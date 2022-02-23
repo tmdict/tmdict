@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Egawa Hisao",
+      "ja": "江川央生",
+      "zh": "江川央生"
+    }
+  }
+}

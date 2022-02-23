@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "n",
+  "ja": "ka",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Name for Each Stage",
+      "ja": "各ステージ名",
+      "zh": "各舞台的名字"
+    }
+  }
+}

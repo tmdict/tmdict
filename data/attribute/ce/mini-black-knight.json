@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 429,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0429.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "mysterious-heroine-x-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mini Black Knight",
+      "ja": "黒騎士くん",
+      "zh": "黑骑士君"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

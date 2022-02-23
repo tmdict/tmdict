@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 389,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0389.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "kasukabe-akira",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-little-santa-alter-christmas-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "Saint’s Invitation",
+      "ja": "聖者の招待",
+      "zh": "圣者的招待"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

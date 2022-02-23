@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 24,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0024.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "soga-makoto",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gandr",
+      "ja": "ガンド",
+      "zh": "Gandr"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

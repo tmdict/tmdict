@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1039,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1039.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "azuma-toh",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Astraea",
+      "ja": "英霊祭装：アストライア",
+      "zh": "英灵祭装：阿斯特赖亚"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

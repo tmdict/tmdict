@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 159,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0159.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shiojima-yuka",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mystic Eyes of Distortion",
+      "ja": "歪曲の魔眼",
+      "zh": "歪曲魔眼"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

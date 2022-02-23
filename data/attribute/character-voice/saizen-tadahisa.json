@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Saizen Tadahisa",
+      "ja": "西前忠久",
+      "zh": "西前忠久"
+    }
+  }
+}

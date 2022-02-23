@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "d",
+  "ja": "ka",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Dark Sky",
+      "ja": "空が、昏い",
+      "zh": "天空，好暗"
+    }
+  }
+}

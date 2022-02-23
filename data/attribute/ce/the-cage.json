@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 573,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0573.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "usagi-routo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "abyssal-cyber-paradise-se-ra-ph"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Cage",
+      "ja": "ザ・ケージ",
+      "zh": "牢笼"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

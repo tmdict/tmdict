@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ho",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "Main Tournament",
+      "ja": "本選",
+      "zh": "决赛"
+    }
+  }
+}

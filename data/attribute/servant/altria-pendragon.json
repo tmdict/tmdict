@@ -1,0 +1,72 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 2,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0002a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0002b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0002c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0002d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0002e_april-fools.png" },
+    { "weight": 6, "id": "img_invisible-air-barrier-of-the-wind-king", "src": "S0002f_invisible-air-barrier-of-the-wind-king.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "united-kingdom",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": ["fate-stay-night", "fate-zero", "others"],
+    "bond.ce": "crown-of-the-star",
+    "valentine.ce": "crown-saber",
+    "related.servant": "altria-pendragon-archer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Altria Pendragon",
+      "ja": "アルトリア・ペンドラゴン",
+      "zh": "阿尔托莉雅·潘德拉贡"
+    },
+    "other-names": {
+      "en": "Artoria Pendragon",
+      "ja": "Artoria Pendragon",
+      "zh": "Artoria Pendragon"
+    },
+    "true-name": {
+      "en": "Altria Pendragon",
+      "ja": "アルトリア・ペンドラゴン",
+      "zh": "阿尔托莉雅·潘德拉贡"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

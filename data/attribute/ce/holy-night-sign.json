@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 71,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0071.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "moromi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "almost-weekly-santa-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Holy Night Sign",
+      "ja": "ホーリーナイト・サイン",
+      "zh": "圣夜之印"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

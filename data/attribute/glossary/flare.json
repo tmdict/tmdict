@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "f",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Flare",
+      "ja": "照明弾",
+      "zh": "照明弹"
+    }
+  }
+}

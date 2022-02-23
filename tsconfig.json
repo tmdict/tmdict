@@ -1,0 +1,22 @@
+{
+    "files": [
+        "src/main.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "bin"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,    
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./bin",
+        "rootDir": "./src",
+        "target": "es6",
+        "sourceMap": true,
+    }
+}

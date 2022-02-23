@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 901,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0901.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ainezu",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "battle-in-new-york-2020"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Moolah’s Shop",
+      "ja": "概念礼装EXPカード：ドルセント・ショップ",
+      "zh": "概念礼装EXP卡：美分商店"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

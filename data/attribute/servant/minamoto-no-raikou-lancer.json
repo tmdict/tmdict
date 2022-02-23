@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 181,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0181a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0181b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0181c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0181d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0181e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "otogizoushi", "the-true-form-of-ushi-gozen", "etc", "dead-heat-summer-race"],
+    "region": "japan",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "tomatsu-haruka",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "kyogoku",
+    "valentine.ce": "quality-chocolate-tart",
+    "related.servant": "minamoto-no-raikou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Minamoto-no-Raikou (Lancer)",
+      "ja": "源頼光（ランサー）",
+      "zh": "源赖光（Lancer）"
+    },
+    "true-name": {
+      "en": "Minamoto-no-Raikou (let’s go everyone)",
+      "ja": "源頼光（みなもとのらいこう）",
+      "zh": "源赖光（大家一起去吧）"
+    },
+    "height": {
+      "en": "175cm",
+      "ja": "175cm",
+      "zh": "175cm"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "？？kg",
+      "zh": "？？kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

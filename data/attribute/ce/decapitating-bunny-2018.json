@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 154,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0154.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "sudou-tomonori",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Decapitating Bunny 2018",
+      "ja": "首切りバニー2016",
+      "zh": "斩首兔女郎2016"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

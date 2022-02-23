@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Macedonia",
+      "ja": "マケドニア",
+      "zh": "马其顿"
+    }
+  }
+}

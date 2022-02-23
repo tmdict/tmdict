@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 685,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0685.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": ["shimizu-eiichi", "shimoguchi-tomohiro"],
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "halloween-strike-devils-building-climber-great-battle-at-himeji-castle"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nostalgic Form",
+      "ja": "ノスタルジック・フォーム",
+      "zh": "古早形态"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 22,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0022a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0022b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0022c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0022d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0022e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": ["historical-fact", "roman-mythology"],
+    "region": "europe",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "okiayu-ryoutarou",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "rome",
+    "valentine.ce": "pax-romana"
+  },
+
+  "data": {
+    "name": {
+      "en": "Romulus",
+      "ja": "ロムルス",
+      "zh": "罗穆路斯"
+    },
+    "true-name": {
+      "en": "Romulus",
+      "ja": "ロムルス",
+      "zh": "罗穆路斯"
+    },
+    "height": {
+      "en": "190cm",
+      "ja": "190cm",
+      "zh": "190cm"
+    },
+    "weight": {
+      "en": "140kg",
+      "ja": "140kg",
+      "zh": "140kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

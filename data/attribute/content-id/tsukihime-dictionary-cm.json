@@ -1,0 +1,17 @@
+{
+  "type": "content-id",
+  "attrType": 0,
+  "page": "54-55",
+
+  "attribute": {
+    "source": "colorful-moon-tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tsukihime Dictionary",
+      "ja": "月姫用語辞典",
+      "zh": "月姬用语辞典"
+    }
+  }
+}

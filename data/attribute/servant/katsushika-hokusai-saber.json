@@ -1,0 +1,45 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 264,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0264a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0264d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0264e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "alignment": "chaotic-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "cm",
+    "luck.parameter": "bm",
+    "noble-phantasm.parameter": "b",
+    "illustrator": "kuroboshi-kouhaku",
+    "character-voice": "yukana",
+    "bond.ce": "a-wonder-tale-the-moonbow",
+    "valentine.ce": "chocolate-chocolate-octopus-netsuke",
+    "related.servant": "katsushika-hokusai"
+  },
+
+  "data": {
+    "name": {
+      "en": "Katsushika Hokusai (Saber)",
+      "ja": "葛飾北斎（セイバー）",
+      "zh": "葛饰北斋（Rider）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce", "related.servant"]
+  ]
+}

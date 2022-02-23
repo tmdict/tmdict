@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Tsuda Kenjirou",
+      "ja": "津田健次郎",
+      "zh": "津田健次郎"
+    }
+  }
+}

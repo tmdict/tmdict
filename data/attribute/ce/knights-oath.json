@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 341,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0341.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "diarmuid-ua-duibhne"
+  },
+
+  "data": {
+    "name": {
+      "en": "Knight’s Oath",
+      "ja": "騎士の誓い",
+      "zh": "骑士的誓言"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

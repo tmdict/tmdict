@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 70,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0070a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0070b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0070c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0070d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0070e_april-fools.png" },
+    { "weight": 6, "id": "img_piercing-bunny", "src": "S0070f_piercing-bunny.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["celtic-mythology", "ulster-mythology"],
+    "region": "ireland",
+    "alignment": "neutral-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "gaze-upon-dun-scaith",
+    "valentine.ce": "bitter-pitch-black",
+    "related.servant": ["scathach-assassin", "scathach-skadi"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Scáthach",
+      "ja": "スカサハ",
+      "zh": "斯卡哈"
+    },
+    "true-name": {
+      "en": "Scáthach",
+      "ja": "スカサハ",
+      "zh": "斯卡哈"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

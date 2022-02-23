@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "w",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "World Situation",
+      "ja": "世界情勢",
+      "zh": "世界情势"
+    }
+  }
+}

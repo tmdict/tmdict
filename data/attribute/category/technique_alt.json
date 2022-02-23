@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 3,
+
+  "data": {
+    "name": {
+      "en": "technique",
+      "ja": "技",
+      "zh": "技"
+    }
+  }
+}

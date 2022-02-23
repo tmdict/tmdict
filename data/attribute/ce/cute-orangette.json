@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 421,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0421.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "bob",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cute Orangette",
+      "ja": "キュート・オランジェット",
+      "zh": "可爱柑橘巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "ta",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Taxi!",
+      "ja": "タクシー！",
+      "zh": "出租车！"
+    }
+  }
+}

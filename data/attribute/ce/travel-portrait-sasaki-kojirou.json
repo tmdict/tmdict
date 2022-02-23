@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 837,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0837.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mata",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Sasaki Kojirou",
+      "ja": "英霊旅装：佐々木小次郎",
+      "zh": "英灵旅装：佐佐木小次郎"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

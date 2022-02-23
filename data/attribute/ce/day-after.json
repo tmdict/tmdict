@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1017,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1017.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "hino-hinako",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Day After",
+      "ja": "デイ・アフター",
+      "zh": "那日之后"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

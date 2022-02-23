@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 202,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0202a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0202b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0202c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0202d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0202e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "cpp",
+    "endurance.parameter": "cpp",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "calydonian-hide",
+    "valentine.ce": "headlong-rush-boar-chocolates",
+    "related.servant": "atalante"
+  },
+
+  "data": {
+    "name": {
+      "en": "Atalante (Alter)",
+      "ja": "アタランテ（オルタ）",
+      "zh": "阿塔兰忒（Alter）"
+    },
+    "true-name": {
+      "en": "Atalante",
+      "ja": "アタランテ",
+      "zh": "阿塔兰忒"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

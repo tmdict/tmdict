@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 937,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C937.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "okazakioka",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-the-stage-website-release-commemorative-campaign-part-2"
+  },
+
+  "data": {
+    "name": {
+      "en": "Enuma Dingir",
+      "ja": "Enuma Dingir",
+      "zh": "Enuma Dingir"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

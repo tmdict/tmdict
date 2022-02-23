@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Moon Cell",
+      "ja": "ムーンセル",
+      "zh": "Moon Cell"
+    }
+  }
+}

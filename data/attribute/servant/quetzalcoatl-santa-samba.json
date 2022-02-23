@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 233,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0233a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0233d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0233e_april-fools.png" },
+    { "weight": 6, "id": "img_tecnico-mascara", "src": "S0233f_tecnico-mascara.png" },
+    { "weight": 7, "id": "img_rudos-mascara", "src": "S0233g_rudos-mascara.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["aztec-mythology", "christmas-2018-holy-samba-night"],
+    "region": "central-and-south-america",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "bp",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["minase-hazuki", "nasu-kinoko"],
+    "illustrator": "hiroe-rei",
+    "character-voice": "endou-aya",
+    "bond.ce": "the-winged-serpent-of-the-holy-night",
+    "valentine.ce": "chocolate-ring-bell",
+    "related.servant": "quetzalcoatl"
+  },
+
+  "data": {
+    "name": {
+      "en": "Quetzalcoatl (Santa/Samba)",
+      "ja": "ケツァル・コアトル（サンバ／サンタ）",
+      "zh": "魁札尔·科亚特尔（桑巴／圣诞）"
+    },
+    "true-name": {
+      "en": "Quetzalcoatl",
+      "ja": "ケツァル・コアトル",
+      "zh": "魁札尔·科亚特尔"
+    },
+    "height": {
+      "en": "181cm",
+      "ja": "181cm",
+      "zh": "181cm"
+    },
+    "weight": {
+      "en": "64kg",
+      "ja": "64kg",
+      "zh": "64kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "b",
+  "ja": "o",
+  "jaRow": "_",
+
+  "data": {
+    "name": {
+      "en": "Bath Time Event",
+      "ja": "お風呂イベント",
+      "zh": "入浴事件"
+    }
+  }
+}

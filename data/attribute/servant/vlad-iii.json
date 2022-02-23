@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 52,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0052a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0052b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0052c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0052d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0052e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "dracula",
+    "region": "romania",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "a",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["higashide-yuuichirou", "urobuchi-gen"],
+    "illustrator": "maeda-hirotaka",
+    "character-voice": "okiayu-ryoutarou",
+    "major-appearances": "fate-apocrypha",
+    "bond.ce": "triumph-of-the-impaler",
+    "valentine.ce": "scapegoat"
+  },
+
+  "data": {
+    "name": {
+      "en": "Vlad III",
+      "ja": "ヴラド三世",
+      "zh": "弗拉德三世"
+    },
+    "true-name": {
+      "en": "Vlad III",
+      "ja": "ヴラド三世",
+      "zh": "弗拉德三世"
+    },
+    "height": {
+      "en": "191cm",
+      "ja": "191cm",
+      "zh": "191cm"
+    },
+    "weight": {
+      "en": "77kg",
+      "ja": "77kg",
+      "zh": "77kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

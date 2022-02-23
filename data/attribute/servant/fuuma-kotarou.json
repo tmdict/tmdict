@@ -1,0 +1,71 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 117,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0117a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0117b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0117c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0117d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0117e_april-fools.png" },
+    { "weight": 6, "id": "img_ninja-attire-for-enjoying-summer-vacation", "src": "S0117f_ninja-attire-for-enjoying-summer-vacation.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "cp",
+    "endurance.parameter": "d",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "sasaki-shounen",
+    "character-voice": "hanae-natsuki",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "onis-mask",
+    "valentine.ce": "fuuma-manjyu"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fuuma Kotarou",
+      "ja": "風魔小太郎",
+      "zh": "风魔小太郎"
+    },
+    "other-names": {
+      "en": "Fuuma “Evil-Wind” Kotarou",
+      "ja": "Fuuma “Evil-Wind” Kotarou",
+      "zh": "Fuuma “Evil-Wind” Kotarou"
+    },
+    "true-name": {
+      "en": "Fuuma Kotarou",
+      "ja": "風魔小太郎",
+      "zh": "风魔小太郎"
+    },
+    "height": {
+      "en": "158 (286) cm",
+      "ja": "158（286）cm",
+      "zh": "158（286）cm"
+    },
+    "weight": {
+      "en": "49 (195) kg",
+      "ja": "49（195）kg",
+      "zh": "49（195）kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

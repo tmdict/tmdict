@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 742,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0742.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "beppu-mitsunaka",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "minamoto-no-raikou-lancer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Quality Chocolate Tart",
+      "ja": "極上生チョコタルト",
+      "zh": "极品生巧克力挞"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

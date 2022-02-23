@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sakamoto Maaya",
+      "ja": "坂本真綾",
+      "zh": "坂本真绫"
+    }
+  }
+}

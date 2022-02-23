@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 433,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0433.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "furudate-koichi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "chevalier-deon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Brief Moment of Joy",
+      "ja": "ささやかな愉しみを、君と",
+      "zh": "与您共享小小的喜悦"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

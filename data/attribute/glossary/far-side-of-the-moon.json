@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "f",
+  "ja": "tsu",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Far Side of the Moon",
+      "ja": "月の裏側",
+      "zh": "月的里侧"
+    }
+  }
+}

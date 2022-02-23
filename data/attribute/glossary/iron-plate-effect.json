@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "te",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Iron Plate Effect",
+      "ja": "鉄甲作用",
+      "zh": "铁甲作用"
+    }
+  }
+}

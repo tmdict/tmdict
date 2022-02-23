@@ -1,0 +1,64 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 247,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0247a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0247b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0247c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0247d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0247e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "mahabharata",
+    "region": "india",
+    "alignment": ["lawful-good", "lawful-evil"],
+    "strength.parameter": "a",
+    "endurance.parameter": "ap",
+    "agility.parameter": "a",
+    "magic.parameter": "app",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "pako",
+    "character-voice": "shimazaki-nobunaga",
+    "bond.ce": "what-was-carved",
+    "valentine.ce": "an-ordinary-miraculous-stone"
+  },
+
+  "data": {
+    "name": {
+      "en": "Arjuna (Alter)",
+      "ja": "アルジュナ（オルタ）",
+      "zh": "阿周那（Alter）"
+    },
+    "true-name": {
+      "en": "Arjuna",
+      "ja": "アルジュナ",
+      "zh": "阿周那"
+    },
+    "height": {
+      "en": "177cm",
+      "ja": "177cm",
+      "zh": "177cm"
+    },
+    "weight": {
+      "en": "82kg",
+      "ja": "82kg",
+      "zh": "82kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

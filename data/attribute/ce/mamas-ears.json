@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 880,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0880.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "furumi-shouichi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mama’s Ears",
+      "ja": "ままのみみ",
+      "zh": "妈妈的耳朵"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

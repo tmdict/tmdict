@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 566,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0566.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "keikenchi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "gudaguda-meiji-restoration"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: GUDAGUDA Recruitment",
+      "ja": "概念礼装EXPカード：ぐだぐだウェルカム",
+      "zh": "概念礼装EXP卡：唠唠叨叨欢迎加入"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

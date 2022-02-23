@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 689,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0689.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "yamada-yuukei",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-apocrypha-anime-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pray Upon the Sword, Wish Upon Life",
+      "ja": "剣に祈りを命に願いを",
+      "zh": "向剑祈祷为命许愿"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 336,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0336.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "queen-medb"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sacred Spring",
+      "ja": "聖なる泉",
+      "zh": "神圣之泉"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

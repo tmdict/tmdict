@@ -1,0 +1,185 @@
+.filter-list {
+  font-size: 0.9em;
+  margin-top: 2em;
+
+  .list {
+    float: left;
+    width: 620px;
+
+    @media #{$media-compact} {
+      width: 540px;
+    }
+
+    @media #{$media-mobile} {
+      width: 100%;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+
+      li {
+        border-top: $dotted-border;
+        line-height: 1.7em;
+
+        &:nth-child(even) {
+          background: $bg-row-grey-light;
+        }
+
+        &:hover {
+          background: $bg-row-grey-dark;
+        }
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .header {
+      font-weight: bold;
+      margin-left: 54px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.item .name {
+        width: calc(100% - 208px + 54px);
+      }
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        float: left;
+        width: 54px;
+        height: 54px;
+
+        img {
+          width: 50px;
+          margin: 2px;
+        }
+      }
+
+      .id {
+        float: left;
+        width: 40px;
+        margin: 6px 6px 6px 10px;
+      }
+
+      .name {
+        float: left;
+        margin: 6px;
+        font-weight: bold;
+        width: calc(100% - 208px);
+      }
+
+      .star {
+        float: right;
+        margin: 6px 10px 6px 6px;
+        text-align: left;
+        width: 70px;
+      }
+    }
+
+    a .star {
+      color: $content-gold;
+    }
+  }
+
+  .filter {
+    width: 162px;
+    float: left;
+    line-height: 1.4em;
+    margin: 0 6px;
+
+    @media #{$media-compact} {
+      width: 122px;
+    }
+  
+    @media #{$media-mobile} {
+      display: none;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0 0 2em;
+      padding: 0;
+
+      li {
+        border-bottom: $dotted-border;
+        display: flow-root;
+
+        &:first-child {
+          border-top: $dotted-border;
+        }
+
+        a {
+          display: block;
+          text-decoration: none;
+          padding: 0.2em;
+          height: 100%;
+  
+          &:hover {
+            background: $bg-row-grey-dark;
+          }
+        }
+
+        .quick {
+          width: 138px;
+          float: left;
+  
+          @media #{$media-compact} {
+            width: 98px;
+          }
+
+          &.active {
+            background: $bg-row-grey-light;
+  
+            a {
+              color: $primary-link-highlight;
+            }
+          }
+  
+          &:hover {
+            background: $bg-row-grey-dark;
+          }
+
+          a:hover {
+            background: none;
+          }
+        }
+
+        .common {
+          width: 22.3px;
+          height: 22.3px;
+          float: left;
+          border-left: $dotted-border;
+
+          &.active {
+            background: $bg-row-grey-light;
+  
+            a:before {
+              content: "✕";
+              margin-left: 3px;
+              color: $primary-link-highlight;
+            }
+          }
+  
+          &:hover {
+            background: $bg-row-grey-dark;
+          }
+
+          a:hover {
+            background: none;
+          }
+        }
+      }
+    }
+  }
+}

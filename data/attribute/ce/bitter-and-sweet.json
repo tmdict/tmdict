@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 944,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0944.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kouzuki-kei",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books"
+  },
+
+  "data": {
+    "name": {
+      "en": "Bitter and Sweet",
+      "ja": "ビター・スイート",
+      "zh": "苦味甜蜜"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

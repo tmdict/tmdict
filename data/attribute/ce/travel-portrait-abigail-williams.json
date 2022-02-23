@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 822,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0822.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kuroboshi-kouhaku",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Abigail Williams",
+      "ja": "英霊旅装：アビゲイル・ウィリアムズ",
+      "zh": "英灵旅装：阿比盖尔·威廉姆斯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

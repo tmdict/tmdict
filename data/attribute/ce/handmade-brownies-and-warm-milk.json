@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1192,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1192.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "toufu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "europa"
+  },
+
+  "data": {
+    "name": {
+      "en": "Handmade Brownies and Warm Milk",
+      "ja": "手作りブラウニーとホットミルク",
+      "zh": "手工布朗尼与热牛奶"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

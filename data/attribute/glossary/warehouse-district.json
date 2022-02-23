@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "w",
+  "ja": "so",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Warehouse District",
+      "ja": "倉庫街",
+      "zh": "仓库街"
+    }
+  }
+}

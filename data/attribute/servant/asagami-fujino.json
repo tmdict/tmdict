@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 200,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0200a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0200b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0200c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0200d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0200e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "kara-no-kyoukai",
+    "region": "japan",
+    "alignment": "lawful-evil",
+    "strength.parameter": "e",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "kara-no-kyoukai",
+    "bond.ce": "summer-rain",
+    "valentine.ce": "rainy-bridge"
+  },
+
+  "data": {
+    "name": {
+      "en": "Asagami Fujino",
+      "ja": "浅上藤乃",
+      "zh": "浅上藤乃"
+    },
+    "true-name": {
+      "en": "Asagami Fujino",
+      "ja": "浅上藤乃",
+      "zh": "浅上藤乃"
+    },
+    "height": {
+      "en": "157cm",
+      "ja": "157cm",
+      "zh": "157cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

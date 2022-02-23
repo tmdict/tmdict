@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "sa",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Trinity",
+      "ja": "三位一体",
+      "zh": "三位一体"
+    }
+  }
+}

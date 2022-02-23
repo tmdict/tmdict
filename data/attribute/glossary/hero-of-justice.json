@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Hero of Justice",
+      "ja": "正義の味方",
+      "zh": "正义的伙伴"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "magecraft",
+      "ja": "魔術",
+      "zh": "魔术"
+    }
+  }
+}

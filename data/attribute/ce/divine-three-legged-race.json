@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 661,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0661.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "cancer",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-return-of-nero-fest-autumn-2019"
+  },
+
+  "data": {
+    "name": {
+      "en": "Divine Three-Legged Race",
+      "ja": "二神三脚",
+      "zh": "二神三脚"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

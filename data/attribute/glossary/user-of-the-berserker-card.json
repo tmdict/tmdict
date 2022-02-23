@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "u",
+  "ja": "ha",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "User of the Berserker Card",
+      "ja": "バーサーカーカードの使用者",
+      "zh": "Berserker卡片的使用者"
+    }
+  }
+}

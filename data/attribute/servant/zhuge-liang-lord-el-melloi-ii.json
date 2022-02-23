@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 37,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0037a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0037b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0037c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0037d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0037e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "romance-of-the-three-kingdoms",
+    "region": "china",
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "ap",
+    "luck.parameter": "bp",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "namikawa-daisuke",
+    "major-appearances": "fate-zero",
+    "bond.ce": "relic-of-the-king",
+    "valentine.ce": "cigar-and-wine"
+  },
+
+  "data": {
+    "name": {
+      "en": "Zhuge Liang (Lord El-Melloi II)",
+      "ja": "諸葛孔明〔エルメロイⅡ世〕",
+      "zh": "诸葛孔明（埃尔梅罗II世）"
+    },
+    "true-name": {
+      "en": "Lord El-Melloi II / Zhuge Kongming",
+      "ja": "ロード・エルメロイⅡ世／諸葛孔明",
+      "zh": "君主·埃尔梅罗II世 / 诸葛孔明"
+    },
+    "height": {
+      "en": "186cm",
+      "ja": "186cm",
+      "zh": "186cm"
+    },
+    "weight": {
+      "en": "68kg (third ascension has his height at 157cm and weight at 50kg)",
+      "ja": "68kg（第三再臨時は157cm 50kg）",
+      "zh": "68kg（第三再临时为157cm、50kg）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

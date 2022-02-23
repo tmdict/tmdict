@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "A Magical Girl’s Travelogue ~Prisma Causeway~",
+      "ja": "魔法少女紀行 ～プリズマ・コーズ～",
+      "zh": "魔法少女纪行 ～Prisma·Codes～"
+    }
+  }
+}

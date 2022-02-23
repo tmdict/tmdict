@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 853,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0853.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takeuchi-takashi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Mash Kyrielight",
+      "ja": "英霊旅装：マシュ・キリエライト",
+      "zh": "英灵旅装：玛修·基列莱特"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

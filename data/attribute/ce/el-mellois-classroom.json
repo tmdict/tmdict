@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1007,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1007.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "endou-minari",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "lady-reiness-case-files"
+  },
+
+  "data": {
+    "name": {
+      "en": "El-Melloi’s Classroom",
+      "ja": "エルメロイ教室",
+      "zh": "埃尔梅罗教室"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

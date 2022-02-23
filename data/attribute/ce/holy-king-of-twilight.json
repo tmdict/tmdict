@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1015,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1015.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "hou",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Holy King of Twilight",
+      "ja": "黄昏の王聖",
+      "zh": "黄昏的王圣"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

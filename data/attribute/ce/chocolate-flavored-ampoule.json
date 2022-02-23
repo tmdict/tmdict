@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1189,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1189.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ari",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "florence-nightingale-santa"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate-Flavored Ampoule",
+      "ja": "チョコレート風味アンプル",
+      "zh": "巧克力风味安瓿"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 108,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0108.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "pfalz",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "2m-downloads-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heroic Portrait: Darius III",
+      "ja": "英霊肖像：ダレイオス三世",
+      "zh": "英灵肖像：大流士三世"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

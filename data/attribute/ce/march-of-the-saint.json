@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 69,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0069.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takarai-rihito",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "almost-weekly-santa-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "March of the Saint",
+      "ja": "聖者の行進",
+      "zh": "圣者的行进"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

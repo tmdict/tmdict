@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 32,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0032a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0032b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0032c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0032d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0032e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "france",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "c",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": ["higashide-yuuichirou", "urobuchi-gen"],
+    "illustrator": "azusa",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "tsuruoka-satoshi",
+    "major-appearances": "fate-zero",
+    "bond.ce": "letter-from-a-friend",
+    "valentine.ce": "gilles-doll-rais",
+    "related.servant": "gilles-de-rais-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gilles de Rais",
+      "ja": "ジル・ド・レェ",
+      "zh": "吉尔·德·雷"
+    },
+    "true-name": {
+      "en": "Gilles de Rais",
+      "ja": "ジル・ド・レェ",
+      "zh": "吉尔·德·雷"
+    },
+    "height": {
+      "en": "196cm",
+      "ja": "196cm",
+      "zh": "196cm"
+    },
+    "weight": {
+      "en": "70kg",
+      "ja": "70kg",
+      "zh": "70kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

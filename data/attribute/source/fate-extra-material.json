@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2013-08-16",
+  "weight": 2013080,
+
+  "attribute": {
+    "work": "fate-ex"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/EXTRA Material",
+      "ja": "Fate/EXTRA Material",
+      "zh": "Fate/EXTRA Material"
+    }
+  }
+}

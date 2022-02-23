@@ -1,0 +1,8 @@
+# Dependency directory
+bin
+dist
+node_modules
+__tmp
+
+# Garbage files
+.DS_Store

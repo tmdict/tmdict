@@ -1,0 +1,17 @@
+{
+  "type": "content-id",
+  "attrType": 0,
+  "page": "21–33",
+
+  "attribute": {
+    "source": "tsukihime-data-collection"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tsukihime Dictionary",
+      "ja": "月姫用語辞典",
+      "zh": "月姬用语辞典"
+    }
+  }
+}

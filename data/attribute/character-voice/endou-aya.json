@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Endou Aya",
+      "ja": "遠藤綾",
+      "zh": "远藤绫"
+    }
+  }
+}

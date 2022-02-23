@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 140,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0140.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "elisabeth-bathory-halloween"
+  },
+
+  "data": {
+    "name": {
+      "en": "Pumpkin Maiden",
+      "ja": "カボチャメイデン",
+      "zh": "南瓜少女"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

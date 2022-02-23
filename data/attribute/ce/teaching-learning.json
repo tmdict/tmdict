@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 799,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0799.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "chiron"
+  },
+
+  "data": {
+    "name": {
+      "en": "Teaching, Learning",
+      "ja": "教えること、学ぶこと",
+      "zh": "教学相长"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

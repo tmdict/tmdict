@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Suzuki Ryouta",
+      "ja": "鈴木峻汰",
+      "zh": "铃木崚汰"
+    }
+  }
+}

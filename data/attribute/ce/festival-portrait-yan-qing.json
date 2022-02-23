@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1050,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1050.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shimaudon",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Yan Qing",
+      "ja": "英霊祭装：燕青",
+      "zh": "英灵祭装：燕青"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

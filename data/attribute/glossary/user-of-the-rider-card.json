@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "u",
+  "ja": "ra",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "User of the Rider Card",
+      "ja": "ライダーカードの使用者",
+      "zh": "Rider卡片的使用者"
+    }
+  }
+}

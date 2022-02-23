@@ -1,0 +1,34 @@
+@import 'normalize';
+
+$media-compact: "only screen and (max-width: 840px)";
+$media-mobile: "only screen and (max-width: 660px)";
+
+$primary-link: #639db9;
+$primary-link-highlight: #f7d87c;
+$primary-highlight: #c05b4d;
+$primary-heading: #f7d87c;
+$secondary-heading: #c05b4d;
+
+$bg-main: #121621;
+$bg-body: #000;
+$bg-row-grey-light: #2b2c3e;
+$bg-row-grey-dark: #1d1d29;
+
+$text-header: #eee;
+$text-light: #aaa;
+$text-dark: #ccc;
+
+$base-font: Arial, "Microsoft YaHei", sans-serif;
+$bracket-left: "[";
+$bracket-right: "]";
+$dotted-border: 1px dotted #aaa;
+$content-gold: #baaf81;
+$content-break: "§";
+$content-break-position: calc(50%);
+
+@import 'base';
+@import 'header';
+@import 'filterlist';
+@import 'content';
+
+@import 'swiper';

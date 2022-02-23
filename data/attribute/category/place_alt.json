@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 3,
+
+  "data": {
+    "name": {
+      "en": "place (organization)",
+      "ja": "地名（組織）",
+      "zh": "地名（组织）"
+    }
+  }
+}

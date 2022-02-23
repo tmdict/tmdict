@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 76,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0076a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0076b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0076c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0076d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0076e_april-fools.png" },
+    { "weight": 6, "id": "img_memories-of-trifas", "src": "S0076f_memories-of-trifas.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "united-kingdom",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "sawashiro-miyuki",
+    "major-appearances": "fate-apocrypha",
+    "bond.ce": "who-am-i",
+    "valentine.ce": "strawberry-thunder-crunch",
+    "related.servant": "mordred-rider"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mordred",
+      "ja": "モードレッド",
+      "zh": "莫德雷德"
+    },
+    "true-name": {
+      "en": "Mordred",
+      "ja": "モードレッド",
+      "zh": "莫德雷德"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Fukuyama Jun",
+      "ja": "福山潤",
+      "zh": "福山润"
+    }
+  }
+}

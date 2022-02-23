@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1008,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1008.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "morikura-en",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "lady-reiness-case-files"
+  },
+
+  "data": {
+    "name": {
+      "en": "Meeting of the Heirs",
+      "ja": "次期当主会議",
+      "zh": "下届当家会议"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

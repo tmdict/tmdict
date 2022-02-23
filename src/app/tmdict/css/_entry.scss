@@ -1,0 +1,56 @@
+/* Entry */
+
+.entry {
+  font: normal 1.1em $font-title;
+}
+
+.entry-title {
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 5px;
+
+  a {
+    color: $text-dark;
+  }
+}
+
+.entry-category {
+  float: left;
+  color: $primary-orange;
+  font-size: 1em;
+
+  a {
+    color: $primary-orange;
+  }
+
+  &:before {
+    @extend .bracket-before;
+  }
+
+  &:after {
+    @extend .bracket-after;
+  }
+
+  &.uniq {
+    color: $text-light;
+  }
+}
+
+.entry-source {
+  float: left;
+  color: $primary-teal;
+  font-size: 1em;
+
+  a {
+  color: $primary-teal;
+  }
+
+  &:before {
+    @extend .bracket-before;
+  }
+
+  &:after {
+    @extend .bracket-after;
+  }
+}

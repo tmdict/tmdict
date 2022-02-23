@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "yu",
+  "jaRow": "y",
+
+  "data": {
+    "name": {
+      "en": "Ghosts",
+      "ja": "幽霊",
+      "zh": "幽灵"
+    }
+  }
+}

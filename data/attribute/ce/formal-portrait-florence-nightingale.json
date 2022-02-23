@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 632,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0632.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takahashi-keitarou",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Florence Nightingale",
+      "ja": "英霊正装：ナイチンゲール",
+      "zh": "英灵正装：南丁格尔"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

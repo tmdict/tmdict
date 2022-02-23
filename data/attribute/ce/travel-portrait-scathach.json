@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 842,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0842.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "koyama-hirokazu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Scáthach",
+      "ja": "英霊旅装：スカサハ",
+      "zh": "英灵旅装：斯卡哈"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

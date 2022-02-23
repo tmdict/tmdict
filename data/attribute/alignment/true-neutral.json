@@ -1,0 +1,12 @@
+{
+  "type": "alignment",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "True Neutral",
+      "ja": "中立・中庸",
+      "zh": "中立·中庸"
+    }
+  }
+}

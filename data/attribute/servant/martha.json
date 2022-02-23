@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 30,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0030a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0030b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0030c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0030d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0030e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "new-testament"],
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "sakamoto-mineji",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "the-staff-he-gave-me",
+    "valentine.ce": "homemade-cookies-and-object-x",
+    "related.servant": "martha-ruler"
+  },
+
+  "data": {
+    "name": {
+      "en": "Martha",
+      "ja": "マルタ",
+      "zh": "玛尔达"
+    },
+    "true-name": {
+      "en": "Martha",
+      "ja": "マルタ",
+      "zh": "玛尔达"
+    },
+    "height": {
+      "en": "161cm",
+      "ja": "161cm",
+      "zh": "161cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

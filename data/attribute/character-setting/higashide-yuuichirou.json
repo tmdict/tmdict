@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Higashide Yuuichirou",
+      "ja": "東出祐一郎",
+      "zh": "东出佑一郎"
+    }
+  }
+}

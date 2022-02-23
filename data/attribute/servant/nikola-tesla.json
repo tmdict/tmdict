@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 77,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0077a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0077b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0077c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0077d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0077e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "namaniku-atk",
+    "character-voice": "inada-tetsu",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "hand-of-lightning",
+    "valentine.ce": "ac-lightning-cookies"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nikola Tesla",
+      "ja": "ニコラ・テスラ",
+      "zh": "尼古拉·特斯拉"
+    },
+    "true-name": {
+      "en": "Nikola Tesla",
+      "ja": "ニコラ・テスラ",
+      "zh": "尼古拉·特斯拉"
+    },
+    "height": {
+      "en": "190cm",
+      "ja": "190cm",
+      "zh": "190cm"
+    },
+    "weight": {
+      "en": "80kg",
+      "ja": "80kg",
+      "zh": "80kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

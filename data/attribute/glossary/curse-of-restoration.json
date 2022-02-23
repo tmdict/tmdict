@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "fu",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "Curse of Restoration",
+      "ja": "復元呪詛",
+      "zh": "复原诅咒"
+    }
+  }
+}

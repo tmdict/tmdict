@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1091,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1091.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "koume-keito",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "all-in-las-vegas-championship-match-seven-duels-of-swordbeauties"
+  },
+
+  "data": {
+    "name": {
+      "en": "Summer Enma-tei",
+      "ja": "夏の閻魔亭",
+      "zh": "夏日阎魔亭"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 274,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0274.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tawawa-minoru",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "leonidas-i"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hot Gate",
+      "ja": "熱き門",
+      "zh": "炙热之门"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

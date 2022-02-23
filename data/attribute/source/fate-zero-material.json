@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2008-08-08",
+  "weight": 2008080,
+
+  "attribute": {
+    "work": "fate-zero"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/Zero material",
+      "ja": "Fate/Zero material",
+      "zh": "Fate/Zero material"
+    }
+  }
+}

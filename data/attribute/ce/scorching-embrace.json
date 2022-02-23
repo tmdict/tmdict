@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 199,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0199.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "kiyohime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Scorching Embrace",
+      "ja": "灼熱の抱擁",
+      "zh": "灼热的拥抱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

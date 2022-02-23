@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kawasumi Ayako",
+      "ja": "川澄綾子",
+      "zh": "川澄绫子"
+    }
+  }
+}

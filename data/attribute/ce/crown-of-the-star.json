@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 191,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0191.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "altria-pendragon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Crown of the Star",
+      "ja": "星の王冠",
+      "zh": "星之王冠"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

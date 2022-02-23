@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 89,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0089a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0089b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0089c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0089d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0089e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "beowulf",
+    "region": "northern-europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "a",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shimokoshi",
+    "character-voice": "nakai-kazuya",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "final-battle",
+    "valentine.ce": "chargrilled-swedish-dragon-sirloin"
+  },
+
+  "data": {
+    "name": {
+      "en": "Beowulf",
+      "ja": "ベオウルフ",
+      "zh": "贝奥武夫"
+    },
+    "true-name": {
+      "en": "Beowulf",
+      "ja": "ベオウルフ",
+      "zh": "贝奥武夫"
+    },
+    "height": {
+      "en": "186cm",
+      "ja": "186cm",
+      "zh": "186cm"
+    },
+    "weight": {
+      "en": "81kg",
+      "ja": "81kg",
+      "zh": "81kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

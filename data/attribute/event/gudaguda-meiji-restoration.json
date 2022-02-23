@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "GUDAGUDA Meiji Restoration",
+      "ja": "ぐだぐだ明治維新",
+      "zh": "唠唠叨叨明治维新"
+    }
+  }
+}

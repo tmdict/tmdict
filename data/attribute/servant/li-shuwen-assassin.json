@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 235,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0235a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0235b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0235c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0235d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0235e_april-fools.png" },
+    { "weight": 6, "id": "img_glassless-s1", "src": "S0235f_glassless-s1.png" },
+    { "weight": 7, "id": "img_glassless-s2", "src": "S0235g_glassless-s2.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "neutral-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "ap",
+    "magic.parameter": "e",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "_na",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "wada-arco",
+    "character-voice": "yasui-kunihiko",
+    "bond.ce": "even-aged",
+    "valentine.ce": "wooden-sword",
+    "related.servant": "li-shuwen"
+  },
+
+  "data": {
+    "name": {
+      "en": "Li Shuwen",
+      "ja": "李書文",
+      "zh": "李书文"
+    },
+    "true-name": {
+      "en": "Li Shuwen",
+      "ja": "李書文",
+      "zh": "李书文"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "58kg (he has lost weight compared to his younger days)",
+      "ja": "58kg（青年時代より体重が減少している）",
+      "zh": "58kg（体重比全盛期略有降低）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

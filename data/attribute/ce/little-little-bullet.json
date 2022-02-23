@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 875,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0875.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takahashi-keitarou",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Little little bullet",
+      "ja": "Little little bullet",
+      "zh": "Little little bullet"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

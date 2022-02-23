@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 547,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0547.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "emiya-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kanshou and Bakuya (Pistols)",
+      "ja": "干将・莫耶（拳銃）",
+      "zh": "干将·莫邪（手枪）"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

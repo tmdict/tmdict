@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1143,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1143.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "keizen",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "new-years-campaign-2022"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dancing Tops",
+      "ja": "独楽の舞い踊り",
+      "zh": "陀螺舞踊"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

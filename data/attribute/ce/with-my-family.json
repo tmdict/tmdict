@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1125,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1125.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "tukumo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "christmas-2021-nightingales-christmas-carol"
+  },
+
+  "data": {
+    "name": {
+      "en": "With My Family",
+      "ja": "ウィズ・マイ・ファミリー",
+      "zh": "与家人同在"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

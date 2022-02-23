@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "f",
+  "ja": "ka",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Fire Wall",
+      "ja": "火炎陣",
+      "zh": "火炎阵"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 53,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0053a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0053b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0053c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0053d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0053e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "app",
+    "endurance.parameter": "app",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shima-drill",
+    "character-voice": "toriumi-kousuke",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "ariadnes-thread",
+    "valentine.ce": "labyrinth-map"
+  },
+
+  "data": {
+    "name": {
+      "en": "Asterios",
+      "ja": "アステリオス",
+      "zh": "阿斯忒里俄斯"
+    },
+    "true-name": {
+      "en": "Asterios",
+      "ja": "アステリオス",
+      "zh": "阿斯忒里俄斯"
+    },
+    "height": {
+      "en": "298cm",
+      "ja": "298cm",
+      "zh": "298cm"
+    },
+    "weight": {
+      "en": "150kg",
+      "ja": "150kg",
+      "zh": "150kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

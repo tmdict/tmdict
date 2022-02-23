@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1001,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1001.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "iwamoto-eiri",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "ooku-tokugawa-restoration-labyrinth"
+  },
+
+  "data": {
+    "name": {
+      "en": "Firefighter's Spirit",
+      "ja": "火消魂",
+      "zh": "消防精神"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

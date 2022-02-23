@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1206,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1206.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": ["takiyama-masaaki", "cloverworks"],
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "absolute-demonic-battlefront-babylonia-anime-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Elegant Heavens, Generous Earth",
+      "ja": "優雅なる天、寛大なる地",
+      "zh": "优雅之天，宽阔之地"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

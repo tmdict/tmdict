@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 131,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0131a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0131b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0131c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0131d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0131e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "caribbean-sea",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "d",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "i-iv",
+    "character-voice": ["nonaka-ai", "kawasumi-ayako"],
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "taking-a-bath",
+    "valentine.ce": "just-an-ordinary-chocolate",
+    "related.servant": "anne-bonny-mary-read"
+  },
+
+  "data": {
+    "name": {
+      "en": "Anne Bonny & Mary Read (Archer)",
+      "ja": "アン・ボニー＆メアリー・リード（アーチャー）",
+      "zh": "安妮·伯妮＆玛莉·瑞德（Archer）"
+    },
+    "true-name": {
+      "en": "Anne Bonny / Mary Read",
+      "ja": "アン・ボニー／メアリー・リード",
+      "zh": "安妮·伯妮／玛莉·瑞德"
+    },
+    "height": {
+      "en": "171cm / 158cm",
+      "ja": "171cm／158cm",
+      "zh": "171cm／158cm"
+    },
+    "weight": {
+      "en": "54kg / 46kg",
+      "ja": "54kg／46kg",
+      "zh": "54kg／46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

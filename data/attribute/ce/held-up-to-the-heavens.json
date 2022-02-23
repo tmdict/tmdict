@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1279,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1279.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "endou-kaori",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-stay-night-heavens-feel-iii-spring-song-theatrical-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Held up to the Heavens",
+      "ja": "天に挿頭す",
+      "zh": "妆饰于天"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

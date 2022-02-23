@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 565,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0565.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "keikenchi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "gudaguda-meiji-restoration"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: GUDAGUDA Meiji Restoration",
+      "ja": "概念礼装EXPカード：ぐだぐだ明治維新",
+      "zh": "概念礼装EXP卡：唠唠叨叨明治维新"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

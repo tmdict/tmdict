@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 496,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0496.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sasaki-midori",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "irisviel-dress-of-heaven"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mama’s Best Cake",
+      "ja": "ママのとっておき",
+      "zh": "妈妈的珍藏"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

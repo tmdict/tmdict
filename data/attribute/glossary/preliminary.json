@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "yo",
+  "jaRow": "y",
+
+  "data": {
+    "name": {
+      "en": "Preliminary",
+      "ja": "予選",
+      "zh": "预选赛"
+    }
+  }
+}

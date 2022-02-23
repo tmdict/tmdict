@@ -1,0 +1,64 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 237,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0237a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0237b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0237c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0237d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0237e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "kayano-ai",
+    "bond.ce": "new-tale-of-genji-scroll",
+    "valentine.ce": "sweet-tongued-sparrows-wasanbon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Murasaki Shikibu",
+      "ja": "紫式部",
+      "zh": "紫式部"
+    },
+    "true-name": {
+      "en": "Murasaki Shikibu",
+      "ja": "紫式部",
+      "zh": "紫式部"
+    },
+    "height": {
+      "en": "163cm",
+      "ja": "163cm",
+      "zh": "163cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

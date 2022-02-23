@@ -1,0 +1,47 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 265,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0265a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0265b.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0265c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0265d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0265e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "female",
+    "alignment": "lawful-summer",
+    "strength.parameter": "c",
+    "endurance.parameter": "ap",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "illustrator": "ishida-akira",
+    "character-voice": "kawasumi-ayako",
+    "bond.ce": "golden-round-table-roulette",
+    "valentine.ce": "chocolate-cake-white-bunny",
+    "related.servant": "altria-pendragon-lancer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Altria Pendragon (Ruler)",
+      "ja": "アルトリア・ペンドラゴン（ルーラー）",
+      "zh": "阿尔托莉雅·潘德拉贡（Rider）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce", "related.servant"]
+  ]
+}

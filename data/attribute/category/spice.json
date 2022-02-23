@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "spice",
+      "ja": "調味料",
+      "zh": "调味料"
+    }
+  }
+}

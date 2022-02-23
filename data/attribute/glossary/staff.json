@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "tsu",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Staff",
+      "ja": "杖",
+      "zh": "手杖"
+    }
+  }
+}

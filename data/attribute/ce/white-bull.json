@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1135,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1135.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "europa"
+  },
+
+  "data": {
+    "name": {
+      "en": "White Bull",
+      "ja": "白き牡牛",
+      "zh": "白色公牛"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

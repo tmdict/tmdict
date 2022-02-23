@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Story So Far",
+      "ja": "これまでのあらすじ",
+      "zh": "到目前为止的概要"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 16,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0016a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0016b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0016c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0016d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0016e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "persian-mythology",
+    "region": "west-asia",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "bp",
+    "magic.parameter": "e",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "bpp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "black",
+    "character-voice": "tsuruoka-satoshi",
+    "major-appearances": "fate-prototype-sougin-no-fragments",
+    "bond.ce": "sacred-devotion",
+    "valentine.ce": "hummus-dip"
+  },
+
+  "data": {
+    "name": {
+      "en": "Arash",
+      "ja": "アーラシュ",
+      "zh": "阿拉什"
+    },
+    "true-name": {
+      "en": "Arash",
+      "ja": "アーラシュ",
+      "zh": "阿拉什"
+    },
+    "height": {
+      "en": "185cm",
+      "ja": "185cm",
+      "zh": "185cm"
+    },
+    "weight": {
+      "en": "75kg",
+      "ja": "75kg",
+      "zh": "75kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

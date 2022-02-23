@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 212,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0212.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "redrop",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "restless-drunk-demons-capital-rashomon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Golden Captures the Carp",
+      "ja": "ゴールデン捕鯉魚図",
+      "zh": "黄金捕鲤图"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

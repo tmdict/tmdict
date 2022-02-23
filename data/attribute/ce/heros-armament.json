@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 324,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0324.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "hektor"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hero’s Armament",
+      "ja": "英雄の武装",
+      "zh": "英雄的武装"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

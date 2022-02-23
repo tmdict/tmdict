@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 709,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0709.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "katsushika-hokusai"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dragon Climbing Mt. Fuji",
+      "ja": "富士越龍図",
+      "zh": "富士越龙图"
+    },
+    "other-names": {
+      "en": "The Dragon of Smoke Escaping From Mount Fuji",
+      "ja": "-",
+      "zh": "-"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator", "other-names"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 322,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0322.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "cu-chulainn-prototype"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hound of Culann",
+      "ja": "クランの猛犬",
+      "zh": "库林的猛犬"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

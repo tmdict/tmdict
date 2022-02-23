@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 227,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0227.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "mashimasaki",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "journey-to-the-west-with-the-planets-sanzang-chan"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Classic Three Great Heroes",
+      "ja": "英雄風采 三英傑",
+      "zh": "英雄风采 三英杰"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

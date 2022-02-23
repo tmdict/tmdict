@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 246,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0246.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Extremely Spicy Mapo Tofu",
+      "ja": "激辛麻婆豆腐",
+      "zh": "特辣麻婆豆腐"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

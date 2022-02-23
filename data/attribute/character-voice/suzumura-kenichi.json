@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Suzumura Kenichi",
+      "ja": "鈴村健一",
+      "zh": "铃村健一"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 334,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0334.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "nightingale"
+  },
+
+  "data": {
+    "name": {
+      "en": "Indefatigable",
+      "ja": "不撓不屈",
+      "zh": "不屈不挠"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

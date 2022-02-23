@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 294,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0294.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "kinuta-koji",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "summer-ocean-pioneering-fgo-summer-2018-chaldea-summer-memory-the-white-beach-of-relaxation"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shining Goddess",
+      "ja": "シャイニー・ゴッデス",
+      "zh": "闪耀女神"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

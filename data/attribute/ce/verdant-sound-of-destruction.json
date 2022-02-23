@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 25,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0025.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "shima-shinoji",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Verdant Sound of Destruction",
+      "ja": "緑の破音",
+      "zh": "绿之破音"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

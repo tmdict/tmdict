@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Takenoko Seijin",
+      "ja": "たけのこ星人",
+      "zh": "たけのこ星人"
+    }
+  }
+}

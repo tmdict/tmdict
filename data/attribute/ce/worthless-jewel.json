@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 200,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0200.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "mata-hari"
+  },
+
+  "data": {
+    "name": {
+      "en": "Worthless Jewel",
+      "ja": "価値無き宝",
+      "zh": "无价之宝"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

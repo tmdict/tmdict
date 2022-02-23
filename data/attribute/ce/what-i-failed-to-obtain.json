@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1023,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1023.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "moryo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "ashwatthama"
+  },
+
+  "data": {
+    "name": {
+      "en": "What I Failed To Obtain",
+      "ja": "手に入れること能わず",
+      "zh": "遥不可及"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

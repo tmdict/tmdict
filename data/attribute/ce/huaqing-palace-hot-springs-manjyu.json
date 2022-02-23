@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1193,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1193.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hayosena",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "yang-guifei"
+  },
+
+  "data": {
+    "name": {
+      "en": "Huaqing Palace Hot Springs Manjyu",
+      "ja": "華清宮銘菓 温泉饅頭",
+      "zh": "华清宫名点 温泉馒头"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

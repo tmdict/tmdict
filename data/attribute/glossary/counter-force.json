@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "yo",
+  "jaRow": "y",
+
+  "data": {
+    "name": {
+      "en": "Counter Force",
+      "ja": "抑止力",
+      "zh": "抑止力"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 227,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0227a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0227b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0227c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0227d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0227e_april-fools.png" },
+    { "weight": 6, "id": "img_eastern-socialite-attire", "src": "S0227f_eastern-socialite-attire.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "book-of-northern-qi",
+    "region": "china",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "ap",
+    "magic.parameter": "d",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "hou",
+    "character-voice": "mori-nanako",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "my-poisoned-chalice-my-mask",
+    "valentine.ce": "beauty-concealing-mask"
+  },
+
+  "data": {
+    "name": {
+      "en": "Prince of Lanling",
+      "ja": "蘭陵王",
+      "zh": "兰陵王"
+    },
+    "true-name": {
+      "en": "Prince of Lanling",
+      "ja": "蘭陵王",
+      "zh": "兰陵王"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

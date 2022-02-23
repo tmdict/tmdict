@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 134,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0134.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "marie-antoinette"
+  },
+
+  "data": {
+    "name": {
+      "en": "Royal White Steed",
+      "ja": "王家の白馬",
+      "zh": "王家的白马"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

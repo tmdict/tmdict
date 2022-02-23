@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Asumi Kana",
+      "ja": "阿澄佳奈",
+      "zh": "阿澄佳奈"
+    }
+  }
+}

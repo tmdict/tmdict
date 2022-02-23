@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Inoue Kikuko",
+      "ja": "井上喜久子",
+      "zh": "井上喜久子"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Tomatsu Haruka",
+      "ja": "戸松遥",
+      "zh": "户松遥"
+    }
+  }
+}

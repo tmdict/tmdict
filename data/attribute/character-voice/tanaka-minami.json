@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Tanaka Minami",
+      "ja": "田中美海",
+      "zh": "田中美海"
+    }
+  }
+}

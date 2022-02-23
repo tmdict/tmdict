@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Akesaka Satomi",
+      "ja": "明坂聡美",
+      "zh": "明坂聪美"
+    }
+  }
+}

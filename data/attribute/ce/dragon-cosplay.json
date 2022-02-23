@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 432,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0432.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "siegfried"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dragon Cosplay",
+      "ja": "君もドラゴンセット",
+      "zh": "你也是龙套装"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

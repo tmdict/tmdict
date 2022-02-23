@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 298,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0298.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "nakahara",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "summer-ocean-pioneering-fgo-summer-2018-chaldea-summer-memory-the-white-beach-of-relaxation"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shaved Ice (Void’s Dust Flavor)",
+      "ja": "虚影の塵風かき氷",
+      "zh": "虚影之尘风刨冰"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

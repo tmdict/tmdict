@@ -1,0 +1,68 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 240,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0240a.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "gender": "female",
+    "origin": "tokugawa-kaiten-labyrinth-ooku",
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "e",
+    "endurance.parameter": "ex",
+    "agility.parameter": "a",
+    "magic.parameter": "ex",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "redrop",
+    "character-voice": "shitaya-noriko",
+    "related.servant": "kama"
+  },
+
+  "data": {
+    "name": {
+      "en": "Beast III/L",
+      "ja": "ビースト III／Ｌ",
+      "zh": "Beast III／L"
+    },
+    "class": {
+      "en": "Beast",
+      "ja": "ビースト",
+      "zh": "Beast"
+    },
+    "true-name": {
+      "en": "Kama Mara",
+      "ja": "カーマ・マーラ",
+      "zh": "迦摩·魔罗"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    },
+    "notes": {
+      "en": "(It must be remembered that these are her base height and weight. She can freely change these based on her target’s preferences)",
+      "ja": "（あくまで基本体型。対象の好みによって自在に変化する）",
+      "zh": "（仅限于基本形状。 可以根据目标的口味自由变化）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["related.servant"]
+  ]
+}

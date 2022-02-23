@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 146,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0146.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kuzuboshi-hikaru",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "mata-hari"
+  },
+
+  "data": {
+    "name": {
+      "en": "From Java With Love",
+      "ja": "ジャワより愛をこめて",
+      "zh": "来自爪哇的爱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

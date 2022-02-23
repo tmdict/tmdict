@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "p",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Please Give Me a Family Register",
+      "ja": "戸籍をください",
+      "zh": "户籍就拜托了"
+    }
+  }
+}

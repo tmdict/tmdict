@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1172,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1172.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "herosumi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "paris"
+  },
+
+  "data": {
+    "name": {
+      "en": "Apollo Doll",
+      "ja": "アポロン人形",
+      "zh": "阿波罗玩偶"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

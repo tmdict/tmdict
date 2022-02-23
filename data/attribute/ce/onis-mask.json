@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 375,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0375.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "fuuma-kotarou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Oni’s Mask",
+      "ja": "鬼の面",
+      "zh": "鬼之面具"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

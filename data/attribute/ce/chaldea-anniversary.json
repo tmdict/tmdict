@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 590,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0590.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "takenashi-eri",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Anniversary",
+      "ja": "カルデア・アニバーサリー",
+      "zh": "迦勒底周年纪念"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

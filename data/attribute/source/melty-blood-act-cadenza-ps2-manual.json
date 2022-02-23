@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2006-08-10",
+  "weight": 2006080,
+
+  "attribute": {
+    "work": "melty-blood"
+  },
+
+  "data": {
+    "name": {
+      "en": "MB Act Cadenza PS2 Manual",
+      "ja": "MB Act Cadenza PS2 解説ブック",
+      "zh": "MB Act Cadenza PS2解说书"
+    }
+  }
+}

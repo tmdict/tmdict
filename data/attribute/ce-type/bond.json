@@ -1,0 +1,12 @@
+{
+  "type": "ce-type",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Bond",
+      "ja": "絆礼装",
+      "zh": "羁绊礼装"
+    }
+  }
+}

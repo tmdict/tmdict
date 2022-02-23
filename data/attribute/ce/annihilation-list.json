@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 299,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0299.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "mysterious-heroine-x"
+  },
+
+  "data": {
+    "name": {
+      "en": "Annihilation List",
+      "ja": "殲滅リスト",
+      "zh": "歼灭清单"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 473,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0473.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "diarmuid-ua-duibhne"
+  },
+
+  "data": {
+    "name": {
+      "en": "White Rose Bouquet",
+      "ja": "感謝の白薔薇",
+      "zh": "感谢的白蔷薇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

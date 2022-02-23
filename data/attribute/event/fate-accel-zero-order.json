@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Fate/Accel Zero Order",
+      "ja": "Fate/Accel Zero Order",
+      "zh": "Fate/Accel Zero Order"
+    }
+  }
+}

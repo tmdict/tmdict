@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 575,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0575.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "meltryllis"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dazzling Radiance",
+      "ja": "輝くばかりの",
+      "zh": "无比闪耀之物"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

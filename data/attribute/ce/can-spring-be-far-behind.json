@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 772,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0772.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "riyo",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-gutentag-omen-adios-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Can Spring Be Far Behind?",
+      "ja": "春遠からじ",
+      "zh": "春天还会远吗"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

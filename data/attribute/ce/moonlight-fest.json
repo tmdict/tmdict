@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 45,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0045.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "i-iv",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "can-the-moon-goddess-achieve-her-dream-of-dangos"
+  },
+
+  "data": {
+    "name": {
+      "en": "Moonlight Fest",
+      "ja": "ムーンライト・フェスト",
+      "zh": "月光祝典"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

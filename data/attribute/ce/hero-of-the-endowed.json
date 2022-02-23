@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 282,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0282.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "arjuna"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hero of the Endowed",
+      "ja": "授かりの英雄",
+      "zh": "天赐的英雄"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 192,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0192a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0192b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0192c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0192d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0192e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "europe",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "ap",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "hidari",
+    "character-voice": "akaneya-himika",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "falcon-witchs-banquet",
+    "valentine.ce": "pink-piglet"
+  },
+
+  "data": {
+    "name": {
+      "en": "Circe",
+      "ja": "キルケー",
+      "zh": "喀耳刻"
+    },
+    "other-names": {
+      "en": "Caster of Okeanos",
+      "ja": "オケアノスのキャスター",
+      "zh": "俄刻阿诺斯的Caster"
+    },
+    "true-name": {
+      "en": "Circe",
+      "ja": "キルケー",
+      "zh": "喀耳刻"
+    },
+    "height": {
+      "en": "147cm",
+      "ja": "147cm",
+      "zh": "147cm"
+    },
+    "weight": {
+      "en": "39kg",
+      "ja": "39kg",
+      "zh": "39kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

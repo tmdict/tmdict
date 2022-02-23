@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Koyama Rikiya",
+      "ja": "小山力也",
+      "zh": "小山力也"
+    }
+  }
+}

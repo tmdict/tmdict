@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 830,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0830.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hidari",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Caster of Okeanos",
+      "ja": "英霊旅装：オケアノスのキャスター",
+      "zh": "英灵旅装：俄刻阿诺斯的Caster"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

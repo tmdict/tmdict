@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 428,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0428.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "hanamura-mai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fondant au Chocolat",
+      "ja": "フォンダン・オ・ショコラ",
+      "zh": "熔岩巧克力蛋糕"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

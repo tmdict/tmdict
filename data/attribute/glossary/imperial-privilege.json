@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Imperial Privilege",
+      "ja": "皇帝特権",
+      "zh": "皇帝特权"
+    }
+  }
+}

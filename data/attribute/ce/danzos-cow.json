@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 679,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0679.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "katou-black-kite-danzou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Danzo’s Cow",
+      "ja": "段蔵の牛",
+      "zh": "段藏的牛"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

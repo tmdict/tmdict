@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 348,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0348.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "taa",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "halloween-comeback-super-ghouls-n-pumpkins-the-seeds-of-adventure"
+  },
+
+  "data": {
+    "name": {
+      "en": "Wizard & Priest",
+      "ja": "ウィザード＆プリースト",
+      "zh": "法师＆牧师"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

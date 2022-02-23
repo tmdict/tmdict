@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Holy Grail",
+      "ja": "聖杯",
+      "zh": "圣杯"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Magical Beast",
+      "ja": "魔獣",
+      "zh": "魔兽"
+    }
+  }
+}

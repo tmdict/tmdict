@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 975,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0975.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "xiang-yu"
+  },
+
+  "data": {
+    "name": {
+      "en": "Xiang Yu’s Sword",
+      "ja": "項羽の剣",
+      "zh": "项羽之剑"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

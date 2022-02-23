@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 106,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0106a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0106b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0106c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0106d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0106e_april-fools.png" },
+    { "weight": 6, "id": "img_wicked-dragon-witch-ver-shinjuku-1999", "src": "S0106f_wicked-dragon-witch-ver-shinjuku-1999.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "france",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "ap",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "sakamoto-maaya",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "hell-of-blazing-punishment",
+    "valentine.ce": "self-destructing-giant-destruction-chocolate",
+    "related.servant": ["jeanne-darc-alter-santa-lily", "jeanne-darc-alter-berserker"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Jeanne d’Arc (Alter)",
+      "ja": "ジャンヌ・ダルク（オルタ）",
+      "zh": "贞德（Alter）"
+    },
+    "true-name": {
+      "en": "Jeanne d’Arc",
+      "ja": "ジャンヌ・ダルク",
+      "zh": "贞德"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "44kg",
+      "ja": "44kg",
+      "zh": "44kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

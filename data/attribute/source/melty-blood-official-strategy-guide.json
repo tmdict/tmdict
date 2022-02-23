@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2003-08-01",
+  "weight": 2003080,
+
+  "attribute": {
+    "work": "melty-blood"
+  },
+
+  "data": {
+    "name": {
+      "en": "MB Official Strategy Guide",
+      "ja": "MB公式攻略ガイドブック",
+      "zh": "Melty Blood公式攻略书"
+    }
+  }
+}

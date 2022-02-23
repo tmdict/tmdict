@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 427,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0427.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "shiromizakana",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sweet Crystal",
+      "ja": "スイート・クリスタル",
+      "zh": "甜蜜水晶"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

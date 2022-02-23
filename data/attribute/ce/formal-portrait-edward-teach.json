@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 621,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0621.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "bsuke",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Edward Teach",
+      "ja": "英霊正装：エドワード・ティーチ",
+      "zh": "英灵正装：爱德华·蒂奇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

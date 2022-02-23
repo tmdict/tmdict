@@ -1,0 +1,12 @@
+{
+  "type": "ce-type",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "CE Exp",
+      "ja": "EXPカード",
+      "zh": "EXP卡"
+    }
+  }
+}

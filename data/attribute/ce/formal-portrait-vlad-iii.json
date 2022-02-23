@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 630,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0630.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "maeda-hirotaka",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Vlad III",
+      "ja": "英霊正装：ヴラド三世",
+      "zh": "英灵正装：弗拉德三世"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

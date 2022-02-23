@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 931,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0931.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "lam",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "sparrows-inn-daily-report-records-of-the-enma-teis-prosperity"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mark on a Smiling Face",
+      "ja": "笑顔のしるし",
+      "zh": "笑脸上的印记"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

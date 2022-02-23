@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 142,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0142a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0142b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0142c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0142d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0142e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "ancient-mesopotamian-mythology",
+    "region": ["mesopotamia", "uruk"],
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ex",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "morii-shizuki",
+    "character-voice": "ueda-kana",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "seven-headed-warhammer-cita",
+    "valentine.ce": "chocolate-gems",
+    "related.servant": ["ishtar-rider", "space-ishtar"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Ishtar",
+      "ja": "イシュタル",
+      "zh": "伊什塔尔"
+    },
+    "true-name": {
+      "en": "Ishtar",
+      "ja": "イシュタル",
+      "zh": "伊什塔尔"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

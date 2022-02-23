@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 15,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0015a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0015b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0015c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0015d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0015e_april-fools.png" },
+    { "weight": 6, "id": "img_mirage", "src": "S0015f_mirage.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_3",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "ex",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "c",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "akira",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "asakawa-yuu",
+    "major-appearances": "fate-hollow-ataraxia",
+    "bond.ce": "radiance-of-the-goddess-euryale",
+    "valentine.ce": "snake-chocolate-random"
+  },
+
+  "data": {
+    "name": {
+      "en": "Euryale",
+      "ja": "エウリュアレ",
+      "zh": "尤瑞艾莉"
+    },
+    "true-name": {
+      "en": "Euryale",
+      "ja": "エウリュアレ",
+      "zh": "尤瑞艾莉"
+    },
+    "height": {
+      "en": "134cm",
+      "ja": "134cm",
+      "zh": "134cm"
+    },
+    "weight": {
+      "en": "30kg (reported by Medusa)",
+      "ja": "30kg（体重はメドゥーサからの申告によるもの）",
+      "zh": "30kg（体重数据来源于美杜莎的申告）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

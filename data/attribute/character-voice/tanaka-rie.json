@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Tanaka Rie",
+      "ja": "田中理恵",
+      "zh": "田中理惠"
+    }
+  }
+}

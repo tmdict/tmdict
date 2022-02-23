@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 839,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0839.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "yamanaka-kotetsu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Sherlock Holmes",
+      "ja": "英霊旅装：シャーロック・ホームズ",
+      "zh": "英灵旅装：夏洛克·福尔摩斯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 815,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0815.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "kamikokuryou-haruka",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sakura’s Special Bento",
+      "ja": "桜の特製弁当",
+      "zh": "樱的特制便当"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

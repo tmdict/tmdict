@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "chi",
+  "jaRow": "t",
+
+  "data": {
+    "name": {
+      "en": "Healing Magecraft",
+      "ja": "治癒の魔術",
+      "zh": "治愈的魔术"
+    }
+  }
+}

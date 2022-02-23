@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Itou Shizuka",
+      "ja": "伊藤静",
+      "zh": "伊藤静"
+    }
+  }
+}

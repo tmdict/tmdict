@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 989,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0989.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "kingprotea"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hands Full Of…",
+      "ja": "それは、両手いっぱいの",
+      "zh": "其为双手捧满的"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

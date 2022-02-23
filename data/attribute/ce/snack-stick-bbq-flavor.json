@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 443,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0443.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "amao",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "orion"
+  },
+
+  "data": {
+    "name": {
+      "en": "Snack Stick (BBQ Flavor)",
+      "ja": "こんぼう（バーベキュー味）",
+      "zh": "棍棒（烧烤味）"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

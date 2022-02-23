@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 793,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0793.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "fuyuomi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "apocrypha-inheritance-of-glory"
+  },
+
+  "data": {
+    "name": {
+      "en": "Moment of Bliss",
+      "ja": "刹那のまほろば",
+      "zh": "刹那的幸福之地"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

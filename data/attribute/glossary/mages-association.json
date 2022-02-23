@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Mage’s Association",
+      "ja": "魔術協会",
+      "zh": "魔术协会"
+    }
+  }
+}

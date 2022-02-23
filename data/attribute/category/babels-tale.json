@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 1,
+
+  "data": {
+    "name": {
+      "en": "Babel’s Tale",
+      "ja": "Babel’s Tale",
+      "zh": "Babel’s Tale"
+    }
+  }
+}

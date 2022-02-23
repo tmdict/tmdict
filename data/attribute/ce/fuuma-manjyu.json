@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 517,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0517.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "eihi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "fuuma-kotarou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fuuma Manjyu",
+      "ja": "銘菓風魔まんじゅう",
+      "zh": "铭果风魔馒头"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

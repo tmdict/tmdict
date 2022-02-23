@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Yamadera Kouichi",
+      "ja": "山寺宏一",
+      "zh": "山寺宏一"
+    }
+  }
+}

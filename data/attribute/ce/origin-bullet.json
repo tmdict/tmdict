@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 263,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0263.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "pako",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Origin Bullet",
+      "ja": "起源弾",
+      "zh": "起源弹"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

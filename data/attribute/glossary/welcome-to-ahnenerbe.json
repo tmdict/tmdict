@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "w",
+  "ja": "a",
+  "jaRow": "_",
+
+  "data": {
+    "name": {
+      "en": "Welcome to Ahnenerbe!",
+      "ja": "アーネンエルベヘようこそ！",
+      "zh": "欢迎光临Ahnenerbe！"
+    }
+  }
+}

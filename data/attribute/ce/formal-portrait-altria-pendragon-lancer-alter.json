@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 612,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0612.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ishida-akira",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Altria Pendragon (Lancer Alter)",
+      "ja": "英霊正装：アルトリア・ペンドラゴン（オルタ）（ランサー）",
+      "zh": "英灵正装：阿尔托莉雅·潘德拉贡（Alter）（Lancer）"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

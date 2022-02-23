@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 802,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0802.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wada-arco",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "fate-extella-link-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/EXTELLA LINK",
+      "ja": "Fate/EXTELLA LINK",
+      "zh": "Fate/EXTELLA LINK"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

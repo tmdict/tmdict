@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ka",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Magical Monster",
+      "ja": "怪魔",
+      "zh": "怪魔"
+    }
+  }
+}

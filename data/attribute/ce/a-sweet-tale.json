@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 725,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0725.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sasaki-midori",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "scheherazade"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Sweet Tale",
+      "ja": "甘い物語",
+      "zh": "甜美物语"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

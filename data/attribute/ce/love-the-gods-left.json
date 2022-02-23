@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 862,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0862.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kamikokuryou-haruka",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "scathach-skadi"
+  },
+
+  "data": {
+    "name": {
+      "en": "Love the Gods Left",
+      "ja": "神々の遺した愛",
+      "zh": "诸神遗留之爱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

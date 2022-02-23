@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 183,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0183a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0183b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0183c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0183d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0183e_april-fools.png" },
+    { "weight": 6, "id": "img_a-girls-most-sought-after", "src": "S0183f_a-girls-most-sought-after.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "indian-mythology",
+    "region": "india",
+    "alignment": "lawful-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "aotsuki-takao",
+    "character-voice": "shitaya-noriko",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "nandi",
+    "valentine.ce": "nandi-chocolate-1-1-scale"
+  },
+
+  "data": {
+    "name": {
+      "en": "Parvati",
+      "ja": "パールヴァティー",
+      "zh": "帕尔瓦蒂"
+    },
+    "true-name": {
+      "en": "Pārvatī",
+      "ja": "パールヴァティー",
+      "zh": "帕尔瓦蒂"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1078,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1078.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hotosoka",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Morning Glory",
+      "ja": "モーニング・グローリー",
+      "zh": "牵牛花"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

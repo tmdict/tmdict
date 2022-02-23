@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Midorikawa Hikaru",
+      "ja": "緑川光",
+      "zh": "绿川光"
+    }
+  }
+}

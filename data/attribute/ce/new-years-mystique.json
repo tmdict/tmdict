@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 932,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0932.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kawai-makoto",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "sparrows-inn-daily-report-records-of-the-enma-teis-prosperity"
+  },
+
+  "data": {
+    "name": {
+      "en": "New Year’s Mystique",
+      "ja": "正月の神秘",
+      "zh": "正月的神秘"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

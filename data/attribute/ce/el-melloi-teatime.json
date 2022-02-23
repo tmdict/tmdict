@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1009,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1009.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "moryo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "sima-yi-reines"
+  },
+
+  "data": {
+    "name": {
+      "en": "El-Melloi Teatime",
+      "ja": "エルメロイ・ティータイム",
+      "zh": "埃尔梅罗午茶时光"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

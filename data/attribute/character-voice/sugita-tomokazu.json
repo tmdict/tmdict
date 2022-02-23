@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sugita Tomokazu",
+      "ja": "杉田智和",
+      "zh": "杉田智和"
+    }
+  }
+}

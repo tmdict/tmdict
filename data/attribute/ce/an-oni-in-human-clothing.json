@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 711,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0711.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "shaka-p",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-tale-of-setsubun-oni-pagoda-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "An Oni in Human Clothing",
+      "ja": "鬼に衣",
+      "zh": "画皮"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

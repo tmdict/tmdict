@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 891,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0891.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "gin-no-fude",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "medb-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Summer Photo Album",
+      "ja": "一夏のアルバム",
+      "zh": "这个夏天的相册"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "shop",
+      "ja": "店名",
+      "zh": "店名"
+    }
+  }
+}

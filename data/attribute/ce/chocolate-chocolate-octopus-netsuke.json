@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1181,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1181.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "zap",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "katsushika-hokusai-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Chocolate Octopus Netsuke",
+      "ja": "ちよこちよこ蛸ねつけ",
+      "zh": "巧克力巧克力章鱼根附"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 520,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0520.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kuzuboshi-hikaru",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "charles-henri-sanson"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sanson’s Nutritious Chocolate Drink",
+      "ja": "サンソンの栄養チョコドリンク",
+      "zh": "桑松营养巧克力饮料"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "content-id",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Personal Skills",
+      "ja": "保有スキル",
+      "zh": "保有技能"
+    }
+  }
+}

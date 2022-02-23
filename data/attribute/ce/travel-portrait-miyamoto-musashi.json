@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 841,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0841.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "koyama-hirokazu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Miyamoto Musashi",
+      "ja": "英霊旅装：新免武蔵守藤原玄信",
+      "zh": "英灵旅装：新免武藏守藤原玄信"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,9 @@
+import Entry from '../../../js/components/Entry.svelte';
+import data from '../../data/{{path}}.js';
+let entry = new Entry({
+  target: document.body,
+  props: {
+    attribute: data.attribute,
+    content: data.content
+  }
+});

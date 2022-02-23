@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 255,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0255a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0255b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0255c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0255d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0255e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_2",
+    "gender": "female",
+    "origin": ["greek-mythology", "trojan-war"],
+    "region": "greece",
+    "alignment": "true-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "bp",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "rin-kususaga",
+    "character-voice": "terasaki-yuka",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "consider-carefully",
+    "valentine.ce": "apollo-doll"
+  },
+
+  "data": {
+    "name": {
+      "en": "Paris",
+      "ja": "パリス",
+      "zh": "帕里斯"
+    },
+    "true-name": {
+      "en": "Paris",
+      "ja": "パリス",
+      "zh": "帕里斯"
+    },
+    "height": {
+      "en": "145cm",
+      "ja": "145cm",
+      "zh": "145cm"
+    },
+    "weight": {
+      "en": "38kg",
+      "ja": "38kg",
+      "zh": "38kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 231,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0231a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0231b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0231c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0231d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0231e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_3",
+    "gender": "male",
+    "origin": ["historical-fact", "romance-of-the-three-kingdoms", "etc"],
+    "region": "china",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "ex",
+    "agility.parameter": "bp",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "midorikawa-miho",
+    "character-voice": "midorikawa-hikaru",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "the-wonderful-fodder-bucket",
+    "valentine.ce": "the-best-carrots"
+  },
+
+  "data": {
+    "name": {
+      "en": "Red Hare",
+      "ja": "赤兎馬",
+      "zh": "赤兔马"
+    },
+    "true-name": {
+      "en": "Red Hare",
+      "ja": "赤兎馬",
+      "zh": "赤兔马"
+    },
+    "height": {
+      "en": "250cm",
+      "ja": "250cm",
+      "zh": "250cm"
+    },
+    "weight": {
+      "en": "Over 400kg",
+      "ja": "400kg以上",
+      "zh": "400kg以上"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

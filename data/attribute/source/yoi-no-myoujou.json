@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2001-08-12",
+  "weight": 2001080,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yoi No Myoujou",
+      "ja": "宵明星",
+      "zh": "宵明星"
+    }
+  }
+}

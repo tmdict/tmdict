@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 209,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0209a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0209b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0209c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0209d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0209e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "gudaguda-legend-of-the-imperial-capital-grail",
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "keikenchi",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": ["koha-ace-go", "fate-grand-order"],
+    "bond.ce": "at-the-end-of-eternity",
+    "valentine.ce": "chocolate-oden",
+    "related.servant": ["okita-souji", "okita-souji-assassin"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Okita Souji (Alter)",
+      "ja": "沖田総司（オルタ）",
+      "zh": "冲田总司（Alter）"
+    },
+    "true-name": {
+      "en": "Majin – Okita Souji",
+      "ja": "魔神(人)・沖田総司",
+      "zh": "魔神(人)·冲田总司"
+    },
+    "height": {
+      "en": "163cm",
+      "ja": "163cm",
+      "zh": "163cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 311,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0311.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "imaizumi-teruhiko",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "a-magical-girls-travelogue-prisma-causeway"
+  },
+
+  "data": {
+    "name": {
+      "en": "Zunga Zunga!",
+      "ja": "ずんがずんが！",
+      "zh": "ZUNGA ZUNGA！"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

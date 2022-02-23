@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 900,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0900.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "imigimuru",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "battle-in-new-york-2020"
+  },
+
+  "data": {
+    "name": {
+      "en": "C.K.T.",
+      "ja": "C・K・T",
+      "zh": "C·K·T"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

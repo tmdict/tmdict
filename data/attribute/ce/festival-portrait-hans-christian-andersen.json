@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1045,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1045.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wada-arco",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Hans Christian Andersen",
+      "ja": "英霊祭装：アンデルセン",
+      "zh": "英灵祭装：安徒生"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

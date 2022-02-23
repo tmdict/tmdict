@@ -1,0 +1,26 @@
+---
+parent: rider-of-black
+source: fate-apocrypha-material
+id: fate-apocrypha-encylopedia
+language: en
+weight: 37
+translation: "Eternal Dreamer"
+category:
+- servant
+---
+
+One of the Servants of the “Black” camp. His true name is Astolfo, one of Charlemagne’s Twelve Paladins. He is the son of King Otto of England, and was destined to become king in the future.
+He is one of the two major problem children in the light novels. Though he possessed a beautiful face and was beloved by all of the other Paladins, he is a “weak” knight whose abilities are inferior to the rest of them.
+However, he himself didn’t care about his weakness at all and even when he felt depressed after losing a jousting match, he forget about it soon after. The easy-going Astolfo, whether due to possessing good luck or being loved for his attitude, ended up obtaining various Noble Phantasms.
+He was given “Casa Di Logistilla: Declaration of Complete Destruction,” capable of destroying all spells, as a gift from a witch, borrowed the jousting lance “Trap of Argalia: Down with a Touch!” that Argalia had forgotten and left behind, and secured “Hippogriff: Otherworldly Phantasmal Horse” from the evil magus Atlante.
+Astolfo fully used these Noble Phantasms and went on various adventures.
+…Incidentally, since he happily loaned away most of his borrowed items when someone asked for them, he is the type that fundamentally feels no attachment to goods and objects. That might be precisely why various Noble Phantasms came into Astolfo’s possession during his life.
+Astolfo’s clothes are based on his tastes—no, not his tastes; rather, he wore them in order to calm and appease Roland, who went mad after he was spurned by the woman he loved. The reason he had that appearance when he was summoned is probably because the Greater Grail decided that that was the point of “Astolfo’s heyday.” How cruel.
+He is truly second-rate as a Servant. He lacks the ability to be first-rate, and even if his abundant Noble Phantasms give him a bit of an advantage, he would be overwhelmingly beaten by someone powerful like a Saber-class Servant due to the difference in pure strength.
+However, if you consider him as a single chess piece among many in the Great Holy Grail War, his abundant Noble Phantasms can expand the breadth of his team’s tactics, and his Noble Phantasms which can make the enemy incapable of moving or fall into confusion are suited to keeping the enemy in place.
+You could say he truly is a piece suited to the Great Holy Grail War, but… unfortunately, Astolfo’s sense of values is abnormal. For instance, if even a homunculus asked him for help, he would comply with all his power and do it even while knowing full well that it would be disadvantageous to his camp.
+Due to his skill “Evaporation of Sanity,” he also possesses the special skill “Monstrous Strength” limited to magical beasts, though its rank is low, and his Magic Resistance is raised to A rank thanks to his Noble Phantasm. It makes him basically invincible and troublesome against an ordinary magus Master. If he were to aim to kill the other Masters, even winning the Holy Grail War might not be just a dream for him—but regrettably, that’s the type of strategy that Astolfo would definitely refuse, making it a dream within a dream.
+In the light novels, his bottomless soft-heartedness, his optimism and, most of all, his dynamic attitude greatly affect the story. If Sieg is the shaft of the car wheel and Ruler is the car wheel, Astolfo is like the lubricating oil. Also, “Evaporation of Sanity” is, obviously, not a good skill. To lack reason means you can’t control your own desires. However, despite lacking reason, Astolfo eliminates the concept of “doing something bad” from his mind on an instinctive level in the first place, so it’s all good in the end…!
+His feelings towards Sieg are passionate and frank. Incidentally, Astolfo doesn’t care about male and female gender differences at all. If he loves someone, whether they’re a man or woman is a trivial issue. If Sieg wished for it, he would have probably happily become his partner. However, Sieg himself is only aware of the “act of reproduction” as a phrase that means to bring into existence a life besides oneself.
+He has a wish for the Holy Grail, but he still hasn’t thought about what it is. His principle was to think and actually find his wish after he reaches the point where his wish comes true. The reason that Astolfo can be summoned in a Holy Grail War despite this nature of his is because of his sense of duty to help if someone is so troubled that they call for him, similar to Karna. For some reason, it seems another class he is compatible with is the Saber class.
+After the end of the light novels, Astolfo went on a wandering journey. Humanity is immature as a species, and Astolfo himself is also immature as a Servant. Even so, to make their lives as they live desperately meaningless was, as he thought, mistaken. Astolfo will continue to optimistically help those who want help without asking for any real compensation and live on until the day when he feels like he wants to live. His way of life, no matter how weak he is, truly is appropriate for a hero.

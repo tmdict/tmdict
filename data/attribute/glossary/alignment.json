@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "a",
+  "ja": "so",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Alignment",
+      "ja": "属性",
+      "zh": "属性"
+    }
+  }
+}

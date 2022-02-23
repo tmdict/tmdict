@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "mi",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Swimsuit",
+      "ja": "水着",
+      "zh": "泳衣"
+    }
+  }
+}

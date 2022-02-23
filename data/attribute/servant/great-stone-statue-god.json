@@ -1,0 +1,64 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 244,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0244a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0244b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0244c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0244d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0244e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "moon-cancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "_qm_qm_qm",
+    "region": "_qm_qm_qm",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "app",
+    "agility.parameter": "e",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": ["minase-hazuki", "nasu-kinoko"],
+    "illustrator": "wada-arco",
+    "character-voice": "yuuki-aoi",
+    "bond.ce": "beyond-the-gates-of-gourmet",
+    "valentine.ce": "premium-chocolate-cake"
+  },
+
+  "data": {
+    "name": {
+      "en": "Great Stone Statue God",
+      "ja": "大いなる石像神",
+      "zh": "伟大的石像神"
+    },
+    "true-name": {
+      "en": "Jinako Carigiri",
+      "ja": "ジナコ・カリギリ",
+      "zh": "吉娜可·加里吉利"
+    },
+    "height": {
+      "en": "153cm",
+      "ja": "153cm",
+      "zh": "153cm"
+    },
+    "weight": {
+      "en": "82kg",
+      "ja": "82kg",
+      "zh": "82kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

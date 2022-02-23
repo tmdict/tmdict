@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 363,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0363.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wada-arco",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-extella-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Spiritron Portrait: Tamamo-no-Mae",
+      "ja": "霊子肖像：玉藻の前",
+      "zh": "灵子肖像：玉藻前"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

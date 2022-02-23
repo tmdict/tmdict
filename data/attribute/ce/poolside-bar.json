@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1092,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1092.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "rei",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "all-in-las-vegas-championship-match-seven-duels-of-swordbeauties"
+  },
+
+  "data": {
+    "name": {
+      "en": "Poolside Bar",
+      "ja": "プールサイド・バー",
+      "zh": "泳池边酒吧"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

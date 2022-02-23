@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 186,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0186a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0186b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0186c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0186d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0186e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "d",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "matsuryuu",
+    "character-voice": "namikawa-daisuke",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "jumonji-spear",
+    "valentine.ce": "buddhist-meal"
+  },
+
+  "data": {
+    "name": {
+      "en": "Houzouin Inshun",
+      "ja": "宝蔵院胤舜",
+      "zh": "宝藏院胤舜"
+    },
+    "true-name": {
+      "en": "Houzouin Inshun",
+      "ja": "宝蔵院胤舜",
+      "zh": "宝藏院胤舜"
+    },
+    "height": {
+      "en": "177cm",
+      "ja": "177cm",
+      "zh": "177cm"
+    },
+    "weight": {
+      "en": "79kg",
+      "ja": "79kg",
+      "zh": "79kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

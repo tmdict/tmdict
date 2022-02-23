@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1321,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1321.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "suzuki-ema",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "theatrical-anime-fate-grand-order-the-movie-divine-realm-of-the-round-table-camelot-wandering-agateram-blu-ray-release-commemorative-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Leisurely Walk",
+      "ja": "穏やかな歩み",
+      "zh": "祥和步行"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

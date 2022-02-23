@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 941,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0941.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "endou-kaori",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-stay-night-heavens-feel-ii-lost butterfly-theatrical-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Contest of Speed",
+      "ja": "最速の証明",
+      "zh": "最快的证明"
+    },
+    "notes": {
+      "en": "Released during Fate/stay night [Heaven's Feel] III. spring song Theatrical Release Campaign",
+      "ja": "",
+      "zh": ""
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

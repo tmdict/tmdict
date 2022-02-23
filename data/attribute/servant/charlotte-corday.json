@@ -1,0 +1,46 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 259,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0259a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0259b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0259c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0259d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0259e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_1",
+    "gender": "female",
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "e",
+    "luck.parameter": "bp",
+    "noble-phantasm.parameter": "d",
+    "illustrator": "aotsuki-takao",
+    "character-voice": "horie-yui",
+    "bond.ce": "angel-of-assassination",
+    "valentine.ce": "a-gift-for-you-my-beloved"
+  },
+
+  "data": {
+    "name": {
+      "en": "Charlotte Corday",
+      "ja": "シャルロット・コルデー",
+      "zh": "夏洛特・科黛"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

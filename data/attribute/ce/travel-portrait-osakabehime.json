@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 831,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0831.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "moriyama-daisuke",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Osakabehime",
+      "ja": "英霊旅装：刑部姫",
+      "zh": "英灵旅装：刑部姬"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

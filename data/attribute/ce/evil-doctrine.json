@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 718,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0718.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "miyakojima",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "james-moriarty"
+  },
+
+  "data": {
+    "name": {
+      "en": "Evil Doctrine",
+      "ja": "邪悪教典",
+      "zh": "邪恶教典"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

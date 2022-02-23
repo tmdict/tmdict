@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 270,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0270.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "ushiwakamaru"
+  },
+
+  "data": {
+    "name": {
+      "en": "Usumidori",
+      "ja": "薄緑",
+      "zh": "薄绿"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

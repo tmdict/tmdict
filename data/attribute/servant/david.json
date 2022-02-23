@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 63,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0063a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0063b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0063c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0063d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0063e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "old-testament",
+    "region": "israel",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": ["hoshizora-meteo", "higashide-yuuichirou", "sakurai-hikaru"],
+    "illustrator": "ginka",
+    "character-voice": "nakamura-yuuichi",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "ark-of-the-covenant",
+    "valentine.ce": "my-love-for-abishag"
+  },
+
+  "data": {
+    "name": {
+      "en": "David",
+      "ja": "ダビデ",
+      "zh": "大卫"
+    },
+    "true-name": {
+      "en": "David",
+      "ja": "ダビデ",
+      "zh": "大卫"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "62kg",
+      "ja": "62kg",
+      "zh": "62kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

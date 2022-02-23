@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Namikawa Daisuke",
+      "ja": "浪川大輔",
+      "zh": "浪川大辅"
+    }
+  }
+}

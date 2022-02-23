@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 144,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0144.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "stheno"
+  },
+
+  "data": {
+    "name": {
+      "en": "Snake Chocolate (with Love)",
+      "ja": "へびチョコ（愛を込めて）",
+      "zh": "蛇巧克力（倾注了爱）"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

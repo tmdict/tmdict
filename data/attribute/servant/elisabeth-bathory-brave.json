@@ -1,0 +1,64 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 138,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0138a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0138d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0138e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fgo-halloween-2016",
+    "region": "prison-castle-csejte",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "invitation-to-halloween",
+    "valentine.ce": "legendary-chocolate-orb",
+    "related.servant": ["elisabeth-bathory", "elisabeth-bathory-halloween"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Elisabeth Báthory (Brave)",
+      "ja": "エリザベート・バートリー（ブレイブ）",
+      "zh": "伊丽莎白·巴托里（勇者）"
+    },
+    "true-name": {
+      "en": "Elisabeth Báthory",
+      "ja": "エリザベート・バートリー",
+      "zh": "伊丽莎白·巴托里"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "44kg",
+      "ja": "44kg",
+      "zh": "44kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

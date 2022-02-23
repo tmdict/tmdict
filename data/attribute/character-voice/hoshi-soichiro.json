@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Hoshi Soichiro",
+      "ja": "保志総一朗",
+      "zh": "保志总一朗"
+    }
+  }
+}

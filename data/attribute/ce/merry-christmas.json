@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1128,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1128.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "florence-nightingale-santa"
+  },
+
+  "data": {
+    "name": {
+      "en": "Merry Christmas",
+      "ja": "メリー・クリスマス",
+      "zh": "圣诞快乐"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

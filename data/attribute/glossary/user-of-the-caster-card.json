@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "u",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "User of the Caster Card",
+      "ja": "キャスターカードの使用者",
+      "zh": "Caster卡片的使用者"
+    }
+  }
+}

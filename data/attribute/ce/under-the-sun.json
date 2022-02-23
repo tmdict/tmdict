@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 773,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0773.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "erimo",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Under the Sun",
+      "ja": "陽だまりの中で",
+      "zh": "艳阳之下"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

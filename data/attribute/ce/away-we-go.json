@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 794,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0794.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "lam",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "apocrypha-inheritance-of-glory"
+  },
+
+  "data": {
+    "name": {
+      "en": "Away We Go!",
+      "ja": "出発進行！",
+      "zh": "出发前进！"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

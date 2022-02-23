@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1111,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1111.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takase-tomoaki",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "absolute-demonic-battlefront-babylonia-anime-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Absolute Demonic Front: Babylonia",
+      "ja": "絶対魔獣戦線バビロニア",
+      "zh": "绝对魔兽战线巴比伦尼亚(概念礼装)"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

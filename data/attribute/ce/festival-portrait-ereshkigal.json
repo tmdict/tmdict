@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1048,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1048.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "morii-shizuki",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Ereshkigal",
+      "ja": "英霊祭装：エレシュキガル",
+      "zh": "英灵祭装：埃列什基伽勒"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

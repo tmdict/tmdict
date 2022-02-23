@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kobayashi Yuu",
+      "ja": "小林ゆう",
+      "zh": "小林优"
+    }
+  }
+}

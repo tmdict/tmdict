@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "i",
+  "ja": "wa",
+  "jaRow": "w",
+
+  "data": {
+    "name": {
+      "en": "I Don’t Understand",
+      "ja": "わからない",
+      "zh": "我不知道"
+    }
+  }
+}

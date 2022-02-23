@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Okamoto Nobuhiko",
+      "ja": "岡本信彦",
+      "zh": "冈本信彦"
+    }
+  }
+}

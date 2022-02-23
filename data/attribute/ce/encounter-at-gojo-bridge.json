@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 288,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0288.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "musashibou-benkei"
+  },
+
+  "data": {
+    "name": {
+      "en": "Encounter at Gojo Bridge",
+      "ja": "五条大橋の邂逅",
+      "zh": "五条大桥的邂逅"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

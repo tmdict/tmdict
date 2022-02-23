@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Holy Word",
+      "ja": "聖言",
+      "zh": "圣言"
+    }
+  }
+}

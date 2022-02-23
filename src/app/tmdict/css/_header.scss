@@ -1,0 +1,174 @@
+/* Header & Nav */
+
+.top {
+  float: left;
+
+  @media #{$media-mobile} {
+    width: 100%;
+  }
+}
+
+.top-img {
+  background: $nav-background $img-top;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-bottom: $dotted-border;
+
+  @media #{$media-mobile} {
+    display: none;
+    height: auto;
+  }
+
+  &:hover {
+    background: $nav-background $img-top;
+    border: $dotted-border;
+    width: 98px;
+    height: 98px;
+  }
+
+  a {
+    font-size: 0;
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.nav {
+  float: left;
+  background: $nav-background;
+  width: 400px;
+  height: 100px;
+  border-bottom: $dotted-border;
+
+  @media #{$media-mobile} {
+    width: 100%;
+    min-width: 240px;
+    height: auto;
+  }
+}
+
+.tm {
+  color: $primary-teal;
+}
+
+.nav-ver {
+  float: left;
+  color: $text-light;
+  margin: 9px 0px 0;
+  font: normal 0.8em $font-title;
+}
+
+.nav-index {
+  float: left;
+  width: 380px;
+  height: 60px;
+  padding: 0 4px;
+  font-size: 0.8em;
+
+  @media #{$media-mobile} {
+    width: 90%;
+    min-width: 240px;
+    font-size: 1em;
+    height: auto;
+    margin-bottom: 6px;
+  }
+
+  span:before {
+    content: $separator;
+    margin: 0;
+
+    @media #{$media-mobile} {
+      content: none;
+    }
+  }
+
+  span.kara:before {
+    content: "";
+  }
+
+  span.first:before {
+    content: "";
+  }
+
+  a {
+    color: $primary-orange;
+    display: inline-block;
+    padding: 4px 5.1px 1px;
+    font-weight: bold;
+
+    &:hover {
+      color: $primary-teal;
+      padding-top: 0;
+      border-top: 4px solid $highlight-border;
+    }
+  }
+
+  a:active, .active {
+    color: $primary-teal;
+    background: $highlight-background;
+    padding-top: 0;
+    border-top: 4px solid $highlight-border;
+  }
+}
+
+.kara {
+  margin-left: 2px;
+}
+
+.menu {
+  float: right;
+  font-size: 0.75em;
+  margin: 0 10px 14px;
+  height: 15px;
+
+  @media #{$media-mobile} {
+    float: left;
+    width: 90%;
+    min-width: 240px;
+    margin: 2px 12px 16px;
+    font-size: 1em;
+  }
+}
+
+.lang {
+  float: right;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @media #{$media-mobile} {
+    float: left;
+    font-size: 1em;
+    margin-left: 10px;
+  }
+
+  span:before {
+    content: $separator;
+    margin: 0;
+  }
+
+  span.first:before {
+    content: "";
+  }
+
+  a {
+    color: #555;
+    display: inline-block;
+    padding: 5px 4px 2px;
+
+    &:hover {
+      color: $primary-orange;
+      padding-top: 0;
+      border-top: 5px solid $highlight-border;
+    }
+  }
+
+  .active {
+    color: $primary-orange;
+    background: $highlight-background;
+    padding-top: 0;
+    border-top: 5px solid $highlight-border;
+  }
+}

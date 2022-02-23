@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1439,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1439.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takase-tomoaki",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-final-singularity-grand-temple-of-time:-solomon-release-celebration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Final Singularity: The Grand Temple of Time, Solomon",
+      "ja": "終局特異点 冠位時間神殿ソロモン",
+      "zh": "终局特异点 冠位时间神殿所罗门"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Mana Compass",
+      "ja": "魔力針",
+      "zh": "魔力指针"
+    }
+  }
+}

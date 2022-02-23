@@ -1,0 +1,70 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 184,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0184a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0184b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0184c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0184d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0184e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["the-tale-of-the-heike", "genpei-jousuiki", "theatre-play-tomoe", "etc"],
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shirabi",
+    "character-voice": "kanemoto-hisako",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "thoughts-through-three-incarnations",
+    "valentine.ce": "sweet-chestnut-chocolate"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tomoe Gozen",
+      "ja": "巴御前",
+      "zh": "巴御前"
+    },
+    "other-names": {
+      "en": "Archer of Shinjuku",
+      "ja": "アーチャー・インフェルノ",
+      "zh": "Archer of Inferno"
+    },
+    "true-name": {
+      "en": "Tomoe Gozen",
+      "ja": "巴御前",
+      "zh": "巴御前"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Komatsu Mikako",
+      "ja": "小松未可子",
+      "zh": "小松未可子"
+    }
+  }
+}

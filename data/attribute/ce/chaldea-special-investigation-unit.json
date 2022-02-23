@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 768,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0768.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "komiya-kuniharu",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2020"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea Special Investigation Unit",
+      "ja": "カルデア特捜班",
+      "zh": "迦勒底特别搜查班"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

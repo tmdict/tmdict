@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 569,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0569.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "redjuice",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "abyssal-cyber-paradise-se-ra-ph"
+  },
+
+  "data": {
+    "name": {
+      "en": "Conquering the Great Sea of Stars",
+      "ja": "我らが征くは星の大海",
+      "zh": "我们的征途是星辰大海"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

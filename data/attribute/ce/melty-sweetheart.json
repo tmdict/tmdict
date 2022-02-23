@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 112,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0112.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "haimura-kiyotaka",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "Melty Sweetheart",
+      "ja": "メルティ・スイートハート",
+      "zh": "甜蜜之心"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

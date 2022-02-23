@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 933,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0933.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "riyo",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "sparrows-inn-daily-report-records-of-the-enma-teis-prosperity"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Modest Pig",
+      "ja": "慎ましき豚",
+      "zh": "质朴之猪"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

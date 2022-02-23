@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 247,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0247.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Jeweled Sword Zelretch",
+      "ja": "宝石剣ゼルレッチ",
+      "zh": "宝石剑泽尔里奇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

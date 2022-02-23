@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1082,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1082.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "higashiyama-yuusei",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "jason"
+  },
+
+  "data": {
+    "name": {
+      "en": "At the End of the Dream",
+      "ja": "夢の終わりに",
+      "zh": "梦境的终点"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

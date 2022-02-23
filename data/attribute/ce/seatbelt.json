@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 752,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0752.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "mecha-eli-chan-mk-ii"
+  },
+
+  "data": {
+    "name": {
+      "en": "Seatbelt",
+      "ja": "シートベルト",
+      "zh": "保险带"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1061,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1061.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "honjou-raita",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Shuten-Douji",
+      "ja": "英霊祭装：酒呑童子",
+      "zh": "英灵祭装：酒吞童子"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

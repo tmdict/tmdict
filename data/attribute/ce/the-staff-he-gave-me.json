@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 205,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0205.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "martha"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Staff He Gave Me",
+      "ja": "わたしの首飾り",
+      "zh": "他赐予的杖"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

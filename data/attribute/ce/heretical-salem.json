@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1105,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1105.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ohmori-aoi",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-epic-of-remnant-episode-iv-comic-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heretical Salem",
+      "ja": "異端なるセイレム",
+      "zh": "异端塞勒姆"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 338,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0338.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "helena-blavatsky"
+  },
+
+  "data": {
+    "name": {
+      "en": "Concealed Goddess",
+      "ja": "隠された女神",
+      "zh": "被隐藏的女神"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 584,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0584.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hosoi-mieko",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-apocrypha-anime-release-fgo-the-stage-performance-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO THE STAGE",
+      "ja": "FGO THE STAGE",
+      "zh": "FGO THE STAGE"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

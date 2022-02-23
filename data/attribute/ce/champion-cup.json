@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 391,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0391.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "altria-pendragon-archer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Champion Cup",
+      "ja": "チャンピオンカップ",
+      "zh": "冠军之杯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

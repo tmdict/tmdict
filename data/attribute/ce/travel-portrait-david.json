@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 844,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0844.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ginka",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: David",
+      "ja": "英霊旅装：ダビデ",
+      "zh": "英灵旅装：大卫"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

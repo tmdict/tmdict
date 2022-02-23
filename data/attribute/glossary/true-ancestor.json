@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "t",
+  "ja": "shi",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "True Ancestor",
+      "ja": "真祖",
+      "zh": "真祖"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 479,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0479.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "take",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "ozymandias"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sphinx Awlad",
+      "ja": "スフィンクス・アウラード",
+      "zh": "斯芬克斯幼崽"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

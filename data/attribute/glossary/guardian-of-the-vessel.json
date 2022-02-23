@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "g",
+  "ja": "u",
+  "jaRow": "_",
+
+  "data": {
+    "name": {
+      "en": "Guardian of the Vessel",
+      "ja": "器の守手",
+      "zh": "保护容器"
+    }
+  }
+}

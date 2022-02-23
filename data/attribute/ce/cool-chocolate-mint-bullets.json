@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 740,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0740.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "altria-pendragon-rider-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cool Chocolate Mint Bullets",
+      "ja": "チョコミントクールバレット",
+      "zh": "薄荷巧克力清凉子弹"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

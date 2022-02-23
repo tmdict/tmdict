@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 254,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0254a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0254b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0254c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0254d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0254e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "bp",
+    "magic.parameter": "d",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "black",
+    "character-voice": "hoshi-soichiro",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "at-the-end-of-the-dream",
+    "valentine.ce": "miniature-argo"
+  },
+
+  "data": {
+    "name": {
+      "en": "Jason",
+      "ja": "イアソン",
+      "zh": "伊阿宋"
+    },
+    "true-name": {
+      "en": "Jason",
+      "ja": "イアソン",
+      "zh": "伊阿宋"
+    },
+    "height": {
+      "en": "181cm",
+      "ja": "181cm",
+      "zh": "181cm"
+    },
+    "weight": {
+      "en": "76kg",
+      "ja": "76kg",
+      "zh": "76kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

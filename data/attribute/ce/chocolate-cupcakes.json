@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1173,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1173.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "aomi-dori",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "gareth"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Cupcakes",
+      "ja": "チョコカップケーキ",
+      "zh": "巧克力纸杯蛋糕"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 57,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0057a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0057b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0057c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0057d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0057e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_2",
+    "gender": "male",
+    "origin": "fagrskinna",
+    "region": ["norway", "england"],
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "bp",
+    "endurance.parameter": "bp",
+    "agility.parameter": "d",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "aotsuki-takao",
+    "character-voice": "yasui-kunihiko",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "blood-thirsting-axe",
+    "valentine.ce": "letter-from-mrs-bloodaxe"
+  },
+
+  "data": {
+    "name": {
+      "en": "Eric Bloodaxe",
+      "ja": "エイリーク・ブラッドアクス",
+      "zh": "血斧埃里克"
+    },
+    "true-name": {
+      "en": "Eric Bloodaxe",
+      "ja": "エイリーク・ブラッドアクス",
+      "zh": "血斧埃里克"
+    },
+    "height": {
+      "en": "195cm",
+      "ja": "195cm",
+      "zh": "195cm"
+    },
+    "weight": {
+      "en": "115kg",
+      "ja": "115kg",
+      "zh": "115kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

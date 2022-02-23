@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 903,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0903.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mashu",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-land-of-mystique-oniland-the-great-oni-and-the-kamuys-gold"
+  },
+
+  "data": {
+    "name": {
+      "en": "Simply Crimson",
+      "ja": "ただ紅く",
+      "zh": "遍染艳红"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

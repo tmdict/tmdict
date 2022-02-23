@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 253,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0253a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0253b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0253c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0253d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0253e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["historical-fact", "fate-grand-order"],
+    "region": "2017-south-pole",
+    "alignment": "lawful-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "shimokoshi",
+    "character-voice": "sakamoto-maaya",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "beautiful-journey",
+    "valentine.ce": "chaldea-new-order",
+    "related.servant": "leonardo-da-vinci"
+  },
+
+  "data": {
+    "name": {
+      "en": "Leonardo da Vinci (Rider)",
+      "ja": "レオナルド・ダ・ヴィンチ（ライダー）",
+      "zh": "莱昂纳多·达·芬奇（Rider）"
+    },
+    "true-name": {
+      "en": "Gran Cavallo (From Leonardo‘s unfinished horse sculpture, “The Giant Steed (Gran Cavallo)”)",
+      "ja": "グラン・カヴァッロ（レオナルド作による未完の馬の彫像、『巨大な馬（Gran Cavallo）』より）",
+      "zh": "格兰·卡瓦洛（出自莱昂纳多制作的未完成的马之雕像，『巨大的马（Gran Cavallo）』）"
+    },
+    "height": {
+      "en": "144cm",
+      "ja": "144cm",
+      "zh": "144cm"
+    },
+    "weight": {
+      "en": "36.5kg",
+      "ja": "36.5kg",
+      "zh": "36.5kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce",  "valentine.ce", "related.servant"]
+  ]
+}

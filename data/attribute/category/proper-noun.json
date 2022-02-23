@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 0,
+
+  "data": {
+    "name": {
+      "en": "proper-noun",
+      "ja": "固有名詞",
+      "zh": "固有名词"
+    }
+  }
+}

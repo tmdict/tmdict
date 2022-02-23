@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1114,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1114.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "aoba-shigure",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "saber-wars-2"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cultural and Martial Arts (Simultaneously)",
+      "ja": "文武一道",
+      "zh": "文武一道"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

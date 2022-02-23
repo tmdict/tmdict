@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sanda Makoto",
+      "ja": "三田誠",
+      "zh": "三田诚"
+    }
+  }
+}

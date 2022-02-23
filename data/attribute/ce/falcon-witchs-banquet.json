@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 692,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0692.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "circe"
+  },
+
+  "data": {
+    "name": {
+      "en": "Falcon Witch’s Banquet",
+      "ja": "鷹の魔女の宴",
+      "zh": "鹰魔女之宴"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

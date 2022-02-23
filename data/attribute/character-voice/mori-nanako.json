@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Mori Nanako",
+      "ja": "森なな子",
+      "zh": "森奈奈子"
+    }
+  }
+}

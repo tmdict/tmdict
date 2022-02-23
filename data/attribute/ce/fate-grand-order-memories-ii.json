@@ -1,0 +1,35 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1104,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1104.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "noco",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-memories-ii-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/Grand Order Memories II",
+      "ja": "Fate/Grand Order Memories Ⅱ",
+      "zh": "Fate/Grand Order Memories Ⅱ"
+    },
+    "notes": {
+      "en": "Released during Craft Essence Recollection Campaign",
+      "ja": "",
+      "zh": ""
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "notes"]
+  ]
+}

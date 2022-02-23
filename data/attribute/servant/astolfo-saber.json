@@ -1,0 +1,47 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 270,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0270a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0270b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0270c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0270d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0270e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "_qm",
+    "alignment": "chaotic-good",
+    "strength.parameter": "cp",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "app",
+    "noble-phantasm.parameter": "b",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "ookubo-rumi",
+    "bond.ce": "otherworldly-mystical-horse",
+    "valentine.ce": ["bunny-ears", "chewy-kagami-mochi-chocolate"],
+    "related.servant": "astolfo"
+  },
+
+  "data": {
+    "name": {
+      "en": "Astolfo (Saber)",
+      "ja": "アストルフォ（セイバー）",
+      "zh": "阿斯托尔福（Saber）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce", "related.servant"]
+  ]
+}

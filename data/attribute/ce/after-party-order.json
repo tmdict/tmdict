@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 60,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0060.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "hanabana-tsubomi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "gudaguda-honnoji"
+  },
+
+  "data": {
+    "name": {
+      "en": "After-Party Order!",
+      "ja": "打ち上げオーダー！",
+      "zh": "庆功Order！"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 825,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0825.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "huke",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Altera",
+      "ja": "英霊旅装：アルテラ",
+      "zh": "英灵旅装：阿蒂拉"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

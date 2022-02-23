@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 848,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0848.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "aotsuki-takao",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Nezha",
+      "ja": "英霊旅装：哪吒",
+      "zh": "英灵旅装：哪吒"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

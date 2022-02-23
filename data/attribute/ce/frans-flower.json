@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 797,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0797.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "necomi",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "apocrypha-inheritance-of-glory"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Fran’s Flower",
+      "ja": "概念礼装EXPカード：フランの花",
+      "zh": "概念礼装EXP卡：弗兰之花"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

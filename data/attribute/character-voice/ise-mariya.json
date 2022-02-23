@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ise Mariya",
+      "ja": "伊瀬茉莉也",
+      "zh": "伊濑茉莉也"
+    }
+  }
+}

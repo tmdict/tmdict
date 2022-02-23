@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1037,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1037.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "nishiide-kengorou",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-epic-of-remnant-comic-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Abyssal Cyber Paradise, SE.RA.PH",
+      "ja": "深海電脳楽土 SE.RA.PH",
+      "zh": "深海电脑乐土 SE.RA.PH"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

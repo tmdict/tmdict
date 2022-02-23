@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2006-08-20",
+  "weight": 2006080,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Character Material",
+      "ja": "Character Material",
+      "zh": "Character Material"
+    }
+  }
+}

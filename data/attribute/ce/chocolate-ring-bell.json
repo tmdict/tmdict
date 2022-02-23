@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 983,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0983.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "wapokichi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "quetzalcoatl-santa-samba"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chocolate Ring Bell",
+      "ja": "闘争の始まりと終わりを告げるチョコラーテ",
+      "zh": "宣告争斗开始与终结的巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

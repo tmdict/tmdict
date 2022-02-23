@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1409,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1409.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": ["morita-kazuaki", "hirose-tomohito"],
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-carnival-1st-season-release-celebration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/Grand Carnival 1st Season",
+      "ja": "Fate/Grand Carnival 1st Season",
+      "zh": "Fate/Grand Carnival 1st Season"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

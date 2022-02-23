@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 865,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0865.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "sumeragi-kohaku",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "servant-summer-festival"
+  },
+
+  "data": {
+    "name": {
+      "en": "Emerald Float",
+      "ja": "エメラルド・フロート",
+      "zh": "翠绿上的摇曳"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

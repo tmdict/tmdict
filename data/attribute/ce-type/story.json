@@ -1,0 +1,12 @@
+{
+  "type": "ce-type",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Story",
+      "ja": "ストーリー礼装",
+      "zh": "剧情限定"
+    }
+  }
+}

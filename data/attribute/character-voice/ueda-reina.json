@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Ueda Reina",
+      "ja": "上田麗奈",
+      "zh": "上田丽奈"
+    }
+  }
+}

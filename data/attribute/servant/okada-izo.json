@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 210,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0210a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0210b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0210c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0210d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0210e_april-fools.png" },
+    { "weight": 6, "id": "img_yooo-this-hakama-is-rad", "src": "S0210f_yooo-this-hakama-is-rad.png" },
+    { "weight": 7, "id": "img_im-one-dapping-fella-suit", "src": "S0210g_im-one-dapping-fella-suit.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "e",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "keikenchi",
+    "illustrator": "lack",
+    "character-voice": "yoshino-hiroyuki",
+    "major-appearances": ["koha-ace-go", "fate-grand-order"],
+    "bond.ce": "the-sky-on-that-day",
+    "valentine.ce": "cotton-scarf"
+  },
+
+  "data": {
+    "name": {
+      "en": "Okada Izo",
+      "ja": "岡田以蔵",
+      "zh": "冈田以藏"
+    },
+    "true-name": {
+      "en": "Okada Izo",
+      "ja": "岡田以蔵",
+      "zh": "冈田以藏"
+    },
+    "height": {
+      "en": "174cm",
+      "ja": "174cm",
+      "zh": "174cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

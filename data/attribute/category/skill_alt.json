@@ -1,0 +1,13 @@
+{
+  "type": "category",
+  "attrType": 0,
+  "categoryType": 3,
+
+  "data": {
+    "name": {
+      "en": "skill",
+      "ja": "スキル名",
+      "zh": "技能名"
+    }
+  }
+}

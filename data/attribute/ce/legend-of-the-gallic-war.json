@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 286,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0286.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "gaius-julius-caesar"
+  },
+
+  "data": {
+    "name": {
+      "en": "Legend of the Gallic War",
+      "ja": "ガリア戦記",
+      "zh": "高卢战记"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "paths": {
+    "assets": "asset",
+    "css": ["kara"],
+    "data": "data",
+    "dist": "dist/book",
+    "img": ["img/glossary"],
+    "src": "src/app/book"
+  },
+  "filterlist": {},
+  "content": [
+    "angel-voice",
+    "character-material",
+    "colorful-moon-tsukihime",
+    "fate-apocrypha-material",
+    "fate-extella-material",
+    "fate-extra-material",
+    "fate-side-material",
+    "fate-type-redline-vol-1",
+    "fate-zero-animation-guide-i",
+    "fate-zero-animation-guide-ii",
+    "fate-zero-material",
+    "garden-of-sinners-pamphlet",
+    "hibichika-complete-capture-book",
+    "lord-el-melloi-ii-case-files-material",
+    "melty-blood-act-cadenza-ps2-manual",
+    "melty-blood-back-alley-alliance-nightmare-vol-1",
+    "melty-blood-official-strategy-guide",
+    "moonlight-lostroom-material",
+    "prisma-material-petit",
+    "tsukihime-data-collection",
+    "tsukihime-dokuhon-plus-period",
+    "tsukihime-material-i",
+    "yoi-no-myoujou"
+  ],
+  "app": {
+    "lang": {
+      "en": { "id": "en", "name": "English" },
+      "ja": { "id": "ja", "name": "日本語" },
+      "zh": { "id": "zh", "name": "中文" }
+    },
+    "i18n": {
+      "lang": { "en": "EN", "zh": "中", "ja": "日" }
+    }
+  }
+}

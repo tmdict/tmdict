@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "v",
+  "ja": "ki",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Vampiric Impulse",
+      "ja": "吸血衝動",
+      "zh": "吸血冲动"
+    }
+  }
+}

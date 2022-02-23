@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 167,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0167a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0167b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0167c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0167d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0167e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-extra-ccc",
+    "region": ["moon-cell", "se-ra-ph"],
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "ap",
+    "agility.parameter": "bp",
+    "magic.parameter": "ex",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "tanaka-rie",
+    "major-appearances": "fate-extra-ccc",
+    "bond.ce": "cradle-dream",
+    "valentine.ce": "special-sessyoin-bean-cake",
+    "related.servant": "beast-iii-r"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sessyoin Kiara",
+      "ja": "殺生院キアラ",
+      "zh": "杀生院祈荒"
+    },
+    "true-name": {
+      "en": "Heaven’s Hole / Third Heterodoxy Pleasure Deva of Deliberate Delight",
+      "ja": "ヘブンズホール／歓喜自在第三外法快楽天",
+      "zh": "天堂之孔／随喜自在第三外法快乐天"
+    },
+    "height": {
+      "en": "166cm~half a yojana [A Yojana is a Vedic measure of distance used in ancient India. The exact measurement is disputed amongst scholars with distances being given between 6 to 15 kilometers (4 to 9 miles).]",
+      "ja": "166cm～半由旬",
+      "zh": "166cm~半由旬"
+    },
+    "weight": {
+      "en": "53kg~???",
+      "ja": "53kg～？？？",
+      "zh": "53kg~？？？"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 203,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0203a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0203b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0203c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0203d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0203e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "folklore",
+    "region": "europe",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "setting-verification.character-setting": "miwa-kiyomune",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "miyamoto-mitsuru",
+    "major-appearances": ["fate-apocrypha", "fate-grand-order"],
+    "bond.ce": "a-certain-truth-and-death",
+    "valentine.ce": "chocolate-mini-golems"
+  },
+
+  "data": {
+    "name": {
+      "en": "Avicebron",
+      "ja": "アヴィケブロン",
+      "zh": "阿维斯布隆"
+    },
+    "true-name": {
+      "en": "Avicebron",
+      "ja": "アヴィケブロン",
+      "zh": "阿维斯布隆"
+    },
+    "height": {
+      "en": "161cm",
+      "ja": "161cm",
+      "zh": "161cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "setting-verification.character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 782,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0782.png" }
+  ],
+
+  "attribute": {
+    "star": "star_2",
+    "illustrator": "akita-inu",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mercy",
+      "ja": "慈愛",
+      "zh": "慈爱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

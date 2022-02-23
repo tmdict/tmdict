@@ -1,0 +1,73 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 220,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0220a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0220b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0220c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0220d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0220e_april-fools.png" },
+    { "weight": 6, "id": "img_little-devils-egg-colored-skin-s2", "src": "S0220f_little-devils-egg-colored-skin-s2.png" },
+    { "weight": 7, "id": "img_little-devils-egg-colored-skin-s3", "src": "S0220g_little-devils-egg-colored-skin-s3.png" }
+  ],
+
+  "attribute": {
+    "class": "moon-cancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-extra-ccc",
+    "region": ["moon-cell", "se-ra-ph"],
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "app",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "shitaya-noriko",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "final-vacation",
+    "valentine.ce": "master-in-the-chocolate",
+    "related.servant": "bb"
+  },
+
+  "data": {
+    "name": {
+      "en": "BB (Summer)",
+      "ja": "BB（水着）",
+      "zh": "BB（Summer）"
+    },
+    "true-name": {
+      "en": "BB",
+      "ja": "BB",
+      "zh": "BB"
+    },
+    "height": {
+      "en": "156cm~??",
+      "ja": "156cm～？？",
+      "zh": "156cm～？？"
+    },
+    "weight": {
+      "en": "46kg~??",
+      "ja": "46kg～？？",
+      "zh": "46kg～？？"
+    },
+    "notes": {
+      "en": "Changed from Chaotic Good",
+      "ja": "混沌・善から変化している",
+      "zh": "由混沌·善变成了恶"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "notes", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

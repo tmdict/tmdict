@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Nero Fest: The Colosseum of Victory",
+      "ja": "ネロ祭　～勝ち抜け熱闘コロシアム～",
+      "zh": "尼禄祭 ～淘汰激战竞技场～"
+    }
+  }
+}

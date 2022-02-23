@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Hanae Natsuki",
+      "ja": "花江夏樹",
+      "zh": "花江夏树"
+    }
+  }
+}

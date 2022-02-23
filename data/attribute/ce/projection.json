@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 23,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0023.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "takeuchi-takashi",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Projection",
+      "ja": "投影魔術",
+      "zh": "投影魔术"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

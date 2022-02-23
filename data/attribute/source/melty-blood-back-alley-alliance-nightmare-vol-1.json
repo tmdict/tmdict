@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2016-07-26",
+  "weight": 2016070,
+
+  "attribute": {
+    "work": "melty-blood"
+  },
+
+  "data": {
+    "name": {
+      "en": "MB Back Alley Alliance Nightmare",
+      "ja": "Melty Blood路地裏ナイトメア",
+      "zh": "Melty Blood小巷子噩梦"
+    }
+  }
+}

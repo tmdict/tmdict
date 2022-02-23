@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1141,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1141.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kazeto",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "new-years-campaign-2022"
+  },
+
+  "data": {
+    "name": {
+      "en": "Clear Dawn",
+      "ja": "晴れの曙",
+      "zh": "晴朗黎明"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

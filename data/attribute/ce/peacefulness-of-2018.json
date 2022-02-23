@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 76,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0076.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "shirotsumekusa",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "happy-new-year-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "Peacefulness of 2018",
+      "ja": "2016年の平穏",
+      "zh": "2016年的平稳"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

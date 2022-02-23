@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1083,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1083.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "moryo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "paris"
+  },
+
+  "data": {
+    "name": {
+      "en": "Consider Carefully",
+      "ja": "熟慮すべし",
+      "zh": "本应深思熟虑"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

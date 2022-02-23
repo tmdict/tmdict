@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1146,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1146.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": ["hamatomo-rie", "cloverworks"],
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "absolute-demonic-battlefront-babylonia-anime-release-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Stargazers",
+      "ja": "星を視る者",
+      "zh": "观星者"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

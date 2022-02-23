@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 410,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0410.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "jaguar-warrior"
+  },
+
+  "data": {
+    "name": {
+      "en": "Primal Flame",
+      "ja": "原初の火",
+      "zh": "原初之火"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

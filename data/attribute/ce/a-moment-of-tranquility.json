@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 387,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0387.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "taho",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "the-little-santa-alter-christmas-2018"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Moment of Tranquility",
+      "ja": "静穏なひと時",
+      "zh": "安静平稳之刻"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

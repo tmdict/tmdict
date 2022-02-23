@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Nazuka Kaori",
+      "ja": "名塚佳織",
+      "zh": "名塚佳织"
+    }
+  }
+}

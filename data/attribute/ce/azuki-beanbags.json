@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 568,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0568.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "chacha"
+  },
+
+  "data": {
+    "name": {
+      "en": "Azuki Beanbags",
+      "ja": "小豆のお手玉",
+      "zh": "赤豆布袋"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

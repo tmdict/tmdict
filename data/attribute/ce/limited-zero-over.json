@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 33,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0033.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "takeuchi-takashi",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Limited/Zero Over",
+      "ja": "リミテッド／ゼロオーバー",
+      "zh": "限制/零毁"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

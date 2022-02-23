@@ -1,0 +1,73 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 86,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0086a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0086b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0086c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0086d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0086e_april-fools.png" },
+    { "weight": 6, "id": "img_mysterious-heroine-z", "src": "S0086f_mysterious-heroine-z.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "2013-april-fools",
+    "region": "servant-world",
+    "alignment": "chaotic-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "bunbun",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": ["back-alley-satsuki-chapter-heroine-sanctuary", "fate-grand-order"],
+    "bond.ce": "annihilation-list",
+    "valentine.ce": "du-stallion-chocolate",
+    "related.servant": "mysterious-heroine-xx"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mysterious Heroine X",
+      "ja": "謎のヒロインX",
+      "zh": "谜之女主角X"
+    },
+    "true-name": {
+      "en": "Mysterious Heroine X",
+      "ja": "謎のヒロインX",
+      "zh": "谜之女主角X"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    },
+    "notes": {
+      "en": "(insists she is a Saber)",
+      "ja": "（本人はセイバーと主張している）",
+      "zh": "（本人主张是Saber）"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "notes"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

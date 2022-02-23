@@ -1,0 +1,34 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 915,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0915.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "azuma-toh",
+    "ce-type": "story",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Phoenix Alights",
+      "ja": "不死鳥は大地に",
+      "zh": "不死鸟落于大地"
+    },
+    "notes": {
+      "en": "Obtained after completing Lostbelt 3",
+      "ja": "Lostbelt3クリア後にガチャ追加",
+      "zh": "通关Lostbelt3后获得"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "notes"]
+  ]
+}

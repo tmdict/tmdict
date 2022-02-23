@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 785,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0785.png" }
+  ],
+
+  "attribute": {
+    "star": "star_2",
+    "illustrator": "kirusu",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Synchronization",
+      "ja": "同調",
+      "zh": "同调"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

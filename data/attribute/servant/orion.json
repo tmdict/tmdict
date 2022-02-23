@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 60,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0060a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0060b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0060c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0060d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0060e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": ["male", "female"],
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "i-iv",
+    "character-voice": ["canna-nobutoshi", "sawashiro-miyuki"],
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "tri-star-belt",
+    "valentine.ce": ["help", "snack-stick-bbq-flavor"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Orion",
+      "ja": "オリオン",
+      "zh": "俄里翁"
+    },
+    "true-name": {
+      "en": "Orion (however, the linchpin is Artemis)",
+      "ja": "オリオン（ただし主軸はアルテミス）",
+      "zh": "俄里翁（主轴是阿尔忒弥斯）"
+    },
+    "height": {
+      "en": "165cm",
+      "ja": "165cm",
+      "zh": "165cm"
+    },
+    "weight": {
+      "en": "44kg (height and weight belong to Artemis, Orion’s height and weight are unknown)",
+      "ja": "44kg（身長と体重はアルテミスのもの、オリオンの身長体重は不明）",
+      "zh": "44kg（身高体重是阿耳忒弥斯的数据，俄里翁的身长体重不明）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

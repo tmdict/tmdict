@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Miyamoto Mitsuru",
+      "ja": "宮本充",
+      "zh": "宫本充"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 151,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0151.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "ichihashi-makoto",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "chocolate-ladys-commotion-valentines-2018",
+    "valentine.servant": "tamamo-cat"
+  },
+
+  "data": {
+    "name": {
+      "en": "Wonderful Life",
+      "ja": "ワンダフル・ライフ",
+      "zh": "美妙人生"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

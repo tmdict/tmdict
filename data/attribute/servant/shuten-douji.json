@@ -1,0 +1,67 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 112,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0112a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0112b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0112c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0112d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0112e_april-fools.png" },
+    { "weight": 6, "id": "img_splendid-cherry-blossom-song", "src": "S0112f_splendid-cherry-blossom-song.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["otogizoushi", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "divine-wine-shinpen-kidoku",
+    "valentine.ce": "nectar-bonbons",
+    "related.servant": "shuten-douji-caster"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shuten-Douji",
+      "ja": "酒呑童子",
+      "zh": "酒吞童子"
+    },
+    "true-name": {
+      "en": "Shuten-Douji",
+      "ja": "酒呑童子",
+      "zh": "酒吞童子"
+    },
+    "height": {
+      "en": "145cm",
+      "ja": "145cm",
+      "zh": "145cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

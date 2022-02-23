@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2002-09-01",
+  "weight": 2002090,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Colorful MOON Tsukihime",
+      "ja": "カラフルMOON月姫",
+      "zh": "Colorful MOON月姬"
+    }
+  }
+}

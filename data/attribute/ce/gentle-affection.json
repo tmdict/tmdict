@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 184,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0184.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "redrop",
+    "ce-type": "regular",
+    "obtained": "summon",
+    "event": "da-vinci-and-the-7-counterfeit-heroic-spirits"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gentle Affection",
+      "ja": "柔らかな慈愛",
+      "zh": "柔软的慈爱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

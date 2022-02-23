@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1096,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1096.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "saitou-hiroki",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "all-in-las-vegas-championship-match-seven-duels-of-swordbeauties"
+  },
+
+  "data": {
+    "name": {
+      "en": "Midsummer Memories",
+      "ja": "盛夏の思い出",
+      "zh": "盛夏的回忆"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

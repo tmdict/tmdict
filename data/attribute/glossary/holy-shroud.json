@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "h",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Holy Shroud",
+      "ja": "聖骸布",
+      "zh": "圣骸布"
+    }
+  }
+}

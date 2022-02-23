@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 160,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0160.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kikuchi-junya",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Summer’s Precognition",
+      "ja": "夏の未来視",
+      "zh": "夏日未来视"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

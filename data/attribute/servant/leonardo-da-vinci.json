@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 127,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0127a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0127b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0127c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0127d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0127e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shimokoshi",
+    "character-voice": "sakamoto-maaya",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "universal-wisdom-root-of-intellect",
+    "valentine.ce": ["bastenyan-x", "vitruvian-cioccolato"],
+    "related.servant": "leonardo-da-vinci-rider"
+  },
+
+  "data": {
+    "name": {
+      "en": "Leonardo Da Vinci",
+      "ja": "レオナルド・ダ・ヴィンチ",
+      "zh": "莱昂纳多·达·芬奇"
+    },
+    "true-name": {
+      "en": "Leonardo Da Vinci",
+      "ja": "レオナルド・ダ・ヴィンチ",
+      "zh": "莱昂纳多·达·芬奇"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "40kg",
+      "ja": "40kg",
+      "zh": "40kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

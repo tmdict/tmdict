@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "b",
+  "ja": "hi",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "BBB",
+      "ja": "BBB",
+      "zh": "BBB"
+    }
+  }
+}

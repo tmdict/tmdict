@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 283,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0283.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "karna"
+  },
+
+  "data": {
+    "name": {
+      "en": "Light of the Deprived",
+      "ja": "貧者の一灯",
+      "zh": "贫者一灯"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

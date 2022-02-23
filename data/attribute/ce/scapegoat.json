@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 524,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0524.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "amao",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "revival-chocolate-ladys-commotion-valentines-2018-expanded",
+    "valentine.servant": "vlad-iii"
+  },
+
+  "data": {
+    "name": {
+      "en": "Scapegoat",
+      "ja": "スケープゴート",
+      "zh": "替罪羔羊"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 62,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0062.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "yaguchi-minato",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "gudaguda-honnoji"
+  },
+
+  "data": {
+    "name": {
+      "en": "GUDAGUDA Poster Girl",
+      "ja": "ぐだぐだ看板娘",
+      "zh": "唠唠叨叨看板娘"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

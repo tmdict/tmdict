@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 41,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0041.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "kunieda",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "nero-fest-the-colosseum-of-victory"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nightless Rose",
+      "ja": "不夜の薔薇",
+      "zh": "不夜蔷薇"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

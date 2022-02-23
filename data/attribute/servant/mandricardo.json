@@ -1,0 +1,47 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 273,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0273a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0273b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0273c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0273d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0273e_april-fools.png" },
+    { "weight": 6, "id": "img_summer-sportswear", "src": "S0273f_summer-sportswear.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_3",
+    "gender": "male",
+    "alignment": "true-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "illustrator": "ginka",
+    "character-voice": "toshiki-masuda",
+    "bond.ce": "the-sword-broken-at-battles-end",
+    "valentine.ce": "durendal-replica"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mandricardo",
+      "ja": "マンドリカルド",
+      "zh": "曼迪卡尔多"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["bond.ce",  "valentine.ce"]
+  ]
+}

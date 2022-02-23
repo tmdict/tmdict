@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kadowaki Mai",
+      "ja": "門脇舞以",
+      "zh": "门胁舞以"
+    }
+  }
+}

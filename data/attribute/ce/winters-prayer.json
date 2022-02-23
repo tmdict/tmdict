@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1006,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1006.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "kogecha",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "lady-reiness-case-files"
+  },
+
+  "data": {
+    "name": {
+      "en": "Winter’s Prayer",
+      "ja": "冬の祈り",
+      "zh": "冬日祈祷"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

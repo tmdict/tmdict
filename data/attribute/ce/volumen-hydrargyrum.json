@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 185,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0185.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "pako",
+    "ce-type": "regular",
+    "obtained": "summon",
+    "event": "fate-accel-zero-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Volumen Hydrargyrum",
+      "ja": "月霊髄液",
+      "zh": "月灵髓液"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

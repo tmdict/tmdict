@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2012-03-26",
+  "weight": 2012030,
+
+  "attribute": {
+    "work": "fate-zero"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/Zero Animation Guide I",
+      "ja": "Fate/Zero アニメビジュアルガイド I",
+      "zh": "Fate/Zero动画视觉指南I"
+    }
+  }
+}

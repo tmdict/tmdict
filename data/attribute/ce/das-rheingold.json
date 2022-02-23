@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 219,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0219.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "siegfried"
+  },
+
+  "data": {
+    "name": {
+      "en": "Das Rheingold",
+      "ja": "ラインの黄金",
+      "zh": "莱茵的黄金"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

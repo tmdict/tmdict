@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 199,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0199a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0199b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0199c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0199d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0199e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "folklore",
+    "region": "middle-east",
+    "alignment": "lawful-evil",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "shindou-kei",
+    "major-appearances": "fate-apocrypha",
+    "bond.ce": "uncertain-glass",
+    "valentine.ce": "chocolates-of-betrayal"
+  },
+
+  "data": {
+    "name": {
+      "en": "Semiramis",
+      "ja": "セミラミス",
+      "zh": "塞弥拉弥斯"
+    },
+    "true-name": {
+      "en": "Semiramis",
+      "ja": "セミラミス",
+      "zh": "塞弥拉弥斯"
+    },
+    "height": {
+      "en": "169cm",
+      "ja": "169cm",
+      "zh": "169cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1120,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1120.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "tatsuyo",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "calamity-jane"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Shooting Star Cheerleader",
+      "ja": "流れ星のチアガール",
+      "zh": "流星拉拉队女孩"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

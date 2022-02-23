@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1043,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1043.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "pako",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Arjuna",
+      "ja": "英霊祭装：アルジュナ",
+      "zh": "英灵祭装：阿周那"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

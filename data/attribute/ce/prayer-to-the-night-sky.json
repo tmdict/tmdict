@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1322,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1322.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "suzuki-ema",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "theatrical-anime-fate-grand-order-the-movie-divine-realm-of-the-round-table-camelot-wandering-agateram-blu-ray-release-commemorative-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Prayer to the Night Sky",
+      "ja": "夜空に祈りを",
+      "zh": "向夜空祈祷"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

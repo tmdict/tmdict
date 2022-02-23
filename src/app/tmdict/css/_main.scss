@@ -1,0 +1,294 @@
+/* Main content */
+
+.main {
+  float: left;
+  width: 500px;
+  
+  @media #{$media-mobile} {
+    width: 100%;
+    min-width: 240px;
+  }
+}
+
+.main-content {
+  font-size: 0.8em;
+  margin: 15px 0 30px;
+  line-height: 1.8em;
+
+  @media #{$media-mobile} {
+    font-size: 1em;
+    margin: 15px 0 30px 14px;
+  }
+
+  td {
+    padding: 0 15px 0 5px;
+  }
+
+  /* Entry */
+
+  .entry-content, .page-content {
+    margin: 10px 20px 0px 0;
+    font-family: $font-content;
+    
+    table {
+      background: $side-background;
+      border-top: 1px solid $text-light;
+      border-left: 1px solid $text-light;
+      border-spacing: 0;
+      margin: 20px auto;
+      width: 99%;
+      font-size: 0.95em;
+    }
+
+    tr {
+      &:hover {
+        background: $highlight-background;
+        color: $primary-orange;
+      }
+
+      &.header td {
+        color: #555;
+        font-weight: bold;
+        background: $nav-background;
+      }
+    }
+
+    td {
+      border-right: 1px solid $text-light;
+      border-bottom: 1px solid $text-light;
+      line-height: 1.6em;
+      padding: 4px;
+      margin: 12px;
+      font-size: 0.9em;
+      vertical-align: top;
+
+      a {
+        text-align: left;
+        border: 0;
+      }
+    }
+  }
+
+  .entry-category, .entry-source {
+    margin: 0 0 5px;
+  }
+
+  .entry-header {
+    font: normal 1.1em $font-title;
+
+    .contact {
+      float: right;
+      margin: 1px 20px 0 0;
+      font-size: 0.9em;
+    }
+  }
+
+  .permalink {
+    float: left;
+    color: #aaa;
+    font: normal 1.1em $font-title;
+
+    a {
+      color: #aaa;
+      padding: 0 2px;
+
+      &:hover {
+        color: $primary-teal;
+        border-bottom: $dotted-border;
+      }
+    }
+  }
+
+  .contact {
+    a {
+      color: $primary-red;
+      border-bottom: $dotted-border;
+
+      &:hover {
+        color: $primary-orange;
+      }
+    }
+
+    &:before {
+      @extend .bracket-before;
+      color: $text-light;
+    }
+
+    &:after {
+      @extend .bracket-after;
+      color: $text-light;
+    }
+  }
+
+  .entry-content {
+    h3 {
+      color: $text-dark;
+      font-size: 1em;
+    }
+    
+    h4 {
+      color: $text-light;
+      font-size: 1em;
+      margin: 0 0 13px;
+      padding: 9px 0 7px;
+      border: 0;
+    }
+  }
+
+  .entry-category {
+    width: 100%;
+
+      a:hover {
+      color: $primary-red;
+      border-bottom: $dotted-border;
+    }
+  }
+
+  .entry-source a:hover {
+    color: $primary-green;
+    border-bottom: $dotted-border;
+  }
+
+  .entry-image {
+    margin: 20px auto 10px;
+    padding-right: 20px;
+    text-align: center;
+
+    img {
+      border: 1px dashed #ccc;
+      margin: 0 5px;
+    }
+  }
+
+  .note {
+    color: #aaa;
+    margin: 0 2px 0 1px;
+    font-weight: bold;
+
+    a:hover {
+      border-bottom: $dotted-border;
+    }
+
+    &:before {
+      content: $bracket-left;
+    }
+
+    &:after {
+      content: $bracket-right;
+    }
+  }
+
+  .notelink {
+    font-weight: bold;
+  }
+
+  /* Filter list */
+
+  .first {
+    border-top: $dotted-border;
+  }
+
+  .filter-list-item {
+    font-size: 0.95em;
+    border-bottom: $dotted-border;
+
+    &:hover {
+      background: $highlight-background;
+    }
+
+    .entry-title {
+      font-size: 1.1em;
+      color: $text-dark;
+      width: 170px;
+
+      @media #{$media-mobile} {
+        width: 100%;
+      }
+    }
+
+    .entry-category {
+      width: 150px;
+      margin: 2px 0;
+
+      @media #{$media-mobile} {
+        width: 100%;
+        margin: 2px;
+      }
+    }
+
+    .entry-source {
+      width: 170px;
+      margin: 2px 0;
+
+      @media #{$media-mobile} {
+        width: 100%;
+        margin: 2px;
+      }
+    }
+  }
+
+  /* Page */
+
+  .page-content {
+    a {
+      border-bottom: $dotted-border;
+    }
+
+    td {
+      a {
+        display: block;
+      }
+
+      .source {
+        color: $primary-green;
+      }
+
+      .page {
+        color: $text-light;
+      }
+
+      .glossary {
+        color: $primary-orange;
+      }
+
+      &.progress0 {
+        background: #fcc;
+      }
+
+      &.progress1 {
+        background: #fd9;
+      }
+
+      &.progress2 {
+        background: #ff9;
+      }
+
+      &.progress3 {
+        background: #dfc;
+      }
+    }
+
+    img {
+      border: 1px dashed #ccc;
+      padding: 2px;
+    }
+
+    .readmore {
+      border-top: $dotted-border;
+      margin-top: 20px;
+      text-align: right;
+    }
+  }
+}
+
+/* Filter list */
+
+.filter-list {
+  ul, ul li {
+    @extend .clear-list;
+  }
+
+  .entry {
+    padding: 5px 0 1px 5px;
+  }
+}

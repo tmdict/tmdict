@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 715,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0715.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "souji-hougu",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine"
+  },
+
+  "data": {
+    "name": {
+      "en": "Witches’ Kitchen",
+      "ja": "ウィッチズ・キッチン",
+      "zh": "魔女厨房"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

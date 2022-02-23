@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "a",
+  "jaRow": "_",
+
+  "data": {
+    "name": {
+      "en": "Malignant Information",
+      "ja": "悪性情報",
+      "zh": "恶性情报"
+    }
+  }
+}

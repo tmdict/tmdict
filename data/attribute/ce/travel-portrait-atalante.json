@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 821,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0821.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "rin-kususaga",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-3rd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Travel Portrait: Atalante",
+      "ja": "英霊旅装：アタランテ",
+      "zh": "英灵旅装：阿塔兰忒"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

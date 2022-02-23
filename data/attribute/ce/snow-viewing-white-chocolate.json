@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 973,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0973.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "beppu-mitsunaka",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2021-voices-and-letters-murasaki-shikibu-and-the-seven-cursed-books",
+    "valentine.servant": "sitonai"
+  },
+
+  "data": {
+    "name": {
+      "en": "Snow-Viewing White Chocolate",
+      "ja": "雪見ホワイトチョコ",
+      "zh": "赏雪白巧克力"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

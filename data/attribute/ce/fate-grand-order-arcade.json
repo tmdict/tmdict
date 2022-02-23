@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 864,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0864.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": ["takeuchi-takashi", "shimokoshi", "azusa", "pako", "bsuke", "honjou-raita", "morii-shizuki", "rin-kususaga"],
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-arcade-release-commemoration-campaign"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/Grand Order Arcade",
+      "ja": "Fate/Grand Order Arcade",
+      "zh": "Fate/Grand Order Arcade"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

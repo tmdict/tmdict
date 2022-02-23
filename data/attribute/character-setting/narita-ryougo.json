@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Narita Ryougo",
+      "ja": "成田良悟",
+      "zh": "成田良悟"
+    }
+  }
+}

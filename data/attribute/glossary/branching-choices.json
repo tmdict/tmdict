@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "b",
+  "ja": "se",
+  "jaRow": "s",
+
+  "data": {
+    "name": {
+      "en": "Branching Choices",
+      "ja": "選択枝",
+      "zh": "选择"
+    }
+  }
+}

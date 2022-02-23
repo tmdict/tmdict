@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 400,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0400.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "i-iv",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Devilish Bodhisattva",
+      "ja": "魔性菩薩",
+      "zh": "魔性菩萨"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

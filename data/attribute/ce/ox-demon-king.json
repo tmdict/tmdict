@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 241,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0241.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "tsukimoto-aoi",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "journey-to-the-west-with-the-planets-sanzang-chan"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ox-Demon King",
+      "ja": "九首牛魔羅王",
+      "zh": "九首牛魔罗王"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

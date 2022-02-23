@@ -1,0 +1,34 @@
+@import 'normalize';
+
+$media-compact: "only screen and (max-width: 840px)";
+$media-mobile: "only screen and (max-width: 660px)";
+
+$primary-link: #21759b;
+$primary-link-highlight: #c05b4d;
+$primary-highlight: #f7d87c;
+$primary-heading: #c05b4d;
+$secondary-heading: #333;
+
+$bg-main: #f8f7f6 url('../img/bg_light.gif');
+$bg-body: #222;
+$bg-row-grey-light: #eee;
+$bg-row-grey-dark: #e9e9e9;
+
+$text-header: #e6eaed;
+$text-light: #757575;
+$text-dark: #333;
+
+$base-font: Arial, "Microsoft YaHei", sans-serif;
+$bracket-left: "[";
+$bracket-right: "]";
+$dotted-border: 1px dotted #aaa;
+$content-gold: #baaf81;
+$content-break: url('../img/ornament.png');
+$content-break-position: calc(50% - 95px);
+
+@import 'base';
+@import 'header';
+@import 'filterlist';
+@import 'content';
+
+@import 'swiper';

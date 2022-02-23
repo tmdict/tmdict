@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "d",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Descending Elevator",
+      "ja": "降下エレベーター",
+      "zh": "下降电梯"
+    }
+  }
+}

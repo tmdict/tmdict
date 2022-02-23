@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 78,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0078a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0078b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0078c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0078d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0078e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "ap",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "app",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "ishida-akira",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "black-helmet",
+    "valentine.ce": "worlds-end-white"
+  },
+
+  "data": {
+    "name": {
+      "en": "Altria Pendragon (Lancer Alter)",
+      "ja": "アルトリア・ペンドラゴン（オルタ）（ランサー）",
+      "zh": "阿尔托莉雅·潘德拉贡（Alter）（Lancer）"
+    },
+    "true-name": {
+      "en": "Altria Pendragon",
+      "ja": "アルトリア・ペンドラゴン",
+      "zh": "阿尔托莉雅·潘德拉贡"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "57kg? (there are various opinions about Altria’s physique as her body weight is not listed when she is a Lancer)",
+      "ja": "57kg？（ランサー時の体重ないし体型には諸説が存在する）",
+      "zh": "57kg？（关于其身为Lancer时的体重与体型的问题，诸说纷纭）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

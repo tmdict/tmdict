@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Suzuki Tatsuhisa",
+      "ja": "鈴木達央",
+      "zh": "铃木达央"
+    }
+  }
+}

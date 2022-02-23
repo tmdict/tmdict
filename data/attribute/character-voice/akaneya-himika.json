@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Akaneya Himika",
+      "ja": "茜屋日海夏",
+      "zh": "茜屋日海夏"
+    }
+  }
+}

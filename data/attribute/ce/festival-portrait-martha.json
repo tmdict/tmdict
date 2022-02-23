@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1072,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1072.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakamoto-mineji",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Martha",
+      "ja": "英霊祭装：マルタ",
+      "zh": "英灵祭装：玛尔达"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

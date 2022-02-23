@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1170,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1170.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "akita-inu",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "leonardo-da-vinci-rider"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chaldea New Order",
+      "ja": "カルデア・ニューオーダー",
+      "zh": "迦勒底新指定"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

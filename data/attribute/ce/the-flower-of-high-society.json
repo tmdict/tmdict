@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 564,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0564.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "nambo-attall",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "gudaguda-meiji-restoration"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Flower of High Society",
+      "ja": "社交界の華",
+      "zh": "社交界之花"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

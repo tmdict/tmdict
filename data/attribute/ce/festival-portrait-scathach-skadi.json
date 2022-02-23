@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1062,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1062.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "koyama-hirokazu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fate-grand-order-2021-4th-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Festival Portrait: Scáthach-Skadi",
+      "ja": "英霊祭装：スカサハ＝スカディ",
+      "zh": "英灵祭装：斯卡哈·斯卡蒂"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

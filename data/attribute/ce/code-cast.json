@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 56,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0056.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "anmi",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Code Cast",
+      "ja": "コードキャスト",
+      "zh": "指令咏唱"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

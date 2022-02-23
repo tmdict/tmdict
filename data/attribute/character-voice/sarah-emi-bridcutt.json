@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sarah Emi Bridcutt",
+      "ja": "ブリドカットセーラ恵美",
+      "zh": "Bridcutt Sarah 惠美"
+    }
+  }
+}

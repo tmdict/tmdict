@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1161,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1161.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sasaki-midori",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "lakshmi-bai"
+  },
+
+  "data": {
+    "name": {
+      "en": "Lump of Fortune",
+      "ja": "幸運の塊",
+      "zh": "幸运块"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

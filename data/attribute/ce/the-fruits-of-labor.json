@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 889,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0889.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "jeanne-darc-alter-berserker"
+  },
+
+  "data": {
+    "name": {
+      "en": "The Fruits of Labor",
+      "ja": "積み重ねた時間の結晶",
+      "zh": "日积月累的时间结晶"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

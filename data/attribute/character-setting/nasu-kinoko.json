@@ -1,0 +1,12 @@
+{
+  "type": "character-setting",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Nasu Kinoko",
+      "ja": "奈須きのこ",
+      "zh": "奈须蘑菇"
+    }
+  }
+}

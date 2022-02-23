@@ -1,0 +1,12 @@
+{
+  "type": "region",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Russia",
+      "ja": "ロシア",
+      "zh": "俄罗斯"
+    }
+  }
+}

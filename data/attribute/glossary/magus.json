@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Magus",
+      "ja": "魔術師",
+      "zh": "魔术师"
+    }
+  }
+}

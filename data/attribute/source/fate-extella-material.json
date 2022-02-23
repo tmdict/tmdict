@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2016-11-10",
+  "weight": 2016110,
+
+  "attribute": {
+    "work": "fate-ex"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fate/EXTELLA material",
+      "ja": "Fate/EXTELLA material",
+      "zh": "Fate/EXTELLA material"
+    }
+  }
+}

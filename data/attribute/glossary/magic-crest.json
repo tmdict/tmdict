@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "m",
+  "ja": "ma",
+  "jaRow": "m",
+
+  "data": {
+    "name": {
+      "en": "Magic Crest",
+      "ja": "魔術刻印",
+      "zh": "魔术刻印"
+    }
+  }
+}

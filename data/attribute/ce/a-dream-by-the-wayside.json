@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 577,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0577.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "bb"
+  },
+
+  "data": {
+    "name": {
+      "en": "A Dream by the Wayside",
+      "ja": "路傍の夢",
+      "zh": "路旁之梦"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

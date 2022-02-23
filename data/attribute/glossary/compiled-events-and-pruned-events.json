@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "c",
+  "ja": "he",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "Compiled Events and Pruned Events",
+      "ja": "編纂事象と剪定事象",
+      "zh": "编纂事件与剪辑事件"
+    }
+  }
+}

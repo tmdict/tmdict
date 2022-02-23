@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 314,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0314.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "_na",
+    "ce-type": "exp",
+    "obtained": "event",
+    "event": "a-magical-girls-travelogue-prisma-causeway"
+  },
+
+  "data": {
+    "name": {
+      "en": "CE EXP Card: Magical Ruby",
+      "ja": "概念礼装EXPカード：マジカルルビー",
+      "zh": "概念礼装EXP卡：魔法红宝石"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

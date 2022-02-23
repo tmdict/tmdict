@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Sakurai Takahiro",
+      "ja": "櫻井孝宏",
+      "zh": "樱井孝宏"
+    }
+  }
+}

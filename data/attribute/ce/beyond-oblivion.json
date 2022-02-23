@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1032,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1032.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "sakuma-mitsuro",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "demon-king-nobunaga"
+  },
+
+  "data": {
+    "name": {
+      "en": "Beyond Oblivion",
+      "ja": "無劫の彼方",
+      "zh": "无劫的彼方"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

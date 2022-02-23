@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "n",
+  "ja": "ne",
+  "jaRow": "n",
+
+  "data": {
+    "name": {
+      "en": "Necromancy",
+      "ja": "死霊魔術",
+      "zh": "死灵魔术"
+    }
+  }
+}

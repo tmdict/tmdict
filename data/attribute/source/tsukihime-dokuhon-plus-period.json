@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2004-10-22",
+  "weight": 2004100,
+
+  "attribute": {
+    "work": "tsukihime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tsukihime Dokuhon Plus Period",
+      "ja": "月姫読本 Plus Period",
+      "zh": "月姬读本Plus Period"
+    }
+  }
+}

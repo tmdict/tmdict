@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 813,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0813.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "illustrator": "konpeitou",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Child of Atlas",
+      "ja": "アトラスの嬰児",
+      "zh": "阿特拉斯的婴儿"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

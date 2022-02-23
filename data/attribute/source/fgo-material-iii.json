@@ -1,0 +1,18 @@
+{
+  "type": "source",
+  "attrType": 0,
+  "releaseDate": "2016-12-29",
+  "weight": 20161200,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material III",
+      "ja": "FGO material III",
+      "zh": "FGO material III"
+    }
+  }
+}

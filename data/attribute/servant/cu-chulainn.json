@@ -1,0 +1,66 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 17,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0017a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0017b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0017c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0017d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0017e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": ["celtic-mythology", "ulster-mythology"],
+    "region": "ireland",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "kanna-nobutoshi",
+    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"],
+    "bond.ce": "star-of-prophecy",
+    "valentine.ce": "rune-stone-earring-chocolates",
+    "related.servant": "cu-chulainn-caster"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cú Chulainn",
+      "ja": "クー・フーリン",
+      "zh": "库·丘林"
+    },
+    "true-name": {
+      "en": "Cú Chulainn",
+      "ja": "クー・フーリン",
+      "zh": "库·丘林"
+    },
+    "height": {
+      "en": "185cm",
+      "ja": "185cm",
+      "zh": "185cm"
+    },
+    "weight": {
+      "en": "72kg",
+      "ja": "72kg",
+      "zh": "72kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce", "related.servant"]
+  ]
+}

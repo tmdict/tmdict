@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Izawa Shiori",
+      "ja": "井澤詩織",
+      "zh": "井泽诗织"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 224,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0224.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "eric-bloodaxe"
+  },
+
+  "data": {
+    "name": {
+      "en": "Blood-Thirsting Axe",
+      "ja": "血を啜る斧",
+      "zh": "嗜血之斧"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

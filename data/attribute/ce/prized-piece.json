@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 642,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0642.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "_na",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "sherlock-holmes"
+  },
+
+  "data": {
+    "name": {
+      "en": "Prized Piece",
+      "ja": "自慢の一挺",
+      "zh": "引以为傲的一把"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

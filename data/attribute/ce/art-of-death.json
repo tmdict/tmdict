@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 183,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0183.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "medori",
+    "ce-type": "regular",
+    "obtained": "summon",
+    "event": "da-vinci-and-the-7-counterfeit-heroic-spirits"
+  },
+
+  "data": {
+    "name": {
+      "en": "Art of Death",
+      "ja": "死の芸術",
+      "zh": "死之艺术"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

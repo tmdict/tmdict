@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 39,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0039.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "morii-shizuki",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Holy Shroud of Magdalene",
+      "ja": "マグダラの聖骸布",
+      "zh": "抹大拉的圣骸布"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

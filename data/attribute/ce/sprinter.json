@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 162,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0162.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "shiojima-yuka",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "kara-no-kyoukai-the-garden-of-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sprinter",
+      "ja": "スプリンター",
+      "zh": "短跑选手"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1163,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1163.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "herosumi",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2022-a-not-so-ordinary-valentines-murasaki-shikibu-and-the-five-slaying-queens",
+    "valentine.servant": "arjuna-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "An Ordinary Miraculous Stone",
+      "ja": "ありきたりの奇跡的な石",
+      "zh": "普通的奇迹之石"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}

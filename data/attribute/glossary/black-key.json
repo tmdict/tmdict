@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "b",
+  "ja": "ko",
+  "jaRow": "k",
+
+  "data": {
+    "name": {
+      "en": "Black Key",
+      "ja": "黒鍵",
+      "zh": "黑键"
+    }
+  }
+}

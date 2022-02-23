@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 597,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0597.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "konoe-ototsugu",
+    "ce-type": "gift",
+    "obtained": "event",
+    "event": "fgo-2019-2nd-anniversary"
+  },
+
+  "data": {
+    "name": {
+      "en": "Formal Portrait: Mordred",
+      "ja": "英霊正装：モードレッド",
+      "zh": "英灵正装：莫德雷德"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

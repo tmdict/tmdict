@@ -1,0 +1,65 @@
+{
+  "type": "servant",
+  "attrType": 1,
+  "fgoId": 188,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0188a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0188b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0188c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0188d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0188e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["kouyou-gunkan-massho-ketsuyou-bon", "hokuetsu-gundan", "otogi-bouko", "ehon-kouetsu-gunki", "etc"],
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "soga-makoto",
+    "character-voice": "akesaka-satomi",
+    "major-appearances": "fate-grand-order",
+    "bond.ce": "danzos-cow",
+    "valentine.ce": "fuuma-manjyu-revised"
+  },
+
+  "data": {
+    "name": {
+      "en": "Katou “Black Kite” Danzou",
+      "ja": "加藤段蔵",
+      "zh": "加藤段藏"
+    },
+    "true-name": {
+      "en": "Katou “Black Kite” Danzou",
+      "ja": "加藤段蔵",
+      "zh": "加藤段藏"
+    },
+    "height": {
+      "en": "165cm",
+      "ja": "165cm",
+      "zh": "165cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["bond.ce", "valentine.ce"]
+  ]
+}

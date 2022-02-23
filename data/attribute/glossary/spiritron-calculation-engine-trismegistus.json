@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "ri",
+  "jaRow": "r",
+
+  "data": {
+    "name": {
+      "en": "Spiritron Calculation Engine “TRISMEGISTUS”",
+      "ja": "霊子演算器 トリスメギストス",
+      "zh": "灵子演算器·特里斯墨吉斯忒斯"
+    }
+  }
+}

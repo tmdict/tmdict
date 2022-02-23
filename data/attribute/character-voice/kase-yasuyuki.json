@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Kase Yasuyuki",
+      "ja": "加瀬康之",
+      "zh": "加濑康之"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 750,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C0750.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "beppu-mitsunaka",
+    "ce-type": "valentine",
+    "obtained": "event",
+    "event": "valentines-2020-the-bountiful-chocolate-gardens-of-valentine",
+    "valentine.servant": "osakabehime"
+  },
+
+  "data": {
+    "name": {
+      "en": "Got a Problem with Unoriginal Stuff?",
+      "ja": "ありきたりで悪い？",
+      "zh": "老套难道不好吗？"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event", "valentine.servant"]
+  ]
+}
