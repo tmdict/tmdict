@@ -76,14 +76,10 @@
   .entry-header {
     font: normal 1.1em $font-title;
 
-    .contact, .git {
+    .contact {
       float: right;
       margin: 1px 20px 0 0;
       font-size: 0.9em;
-    }
-
-    .git {
-      margin-right: 7px;
     }
   }
 
@@ -103,29 +99,14 @@
     }
   }
 
-  .git {
-    a {
-      color: #999;
-
-      &:hover {
-        color: $primary-teal;
-      }
-    }
-  }
-
   .contact {
     a {
       color: $primary-red;
+      border-bottom: $dotted-border;
 
       &:hover {
         color: $primary-orange;
       }
-    }
-  }
-
-  .contact, .git {
-    a {
-      border-bottom: $dotted-border;
     }
 
     &:before {

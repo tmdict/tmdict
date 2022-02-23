@@ -44,8 +44,6 @@
             <div class="entry-title">{{attribute.name}}</div>
             <div class="permalink"><a title="Link" href="{{level}}{{lang}}/{{attribute.hiragana.id}}.{{attribute.id}}{{ext}}">#</a></div>
             <div id="contact" class="contact"><a href="{{level}}contact/#{{lang}}-{{attribute.id}}">report error</a></div>
-            <div id="git" class="git"><a href="https://github.com/slsdo/tmdict/blob/main/data/content/{{content.0.source.id}}/{{attribute.id}}.{{lang}}.md">git</a></div>
-            <div id="git" class="git"><a href="{{level}}/raw/{{content.0.source.id}}/{{attribute.id}}.{{lang}}.md">raw</a></div>
           </div>
           {{#each content}}
             <div class="group">
@@ -65,6 +63,10 @@
               {{#if this.img}}
                 <div class="entry-image"><img title="{{this.source.name}}" src="{{../level}}src/img/glossary/{{this.img}}" alt="{{this.img}}" /></div>
               {{/if}}
+              <div class="entry-links">
+                <div id="raw" class="link"><a href="{{../level}}raw/{{this.source.id}}/{{../attribute.id}}.{{../lang}}.md">raw</a></div>
+                <div id="git" class="link"><a href="https://github.com/slsdo/tmdict/blob/main/data/content/{{this.source.id}}/{{../attribute.id}}.{{../lang}}.md">git</a></div>
+              </div>
               <div class="entry-source"><a href="{{../level}}{{../lang}}/#?nav=ja&src={{this.source.id}}">{{this.source.name}}: {{this.name.name}}</a></div>
             </div>
           {{/each}}

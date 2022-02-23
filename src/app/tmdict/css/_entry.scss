@@ -54,3 +54,32 @@
     @extend .bracket-after;
   }
 }
+
+.entry-links {
+  float: left;
+  width: 100%;
+
+  .link {
+    float: left;
+    color: #999;
+    font-size: 1em;
+    margin: 0 5px 5px 0;
+
+    a {
+      color: #999;
+
+      &:hover {
+        color: $primary-orange;
+        border-bottom: $dotted-border;
+      }
+    }
+
+    &:before {
+      @extend .bracket-before;
+    }
+
+    &:after {
+      @extend .bracket-after;
+    }
+  }
+}
