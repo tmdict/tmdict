@@ -11,7 +11,8 @@ name: "その他"
 以下のダウンロードファイルやサイトはスタイルが異なります。
 
 - <a href="../book/">書籍</a>：ミニマルなデザインのページ一つで全てのエントリーを表示。
-- <a href="../book/">CHALDEAの記録</a>：『Fate/Grand Order』のデータや情報を簡潔に多言語でまとめたものです。
+- <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>：『Fate/Grand Order』のデータや情報を簡潔に多言語でまとめたものです。
+- <a href="https://github.com/slsdo/tmdict/">Gitリポジトリ</a>：ソースコード。
 
 以下、現在ご利用可能（こちらで把握している限り）なType-Moon用語集のリストです。
 

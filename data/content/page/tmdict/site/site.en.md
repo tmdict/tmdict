@@ -20,15 +20,21 @@ This policy applies to all content excepting translations by translators and dat
 
 ### Collaborate
 
-If you are interested in contributing, please <a href="../contact/">send us a message</a>.
+If you are interested in contributing, please <a href="../contact/">send us a message</a>. You can also contribute directly <a href="https://github.com/slsdo/tmdict/tree/main/data">via GitHub</a>.
 
 Alternatively, there is a “Report Error” link on each page for user to easily report errors or inconsistencies while browsing the site.
 
 ### Updates
 
+**2022-02-23**
+
+TMdict’s data and source code is now open to public on GitHub. Feel free to take a look around, update translations (requires a GitHub account), contribute, or download a copy of the site for offline access!
+
+- Opened up tmdict GitHub repository.
+
 **2021-10-24**
 
-<em>Tsukihime Remake</em> was released this summer, the limited edition of the game came with a material book, the book’s glossary has now been added to our database.
+_Tsukihime Remake_ was released this summer, the limited edition of the game came with a material book, the book’s glossary has now been added to our database.
 
 - Added Tsukihime Material I -material of blue glass moon-: Tsukihime Work Glossary.
 
@@ -36,7 +42,7 @@ Alternatively, there is a “Report Error” link on each page for user to easil
 
 Happy holidays! With this update comes the addition of a new _PRISMA material/petit_ glossary and the completion of _HibiChika Complete Capture Book_’s English glossary. There are currently no other outstanding glossaries we are actively working on, so this will likely the last big update for a while (we’re always happy to accept user-contributed glossary translations, though!)
 
-For now we will focus on improving site stability and user experience, and continue to update <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a> with new content.
+For now we will focus on improving site stability and user experience, and continue to update CHALDEAの記録 with new content.
 
 - Added Encyclopedia of Prisma Illya MOVIE.
 - Added Mahou Tsukai no Hako Small Encylopedia English glossary.
@@ -60,13 +66,13 @@ Full English and Chinese glossary translation for _MOONLIGHT/LOSTROOM material_ 
 
 TMdict is excited to announce the launch of a new project:
 
-<a href="https://chaldea.tmdict.com/">CHALDEAの記録</a> (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
+CHALDEAの記録 (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
 
-The site’s backend archtecture also received a major update, switching from React to <a href="https://svelte.dev/">Svelte</a>, as well as moving its data to GitHub. Many small improvements have also been made around the site.
+The site’s backend archtecture also received a major update, switching from React to Svelte, as well as moving its data to GitHub. Many small improvements have also been made around the site.
 
 Given these major changes, TMdict is now version 3!
 
-- Added <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>.
+- Added CHALDEAの記録.
 - Major overhaul of site backend.
 
 **2020-04-09**
@@ -80,7 +86,7 @@ Full glossary translation for _Lord El-Melloi II Case Files material_, from Twil
 
 **2020-03-17**
 
-First update of 2020! With this update, the _Fate/EXTELLA_ glossary is now complete. As always, we are always looking for help, please <a href="../contact/">notify us</a> if you notice any translation errors!
+First update of 2020! With this update, the _Fate/EXTELLA_ glossary is now complete. As always, we are always looking for help, please notify us if you notice any translation errors!
 
 - Added English translation of Fate/EXTELLA glossary.
 - Fixed many translation inconsistencies.
@@ -93,7 +99,7 @@ First update of 2020! With this update, the _Fate/EXTELLA_ glossary is now compl
 
 **2019-06-09**
 
-With this update, the _Fate/EXTRA_ glossary is finally complete; missing entries in the Chinese glossary have been filled, and proofreading of the English glossary is now finished. If you notice any more errors, please <a href="../contact/">notify us</a>!
+With this update, the _Fate/EXTRA_ glossary is finally complete; missing entries in the Chinese glossary have been filled, and proofreading of the English glossary is now finished. If you notice any more errors, please notify us!
 
 - Added missing entries to Fate/EXTRA Chinese glossary.
 - Fixed formatting, grammar, and translation inconsistencies in Fate/EXTRA English glossary.

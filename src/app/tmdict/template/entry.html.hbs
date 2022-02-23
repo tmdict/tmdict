@@ -44,7 +44,8 @@
             <div class="entry-title">{{attribute.name}}</div>
             <div class="permalink"><a title="Link" href="{{level}}{{lang}}/{{attribute.hiragana.id}}.{{attribute.id}}{{ext}}">#</a></div>
             <div id="contact" class="contact"><a href="{{level}}contact/#{{lang}}-{{attribute.id}}">report error</a></div>
-            <div id="git" class="git"><a href="https://github.com/slsdo/tmdict/blob/main/data/content/{{content.1.source.id}}/{{attribute.id}}.{{lang}}.md">git</a></div>
+            <div id="git" class="git"><a href="https://github.com/slsdo/tmdict/blob/main/data/content/{{content.0.source.id}}/{{attribute.id}}.{{lang}}.md">git</a></div>
+            <div id="git" class="git"><a href="https://raw.githubusercontent.com/slsdo/tmdict/main/data/content/{{content.0.source.id}}/{{attribute.id}}.{{lang}}.md">raw</a></div>
           </div>
           {{#each content}}
             <div class="group">

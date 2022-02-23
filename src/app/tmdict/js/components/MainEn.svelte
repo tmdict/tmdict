@@ -1,5 +1,15 @@
 <div class="page-content">
-  <h4 style="border-top:0">Site News <span style="float:right;font-size:0.65em"><span style="color:#777">Last Updated:</span> <span style="color:#c05b4d">2021-12-12</span></span></h4>
+  <h4 style="border-top:0">Site News</h4>
+
+  <h5>2022-02-23</h5>
+
+  <p>TMdict’s data and source code is now <a href="https://github.com/slsdo/tmdict">open to public on GitHub</a>. Feel free to take a look around, <a href="https://github.com/slsdo/tmdict/tree/main/data">update translations</a> (requires a GitHub account), contribute, or download a copy of the site for offline access!</p>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>Opened up tmdict GitHub repository.</li>
+  </ul>
 
   <h5>2021-10-24</h5>
 
@@ -23,17 +33,6 @@
     <li>Added Encyclopedia of Prisma Illya MOVIE.</li>
     <li>Added Mahou Tsukai no Hako Small Encylopedia English glossary.</li>
     <li>Updated CHALDEAの記録 contents up to <em>FGO Material 8</em>.</li>
-  </ul>
-
-  <h5>2020-08-01</h5>
-
-  <p>Translation of <a href="https://www.tmdict.com/book/#fate-type-redline-vol-1?lang=en">Fate/type Redline Glossary</a> (from <em>Fate/type Redline Vol. 1</em>) is now available on the site. Also, English glossary of <em><a href="https://www.tmdict.com/book/#fate-zero-animation-guide-i?lang=en">Fate/Zero Animation Visual Guide I</a></em> + <em><a href="https://www.tmdict.com/book/#fate-zero-animation-guide-ii?lang=en">II</a></em> is now 100% complete.</p>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>Added Fate/type Redline Glossary.</li>
-    <li>Updated Fate/Zero Animation Visual Guide I + II English glossary.</li>
   </ul>
 
   <div class="readmore"><a href="./site#updates">Past Updates</a></div>

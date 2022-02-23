@@ -1,5 +1,15 @@
 <div class="page-content">
-  <h4 style="border-top:0">网站新闻 <span style="float:right;font-size:0.65em"><span style="color:#777">最近更改：</span><span style="color:#c05b4d">2021-12-12</span></span></h4>
+  <h4 style="border-top:0">网站新闻</h4>
+
+  <h5>2022-02-23</h5>
+
+  <p>型月辞典的数据和源代码<a href="https://github.com/slsdo/tmdict">在GitHub上公开</a>。您可以随意浏览本网站的源代码或对<a href="https://github.com/slsdo/tmdict/tree/main/data">网站资源进行编辑</a>（需要GitHub帐户），或下载一个备份以供离线使用！</p>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>公开型月辞典的GitHub仓库。</li>
+  </ul>
 
   <h5>2021-10-24</h5>
 
