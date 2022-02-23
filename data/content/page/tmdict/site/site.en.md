@@ -14,7 +14,7 @@ name: "Site"
 
 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 
-The contents of this site may be used in non-commercial derivative works on the condition that proper credit and linkbacks are provided, attaching additional reference to the translators would also be greatly appreciated. We also ask that you refrain from hotlinking to images found on this site.
+The contents of this site may be used in derivative works on the condition that proper credit and linkbacks are provided, attaching additional reference to the translators would also be greatly appreciated. We also ask that you refrain from hotlinking to images found on this site.
 
 This policy applies to all content excepting translations by translators and data providers who have additional policies regarding usage of their work. When in doubt, we recommend you contact the translator for permission.
 

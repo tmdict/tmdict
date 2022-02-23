@@ -6,7 +6,7 @@ weight: 4
 name: "Usage"
 ---
 
-The contents of this site may be used in <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">non-commercial derivative works</a> on the condition that **proper credit and linkbacks are provided**, attaching additional reference to the translators would also be greatly appreciated. We also ask that you refrain from hotlinking to images found on this site.
+The contents of this site <a href="https://creativecommons.org/licenses/by-sa/4.0/">may be used in derivative works</a> on the condition that proper credit and linkbacks are provided, attaching additional reference to the translators would also be greatly appreciated. We also ask that you refrain from hotlinking to images found on this site.
 
 This policy applies to all content excepting translations by translators who have additional policies regarding usage of their work. When in doubt, we recommend you contact the translator for permission.
 

@@ -36,6 +36,8 @@
 
   <div id="main">
     <div class="content">
+      <h1>Missing</h1>
+      <br />
       <table>
         {#each data.missing[$activeLang] as entry}
           <tr>

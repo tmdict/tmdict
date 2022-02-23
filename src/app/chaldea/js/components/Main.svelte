@@ -48,7 +48,7 @@
 
     <div class="content">
       <table class="center" style="width:350px">
-        <tr><td style="width:120px">Last Updated</td><td>2021-12-17</td></tr>
+        <tr><td style="width:120px">Last Updated</td><td>2022-02-23</td></tr>
       </table>  
     </div>
 
