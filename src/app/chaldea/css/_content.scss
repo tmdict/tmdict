@@ -27,6 +27,16 @@
       margin-top: 8px;
       font-size: 0.85rem;
     }
+
+    .git {
+      a {
+        color: $text-light;
+
+        &:hover {
+          color: $text-dark;
+        }
+      }
+    }
   }
 
   .note {

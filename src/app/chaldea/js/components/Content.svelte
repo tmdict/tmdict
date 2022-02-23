@@ -2,6 +2,8 @@
   import Metadata from './Metadata.svelte'
   import { activeLang, activeLangTick } from '../stores.js'
 
+  export let entryType
+  export let entryId
   export let data
 
   let contentLang = $activeLang
@@ -13,6 +15,12 @@
   }
 
   const updateLang = (event) => (contentLang = event.detail.lang)
+
+  const getGitUrl = (source, entryId, entryType, contentId, contentLang) => {
+    const path = `${entryId}/${contentId}.${contentLang}`
+    const url = source == 'fate-grand-order' ? `${source}/${entryType}/${path}` : `${source}/${path}`
+    return `https://github.com/slsdo/tmdict/blob/main/data/content/${url}.md`
+  }
 </script>
 
 <div class="content">
@@ -22,11 +30,12 @@
         {data.i18n[contentLang].name.name} <a href="#{$activeLang}.{data.id}">#</a>
       </h2>
     {/if}
-  
+
     <Metadata
       language={Object.keys(data.i18n)}
       source={(data.i18n[contentLang]) ? data.i18n[contentLang].source.name : ''}
       translation={(data.i18n[contentLang]) ? data.i18n[contentLang].translation : ''}
+      gitUrl={getGitUrl(data.source, entryId, entryType, data.id, contentLang)}
       on:langUpdate={updateLang}
     />
 

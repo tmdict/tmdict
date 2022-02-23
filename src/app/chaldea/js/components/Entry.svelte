@@ -24,6 +24,11 @@
   }
 
   const updateLang = event => (contentLang = event.detail.lang)
+
+  const getGitUrl = (entryId, entryType, contentLang) => {
+    const url = `fate-grand-order/${attribute.type}/${attribute.id}/attr.${contentLang}`
+    return `https://github.com/slsdo/tmdict/tree/main/data/content/${url}.md`
+  }
 </script>
 
 <svelte:head>
@@ -55,7 +60,11 @@
         </div>
 
         <div class="attribute">
-          <Metadata language={Object.keys(attribute.layout)} on:langUpdate={updateLang} />
+          <Metadata
+            language={Object.keys(attribute.layout)}
+            gitUrl={getGitUrl(attribute.id, attribute.type, contentLang)}
+            on:langUpdate={updateLang}
+          />
 
           <div>
             <table>
@@ -80,7 +89,7 @@
 
       {#each content as section}
         {#if section.i18n[contentLang]}
-          <Content data={section} />
+          <Content entryType={attribute.type} entryId={attribute.id} data={section} />
         {/if}
       {/each}
   </div>
