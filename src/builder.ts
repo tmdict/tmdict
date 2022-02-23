@@ -66,6 +66,14 @@ export default class Builder {
     })
   }
 
+  /** Generate raw data to `output` dir */
+  buildRaw = (paths: AppPaths, content: string[] = []): void => {
+    console.log(`Building raws`)
+    content.forEach((source) => {
+      fs.copySync(`${paths.data}/content/${source}`, `${paths.dist}/raw/${source}`, { overwrite: true })
+    })
+  }
+
   /** Generates data for app and filterlist */
   buildAppData = (
     paths: AppPaths,

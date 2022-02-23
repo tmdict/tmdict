@@ -119,6 +119,7 @@ export default class App {
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img)
     builder.buildCss(appConfig.paths, appConfig.paths.css)
+    builder.buildRaw(appConfig.paths, appConfig.content)
 
     // Build attributes
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
