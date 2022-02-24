@@ -128,6 +128,12 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
   <tr id="2020ftredline">
     <td>2020-06-04<br /><span class="source">Fate/type Redline Vol. 1</span>: <span class="glossary">Fate/type Redline Glossary</span>, <span class="page">pp.202–203</span></td>
   </tr>
+  <tr id="2020himuten2">
+    <td>2020-08-24<br /><span class="source">Himuten/material II</span>: <span class="glossary">Encyclopedia II of Himuro no tenchi</span>, <span class="page">pp.4–56</span></td>
+  </tr>
+  <tr id="2021himuten3">
+    <td>2021-07-20<br /><span class="source">Himuten/material III</span>: <span class="glossary">Encyclopedia III of Himuro no tenchi</span>, <span class="page">pp.8–63</span></td>
+  </tr>
   <tr id="2021tm1">
     <td>2021-08-26<br /><span class="source">Tsukihime Material I</span>: <span class="glossary">Tsukihime Work Glossary</span>, <span class="page">pp.98–101</span></td>
   </tr>

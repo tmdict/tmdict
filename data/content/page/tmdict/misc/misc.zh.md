@@ -128,6 +128,12 @@ name: "其他"
   <tr id="2020ftredline">
     <td>2020-06-04<br /><span class="source">帝都圣杯奇谭Fate/type Redline 第一卷</span>: <span class="glossary">Fate/type Redline用语事典</span>, <span class="page">pp.202–203</span></td>
   </tr>
+  <tr id="2020himuten2">
+    <td>2020-08-24<br /><span class="source">Himuten/material II</span>: <span class="glossary">Encyclopedia II of Himuro no tenchi</span>, <span class="page">pp.4–56</span></td>
+  </tr>
+  <tr id="2021himuten3">
+    <td>2021-07-20<br /><span class="source">Himuten/material III</span>: <span class="glossary">Encyclopedia III of Himuro no tenchi</span>, <span class="page">pp.8–63</span></td>
+  </tr>
   <tr id="2021tm1">
     <td>2021-08-26<br /><span class="source">月姬Material I</span>: <span class="glossary">『月姬』作品用语集</span>, <span class="page">pp.98–101</span></td>
   </tr>
