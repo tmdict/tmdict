@@ -18,15 +18,15 @@ export default {
     file: `${appConfig.paths.dist}/src/js/app.js`,
   },
   plugins: [
-		svelte({
-			compilerOptions: {
-				// enable run-time checks when not in production
-				dev: !production
-			}
-		}),
-		// we'll extract any component CSS out into
-		// a separate file - better for performance
-		css({ output: 'bundle.css' }),
+    svelte({
+      compilerOptions: {
+        // enable run-time checks when not in production
+        dev: !production
+      }
+    }),
+    // we'll extract any component CSS out into
+    // a separate file - better for performance
+    css({ output: 'bundle.css' }),
 
     // If you have external dependencies installed from
     // npm, you'll most likely need these plugins. In
@@ -57,22 +57,22 @@ export default {
 }
 
 function serve() {
-	let server
+  let server
 
-	function toExit() {
-		if (server) server.kill(0)
-	}
+  function toExit() {
+    if (server) server.kill(0)
+  }
 
-	return {
-		writeBundle() {
-			if (server) return
-			server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
-				stdio: ['ignore', 'inherit', 'inherit'],
-				shell: true
-			})
+  return {
+    writeBundle() {
+      if (server) return
+      server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
+        stdio: ['ignore', 'inherit', 'inherit'],
+        shell: true
+      })
 
-			process.on('SIGTERM', toExit)
-			process.on('exit', toExit)
-		}
-	}
+      process.on('SIGTERM', toExit)
+      process.on('exit', toExit)
+    }
+  }
 }
