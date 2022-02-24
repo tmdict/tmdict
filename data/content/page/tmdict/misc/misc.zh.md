@@ -12,7 +12,7 @@ name: "其他"
 
 - <a href="../book/">书本</a>：所有的内容都显示在一个页面上。
 - <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>：『Fate/Grand Order』英灵和概念礼装的资料网站。
-- <a href="https://github.com/slsdo/tmdict/">Git仓库</a>：源代码。
+- <a href="https://github.com/tmdict/tmdict/">Git仓库</a>：源代码。
 
 以下是我们能找到的所有Type-Moon作品相关辞典（根据我们能找到的几乎所有资料）。
 

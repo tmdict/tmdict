@@ -6,7 +6,7 @@ look over your changes. Once your changes have been approved, they will be merge
 deployed to the production site.
 
 Before contributing, make sure to read our [README.md](README.md) as well as the 
-[style guideline](https://github.com/slsdo/tmdict/blob/main/data/content/page/tmdict/about/about.en.md#style-guildeline), 
+[style guideline](https://github.com/tmdict/tmdict/blob/main/data/content/page/tmdict/about/about.en.md#style-guildeline), 
 before submitting a pull request make sure you have tested your work following the setup instructions.
 
 If you have questions, feel free to reach out to us over at https://www.tmdict.com/contact/.

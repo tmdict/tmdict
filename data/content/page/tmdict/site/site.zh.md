@@ -20,7 +20,7 @@ name: "网站"
 
 ### 应援
 
-如果有兴趣参与网站内容的制作和修改，请<a href="../contact/">联系我们</a>。您也可以<a href="https://github.com/slsdo/tmdict/tree/main/data">通过GitHub</a>直接帮忙翻译或整理资源。
+如果有兴趣参与网站内容的制作和修改，请<a href="../contact/">联系我们</a>。您也可以<a href="https://github.com/tmdict/tmdict/tree/main/data">通过GitHub</a>直接帮忙翻译或整理资源。
 
 再者，每一页上会有一个“报告错误”的链接，读者浏览时可以随时报告错误或不顺的地方。
 

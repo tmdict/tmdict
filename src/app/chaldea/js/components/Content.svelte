@@ -19,7 +19,7 @@
   const getGitUrl = (source, entryId, entryType, contentId, contentLang, parent) => {
     const path = `${entryId}/${contentId}.${contentLang}`
     const url = source == 'fate-grand-order' ? `${source}/${entryType}/${path}` : `${source}/${path}`
-    return parent == 'chaldea-app' ? '#' : `https://github.com/slsdo/tmdict/blob/main/data/content/${url}.md`
+    return parent == 'chaldea-app' ? '#' : `https://github.com/tmdict/tmdict/blob/main/data/content/${url}.md`
   }
 </script>
 

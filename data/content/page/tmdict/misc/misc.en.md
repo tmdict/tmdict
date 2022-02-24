@@ -12,7 +12,7 @@ Some downloads and the site in different styles.
 
 - <a href="../book/">Book</a>: All entries visible on one minimally-styled page.
 - <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>: A compendium of 『Fate/Grand Order』 Servant data and lore.
-- <a href="https://github.com/slsdo/tmdict/">Git Repo</a>: Source code.
+- <a href="https://github.com/tmdict/tmdict/">Git Repo</a>: Source code.
 
 Below is a list of all Type-Moon glossaries currently available (as far as we know!).
 

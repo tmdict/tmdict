@@ -20,7 +20,7 @@ name: "サイト"
 
 ### 協力者の募集
 
-サイトの改善や拡充にご協力いただける方は、<a href="../contact/">こちらまでご連絡ください</a>。<a href="https://github.com/slsdo/tmdict/tree/main/data">GitHubを介して直接投稿</a>することもできます。
+サイトの改善や拡充にご協力いただける方は、<a href="../contact/">こちらまでご連絡ください</a>。<a href="https://github.com/tmdict/tmdict/tree/main/data">GitHubを介して直接投稿</a>することもできます。
 
 または、各ページの「エラー報告」リンクをご使用になると、エラーや内容の矛盾の報告をサイト閲覧中に簡単に行っていただけます。
 

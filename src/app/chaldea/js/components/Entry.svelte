@@ -27,7 +27,7 @@
 
   const getGitUrl = (entryId, entryType, contentLang) => {
     const url = `fate-grand-order/${attribute.type}/${attribute.id}/attr.${contentLang}`
-    return `https://github.com/slsdo/tmdict/tree/main/data/content/${url}.md`
+    return `https://github.com/tmdict/tmdict/tree/main/data/content/${url}.md`
   }
 </script>
 
