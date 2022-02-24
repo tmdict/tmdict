@@ -18,7 +18,7 @@
     "pack:book": "rollup -c src/app/book/rollup.config.js",
     "pack:chaldea": "rollup -c src/app/chaldea/rollup.config.js",
     "pack:tmdict": "rollup -c src/app/tmdict/rollup.config.js",
-    "start": "sirv dist --port 8080",
+    "start": "sirv dist",
     "watch:book": "rollup -c src/app/book/rollup.config.js -w",
     "watch:chaldea": "rollup -c src/app/chaldea/rollup.config.js -w",
     "watch:tmdict": "rollup -c src/app/tmdict/rollup.config.js -w"
@@ -55,7 +55,7 @@
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.49.8",
-    "sirv-cli": "^1.0.14",
+    "sirv-cli": "^2.0.2",
     "sitemap": "^7.1.1",
     "svelte": "^3.46.4",
     "typescript": "^4.5.5"
