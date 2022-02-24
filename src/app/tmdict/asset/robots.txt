@@ -21,4 +21,5 @@ Crawl-delay: 10
 # Directories
 Disallow: /src/
 Disallow: /contact/
+Disallow: /raw/
 Sitemap: https://www.tmdict.com/sitemap.xml
