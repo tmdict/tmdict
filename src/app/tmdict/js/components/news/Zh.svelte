@@ -3,7 +3,7 @@
 
   <h5>2022-02-23</h5>
 
-  <p>型月辞典的数据和源代码<a href="https://github.com/slsdo/tmdict">在GitHub上公开</a>。您可以随意浏览本网站的源代码或对<a href="https://github.com/slsdo/tmdict/tree/main/data">网站资源进行编辑</a>（需要GitHub帐户），或下载一个备份以供离线使用！</p>
+  <p>型月辞典的数据和源代码<a href="https://github.com/tmdict/tmdict">在GitHub上公开</a>。您可以随意浏览本网站的源代码或对<a href="https://github.com/tmdict/tmdict/tree/main/data">网站资源进行编辑</a>（需要GitHub帐户），或下载一个备份以供离线使用！</p>
 
   <p><span class="highlight">Changelog:</span></p>
 

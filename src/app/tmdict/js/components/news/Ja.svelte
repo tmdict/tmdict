@@ -3,7 +3,7 @@
 
   <h5>2022-02-23</h5>
 
-  <p>TMdict’s data and source code is now <a href="https://github.com/slsdo/tmdict">open to public on GitHub</a>. Feel free to take a look around, <a href="https://github.com/slsdo/tmdict/tree/main/data">update translations</a> (requires a GitHub account), contribute, or download a copy of the site for offline access!</p>
+  <p>TMdict’s data and source code is now <a href="https://github.com/tmdict/tmdict">open to public on GitHub</a>. Feel free to take a look around, <a href="https://github.com/tmdict/tmdict/tree/main/data">update translations</a> (requires a GitHub account), contribute, or download a copy of the site for offline access!</p>
 
   <p><span class="highlight">Changelog:</span></p>
 
