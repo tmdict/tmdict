@@ -1,10 +1,13 @@
 # Contributing
 
 All contributions are welcome! To contribute to this project, create a branch off of 
-`main`. Once your work is complete, submit a PR. The project maintainers will look over your changes.
+`main`. Once your work is complete, submit a pull request. The project maintainers will 
+look over your changes. Once your changes have been approved, they will be merged and 
+deployed to the production site.
 
-Before contributing, make sure to read our [README.md](README.md), before submitting a PR make 
-sure you have tested your work following the setup there.
+Before contributing, make sure to read our [README.md](README.md) as well as the 
+[style guideline](https://github.com/slsdo/tmdict/blob/main/data/content/page/tmdict/about/about.en.md#style-guildeline), 
+before submitting a pull request make sure you have tested your work following the setup instructions.
 
 If you have questions, feel free to reach out to us over at https://www.tmdict.com/contact/.
 
