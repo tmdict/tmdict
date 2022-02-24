@@ -4,9 +4,9 @@
 
 Quick summary of each directory and their purpose
 
-- **`attribute/`:** Content attributes and metadata.
-- **`content/`:** Content (text and translations). Contents must have a valid attribute as its parent
-- **`img/`:** Images for attributes and contents
+- `attribute/`: Content attributes and metadata.
+- `content/`: Content (text and translations). Contents must have a valid attribute as its parent
+- `img/`: Images for attributes and contents
 
 ## Understanding the File Format
 
