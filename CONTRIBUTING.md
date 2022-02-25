@@ -7,9 +7,15 @@ deployed to the production site.
 
 Before contributing, make sure to read our [README.md](README.md) as well as the 
 [style guideline](https://github.com/tmdict/tmdict/blob/main/data/content/page/tmdict/about/about.en.md#style-guildeline), 
-before submitting a pull request make sure you have tested your work following the setup instructions.
+we also recommend testing your changes before submitting a edit (pull request). If you are using the web-based editor 
+(via the `edit` link found in each entry page), you can following 
+[the instructions here](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#using-source-control) 
+for how to create a pull request.
 
-If you have questions, feel free to reach out to us over at https://www.tmdict.com/contact/.
+After creating a pull request, an administrator will review your proposed change and merge it
+into the site if everything looks good, or leave a feedback if further changes are required.
+
+If you have questions, feel free to reach out to us [here](https://www.tmdict.com/contact/).
 
 ## Navigation
 
