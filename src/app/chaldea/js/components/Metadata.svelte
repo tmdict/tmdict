@@ -7,6 +7,7 @@
   export let translation = ''
   export let language = []
   export let gitUrl = '#'
+  export let devUrl = '#'
 
   let contentLang = $activeLang
 
@@ -38,7 +39,8 @@
       [ <a href="#{lang}" on:click|preventDefault={() => updateLang(lang)}>{APP.lang[lang].name}</a> ]{" "}
     {/each}
     {#if gitUrl != '#'}
-      [ <span class="git"><a href={gitUrl}>GIT</a></span> ]
+      [ <span class="git"><a href={`${gitUrl}.${contentLang}.md`}>GIT</a></span> ]
+      [ <span class="git"><a href={`${devUrl}.${contentLang}.md`}>EDIT</a></span> ]
     {/if}
   </div>
 </div>

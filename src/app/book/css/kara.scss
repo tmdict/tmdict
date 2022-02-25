@@ -194,6 +194,11 @@ a:hover {
   .active {
     color: $color-orange;
   }
+
+  img {
+    width: 20px;
+    vertical-align: bottom;
+  }
 }
 
 .entry-title {

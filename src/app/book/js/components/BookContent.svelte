@@ -21,6 +21,9 @@
   </div>
 
   <div class="entry-lang group">
+    <a href={`https://github.dev/tmdict/tmdict/blob/main/data/content/${entry.source}/${entry.parent}.${contentLang}.md`}>
+      <img title="edit" src={"src/img/edit.svg"} alt="edit" />
+    </a>{' ・ '}
     {#each Object.keys(APP.i18n.lang) as lang, i}
       {#if i !== 0}{' ・ '}{/if}<a class:active={contentLang === lang} on:click={() => updateContentLang(lang)} href="#{entry.source}">{APP.i18n.lang[lang]}</a>
     {/each}

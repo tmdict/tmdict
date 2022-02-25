@@ -25,9 +25,10 @@
 
   const updateLang = event => (contentLang = event.detail.lang)
 
-  const getGitUrl = (entryId, entryType, contentLang) => {
-    const url = `fate-grand-order/${attribute.type}/${attribute.id}/attr.${contentLang}`
-    return `https://github.com/tmdict/tmdict/tree/main/data/content/${url}.md`
+  const getGitUrl = (entryId, entryType, contentLang, isDev = false) => {
+    const dev = (isDev) ? 'dev' : 'com'
+    const path = `fate-grand-order/${attribute.type}/${attribute.id}/attr`
+    return `https://github.${dev}/tmdict/tmdict/tree/main/data/content/${path}`
   }
 </script>
 
@@ -63,6 +64,7 @@
           <Metadata
             language={Object.keys(attribute.layout)}
             gitUrl={getGitUrl(attribute.id, attribute.type, contentLang)}
+            devUrl={getGitUrl(attribute.id, attribute.type, contentLang, true)}
             on:langUpdate={updateLang}
           />
 
