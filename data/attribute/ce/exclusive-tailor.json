@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1198,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1198.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "usuba-kagero",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2022"
+  },
+
+  "data": {
+    "name": {
+      "en": "Exclusive Tailor",
+      "ja": "エクスクルーシブ・テイラー",
+      "zh": "高定剪裁"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1203,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1203.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "kiyohara-hiro",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2022"
+  },
+
+  "data": {
+    "name": {
+      "en": "Daddy’s Letter Show",
+      "ja": "ダディ・レターライブ",
+      "zh": "爹地来信直播"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}

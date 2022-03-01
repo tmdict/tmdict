@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1202,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1202.png" }
+  ],
+
+  "attribute": {
+    "star": "star_3",
+    "illustrator": "matsuhara-mai",
+    "ce-type": "regular",
+    "obtained": "event",
+    "event": "chaldea-boys-collection-2022"
+  },
+
+  "data": {
+    "name": {
+      "en": "God’s Deal",
+      "ja": "ゴッズ・ディール",
+      "zh": "神之发牌"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "event"]
+  ]
+}
