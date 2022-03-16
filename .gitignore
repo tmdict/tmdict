@@ -3,6 +3,7 @@ bin
 dist
 node_modules
 __tmp
+.vscode
 
 # Garbage files
 .DS_Store

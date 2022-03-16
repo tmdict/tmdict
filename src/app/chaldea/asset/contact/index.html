@@ -1,118 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width'>
 
-    <title>Contact | CHALDEAの記録</title>
-    <link rel="canonical" href="https://www.chaldea.tmdict.com/contact/" />
+  <title>Contact | CHALDEAの記録</title>
+  <link rel="canonical" href="https://www.chaldea.tmdict.com/contact/" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
 
-    <link rel="stylesheet" type="text/css" href="../src/css/chaldea.css" />
+  <link rel="stylesheet" type="text/css" href="../src/css/chaldea.css" />
 
-    <style type="text/css">
+  <style type="text/css">
+    #container {
+      grid-template-columns: [col-start] auto [col-1] 400px [col-2] auto [col-end];
+    }
+    .hidden { display: none; }
+    #contact label {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    #contact .form {
+      display:block;
+      width: 95%;
+      max-width: 350px;
+      height: 20px;
+      padding: 5px 10px;
+      font-size: 15px;
+      color: #333;
+      background-color: rgba(255,255,255,.8);
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    #contact textarea.form { height: 150px; }
+    #contact .button {
+      width: 100%;
+      text-align: right;
+    }
+    #contact button {
+      display: inline-block;
+      padding: 10px 40px;
+      color: #f8f7f6;
+      background: #333;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    @media only screen and (max-width: 660px) {
       #container {
-        grid-template-columns: [col-start] auto [col-1] 400px [col-2] auto [col-end];
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: [row-start] 300px [row-1] auto [row-2] 10px [row-end];
       }
-      .hidden {
-        display: none;
-      }
-      #contact label {
-        margin-top: 20px;
-        font-weight: bold;
-      }
-      #contact .form {
-        display: block;
-        width: 95%;
-        max-width: 350px;
-        height: 20px;
-        padding: 5px 10px;
-        font-size: 15px;
-        color: #333;
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid #ccc;
-        border-radius: 4px;
-      }
-      #contact textarea.form {
-        height: 150px;
-      }
-      #contact .button {
-        width: 100%;
-        text-align: right;
-      }
-      #contact button {
-        display: inline-block;
-        padding: 10px 40px;
-        color: #f8f7f6;
-        background: #333;
-        font-size: 15px;
-        font-weight: bold;
-        border-radius: 4px;
-        cursor: pointer;
-      }
-      @media only screen and (max-width: 660px) {
-        #container {
-          display: grid;
-          grid-template-columns: auto;
-          grid-template-rows: [row-start] 300px [row-1] auto [row-2] 10px [row-end];
-        }
-      }
-    </style>
+    }
+  </style>
 
-    <script>
-      window.onload = function () {
-        if (window.location.hash.substring(1)) {
-          document.getElementById('title').value = window.location.hash.substring(1)
-        }
+  <script>
+    window.onload = function() {
+      if (window.location.hash.substring(1)) {
+        document.getElementById("title").value = window.location.hash.substring(1);
       }
-    </script>
-  </head>
+    }
+  </script>
+</head>
 
-  <body>
-    <div id="container">
-      <div id="top"></div>
-      <div id="header">
-        <img class="logo" src="../src/img/top.png" />
-        <div id="name">
-          <a href="../">CHALDEA<span style="color: #777">の</span><span style="color: #f7d87c">記録</span></a>
-        </div>
-        <div id="nav">
-          <a href="../" class="first">HOME</a>
-          <a href="../servant/">SERVANT</a>
-          <a href="../ce/">CE</a>
-          <div class="language">
-            <a href="#en" class="first">EN </a><a href="#ja">日本語 </a><a href="#zh">中文 </a>
-          </div>
-        </div>
-      </div>
-
-      <div id="main">
-        <h1>
-          Contact <span style="color: #777">§</span> <span style="color: #c05b4d; font-size: 0.85em">发送消息</span>
-        </h1>
-        <br />
-        <div class="content">
-          <form id="contact" name="chaldea-contact" method="POST" netlify-honeypot="bot-field" netlify>
-            <label class="hidden">Don't fill this out if you're human <input class="form" name="bot-field" /></label>
-            <label for="name">Name · 姓名 <input class="form" type="text" name="name" id="name" /></label><br />
-            <label for="email">Email · 联系邮箱 <input class="form" type="text" name="email" id="email" /></label><br />
-            <label for="title">Topic · 标题 <input class="form" type="text" name="title" id="title" value="" /></label
-            ><br />
-            <label for="message">Message · 内容 <textarea class="form" name="message" id="message"></textarea></label
-            ><br />
-            <div class="button"><button type="”submit”">Send</button></div>
-          </form>
-        </div>
-      </div>
-
-      <div id="footer">
-        <a href="../missing.html">Help Contribute</a> · <a href="../contact/">Contact</a> ·
-        <a href="https://www.tmdict.com/">TMdict</a>
+<body>
+  <div id="container">
+    <div id="top"></div>
+    <div id="header">
+      <img class="logo" src="../src/img/top.png"> 
+      <div id="name"><a href="../">CHALDEA<span style="color: #777;">の</span><span style="color:#f7d87c;">記録</span></a></div>
+      <div id="nav">
+        <a href="../" class="first">HOME</a>
+        <a href="../servant/">SERVANT</a>
+        <a href="../ce/">CE</a>
+        <div class="language"><a href="#en" class="first">EN </a><a href="#ja">日本語 </a><a href="#zh">中文 </a></div>
       </div>
     </div>
-  </body>
+
+    <div id="main">
+      <h1>Contact <span style="color:#777;">§</span> <span style="color:#c05b4d;font-size:0.85em">发送消息</span></h1>
+      <br />
+      <div class="content">
+        <form id="contact" name="chaldea-contact" method="POST" netlify-honeypot="bot-field" netlify>
+          <label class="hidden">Don't fill this out if you're human <input class="form" name="bot-field" /></label>
+          <label for="name">Name · 姓名 <input class="form" type="text" name="name" id="name" /></label><br />
+          <label for="email">Email · 联系邮箱 <input class="form" type="text" name="email" id="email" /></label><br />
+          <label for="title">Topic · 标题 <input class="form" type="text" name="title" id="title" value="" /></label><br />
+          <label for="message">Message · 内容 <textarea class="form" name="message" id="message"></textarea></label><br />
+          <div class="button"><button type=”submit”>Send</button></div>
+        </form>
+      </div>
+    </div>
+
+    <div id="footer">
+      <a href="../missing.html">Help Contribute</a> · <a href="../contact/">Contact</a> · <a href="https://www.tmdict.com/">TMdict</a>
+    </div>
+  </div>
+</body>
 </html>
