@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Uchida Maaya",
+      "ja": "内田真礼",
+      "zh": "内田真礼"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1212,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1212.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "higashiyama-yuusei",
+    "ce-type": "bond",
+    "obtained": "bond-lv10",
+    "bond.servant": "caenis"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sea God’s Trident",
+      "ja": "海神の三叉矛",
+      "zh": "海神的三叉戟"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained", "bond.servant"]
+  ]
+}

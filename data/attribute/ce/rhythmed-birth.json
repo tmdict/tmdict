@@ -1,0 +1,29 @@
+{
+  "type": "ce",
+  "attrType": 1,
+  "fgoId": 1208,
+
+  "img": [
+    { "weight": 1, "id": "img_ce", "src": "C1208.png" }
+  ],
+
+  "attribute": {
+    "star": "star_4",
+    "illustrator": "mashimasaki",
+    "ce-type": "regular",
+    "obtained": "summon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Rhythmed Birth",
+      "ja": "リズムド・バース",
+      "zh": "韵律诗节"
+    }
+  },
+
+  "layout": [
+    ["star", "illustrator"],
+    ["ce-type", "obtained"]
+  ]
+}

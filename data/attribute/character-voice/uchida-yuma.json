@@ -1,0 +1,12 @@
+{
+  "type": "character-voice",
+  "attrType": 0,
+
+  "data": {
+    "name": {
+      "en": "Uchida Yuma",
+      "ja": "内田雄馬",
+      "zh": "内田雄马"
+    }
+  }
+}
