@@ -1,6 +1,10 @@
 <div class="page-content">
   <h4 style="border-top:0">网站新闻</h4>
 
+  <h5>2022-03-27</h5>
+
+  <p>我们最近发布了一个针对原神的小项目：<strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>，里面有角色配装参考，每日委托成就表等跟游戏有关的信息！</p>
+
   <h5>2022-02-23</h5>
 
   <p>型月辞典的数据和源代码<a href="https://github.com/tmdict/tmdict">在GitHub上公开</a>。您可以随意浏览本网站的源代码或对<a href="https://github.com/tmdict/tmdict/tree/main/data">网站资源进行编辑</a>（需要GitHub帐户），或下载一个备份以供离线使用！</p>

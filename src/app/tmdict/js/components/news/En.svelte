@@ -1,6 +1,10 @@
 <div class="page-content">
   <h4 style="border-top:0">Site News</h4>
 
+  <h5>2022-03-27</h5>
+
+  <p>We’ve recently launched a small side project for the game Genshin Impact: <strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>. It comes with a Character Build Guide, Daily Commission Achievement Tracker, and more!</p>
+
   <h5>2022-02-23</h5>
 
   <p>TMdict’s data and source code is now <a href="https://github.com/tmdict/tmdict">open to public on GitHub</a>. Feel free to take a look around, <a href="https://github.com/tmdict/tmdict/tree/main/data">update translations</a> (requires a GitHub account), contribute, or download a copy of the site for offline access!</p>
