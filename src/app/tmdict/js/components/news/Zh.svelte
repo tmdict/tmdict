@@ -3,7 +3,7 @@
 
   <h5>2022-03-27</h5>
 
-  <p>我们最近发布了一个针对原神的小项目：<strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>，里面有角色配装参考，每日委托成就表等跟游戏有关的信息！</p>
+  <p>我们最近发布了一个针对原神的小项目：<strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>，里面有角色配装参考，每日委托成就表，和其它跟游戏有关的信息！</p>
 
   <h5>2022-02-23</h5>
 
