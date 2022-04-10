@@ -5,8 +5,8 @@
 
   "img": [
     { "weight": 1, "id": "img_s1", "src": "S0278a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0278b.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0278c.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0278b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0278c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0278d.png" },
     { "weight": 5, "id": "img_april-fools", "src": "S0278e_april-fools.png" }
   ],
