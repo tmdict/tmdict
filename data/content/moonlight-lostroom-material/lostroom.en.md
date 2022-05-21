@@ -13,7 +13,7 @@ category:
 A warehouse in the deepest part of Chaldea. It is rumored that because it is located in the back of Chaldea on the map, it is affected by the special magnetic field of Chaldea and its space-time has become offset.
 When you sleep here, you will see “what you will eventually lose, or what you have lost.”
 In the work “MOONLIGHT/LOSTROOM”, the dreams of three people were progressing at the same time, and the situation was as shown in the figure.
-While Chaldea drifted outside the time axis, Person A, who became the chief, used their authority in secret and tried to use this room for a little social gathering…… hosting an overnight ball, it seems that he wanted to create a secret club of some sort. He named the room “Moonlight,” but it ended up being called “Lostroom” due to the occurance of several mysterious phenomena.
+While Chaldea drifted outside the time axis, Person A, who became the chief, used their authority in secret and tried to use this room for a little social gathering…… hosting an overnight ball, it seems that he wanted to create a secret club of some sort. He named the room “Moonlight,” but it ended up being called “Lostroom” due to the occurrence of several mysterious phenomena.
 One day, there may be a ball as he dreamed of. This can also be a romantic story as it is.
 {{n1}}
 
