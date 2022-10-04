@@ -34,7 +34,7 @@ category:
   <tr><td>6／沈夢</td><td>6／殺人鬼Ⅱ</td></tr>
   <tr><td>7／昏い傷痕Ⅱ</td><td>7／透る爪痕</td></tr>
   <tr><td>8／午睡の夢</td><td>8／「死」。</td></tr>
-  <tr><td>9／血を吸う鬼</td><td>9／硝る駆Ⅰ、Ⅱ、Ⅲ</td></tr>
+  <tr><td>9／血を吸う鬼</td><td>9／硝る躯Ⅰ、Ⅱ、Ⅲ</td></tr>
   <tr><td>10／熱帯夜</td><td>12／白昼夢</td></tr>
   <tr><td>11／望遠鏡</td><td>13／金糸の繭</td></tr>
   <tr><td>12／或る終劇</td><td></td></tr>
