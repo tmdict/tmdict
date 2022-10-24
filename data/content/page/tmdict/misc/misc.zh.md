@@ -137,6 +137,9 @@ name: "其他"
   <tr id="2021tm1">
     <td>2021-08-26<br /><span class="source">月姬Material I</span>: <span class="glossary">『月姬』作品用语集</span>, <span class="page">pp.98–101</span></td>
   </tr>
+  <tr id="2022kk">
+    <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界设定</span>, <span class="page">pp.30–41</span></td>
+  </tr>
 </table>
 
 以下是现在这个网站上的内容。“-”表明我们目前没有资源或不在计划内，“0%–50%”表示正在翻译，“50%–99%”表示翻译完工，正在进行修改和校对，部分内容可能已在网站上，“100%”表示完工并已加载到网站上。

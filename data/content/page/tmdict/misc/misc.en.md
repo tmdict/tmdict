@@ -137,6 +137,9 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
   <tr id="2021tm1">
     <td>2021-08-26<br /><span class="source">Tsukihime Material I</span>: <span class="glossary">Tsukihime Work Glossary</span>, <span class="page">pp.98–101</span></td>
   </tr>
+  <tr id="2022kk">
+    <td>2022-08-14<br /><span class="source">Katatuki Kouhon</span>: <span class="glossary">World Setting</span>, <span class="page">pp.30–41</span></td>
+  </tr>
 </table>
 
 Below is a list of the content currently on this site. “-” means we currently don’t have access to the source material, or it is currently not in our scope, “0%–50%” indicates translation is currently in progress, “50%–99%” indicates translation is complete and the text is currently being edited and may be available on the site, “100%” means all work has been completed and the content is currently available on the site.
