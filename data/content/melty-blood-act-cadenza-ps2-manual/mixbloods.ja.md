@@ -1,5 +1,5 @@
 ---
-parent: demon-hybrid
+parent: mixbloods
 source: melty-blood-act-cadenza-ps2-manual
 id: tsukihime-dictionary-mb
 language: ja

@@ -6,7 +6,7 @@ weight: 1
 name: "其他"
 ---
 
- ### 杂记
+### 杂记
 
 一些资源和该网站的另外一些风格。
 
@@ -138,7 +138,7 @@ name: "其他"
     <td>2021-08-26<br /><span class="source">月姬Material I</span>: <span class="glossary">『月姬』作品用语集</span>, <span class="page">pp.98–101</span></td>
   </tr>
   <tr id="2022kk">
-    <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界设定</span>, <span class="page">pp.30–41</span></td>
+    <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界 & 月姬角色设定</span>, <span class="page">pp.30–41</span></td>
   </tr>
 </table>
 

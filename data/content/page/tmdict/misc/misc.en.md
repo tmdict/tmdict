@@ -6,7 +6,7 @@ weight: 1
 name: "Misc"
 ---
 
- ### Miscellanea
+### Miscellanea
 
 Some downloads and the site in different styles.
 
@@ -138,7 +138,7 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
     <td>2021-08-26<br /><span class="source">Tsukihime Material I</span>: <span class="glossary">Tsukihime Work Glossary</span>, <span class="page">pp.98–101</span></td>
   </tr>
   <tr id="2022kk">
-    <td>2022-08-14<br /><span class="source">Katatuki Kouhon</span>: <span class="glossary">World Setting</span>, <span class="page">pp.30–41</span></td>
+    <td>2022-08-14<br /><span class="source">Katatuki Kouhon</span>: <span class="glossary">World & Tsukihime Character Setting</span>, <span class="page">pp.30–41</span></td>
   </tr>
 </table>
 

@@ -1,0 +1,15 @@
+{
+  "type": "glossary",
+  "attrType": 1,
+  "en": "s",
+  "ja": "fu",
+  "jaRow": "h",
+
+  "data": {
+    "name": {
+      "en": "Stage",
+      "ja": "舞台",
+      "zh": "舞台"
+    }
+  }
+}

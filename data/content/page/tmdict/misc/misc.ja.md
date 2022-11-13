@@ -138,7 +138,7 @@ name: "その他"
     <td>2021-08-26<br /><span class="source">月姫マテリアルⅠ</span>: <span class="glossary">『月姫』作品用語集</span>, <span class="page">pp.98–101</span></td>
   </tr>
   <tr id="2022kk">
-    <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界設定</span>, <span class="page">pp.30–41</span></td>
+    <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界 & 月姫キャラ設定</span>, <span class="page">pp.30–41</span></td>
   </tr>
 </table>
 
