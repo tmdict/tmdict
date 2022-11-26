@@ -89,7 +89,7 @@ To answer the question of “if he doesn’t travel with his physical body, how 
 
 Vampirification is not the transformation of the body, but of existence. It’s like if the entry in the Akashic Records that read “human” changed class to “Dead Apostle’—it means that one has become a vampire in one’s very being.
 
-### Career
+### History
 
 One of the oldest mages, having been active since B.C. Also one of King Solomon’s pupils.
 
