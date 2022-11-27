@@ -72,6 +72,8 @@ name: "关于"
   <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://www.lightnovel.cn/thread-33199-6-1.html">renshujian0</a>，vt789123，<a href="https://bbs.sumisora.net/read.php?tid=11002936">零色ノ夢</a>
 - <span class="highlight">『月姬』作品用语集:</span>
   <a href="https://www.reddit.com/user/King_of_Padoru">King of Padoru</a> / vt789123
+- <span class="highlight">型月稿本 - 世界 & 月姬角色设定:</span>
+  Petrikow, <a href="https://www.reddit.com/u/ComunCoutinho/">ComunCoutinho</a>, <a href="https://forums.nrvnqsr.com/showthread.php/5943-Lord-El-Melloi-II-Case-Files">TwilightsCall</a> / vt789123
 
 ### 语法风格
 

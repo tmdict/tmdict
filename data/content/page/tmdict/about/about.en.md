@@ -72,6 +72,8 @@ Translations on this site come from different translators, as such, translations
   <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://www.lightnovel.cn/thread-33199-6-1.html">renshujian0</a>, vt789123, <a href="https://bbs.sumisora.net/read.php?tid=11002936">零色ノ夢</a>
 - <span class="highlight">Tsukihime Work Glossary:</span>
   <a href="https://www.reddit.com/user/King_of_Padoru">King of Padoru</a> / vt789123
+- <span class="highlight">Katatuki Kouhon - World & Tsukihime Character Setting:</span>
+  Petrikow, <a href="https://www.reddit.com/u/ComunCoutinho/">ComunCoutinho</a>, <a href="https://forums.nrvnqsr.com/showthread.php/5943-Lord-El-Melloi-II-Case-Files">TwilightsCall</a> / vt789123
 
 ### Style Guildeline
 

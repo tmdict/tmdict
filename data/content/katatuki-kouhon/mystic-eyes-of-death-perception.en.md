@@ -24,6 +24,10 @@ It’s important to note that while the lines of death exist in all things, ther
 Putting it simply: the lines of death are lifespan.
 He can easily perceive the death of humans who only have the lifespan of about fifty to a hundred years, but it is difficult for him to perceive the death of existences who possess a lifespan in the hundreds or thousands of years.
 Meaning, as long as he is trying to perceive the concept of death as a shape, he cannot quite so readily grasp it coming from things that are difficult to kill.
-This is why when Shiki is up against Greater Dead Apostles or Arcueid in the story, he has to push his consciousness to the limit if he wants to perceive their death.
+This is why when Shiki is up against Superior Dead Apostles{{n1}} or Arcueid in the story, he has to push his consciousness to the limit if he wants to perceive their death.
 
-(*Greater Dead Apostles are hard to kill, while Arcueid cannot die. Shiki’s murder of Arcueid in the beginning of the game made the impossible possible. In the Tsukihime world, that Arcueid would die or be killed is something very much out of the norm)
+(*Superior Dead Apostles are hard to kill, while Arcueid cannot die. Shiki’s murder of Arcueid in the beginning of the game made the impossible possible. In the Tsukihime world, that Arcueid would die or be killed is something very much out of the norm)
+
+##### {{notes}}
+
+1. {{note1}} Superior, greater, or upper-class Dead Apostles.

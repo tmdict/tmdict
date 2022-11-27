@@ -57,10 +57,10 @@ The quality of his magic circuits is on the lower end of mediocre. As Waver, he 
 As you can see, he falls below the line for a full-fledged magus. Though his talent for adjustment lends to his abilities as a teacher, his talent in that field mostly stems from his character and personality.
 Totally unsuited to combat. Though he has a number of mystic codes for self defense, he rarely carries them around.
 
-Assistant: “That amulet in your pocket is the only one you have, Professor?! Don’t you have anything else?!”
+Assistant: “That talisman in your pocket is the only one you have, Professor?! Don’t you have any other mystic codes?!”
 El-Melloi: “No. They’d be useless against a real magus anyway. There’s no point carrying a thousand of them around to extend my life by a couple seconds. I’d suffocate under them before they ever got to me.”
 A: “How have you survived so long then?!”
-E: “That should be obvious. I don’t go anywhere that an amulet like this isn’t enough to protect me.”
+E: “That should be obvious. I don’t go anywhere that an talisman like this isn’t enough to protect me.”
 
 Though he has learned techniques to use in combat, his output is so low that he tries to avoid using them. He doesn’t carry small weapons like handguns around either. His last line of defense is his cigars, which contain (about ten units of) magical energy.
 “You thought I smoked these stupidly expensive things just to look sophisticated and eccentric?”
@@ -85,7 +85,7 @@ Waver, of course, didn’t believe her for an instant, and expected to be killed
 Confirming that Waver was well aware of that, Reines presented him with an offer. If he accepted her terms, she would keep the details of the Fourth Holy Grail War a secret, and furthermore would guarantee his safety. In exchange, he had to agree to the following three terms:
 
 * Repay all of the El-Melloi’s debt.
-* Maintain the seat of Lord until Reines was old enough to take it herself.
+* Maintain the seat of Lord until Reines is old enough to take it herself.
 * Restore Kayneth Archibald’s Magic Crest (the Archi Crest).
 
 He understood how impossible those terms would be to fulfill, but also that if he refused, he would likely be killed immediately. He did feel he bore some responsibility, so he reluctantly accepted her offer.

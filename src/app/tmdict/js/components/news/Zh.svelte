@@ -1,6 +1,16 @@
 <div class="page-content">
   <h4 style="border-top:0">网站新闻</h4>
 
+  <h5>2022-11-27</h5>
+
+  <p>型月稿本是武内和奈须的个人社团竹帚在C100上发布的一本收录TYPE-MOON相关作品未公开的设定资料、草图、同人本寄稿等内容的本子。其中<a href="https://www.tmdict.com/book/#katatuki-kouhon?lang=zh">月姬R的​​世界设定和角色设定</a>在此被收入到网站的词库里。</p>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>添加型月稿本世界&月姬角色设定（日文，英文，中文）。</li>
+  </ul>
+
   <h5>2022-03-27</h5>
 
   <p>我们最近发布了一个针对原神的小项目：<strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>，里面有角色配装参考，每日委托成就表，和其它跟游戏有关的信息！</p>
@@ -23,31 +33,6 @@
 
   <ul>
     <li>添加月姬Material I -material of blue glass moon-：『月姬』作品用语集。</li>
-  </ul>
-
-  <h5>2020-11-26</h5>
-
-  <p>节日快乐！这次更新带来了<a href="https://www.tmdict.com/book/#prisma-material-petit?lang=zh">Prisma Illya的辞典翻译</a>和<a href="https://www.tmdict.com/book/#hibichika-complete-capture-book?lang=en">魔法使之箱辞典的英文翻译</a>。因为目前没有其它关注的辞典，下一次内容更新不知会是什么时候了（我们欢迎大家投稿其它辞典和书本的翻译哦！）</p>
-
-  <p>以后的一段时间我们会专注于改善网站稳定性和用户体验，还有继续更新<a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>的内容。</p>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>添加Prisma Illya MOVIE Encyclopedia。</li>
-    <li>添加魔法使之箱小事典英文翻译。</li>
-    <li>更新CHALDEAの記録内容到FGO Material 8。</li>
-  </ul>
-
-  <h5>2020-08-01</h5>
-
-  <p><a href="https://www.tmdict.com/book/#fate-type-redline-vol-1?lang=en">Fate/type Redline用语事典</a>（来源于帝都圣杯奇谭Fate/type Redline第一卷）被收入到网站词库里。另外，<a href="https://www.tmdict.com/book/#fate-zero-animation-guide-i?lang=zh">Fate/Zero动画视觉指南I</a>和<a href="https://www.tmdict.com/book/#fate-zero-animation-guide-ii?lang=zh">II</a>的英文翻译也全部补完。</p>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>添加Fate/type Redline用语事典。</li>
-    <li>添加Fate/Zero动画视觉指南I+II英文翻译（100%）。</li>
   </ul>
 
   <div class="readmore"><a href="./site#updates">更新记录</a></div>

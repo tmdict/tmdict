@@ -26,9 +26,19 @@ name: "サイト"
 
 ### ニュース
 
+**2022-11-27**
+
+_Katatuki Kouhon_, or TYPE-MOON Manuscript (型月稿本), is a book released at Comiket 100 by Nasu and Takeuchi’s doujin group Takebouki. The book is a compilation of designs and settings of various TYPE-MOON works, including <em>Tsukihime R</em>’s world and character setting, both of which have been added to our database.
+
+- Added Katatuki Kouhon World & Tsukihime Character Setting (Japanese/English/Chinese).
+
+**2022-03-27**
+
+We’ve recently launched a small side project for the game Genshin Impact: [genshin.tmdict.com](https://genshin.tmdict.com/). It comes with a Character Build Guide, Daily Commission Achievement Tracker, and more!
+
 **2022-02-23**
 
-TMdict’s data and source code is now open to public on GitHub. Feel free to take a look around, update translations (requires a GitHub account), contribute, or download a copy of the site for offline access!
+TMdict’s data and source code is now [open to public on GitHub](https://github.com/tmdict/tmdict). Feel free to take a look around, update translations (requires a GitHub account), contribute, or download a copy of the site for offline access!
 
 - Opened up tmdict GitHub repository.
 
@@ -40,7 +50,7 @@ _Tsukihime Remake_ was released this summer, the limited edition of the game cam
 
 **2020-11-26**
 
-Happy holidays! With this update comes the addition of a new _PRISMA material/petit_ glossary and the completion of _HibiChika Complete Capture Book_’s English glossary. There are currently no other outstanding glossaries we are actively working on, so this will likely the last big update for a while (we’re always happy to accept user-contributed glossary translations, though!)
+Happy holidays! With this update comes the addition of a new _PRISMA material/petit_ glossary and the completion of <em>HibiChika Complete Capture Book</em>’s English glossary. There are currently no other outstanding glossaries we are actively working on, so this will likely the last big update for a while (we’re always happy to accept user-contributed glossary translations, though!)
 
 For now we will focus on improving site stability and user experience, and continue to update CHALDEAの記録 with new content.
 
@@ -66,7 +76,7 @@ Full English and Chinese glossary translation for _MOONLIGHT/LOSTROOM material_ 
 
 TMdict is excited to announce the launch of a new project:
 
-CHALDEAの記録 (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
+[CHALDEAの記録](https://chaldea.tmdict.com/) (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
 
 The site’s backend archtecture also received a major update, switching from React to Svelte, as well as moving its data to GitHub. Many small improvements have also been made around the site.
 

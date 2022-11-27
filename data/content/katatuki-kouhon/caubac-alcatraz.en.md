@@ -21,7 +21,7 @@ The Holy Church and the vampire society believe that he built his castle to prot
 He turned himself into an inorganic object out of hatred for his body’s need to suck blood to extend his life.
 He takes the appearance of an ordinary padlock.
 
-In Mahou Tsukai no Hako, it was established that Hibiki is an artificial lifeform (the Triten) who turned human and got lost among the people there.
+In *Mahou Tsukai no Hako*, it was established that Hibiki is an artificial lifeform (the Triten) who turned human and got lost among the people there.
 
 “Our world was created by the Lord, and its surface is covered in His love. The way humans go hog wild over food and whatnot is also because of Lord’s love. The Lord’s love is like, super immeasurable to human beings.”
 Under the thoughts quoted above, he comprehended the Lord’s love and wrote it down. That’s what the Triten scripture is.
