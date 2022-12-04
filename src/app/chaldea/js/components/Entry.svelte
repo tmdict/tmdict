@@ -89,6 +89,8 @@
         </div>
       </div>
 
+      <div class="top-break" />
+
       {#each content as section}
         {#if section.i18n[contentLang]}
           <Content entryType={attribute.type} entryId={attribute.id} data={section} />

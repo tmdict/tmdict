@@ -42,12 +42,7 @@
   </a>
 
   <div id="name">
-    <a href="{level}#{$activeLang}">
-      CHALDEA<span style="color: #777;">の</span>
-    </a>
-    <span on:click={toggleDarkMode} on:keydown={toggleDarkMode} class="darkmode highlight">
-      記録
-    </span>
+    <a href="{level}#{$activeLang}">CHALDEA<span style="color: #777;">の</span></a><span on:click={toggleDarkMode} on:keydown={toggleDarkMode} class="darkmode highlight">記録</span>
   </div>
 
   <div id="nav">
