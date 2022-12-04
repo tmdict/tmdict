@@ -18,28 +18,10 @@
       "filter": [
         "star",
         "class",
-        "source",
-        "major-appearances",
-        "alignment",
-        "character-setting",
-        "illustrator"
+        "source"
       ],
       "contentFilter": [
         "source"
-      ]
-    },
-    "ce": {
-      "type": "ce",
-      "name": {
-        "en": "Craft Essence",
-        "ja": "概念礼装",
-        "zh": "概念礼装"
-      },
-      "filter": [
-        "star",
-        "ce-type",
-        "obtained",
-        "illustrator"
       ]
     }
   },
