@@ -37,7 +37,6 @@ export interface AttributeData {
 export interface Attribute {
   id: string
   type: string
-  attrType: number
   en?: string
   ja?: string
   jaRow?: string

@@ -57,14 +57,14 @@ function parseContentMarkup(html: string, lang: string, id = ''): string {
 }
 
 /**
- * Flattens a Attribute's `data {...}` into { type: ..., attrType: ..., en: <name>, ja: <name>, zh: <name> }
+ * Flattens a Attribute's `data {...}` into { type: ..., <key>>: ..., en: <name>, ja: <name>, zh: <name> }
  * and append links to attributes that have their own page
  */
 function flattenAttributeData(attr: any, env: string): PreparedAttribute {
   let attrName: { [key: string]: string } = {}
   const ext: string = env === 'production' ? '' : '.html'
   try {
-    // If attrType is `servant` or `glossary`, append make it linkable
+    // If attr type is `servant` or `glossary`, append make it linkable
     if (['servant', 'glossary'].includes(attr.type)) {
       Object.keys(attr.data.name).forEach((lang: string) => {
         const link = `<a href="../${attr.type}/${attr.id}${ext}#${lang}">${attr.data.name[lang]}</a>`
@@ -379,7 +379,7 @@ export default class Parser {
             ? (entry.attribute[attr] as string[])
             : [entry.attribute[attr] as string]
           filterArr.forEach((f) => {
-            if (!_.has(i18n, attr)) i18n[attr] = {} // Instantiate new attrType key in i18n
+            if (!_.has(i18n, attr)) i18n[attr] = {} // Instantiate new attr type key in i18n
             i18n[attr][f] = attrData[attr][f].data.name
           })
         } else {
@@ -397,7 +397,7 @@ export default class Parser {
             contentFilters
               .filter((val, i) => contentFilters.indexOf(val) == i) // Dedupe
               .forEach((f) => {
-                if (!_.has(i18n, attr)) i18n[attr] = {} // Instantiate new attrType key in i18n
+                if (!_.has(i18n, attr)) i18n[attr] = {} // Instantiate new attr type key in i18n
                 i18n[attr][f] = attrData[attr][f].data.name
               })
           }
