@@ -89,8 +89,8 @@ function attrLoader(path: string, file: string): any {
     // Remove extension from file name to get id
     const id: string = file.replace(/\.json$/, '')
     const json = _.merge({ id: id }, loadJson(path))
-    // If Attribute has common name, flatten it out
-    if (json.attrType === 2) {
+    // If name doesn't have i18n, use name value for all i18n
+    if (json.data.name.en === undefined) {
       json.data.name = {
         en: json.data.name,
         ja: json.data.name,
