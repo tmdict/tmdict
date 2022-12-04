@@ -45,8 +45,8 @@
 
   <div id="nav">
     <a href="{level}#{$activeLang}" class="first">HOME</a>
-    <a href="{level}servant/#{$activeLang}">SERVANT</a>
-    <a href="{level}ce/#{$activeLang}">CE</a>
+    <a href="{level}servant/#{$activeLang}">CHARACTER</a>
+    <a href="{level}ce/#{$activeLang}">GLOSSARY</a>
 
     <div class="language">
       {#each Object.keys(APP.lang) as lang, i}

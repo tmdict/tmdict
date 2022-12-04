@@ -46,17 +46,13 @@
     "i18n": {
       "agility.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "alignment": { "en": "Alignment", "ja": "属性", "zh": "属性" },
-      "bond.ce": { "en": "Bond CE", "ja": "絆礼装", "zh": "羁绊礼装" },
-      "bond.servant": { "en": "Bond Servant", "ja": "サーヴァント", "zh": "羁绊英灵" },
       "book": { "en": "Books", "ja": "書", "zh": "书本" },
-      "ce-type": { "en": "CE Type", "ja": "礼装種類", "zh": "礼装分类" },
       "character-setting": { "en": "Character Setting", "ja": "設定作成", "zh": "设定" },
       "character-voice": { "en": "Character Voice", "ja": "CV", "zh": "CV" },
       "class": { "en": "Class", "ja": "职阶", "zh": "职阶" },
       "contact": { "en": "Contact", "ja": "お問い合わせ", "zh": "联系" },
       "contribute": { "en": "Contribute", "ja": "支援", "zh": "支持我们" },
       "endurance.parameter": { "en": "Endurance", "ja": "耐久", "zh": "耐久" },
-      "event": { "en": "Event", "ja": "イベント", "zh": "活动" },
       "gender": { "en": "Gender", "ja": "性别", "zh": "性别" },
       "height": { "en": "Height", "ja": "身長", "zh": "身高" },
       "id": { "en": "ID", "ja": "ID", "zh": "ID" },
@@ -139,7 +135,6 @@
       "name": { "en": "Name", "ja": "名", "zh": "姓名" },
       "noble-phantasm.parameter": { "en": "Noble Phantasm", "ja": "宝具", "zh": "宝具" },
       "notes": { "en": "*", "ja": "*", "zh": "*" },
-      "obtained": { "en": "Obtained", "ja": "取得方法", "zh": "获得方式" },
       "origin": { "en": "Source", "ja": "出典", "zh": "出典" },
       "original-character-design.illustrator": { "en": "Original Character Design", "ja": "キャラクターデザイン原案", "zh": "原绘师" },
       "other-names": { "en": "Other Names", "ja": "異称", "zh": "其他名称" },
@@ -152,8 +147,6 @@
       "strength.parameter": { "en": "Strength", "ja": "筋力", "zh": "筋力" },
       "translation": { "en": "Translation", "ja": "", "zh": "翻译" },
       "true-name": { "en": "True Name", "ja": "真名", "zh": "真名" },
-      "valentine.ce": { "en": "Valentine CE", "ja": "バレンタイン礼装", "zh": "情人节礼装" },
-      "valentine.servant": { "en": "Valentine Servant", "ja": "サーヴァント", "zh": "情人节英灵" },
       "weight": { "en": "Weight", "ja": "体重", "zh": "体重" }
     }
   }
