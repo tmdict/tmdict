@@ -28,9 +28,7 @@
     "illustrator": "azusa",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "saizen-tadahisa",
-    "major-appearances": "fate-stay-night",
-    "bond.ce": "castle-of-snow",
-    "valentine.ce": "boar-hoodie"
+    "major-appearances": "fate-stay-night"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

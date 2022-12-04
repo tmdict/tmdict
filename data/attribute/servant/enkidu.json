@@ -27,9 +27,7 @@
     "character-setting": ["nasu-kinoko", "narita-ryougo", "sakurai-hikaru"],
     "illustrator": "morii-shizuki",
     "character-voice": "kobayashi yuu",
-    "major-appearances": ["fate-strange-fake", "fate-grand-order"],
-    "bond.ce": "huwawas-flowers",
-    "valentine.ce": ["white-flower", "red-flower"]
+    "major-appearances": ["fate-strange-fake", "fate-grand-order"]
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

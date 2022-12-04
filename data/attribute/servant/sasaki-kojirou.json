@@ -28,9 +28,7 @@
     "illustrator": "mata",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "miki-shinichirou",
-    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"],
-    "bond.ce": "heaven-among-the-mountains",
-    "valentine.ce": "full-moon-viewing"
+    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"]
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

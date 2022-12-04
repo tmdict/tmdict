@@ -27,9 +27,7 @@
     "character-setting": "sakurai-hikaru",
     "illustrator": "hiroyama-hiroshi",
     "character-voice": "sakura-ayane",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "nine-celestial-moons",
-    "valentine.ce": "western-style-red-bean-soup"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -64,7 +62,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

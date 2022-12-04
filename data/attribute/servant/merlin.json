@@ -28,9 +28,7 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "taiki",
     "character-voice": "sakurai-takahiro",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "the-tower-of-avalon",
-    "valentine.ce": "puppet-fou"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

@@ -28,9 +28,7 @@
     "illustrator": "nekotawawa",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "tanaka-atsuko",
-    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"],
-    "bond.ce": "hekates-staff",
-    "valentine.ce": "merry-merry"
+    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"]
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

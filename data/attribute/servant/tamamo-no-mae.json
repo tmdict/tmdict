@@ -28,8 +28,6 @@
     "illustrator": "wada-arco",
     "character-voice": "saitou-chiwa",
     "major-appearances": "fate-extra",
-    "bond.ce": "tamamos-club",
-    "valentine.ce": "ninefold-nested-confections",
     "related.servant": "tamamo-no-mae-lancer"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

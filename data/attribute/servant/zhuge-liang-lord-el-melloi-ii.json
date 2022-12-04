@@ -27,9 +27,7 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "takeuchi-takashi",
     "character-voice": "namikawa-daisuke",
-    "major-appearances": "fate-zero",
-    "bond.ce": "relic-of-the-king",
-    "valentine.ce": "cigar-and-wine"
+    "major-appearances": "fate-zero"
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

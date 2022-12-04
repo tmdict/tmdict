@@ -28,8 +28,6 @@
     "illustrator": "pako",
     "character-voice": "kugimiya-rie",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "unifying-the-nation-by-force-2019-summer-ver-",
-    "valentine.ce": "chocolate-burns-it-cant-be-helped",
     "related.servant": ["oda-nobunaga", "demon-king-nobunaga"]
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

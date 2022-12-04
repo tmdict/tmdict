@@ -24,8 +24,6 @@
     "noble-phantasm.parameter": "ex",
     "illustrator": "morii-shizuki",
     "character-voice": "ueda-kana",
-    "bond.ce": "to-the-galaxy-of-reunion",
-    "valentine.ce": "space-diorama-chocolate",
     "related.servant": ["ishtar", "ishtar-rider"]
   },
 
@@ -42,6 +40,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

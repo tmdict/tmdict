@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "b",
     "character-setting": "minase-hazuki",
     "illustrator": "takahashi-keitarou",
-    "character-voice": "fujii-hayato",
-    "bond.ce": "the-legendary-shot",
-    "valentine.ce": "beginners-hunting-set"
+    "character-voice": "fujii-hayato"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

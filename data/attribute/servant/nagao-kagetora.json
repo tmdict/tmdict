@@ -26,9 +26,7 @@
     "character-setting": "keikenchi",
     "illustrator": "takeuchi-takashi",
     "character-voice": "mizuki-nana",
-    "major-appearances": ["gudaguda-ace", "fate-grand-order"],
-    "bond.ce": "touhachi-bishamonten",
-    "valentine.ce": "bishamonten-chocolate"
+    "major-appearances": ["gudaguda-ace", "fate-grand-order"]
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

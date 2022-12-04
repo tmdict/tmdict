@@ -31,8 +31,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "sakamoto-maaya",
     "major-appearances": "kara-no-kyoukai",
-    "bond.ce": "true-emptiness",
-    "valentine.ce": "high-end-japanese-sweets",
     "related.servant": "ryougi-shiki-assassin"
   },
 
@@ -64,6 +62,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

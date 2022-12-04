@@ -28,8 +28,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "kanna-nobutoshi",
     "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"],
-    "bond.ce": "star-of-prophecy",
-    "valentine.ce": "rune-stone-earring-chocolates",
     "related.servant": "cu-chulainn-caster"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

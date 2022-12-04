@@ -28,9 +28,7 @@
     "illustrator": "shinjirou",
     "original-character-design.illustrator": "terada-katsuya",
     "character-voice": "inada-tetsu",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "encounter-at-gojo-bridge",
-    "valentine.ce": "blank-subscription-list"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

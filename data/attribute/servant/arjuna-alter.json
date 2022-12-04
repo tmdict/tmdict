@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "ex",
     "character-setting": "higashide-yuuichirou",
     "illustrator": "pako",
-    "character-voice": "shimazaki-nobunaga",
-    "bond.ce": "what-was-carved",
-    "valentine.ce": "an-ordinary-miraculous-stone"
+    "character-voice": "shimazaki-nobunaga"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

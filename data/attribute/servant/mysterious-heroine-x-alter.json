@@ -27,9 +27,7 @@
     "character-setting": "hoshizora-meteo",
     "illustrator": "bunbun",
     "character-voice": "kawasumi-ayako",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "mini-black-knight",
-    "valentine.ce": "mysterious-hot-chocolate-x"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -64,7 +62,6 @@
     ["star", "class", "notes"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

@@ -28,8 +28,6 @@
     "illustrator": "shimokoshi",
     "character-voice": "sakamoto-maaya",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "beautiful-journey",
-    "valentine.ce": "chaldea-new-order",
     "related.servant": "leonardo-da-vinci"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

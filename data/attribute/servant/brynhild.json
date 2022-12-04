@@ -27,9 +27,7 @@
     "character-setting": "sakurai-hikaru",
     "illustrator": "miwa-shirow",
     "character-voice": "noto-mamiko",
-    "major-appearances": "fate-prototype-sougin-no-fragments",
-    "bond.ce": "imperishable-flames",
-    "valentine.ce": "wisdom-of-ice"
+    "major-appearances": "fate-prototype-sougin-no-fragments"
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

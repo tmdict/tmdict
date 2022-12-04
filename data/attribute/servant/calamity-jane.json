@@ -23,9 +23,7 @@
     "luck.parameter": "a",
     "noble-phantasm.parameter": "d",
     "illustrator": "bsuke",
-    "character-voice": "touyama-nao",
-    "bond.ce": "the-shooting-star-cheerleader",
-    "valentine.ce": "scb-space-chocolate-bar"
+    "character-voice": "touyama-nao"
   },
 
   "data": {
@@ -40,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

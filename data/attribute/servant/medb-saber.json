@@ -28,8 +28,6 @@
     "illustrator": "takayama-kisai",
     "character-voice": "sakura-ayane",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "summer-photo-album",
-    "valentine.ce": "medbs-rich-cacao-chocolates",
     "related.servant": "queen-medb"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

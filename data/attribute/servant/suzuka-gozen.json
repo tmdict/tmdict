@@ -27,9 +27,7 @@
     "character-setting": "takenoko-seijin",
     "illustrator": "takenoko-seijin",
     "character-voice": "ogura-yui",
-    "major-appearances": "fate-extra-ccc-foxtail",
-    "bond.ce": "demoness-of-the-heavens-love-training",
-    "valentine.ce": "premium-snack"
+    "major-appearances": "fate-extra-ccc-foxtail"
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

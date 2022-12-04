@@ -27,9 +27,7 @@
     "illustrator": "task-ohna",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "abe-akina",
-    "major-appearances": "fate-zero",
-    "bond.ce": "library-of-the-hundred-personas",
-    "valentine.ce": "assorted-chocolates-100-count"
+    "major-appearances": "fate-zero"
   },
 
   "data": {
@@ -69,7 +67,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

@@ -28,8 +28,6 @@
     "illustrator": "i-iv",
     "character-voice": ["nonaka-ai", "kawasumi-ayako"],
     "major-appearances": "fate-grand-order",
-    "bond.ce": "calico-jack",
-    "valentine.ce": "treasure-chocolate",
     "related.servant": "anne-bonny-mary-read-archer"
   },
 
@@ -66,6 +64,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter", "notes"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

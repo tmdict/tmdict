@@ -26,8 +26,6 @@
     "illustrator": "wada-arco",
     "character-voice": "shitaya-noriko",
     "major-appearances": "fate-extra-ccc",
-    "bond.ce": "a-dream-by-the-wayside",
-    "valentine.ce": "sweet-devil-slots",
     "related.servant": "bb-summer"
   },
 
@@ -59,6 +57,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

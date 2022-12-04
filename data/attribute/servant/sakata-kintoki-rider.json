@@ -26,8 +26,6 @@
     "illustrator": "honjou-raita",
     "character-voice": "yusa-kouji",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "golden-bear",
-    "valentine.ce": "rider-belt-replica",
     "related.servant": "sakata-kintoki"
   },
 
@@ -59,6 +57,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

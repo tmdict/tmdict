@@ -23,9 +23,7 @@
     "luck.parameter": "a",
     "noble-phantasm.parameter": "ex",
     "illustrator": "i-iv",
-    "character-voice": "canna-nobutoshi",
-    "bond.ce": "hunter-of-the-stars",
-    "valentine.ce": "tri-star-belt-handmade"
+    "character-voice": "canna-nobutoshi"
   },
 
   "data": {
@@ -40,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

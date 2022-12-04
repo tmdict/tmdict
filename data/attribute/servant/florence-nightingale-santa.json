@@ -22,8 +22,6 @@
     "noble-phantasm.parameter": "b",
     "illustrator": "takahashi-keitarou",
     "character-voice": "sawashiro-miyuki",
-    "bond.ce": "merry-christmas",
-    "valentine.ce": "chocolate-flavored-ampoule",
     "related.servant": "nightingale"
   },
 
@@ -40,6 +38,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

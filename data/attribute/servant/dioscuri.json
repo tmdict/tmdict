@@ -23,8 +23,7 @@
     "luck.parameter": "c",
     "noble-phantasm.parameter": "b",
     "illustrator": "taiki",
-    "character-voice": ["uchida-yuma", "uchida-maaya"],
-    "bond.ce": "shining-sword-and-disc-of-the-stars"
+    "character-voice": ["uchida-yuma", "uchida-maaya"]
   },
 
   "data": {
@@ -39,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

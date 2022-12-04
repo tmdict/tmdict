@@ -22,8 +22,6 @@
     "noble-phantasm.parameter": "c",
     "illustrator": "takeuchi-takashi",
     "character-voice": "yuuki-aoi",
-    "bond.ce": "beyond-the-azure",
-    "valentine.ce": "jet-chocolate-youkan",
     "related.servant": ["okita-souji", "okita-souji-alter"]
   },
 
@@ -40,6 +38,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

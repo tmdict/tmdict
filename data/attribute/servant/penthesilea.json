@@ -28,9 +28,7 @@
     "character-setting": "minase-hazuki",
     "illustrator": "shinjirou",
     "character-voice": "shimamura-yuu",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "military-sash-of-the-god-of-war",
-    "valentine.ce": "spiky-chocolate-balls"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -65,7 +63,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

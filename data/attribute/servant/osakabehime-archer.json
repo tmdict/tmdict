@@ -28,8 +28,6 @@
     "illustrator": "moriyama-daisuke",
     "character-voice": "fukuen-misato",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "at-sunset-after-the-battle",
-    "valentine.ce": "japanese-style-chocolate-letter",
     "related.servant": "osakabehime"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

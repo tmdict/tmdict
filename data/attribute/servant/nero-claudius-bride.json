@@ -27,9 +27,7 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "wada-arco",
     "character-voice": "tange-sakura",
-    "major-appearances": "fate-extra-ccc",
-    "bond.ce": "ring-of-bay-laurel",
-    "valentine.ce": "may-breeze"
+    "major-appearances": "fate-extra-ccc"
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

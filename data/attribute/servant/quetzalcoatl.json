@@ -28,8 +28,6 @@
     "illustrator": "hiroe-rei",
     "character-voice": "endou-aya",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "piedra-del-sol",
-    "valentine.ce": "xocolatl-libertad",
     "related.servant": "quetzalcoatl-santa-samba"
   },
 
@@ -66,6 +64,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

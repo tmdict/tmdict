@@ -28,8 +28,6 @@
     "illustrator": "shima-drill",
     "character-voice": "okiayu-ryoutarou",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "lady-of-the-lake",
-    "valentine.ce": "blossom-of-noble-hope",
     "related.servant": "lancelot"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

@@ -28,9 +28,7 @@
     "lostbelt-setting.character-setting": "nasu-kinoko",
     "illustrator": "pfalz",
     "character-voice": "seki-toshihiko",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "inferno-sword",
-    "valentine.ce": "pitch-black-conductors-baton"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "lostbelt-setting.character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "lostbelt-setting.character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

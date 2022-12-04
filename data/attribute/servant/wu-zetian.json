@@ -27,9 +27,7 @@
     "character-setting": "minase-hazuki",
     "illustrator": "harada-takehito",
     "character-voice": "izawa-shiori",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "the-palace-of-luoyang",
-    "valentine.ce": "a-pot-of-noble-chocolate"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -64,7 +62,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

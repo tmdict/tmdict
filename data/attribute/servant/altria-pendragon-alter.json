@@ -29,8 +29,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
     "major-appearances": "fate-stay-night",
-    "bond.ce": "memories-of-the-dragon",
-    "valentine.ce": "crown-saber-morgan",
     "related.servant": ["altria-pendragon-santa-alter", "altria-pendragon-rider-alter"]
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

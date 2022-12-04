@@ -28,8 +28,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "seki-tomokazu",
     "major-appearances": ["fate-stay-night", "fate-zero", "others"],
-    "bond.ce": "key-of-the-kings-law",
-    "valentine.ce": "lapis-lazuli-bracelet",
     "related.servant": "gilgamesh-caster"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

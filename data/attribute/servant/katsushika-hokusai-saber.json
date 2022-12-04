@@ -22,8 +22,6 @@
     "noble-phantasm.parameter": "b",
     "illustrator": "kuroboshi-kouhaku",
     "character-voice": "yukana",
-    "bond.ce": "a-wonder-tale-the-moonbow",
-    "valentine.ce": "chocolate-chocolate-octopus-netsuke",
     "related.servant": "katsushika-hokusai"
   },
 
@@ -40,6 +38,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

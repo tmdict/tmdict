@@ -28,8 +28,6 @@
     "illustrator": "okojo",
     "character-voice": "tanaka-atsuko",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "iron-maiden-summer",
-    "valentine.ce": "chocolate-to-steal-the-greatest-treasure",
     "related.servant": "carmilla"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

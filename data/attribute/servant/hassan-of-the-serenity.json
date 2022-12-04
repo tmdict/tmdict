@@ -28,9 +28,7 @@
     "character-setting": "sakurai-hikaru",
     "illustrator": "nakahara",
     "character-voice": "senbongi-sayaka",
-    "major-appearances": "fate-prototype-sougin-no-fragments",
-    "bond.ce": "proof-of-existence",
-    "valentine.ce": "dark-black-kiss"
+    "major-appearances": "fate-prototype-sougin-no-fragments"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

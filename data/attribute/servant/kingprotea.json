@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "e",
     "character-setting": "nasu-kinoko",
     "illustrator": "wada-arco",
-    "character-voice": "han-megumi",
-    "bond.ce": "hands-full-of",
-    "valentine.ce": "grand-chocolate"
+    "character-voice": "han-megumi"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

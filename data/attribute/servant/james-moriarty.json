@@ -28,9 +28,7 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "honjou-raita",
     "character-voice": "hashi-takaya",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "the-dynamics-of-an-asteroid",
-    "valentine.ce": "evil-doctrine"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -65,7 +63,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

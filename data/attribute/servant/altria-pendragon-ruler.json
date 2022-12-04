@@ -28,8 +28,6 @@
     "illustrator": "ishida-akira",
     "character-voice": "kawasumi-ayako",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "golden-round-table-roulette",
-    "valentine.ce": "chocolate-cake-white-bunny",
     "related.servant": "altria-pendragon-lancer"
   },
 
@@ -46,6 +44,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "b",
     "character-setting": "sanda-makoto",
     "illustrator": "sakamoto-mineji",
-    "character-voice": "minase-inori",
-    "bond.ce": "el-melloi-teatime",
-    "valentine.ce": "chocolate-mercury"
+    "character-voice": "minase-inori"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

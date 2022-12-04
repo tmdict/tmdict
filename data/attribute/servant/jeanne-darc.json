@@ -29,8 +29,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "sakamoto-maaya",
     "major-appearances": "fate-apocrypha",
-    "bond.ce": "revelation-from-heaven",
-    "valentine.ce": "st-orleans",
     "related.servant": "jeanne-darc-archer"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

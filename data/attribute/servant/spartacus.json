@@ -28,9 +28,7 @@
     "illustrator": "konoe-ototsugu",
     "original-character-design.illustrator": "terada-katsuya",
     "character-voice": "tsuruoka-satoshi",
-    "major-appearances": "fate-apocrypha",
-    "bond.ce": "insurrection",
-    "valentine.ce": "first-step-to-rebellion"
+    "major-appearances": "fate-apocrypha"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

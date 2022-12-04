@@ -28,9 +28,7 @@
     "character-setting": "hiroyama-hiroshi",
     "illustrator": "hiroyama-hiroshi",
     "character-voice": ["kadowaki-mai", "takano-naoko"],
-    "major-appearances": ["fate-kaleid-liner-prisma-illya", "etc"],
-    "bond.ce": "install",
-    "valentine.ce": "lovingly-handmade-chocolates"
+    "major-appearances": ["fate-kaleid-liner-prisma-illya", "etc"]
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

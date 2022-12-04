@@ -27,8 +27,6 @@
     "character-setting": ["minase-hazuki", "nasu-kinoko"],
     "illustrator": "hiroe-rei",
     "character-voice": "endou-aya",
-    "bond.ce": "the-winged-serpent-of-the-holy-night",
-    "valentine.ce": "chocolate-ring-bell",
     "related.servant": "quetzalcoatl"
   },
 
@@ -60,6 +58,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

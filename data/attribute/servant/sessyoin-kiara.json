@@ -28,8 +28,6 @@
     "illustrator": "wada-arco",
     "character-voice": "tanaka-rie",
     "major-appearances": "fate-extra-ccc",
-    "bond.ce": "cradle-dream",
-    "valentine.ce": "special-sessyoin-bean-cake",
     "related.servant": "beast-iii-r"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

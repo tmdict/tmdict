@@ -27,9 +27,7 @@
     "character-setting": ["nasu-kinoko", "sakurai-hikaru"],
     "illustrator": "akira",
     "character-voice": "koyama-rikiya",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "where-the-sun-doesnt-reach",
-    "valentine.ce": "bullets-and-a-gun"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -64,7 +62,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "notes", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

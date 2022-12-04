@@ -27,8 +27,6 @@
     "original-character-design.illustrator": "keikenchi",
     "character-voice": "kugimiya-rie",
     "major-appearances": ["koha-ace-ex", "fate-grand-order"],
-    "bond.ce": "rotary-matchlock",
-    "valentine.ce": "the-inevitable",
     "related.servant": ["oda-nobunaga-berserker", "demon-king-nobunaga"]
   },
 
@@ -60,6 +58,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

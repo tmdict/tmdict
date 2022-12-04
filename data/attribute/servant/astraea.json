@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "ap",
     "character-setting": "sanda-makoto",
     "illustrator": "azuma-toh",
-    "character-voice": "itou-shizuka",
-    "bond.ce": "scale-of-the-stars",
-    "valentine.ce": "wine-with-starry-chocolates"
+    "character-voice": "itou-shizuka"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

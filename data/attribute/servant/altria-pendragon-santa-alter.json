@@ -26,8 +26,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "llamrei-unit-ii",
-    "valentine.ce": "christmas-memory",
     "related.servant": ["altria-pendragon-alter", "altria-pendragon-rider-alter"]
   },
 
@@ -59,6 +57,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

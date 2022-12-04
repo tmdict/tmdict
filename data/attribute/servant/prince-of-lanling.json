@@ -28,9 +28,7 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "hou",
     "character-voice": "mori-nanako",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "my-poisoned-chalice-my-mask",
-    "valentine.ce": "beauty-concealing-mask"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

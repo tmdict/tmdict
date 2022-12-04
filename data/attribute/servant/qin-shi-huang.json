@@ -26,9 +26,7 @@
     "character-setting": "urobuchi-gen",
     "illustrator": "azuma-toh",
     "character-voice": "fukuyama-jun",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "epang-palace-model",
-    "valentine.ce": ["elixir-of-immortality", "chalcedony-chocolate"]
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -63,7 +61,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

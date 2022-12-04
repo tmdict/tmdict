@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "b",
     "character-setting": "nasu-kinoko",
     "illustrator": "harada-takehito",
-    "character-voice": "kuno-misaki",
-    "bond.ce": "reminiscence-of-spring",
-    "valentine.ce": "sweet-tongued-sparrows-wasanbon"
+    "character-voice": "kuno-misaki"
   },
 
   "data": {
@@ -63,7 +61,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter", "notes"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

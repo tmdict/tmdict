@@ -28,9 +28,7 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "konoe-ototsugu",
     "character-voice": "uchiyama-kouki",
-    "major-appearances": "fate-apocrypha",
-    "bond.ce": "amakusa-shirous-rally-flag",
-    "valentine.ce": "handmade-church-cookies"
+    "major-appearances": "fate-apocrypha"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

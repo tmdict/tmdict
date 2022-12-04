@@ -24,9 +24,7 @@
     "luck.parameter": "b",
     "noble-phantasm.parameter": "a",
     "illustrator": "ginka",
-    "character-voice": "toshiki-masuda",
-    "bond.ce": "the-sword-broken-at-battles-end",
-    "valentine.ce": "durendal-replica"
+    "character-voice": "toshiki-masuda"
   },
 
   "data": {
@@ -41,7 +39,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

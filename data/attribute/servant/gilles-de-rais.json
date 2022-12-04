@@ -29,8 +29,6 @@
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "tsuruoka-satoshi",
     "major-appearances": "fate-zero",
-    "bond.ce": "letter-from-a-friend",
-    "valentine.ce": "gilles-doll-rais",
     "related.servant": "gilles-de-rais-saber"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

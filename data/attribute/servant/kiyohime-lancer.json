@@ -28,8 +28,6 @@
     "illustrator": "black",
     "character-voice": "taneda-risa",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "summer-love-letter-terror",
-    "valentine.ce": "just-some-ordinary-chocolates",
     "related.servant": "kiyohime"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

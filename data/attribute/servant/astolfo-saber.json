@@ -24,8 +24,6 @@
     "noble-phantasm.parameter": "b",
     "illustrator": "konoe-ototsugu",
     "character-voice": "ookubo-rumi",
-    "bond.ce": "otherworldly-mystical-horse",
-    "valentine.ce": ["bunny-ears", "chewy-kagami-mochi-chocolate"],
     "related.servant": "astolfo"
   },
 
@@ -42,6 +40,6 @@
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

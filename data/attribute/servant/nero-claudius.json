@@ -31,8 +31,6 @@
     "illustrator": "wada-arco",
     "character-voice": "tange-sakura",
     "major-appearances": ["fate-extra", "fate-extra-ccc"],
-    "bond.ce": "thunderous-applause",
-    "valentine.ce": "the-emperor",
     "related.servant": "nero-claudius-caster"
   },
 
@@ -64,6 +62,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

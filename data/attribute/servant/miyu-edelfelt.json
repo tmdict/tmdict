@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "a",
     "character-setting": "hiroyama-hiroshi",
     "illustrator": "hiroyama-hiroshi",
-    "character-voice": ["nazuka-kaori", "kakazu-yumi"],
-    "bond.ce": "memory-of-mother",
-    "valentine.ce": "girls-triple-cacao-set"
+    "character-voice": ["nazuka-kaori", "kakazu-yumi"]
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

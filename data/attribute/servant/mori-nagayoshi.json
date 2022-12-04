@@ -23,9 +23,7 @@
     "luck.parameter": "d",
     "noble-phantasm.parameter": "c",
     "illustrator": "dd",
-    "character-voice": "taniyama-kishou",
-    "bond.ce": "last-will-and-testament",
-    "valentine.ce": "a-bowl-of-tea"
+    "character-voice": "taniyama-kishou"
   },
 
   "data": {
@@ -40,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

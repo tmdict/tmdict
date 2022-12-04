@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "c",
     "character-setting": "sakurai-hikaru",
     "illustrator": "honjou-raita",
-    "character-voice": "kayano-ai",
-    "bond.ce": "new-tale-of-genji-scroll",
-    "valentine.ce": "sweet-tongued-sparrows-wasanbon"
+    "character-voice": "kayano-ai"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

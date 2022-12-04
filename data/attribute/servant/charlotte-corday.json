@@ -27,9 +27,7 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "aotsuki-takao",
     "character-voice": "horie-yui",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "angel-of-assassination",
-    "valentine.ce": "a-gift-for-you-my-beloved"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -44,7 +42,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

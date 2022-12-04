@@ -29,8 +29,6 @@
     "illustrator": "honjou-raita",
     "character-voice": "yuuki-aoi",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "divine-wine-shinpen-kidoku",
-    "valentine.ce": "nectar-bonbons",
     "related.servant": "shuten-douji-caster"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

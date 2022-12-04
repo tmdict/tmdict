@@ -26,9 +26,7 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "ryota-h",
     "character-voice": "nakata-jouji",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "the-mountain-abyss",
-    "valentine.ce": "al-bakhoor"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -73,7 +71,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter", "notes"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

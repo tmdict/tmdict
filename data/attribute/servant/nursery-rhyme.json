@@ -26,9 +26,7 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "wada-arco",
     "character-voice": "nonaka-ai",
-    "major-appearances": "fate-extra",
-    "bond.ce": "wonderland",
-    "valentine.ce": "powder-sugar-snow-tale"
+    "major-appearances": "fate-extra"
   },
 
   "data": {
@@ -63,7 +61,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

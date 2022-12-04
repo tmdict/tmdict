@@ -28,9 +28,7 @@
     "illustrator": "nekotawawa",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "terashima-takuma",
-    "major-appearances": "fate-hollow-ataraxia",
-    "bond.ce": "final-fragment",
-    "valentine.ce": "devils-bandana"
+    "major-appearances": "fate-hollow-ataraxia"
   },
 
   "data": {
@@ -65,7 +63,6 @@
     ["star", "class", "other-names"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }

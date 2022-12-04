@@ -28,8 +28,6 @@
     "illustrator": "morii-shizuki",
     "character-voice": "ueda-kana",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "seven-headed-warhammer-cita",
-    "valentine.ce": "chocolate-gems",
     "related.servant": ["ishtar-rider", "space-ishtar"]
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

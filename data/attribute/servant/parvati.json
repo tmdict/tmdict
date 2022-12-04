@@ -28,9 +28,7 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "aotsuki-takao",
     "character-voice": "shitaya-noriko",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "nandi",
-    "valentine.ce": "nandi-chocolate-1-1-scale"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

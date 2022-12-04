@@ -23,8 +23,7 @@
     "luck.parameter": "ex",
     "noble-phantasm.parameter": "a",
     "illustrator": "koyama-hirokazu",
-    "character-voice": "okiayu-ryoutarou",
-    "bond.ce": "to-the-skies"
+    "character-voice": "okiayu-ryoutarou"
   },
 
   "data": {
@@ -39,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

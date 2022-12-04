@@ -27,9 +27,7 @@
     "character-setting": "keikenchi",
     "illustrator": "yogo-yuuki",
     "character-voice": "hoshino-takanori",
-    "major-appearances": "fate-grand-order",
-    "bond.ce": "haori-of-the-vow",
-    "valentine.ce": "vice-commander-produced-powdered-medicine"
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -59,7 +57,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

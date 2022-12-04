@@ -29,8 +29,6 @@
     "character-setting": "higashide-yuuichirou",
     "illustrator": "wada-arco",
     "character-voice": "yasui-kunihiko",
-    "bond.ce": "even-aged",
-    "valentine.ce": "wooden-sword",
     "related.servant": "li-shuwen"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

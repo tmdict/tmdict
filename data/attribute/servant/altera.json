@@ -29,8 +29,6 @@
     "illustrator": "huke",
     "character-voice": "noto-mamiko",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "eternal-solitude",
-    "valentine.ce": "enrober-photon",
     "related.servant": "attila-the-san-ta"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

@@ -26,9 +26,7 @@
     "noble-phantasm.parameter": "a",
     "character-setting": "minase-hazuki",
     "illustrator": "takeuchi-takashi",
-    "character-voice": "satou-rina",
-    "bond.ce": "the-will-shall-carry-on",
-    "valentine.ce": "lump-of-fortune"
+    "character-voice": "satou-rina"
   },
 
   "data": {
@@ -58,7 +56,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

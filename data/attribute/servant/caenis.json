@@ -23,8 +23,7 @@
     "luck.parameter": "b",
     "noble-phantasm.parameter": "c",
     "illustrator": "azusa",
-    "character-voice": "komatsu-mikako",
-    "bond.ce": "sea-gods-trident"
+    "character-voice": "komatsu-mikako"
   },
 
   "data": {
@@ -39,7 +38,6 @@
     ["star", "class"],
     ["gender", "alignment"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
-    ["bond.ce"]
+    ["illustrator", "character-voice"]
   ]
 }

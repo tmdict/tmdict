@@ -24,9 +24,7 @@
     "noble-phantasm.parameter": "ap",
     "character-setting": "sanda-makoto",
     "illustrator": "sakamoto-mineji",
-    "character-voice": ["ueda-reina", "ono-daisuke"],
-    "bond.ce": "grave-keepers-treasure",
-    "valentine.ce": "fudge"
+    "character-voice": ["ueda-reina", "ono-daisuke"]
   },
 
   "data": {
@@ -56,7 +54,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce"]
+    ["character-setting", "illustrator", "character-voice"]
   ]
 }

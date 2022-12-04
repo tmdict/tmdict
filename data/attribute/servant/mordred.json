@@ -29,8 +29,6 @@
     "illustrator": "konoe-ototsugu",
     "character-voice": "sawashiro-miyuki",
     "major-appearances": "fate-apocrypha",
-    "bond.ce": "who-am-i",
-    "valentine.ce": "strawberry-thunder-crunch",
     "related.servant": "mordred-rider"
   },
 
@@ -62,6 +60,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

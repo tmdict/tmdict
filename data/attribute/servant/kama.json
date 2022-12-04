@@ -27,8 +27,6 @@
     "character-setting": ["minase-hazuki", "nasu-kinoko"],
     "illustrator": "redrop",
     "character-voice": "shitaya-noriko",
-    "bond.ce": "flower-arrows",
-    "valentine.ce": "chocolate-filled-with-love-lol",
     "related.servant": "beast-iii-l"
   },
 
@@ -65,6 +63,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice"],
-    ["bond.ce",  "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

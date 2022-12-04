@@ -28,8 +28,6 @@
     "illustrator": "shimaudon",
     "character-voice": "tanaka-minami",
     "major-appearances": "fate-grand-order",
-    "bond.ce": "gift-from-the-sun",
-    "valentine.ce": "chocolate",
     "related.servant": "nitocris"
   },
 
@@ -61,6 +59,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

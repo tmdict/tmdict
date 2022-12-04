@@ -29,8 +29,6 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
     "major-appearances": ["fate-stay-night", "fate-zero", "others"],
-    "bond.ce": "crown-of-the-star",
-    "valentine.ce": "crown-saber",
     "related.servant": "altria-pendragon-archer"
   },
 
@@ -67,6 +65,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

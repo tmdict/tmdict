@@ -30,8 +30,6 @@
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
     "major-appearances": ["back-alley-satsuki-chapter-heroine-sanctuary", "fate-grand-order"],
-    "bond.ce": "annihilation-list",
-    "valentine.ce": "du-stallion-chocolate",
     "related.servant": "mysterious-heroine-xx"
   },
 
@@ -68,6 +66,6 @@
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce", "related.servant"]
+    ["related.servant"]
   ]
 }

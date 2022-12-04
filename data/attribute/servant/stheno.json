@@ -28,9 +28,7 @@
     "illustrator": "akira",
     "original-character-design.illustrator": "takeuchi-takashi",
     "character-voice": "asakawa-yuu",
-    "major-appearances": "fate-hollow-ataraxia",
-    "bond.ce": "radiance-of-the-goddess-stheno",
-    "valentine.ce": "snake-chocolate-with-love"
+    "major-appearances": "fate-hollow-ataraxia"
   },
 
   "data": {
@@ -60,7 +58,6 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
-    ["bond.ce", "valentine.ce"]
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
   ]
 }
