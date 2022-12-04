@@ -16,9 +16,9 @@
         "zh": "从者"
       },
       "filter": [
+        "source",
         "star",
-        "class",
-        "source"
+        "class"
       ],
       "contentFilter": [
         "source"

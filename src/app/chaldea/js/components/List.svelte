@@ -27,15 +27,15 @@
 
 <div class="list">
   <div class="header item">
-    <div class="id" on:click={() => updateSortBy("fgoId")}>
+    <div class="id" on:click={() => updateSortBy("fgoId")} on:keydown={() => updateSortBy("fgoId")}>
       {APP.i18n.id[$activeLang]}
       {$sortBy.id === "fgoId" ? ` ${$sortBy.order}` : ""}
     </div>
-    <div class="name" on:click={() => updateSortBy("name")}>
+    <div class="name" on:click={() => updateSortBy("name")} on:keydown={() => updateSortBy("name")}>
       {APP.i18n.name[$activeLang]}
       {$sortBy.id === "name" ? ` ${$sortBy.order}` : ""}
     </div>
-    <div class="star" on:click={() => updateSortBy("star")}>
+    <div class="star" on:click={() => updateSortBy("star")} on:keydown={() => updateSortBy("star")}>
       {APP.i18n.star[$activeLang]}
       {$sortBy.id === "star" ? ` ${$sortBy.order}` : ""}
     </div>
