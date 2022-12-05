@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 124,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0124a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0124b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0124c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0124d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0124e_april-fools.png" },
+    { "weight": 6, "id": "img_poisonous-flower-that-blooms-during-the-night", "src": "S0124f_poisonous-flower-that-blooms-during-the-night.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_3",
+    "gender": "female",
+    "origin": ["middle-east", "old-man-of-the-mountain"],
+    "region": "middle-east",
+    "alignment": "lawful-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "nakahara",
+    "character-voice": "senbongi-sayaka",
+    "major-appearances": "fate-prototype-sougin-no-fragments"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hassan of the Serenity",
+      "ja": "静謐のハサン",
+      "zh": "静谧哈桑"
+    },
+    "true-name": {
+      "en": "Hassan-i Sabbah",
+      "ja": "ハサン・サッバーハ",
+      "zh": "哈桑·萨巴赫"
+    },
+    "height": {
+      "en": "161cm",
+      "ja": "161cm",
+      "zh": "161cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

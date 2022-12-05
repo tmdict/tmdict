@@ -47,7 +47,7 @@
 
   <div id="nav">
     <a href="{level}#{$activeLang}" class="first">HOME</a>
-    <a href="{level}servant/#{$activeLang}">CHARACTER</a>
+    <a href="{level}profile/#{$activeLang}">PROFILE</a>
     <a href="{level}ce/#{$activeLang}">GLOSSARY</a>
 
     <div class="language">

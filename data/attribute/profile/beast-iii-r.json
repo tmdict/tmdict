@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 168,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0168a.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": ["city-of-the-pleasure-of-rebirth", "se-ra-ph"],
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "ex",
+    "agility.parameter": "b",
+    "magic.parameter": "ex",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "tanaka-rie",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "sessyoin-kiara"
+  },
+
+  "data": {
+    "name": {
+      "en": "Beast III/R",
+      "ja": "ビースト III／Ｒ",
+      "zh": "Beast III／R"
+    },
+    "class": {
+      "en": "Beast III",
+      "ja": "ビースト III",
+      "zh": "Beast III"
+    },
+    "true-name": {
+      "en": "Heaven’s Hole / The Tenma Natured Boddhisatva of Pleasure Ruling the Souls of Sumeru",
+      "ja": "ヘブンズホール／須弥霊掌快楽天魔性菩薩",
+      "zh": "天堂之孔／须弥灵掌快乐天魔性菩萨"
+    },
+    "height": {
+      "en": "Half a yojana~???",
+      "ja": "半由旬～？？？",
+      "zh": "半由旬~？？？"
+    },
+    "weight": {
+      "en": "None",
+      "ja": "無",
+      "zh": "无"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

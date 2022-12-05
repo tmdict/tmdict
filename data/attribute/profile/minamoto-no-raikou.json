@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 114,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0114a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0114b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0114c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0114d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0114e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["historical-fact", "otogizoushi", "taiheiki", "azuma-kagami", "the-true-form-of-ushi-gozen", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "honjou-raita",
+    "character-voice": "tomatsu-haruka",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "minamoto-no-raikou-lancer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Minamoto-no-Raikou",
+      "ja": "源頼光",
+      "zh": "源赖光"
+    },
+    "true-name": {
+      "en": "Minamoto-no-Raikou",
+      "ja": "源頼光",
+      "zh": "源赖光"
+    },
+    "height": {
+      "en": "175cm",
+      "ja": "175cm",
+      "zh": "175cm"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "？？kg",
+      "zh": "？？kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 274,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0274a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0274b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0274c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0274d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0274e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "female",
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "a",
+    "illustrator": "redjuice",
+    "character-voice": "m-a-o"
+  },
+
+  "data": {
+    "name": {
+      "en": "Europa",
+      "ja": "エウロペ",
+      "zh": "欧罗巴"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"]
+  ]
+}

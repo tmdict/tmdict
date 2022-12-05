@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "fgoId": 8,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0008a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0008b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0008c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0008d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0008e_april-fools.png" },
+    { "weight": 6, "id": "img_palmtop-stardust", "src": "S0008f_palmtop-stardust.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": ["central-asia", "europe"],
+    "alignment": "chaotic-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "huke",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "attila-the-san-ta"
+  },
+
+  "data": {
+    "name": {
+      "en": "Altera",
+      "ja": "アルテラ",
+      "zh": "阿蒂拉"
+    },
+    "true-name": {
+      "en": "Altera",
+      "ja": "アルテラ",
+      "zh": "阿蒂拉"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "48kg",
+      "ja": "48kg",
+      "zh": "48kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 39,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0039a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0039b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0039c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0039d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0039e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "neutral-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "e",
+    "agility.parameter": "ap",
+    "magic.parameter": "e",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "_qm",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "mata",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "miki-shinichirou",
+    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Sasaki Kojirou",
+      "ja": "佐々木小次郎",
+      "zh": "佐佐木小次郎"
+    },
+    "true-name": {
+      "en": "Sasaki Kojirou",
+      "ja": "佐々木小次郎",
+      "zh": "佐佐木小次郎"
+    },
+    "height": {
+      "en": "176cm",
+      "ja": "176cm",
+      "zh": "176cm"
+    },
+    "weight": {
+      "en": "63kg",
+      "ja": "63kg",
+      "zh": "63kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

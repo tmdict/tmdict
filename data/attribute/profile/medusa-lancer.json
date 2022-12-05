@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 146,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0146a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0146b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0146c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0146d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0146e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "e",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "black",
+    "character-voice": "asakawa-yuu",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["medusa", "gorgon"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Medusa (Lancer)",
+      "ja": "メドゥーサ（ランサー）",
+      "zh": "美杜莎（Lancer）"
+    },
+    "true-name": {
+      "en": "Medusa",
+      "ja": "メドゥーサ",
+      "zh": "美杜莎"
+    },
+    "height": {
+      "en": "134cm",
+      "ja": "134cm",
+      "zh": "134cm"
+    },
+    "weight": {
+      "en": "30kg? “identical with my elder sisters” body weight is self-reported",
+      "ja": "30kg？「姉様たちと一緒です」体重は自己申告による",
+      "zh": "30kg？「和姐姐们一样」体重是自己声称的"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

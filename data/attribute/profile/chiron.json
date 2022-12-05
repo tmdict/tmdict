@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 207,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0207a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0207b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0207c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0207d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0207e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "takeuchi-shunsuke",
+    "major-appearances": ["fate-apocrypha", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Chiron",
+      "ja": "ケイローン",
+      "zh": "喀戎"
+    },
+    "true-name": {
+      "en": "Chiron",
+      "ja": "ケイローン",
+      "zh": "喀戎"
+    },
+    "height": {
+      "en": "179cm",
+      "ja": "179cm",
+      "zh": "179cm"
+    },
+    "weight": {
+      "en": "81kg",
+      "ja": "81kg",
+      "zh": "81kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

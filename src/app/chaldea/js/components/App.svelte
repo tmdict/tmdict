@@ -12,8 +12,8 @@
   const pageComponent = {
     'page': { component: Main, level: './' },
     'missing': { component: Missing, level: '../' },
-    'servant': { component: FilterList, level: '../' },
-    'ce': { component: FilterList, level: '../' }
+    'profile': { component: FilterList, level: '../' },
+    //'ce': { component: FilterList, level: '../' }
   }
 </script>
 

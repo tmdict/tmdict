@@ -1,0 +1,44 @@
+{
+  "type": "profile",
+  "fgoId": 268,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0268a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0268b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0268c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0268d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0268e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_5",
+    "gender": "female",
+    "alignment": "lawful-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "ex",
+    "agility.parameter": "b",
+    "magic.parameter": "ex",
+    "luck.parameter": "cp",
+    "noble-phantasm.parameter": "ex",
+    "illustrator": "morii-shizuki",
+    "character-voice": "ueda-kana",
+    "related.profile": ["ishtar", "ishtar-rider"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Space Ishtar",
+      "ja": "スペース・イシュタル",
+      "zh": "太空伊什塔尔"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["related.profile"]
+  ]
+}

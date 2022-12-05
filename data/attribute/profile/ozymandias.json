@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 118,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0118a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0118b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0118c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0118d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0118e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "egypt",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "nakahara",
+    "character-voice": "koyasu-takehito",
+    "major-appearances": "fate-prototype-sougin-no-fragments"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ozymandias",
+      "ja": "オジマンディアス",
+      "zh": "奥斯曼狄斯"
+    },
+    "true-name": {
+      "en": "Ozymandias",
+      "ja": "オジマンディアス",
+      "zh": "奥斯曼狄斯"
+    },
+    "height": {
+      "en": "179cm",
+      "ja": "179cm",
+      "zh": "179cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

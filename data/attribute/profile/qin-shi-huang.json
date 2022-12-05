@@ -1,0 +1,65 @@
+{
+  "type": "profile",
+  "fgoId": 229,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0229a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0229b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0229c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0229d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0229e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "lawful-good",
+    "strength.parameter": "bp",
+    "endurance.parameter": "bp",
+    "agility.parameter": "bp",
+    "magic.parameter": "bp",
+    "luck.parameter": "bp",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "urobuchi-gen",
+    "illustrator": "azuma-toh",
+    "character-voice": "fukuyama-jun",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Qin Shi Huang",
+      "ja": "始皇帝",
+      "zh": "始皇帝"
+    },
+    "true-name": {
+      "en": "Ying Zheng",
+      "ja": "嬴政",
+      "zh": "嬴政"
+    },
+    "gender": {
+      "en": "We [朕 (pronounced as “chin”), first person pronoun used by royalty.]",
+      "ja": "朕",
+      "zh": "朕"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "fgoId": 242,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0242a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0242b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0242c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0242d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0242e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["greek-mythology", "roman-mythology"],
+    "region": "greece",
+    "alignment": "lawful-good",
+    "strength.parameter": "ap",
+    "endurance.parameter": "ap",
+    "agility.parameter": "d",
+    "magic.parameter": "ex",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sanda-makoto",
+    "illustrator": "azuma-toh",
+    "character-voice": "itou-shizuka"
+  },
+
+  "data": {
+    "name": {
+      "en": "Astraea",
+      "ja": "アストライア",
+      "zh": "阿斯特赖亚"
+    },
+    "true-name": {
+      "en": "Astraea",
+      "ja": "アストライア",
+      "zh": "阿斯特赖亚"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"]
+  ]
+}

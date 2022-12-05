@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "fgoId": 152,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0152a.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "old-testament",
+    "region": "ancient-israel",
+    "alignment": "lawful-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "b",
+    "magic.parameter": "app",
+    "luck.parameter": "app",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "yamanaka-kotetsu",
+    "character-voice": "suzumura-kenichi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "solomon-grand-caster"
+  },
+
+  "data": {
+    "name": {
+      "en": "Solomon",
+      "ja": "ソロモン",
+      "zh": "所罗门"
+    },
+    "class":{
+      "en": "Grand Caster",
+      "ja": "グランドキャスター",
+      "zh": "Grand Caster"
+    },
+    "true-name": {
+      "en": "Solomon",
+      "ja": "ソロモン",
+      "zh": "所罗门"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "75kg",
+      "ja": "75kg",
+      "zh": "75kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

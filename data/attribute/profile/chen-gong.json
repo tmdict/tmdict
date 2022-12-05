@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 258,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0258a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0258b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0258c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0258d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0258e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_2",
+    "gender": "male",
+    "origin": ["historical-fact", "romance-of-the-three-kingdoms"],
+    "region": "china",
+    "alignment": "chaotic-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "madono-mitsuaki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chen Gong",
+      "ja": "陳宮",
+      "zh": "陈宫"
+    },
+    "true-name": {
+      "en": "Chen Gong Gongtai",
+      "ja": "陳宮公台",
+      "zh": "陈宫公台"
+    },
+    "height": {
+      "en": "182cm",
+      "ja": "182cm",
+      "zh": "182cm"
+    },
+    "weight": {
+      "en": "60kg",
+      "ja": "60kg",
+      "zh": "60kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

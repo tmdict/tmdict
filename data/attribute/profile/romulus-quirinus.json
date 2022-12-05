@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 280,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0280a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0280b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0280c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0280d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0280e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "male",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "bpp",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "a",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "okiayu-ryoutarou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Romulus=Quirinus",
+      "ja": "ロムルス＝クィリヌス",
+      "zh": "罗穆路斯·奎里努斯"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"]
+  ]
+}

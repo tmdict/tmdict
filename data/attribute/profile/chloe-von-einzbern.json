@@ -1,0 +1,59 @@
+{
+  "type": "profile",
+  "fgoId": 137,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0137a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0137d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0137e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-kaleid-liner-prisma-illya-2wei",
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "hiroyama-hiroshi",
+    "illustrator": "hiroyama-hiroshi",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": ["fate-kaleid-liner-prisma-illya", "etc"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Chloe von Einzbern",
+      "ja": "クロエ・フォン・アインツベルン",
+      "zh": "克洛伊·冯·爱因兹贝伦"
+    },
+    "true-name": {
+      "en": "Chloe von Einzbern",
+      "ja": "クロエ・フォン・アインツベルン",
+      "zh": "克洛伊·冯·爱因兹贝伦"
+    },
+    "height": {
+      "en": "133cm",
+      "ja": "133cm",
+      "zh": "133cm"
+    },
+    "weight": {
+      "en": "29kg",
+      "ja": "29kg",
+      "zh": "29kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

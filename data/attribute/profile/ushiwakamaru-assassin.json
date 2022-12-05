@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 218,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0218a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0218b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0218c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0218d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0218e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["gikeiki", "the-tale-of-the-heike", "servant-summer-festival"],
+    "region": "japan",
+    "alignment": "neutral-summer",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "app",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "minase-hazuki",
+    "illustrator": "sakamoto-mineji",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "ushiwakamaru"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ushiwakamaru (Assassin)",
+      "ja": "牛若丸（アサシン）",
+      "zh": "牛若丸（Assassin）"
+    },
+    "true-name": {
+      "en": "Ushiwakamaru",
+      "ja": "牛若丸",
+      "zh": "牛若丸"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

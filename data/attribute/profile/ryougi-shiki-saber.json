@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 91,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0091a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0091b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0091c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0091d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0091e_april-fools.png" },
+    { "weight": 6, "id": "img_decapitating-bunny-s1", "src": "S0091f_decapitating-bunny-s1.png" },
+    { "weight": 7, "id": "img_decapitating-bunny-s2", "src": "S0091g_decapitating-bunny-s2.png" },
+    { "weight": 8, "id": "img_decapitating-bunny-s3", "src": "S0091h_decapitating-bunny-s3.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "kara-no-kyoukai",
+    "region": "_na",
+    "alignment": "true-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "a",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "sakamoto-maaya",
+    "major-appearances": "kara-no-kyoukai",
+    "related.profile": "ryougi-shiki-assassin"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ryougi Shiki (Saber)",
+      "ja": "両儀式（セイバー）",
+      "zh": "两仪式（Saber）"
+    },
+    "true-name": {
+      "en": "Ryougi Shiki",
+      "ja": "両儀式",
+      "zh": "两仪式"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

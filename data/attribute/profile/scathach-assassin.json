@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 133,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0133a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0133d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0133e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "celtic-mythology",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["scathach", "scathach-skadi"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Scáthach (Assassin)",
+      "ja": "スカサハ（アサシン）",
+      "zh": "斯卡哈（Assassin）"
+    },
+    "true-name": {
+      "en": "Scáthach",
+      "ja": "スカサハ",
+      "zh": "斯卡哈"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

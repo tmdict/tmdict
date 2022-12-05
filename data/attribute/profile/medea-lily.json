@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 67,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0067a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0067b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0067c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0067d.png" },
+    { "weight": 5, "id": "img_s4_old", "src": "S0067d_old.png" },
+    { "weight": 6, "id": "img_april-fools", "src": "S0067e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "lawful-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "nonaka-ai",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Medea (Lily)",
+      "ja": "メディア（リリィ）",
+      "zh": "美狄亚（Lily）"
+    },
+    "true-name": {
+      "en": "Medea",
+      "ja": "メディア",
+      "zh": "美狄亚"
+    },
+    "height": {
+      "en": "149cm",
+      "ja": "149cm",
+      "zh": "149cm"
+    },
+    "weight": {
+      "en": "41kg",
+      "ja": "41kg",
+      "zh": "41kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

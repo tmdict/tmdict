@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 201,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0201a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0201b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0201c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0201d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0201e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["historical-fact", "folklore-literature"],
+    "region": "russia",
+    "alignment": "true-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "sime",
+    "character-voice": "hara-yumi",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Anastasia Nikolaevna Romanova",
+      "ja": "アナスタシア・ニコラエヴナ・ロマノヴァ",
+      "zh": "阿纳斯塔西娅·尼古拉耶芙娜·罗曼诺娃"
+    },
+    "true-name": {
+      "en": "Anastasia Nikolaevna Romanova / Viy",
+      "ja": "アナスタシア・ニコラエヴナ・ロマノヴァ / ヴィイ",
+      "zh": "阿纳斯塔西娅·尼古拉耶芙娜·罗曼诺娃 / 维"
+    },
+    "height": {
+      "en": "Anastasia 158cm / Viy 30~50cm",
+      "ja": "アナスタシア 158cm / ヴィイ 30~50cm",
+      "zh": "阿纳斯塔西娅 158cm / 维 30~50cm"
+    },
+    "weight": {
+      "en": "Anastasia 40kg / Viy unknown",
+      "ja": "アナスタシア 40kg / ヴィイ 体重不明",
+      "zh": "阿纳斯塔西娅 40kg / 维 体重不明"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

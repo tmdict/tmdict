@@ -1,0 +1,67 @@
+{
+  "type": "profile",
+  "fgoId": 171,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0171a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0171b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0171c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0171d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0171e_april-fools.png" },
+    { "weight": 6, "id": "img_amazoness-ceo-set", "src": "S0171f_amazoness-ceo-set.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["greek-mythology", "trojan-war"],
+    "region": "greece",
+    "alignment": "lawful-good",
+    "strength.parameter": "ap",
+    "endurance.parameter": "bp",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "minase-hazuki",
+    "illustrator": "shinjirou",
+    "character-voice": "shimamura-yuu",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Penthesilea",
+      "ja": "ペンテシレイア",
+      "zh": "彭忒西勒亚"
+    },
+    "other-names": {
+      "en": "Berserker of El Dorado",
+      "ja": "エルドラドのバーサーカー",
+      "zh": "黄金国的Berserker"
+    },
+    "true-name": {
+      "en": "Penthesilea",
+      "ja": "ペンテシレイア",
+      "zh": "彭忒西勒亚"
+    },
+    "height": {
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

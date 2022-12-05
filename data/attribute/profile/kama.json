@@ -1,0 +1,67 @@
+{
+  "type": "profile",
+  "fgoId": 239,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0239a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0239b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0239c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0239d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0239e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "indian-mythology",
+    "region": "india",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "bp",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": ["minase-hazuki", "nasu-kinoko"],
+    "illustrator": "redrop",
+    "character-voice": "shitaya-noriko",
+    "related.profile": "beast-iii-l"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kama",
+      "ja": "カーマ",
+      "zh": "迦摩"
+    },
+    "true-name": {
+      "en": "Kama",
+      "ja": "カーマ",
+      "zh": "迦摩"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    },
+    "notes": {
+      "en": "(The height and weight listed are the base stats)",
+      "ja": "（そわぞわ基本状態のもの）",
+      "zh": "（身高、体重是基本状态下的数据） 可以根据目标的口味自由变化）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"],
+    ["related.profile"]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 196,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0196a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0196b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0196c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0196d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0196e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "ancient-mesopotamian-mythology",
+    "region": "mesopotamia",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "morii-shizuki",
+    "character-voice": "ueda-kana",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ereshkigal",
+      "ja": "エレシュキガル",
+      "zh": "埃列什基伽勒"
+    },
+    "true-name": {
+      "en": "Ereshkigal",
+      "ja": "エレシュキガル",
+      "zh": "埃列什基伽勒"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

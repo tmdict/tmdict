@@ -1,5 +1,5 @@
 ---
-parent: attribute.servant
+parent: attribute.profile
 source: fate-grand-order
 id: nero-claudius-bride
 language: ja

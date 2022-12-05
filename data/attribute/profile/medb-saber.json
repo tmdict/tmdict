@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 221,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0221a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0221b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0221c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0221d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0221e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["celtic-mythology", "servant-summer-festival"],
+    "region": "europe",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "d",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "takayama-kisai",
+    "character-voice": "sakura-ayane",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "queen-medb"
+  },
+
+  "data": {
+    "name": {
+      "en": "Queen Medb (Saber)",
+      "ja": "女王メイヴ（セイバー）",
+      "zh": "女王梅芙（Saber）"
+    },
+    "true-name": {
+      "en": "Queen Medb",
+      "ja": "女王メイヴ",
+      "zh": "女王梅芙"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "41kg",
+      "ja": "41kg",
+      "zh": "41kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 225,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0225a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0225d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0225e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["otogizoushi", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "cp",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "shuten-douji"
+  },
+
+  "data": {
+    "name": {
+      "en": "Shuten-Douji (Caster)",
+      "ja": "酒呑童子（キャスター）",
+      "zh": "酒吞童子（Caster）"
+    },
+    "true-name": {
+      "en": "Shuten-Douji",
+      "ja": "酒呑童子",
+      "zh": "酒吞童子"
+    },
+    "height": {
+      "en": "145cm",
+      "ja": "145cm",
+      "zh": "145cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

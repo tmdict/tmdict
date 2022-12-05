@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 267,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0267a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0267d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0267e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "alignment": "neutral-summer",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "ap",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "yuuki-aoi",
+    "related.profile": ["okita-souji", "okita-souji-alter"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Okita J. Souji (Assassin)",
+      "ja": "オキタ・J・ソウジ（アサシン）",
+      "zh": "冲田・J・总司（Assassin）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["related.profile"]
+  ]
+}

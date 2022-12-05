@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 26,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0026a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0026b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0026c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0026d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0026e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_3",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "bp",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "aotsuki-takao",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Boudica",
+      "ja": "ブーディカ",
+      "zh": "布狄卡"
+    },
+    "true-name": {
+      "en": "Boudica",
+      "ja": "ブーディカ",
+      "zh": "布狄卡"
+    },
+    "height": {
+      "en": "174cm",
+      "ja": "174cm",
+      "zh": "174cm"
+    },
+    "weight": {
+      "en": "62kg",
+      "ja": "62kg",
+      "zh": "62kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

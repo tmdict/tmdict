@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 153,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0153a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0153b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0153c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0153d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0153e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["japan", "historical-fact"],
+    "region": "a-different-lostbelt",
+    "alignment": "chaotic-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "e",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "sakura-ayane",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "miyamoto-musashi-berserker"
+  },
+
+  "data": {
+    "name": {
+      "en": "Miyamoto Musashi",
+      "ja": "宮本武蔵",
+      "zh": "宫本武藏"
+    },
+    "true-name": {
+      "en": "Shinmen Musashi-no-Kami Fujiwara-no-Harunobu",
+      "ja": "新免武蔵守藤原玄信（しんめんむさしのかみふじわらのはるのぶ）",
+      "zh": "新免武藏守藤原玄信"
+    },
+    "height": {
+      "en": "167cm",
+      "ja": "167cm",
+      "zh": "167cm"
+    },
+    "weight": {
+      "en": "56kg",
+      "ja": "56kg",
+      "zh": "56kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

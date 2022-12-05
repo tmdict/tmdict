@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 102,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0102a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0102b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0102c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0102d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0102e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "neutral-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "e",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "_na",
+    "character-setting": ["higashide-yuuichirou", "nasu-kinoko"],
+    "illustrator": "wada-arco",
+    "character-voice": "yasui-kunihiko",
+    "major-appearances": "fate-extra",
+    "related.profile": "li-shuwen-assassin"
+  },
+
+  "data": {
+    "name": {
+      "en": "God Spear Li Shuwen",
+      "ja": "神槍 李書文",
+      "zh": "神枪 李书文"
+    },
+    "true-name": {
+      "en": "Li Shuwen",
+      "ja": "李書文",
+      "zh": "李书文"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "60kg",
+      "ja": "60kg",
+      "zh": "60kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

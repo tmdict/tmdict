@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 193,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0193a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0193b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0193c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0193d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0193e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["investiture-of-the-gods", "journey-to-the-west"],
+    "region": "china",
+    "alignment": "neutral-good",
+    "strength.parameter": "cp",
+    "endurance.parameter": "b",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["hoshizora-meteo", "higashide-yuuichirou"],
+    "illustrator": "aotsuki-takao",
+    "character-voice": "ogura-yui",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nezha",
+      "ja": "哪吒",
+      "zh": "哪吒"
+    },
+    "true-name": {
+      "en": "Nezha",
+      "ja": "哪吒",
+      "zh": "哪吒"
+    },
+    "height": {
+      "en": "164cm",
+      "ja": "164cm",
+      "zh": "164cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

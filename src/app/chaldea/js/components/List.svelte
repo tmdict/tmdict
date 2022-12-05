@@ -11,7 +11,7 @@
   const ext = (env === 'production') ? '' : '.html'
 
   const getImgLink = (fgoId, type) => {
-    const prefix = (type === 'servant') ? 'S' : 'C'
+    const prefix = (type === 'profile') ? 'S' : ''
     return `${prefix}${fgoId.toString().padStart(4, '0')}icon.jpg`
   }
 
@@ -44,7 +44,7 @@
   <ul>
     {#each entryList as entry, i}
       <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}"><div class="item">
-        <div class="icon"><img src="https://img.tmdict.com/{listType}/{getImgLink(entry.fgoId, listType)}" alt="{entry.name[$activeLang]}" /></div>
+        <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.fgoId, listType)}" alt="{entry.name[$activeLang]}" /></div>
         <div class="id">{entry.fgoId}</div>
         <div class="name">{entry.name[$activeLang]}</div>
         <div class="star">{i18n['star'][entry.star][$activeLang]}</div>

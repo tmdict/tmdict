@@ -1,0 +1,65 @@
+{
+  "type": "profile",
+  "fgoId": 74,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0074a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0074b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0074c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0074d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0074e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "english-fairy-tales",
+    "region": "europe",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "cpp",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "nonaka-ai",
+    "major-appearances": "fate-extra"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nursery Rhyme",
+      "ja": "ナーサリー・ライム",
+      "zh": "童谣"
+    },
+    "true-name": {
+      "en": "Nursery Rhyme",
+      "ja": "ナーサリーライム",
+      "zh": "童谣"
+    },
+    "alignment": {
+      "en": "Changes according to the Master",
+      "ja": "マスターによって変化",
+      "zh": "根据御主而变"
+    },
+    "height": {
+      "en": "137cm",
+      "ja": "137cm",
+      "zh": "137cm"
+    },
+    "weight": {
+      "en": "30kg",
+      "ja": "30kg",
+      "zh": "30kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 61,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0061a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0061d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0061e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": "hungary",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "d",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["elisabeth-bathory", "elisabeth-bathory-brave"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Elisabeth Báthory (Halloween)",
+      "ja": "エリザベート・バートリー（ハロウィン）",
+      "zh": "伊丽莎白·巴托里（万圣节）"
+    },
+    "true-name": {
+      "en": "Elisabeth Báthory",
+      "ja": "エリザベート・バートリー",
+      "zh": "伊丽莎白·巴托里"
+    },
+    "height": {
+      "en": "174cm",
+      "ja": "174cm",
+      "zh": "174cm"
+    },
+    "weight": {
+      "en": "44kg (*The height includes her hat)",
+      "ja": "44kg（※身長に帽子含む）",
+      "zh": "44kg（※身高包括帽子）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

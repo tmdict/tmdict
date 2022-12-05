@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 169,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0169a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0169b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0169c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0169d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0169e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "one-thousand-and-one-nights",
+    "region": "persia",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "e",
+    "magic.parameter": "c",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "minase-hazuki",
+    "illustrator": "namaniku-atk",
+    "character-voice": "inoue-kikuko",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Scheherazade",
+      "ja": "シェヘラザード",
+      "zh": "山鲁佐德"
+    },
+    "other-names": {
+      "en": "Caster of the Nightless City",
+      "ja": "不夜城のキャスター",
+      "zh": "不夜城的Caster"
+    },
+    "true-name": {
+      "en": "Scheherazade",
+      "ja": "シェヘラザード",
+      "zh": "山鲁佐德"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "58kg",
+      "ja": "58kg",
+      "zh": "58kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

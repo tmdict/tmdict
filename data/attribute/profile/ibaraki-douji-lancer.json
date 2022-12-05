@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 217,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0217a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0217b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0217c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0217d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0217e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["otogizoushi", "etc", "servant-summer-festival"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "dp",
+    "magic.parameter": "d",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "hidari",
+    "character-voice": "touyama-nao",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "ibaraki-douji"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ibaraki-Douji (Lancer)",
+      "ja": "茨木童子（ランサー）",
+      "zh": "茨木童子（Lancer）"
+    },
+    "true-name": {
+      "en": "Ibaraki-Douji",
+      "ja": "茨木童子",
+      "zh": "茨木童子"
+    },
+    "height": {
+      "en": "147cm",
+      "ja": "147cm",
+      "zh": "147cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

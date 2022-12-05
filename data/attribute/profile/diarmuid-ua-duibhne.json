@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "fgoId": 71,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0071a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0071b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0071c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0071d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0071e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": ["celtic-mythology", "knights-of-fianna"],
+    "region": "ireland",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "d",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "b",
+    "character-setting": ["nasu-kinoko", "urobuchi-gen"],
+    "illustrator": "mata",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "midorikawa-hikaru",
+    "major-appearances": "fate-zero",
+    "related.profile": "diarmuid-ua-duibhne-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Diarmuid Ua Duibhne",
+      "ja": "ディルムッド・オディナ",
+      "zh": "迪尔姆德·奥迪那"
+    },
+    "true-name": {
+      "en": "Diarmuid Ua Duibhne",
+      "ja": "ディルムッド・オディナ",
+      "zh": "迪尔姆德·奥迪那"
+    },
+    "height": {
+      "en": "184cm",
+      "ja": "184cm",
+      "zh": "184cm"
+    },
+    "weight": {
+      "en": "85kg",
+      "ja": "85kg",
+      "zh": "85kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

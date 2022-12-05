@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 129,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0129a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0129b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0129c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0129d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0129e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "united-kingdom",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "bp",
+    "magic.parameter": "ap",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "altria-pendragon"
+  },
+
+  "data": {
+    "name": {
+      "en": "Altria Pendragon (Archer)",
+      "ja": "アルトリア・ペンドラゴン（アーチャー）",
+      "zh": "阿尔托莉雅·潘德拉贡（Archer）"
+    },
+    "true-name": {
+      "en": "Altria Pendragon",
+      "ja": "アルトリア・ペンドラゴン",
+      "zh": "阿尔托莉雅·潘德拉贡"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

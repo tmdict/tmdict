@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 148,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0148a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0148b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0148c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0148d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0148e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": "central-and-south-america",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "e",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "aotsuki-takao",
+    "character-voice": "itou-miki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Jaguar Warrior",
+      "ja": "ジャガーマン",
+      "zh": "豹人"
+    },
+    "true-name": {
+      "en": "Jaguar Warrior",
+      "ja": "ジャガーマン",
+      "zh": "豹人"
+    },
+    "height": {
+      "en": "165cm",
+      "ja": "165cm",
+      "zh": "165cm"
+    },
+    "weight": {
+      "en": "?kg",
+      "ja": "？kg",
+      "zh": "？kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 159,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0159a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0159b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0159c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0159d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0159e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "water-margin",
+    "region": "china",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "ap",
+    "magic.parameter": "d",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "d",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shimaudon",
+    "character-voice": "okamoto-nobuhiko",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yan Qing",
+      "ja": "燕青",
+      "zh": "燕青"
+    },
+    "other-names": {
+      "en": "Assassin of Shinjuku",
+      "ja": "新宿のアサシン",
+      "zh": "新宿的Assassin"
+    },
+    "true-name": {
+      "en": "Yan Qing",
+      "ja": "燕青",
+      "zh": "燕青"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "63kg",
+      "ja": "63kg",
+      "zh": "63kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

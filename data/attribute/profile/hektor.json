@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 64,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0064a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0064b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0064c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0064d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0064e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "trojan-war",
+    "region": "greece",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "black",
+    "character-voice": "yasui-kunihiko",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hektor",
+      "ja": "ヘクトール",
+      "zh": "赫克托耳"
+    },
+    "true-name": {
+      "en": "Hektor",
+      "ja": "ヘクトール",
+      "zh": "赫克托耳"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "82kg",
+      "ja": "82kg",
+      "zh": "82kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "profile",
+  "fgoId": 154,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0154a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0154b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0154c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0154d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0154e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "gender": "male",
+    "origin": "old-man-of-the-mountain",
+    "region": "middle-east",
+    "alignment": "lawful-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "b",
+    "magic.parameter": "e",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "ryota-h",
+    "character-voice": "nakata-jouji",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "First Hassan",
+      "ja": "山の翁",
+      "zh": "山中老人"
+    },
+    "class":{
+      "en": "Grand Assassin→Assassin",
+      "ja": "グランドアサシン→アサシン",
+      "zh": "Grand Assassin→Assassin"
+    },
+    "other-names": {
+      "en": "“Old Man of the Mountain”",
+      "ja": "“First Hassan”",
+      "zh": "“First Hassan”"
+    },
+    "true-name": {
+      "en": "Hassan-i Sabbah",
+      "ja": "ハサン・サッバーハ",
+      "zh": "哈桑·萨巴赫"
+    },
+    "height": {
+      "en": "220cm",
+      "ja": "220cm",
+      "zh": "220cm"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "？？kg",
+      "zh": "？？kg"
+    },
+    "notes": {
+      "en": "(the real parameters are all 1 rank higher than what is listed)",
+      "ja": "（実際はこれらに+1ランク）",
+      "zh": "（实际数值上升1Rank）"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter", "notes"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

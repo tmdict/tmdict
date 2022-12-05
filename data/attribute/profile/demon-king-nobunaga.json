@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 250,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0250a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0250b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0250c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0250d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0250e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_5",
+    "gender": "_qm",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "am",
+    "character-setting": "keikenchi",
+    "illustrator": "pako",
+    "character-voice": "kugimiya-rie",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["oda-nobunaga", "oda-nobunaga-berserker"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Demon King Nobunaga (Oda Nobunaga)",
+      "ja": "魔王信長（織田信長）",
+      "zh": "魔王信长（织田信长）"
+    },
+    "true-name": {
+      "en": "Oda Nobunaga / Oda Kippōshi / Demon King Nobunaga",
+      "ja": "織田信長",
+      "zh": "织田信长"
+    },
+    "height": {
+      "en": "154cm (Ascension 1) / 165cm (Ascension 2) / 180cm (Ascension 3)",
+      "ja": "154cm (霊基第一) / 165cm (霊基第二) / 180cm (霊基第三)",
+      "zh": "154cm (第一灵基) / 165cm (第二灵基) / 180cm (第三灵基)"
+    },
+    "weight": {
+      "en": "43kg (Ascension 1) / 50kg (Ascension 2) / ?kg (Ascension 3) (Her mass does not remain stable)",
+      "ja": "43kg (霊基第一) / 50kg (霊基第二) / ?kg (霊基第三) （質量が安定しない）",
+      "zh": "43kg (第一灵基) / 50kg (第二灵基) / ?kg (第三灵基) （质量不稳定）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

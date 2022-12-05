@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 47,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0047a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0047b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0047c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0047d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0047e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "chaotic-madness",
+    "strength.parameter": "ap",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "azusa",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "saizen-tadahisa",
+    "major-appearances": "fate-stay-night"
+  },
+
+  "data": {
+    "name": {
+      "en": "Heracles",
+      "ja": "ヘラクレス",
+      "zh": "赫拉克勒斯"
+    },
+    "true-name": {
+      "en": "Heracles",
+      "ja": "ヘラクレス",
+      "zh": "赫拉克勒斯"
+    },
+    "height": {
+      "en": "253cm",
+      "ja": "253cm",
+      "zh": "253cm"
+    },
+    "weight": {
+      "en": "311kg",
+      "ja": "311kg",
+      "zh": "311kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

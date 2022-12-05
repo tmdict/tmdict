@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 69,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0069a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0069d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0069e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "_qm",
+    "character-setting": "keikenchi",
+    "illustrator": "pako",
+    "original-character-design.illustrator": "keikenchi",
+    "character-voice": "kugimiya-rie",
+    "major-appearances": ["koha-ace-ex", "fate-grand-order"],
+    "related.profile": ["oda-nobunaga-berserker", "demon-king-nobunaga"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Oda Nobunaga",
+      "ja": "織田信長",
+      "zh": "织田信长"
+    },
+    "true-name": {
+      "en": "Oda Nobunaga",
+      "ja": "織田信長",
+      "zh": "织田信长"
+    },
+    "height": {
+      "en": "152cm",
+      "ja": "152cm",
+      "zh": "152cm"
+    },
+    "weight": {
+      "en": "43kg",
+      "ja": "43kg",
+      "zh": "43kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

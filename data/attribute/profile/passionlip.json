@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 164,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0164a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0164b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0164c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0164d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0164e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-extra-ccc",
+    "region": "se-ra-ph",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "ap",
+    "endurance.parameter": "a",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "ogura-yui",
+    "major-appearances": "fate-extra-ccc"
+  },
+
+  "data": {
+    "name": {
+      "en": "Passionlip",
+      "ja": "パッションリップ",
+      "zh": "Passionlip"
+    },
+    "true-name": {
+      "en": "Passionlip",
+      "ja": "パッションリップ",
+      "zh": "Passionlip"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "1t",
+      "ja": "1t",
+      "zh": "1t"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

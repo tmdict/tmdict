@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 123,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0123a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0123b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0123c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0123d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0123e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "legend-of-king-arthur",
+    "region": "britain",
+    "alignment": "lawful-good",
+    "strength.parameter": "bp",
+    "endurance.parameter": "bp",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "mizushima-takahiro",
+    "major-appearances": "fate-extra"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gawain",
+      "ja": "ガウェイン",
+      "zh": "高文"
+    },
+    "true-name": {
+      "en": "Gawain",
+      "ja": "ガウェイン",
+      "zh": "高文"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "78kg",
+      "ja": "78kg",
+      "zh": "78kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

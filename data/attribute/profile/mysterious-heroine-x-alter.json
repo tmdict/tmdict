@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 155,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0155a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0155b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0155c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0155d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0155e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["servant-universe", "2017-valentine"],
+    "region": "servant-world",
+    "alignment": "neutral-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "bunbun",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mysterious Heroine X (Alter)",
+      "ja": "謎のヒロインX（オルタ）",
+      "zh": "谜之女主角X（Alter）"
+    },
+    "true-name": {
+      "en": "Mysterious Heroine X (Alter)",
+      "ja": "謎のヒロインX（オルタ）",
+      "zh": "谜之女主角X（Alter）"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    },
+    "notes": {
+      "en": "(the person herself claims to be Saber)",
+      "ja": "（本人はセイバーと主張している）",
+      "zh": "（本人主张为Saber）"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "notes"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

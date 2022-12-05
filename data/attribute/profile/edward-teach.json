@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 25,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0025a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0025b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0025c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0025d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0025e_april-fools.png" },
+    { "weight": 6, "id": "img_midsummer-gentleman", "src": "S0025f_midsummer-gentleman.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_2",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "caribbean-sea",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "e",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "bsuke",
+    "character-voice": "saizen-tadahisa",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Edward Teach",
+      "ja": "エドワード・ティーチ",
+      "zh": "爱德华·蒂奇"
+    },
+    "true-name": {
+      "en": "Edward Teach",
+      "ja": "エドワード・ティーチ",
+      "zh": "爱德华·蒂奇"
+    },
+    "height": {
+      "en": "210cm",
+      "ja": "210cm",
+      "zh": "210cm"
+    },
+    "weight": {
+      "en": "114kg",
+      "ja": "114kg",
+      "zh": "114kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

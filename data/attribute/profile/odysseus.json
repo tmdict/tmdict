@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 277,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0277a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0277b.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0277c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0277d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0277e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "ap",
+    "agility.parameter": "d",
+    "magic.parameter": "bp",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "b",
+    "illustrator": "redjuice",
+    "character-voice": "kirimoto-takuya"
+  },
+
+  "data": {
+    "name": {
+      "en": "Odysseus",
+      "ja": "オデュッセウス",
+      "zh": "奥德修斯"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"]
+  ]
+}

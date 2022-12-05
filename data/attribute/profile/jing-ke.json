@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 42,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0042a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0042b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0042c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0042d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0042e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_3",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "a",
+    "magic.parameter": "e",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "takahashi-keitarou",
+    "character-voice": "tanaka-atsuko",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Jing Ke",
+      "ja": "荊軻",
+      "zh": "荆轲"
+    },
+    "true-name": {
+      "en": "Jing Ke",
+      "ja": "荊軻",
+      "zh": "荆轲"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "48kg",
+      "ja": "48kg",
+      "zh": "48kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

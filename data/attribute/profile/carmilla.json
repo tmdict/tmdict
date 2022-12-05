@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 46,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0046a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0046b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0046c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0046d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0046e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "hungary",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "okojo",
+    "character-voice": "tanaka-atsuko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "carmilla-rider"
+  },
+
+  "data": {
+    "name": {
+      "en": "Carmilla",
+      "ja": "カーミラ",
+      "zh": "卡米拉"
+    },
+    "true-name": {
+      "en": "Carmilla (Elizabeth Báthory)",
+      "ja": "カーミラ（エリザベート・バートリー）",
+      "zh": "卡米拉（伊丽莎白·巴托里）"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

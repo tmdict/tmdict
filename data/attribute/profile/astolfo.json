@@ -1,0 +1,69 @@
+{
+  "type": "profile",
+  "fgoId": 94,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0094a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0094b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0094c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0094d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0094e_april-fools.png" },
+    { "weight": 6, "id": "img_memories-of-trifas", "src": "S0094f_memories-of-trifas.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "_qm",
+    "origin": "legend-of-charlemagne",
+    "region": "france",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "c",
+    "character-setting": ["higashide-yuuichirou", "hoshizora-meteo"],
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-apocrypha",
+    "related.profile": "astolfo-saber"
+  },
+
+  "data": {
+    "name": {
+      "en": "Astolfo",
+      "ja": "アストルフォ",
+      "zh": "阿斯托尔福"
+    },
+    "true-name": {
+      "en": "Astolfo",
+      "ja": "アストルフォ",
+      "zh": "阿斯托尔福"
+    },
+    "height": {
+      "en": "164cm",
+      "ja": "164cm",
+      "zh": "164cm"
+    },
+    "weight": {
+      "en": "56kg",
+      "ja": "56kg",
+      "zh": "56kg"
+    },
+    "notes": {
+      "en": "(requested to be kept a secret by the person themself)",
+      "ja": "（本人の要望により秘密）",
+      "zh": "（根据本人的要求是个秘密）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "notes", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

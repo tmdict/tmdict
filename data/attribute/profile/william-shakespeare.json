@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 34,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0034a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0034b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0034c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0034d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0034e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_2",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "england",
+    "alignment": "true-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "cpp",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "cp",
+    "character-setting": ["higashide-yuuichirou", "gatou-shouji"],
+    "illustrator": "konoe-ototsugu",
+    "original-character-design.illustrator": "kurahana-chinatsu",
+    "character-voice": "inada-tetsu",
+    "major-appearances": "fate-apocrypha"
+  },
+
+  "data": {
+    "name": {
+      "en": "William Shakespeare",
+      "ja": "ウィリアム・シェイクスピア",
+      "zh": "威廉·莎士比亚"
+    },
+    "true-name": {
+      "en": "William Shakespeare",
+      "ja": "ウィリアム・シェイクスピア",
+      "zh": "威廉·莎士比亚"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "75kg",
+      "ja": "75kg",
+      "zh": "75kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

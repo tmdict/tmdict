@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 151,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0151a.png" }
+  ],
+
+  "attribute": {
+    "star": "star_5",
+    "gender": "male",
+    "origin": "old-testament",
+    "region": "ancient-israel",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "a",
+    "agility.parameter": "d",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "yamanaka-kotetsu",
+    "character-voice": "sugita-tomokazu",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Goetia",
+      "ja": "ゲーティア",
+      "zh": "盖提亚"
+    },
+    "class": {
+      "en": "Beast I",
+      "ja": "ビースト I",
+      "zh": "Beast I"
+    },
+    "true-name": {
+      "en": "Goetia",
+      "ja": "ティアマト",
+      "zh": "盖提亚"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "75kg",
+      "ja": "75kg",
+      "zh": "75kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

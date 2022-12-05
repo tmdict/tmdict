@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 103,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0103a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0103b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0103c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0103d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0103e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "north-america",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "ex",
+    "agility.parameter": "e",
+    "magic.parameter": "ex",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "pako",
+    "character-voice": "terashima-takuma",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Thomas Edison",
+      "ja": "トーマス・エジソン",
+      "zh": "托马斯·爱迪生"
+    },
+    "true-name": {
+      "en": "Thomas Edison",
+      "ja": "トーマス・エジソン",
+      "zh": "托马斯·爱迪生"
+    },
+    "height": {
+      "en": "182cm",
+      "ja": "182cm",
+      "zh": "182cm"
+    },
+    "weight": {
+      "en": "88kg",
+      "ja": "88kg",
+      "zh": "88kg"
+    },
+    "notes": {
+      "en": "※ Endurance, Magic, NP are EX equivalent to either D~E",
+      "ja": "※耐久・魔力・宝具はいずれもD～E相当のEX",
+      "zh": "※耐久·魔力·宝具EX全部相当于D～E等级之间"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter", "notes"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

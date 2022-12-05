@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 189,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0189a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0189b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0189c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0189d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0189e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["konjaku-gazu-zoku-hyakki", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "e",
+    "magic.parameter": "ap",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "moriyama-daisuke",
+    "character-voice": "fukuen-misato",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "osakabehime-archer"
+  },
+
+  "data": {
+    "name": {
+      "en": "Osakabehime",
+      "ja": "刑部姫",
+      "zh": "刑部姬"
+    },
+    "true-name": {
+      "en": "Osakabehime",
+      "ja": "刑部姫",
+      "zh": "刑部姬"
+    },
+    "height": {
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

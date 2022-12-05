@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "fgoId": 111,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0111a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0111d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0111e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "_na",
+    "region": "_na",
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shimaudon",
+    "character-voice": "ohara-sayaka",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Irisviel (Dress of Heaven)",
+      "ja": "アイリスフィール（天の衣）",
+      "zh": "爱丽丝菲尔（天之衣）"
+    },
+    "other-names": {
+      "en": "Irisviel (Holy Grail)",
+      "ja": "Irisviel (Holy Grail)",
+      "zh": "Irisviel (Holy Grail)"
+    },
+    "true-name": {
+      "en": "Irisviel von Einzbern",
+      "ja": "アイリスフィール・フォン・アインツベルン",
+      "zh": "爱丽丝菲尔·冯·爱因兹贝伦"
+    },
+    "height": {
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

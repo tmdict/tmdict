@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 80,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0080a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0080b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0080c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0080d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0080e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "bpp",
+    "endurance.parameter": "bpp",
+    "agility.parameter": "dpp",
+    "magic.parameter": "a",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "i-iv",
+    "character-voice": "inada-tetsu",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Charles Babbage",
+      "ja": "チャールズ・バベッジ",
+      "zh": "查尔斯·巴贝奇"
+    },
+    "true-name": {
+      "en": "Charles Babbage",
+      "ja": "チャールズ・バベッジ",
+      "zh": "查尔斯·巴贝奇"
+    },
+    "height": {
+      "en": "250cm (armor included)",
+      "ja": "250cm（鎧込み）",
+      "zh": "250cm（包括铠甲）"
+    },
+    "weight": {
+      "en": "500kg (armor included)",
+      "ja": "500kg（鎧込み）",
+      "zh": "500kg（包括铠甲）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

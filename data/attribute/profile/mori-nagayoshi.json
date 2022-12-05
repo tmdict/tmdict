@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 251,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0251a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0251b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0251c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0251d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0251e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_3",
+    "gender": "male",
+    "alignment": "chaotic-madness",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "d",
+    "magic.parameter": "e",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "c",
+    "illustrator": "dd",
+    "character-voice": "taniyama-kishou"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mori Nagayoshi",
+      "ja": "森長可",
+      "zh": "森长可"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"]
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "fgoId": 185,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0185a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0185b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0185c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0185d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0185e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["renpan-ken-no-koto", "historical-fact"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "hiroyama-hiroshi",
+    "character-voice": "sakura-ayane",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mochizuki Chiyome",
+      "ja": "望月千代女",
+      "zh": "望月千代女"
+    },
+    "other-names": {
+      "en": "Assassin of Paraiso",
+      "ja": "アサシン・パライソ",
+      "zh": "Assassin of Paraiso"
+    },
+    "true-name": {
+      "en": "Mochizuki Chiyome",
+      "ja": "望月千代女",
+      "zh": "望月千代女"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "other-names"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

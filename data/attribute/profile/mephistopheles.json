@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 35,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0035a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0035b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0035c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0035d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0035e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "faust",
+    "region": "germany",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shimokoshi",
+    "character-voice": "koyasu-takehito",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mephistopheles",
+      "ja": "メフィストフェレス",
+      "zh": "梅菲斯托费勒斯"
+    },
+    "true-name": {
+      "en": "Mephistopheles",
+      "ja": "メフィストフェレス",
+      "zh": "梅菲斯托费勒斯"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "78kg",
+      "ja": "78kg",
+      "zh": "78kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

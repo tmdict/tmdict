@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 177,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0177a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0177b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0177c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0177d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0177e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "dead-heat-summer-race"],
+    "region": "egypt",
+    "alignment": "lawful-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shimaudon",
+    "character-voice": "tanaka-minami",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "nitocris"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nitocris (Assassin)",
+      "ja": "ニトクリス（アサシン）",
+      "zh": "尼托克丽丝（Assassin）"
+    },
+    "true-name": {
+      "en": "Nitocris",
+      "ja": "ニトクリス",
+      "zh": "尼托克丽丝"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

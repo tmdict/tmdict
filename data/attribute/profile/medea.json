@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 31,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0031a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0031b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0031c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0031d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0031e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_3",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": ["greece", "corinth"],
+    "alignment": "neutral-evil",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "nekotawawa",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "tanaka-atsuko",
+    "major-appearances": ["fate-stay-night", "fate-hollow-ataraxia", "others"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Medea",
+      "ja": "メディア",
+      "zh": "美狄亚"
+    },
+    "true-name": {
+      "en": "Medea",
+      "ja": "メディア",
+      "zh": "美狄亚"
+    },
+    "height": {
+      "en": "163cm",
+      "ja": "163cm",
+      "zh": "163cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

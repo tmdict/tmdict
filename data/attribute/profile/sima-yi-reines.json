@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "fgoId": 241,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0241a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0241b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0241c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0241d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0241e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "romance-of-the-three-kingdoms",
+    "region": "china",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sanda-makoto",
+    "illustrator": "sakamoto-mineji",
+    "character-voice": "minase-inori"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sima Yi (Reines)",
+      "ja": "司馬懿（ライネス）",
+      "zh": "司马懿（莱妮丝）"
+    },
+    "true-name": {
+      "en": "Sima Yi",
+      "ja": "司馬懿",
+      "zh": "司马懿"
+    },
+    "height": {
+      "en": "149cm",
+      "ja": "149cm",
+      "zh": "149cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"]
+  ]
+}

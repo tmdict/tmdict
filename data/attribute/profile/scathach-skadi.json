@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 215,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0215a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0215b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0215c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0215d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0215e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["celtic-mythology", "norse-mythology"],
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "ex",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["scathach", "scathach-assassin"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Scáthach-Skadi",
+      "ja": "スカサハ＝スカディ",
+      "zh": "斯卡哈·斯卡蒂"
+    },
+    "true-name": {
+      "en": "Scáthach-Skadi",
+      "ja": "スカサハ＝スカディ",
+      "zh": "斯卡哈·斯卡蒂"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

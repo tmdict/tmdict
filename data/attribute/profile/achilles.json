@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 206,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0206a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0206b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0206c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0206d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0206e_april-fools.png" },
+    { "weight": 6, "id": "img_fearless-diver", "src": "S0206f_fearless-diver.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "furukawa-makoto",
+    "major-appearances": ["fate-apocrypha", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Achilles",
+      "ja": "アキレウス",
+      "zh": "阿喀琉斯"
+    },
+    "true-name": {
+      "en": "Achilles",
+      "ja": "アキレウス",
+      "zh": "阿喀琉斯"
+    },
+    "height": {
+      "en": "185cm",
+      "ja": "185cm",
+      "zh": "185cm"
+    },
+    "weight": {
+      "en": "97kg",
+      "ja": "97kg",
+      "zh": "97kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

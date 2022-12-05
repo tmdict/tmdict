@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 128,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0128a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0128b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0128c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0128d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0128e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "honolulu-beach-hope",
+    "region": "japan",
+    "alignment": "neutral-summer",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "e",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "tamamo-no-mae"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tamamo-no-Mae (Lancer)",
+      "ja": "玉藻の前（ランサー）",
+      "zh": "玉藻前（Lancer）"
+    },
+    "true-name": {
+      "en": "Tamamo-no-Mae",
+      "ja": "玉藻の前",
+      "zh": "玉藻前"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

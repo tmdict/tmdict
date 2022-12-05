@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "fgoId": 245,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0245a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0245b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0245c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0245d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0245e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "india",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "em",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "minase-hazuki",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "satou-rina"
+  },
+
+  "data": {
+    "name": {
+      "en": "Lakshmi Bai",
+      "ja": "ラクシュミー・バーイー",
+      "zh": "拉克什米・芭伊"
+    },
+    "true-name": {
+      "en": "Lakshmi Bai",
+      "ja": "ラクシュミー・バーイー",
+      "zh": "拉克什米·芭伊"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "44kg",
+      "ja": "44kg",
+      "zh": "44kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"]
+  ]
+}

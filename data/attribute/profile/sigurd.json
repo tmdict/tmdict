@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 213,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0213a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0213b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0213c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0213d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0213e_april-fools.png" },
+    { "weight": 6, "id": "img_memories-with-my-lover", "src": "S0213f_memories-with-my-lover.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "norse-mythology",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "ap",
+    "endurance.parameter": "ap",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "miwa-shirow",
+    "character-voice": "tsuda-kenjirou",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sigurd",
+      "ja": "シグルド",
+      "zh": "齐格鲁德"
+    },
+    "true-name": {
+      "en": "Sigurd",
+      "ja": "シグルド",
+      "zh": "齐格鲁德"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "79kg",
+      "ja": "79kg",
+      "zh": "79kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

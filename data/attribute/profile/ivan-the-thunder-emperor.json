@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 205,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0205a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0205b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0205c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0205d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0205e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "russia",
+    "alignment": ["lawful-evil", "chaotic-evil"],
+    "strength.parameter": "bp",
+    "endurance.parameter": "ap",
+    "agility.parameter": "d",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["higashide-yuuichirou", "nasu-kinoko"],
+    "illustrator": "danciao",
+    "character-voice": "kuroda-takaya",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ivan the Thunder Emperor",
+      "ja": "イヴァン雷帝",
+      "zh": "伊凡雷帝"
+    },
+    "true-name": {
+      "en": "Ivan the Thunder Emperor",
+      "ja": "イヴァン雷帝",
+      "zh": "伊凡雷帝"
+    },
+    "height": {
+      "en": "193cm (531cm)",
+      "ja": "193cm（531cm）",
+      "zh": "193cm（531cm）"
+    },
+    "weight": {
+      "en": "150kg (2548kg)",
+      "ja": "150kg（2548kg）",
+      "zh": "150kg（2548kg）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

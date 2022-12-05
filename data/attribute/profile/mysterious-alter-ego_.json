@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "fgoId": 266,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0266a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0266b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0266c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0266d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0266e_april-fools.png" },
+    { "weight": 6, "id": "img_ice-celebrity", "src": "S0266f_ice-celebrity.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-extra-ccc",
+    "region": "se-ra-ph",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "e",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "meltryllis"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mysterious Alter Ego Λ",
+      "ja": "謎のアルターエゴ・Λ",
+      "zh": "谜之Alterego·Λ"
+    },
+    "true-name": {
+      "en": "Meltryllis Lambda",
+      "ja": "ラムダ・メルトリリス",
+      "zh": "Meltryllis·Lambda"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "33kg (due to taking off her heel blades)",
+      "ja": "33kg（ヒールブレードが外れているため）",
+      "zh": "33kg（因为脱下了高跟刀刃）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

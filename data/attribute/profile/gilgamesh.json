@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 12,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0012a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0012b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0012c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0012d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0012e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["sumer-civilization", "epic-of-gilgamesh"],
+    "region": ["babylonia", "uruk"],
+    "alignment": "chaotic-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "seki-tomokazu",
+    "major-appearances": ["fate-stay-night", "fate-zero", "others"],
+    "related.profile": "gilgamesh-caster"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gilgamesh",
+      "ja": "ギルガメッシュ",
+      "zh": "吉尔伽美什"
+    },
+    "true-name": {
+      "en": "Gilgamesh",
+      "ja": "ギルガメッシュ",
+      "zh": "吉尔伽美什"
+    },
+    "height": {
+      "en": "182cm",
+      "ja": "182cm",
+      "zh": "182cm"
+    },
+    "weight": {
+      "en": "68kg",
+      "ja": "68kg",
+      "zh": "68kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

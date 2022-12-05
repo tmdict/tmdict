@@ -64,8 +64,8 @@ function flattenAttributeData(attr: any, env: string): PreparedAttribute {
   let attrName: { [key: string]: string } = {}
   const ext: string = env === 'production' ? '' : '.html'
   try {
-    // If attr type is `servant` or `glossary`, append make it linkable
-    if (['servant', 'glossary'].includes(attr.type)) {
+    // If attr type is `profile` or `glossary`, append make it linkable
+    if (['profile', 'glossary'].includes(attr.type)) {
       Object.keys(attr.data.name).forEach((lang: string) => {
         const link = `<a href="../${attr.type}/${attr.id}${ext}#${lang}">${attr.data.name[lang]}</a>`
         attrName = _.merge(attrName, { [lang]: link })

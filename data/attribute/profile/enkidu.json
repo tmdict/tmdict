@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 143,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0143a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0143b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0143c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0143d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0143e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "_na",
+    "origin": "epic-of-gilgamesh",
+    "region": "mesopotamia",
+    "alignment": "true-neutral",
+    "strength.parameter": "_qm",
+    "endurance.parameter": "_qm",
+    "agility.parameter": "_qm",
+    "magic.parameter": "_qm",
+    "luck.parameter": "_qm",
+    "noble-phantasm.parameter": "app",
+    "character-setting": ["nasu-kinoko", "narita-ryougo", "sakurai-hikaru"],
+    "illustrator": "morii-shizuki",
+    "character-voice": "kobayashi yuu",
+    "major-appearances": ["fate-strange-fake", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Enkidu",
+      "ja": "エルキドゥ",
+      "zh": "恩奇都"
+    },
+    "true-name": {
+      "en": "Enkidu",
+      "ja": "エルキドゥ",
+      "zh": "恩奇都"
+    },
+    "height": {
+      "en": "(Varies)",
+      "ja": "（可変）",
+      "zh": "（可变）"
+    },
+    "weight": {
+      "en": "(Varies)",
+      "ja": "（可変）",
+      "zh": "（可变）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "fgoId": 248,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0248a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0248b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0248c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0248d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0248e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "mahabharata",
+    "region": "india",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "app",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "pako",
+    "character-voice": "suzuki-tatsuhisa"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ashwatthāman",
+      "ja": "アシュヴァッターマン",
+      "zh": "马嘶"
+    },
+    "true-name": {
+      "en": "Ashwatthāman",
+      "ja": "アシュヴァッターマン",
+      "zh": "马嘶"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "81kg",
+      "ja": "81kg",
+      "zh": "81kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice"]
+  ]
+}

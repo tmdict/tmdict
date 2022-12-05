@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 275,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0275a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0275b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0275c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0275d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0275e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "china",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "_missing",
+    "illustrator": "kuroboshi-kouhaku",
+    "character-voice": "yoshimura-haruka",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yang Guifei",
+      "ja": "楊貴妃",
+      "zh": "杨贵妃"
+    },
+    "true-name": {
+      "en": "Yang Guifei",
+      "ja": "楊貴妃",
+      "zh": "杨贵妃"
+    },
+    "height": {
+      "en": "155cm",
+      "ja": "155cm",
+      "zh": "155cm"
+    },
+    "weight": {
+      "en": "45kg",
+      "ja": "45kg",
+      "zh": "45kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

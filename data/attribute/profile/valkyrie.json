@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 214,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0214a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0214b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0214c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0214d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0214e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "norse-mythology",
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": ["tanaka-minami", "komatsu-mikako", "amamiya-sora"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Valkyrie",
+      "ja": "ワルキューレ",
+      "zh": "瓦尔基里"
+    },
+    "true-name": {
+      "en": "Valkyrie (Ortlinde, Hildr, Thrud)",
+      "ja": "ワルキューレ（オルトリンデ・ヒルド・スルーズ）",
+      "zh": "瓦尔基里（奥特琳德・希露德・斯露德）"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

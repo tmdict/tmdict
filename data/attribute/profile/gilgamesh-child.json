@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 95,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0095a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0095b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0095c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0095d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0095e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": ["historical-fact", "epic-of-gilgamesh"],
+    "region": "west-asia",
+    "alignment": "chaotic-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": ["nasu-kinoko", "sakurai-hikaru"],
+    "illustrator": "tenku-sphere",
+    "original-character-design.illustrator": "takeuchi-takashi",
+    "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-hollow-ataraxia"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gilgamesh (Child)",
+      "ja": "子ギル",
+      "zh": "幼吉尔"
+    },
+    "true-name": {
+      "en": "Gilgamesh",
+      "ja": "ギルガメッシュ",
+      "zh": "吉尔伽美什"
+    },
+    "height": {
+      "en": "140cm",
+      "ja": "140cm",
+      "zh": "140cm"
+    },
+    "weight": {
+      "en": "30kg",
+      "ja": "30kg",
+      "zh": "30kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

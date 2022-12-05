@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 187,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0187a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0187b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0187c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0187d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0187e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "app",
+    "magic.parameter": "e",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "furumi-shouichi",
+    "character-voice": "yamaji-kazuhiro",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yagyu Tajima-no-Kami Munenori",
+      "ja": "柳生但馬守宗矩",
+      "zh": "柳生但马守宗矩"
+    },
+    "true-name": {
+      "en": "Yagyu Tajima-no-Kami Munenori",
+      "ja": "柳生但馬守宗矩",
+      "zh": "柳生但马守宗矩"
+    },
+    "height": {
+      "en": "181cm",
+      "ja": "181cm",
+      "zh": "181cm"
+    },
+    "weight": {
+      "en": "71kg",
+      "ja": "71kg",
+      "zh": "71kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

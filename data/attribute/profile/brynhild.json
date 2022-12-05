@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 88,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0088a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0088b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0088c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0088d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0088e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "norse-mythology",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "miwa-shirow",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-prototype-sougin-no-fragments"
+  },
+
+  "data": {
+    "name": {
+      "en": "Brynhild",
+      "ja": "ブリュンヒルデ",
+      "zh": "布伦希尔德"
+    },
+    "true-name": {
+      "en": "Brynhild",
+      "ja": "ブリュンヒルデ",
+      "zh": "布伦希尔德"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

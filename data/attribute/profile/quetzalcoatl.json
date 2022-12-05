@@ -1,0 +1,68 @@
+{
+  "type": "profile",
+  "fgoId": 144,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0144a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0144b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0144c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0144d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0144e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["central-and-south-america", "aztec-mythology"],
+    "region": "central-and-south-america",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "bp",
+    "magic.parameter": "ex",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": ["nasu-kinoko", "sakurai-hikaru"],
+    "illustrator": "hiroe-rei",
+    "character-voice": "endou-aya",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "quetzalcoatl-santa-samba"
+  },
+
+  "data": {
+    "name": {
+      "en": "Quetzalcoatl",
+      "ja": "ケツァル・コアトル",
+      "zh": "魁札尔·科亚特尔"
+    },
+    "true-name": {
+      "en": "Quetzalcoatl",
+      "ja": "ケツァル・コアトル",
+      "zh": "魁札尔·科亚特尔"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "-",
+      "ja": "-",
+      "zh": "-"
+    },
+    "notes": {
+      "en": "Height and Weight is 181cm / 64kg in the game profile",
+      "ja": "Height and Weight is 181cm / 64kg in the game profile",
+      "zh": "身高和体重在游戏资料里是181cm/64kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

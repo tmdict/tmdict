@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 55,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0055a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0055b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0055c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0055d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0055e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "west-asia",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "ap",
+    "agility.parameter": "b",
+    "magic.parameter": "e",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "pfalz",
+    "character-voice": "yasui-kunihiko",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Darius III",
+      "ja": "ダレイオス三世",
+      "zh": "大流士三世"
+    },
+    "true-name": {
+      "en": "Darius III",
+      "ja": "ダレイオス三世",
+      "zh": "大流士三世"
+    },
+    "height": {
+      "en": "345cm",
+      "ja": "345cm",
+      "zh": "345cm"
+    },
+    "weight": {
+      "en": "280kg",
+      "ja": "280kg",
+      "zh": "280kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

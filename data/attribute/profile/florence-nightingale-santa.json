@@ -1,0 +1,42 @@
+{
+  "type": "profile",
+  "fgoId": 271,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0271a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0271d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0270e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "alignment": "lawful-good",
+    "strength.parameter": "dp",
+    "endurance.parameter": "bp",
+    "agility.parameter": "bp",
+    "magic.parameter": "dp",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "illustrator": "takahashi-keitarou",
+    "character-voice": "sawashiro-miyuki",
+    "related.profile": "nightingale"
+  },
+
+  "data": {
+    "name": {
+      "en": "Florence Nightingale (Santa)",
+      "ja": "ナイチンゲール（サンタ）",
+      "zh": "南丁格尔（圣诞）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["gender", "alignment"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["illustrator", "character-voice"],
+    ["related.profile"]
+  ]
+}

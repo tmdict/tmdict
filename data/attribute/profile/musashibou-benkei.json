@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 19,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0019a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0019b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0019c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0019d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0019e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_2",
+    "gender": "male",
+    "origin": ["gikeiki", "the-tale-of-the-heike"],
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "bp",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": ["myougaya-jinroku", "higashide-yuuichirou"],
+    "illustrator": "shinjirou",
+    "original-character-design.illustrator": "terada-katsuya",
+    "character-voice": "inada-tetsu",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Musashibou Benkei",
+      "ja": "武蔵坊弁慶",
+      "zh": "武藏坊弁庆"
+    },
+    "true-name": {
+      "en": "Musashibou Benkei (Hitachibō Kaison)",
+      "ja": "武蔵坊弁慶（常陸坊海尊）",
+      "zh": "武藏坊弁庆（常陸坊海尊）"
+    },
+    "height": {
+      "en": "199cm",
+      "ja": "199cm",
+      "zh": "199cm"
+    },
+    "weight": {
+      "en": "88kg",
+      "ja": "88kg",
+      "zh": "88kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

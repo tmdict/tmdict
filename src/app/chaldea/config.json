@@ -8,12 +8,12 @@
     "src": "src/app/chaldea"
   },
   "filterlist": {
-    "servant": {
-      "type": "servant",
+    "profile": {
+      "type": "profile",
       "name": {
-        "en": "Servant",
-        "ja": "从者",
-        "zh": "从者"
+        "en": "Profile",
+        "ja": "人物",
+        "zh": "人物"
       },
       "filter": [
         "source",
@@ -139,7 +139,7 @@
       "original-character-design.illustrator": { "en": "Original Character Design", "ja": "キャラクターデザイン原案", "zh": "原绘师" },
       "other-names": { "en": "Other Names", "ja": "異称", "zh": "其他名称" },
       "region": { "en": "Region", "ja": "地域", "zh": "地域" },
-      "related.servant": { "en": "Related Servant", "ja": "関連する", "zh": "相关从者" },
+      "related.profile": { "en": "Related Character", "ja": "関連人物", "zh": "相关人物" },
       "report": { "en": "Report Error", "ja": "エラー報告", "zh": "报告错误" },
       "setting-verification.character-setting": { "en": "Setting Verification", "ja": "設定考証", "zh": "设定验证" },
       "source": { "en": "Source", "ja": "出典", "zh": "资料来源" },

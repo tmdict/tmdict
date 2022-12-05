@@ -1,0 +1,59 @@
+{
+  "type": "profile",
+  "fgoId": 162,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0162a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0162d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0162e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "d",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "keikenchi",
+    "illustrator": "pako",
+    "character-voice": "asumi-kana",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Chacha",
+      "ja": "茶々",
+      "zh": "茶茶"
+    },
+    "true-name": {
+      "en": "Chacha",
+      "ja": "茶々",
+      "zh": "茶茶"
+    },
+    "height": {
+      "en": "138cm",
+      "ja": "138cm",
+      "zh": "138cm"
+    },
+    "weight": {
+      "en": "34kg",
+      "ja": "34kg",
+      "zh": "34kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

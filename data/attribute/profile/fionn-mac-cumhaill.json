@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 87,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0087a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0087b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0087c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0087d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0087e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "celtic-mythology",
+    "region": "europe",
+    "alignment": "true-neutral",
+    "strength.parameter": "bp",
+    "endurance.parameter": "b",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "moriyama-daisuke",
+    "character-voice": "miki-shinichirou",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Fionn mac Cumhaill",
+      "ja": "フィン・マックール",
+      "zh": "芬恩·麦克库尔"
+    },
+    "true-name": {
+      "en": "Fionn mac Cumhaill",
+      "ja": "フィン・マックール",
+      "zh": "芬恩·麦克库尔"
+    },
+    "height": {
+      "en": "181cm",
+      "ja": "181cm",
+      "zh": "181cm"
+    },
+    "weight": {
+      "en": "63kg",
+      "ja": "63kg",
+      "zh": "63kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 257,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0257a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0257b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0257c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0257d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0257e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "caribbean-sea",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "dp",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "mata",
+    "character-voice": "kobayashi-chiaki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Bartholomew Roberts",
+      "ja": "バーソロミュー・ロバーツ",
+      "zh": "巴沙洛缪·罗伯茨"
+    },
+    "true-name": {
+      "en": "Bartholomew",
+      "ja": "バーソロミュー",
+      "zh": "巴沙洛缪"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "79kg",
+      "ja": "79kg",
+      "zh": "79kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

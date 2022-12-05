@@ -96,7 +96,7 @@ export default class App {
     builder.buildAppData(appConfig.paths, templates, pageData, './')
 
     // Build missing content page
-    const missing = parser.getMissingContent(appConfig.content, ['servant', 'ce'])
+    const missing = parser.getMissingContent(appConfig.content, ['profile'])
     builder.buildAppData(
       appConfig.paths,
       templates,

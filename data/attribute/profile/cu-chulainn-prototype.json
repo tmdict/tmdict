@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "fgoId": 20,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0020a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0020b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0020c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0020d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0020e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_3",
+    "gender": "male",
+    "origin": "celtic-mythology",
+    "region": "europe",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "nakahara",
+    "original-character-design.illustrator": ["takeuchi-takashi", "konoe-ototsugu"],
+    "character-voice": "nakai-kazuya",
+    "major-appearances": "fate-prototype"
+  },
+
+  "data": {
+    "name": {
+      "en": "Cú Chulainn (Prototype)",
+      "ja": "クー・フーリン（Prototype）",
+      "zh": "库·丘林（Prototype）"
+    },
+    "true-name": {
+      "en": "Cú Chulainn (Prototype)",
+      "ja": "クー・フーリン（Prototype）",
+      "zh": "库·丘林（Prototype）"
+    },
+    "height": {
+      "en": "184cm",
+      "ja": "184cm",
+      "zh": "184cm"
+    },
+    "weight": {
+      "en": "71kg",
+      "ja": "71kg",
+      "zh": "71kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

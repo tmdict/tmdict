@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "fgoId": 263,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0263a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0263b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0263c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0263d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0263e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "all-in-las-vegas-championship-match-seven-duels-of-swordbeauties"],
+    "region": "hungary",
+    "alignment": "neutral-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "e",
+    "agility.parameter": "app",
+    "magic.parameter": "d",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "minase-hazuki",
+    "illustrator": "okojo",
+    "character-voice": "tanaka-atsuko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "carmilla"
+  },
+
+  "data": {
+    "name": {
+      "en": "Carmilla (Rider)",
+      "ja": "カーミラ（ライダー）",
+      "zh": "卡米拉（Rider）"
+    },
+    "true-name": {
+      "en": "Carmilla (Elizabeth Báthory) or better known as: The Phantom Thief, Mistress C!",
+      "ja": "カーミラ（エリザベート・バートリー）またの名を、女怪盗ミストレスC！",
+      "zh": "卡米拉（伊丽莎白·巴托里）另一个名字是谜之女怪盗Mistress C！"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

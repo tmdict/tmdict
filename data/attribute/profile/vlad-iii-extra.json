@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "fgoId": 140,
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0140a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0140b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0140c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0140d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0140e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "romania",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "e",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "egawa-hisao",
+    "major-appearances": "fate-extra"
+  },
+
+  "data": {
+    "name": {
+      "en": "Vlad III (EXTRA)",
+      "ja": "ヴラド三世（EXTRA）",
+      "zh": "弗拉德三世（EXTRA）"
+    },
+    "true-name": {
+      "en": "Vlad III",
+      "ja": "ヴラド三世",
+      "zh": "弗拉德三世"
+    },
+    "height": {
+      "en": "191cm",
+      "ja": "191cm",
+      "zh": "191cm"
+    },
+    "weight": {
+      "en": "90kg",
+      "ja": "90kg",
+      "zh": "90kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}
