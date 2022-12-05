@@ -4,6 +4,12 @@
   "ja": "tsu",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "a",
+    "hiragana": "tsu",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Anti-Fortress Noble Phantasm",

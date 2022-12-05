@@ -4,6 +4,12 @@
   "ja": "fu",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Engulfing Forest",

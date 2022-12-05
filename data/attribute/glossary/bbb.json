@@ -4,6 +4,12 @@
   "ja": "hi",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "hi",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "BBB",

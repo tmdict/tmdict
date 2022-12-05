@@ -4,6 +4,12 @@
   "ja": "so",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "so",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Solo Servant",

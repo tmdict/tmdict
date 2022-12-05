@@ -4,6 +4,12 @@
   "ja": "ka",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "d",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Dark Sky",

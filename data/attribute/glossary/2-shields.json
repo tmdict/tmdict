@@ -4,6 +4,12 @@
   "ja": "ni",
   "jaRow": "n",
 
+  "attribute": {
+    "alphabet": "_",
+    "hiragana": "ni",
+    "hiragana-row": "n"
+  },
+
   "data": {
     "name": {
       "en": "2 Shields",

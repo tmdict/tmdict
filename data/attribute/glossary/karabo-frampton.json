@@ -4,6 +4,12 @@
   "ja": "ka",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Karabo Frampton",

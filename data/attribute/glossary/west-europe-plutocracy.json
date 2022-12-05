@@ -4,6 +4,12 @@
   "ja": "se",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "w",
+    "hiragana": "se",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "West Europe Plutocracy",

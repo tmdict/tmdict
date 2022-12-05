@@ -4,6 +4,12 @@
   "ja": "fu",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Magus of Sealing Designation",

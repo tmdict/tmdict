@@ -4,6 +4,12 @@
   "ja": "se",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "se",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "King of Conquerors Iskandar",

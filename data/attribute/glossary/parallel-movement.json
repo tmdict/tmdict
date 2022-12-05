@@ -4,6 +4,12 @@
   "ja": "he",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "he",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Parallel Movement",

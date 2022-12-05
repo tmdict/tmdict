@@ -4,6 +4,12 @@
   "ja": "o",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "o",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Bath Time Event",

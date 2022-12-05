@@ -4,6 +4,12 @@
   "ja": "u",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "v",
+    "hiragana": "u",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Velber",

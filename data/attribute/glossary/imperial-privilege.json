@@ -4,6 +4,12 @@
   "ja": "ko",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "ko",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Imperial Privilege",

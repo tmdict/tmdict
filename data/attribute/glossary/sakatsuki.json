@@ -4,6 +4,12 @@
   "ja": "sa",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "sa",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Sakatsuki",

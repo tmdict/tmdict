@@ -4,6 +4,12 @@
   "ja": "ka",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "n",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Name for Each Stage",

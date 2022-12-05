@@ -4,6 +4,12 @@
   "ja": "ke",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "ke",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Presence Concealment",

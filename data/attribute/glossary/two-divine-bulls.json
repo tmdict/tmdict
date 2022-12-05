@@ -4,6 +4,12 @@
   "ja": "ni",
   "jaRow": "n",
 
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "ni",
+    "hiragana-row": "n"
+  },
+
   "data": {
     "name": {
       "en": "Two Divine Bulls",

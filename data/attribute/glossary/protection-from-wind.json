@@ -4,6 +4,12 @@
   "ja": "ka",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Protection from Wind",

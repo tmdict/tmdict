@@ -4,6 +4,12 @@
   "ja": "mi",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "f",
+    "hiragana": "mi",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Fortress of Millennia",

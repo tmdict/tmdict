@@ -4,6 +4,12 @@
   "ja": "i",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "y",
+    "hiragana": "i",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Yew Bow",

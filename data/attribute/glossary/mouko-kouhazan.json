@@ -4,6 +4,12 @@
   "ja": "mo",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "mo",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Mouko Kouhazan",

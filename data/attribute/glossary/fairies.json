@@ -4,6 +4,12 @@
   "ja": "yo",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "f",
+    "hiragana": "yo",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Fairies",

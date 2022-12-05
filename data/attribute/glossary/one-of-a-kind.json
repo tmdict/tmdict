@@ -4,6 +4,12 @@
   "ja": "i",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "o",
+    "hiragana": "i",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "One of a Kind",

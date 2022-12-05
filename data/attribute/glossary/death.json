@@ -4,6 +4,12 @@
   "ja": "te",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "d",
+    "hiragana": "te",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "DEATH",

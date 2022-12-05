@@ -4,6 +4,12 @@
   "ja": "na",
   "jaRow": "n",
 
+  "attribute": {
+    "alphabet": "n",
+    "hiragana": "na",
+    "hiragana-row": "n"
+  },
+
   "data": {
     "name": {
       "en": "Narbareck",

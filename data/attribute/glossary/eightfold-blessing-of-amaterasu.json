@@ -4,6 +4,12 @@
   "ja": "su",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "su",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Eightfold Blessing of Amaterasu",

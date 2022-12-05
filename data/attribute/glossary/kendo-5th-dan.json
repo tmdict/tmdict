@@ -4,6 +4,12 @@
   "ja": "ke",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "ke",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Kendo 5th Dan",

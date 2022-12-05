@@ -4,6 +4,12 @@
   "ja": "ha",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "ha",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Cigars",

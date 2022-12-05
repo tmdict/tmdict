@@ -4,6 +4,12 @@
   "ja": "fu",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Knight of Vengeance",

@@ -4,6 +4,12 @@
   "ja": "ki",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "ki",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Bellerophon",

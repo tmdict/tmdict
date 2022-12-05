@@ -4,6 +4,12 @@
   "ja": "fu",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "o",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Overlooking View",

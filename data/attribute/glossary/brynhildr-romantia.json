@@ -4,6 +4,12 @@
   "ja": "fu",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Brynhildr Romantia",

@@ -4,6 +4,12 @@
   "ja": "ku",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "ku",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Berserker of Black",

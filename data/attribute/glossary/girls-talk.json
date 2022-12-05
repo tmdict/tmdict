@@ -4,6 +4,12 @@
   "ja": "o",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "g",
+    "hiragana": "o",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Girl’s Talk",

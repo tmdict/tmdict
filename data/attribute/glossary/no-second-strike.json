@@ -4,6 +4,12 @@
   "ja": "mu",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "n",
+    "hiragana": "mu",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "No Second Strike",

@@ -4,6 +4,12 @@
   "ja": "ri",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ri",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Ryuudou Temple",

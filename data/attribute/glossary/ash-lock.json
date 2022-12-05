@@ -4,6 +4,12 @@
   "ja": "ka",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "a",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Ash Lock",

@@ -4,6 +4,12 @@
   "ja": "shi",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "f",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Flare",

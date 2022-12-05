@@ -4,6 +4,12 @@
   "ja": "mu",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "mu",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Moon Crux",

@@ -4,6 +4,12 @@
   "ja": "chi",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "chi",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Chakravartin",

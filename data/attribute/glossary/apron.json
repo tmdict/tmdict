@@ -4,6 +4,12 @@
   "ja": "e",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "a",
+    "hiragana": "e",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Apron",

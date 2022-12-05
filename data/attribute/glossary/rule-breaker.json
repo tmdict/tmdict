@@ -4,6 +4,12 @@
   "ja": "ha",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ha",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Rule Breaker",

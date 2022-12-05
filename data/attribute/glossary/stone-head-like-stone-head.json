@@ -4,6 +4,12 @@
   "ja": "i",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "i",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Stone-Head-Like Stone Head",

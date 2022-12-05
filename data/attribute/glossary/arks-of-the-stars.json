@@ -4,6 +4,12 @@
   "ja": "ho",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "a",
+    "hiragana": "ho",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Arks of the Stars",

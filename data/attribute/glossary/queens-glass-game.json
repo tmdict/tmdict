@@ -4,6 +4,12 @@
   "ja": "ku",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "q",
+    "hiragana": "ku",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Queen’s Glass Game",

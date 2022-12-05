@@ -4,6 +4,12 @@
   "ja": "ha",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "w",
+    "hiragana": "ha",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Wiped Blank Earth",

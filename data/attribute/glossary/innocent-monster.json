@@ -4,6 +4,12 @@
   "ja": "mu",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "mu",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Innocent Monster",

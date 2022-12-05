@@ -4,6 +4,12 @@
   "ja": "me",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "me",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Märchen Meines Lebens",

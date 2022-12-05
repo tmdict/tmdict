@@ -4,6 +4,12 @@
   "ja": "ke",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "d",
+    "hiragana": "ke",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Decisive Battleground",

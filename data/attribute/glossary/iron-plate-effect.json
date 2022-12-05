@@ -4,6 +4,12 @@
   "ja": "te",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "te",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Iron Plate Effect",

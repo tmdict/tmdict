@@ -4,6 +4,12 @@
   "ja": "ha",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "ha",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Pepper Powder",

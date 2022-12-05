@@ -4,6 +4,12 @@
   "ja": "ri",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "ri",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Spiritron Composition",

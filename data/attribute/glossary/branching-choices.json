@@ -4,6 +4,12 @@
   "ja": "se",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "se",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Branching Choices",

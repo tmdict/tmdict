@@ -4,6 +4,12 @@
   "ja": "mo",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "z",
+    "hiragana": "mo",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Zabaniya",

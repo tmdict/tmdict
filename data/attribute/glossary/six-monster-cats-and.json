@@ -4,6 +4,12 @@
   "ja": "ne",
   "jaRow": "n",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "ne",
+    "hiragana-row": "n"
+  },
+
   "data": {
     "name": {
       "en": "Six Monster Cats, And…",

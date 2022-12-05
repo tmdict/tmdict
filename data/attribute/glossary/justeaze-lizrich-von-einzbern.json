@@ -4,6 +4,12 @@
   "ja": "yu",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "j",
+    "hiragana": "yu",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Justeaze Lizrich von Einzbern",

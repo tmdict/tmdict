@@ -4,6 +4,12 @@
   "ja": "ko",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "ko",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Cornwall",

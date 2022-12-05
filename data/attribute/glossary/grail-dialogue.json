@@ -4,6 +4,12 @@
   "ja": "se",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "g",
+    "hiragana": "se",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Grail Dialogue",

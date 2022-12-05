@@ -4,6 +4,12 @@
   "ja": "ya",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "ya",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Excalibur",

@@ -4,6 +4,12 @@
   "ja": "se",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "se",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Red Lord Origami",

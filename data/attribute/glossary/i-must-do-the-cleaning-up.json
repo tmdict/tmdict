@@ -4,6 +4,12 @@
   "ja": "sa",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "sa",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "I Must Do the Cleaning Up",

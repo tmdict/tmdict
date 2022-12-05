@@ -4,6 +4,12 @@
   "ja": "hi",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "g",
+    "hiragana": "hi",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Gáe Buidhe",

@@ -4,6 +4,12 @@
   "ja": "re",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "re",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Command Spell Miracle",

@@ -4,6 +4,12 @@
   "ja": "ku",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "ku",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Clinton",

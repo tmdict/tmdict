@@ -4,6 +4,12 @@
   "ja": "so",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "so",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Tears of the Cosmos",

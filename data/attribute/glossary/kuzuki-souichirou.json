@@ -4,6 +4,12 @@
   "ja": "ku",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "ku",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Kuzuki Souichirou",

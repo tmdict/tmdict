@@ -4,6 +4,12 @@
   "ja": "mi",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "mi",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Maid Costume",

@@ -4,6 +4,12 @@
   "ja": "ha",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "ha",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Three Founding Families",

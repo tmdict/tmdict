@@ -4,6 +4,12 @@
   "ja": "ta",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "ta",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "King Darius",

@@ -4,6 +4,12 @@
   "ja": "ho",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ho",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Rejected Routes",

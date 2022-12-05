@@ -4,6 +4,12 @@
   "ja": "o",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "o",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Princess of Gold / Princess of Silver",

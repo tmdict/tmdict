@@ -4,6 +4,12 @@
   "ja": "ho",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "ho",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Berserk Arcueid",

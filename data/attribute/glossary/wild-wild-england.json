@@ -4,6 +4,12 @@
   "ja": "wa",
   "jaRow": "w",
 
+  "attribute": {
+    "alphabet": "w",
+    "hiragana": "wa",
+    "hiragana-row": "w"
+  },
+
   "data": {
     "name": {
       "en": "Wild Wild England",

@@ -4,6 +4,12 @@
   "ja": "yu",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "yu",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Crest of the Wandering Star",

@@ -4,6 +4,12 @@
   "ja": "a",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "a",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Einzbern",

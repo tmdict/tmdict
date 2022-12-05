@@ -4,6 +4,12 @@
   "ja": "ra",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "u",
+    "hiragana": "ra",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "User of the Rider Card",

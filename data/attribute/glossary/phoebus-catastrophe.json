@@ -4,6 +4,12 @@
   "ja": "ho",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "ho",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Phoebus Catastrophe",

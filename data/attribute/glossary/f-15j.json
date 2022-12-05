@@ -4,6 +4,12 @@
   "ja": "e",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "f",
+    "hiragana": "e",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "F-15J",

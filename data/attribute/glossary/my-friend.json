@@ -4,6 +4,12 @@
   "ja": "wa",
   "jaRow": "w",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "wa",
+    "hiragana-row": "w"
+  },
+
   "data": {
     "name": {
       "en": "My Friend",

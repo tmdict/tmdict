@@ -4,6 +4,12 @@
   "ja": "sa",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "sa",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Machines of Slaughter",

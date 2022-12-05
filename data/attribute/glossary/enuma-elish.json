@@ -4,6 +4,12 @@
   "ja": "te",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "te",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Enuma Elish",

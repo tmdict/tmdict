@@ -4,6 +4,12 @@
   "ja": "ri",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "ri",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Imaginary Spiritron Trap",

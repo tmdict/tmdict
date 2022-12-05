@@ -4,6 +4,12 @@
   "ja": "ma",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "m",
+    "hiragana": "ma",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Magic Sword",

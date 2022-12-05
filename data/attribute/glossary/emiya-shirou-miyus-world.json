@@ -4,6 +4,12 @@
   "ja": "e",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "e",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Emiya Shirou (Miyu’s World)",

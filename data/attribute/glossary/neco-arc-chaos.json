@@ -4,6 +4,12 @@
   "ja": "ne",
   "jaRow": "n",
 
+  "attribute": {
+    "alphabet": "n",
+    "hiragana": "ne",
+    "hiragana-row": "n"
+  },
+
   "data": {
     "name": {
       "en": "Neco-Arc Chaos",

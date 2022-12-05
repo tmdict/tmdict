@@ -4,6 +4,12 @@
   "ja": "o",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "o",
+    "hiragana": "o",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "Olga Marie Animusphere",

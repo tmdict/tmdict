@@ -4,6 +4,12 @@
   "ja": "ru",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ru",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Lululululu~",

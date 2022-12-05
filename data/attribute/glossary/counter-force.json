@@ -4,6 +4,12 @@
   "ja": "yo",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "yo",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Counter Force",

@@ -4,6 +4,12 @@
   "ja": "he",
   "jaRow": "h",
 
+  "attribute": {
+    "alphabet": "c",
+    "hiragana": "he",
+    "hiragana-row": "h"
+  },
+
   "data": {
     "name": {
       "en": "Compiled Events and Pruned Events",

@@ -4,6 +4,12 @@
   "ja": "wa",
   "jaRow": "w",
 
+  "attribute": {
+    "alphabet": "i",
+    "hiragana": "wa",
+    "hiragana-row": "w"
+  },
+
   "data": {
     "name": {
       "en": "I Wanna Go to the Crocodile Garden",

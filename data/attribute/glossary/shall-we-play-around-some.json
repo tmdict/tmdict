@@ -4,6 +4,12 @@
   "ja": "su",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "su",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Shall We Play Around Some?",

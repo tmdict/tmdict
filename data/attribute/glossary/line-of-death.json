@@ -4,6 +4,12 @@
   "ja": "shi",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "l",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "Line of Death",

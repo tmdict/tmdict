@@ -4,6 +4,12 @@
   "ja": "ta",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "ta",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Bloodfort Andromeda",

@@ -4,6 +4,12 @@
   "ja": "ku",
   "jaRow": "k",
 
+  "attribute": {
+    "alphabet": "s",
+    "hiragana": "ku",
+    "hiragana-row": "k"
+  },
+
   "data": {
     "name": {
       "en": "Saber of Black",

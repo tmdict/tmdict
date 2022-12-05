@@ -4,6 +4,12 @@
   "ja": "ra",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "l",
+    "hiragana": "ra",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "La Pucelle",

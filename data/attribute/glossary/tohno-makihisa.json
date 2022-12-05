@@ -4,6 +4,12 @@
   "ja": "to",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "to",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Tohno Makihisa",

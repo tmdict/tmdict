@@ -4,6 +4,12 @@
   "ja": "e",
   "jaRow": "_",
 
+  "attribute": {
+    "alphabet": "w",
+    "hiragana": "e",
+    "hiragana-row": "_"
+  },
+
   "data": {
     "name": {
       "en": "World of EXTRA",

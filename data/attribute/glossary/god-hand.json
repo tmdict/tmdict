@@ -4,6 +4,12 @@
   "ja": "shi",
   "jaRow": "s",
 
+  "attribute": {
+    "alphabet": "g",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
   "data": {
     "name": {
       "en": "God Hand",

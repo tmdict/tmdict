@@ -4,6 +4,12 @@
   "ja": "ra",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ra",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Right Hand, Evil Eater / Left Hand, Xanadu Matrix",

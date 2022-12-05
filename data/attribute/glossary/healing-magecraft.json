@@ -4,6 +4,12 @@
   "ja": "chi",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "h",
+    "hiragana": "chi",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Healing Magecraft",

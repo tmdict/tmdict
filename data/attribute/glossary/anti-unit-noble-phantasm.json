@@ -4,6 +4,12 @@
   "ja": "ta",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "a",
+    "hiragana": "ta",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Anti-Unit Noble Phantasm",

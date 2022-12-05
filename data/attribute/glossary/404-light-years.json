@@ -4,6 +4,12 @@
   "ja": "yo",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "_",
+    "hiragana": "yo",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "404 Light Years",

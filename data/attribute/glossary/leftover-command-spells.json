@@ -4,6 +4,12 @@
   "ja": "yo",
   "jaRow": "y",
 
+  "attribute": {
+    "alphabet": "l",
+    "hiragana": "yo",
+    "hiragana-row": "y"
+  },
+
   "data": {
     "name": {
       "en": "Leftover Command Spells",

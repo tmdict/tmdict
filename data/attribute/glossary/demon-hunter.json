@@ -4,6 +4,12 @@
   "ja": "ta",
   "jaRow": "t",
 
+  "attribute": {
+    "alphabet": "d",
+    "hiragana": "ta",
+    "hiragana-row": "t"
+  },
+
   "data": {
     "name": {
       "en": "Demon Hunter",

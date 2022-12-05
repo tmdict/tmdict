@@ -4,6 +4,12 @@
   "ja": "mu",
   "jaRow": "m",
 
+  "attribute": {
+    "alphabet": "u",
+    "hiragana": "mu",
+    "hiragana-row": "m"
+  },
+
   "data": {
     "name": {
       "en": "Unlimited Blade Works",

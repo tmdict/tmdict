@@ -4,6 +4,12 @@
   "ja": "ro",
   "jaRow": "r",
 
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ro",
+    "hiragana-row": "r"
+  },
+
   "data": {
     "name": {
       "en": "Rhongomyniad",
