@@ -188,11 +188,10 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
     ...(entryAttr.en && { en: entryAttr.en }),
     ...(entryAttr.ja && { ja: entryAttr.ja }),
     ...(entryAttr.jaRow && { jaRow: entryAttr.jaRow }),
-    ...(entryAttr.fgoId && { fgoId: entryAttr.fgoId }),
     ...(entryAttr.img && { img: entryAttr.img }),
-    ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }),
     ...(entryAttr.weight && { weight: entryAttr.weight }),
-    ...(entryAttr.page && { weight: entryAttr.page }),
+    ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }),
+    ...(entryAttr.page && { page: entryAttr.page }),
   }
 }
 
@@ -360,7 +359,7 @@ export default class Parser {
         ...(entry.en && { en: entry.en }),
         ...(entry.ja && { ja: entry.ja }),
         ...(entry.jaRow && { jaRow: entry.jaRow }),
-        ...(entry.fgoId && { fgoId: entry.fgoId }),
+        ...(entry.weight && { weight: entry.weight }),
       })
     } catch (err) {
       console.log(`[ERROR parseAttributeFilterlist] [${entryId}]: ${err}`)

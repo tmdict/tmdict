@@ -40,10 +40,9 @@ export interface Attribute {
   en?: string
   ja?: string
   jaRow?: string
-  fgoId?: number
   img?: EntryImg[]
-  releaseDate?: string
   weight?: number
+  releaseDate?: string
   page?: string
   attribute: {
     [key: string]: string | string[]
@@ -80,9 +79,9 @@ export interface EntryMetadata {
   en?: string
   ja?: string
   jaRow?: string
-  fgoId?: number
   img?: EntryImg[]
-  page?: EntryImg[]
+  weight?: number
+  page?: string
   attr: any
   layout: LayoutAttribute
 }

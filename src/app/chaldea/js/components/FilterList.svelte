@@ -15,7 +15,7 @@
   if (sessionStorage.getItem('tmdict.chaldea.sortBy')) {
     sortBy.set(JSON.parse(sessionStorage.getItem('tmdict.chaldea.sortBy')))
   } else {
-    sortBy.set({ id: 'fgoId', order: '▼' })
+    sortBy.set({ id: 'weight', order: '▼' })
   }
 
   // Reset all filters to empty

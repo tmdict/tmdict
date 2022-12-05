@@ -10,9 +10,9 @@
 
   const ext = (env === 'production') ? '' : '.html'
 
-  const getImgLink = (fgoId, type) => {
+  const getImgLink = (weight, type) => {
     const prefix = (type === 'profile') ? 'S' : ''
-    return `${prefix}${fgoId.toString().padStart(4, '0')}icon.jpg`
+    return `${prefix}${weight.toString().padStart(4, '0')}icon.jpg`
   }
 
   const updateSortBy = sortHeader => {
@@ -27,9 +27,9 @@
 
 <div class="list">
   <div class="header item">
-    <div class="id" on:click={() => updateSortBy("fgoId")} on:keydown={() => updateSortBy("fgoId")}>
+    <div class="id" on:click={() => updateSortBy("weight")} on:keydown={() => updateSortBy("weight")}>
       {APP.i18n.id[$activeLang]}
-      {$sortBy.id === "fgoId" ? ` ${$sortBy.order}` : ""}
+      {$sortBy.id === "weight" ? ` ${$sortBy.order}` : ""}
     </div>
     <div class="name" on:click={() => updateSortBy("name")} on:keydown={() => updateSortBy("name")}>
       {APP.i18n.name[$activeLang]}
@@ -44,8 +44,8 @@
   <ul>
     {#each entryList as entry, i}
       <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}"><div class="item">
-        <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.fgoId, listType)}" alt="{entry.name[$activeLang]}" /></div>
-        <div class="id">{entry.fgoId}</div>
+        <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.weight, listType)}" alt="{entry.name[$activeLang]}" /></div>
+        <div class="id">{entry.weight}</div>
         <div class="name">{entry.name[$activeLang]}</div>
         <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
       </div></a></li>
