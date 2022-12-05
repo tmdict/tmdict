@@ -91,13 +91,7 @@ function flattenAttributeData(attr: any, env: string): PreparedAttribute {
  *  [dataAttr2]: { en:"", ja:"", zh:"" }
  * }
  */
-function parseAttribute(
-  type: string,
-  entryAttr: Attribute,
-  attrData: AttributeData,
-  attrContent: any,
-  env: string
-): object {
+ function parseAttribute(entryAttr: Attribute, attrData: AttributeData, env: string): object {
   let parsedAttr: any = entryAttr.data
 
   if (entryAttr.attribute) {
@@ -119,28 +113,6 @@ function parseAttribute(
       }
     }
   }
-
-  // Attr data has content, extract content and parse custom markup tags
-  if (attrContent[type] && attrContent[type][entryAttr.id]) {
-    parsedAttr.content = { ...attrContent[type][entryAttr.id].content }
-    Object.keys(parsedAttr.content).forEach((lang) => {
-      const attrContentHtml = parsedAttr.content[lang]
-      // check for missing content
-      if (attrContentHtml.includes('{{missing}}')) {
-        missingContent.push({
-          type: type,
-          id: entryAttr.id,
-          name: attrData[type][entryAttr.id].data.name[lang],
-          section: '',
-          sectionName: 'Info',
-          source: attrContent[type][entryAttr.id].source,
-          lang: lang,
-        })
-      }
-      parsedAttr.content[lang] = parseContentMarkup(attrContentHtml, lang)
-    })
-  }
-
   return parsedAttr
 }
 
@@ -165,7 +137,9 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
         return section.reduce((a, key) => {
           // Populate content for each attr section
           const attrContent = _.isArray(parsedAttr[key])
+            // Attributes with array of values
             ? (parsedAttr[key] as string[]).map((e: any) => e[lang])
+            // Attribute with a single value
             : [parsedAttr[key][lang]]
           return _.merge(a, { [key]: attrContent })
         }, {})
@@ -287,13 +261,12 @@ export default class Parser {
     entryType: string,
     attrData: AttributeData,
     env: string,
-    contentData: any = {},
-    attrContent = {}
+    contentData: any = {}
   ): EntryData => {
     try {
       // Convert raw attribute data into attr object keyed by attr name
       const entryAttr: Attribute = attrData[entryType][entryId]
-      const parsedAttr: any = parseAttribute(entryType, entryAttr, attrData, attrContent, env)
+      const parsedAttr: any = parseAttribute(entryAttr, attrData, env)
       // Packing it all together into a layout if there is one
       const layout: LayoutAttribute = 'layout' in entryAttr ? mapAttrToLayout(entryAttr.layout, parsedAttr) : {}
       // Convert attribute into site metadata

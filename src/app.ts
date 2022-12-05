@@ -24,20 +24,10 @@ export default class App {
     Object.keys(appConfig.filterlist).forEach((filter: string) => {
       // Build entries
       console.log('Building entry data')
-      // Extract attr content
-      const attrContent: any = { [filter]: {} }
-      contentData[`attribute.${filter}`].forEach((entry: any) => {
-        if (!attrContent[filter][entry.data.id]) {
-          attrContent[filter][entry.data.id] = { content: {} }
-        }
-        attrContent[filter][entry.data.id].source = entry.data.source
-        attrContent[filter][entry.data.id].content[entry.data.language] = entry.html
-      })
-
       let count = 0
       const parsedData = Object.keys(attrData[filter]).reduce(
         (acc, entryId: string) => {
-          const entryDataRaw: EntryData = parser.parseEntry(entryId, filter, attrData, env, contentData, attrContent)
+          const entryDataRaw: EntryData = parser.parseEntry(entryId, filter, attrData, env, contentData)
           const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.content)
           const entryPath = `${entryData.attribute.type}/${entryData.attribute.id}`
           const tmp = `${appConfig.paths.src}/__tmp`

@@ -84,7 +84,6 @@
                 {/each}
               {/each}
             </table>
-            {@html ('content' in attribute.attr && contentLang in attribute.attr.content) ? attribute.attr.content[contentLang] : ''}
           </div>
         </div>
       </div>
