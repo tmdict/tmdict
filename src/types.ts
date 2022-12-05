@@ -147,7 +147,7 @@ export interface MissingContent {
   type: string
   id: string
   name: string
-  section: string
+  sectionId: string
   sectionName: string
   source: string
   lang: string

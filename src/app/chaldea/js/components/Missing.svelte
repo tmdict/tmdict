@@ -8,7 +8,7 @@
   export let level
 
   const getEntryUrl = (e, lang) => {
-    const section = (e.section) ? `.${e.section}` : ''
+    const section = (e.sectionId) ? `.${e.sectionId}` : ''
     const ext = data.env === 'production' ? '' : '.html'
     return `${level}${e.type}/${e.id}${ext}#${e.lang}${section}`
   }

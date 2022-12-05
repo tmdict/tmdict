@@ -119,7 +119,7 @@ export default class App {
 
     // Preoprocess navigation data
     const ext = env === 'production' ? '' : '.html'
-    const nav = parser.parseNav(attrData)
+    const nav = parser.parseAlphabetNav(attrData)
     const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build pages

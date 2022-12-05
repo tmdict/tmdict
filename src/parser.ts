@@ -210,7 +210,7 @@ function parseContent(id: string, type: string, contentData: any, attrData: Attr
           type: type,
           id: c.data.parent,
           name: attrData[type][id].data.name[lang],
-          section: c.data.id,
+          sectionId: c.data.id,
           sectionName: name,
           source: sourceId,
           lang: lang,
@@ -392,7 +392,7 @@ export default class Parser {
   }
 
   /** Extract Alphabet and Hiragana nav from Attributes */
-  parseNav = (attrData: AttributeData): any => {
+  parseAlphabetNav = (attrData: AttributeData): any => {
     const ja = Object.keys(attrData['hiragana-row'])
       .sort((a, b) => attrData['hiragana-row'][a].data.name.ja.localeCompare(attrData['hiragana-row'][b].data.name.ja))
       .reduce((acc, id) => {
