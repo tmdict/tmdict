@@ -40,14 +40,25 @@
 
     .header {
       font-weight: bold;
-      margin-left: 54px;
 
       &:hover {
         cursor: pointer;
       }
 
-      &.item .name {
-        width: calc(100% - 208px + 54px);
+      &.profile {
+        margin-left: 54px;
+
+       .name {
+          width: calc(100% - 208px + 54px);
+        }
+      }
+
+      &.glossary { 
+        margin-left: 0;
+        
+        .name {
+          width: 100%;
+        }
       }
     }
 
@@ -77,6 +88,16 @@
         margin: 6px;
         font-weight: bold;
         width: calc(100% - 208px);
+      }
+
+      .info {
+        float: left;
+        margin: 6px;
+        width: calc(100% - 208px);
+
+        &:hover {
+          color: $primary-link;
+        }
       }
 
       .star {
@@ -114,6 +135,7 @@
       li {
         border-bottom: $dotted-border;
         display: flow-root;
+        overflow-wrap: break-word;
 
         &:first-child {
           border-top: $dotted-border;

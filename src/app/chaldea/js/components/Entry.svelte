@@ -30,6 +30,8 @@
     const path = `fate-grand-order/${attribute.type}/${attribute.id}/attr`
     return `https://github.${dev}/tmdict/tmdict/tree/main/data/content/${path}`
   }
+  console.log(attribute)
+  console.log(content)
 </script>
 
 <svelte:head>
@@ -50,43 +52,44 @@
 
   <div id="main">
     <h1 id="{contentLang}.{attribute.id}">{attribute.attr.name[$activeLang]}</h1>
-      <div class="content top">
+      {#if attribute.type === 'profile'}
+        <div class="content top">
+          <div class="image">
+            {#if screenWidth > 520}
+              <EntryImgHover {attribute} {contentLang} />
+            {:else}
+              <EntryImgSwipe {attribute} />
+            {/if}
+          </div>
 
-        <div class="image">
-          {#if screenWidth > 520}
-            <EntryImgHover {attribute} {contentLang} />
-          {:else}
-            <EntryImgSwipe {attribute} />
-          {/if}
-        </div>
+          <div class="attribute">
+            <Metadata
+              language={Object.keys(attribute.layout)}
+              gitUrl={getGitUrl(attribute.id, attribute.type, contentLang)}
+              devUrl={getGitUrl(attribute.id, attribute.type, contentLang, true)}
+              on:langUpdate={updateLang}
+            />
 
-        <div class="attribute">
-          <Metadata
-            language={Object.keys(attribute.layout)}
-            gitUrl={getGitUrl(attribute.id, attribute.type, contentLang)}
-            devUrl={getGitUrl(attribute.id, attribute.type, contentLang, true)}
-            on:langUpdate={updateLang}
-          />
-
-          <div>
-            <table>
-              <tr><td>ID</td><td>{attribute.weight}</td></tr>
-              {#each attribute.layout[contentLang] as section, i}
-                {#each Object.keys(section) as attr, j}
-                  <tr class:break={i !== 0 && j === 0}>
-                    <td>{APP.i18n[attr][contentLang]}</td>
-                    {#if ['origin', 'region'].includes(attr)}
-                      <td>{@html section[attr].join(' · ')}</td>
-                    {:else}
-                      <td>{@html section[attr].join(', ')}</td>
-                    {/if}
-                  </tr>
+            <div>
+              <table>
+                <tr><td>ID</td><td>{attribute.weight}</td></tr>
+                {#each attribute.layout[contentLang] as section, i}
+                  {#each Object.keys(section) as attr, j}
+                    <tr class:break={i !== 0 && j === 0}>
+                      <td>{APP.i18n[attr][contentLang]}</td>
+                      {#if ['origin', 'region'].includes(attr)}
+                        <td>{@html section[attr].join(' · ')}</td>
+                      {:else}
+                        <td>{@html section[attr].join(', ')}</td>
+                      {/if}
+                    </tr>
+                  {/each}
                 {/each}
-              {/each}
-            </table>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
+      {/if}
 
       <div class="top-break" />
 

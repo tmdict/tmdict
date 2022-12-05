@@ -14,10 +14,10 @@ a:hover {
 h1 {
   font: 2.4rem Georgia, serif;
   margin: 0.2em 0 0;
+  text-align: center;
 
   @media #{$media-mobile} {
     font-size: 2rem;
-    text-align: center;
   }
 }
 

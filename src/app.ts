@@ -51,9 +51,14 @@ export default class App {
             attrData,
             appConfig.filterlist[filter]
           )
+          // Append Work attr
+          const workAttr = entryAttrFilterlist['source']
+            .map((src: string) => attrData['source'][src].attribute['work'])
+            .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i) // Dedupe
+          const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr })
           const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.filterlist[filter])
           return {
-            filterlist: acc.filterlist.concat(entryAttrFilterlist),
+            filterlist: acc.filterlist.concat(entryFilterlist),
             i18n: _.merge(acc.i18n, entryAttrI18n),
           }
         },
@@ -63,6 +68,12 @@ export default class App {
         }
       )
       console.log(`...Built ${count} ${filter} data/js/html files`)
+
+      // Append work i18n data
+      parsedData.i18n['work'] = {}
+      Object.keys(attrData['work']).forEach((work) => {
+        parsedData.i18n['work'][work] = attrData['work'][work].data.name
+      })
 
       // Build filterlist
       builder.buildAppData(

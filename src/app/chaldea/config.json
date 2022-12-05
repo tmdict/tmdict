@@ -23,10 +23,25 @@
       "contentFilter": [
         "source"
       ]
+    },
+    "glossary": {
+      "type": "glossary",
+      "name": {
+        "en": "Glossary",
+        "ja": "Glossary",
+        "zh": "Glossary"
+      },
+      "filter": [
+        "source",
+        "category"
+      ],
+      "contentFilter": [
+        "source",
+        "category"
+      ]
     }
   },
   "content": [
-    "fate-grand-order",
     "fgo-material-i",
     "fgo-material-ii",
     "fgo-material-iii",
@@ -35,7 +50,32 @@
     "fgo-material-vi",
     "fgo-material-vii",
     "fgo-material-viii",
-    "fgo-material-ix"
+    "fgo-material-ix",
+
+    "angel-voice",
+    "character-material",
+    "colorful-moon-tsukihime",
+    "fate-apocrypha-material",
+    "fate-extella-material",
+    "fate-extra-material",
+    "fate-side-material",
+    "fate-type-redline-vol-1",
+    "fate-zero-animation-guide-i",
+    "fate-zero-animation-guide-ii",
+    "fate-zero-material",
+    "garden-of-sinners-pamphlet",
+    "hibichika-complete-capture-book",
+    "katatuki-kouhon",
+    "lord-el-melloi-ii-case-files-material",
+    "melty-blood-act-cadenza-ps2-manual",
+    "melty-blood-back-alley-alliance-nightmare-vol-1",
+    "melty-blood-official-strategy-guide",
+    "moonlight-lostroom-material",
+    "prisma-material-petit",
+    "tsukihime-data-collection",
+    "tsukihime-dokuhon-plus-period",
+    "tsukihime-material-i",
+    "yoi-no-myoujou"
   ],
   "app": {
     "lang": {
@@ -47,6 +87,7 @@
       "agility.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "alignment": { "en": "Alignment", "ja": "属性", "zh": "属性" },
       "book": { "en": "Books", "ja": "書", "zh": "书本" },
+      "category": { "en": "Category", "ja": "カテゴリー", "zh": "类别" },
       "character-setting": { "en": "Character Setting", "ja": "設定作成", "zh": "设定" },
       "character-voice": { "en": "Character Voice", "ja": "CV", "zh": "CV" },
       "class": { "en": "Class", "ja": "职阶", "zh": "职阶" },

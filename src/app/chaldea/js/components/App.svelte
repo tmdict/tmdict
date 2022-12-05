@@ -13,7 +13,7 @@
     'page': { component: Main, level: './' },
     'missing': { component: Missing, level: '../' },
     'profile': { component: FilterList, level: '../' },
-    //'ce': { component: FilterList, level: '../' }
+    'glossary': { component: FilterList, level: '../' }
   }
 </script>
 
