@@ -159,9 +159,9 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
     attr: parsedAttr,
     layout: layout,
     // https://stackoverflow.com/a/50367186 and https://stackoverflow.com/a/40560953
-    ...(entryAttr.en && { en: entryAttr.en }),
-    ...(entryAttr.ja && { ja: entryAttr.ja }),
-    ...(entryAttr.jaRow && { jaRow: entryAttr.jaRow }),
+    ...(entryAttr.attribute.alphabet && { en: entryAttr.attribute.alphabet as string }),
+    ...(entryAttr.attribute.hiragana && { ja: entryAttr.attribute.hiragana as string }),
+    ...(entryAttr.attribute['hiragana-row'] && { jaRow: entryAttr.attribute['hiragana-row'] as string }),
     ...(entryAttr.img && { img: entryAttr.img }),
     ...(entryAttr.weight && { weight: entryAttr.weight }),
     ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }),
@@ -329,9 +329,9 @@ export default class Parser {
       return _.merge(attributes, {
         id: entry.id,
         name: entry.data.name,
-        ...(entry.en && { en: entry.en }),
-        ...(entry.ja && { ja: entry.ja }),
-        ...(entry.jaRow && { jaRow: entry.jaRow }),
+        ...(entry.attribute.alphabet && { en: entry.attribute.alphabet as string }),
+        ...(entry.attribute.hiragana && { ja: entry.attribute.hiragana as string }),
+        ...(entry.attribute['hiragana-row'] && { jaRow: entry.attribute['hiragana-row'] as string }),
         ...(entry.weight && { weight: entry.weight }),
       })
     } catch (err) {

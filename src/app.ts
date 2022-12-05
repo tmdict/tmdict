@@ -184,10 +184,6 @@ export default class App {
     Object.keys(attrData['work']).forEach((work) => {
       parsedData.i18n['work'][work] = attrData['work'][work].data.name
     })
-    // Append nav en/ja i18n data
-    parser.appendI18n(parsedData.i18n, 'en', attrData, 'alphabet')
-    parser.appendI18n(parsedData.i18n, 'ja', attrData, 'hiragana')
-    parser.appendI18n(parsedData.i18n, 'jaRow', attrData, 'hiragana-row')
 
     // Sort entries in sidebar
     const sortedSidebar = parser.sortGroupedEntries(parsedData.sidebar)

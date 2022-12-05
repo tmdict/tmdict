@@ -138,9 +138,9 @@ export default class Builder {
       attribute: {
         id: entryData.attribute.id,
         name: entryData.attribute.attr.name[lang],
-        alphabet: { id: en, name: i18n.en[en][lang] },
-        hiragana: { id: ja, name: i18n.ja[ja][lang] },
-        hiraganaRow: { id: jaRow, name: i18n.jaRow[jaRow][lang] },
+        alphabet: { id: en, name: i18n.alphabet[en][lang] },
+        hiragana: { id: ja, name: i18n.hiragana[ja][lang] },
+        hiraganaRow: { id: jaRow, name: i18n['hiragana-row'][jaRow][lang] },
       },
       content: entryContent,
       sidebar: {
