@@ -91,7 +91,7 @@ function flattenAttributeData(attr: any, env: string): PreparedAttribute {
  *  [dataAttr2]: { en:"", ja:"", zh:"" }
  * }
  */
- function parseAttribute(entryAttr: Attribute, attrData: AttributeData, env: string): object {
+function parseAttribute(entryAttr: Attribute, attrData: AttributeData, env: string): object {
   let parsedAttr: any = entryAttr.data
 
   if (entryAttr.attribute) {
@@ -137,10 +137,10 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
         return section.reduce((a, key) => {
           // Populate content for each attr section
           const attrContent = _.isArray(parsedAttr[key])
-            // Attributes with array of values
-            ? (parsedAttr[key] as string[]).map((e: any) => e[lang])
-            // Attribute with a single value
-            : [parsedAttr[key][lang]]
+            ? // Attributes with array of values
+              (parsedAttr[key] as string[]).map((e: any) => e[lang])
+            : // Attribute with a single value
+              [parsedAttr[key][lang]]
           return _.merge(a, { [key]: attrContent })
         }, {})
       })

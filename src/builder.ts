@@ -55,7 +55,7 @@ export default class Builder {
     console.log(`Building css`)
     scss.forEach((file) => {
       try {
-        const result = sass.compile(`${paths.src}/css/${file}.scss`, {style: "compressed"})
+        const result = sass.compile(`${paths.src}/css/${file}.scss`, { style: 'compressed' })
         outputFile(result.css.toString(), `${paths.dist}/src/css/${file}.css`)
       } catch (err) {
         console.log(`[ERROR css]: ${err}`)

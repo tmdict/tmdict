@@ -23,9 +23,6 @@
     sortBy.set(updatedSortBy)
     sessionStorage.setItem('tmdict.chaldea.sortBy', JSON.stringify(updatedSortBy))
   }
-
-  console.log(i18n)
-  console.log(entryList)
 </script>
 
 <div class="list">
