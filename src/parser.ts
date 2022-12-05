@@ -382,15 +382,6 @@ export default class Parser {
     }
   }
 
-  /** Append additional Attr i18n (for those not in Attributes) */
-  appendI18n = (i18n: any, i18nId: string, attrData: AttributeData, attrId: string): any => {
-    i18n[i18nId] = {}
-    Object.keys(attrData[attrId]).forEach((attr) => {
-      i18n[i18nId][attr] = attrData[attrId][attr].data.name
-    })
-    return i18n
-  }
-
   /** Extract Alphabet and Hiragana nav from Attributes */
   parseAlphabetNav = (attrData: AttributeData): any => {
     const ja = Object.keys(attrData['hiragana-row'])

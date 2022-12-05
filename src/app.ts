@@ -179,7 +179,6 @@ export default class App {
     console.log(`...Parsed ${count} entries`)
 
     // Append work i18n data
-    parser.appendI18n(parsedData.i18n, 'work', attrData, 'work')
     parsedData.i18n['work'] = {}
     Object.keys(attrData['work']).forEach((work) => {
       parsedData.i18n['work'][work] = attrData['work'][work].data.name
