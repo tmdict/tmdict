@@ -24,14 +24,6 @@
   }
 
   const updateLang = event => (contentLang = event.detail.lang)
-
-  const getGitUrl = (entryId, entryType, contentLang, isDev = false) => {
-    const dev = (isDev) ? 'dev' : 'com'
-    const path = `fate-grand-order/${attribute.type}/${attribute.id}/attr`
-    return `https://github.${dev}/tmdict/tmdict/tree/main/data/content/${path}`
-  }
-  console.log(attribute)
-  console.log(content)
 </script>
 
 <svelte:head>
@@ -63,12 +55,7 @@
           </div>
 
           <div class="attribute">
-            <Metadata
-              language={Object.keys(attribute.layout)}
-              gitUrl={getGitUrl(attribute.id, attribute.type, contentLang)}
-              devUrl={getGitUrl(attribute.id, attribute.type, contentLang, true)}
-              on:langUpdate={updateLang}
-            />
+            <Metadata language={Object.keys(attribute.layout)} on:langUpdate={updateLang} />
 
             <div>
               <table>

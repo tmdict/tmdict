@@ -16,13 +16,9 @@
 
   const updateLang = (event) => (contentLang = event.detail.lang)
 
-  const getGitUrl = (source, entryId, entryType, contentId, contentLang, parent, isDev = false) => {
-  const dev = isDev ? 'dev' : 'com'
-  const path =
-    source == 'fate-grand-order'
-      ? `${source}/${entryType}/${entryId}/${contentId}`
-      : `${source}/${entryId}/${contentId}`
-  return parent == 'chaldea-app' ? '#' : `https://github.${dev}/tmdict/tmdict/blob/main/data/content/${path}`
+  const getGitUrl = (source, entryId, entryType, contentId, contentLang, parent, domain = 'com') => {
+  const path = entryType === 'profile' ? `${source}/${entryId}/${contentId}` : `${source}/${entryId}`
+  return parent == 'chaldea-app' ? '#' : `https://github.${domain}/tmdict/tmdict/blob/main/data/content/${path}`
 }
 </script>
 
@@ -39,7 +35,7 @@
       source={(data.i18n[contentLang]) ? data.i18n[contentLang].source.name : ''}
       translation={(data.i18n[contentLang]) ? data.i18n[contentLang].translation : ''}
       gitUrl={getGitUrl(data.source, entryId, entryType, data.id, contentLang, data.parent)}
-      devUrl={getGitUrl(data.source, entryId, entryType, data.id, contentLang, data.parent, true)}
+      devUrl={getGitUrl(data.source, entryId, entryType, data.id, contentLang, data.parent, 'dev')}
       on:langUpdate={updateLang}
     />
 

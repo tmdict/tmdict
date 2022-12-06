@@ -94,10 +94,7 @@
         float: left;
         margin: 6px;
         width: calc(100% - 208px);
-
-        &:hover {
-          color: $primary-link;
-        }
+        color: $primary-link-highlight;
       }
 
       .star {

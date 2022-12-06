@@ -60,7 +60,7 @@
           <div class="name">{entry.name[$activeLang]}</div>
           <div class="info">
             {#each entry.work as work, i}
-              {i18n['work'][work][$activeLang]}
+              {#if i > 0}, {/if}{i18n['work'][work][$activeLang]}
             {/each}
           </div>
         {/if}
