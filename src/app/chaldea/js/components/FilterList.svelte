@@ -15,7 +15,7 @@
   if (sessionStorage.getItem('tmdict.chaldea.sortBy')) {
     sortBy.set(JSON.parse(sessionStorage.getItem('tmdict.chaldea.sortBy')))
   } else {
-    sortBy.set({ id: 'weight', order: '▼' })
+    sortBy.set({ id: 'uid', order: '▼' })
   }
 
   // Reset all filters to empty
@@ -58,6 +58,11 @@
   const sortByCurrentId = (arr) =>
     [...arr].sort((a, b) => {
       switch ($sortBy.id) {
+        case 'uid': {
+          return $sortBy.order === '▲'
+            ? a[$sortBy.id].split('.')[1] - b[$sortBy.id].split('.')[1]
+            : b[$sortBy.id].split('.')[1] - a[$sortBy.id].split('.')[1]
+        }
         case 'name': {
           // Sorts by name in current language
           return $sortBy.order === '▲'
@@ -73,8 +78,8 @@
         default:
           // Sort by value directly
           return $sortBy.order === '▲'
-            ? a[$sortBy.id] - b[$sortBy.id]
-            : b[$sortBy.id] - a[$sortBy.id]
+            ? a[$sortBy.id].localeCompare(b[$sortBy.id])
+            : b[$sortBy.id].localeCompare(a[$sortBy.id])
       }
     })
 

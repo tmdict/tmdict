@@ -59,7 +59,7 @@
 
             <div>
               <table>
-                <tr><td>ID</td><td>{attribute.weight}</td></tr>
+                <tr><td>ID</td><td>{attribute.uid.split('.')[1]}</td></tr>
                 {#each attribute.layout[contentLang] as section, i}
                   {#each Object.keys(section) as attr, j}
                     <tr class:break={i !== 0 && j === 0}>

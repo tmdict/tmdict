@@ -10,9 +10,9 @@
 
   const ext = (env === 'production') ? '' : '.html'
 
-  const getImgLink = (weight, type) => {
+  const getImgLink = (uid, type) => {
     const prefix = (type === 'profile') ? 'S' : ''
-    return `${prefix}${weight.toString().padStart(4, '0')}icon.jpg`
+    return `${prefix}${uid.toString().padStart(4, '0')}icon.jpg`
   }
 
   const updateSortBy = sortHeader => {
@@ -28,9 +28,9 @@
 <div class="list">
   <div class="header item {listType}">
     {#if listType === 'profile'}
-      <div class="id" on:click={() => updateSortBy("weight")} on:keydown={() => updateSortBy("weight")}>
+      <div class="id" on:click={() => updateSortBy("uid")} on:keydown={() => updateSortBy("uid")}>
         {APP.i18n.id[$activeLang]}
-        {$sortBy.id === "weight" ? ` ${$sortBy.order}` : ""}
+        {$sortBy.id === "uid" ? ` ${$sortBy.order}` : ""}
       </div>
       <div class="name" on:click={() => updateSortBy("name")} on:keydown={() => updateSortBy("name")}>
         {APP.i18n.name[$activeLang]}
@@ -52,8 +52,8 @@
     {#each entryList as entry, i}
       <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}"><div class="item">
         {#if listType === 'profile'}
-          <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.weight, listType)}" alt="{entry.name[$activeLang]}" /></div>
-          <div class="id">{entry.weight}</div>
+          <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
+          <div class="id">{entry.uid.split('.')[1]}</div>
           <div class="name">{entry.name[$activeLang]}</div>
           <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
         {:else}

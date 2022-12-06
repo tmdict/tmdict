@@ -40,6 +40,7 @@ export interface Attribute {
   en?: string
   ja?: string
   jaRow?: string
+  uid?: string
   img?: EntryImg[]
   weight?: number
   releaseDate?: string
@@ -79,8 +80,8 @@ export interface EntryMetadata {
   en?: string
   ja?: string
   jaRow?: string
+  uid: string
   img?: EntryImg[]
-  weight?: number
   page?: string
   attr: any
   layout: LayoutAttribute

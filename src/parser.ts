@@ -158,7 +158,7 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
     type: entryAttr.type,
     attr: parsedAttr,
     layout: layout,
-    weight: entryAttr.weight ? entryAttr.weight : 1000,
+    uid: entryAttr.uid ? entryAttr.uid : '-',
     // https://stackoverflow.com/a/50367186 and https://stackoverflow.com/a/40560953
     ...(entryAttr.attribute.alphabet && { en: entryAttr.attribute.alphabet as string }),
     ...(entryAttr.attribute.hiragana && { ja: entryAttr.attribute.hiragana as string }),
@@ -331,7 +331,7 @@ export default class Parser {
       return _.merge(attributes, {
         id: entry.id,
         name: entry.data.name,
-        weight: entry.weight ? entry.weight : 1000,
+        uid: entry.uid ? entry.uid : '-',
         ...(entry.attribute.alphabet && { en: entry.attribute.alphabet as string }),
         ...(entry.attribute.hiragana && { ja: entry.attribute.hiragana as string }),
         ...(entry.attribute['hiragana-row'] && { jaRow: entry.attribute['hiragana-row'] as string }),

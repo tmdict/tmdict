@@ -1,6 +1,6 @@
 {
   "type": "profile",
-  "weight": 219,
+  "uid": "fgo.219",
 
   "img": [
     { "weight": 1, "id": "img_s1", "src": "S0219a.png" },
