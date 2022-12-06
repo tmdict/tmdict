@@ -34,6 +34,36 @@
 
   const dispatch = createEventDispatcher()
   const resetFilters = () => dispatch('filterReset', {})
+
+  // https://stackoverflow.com/questions/48601273/sorting-royal-names-using-javascript
+  const romanToNum = (roman) => {
+    if (roman === '') return 0
+    if (roman.startsWith('l')) return 50 + romanToNum(roman.substr(1))
+    if (roman.startsWith('xl')) return 40 + romanToNum(roman.substr(2))
+    if (roman.startsWith('x')) return 10 + romanToNum(roman.substr(1))
+    if (roman.startsWith('ix')) return 9 + romanToNum(roman.substr(2))
+    if (roman.startsWith('v')) return 5 + romanToNum(roman.substr(1))
+    if (roman.startsWith('iv')) return 4 + romanToNum(roman.substr(2))
+    if (roman.startsWith('i')) return 1 + romanToNum(roman.substr(1))
+    return 0
+  }
+
+  // Sort filter values, with special rules for source names
+  const sortFilterValues = (values, key) => {
+    // If source, sort by roman numeral if FGOM, else sort by name
+    if (key === 'source') {
+      return values
+        .map((n) => {
+          if (n.split('-')[0] === 'fgo') {
+            return { name: n, num: romanToNum(n.split('-').pop()) }
+          }
+          return { name: n, num: 0 }
+        })
+        .sort((a, b) => b.num - a.num || a.name.localeCompare(b.name))
+        .map(({ name, num }) => name)
+    }
+    return values.sort()
+  }
 </script>
 
 <div class="filter">
@@ -41,7 +71,7 @@
     <h6>{APP.i18n[filterKey][$activeLang]}</h6>
     <ul>
       <li><a href="#{$activeLang}" on:click={() => resetCurrentFilter(filterKey)}>all</a></li>
-      {#each filterValues[filterKey].sort() as filterValue (filterValue)}
+      {#each sortFilterValues(filterValues[filterKey], filterKey) as filterValue (filterValue)}
       {#if i18n[filterKey][filterValue]}
         <li>
           <div class="quick" class:active={filterValue === $filters[filterKey].quick}>
