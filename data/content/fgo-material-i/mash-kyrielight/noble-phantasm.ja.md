@@ -1,6 +1,7 @@
 ---
 language: ja
 weight: 3
+profile: true
 id: noble-phantasm
 parent: mash-kyrielight
 source: fgo-material-i

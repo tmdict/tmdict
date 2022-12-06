@@ -4,6 +4,7 @@ source: fgo-material-viii
 id: class-skills
 language: en
 weight: 1
+profile: true
 translation: "ComunCoutinho"
 ---
 

@@ -4,6 +4,7 @@ source: fgo-material-viii
 id: noble-phantasm
 language: en
 weight: 3
+profile: true
 translation: "amplified"
 ---
 

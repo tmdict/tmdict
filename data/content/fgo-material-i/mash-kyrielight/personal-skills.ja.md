@@ -4,6 +4,7 @@ source: fgo-material-i
 id: personal-skills
 language: ja
 weight: 2
+profile: true
 ---
 
 ### 今は脆き雪花の壁

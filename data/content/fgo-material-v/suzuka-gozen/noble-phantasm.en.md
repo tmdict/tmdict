@@ -4,6 +4,7 @@ source: fgo-material-v
 id: noble-phantasm
 language: en
 weight: 3
+profile: true
 translation: "Lily Emilio"
 ---
 

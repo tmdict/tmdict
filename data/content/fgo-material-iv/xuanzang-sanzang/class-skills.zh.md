@@ -4,6 +4,7 @@ source: fgo-material-iv
 id: class-skills
 language: zh
 weight: 1
+profile: true
 translation: "Akiraka"
 ---
 

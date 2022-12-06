@@ -4,6 +4,7 @@ source: fgo-material-vi
 id: noble-phantasm
 language: en
 weight: 3
+profile: true
 translation: "King of Padoru"
 ---
 

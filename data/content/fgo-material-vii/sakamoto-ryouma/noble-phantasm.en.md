@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: noble-phantasm
 language: en
 weight: 4
+profile: true
 translation: "ComunCoutinho"
 ---
 

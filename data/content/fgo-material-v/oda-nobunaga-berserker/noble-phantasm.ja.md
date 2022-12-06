@@ -4,6 +4,7 @@ source: fgo-material-v
 id: noble-phantasm
 language: ja
 weight: 3
+profile: true
 ---
 
 ### [第六天魔王波旬〜夏盛〜]{ノブナガ・THE・ロッケンロール}

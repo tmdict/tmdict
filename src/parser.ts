@@ -186,6 +186,7 @@ function parseContent(id: string, type: string, contentData: any, attrData: Attr
       const sourceLang = 'source' in c.data ? attrData['source'][sourceId]['data']['name'][lang] : ''
       const translation = 'translation' in c.data ? c.data.translation : ''
       const img = 'img' in c.data ? c.data.img : ''
+      const profile = 'profile' in c.data ? 0 : 1 // Used to sort profile content
       // Use common attr ID for name, if not use "name" override, else ''
       const name =
         'name' in c.data
@@ -224,6 +225,7 @@ function parseContent(id: string, type: string, contentData: any, attrData: Attr
           id: c.data.id,
           weight: c.data.weight,
           img: img, // Optional
+          profile: profile, // For prioritizing profile content
           category: category, // Optional
           i18n: {},
         }
@@ -275,10 +277,10 @@ export default class Parser {
       const content: EntryContent[] =
         entryId in contentData && contentData[entryId].length
           ? parseContent(entryId, entryType, contentData[entryId], attrData).sort((a, b) => {
-              // Sort content weight by (source weight + content weight)
-              const sa: number = attrData.source[a.source] ? attrData.source[a.source].weight : 0
-              const sb: number = attrData.source[b.source] ? attrData.source[b.source].weight : 0
-              return a.weight + sa - (b.weight + sb)
+              // Sort content by type (profile vs glossary), then source weight, then content weight
+              const aSource: number = attrData.source[a.source] ? attrData.source[a.source].weight : 0
+              const bSource: number = attrData.source[b.source] ? attrData.source[b.source].weight : 0
+              return a.profile - b.profile || aSource - bSource || a.weight - b.weight
             })
           : []
       return {

@@ -4,6 +4,7 @@ source: fgo-material-ii
 id: character
 language: en
 weight: 4
+profile: true
 translation: "Lily Emilio"
 ---
 

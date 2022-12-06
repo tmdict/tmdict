@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: noble-phantasm
 language: zh
 weight: 4
+profile: true
 translation: "Akiraka"
 ---
 

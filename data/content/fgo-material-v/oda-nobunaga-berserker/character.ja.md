@@ -4,6 +4,7 @@ source: fgo-material-v
 id: character
 language: ja
 weight: 4
+profile: true
 ---
 
 <table>

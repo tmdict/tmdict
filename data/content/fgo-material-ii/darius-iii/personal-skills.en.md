@@ -4,6 +4,7 @@ source: fgo-material-ii
 id: personal-skills
 language: en
 weight: 2
+profile: true
 translation: "Mazyrian, Clyton"
 ---
 

@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: character
 language: en
 weight: 5
+profile: true
 translation: "ComunCoutinho"
 ---
 

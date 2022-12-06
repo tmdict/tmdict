@@ -4,6 +4,7 @@ source: fgo-material-ix
 id: character
 language: en
 weight: 4
+profile: true
 translation: "amplified"
 ---
 

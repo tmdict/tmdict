@@ -17,9 +17,9 @@
   const updateLang = (event) => (contentLang = event.detail.lang)
 
   const getGitUrl = (source, entryId, entryType, contentId, contentLang, parent, domain = 'com') => {
-  const path = entryType === 'profile' ? `${source}/${entryId}/${contentId}` : `${source}/${entryId}`
-  return parent == 'chaldea-app' ? '#' : `https://github.${domain}/tmdict/tmdict/blob/main/data/content/${path}`
-}
+    const path = entryType === 'profile' ? `${source}/${entryId}/${contentId}` : `${source}/${entryId}`
+    return parent == 'chaldea-app' ? '#' : `https://github.${domain}/tmdict/tmdict/blob/main/data/content/${path}`
+  }
 </script>
 
 <div class="content">

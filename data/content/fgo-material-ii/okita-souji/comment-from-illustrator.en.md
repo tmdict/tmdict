@@ -4,6 +4,7 @@ source: fgo-material-ii
 id: comment-from-illustrator
 language: en
 weight: 5
+profile: true
 translation: "ComunCoutinho"
 ---
 

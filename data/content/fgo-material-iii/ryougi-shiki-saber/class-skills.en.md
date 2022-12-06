@@ -4,6 +4,7 @@ source: fgo-material-iii
 id: class-skills
 language: en
 weight: 1
+profile: true
 translation: "Velox0blivio, Dry_AG"
 ---
 

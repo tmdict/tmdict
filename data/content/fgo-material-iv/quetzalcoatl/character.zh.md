@@ -4,6 +4,7 @@ source: fgo-material-iv
 id: character
 language: zh
 weight: 4
+profile: true
 translation: "Akiraka, loljian"
 ---
 

@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: class-skills
 language: en
 weight: 1
+profile: true
 translation: "King of Padoru"
 ---
 

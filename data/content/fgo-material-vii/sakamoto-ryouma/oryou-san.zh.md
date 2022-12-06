@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: oryou-san
 language: zh
 weight: 3
+profile: true
 name: "阿龙小姐"
 translation: "Akiraka"
 ---

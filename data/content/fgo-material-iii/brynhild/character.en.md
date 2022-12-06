@@ -4,6 +4,7 @@ source: fgo-material-iii
 id: character
 language: en
 weight: 4
+profile: true
 translation: "Smoof101"
 ---
 

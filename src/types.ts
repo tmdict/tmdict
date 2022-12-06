@@ -92,6 +92,7 @@ export interface EntryContent {
   id: string
   weight: number
   img: string
+  profile: number
   category: string[]
   i18n: {
     [key: string]: {

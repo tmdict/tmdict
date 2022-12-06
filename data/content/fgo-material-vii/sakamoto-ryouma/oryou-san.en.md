@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: oryou-san
 language: en
 weight: 3
+profile: true
 name: "Oryou-san"
 translation: "ComunCoutinho"
 ---

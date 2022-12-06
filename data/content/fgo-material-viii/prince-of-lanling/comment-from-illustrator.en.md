@@ -4,6 +4,7 @@ source: fgo-material-viii
 id: comment-from-illustrator
 language: en
 weight: 5
+profile: true
 translation: "BananaShiki"
 ---
 

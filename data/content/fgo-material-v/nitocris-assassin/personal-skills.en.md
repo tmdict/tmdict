@@ -4,6 +4,7 @@ source: fgo-material-v
 id: personal-skills
 language: en
 weight: 2
+profile: true
 translation: "King of Padoru"
 ---
 

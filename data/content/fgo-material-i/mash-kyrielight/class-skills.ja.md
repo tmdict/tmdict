@@ -4,6 +4,7 @@ source: fgo-material-i
 id: class-skills
 language: ja
 weight: 1
+profile: true
 ---
 
 ### 対魔力：A

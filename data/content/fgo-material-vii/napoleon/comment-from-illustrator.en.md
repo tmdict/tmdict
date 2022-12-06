@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: comment-from-illustrator
 language: en
 weight: 5
+profile: true
 translation: "Konchew"
 ---
 

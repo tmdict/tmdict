@@ -4,6 +4,7 @@ source: fgo-material-v
 id: class-skills
 language: ja
 weight: 1
+profile: true
 ---
 
 ### 狂化：C

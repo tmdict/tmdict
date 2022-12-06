@@ -4,6 +4,7 @@ source: fgo-material-i
 id: character
 language: en
 weight: 4
+profile: true
 translation: "King of Padoru"
 ---
 

@@ -4,6 +4,7 @@ source: fgo-material-vi
 id: personal-skills
 language: zh
 weight: 2
+profile: true
 translation: "Akiraka"
 ---
 

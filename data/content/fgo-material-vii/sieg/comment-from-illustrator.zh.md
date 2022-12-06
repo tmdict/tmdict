@@ -4,6 +4,7 @@ source: fgo-material-vii
 id: comment-from-illustrator
 language: zh
 weight: 5
+profile: true
 translation: "Akiraka"
 ---
 

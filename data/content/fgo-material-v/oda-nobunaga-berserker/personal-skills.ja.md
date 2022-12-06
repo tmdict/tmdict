@@ -4,6 +4,7 @@ source: fgo-material-v
 id: personal-skills
 language: ja
 weight: 2
+profile: true
 ---
 
 ### うつけ殺法：A

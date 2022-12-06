@@ -4,6 +4,7 @@ source: fgo-material-iv
 id: comment-from-illustrator
 language: en
 weight: 5
+profile: true
 translation: "castor212"
 ---
 

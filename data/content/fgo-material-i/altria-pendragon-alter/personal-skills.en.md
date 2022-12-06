@@ -4,6 +4,7 @@ source: fgo-material-i
 id: personal-skills
 language: en
 weight: 2
+profile: true
 translation: "Clyton"
 ---
 
