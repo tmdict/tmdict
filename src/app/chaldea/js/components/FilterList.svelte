@@ -10,13 +10,7 @@
 
   // Initialize full entry list
   let parsedEntryList = data.content
-
-  // Cache sortBy in browser session storage
-  if (sessionStorage.getItem('tmdict.chaldea.sortBy')) {
-    sortBy.set(JSON.parse(sessionStorage.getItem('tmdict.chaldea.sortBy')))
-  } else {
-    sortBy.set({ id: 'uid', order: '▼' })
-  }
+  sortBy.set({ id: 'uid', order: '▼' })
 
   // Reset all filters to empty
   const resetAllFilter = () => {

@@ -21,7 +21,6 @@
       order: $sortBy.order === '▲' ? '▼' : '▲'
     }
     sortBy.set(updatedSortBy)
-    sessionStorage.setItem('tmdict.chaldea.sortBy', JSON.stringify(updatedSortBy))
   }
 </script>
 
