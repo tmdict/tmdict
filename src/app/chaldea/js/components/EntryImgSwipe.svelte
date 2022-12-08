@@ -17,20 +17,6 @@
   })
 </script>
 
-<style>
-  .swiper-container {
-    width: 340px;
-  }
-
-  .swiper-container img {
-    outline: 0;
-  }
-
-  .swiper-pagination {
-    position: relative;
-  }
-</style>
-
 <svelte:head>
   <style type="text/css">
     .swiper-pagination-bullet {
@@ -53,3 +39,17 @@
   </div>
   <div class="swiper-pagination"></div>
 </div>
+
+<style>
+  .swiper-container {
+    width: 340px;
+  }
+
+  .swiper-container img {
+    outline: 0;
+  }
+
+  .swiper-pagination {
+    position: relative;
+  }
+</style>

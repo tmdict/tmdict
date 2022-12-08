@@ -20,6 +20,27 @@
   const scrollTo = (id) => document.getElementById(id).scrollIntoView({behavior:'smooth'})
 </script>
 
+<svelte:window bind:innerWidth={screenWidth} bind:scrollY={screenTop} />
+
+<div class="sidebar" style="top: {(screenTop > 300) ? 0 : (300-screenTop)}px; left: {0.5*screenWidth+410}px">
+  <ul>
+    {#if content.length > 0}
+      <li class="sidebar-item"><a href="#{contentLang}.{attribute.id}">TOP</a></li>
+      {#each content as section}
+        {#if section.i18n[contentLang]}
+          <li class="sidebar-item">
+            <a on:click|preventDefault={scrollTo(`${$activeLang}.${section.id}`)} href={`#${$activeLang}.${section.id}`}>
+              <div class="status">{section.i18n[contentLang].name.name}</div>
+            </a>
+          </li>
+        {/if}
+      {/each}
+    {/if}
+    <li class="sidebar-item"><a href="../contact/#{[$activeLang]}-{attribute.id}">{APP.i18n.report[$activeLang]}</a></li>
+    <li class="sidebar-item"><a href="../{attribute.type}/#{$activeLang}">BACK</a></li>
+  </ul>
+</div>
+
 <style>
   .sidebar {
     width:200px;
@@ -59,24 +80,3 @@
     padding-left: 8px;
   }
 </style>
-
-<svelte:window bind:innerWidth={screenWidth} bind:scrollY={screenTop} />
-
-<div class="sidebar" style="top: {(screenTop > 300) ? 0 : (300-screenTop)}px; left: {0.5*screenWidth+410}px">
-  <ul>
-    {#if content.length > 0}
-      <li class="sidebar-item"><a href="#{contentLang}.{attribute.id}">TOP</a></li>
-      {#each content as section}
-        {#if section.i18n[contentLang]}
-          <li class="sidebar-item">
-            <a on:click|preventDefault={scrollTo(`${$activeLang}.${section.id}`)} href={`#${$activeLang}.${section.id}`}>
-              <div class="status">{section.i18n[contentLang].name.name}</div>
-            </a>
-          </li>
-        {/if}
-      {/each}
-    {/if}
-    <li class="sidebar-item"><a href="../contact/#{[$activeLang]}-{attribute.id}">{APP.i18n.report[$activeLang]}</a></li>
-    <li class="sidebar-item"><a href="../{attribute.type}/#{$activeLang}">BACK</a></li>
-  </ul>
-</div>

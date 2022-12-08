@@ -10,28 +10,6 @@
   export let level
 </script>
 
-<style type="text/css">
-  #container {
-    grid-template-columns: [col-start] auto [col-1] 400px [col-2] auto [col-end];
-  }
-
-  img {
-    display: block;
-  }
-
-  .center {
-    margin: 20px auto 10px;
-  }
-
-  @media only screen and (max-width: 660px) {
-    #container {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
-    }
-  }
-</style>
-
 <div id="container">
   <Top {level} />
 
@@ -59,3 +37,25 @@
 
   <Footer {level} />
 </div>
+
+<style>
+  #container {
+    grid-template-columns: [col-start] auto [col-1] 400px [col-2] auto [col-end];
+  }
+
+  img {
+    display: block;
+  }
+
+  .center {
+    margin: 20px auto 10px;
+  }
+
+  @media only screen and (max-width: 660px) {
+    #container {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
+    }
+  }
+</style>

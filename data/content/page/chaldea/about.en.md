@@ -28,7 +28,7 @@ This project is the work of TMdict, with help from various fans and other commun
   </td></tr>
 </table>  
 
-Special thanks to the following sites, for various FGO game contents and materials:
+Special thanks to the following sites, for various game contents and materials:
 
 <table>
   <tr><td style="width:120px;padding-left:10px;">
@@ -38,18 +38,12 @@ Special thanks to the following sites, for various FGO game contents and materia
     <a style="text-decoration:none;display:block;" href="https://chaldeum.wordpress.com/">Chaldeum</a>
   </td></tr>
   <tr><td style="width:120px;padding-left:10px;">
-    <a style="text-decoration:none;display:block;" href="http://fate-go.cirnopedia.org/">Cirnopedia</a>
-  </td></tr>
-  <tr><td style="width:120px;padding-left:10px;">
     <a style="text-decoration:none;display:block;" href="https://fgo.wiki/w/%E9%A6%96%E9%A1%B5">Mooncell</a>
-  </td></tr>
-  <tr><td style="width:120px;padding-left:10px;">
-    <a style="text-decoration:none;display:block;" href="https://zh.moegirl.org/Mainpage">萌娘百科</a>
   </td></tr>
   <tr><td style="width:120px;padding-left:10px;">
     <a style="text-decoration:none;display:block;" href="https://kazemai.github.io/fgo-vz/">茹西教王的理想乡</a>
   </td></tr>
   <tr><td style="width:120px;padding-left:10px;">
-    <a style="text-decoration:none;display:block;" href="https://grand_order.wicurio.com/">FGO 攻略まとめwiki</a>
+    <a style="text-decoration:none;display:block;" href="https://grand_order.wicurio.com/">FGO攻略まとめwiki</a>
   </td></tr>
 </table>

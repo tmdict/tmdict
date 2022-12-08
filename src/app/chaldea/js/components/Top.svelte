@@ -33,16 +33,16 @@
 
 <div id="top"></div>
 <div id="header">
-  <a href="{level}#{$activeLang}">
+  <span on:click={toggleDarkMode} on:keydown={toggleDarkMode}>
     {#if $theme === 'chaldea'}
       <img class="logo" src="{level}src/img/top.png" title={logoHint[$activeLang]} alt="Chaldea" />
     {:else}
       <img class="logo" src="{level}src/img/top_.png" title={logoHint[$activeLang]} alt="Shadow Border" />
     {/if}
-  </a>
+  </span>
 
   <div id="name">
-    <a href="{level}#{$activeLang}">CHALDEA<span style="color: #777;">の</span></a><span on:click={toggleDarkMode} on:keydown={toggleDarkMode} class="darkmode highlight">記録</span>
+    <a href="{level}#{$activeLang}">CHALDEA<span style="color: #777;">の</span><span class="alt">記録</span></a>
   </div>
 
   <div id="nav">

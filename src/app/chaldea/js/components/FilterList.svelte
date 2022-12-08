@@ -8,6 +8,8 @@
   export let data
   export let level
 
+  console.log(data)
+
   // Initialize full entry list
   let parsedEntryList = data.content
   sortBy.set({ id: 'uid', order: '▼' })
@@ -120,7 +122,7 @@
       <div class="filter-list">
         <List i18n={data.i18n} listType={data.attribute.type} entryList={parsedEntryList} {level} env={data.env} />
 
-        <Filter i18n={data.i18n} {filterValues} on:filterReset={resetAllFilter} />
+        <Filter type={data.attribute.type} i18n={data.i18n} {filterValues} on:filterReset={resetAllFilter} />
       </div>
     </div>
   </div>

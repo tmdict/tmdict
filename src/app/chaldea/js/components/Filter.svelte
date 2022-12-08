@@ -3,6 +3,7 @@
   import { createEventDispatcher } from 'svelte'
   import { activeLang, filters } from '../stores.js'
 
+  export let type
   export let i18n
   export let filterValues
 
@@ -51,7 +52,7 @@
   // Sort filter values, with special rules for source names
   const sortFilterValues = (values, key) => {
     // If source, sort by roman numeral if FGOM, else sort by name
-    if (key === 'source') {
+    if (key === 'source' && type === 'profile') {
       return values
         .map((n) => {
           if (n.split('-')[0] === 'fgo') {
@@ -72,18 +73,18 @@
     <ul>
       <li><a href="#{$activeLang}" on:click={() => resetCurrentFilter(filterKey)}>all</a></li>
       {#each sortFilterValues(filterValues[filterKey], filterKey) as filterValue (filterValue)}
-      {#if i18n[filterKey][filterValue]}
-        <li>
-          <div class="quick" class:active={filterValue === $filters[filterKey].quick}>
-            <a href="#{$activeLang}" on:click={() => updateQuickFilterState(filterKey, filterValue)}>
-              {i18n[filterKey][filterValue][$activeLang]}
-            </a>
-          </div>
-          <div class="common" class:active={$filters[filterKey].common.includes(filterValue)}>
-            <a href="#{$activeLang}" on:click={() => updateCommonFilterState(filterKey, filterValue)}>&nbsp;</a>
-          </div>
-        </li>
-      {/if}
+        {#if i18n[filterKey][filterValue]}
+          <li>
+            <div class="quick" class:active={filterValue === $filters[filterKey].quick}>
+              <a href="#{$activeLang}" on:click={() => updateQuickFilterState(filterKey, filterValue)}>
+                {i18n[filterKey][filterValue][$activeLang]}
+              </a>
+            </div>
+            <div class="common" class:active={$filters[filterKey].common.includes(filterValue)}>
+              <a href="#{$activeLang}" on:click={() => updateCommonFilterState(filterKey, filterValue)}>&nbsp;</a>
+            </div>
+          </li>
+        {/if}
       {/each}
       <li><a href="#{$activeLang}" on:click={resetFilters}>reset all</a></li>
     </ul>
