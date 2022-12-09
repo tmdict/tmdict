@@ -32,12 +32,10 @@
         "zh": "Glossary"
       },
       "filter": [
-        "source",
-        "category"
+        "source"
       ],
       "contentFilter": [
-        "source",
-        "category"
+        "source"
       ]
     }
   },
@@ -51,7 +49,6 @@
     "fgo-material-vii",
     "fgo-material-viii",
     "fgo-material-ix",
-
     "angel-voice",
     "character-material",
     "colorful-moon-tsukihime",

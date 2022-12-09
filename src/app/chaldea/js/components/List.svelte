@@ -1,5 +1,6 @@
 <script>
   import APP from '../../__tmp/data/constants.js'
+  import ListGlossary from './ListGlossary.svelte'
   import { activeLang, sortBy } from '../stores.js'
 
   export let i18n
@@ -7,6 +8,7 @@
   export let entryList
   export let level
   export let env
+  let expandAll = false;
 
   const ext = (env === 'production') ? '' : '.html'
 
@@ -44,26 +46,27 @@
         {APP.i18n.name[$activeLang]}
         {$sortBy.id === "name" ? ` ${$sortBy.order}` : ""}
       </div>
+      <div class="expand-all" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
+        {expandAll ? "Close -" : "Expand +"}
+        {$sortBy.id === "name" ? ` ${$sortBy.order}` : ""}
+      </div>
     {/if}
   </div>
 
   <ul>
-    {#each entryList as entry, i}
-      <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}"><div class="item">
-        {#if listType === 'profile'}
-          <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
-          <div class="id">{entry.uid.split('.')[1]}</div>
-          <div class="name">{entry.name[$activeLang]}</div>
-          <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
-        {:else}
-          <div class="name">{entry.name[$activeLang]}</div>
-          <div class="info">
-            {#each entry.work as work, i}
-              {#if i > 0}, {/if}{i18n['work'][work][$activeLang]}
-            {/each}
+    {#each entryList as entry, i (entry.id)}
+      {#if listType === 'profile'}
+        <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
+          <div class="item">
+            <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
+            <div class="id">{entry.uid.split('.')[1]}</div>
+            <div class="name">{entry.name[$activeLang]}</div>
+            <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
           </div>
-        {/if}
-      </div></a></li>
+        </a></li>
+      {:else}
+        <ListGlossary {entry} {i18n} {level} {env} showDetail={expandAll} />
+      {/if}
     {/each}
   </ul>
 </div>

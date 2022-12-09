@@ -57,13 +57,20 @@
         margin-left: 0;
         
         .name {
-          width: 100%;
+          width: calc(100% - 208px + 90px);
+        }
+
+        .expand-all {
+          float: right;
+          margin: 6px;
+          font-weight: bold;
         }
       }
     }
 
     .item {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
 
       .icon {
@@ -97,11 +104,64 @@
         color: $primary-link-highlight;
       }
 
+      .link {
+        float: left;
+        margin: 6px;
+        width: 40px;
+
+        .link-content {
+          display: block;
+          width: 40px;
+        }
+      }
+
       .star {
         float: right;
         margin: 6px 10px 6px 6px;
         text-align: left;
         width: 70px;
+      }
+
+      .item-header {
+        display: flex;
+        flex: 0 0 100%;
+        color: $primary-link;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .item-content {
+        border-top: $dotted-border;
+        flex: 0 0 100%;
+
+        p {
+          padding: 0 5px;
+        }
+
+        h2 {
+          font-size: 1rem;
+          font-weight: bold;
+          margin: 20px 0 0 10px;
+        }
+
+        h3 {
+          font-size: .75rem;
+          margin-left: 5px;
+        }
+
+        h4 {
+          margin-left: 5px;
+        }
+
+        h5 {
+          margin: 15px 0 5px 15px;
+        }
+      }
+
+      a .item-content, a:hover .item-content {
+        color: $text-dark;
       }
     }
 
