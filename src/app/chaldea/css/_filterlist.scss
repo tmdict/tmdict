@@ -56,13 +56,9 @@
       &.glossary { 
         margin-left: 0;
         
-        .name {
-          width: calc(100% - 208px + 90px);
-        }
-
         .expand-all {
-          float: right;
           margin: 6px;
+          margin-left: auto;
           font-weight: bold;
         }
       }

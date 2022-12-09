@@ -1,4 +1,6 @@
 <script>
+  import Fuse from 'fuse.js';
+
   import Top from './Top.svelte'
   import Footer from './Footer.svelte'
   import List from './List.svelte'
@@ -11,6 +13,15 @@
   // Initialize full entry list
   let parsedEntryList = data.content
   sortBy.set({ id: 'uid', order: '▼' })
+
+  let searchTerm
+  const searchOptions = {
+    includeMatches: true,
+    minMatchCharLength: 2,
+    findAllMatches: true,
+    shouldSort: true,
+    distance: 20
+  };
 
   // Reset all filters to empty
   const resetAllFilter = () => {
@@ -117,6 +128,10 @@
     <div class="content no-break">
       <h1>{data.attribute.name[$activeLang]}</h1>
 
+      <div class="search">
+        <input class="search-box" bind:value={searchTerm} />
+      </div>
+
       <div class="filter-list">
         <List i18n={data.i18n} listType={data.attribute.type} entryList={parsedEntryList} {level} env={data.env} />
 
@@ -127,3 +142,19 @@
 
   <Footer {level} />
 </div>
+
+<style>
+  .search {
+    display: flex;
+  }
+
+  input {
+    margin: 30px auto 0;
+    padding: 10px;
+    flex: 1 1 auto;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+</style>
