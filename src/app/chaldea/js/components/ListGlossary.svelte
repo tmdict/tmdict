@@ -30,14 +30,14 @@
       </a></div>
     </div>
     {#if showDetail}
-    <a href="{level}glossary/{entry.id}{ext}#{$activeLang}">
       <div transition:slide={{ duration: 200 }} class="item-content">
-        {#each entry.content as content, j}
-          <div class="source"><h2>{i18n.source[content.source][$activeLang]}</h2></div>
-          <p>{@html content.i18n[$activeLang].html}</p>
-        {/each}
+        <a href="{level}glossary/{entry.id}{ext}#{$activeLang}">
+          {#each entry.content as content, j}
+            <div class="source"><h2>{i18n.source[content.source][$activeLang]}</h2></div>
+            <p>{@html content.i18n[$activeLang].html}</p>
+          {/each}
+        </a>
       </div>
-    </a>
     {/if}
   </div>
 </li>

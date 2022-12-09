@@ -136,6 +136,10 @@
         border-top: $dotted-border;
         flex: 0 0 100%;
 
+        a, a:hover{
+          color: $text-dark;
+        }
+
         p {
           padding: 0 5px;
         }
@@ -158,10 +162,6 @@
         h5 {
           margin: 15px 0 5px 15px;
         }
-      }
-
-      a .item-content, a:hover .item-content {
-        color: $text-dark;
       }
     }
 

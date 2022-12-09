@@ -47,7 +47,7 @@
         {$sortBy.id === "name" ? ` ${$sortBy.order}` : ""}
       </div>
       <div class="expand-all" on:click={() => (expandAll = !expandAll)} on:keydown={() => (expandAll = !expandAll)}>
-        {expandAll ? "Close -" : "Expand +"}
+        {expandAll ? `${APP.i18n.expand[$activeLang]} -` : `${APP.i18n.expand[$activeLang]} +`}
         {$sortBy.id === "name" ? ` ${$sortBy.order}` : ""}
       </div>
     {/if}
