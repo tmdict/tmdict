@@ -8,8 +8,6 @@
   export let data
   export let level
 
-  console.log(data)
-
   // Initialize full entry list
   let parsedEntryList = data.content
   sortBy.set({ id: 'uid', order: '▼' })

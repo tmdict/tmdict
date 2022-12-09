@@ -7,36 +7,40 @@ import { AppConfig, AttributeData, EntryContent, EntryData, Search } from './typ
 export default class App {
   /** Generates Chaldea app and site */
   chaldea = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\nBuilding: chaldea')
+    console.log('\n\nBuilding: chaldea')
+
+    // Load attributes and content
+    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
+    const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img)
     builder.buildCss(appConfig.paths, appConfig.paths.css)
 
-    // Build attributes and content
-    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
-    const contentData: any = loader.loadContentData(appConfig.paths)
-
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP')
 
-    // Build entries for each filter type
+    // Build entries for each filter type (profile and glossary)
     Object.keys(appConfig.filterlist).forEach((filter: string) => {
       // Build entries
       console.log('Building entry data')
       let count = 0
+      // Parse each attribute in an attribute type
       const parsedData = Object.keys(attrData[filter]).reduce(
         (acc, entryId: string) => {
           const entryDataRaw: EntryData = parser.parseEntry(entryId, filter, attrData, env, contentData)
           const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.content)
           const entryPath = `${entryData.attribute.type}/${entryData.attribute.id}`
           const tmp = `${appConfig.paths.src}/__tmp`
+
           // Generates JSON data (as js files) to be consumed by the js app
           builder.toJsExport(`${tmp}/data/${entryPath}.js`, entryData)
+
           // Generates js file for the app
           builder.toTemplate(templates['entry.js'].replace(/^ +/gm, ''), `${tmp}/js/${entryPath}.js`, {
             path: entryPath,
           })
+
           // Generates HTML for Entries
           builder.toTemplate(templates['entry.html'], `${appConfig.paths.dist}/${entryPath}.html`, {
             id: entryData.attribute.id,
@@ -44,19 +48,29 @@ export default class App {
             level: '../',
           })
           count++
-          // Add parsed data to filterlist and i18n collection
+
+          // Add parsed data to filterlist data and i18n collection
           const entryAttrFilterlist = parser.parseAttributeFilterlist(
             entryId,
             entryData,
             attrData,
             appConfig.filterlist[filter]
           )
-          // Append Work attr
+
+          // Append Work attr to filterlist data object
           const workAttr = entryAttrFilterlist['source']
             .map((src: string) => attrData['source'][src].attribute['work'])
             .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i) // Dedupe
           const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr })
+          // Prep i18n data for filterlist work attributes
           const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.filterlist[filter])
+
+          // If glossary, include content
+          if (filter === 'glossary') {
+            entryAttrFilterlist['content'] = entryData.content
+          }
+
+          // Merge parsed entry filterlist data and i18n data into accumulator
           return {
             filterlist: acc.filterlist.concat(entryFilterlist),
             i18n: _.merge(acc.i18n, entryAttrI18n),
@@ -115,15 +129,16 @@ export default class App {
 
   /** Generates TMdict app and site */
   tmdict = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\nBuilding: tmdict')
+    console.log('\n\nBuilding: tmdict')
+
+    // Load attributes and content
+    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
+    const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img)
     builder.buildCss(appConfig.paths, appConfig.paths.css)
     builder.buildRaw(appConfig.paths, appConfig.content)
-
-    // Build attributes
-    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
 
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP')
@@ -131,7 +146,6 @@ export default class App {
     // Preoprocess navigation data
     const ext = env === 'production' ? '' : '.html'
     const nav = parser.parseAlphabetNav(attrData)
-    const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build pages
     console.log(`Building static html pages`)
@@ -143,6 +157,7 @@ export default class App {
         builder.buildPageWithSidebarHtml(appConfig, templates, page, lang, nav, ext)
       })
     })
+
     // Build entries
     console.log(`Parsing entries`)
     let count = 0
@@ -150,6 +165,7 @@ export default class App {
       (acc, entryId: string) => {
         const entryDataRaw: EntryData = parser.parseEntry(entryId, 'glossary', attrData, env, contentData)
         const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.content)
+
         // Add parsed data to sidebar, filterlist and i18n collection
         const sidebar = parser.parseEntriesIntoGroup(
           'hiragana',
@@ -160,19 +176,25 @@ export default class App {
           Object.keys(appConfig.app.lang),
           acc.sidebar
         )
+
+        // Add parsed data to filterlist data and i18n collection
         const entryAttrFilterlist = parser.parseAttributeFilterlist(
           entryId,
           entryData,
           attrData,
           appConfig.filterlist['glossary']
         )
+
         // Append Work attr
         const workAttr = entryAttrFilterlist['source']
           .map((src: string) => attrData['source'][src].attribute['work'])
           .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i) // Dedupe
         const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr })
+        // Prep i18n data for filterlist work attributes
         const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.filterlist['glossary'])
         count++
+
+        // Merge parsed entry data into accumulator
         return {
           entries: acc.entries.concat(entryData),
           sidebar: sidebar,
@@ -263,20 +285,18 @@ export default class App {
 
   /** Generates TMdict Book app */
   book = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\nBuilding: book')
+    console.log('\n\nBuilding: book')
+
+    // Load attributes and content
+    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
+    const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img)
     builder.buildCss(appConfig.paths, appConfig.paths.css)
 
-    // Build attributes
-    const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
-
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP')
-
-    // Preoprocess navigation data
-    const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build app
     console.log(`Parsing entries`)
