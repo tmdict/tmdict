@@ -24,8 +24,6 @@
   }
 
   const updateLang = event => (contentLang = event.detail.lang)
-
-  console.log(attribute)
 </script>
 
 <svelte:head>
@@ -46,7 +44,7 @@
 
   <div id="main">
     <h1 id="{contentLang}.{attribute.id}">{attribute.attr.name[$activeLang]}</h1>
-      {#if attribute.type === 'profile'}
+      {#if attribute.type === 'profile' && attribute.layout[Object.keys(attribute.layout)[0]].length > 0}
         <div class="content top">
           <div class="image">
             {#if screenWidth > 520}

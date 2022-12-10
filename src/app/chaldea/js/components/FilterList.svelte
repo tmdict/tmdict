@@ -83,8 +83,10 @@
       switch ($sortBy.id) {
         case 'uid': {
           return $sortBy.order === '▲'
-            ? a[$sortBy.id].split('.')[0] - b[$sortBy.id].split('.')[0]
-            : b[$sortBy.id].split('.')[0] - a[$sortBy.id].split('.')[0]
+            ? a[$sortBy.id].split('.')[0] - b[$sortBy.id].split('.')[0] ||
+                a['name'][$activeLang].localeCompare(b['name'][$activeLang])
+            : b[$sortBy.id].split('.')[0] - a[$sortBy.id].split('.')[0] ||
+                b['name'][$activeLang].localeCompare(a['name'][$activeLang])
         }
         case 'name': {
           // Sorts by name in current language
@@ -99,10 +101,10 @@
             : b[$sortBy.id][0].localeCompare(a[$sortBy.id][0])
         }
         default:
-          // Sort by value directly
+          // Fallback to sort by name
           return $sortBy.order === '▲'
-            ? a[$sortBy.id].localeCompare(b[$sortBy.id])
-            : b[$sortBy.id].localeCompare(a[$sortBy.id])
+            ? a['name'].localeCompare(b['name'])
+            : b['name'].localeCompare(a['name'])
       }
     })
 

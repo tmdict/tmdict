@@ -13,8 +13,7 @@ translation: "Petrikow"
 Rapid expansion (Inflation) of the Spiritron Core.
 A phenomenon more simply called a ‘Luminary’.
 (‘Inflation’ is originally terminology from astronomy—it’s what the exponential expansion of the universe that occured after the Big Bang is called) A state of excitation possessed by True Ancestors of the highest grade—their royalty. It’s said to occur as a side-effect when the True Ancestor has by some means had its body completely destroyed.
-When Arcueid—a small yet heavy being—loses the body which forms her [frame]{box}
-, the compressed magical energy within it is released, which results in her Lifescale expanding (though this is actually just a false impression).
+When Arcueid—a small yet heavy being—loses the body which forms her [frame]{box}, the compressed magical energy within it is released, which results in her Lifescale expanding (though this is actually just a false impression).
 Though Arcueid’s consciousness is in the center of this light, as she no longer possesses a body to serve as a wall, she takes a state where her surplus magical energy levels remain, while the sort of self-image she imagines for herself is projected and dispersed. The Association calls this a Spiritron Frame (Lightframe). In other words, this is a natural phenomenon created out of nothing but mental power.
 If one carelessly destroys a True Ancestor who still has magical energy in surplus, the energy stored within their body manifests—a retribution mechanism—and they become a calamity that destroys human cities.
 

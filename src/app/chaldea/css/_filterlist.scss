@@ -211,6 +211,7 @@
           text-decoration: none;
           padding: 0.2em;
           height: 100%;
+          min-height: 18px;
   
           &:hover {
             background: $bg-row-grey-dark;
