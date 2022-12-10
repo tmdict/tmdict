@@ -123,8 +123,7 @@
       if (searchTerm !== '') {
         const fuse = new Fuse(filteredContent, {
           ...searchOptions,
-          //keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html']
-          keys: ['content.' + $activeLang + '.html']
+          keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html']
         });
         const results = fuse.search(searchTerm)
         if (results.length > 0) {
