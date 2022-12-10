@@ -1,0 +1,11 @@
+{
+  "type": "gender",
+
+  "data": {
+    "name": {
+      "en": "Female Body",
+      "ja": "女性体",
+      "zh": "女性体"
+    }
+  }
+}

@@ -158,7 +158,7 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
     type: entryAttr.type,
     attr: parsedAttr,
     layout: layout,
-    uid: entryAttr.uid ? entryAttr.uid : '-',
+    uid: (entryAttr.uid) ? entryAttr.uid : '-',
     // https://stackoverflow.com/a/50367186 and https://stackoverflow.com/a/40560953
     ...(entryAttr.attribute.alphabet && { en: entryAttr.attribute.alphabet as string }),
     ...(entryAttr.attribute.hiragana && { ja: entryAttr.attribute.hiragana as string }),

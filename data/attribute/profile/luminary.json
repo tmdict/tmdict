@@ -1,0 +1,67 @@
+{
+  "type": "profile",
+  "uid": "10000.tmkk",
+
+  "img": [],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_0",
+    "gender": "female-body",
+    "origin": "tsukihime",
+    "region": "earth",
+    "alignment": "lawful-chaotic",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "strength1.parameter": "e",
+    "endurance1.parameter": "ex",
+    "agility1.parameter": "b",
+    "magic1.parameter": "app",
+    "luck1.parameter": "ex",
+    "noble-phantasm1.parameter": "d"
+  },
+
+  "data": {
+    "name": {
+      "en": "Luminary",
+      "ja": "光体",
+      "zh": "光体"
+    },
+    "true-name": {
+      "en": "Archetype:Earth",
+      "ja": "Archetype:Earth",
+      "zh": "Archetype:Earth"
+    },
+    "height-weight": {
+      "en": "About 200 meters when emerging (depending on the CG)<br />About 100 meters when stabilized (as big or bigger than the tallest building in the city. Adapts to the level of nearby civilization)",
+      "ja": "",
+      "zh": "显现时 200公尺级（兼顾事件CG画面）<br />稳定时 100公尺级（比城镇最高的大楼大的程度，配合周围文明水准的规模）"
+    },
+    "notes": {
+      "en": "Its weight stays the same no matter the state—being the same as the normal Arcueid. Given that it’s just the lifeforce spilling out from Earth given shape, if pressed to give an answer, I’d say its weight is the mass of Earth, or something.<br />So, no matter the action it takes, as long as it’s on the surface of Earth, it’s not heavy, and so consequently, its weight doesn’t cause any damage to the terrain—meaning, when the Luminary walks, it doesn’t cause the ground to sink in or anything like that. However, this does not apply to man-made objects.",
+      "ja": "",
+      "zh": "显现时光体还没稳定，因此规模较大。不过与此相对，几乎不存在命中判定，也因此能穿过大楼。<br />※无论哪种状态，体重都跟原本的Arc一样。因为只是从地球泄漏而出的生命力具化成形而已，所以非要说的话，类似于地球的质量即为体重吧。因此无论在地球上作出怎样的动作，『对地球来说一点都不重，地形也不会受到重量造成的伤害』。也就是并不会发生光体每走一步地面就会塌陷的情况，只不过人造物不在此限。"
+    },
+    "_1": {
+      "en": "If normal Arcueid is",
+      "ja": "通常アルクェイドを",
+      "zh": "要说平常的爱尔奎德是"
+    },
+    "_2": {
+      "en": "Then Luminary Arcueid is",
+      "ja": "とすると、光体アルクは",
+      "zh": "那光体Arc就是"
+    }
+  },
+
+  "layout": [
+    ["class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height-weight", "notes"],
+    ["_1", "strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["_2", "strength1.parameter", "endurance1.parameter", "agility1.parameter", "magic1.parameter", "luck1.parameter", "noble-phantasm1.parameter"]
+  ]
+}

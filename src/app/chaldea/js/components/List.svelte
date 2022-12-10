@@ -59,8 +59,12 @@
         {#if listType === 'profile'}
           <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
             <div class="item">
-              <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
-              <div class="id">{entry.uid.split('.')[1]}</div>
+              <div class="icon">
+                {#if entry.uid.split('.')[1] === 'fgo'}
+                  <img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[0], listType)}" alt="{entry.name[$activeLang]}" />
+                {/if}
+              </div>
+              <div class="id">{(entry.uid.split('.')[0] < 1000) ? entry.uid.split('.')[0] : '-'}</div>
               <div class="name">{entry.name[$activeLang]}</div>
               <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
             </div>

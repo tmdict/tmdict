@@ -83,8 +83,8 @@
       switch ($sortBy.id) {
         case 'uid': {
           return $sortBy.order === '▲'
-            ? a[$sortBy.id].split('.')[1] - b[$sortBy.id].split('.')[1]
-            : b[$sortBy.id].split('.')[1] - a[$sortBy.id].split('.')[1]
+            ? a[$sortBy.id].split('.')[0] - b[$sortBy.id].split('.')[0]
+            : b[$sortBy.id].split('.')[0] - a[$sortBy.id].split('.')[0]
         }
         case 'name': {
           // Sorts by name in current language

@@ -24,6 +24,8 @@
   }
 
   const updateLang = event => (contentLang = event.detail.lang)
+
+  console.log(attribute)
 </script>
 
 <svelte:head>
@@ -59,7 +61,7 @@
 
             <div>
               <table>
-                <tr><td>ID</td><td>{attribute.uid.split('.')[1]}</td></tr>
+                {#if attribute.uid.split('.')[1] === 'fgo'}<tr><td>ID</td><td>{attribute.uid.split('.')[0]}</td></tr>{/if}
                 {#each attribute.layout[contentLang] as section, i}
                   {#each Object.keys(section) as attr, j}
                     <tr class:break={i !== 0 && j === 0}>

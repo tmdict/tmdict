@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Earth",
+      "ja": "地球",
+      "zh": "地球"
+    }
+  }
+}
