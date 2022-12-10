@@ -86,6 +86,7 @@
       "agility.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "agility1.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "alignment": { "en": "Alignment", "ja": "属性", "zh": "属性" },
+      "secondary-alignment": { "en": "Secondary Alignment", "ja": "副属性", "zh": "副属性" },
       "book": { "en": "Books", "ja": "書", "zh": "书本" },
       "category": { "en": "Category", "ja": "カテゴリー", "zh": "类别" },
       "character-setting": { "en": "Character Setting", "ja": "設定作成", "zh": "设定" },

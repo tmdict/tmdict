@@ -61,7 +61,9 @@
 
             <div>
               <table>
-                {#if attribute.uid.split('.')[1] === 'fgo'}<tr><td>ID</td><td>{attribute.uid.split('.')[0]}</td></tr>{/if}
+                {#if attribute.uid.split('.')[0] < 1000} 
+                  <tr><td>ID</td><td>{attribute.uid.split('.')[0]}</td></tr>
+                {/if}
                 {#each attribute.layout[contentLang] as section, i}
                   {#each Object.keys(section) as attr, j}
                     <tr class:break={i !== 0 && j === 0}>

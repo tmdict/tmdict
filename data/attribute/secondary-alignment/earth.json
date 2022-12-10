@@ -1,0 +1,11 @@
+{
+  "type": "secondary-alignment",
+
+  "data": {
+    "name": {
+      "en": "Earth",
+      "ja": "地",
+      "zh": "地"
+    }
+  }
+}
