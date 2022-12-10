@@ -1,0 +1,11 @@
+{
+  "type": "content-id",
+
+  "data": {
+    "name": {
+      "en": "Setting",
+      "ja": "設定",
+      "zh": "设定"
+    }
+  }
+}
