@@ -199,7 +199,7 @@
 
       li {
         border-bottom: $dotted-border;
-        display: flow-root;
+        display: flex;
         overflow-wrap: break-word;
 
         &:first-child {
@@ -245,7 +245,7 @@
 
         .common {
           width: 22.3px;
-          height: 22.3px;
+          min-height: 22.3px;
           float: left;
           border-left: $dotted-border;
 

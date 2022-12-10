@@ -4,7 +4,7 @@
     "css": ["chaldea", "shadow-border"],
     "data": "data",
     "dist": "dist/chaldea",
-    "img": [],
+    "img": ["img/profile/icon"],
     "src": "src/app/chaldea"
   },
   "filterlist": {

@@ -9,13 +9,9 @@
   export let level
   export let env
   let expandAll = false;
+  console.log(level)
 
   const ext = (env === 'production') ? '' : '.html'
-
-  const getImgLink = (uid, type) => {
-    const prefix = (type === 'profile') ? 'S' : ''
-    return `${prefix}${uid.toString().padStart(4, '0')}icon.jpg`
-  }
 
   const updateSortBy = sortHeader => {
     const updatedSortBy = {
@@ -60,9 +56,12 @@
           <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
             <div class="item">
               <div class="icon">
-                {#if entry.uid.split('.')[1] === 'fgo'}
-                  <img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[0], listType)}" alt="{entry.name[$activeLang]}" />
-                {/if}
+                <img src={entry.uid.split(".")[1] === "fgosvt"
+                  ? `${level}src/img/profile/icon/S${entry.uid
+                      .split(".")[0]
+                      .toString()
+                      .padStart(4, "0")}.png`
+                  : `${level}src/img/profile/icon/0000.png`} alt="{entry.name[$activeLang]}" />
               </div>
               <div class="id">{(entry.uid.split('.')[0] < 1000) ? entry.uid.split('.')[0] : '-'}</div>
               <div class="name">{entry.name[$activeLang]}</div>

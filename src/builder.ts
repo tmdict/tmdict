@@ -1,6 +1,7 @@
 import * as fs from 'fs-extra'
 import * as handlebars from 'handlebars'
 import * as sass from 'sass'
+//import Jimp from 'jimp'
 import { SitemapStream, streamToPromise } from 'sitemap'
 
 import { AppConfig, AppPaths, EntryContent, EntryData, Search } from './types'
@@ -42,11 +43,15 @@ export default class Builder {
   }
 
   /** Synchronously copy static assets from `source` dir to `output` dir */
-  buildAssets = (paths: AppPaths, img: string[] = []): void => {
+  buildAssets = (paths: AppPaths, img: string[] = [], optimize = false): void => {
     console.log(`Building assets`)
     fs.copySync(`${paths.src}/${paths.assets}`, paths.dist, { overwrite: true })
     img.forEach((imgDir) => {
-      fs.copySync(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`, { overwrite: true })
+      if (optimize) {
+        fs.copySync(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`, { overwrite: true })
+      } else {
+        fs.copySync(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`, { overwrite: true })
+      }
     })
   }
 
