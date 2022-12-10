@@ -1,6 +1,6 @@
 {
   "type": "profile",
-  "uid": "172.fgosvt",
+  "uid": "172:fgosvt",
 
   "img": [
     { "weight": 1, "id": "img_s1", "src": "S0172a.png" },

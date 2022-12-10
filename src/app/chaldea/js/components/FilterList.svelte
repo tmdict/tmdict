@@ -83,9 +83,9 @@
       switch ($sortBy.id) {
         case 'uid': {
           return $sortBy.order === '▲'
-            ? a[$sortBy.id].split('.')[0] - b[$sortBy.id].split('.')[0] ||
+            ? parseFloat(a[$sortBy.id].split(':')[0]) - parseFloat(b[$sortBy.id].split(':')[0]) ||
                 a['name'][$activeLang].localeCompare(b['name'][$activeLang])
-            : b[$sortBy.id].split('.')[0] - a[$sortBy.id].split('.')[0] ||
+            : parseFloat(b[$sortBy.id].split(':')[0]) - parseFloat(a[$sortBy.id].split(':')[0]) ||
                 b['name'][$activeLang].localeCompare(a['name'][$activeLang])
         }
         case 'name': {
