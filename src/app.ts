@@ -14,7 +14,7 @@ export default class App {
     const contentData: any = loader.loadContentData(appConfig.paths)
 
     // Build assets, img, css, etc.
-    builder.buildAssets(appConfig.paths, appConfig.paths.img)
+    builder.buildAssets(appConfig.paths, appConfig.paths.img, true)
     builder.buildCss(appConfig.paths, appConfig.paths.css)
 
     // Output JS used by the App

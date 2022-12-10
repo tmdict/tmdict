@@ -1,7 +1,7 @@
 import * as fs from 'fs-extra'
 import * as handlebars from 'handlebars'
 import * as sass from 'sass'
-//import Jimp from 'jimp'
+import * as Jimp from 'jimp';
 import { SitemapStream, streamToPromise } from 'sitemap'
 
 import { AppConfig, AppPaths, EntryContent, EntryData, Search } from './types'
@@ -14,6 +14,30 @@ function outputFile(content: string, path: string): void {
   fs.outputFile(path, content, (err: Error) => {
     if (err) {
       return console.log(err)
+    }
+  })
+}
+
+function buildOptimizedImg(dir: string, output: string): void {
+  fs.readdir(dir, (err, files) => {
+    if (err) console.log(`[ ERROR fs/jimp ] ${err}`)
+    else {
+      files = files.filter((item) => !/(^|\/)\.[^\/\.]/g.test(item))
+      let count = 0
+      files.forEach((file) => {
+        count += 1
+        Jimp.read(`${dir}/${file}`)
+          .then((image: any) => {
+            const outfile = `${file.substr(0, file.lastIndexOf('.'))}.jpg`
+            image
+              .quality(60) // Set JPEG quality (60)
+              .write(`${output}/${outfile}`)
+          })
+          .catch((err: any) => {
+            console.error(`[ ERROR jimp/${dir} ] ${err}`)
+          })
+      })
+      console.log(`Optimized ${count} ${dir} images`)
     }
   })
 }
@@ -48,7 +72,7 @@ export default class Builder {
     fs.copySync(`${paths.src}/${paths.assets}`, paths.dist, { overwrite: true })
     img.forEach((imgDir) => {
       if (optimize) {
-        fs.copySync(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`, { overwrite: true })
+        buildOptimizedImg(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`)
       } else {
         fs.copySync(`${paths.data}/${imgDir}`, `${paths.dist}/src/${imgDir}`, { overwrite: true })
       }

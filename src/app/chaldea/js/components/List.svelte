@@ -56,12 +56,9 @@
           <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
             <div class="item">
               <div class="icon">
-                <img src={entry.uid.split(".")[1] === "fgosvt"
-                  ? `${level}src/img/profile/icon/S${entry.uid
-                      .split(".")[0]
-                      .toString()
-                      .padStart(4, "0")}.png`
-                  : `${level}src/img/profile/icon/0000.png`} alt="{entry.name[$activeLang]}" />
+                <img src="{level}src/img/profile/icon/{entry.uid.split(".")[1] === "fgosvt"
+                  ? "S" + entry.uid.split(".")[0].toString().padStart(4, "0")
+                  : "0000"}.jpg" alt="{entry.name[$activeLang]}" />
               </div>
               <div class="id">{(entry.uid.split('.')[0] < 1000) ? entry.uid.split('.')[0] : '-'}</div>
               <div class="name">{entry.name[$activeLang]}</div>
