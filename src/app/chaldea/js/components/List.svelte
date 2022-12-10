@@ -54,19 +54,23 @@
   </div>
 
   <ul>
-    {#each entryList as entry, i (entry.id)}
-      {#if listType === 'profile'}
-        <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
-          <div class="item">
-            <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
-            <div class="id">{entry.uid.split('.')[1]}</div>
-            <div class="name">{entry.name[$activeLang]}</div>
-            <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
-          </div>
-        </a></li>
-      {:else}
-        <ListGlossary {entry} {i18n} {level} {env} showDetail={expandAll} />
-      {/if}
-    {/each}
+    {#if entryList.length > 0}
+      {#each entryList as entry, i (entry.id)}
+        {#if listType === 'profile'}
+          <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
+            <div class="item">
+              <div class="icon"><img src="https://img.tmdict.com/{listType == 'profile' ? 'servant' : listType}/{getImgLink(entry.uid.split('.')[1], listType)}" alt="{entry.name[$activeLang]}" /></div>
+              <div class="id">{entry.uid.split('.')[1]}</div>
+              <div class="name">{entry.name[$activeLang]}</div>
+              <div class="star">{i18n['star'][entry.star][$activeLang]}</div>
+            </div>
+          </a></li>
+        {:else}
+          <ListGlossary {entry} {i18n} {level} {env} showDetail={expandAll} />
+        {/if}
+      {/each}
+    {:else}
+      <li><div class="item"><div class="name">No Results</div></div></li>
+    {/if}
   </ul>
 </div>

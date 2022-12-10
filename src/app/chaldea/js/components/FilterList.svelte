@@ -1,27 +1,45 @@
 <script>
   import Fuse from 'fuse.js';
+  import cloneDeep from 'lodash/clonedeep';
 
   import Top from './Top.svelte'
   import Footer from './Footer.svelte'
   import List from './List.svelte'
   import Filter from './Filter.svelte'
+  import { highlight } from '../highlight';
   import { activeLang, filters, sortBy } from '../stores.js'
 
   export let data
   export let level
 
-  // Initialize full entry list
-  let parsedEntryList = data.content
-  sortBy.set({ id: 'uid', order: '▼' })
+  // Preprocess a list of filter values given filter keys and data to be filtered
+  const filterValues = data.attribute.filter.reduce(
+    // For each filter id
+    (acc, filter) => {
+      const flattened = data.content.map(d => d[filter]).reduce((acc, cur) => acc.concat(cur))
+      const deduped = [...new Set(flattened)]
 
-  let searchTerm
+      return ({
+        ...acc, // data filter collected so far
+        [filter]: deduped // Get distinct filter data for current filter id
+    })},
+    {} // Default empty {} for reducer
+  )
+
+  // Initialize search options
+  let searchTerm = ''
   const searchOptions = {
     includeMatches: true,
-    minMatchCharLength: 2,
+    minMatchCharLength: 3,
     findAllMatches: true,
     shouldSort: true,
-    distance: 20
+    ignoreLocation: true,
+    threshold: 0.0
   };
+
+  // Initialize full entry list
+  let parsedEntryList = cloneDeep(data.content)
+  sortBy.set({ id: 'uid', order: '▼' })
 
   // Reset all filters to empty
   const resetAllFilter = () => {
@@ -88,34 +106,37 @@
       }
     })
 
-  // Preprocess a list of filter values given filter keys and data to be filtered
-  // Updated each time going to a different filterable page
-  $: filterValues = data.attribute.filter.reduce(
-    // For each filter id
-    (acc, filter) => {
-      const flattened = data.content.map(d => d[filter]).reduce((acc, cur) => acc.concat(cur))
-      const deduped = [...new Set(flattened)]
-
-      return ({
-        ...acc, // data filter collected so far
-        [filter]: deduped // Get distinct filter data for current filter id
-    })},
-    {} // Default empty {} for reducer
-  )
-
-  // Update filtered data by given filter (or return as-is) whenever global filter changes
-  $: {
-    $filters
-    // Update current entry dataset based on new filters
-    let filteredContent = data.content.filter(isEntryFiltered)
-    // Sort new entry list
-    parsedEntryList = sortByCurrentId(filteredContent)
-  }
-
   // Re-sort data whenever sortBy state changes
   $: {
     $sortBy
-    parsedEntryList = sortByCurrentId(parsedEntryList)
+    parsedEntryList = cloneDeep(sortByCurrentId(parsedEntryList))
+  }
+
+  // Update filtered data by given filter (or return as-is) whenever global filter changes
+  // Filter by search if is glossary
+  $: {
+    $filters
+    // Filter entry list
+    let filteredContent = cloneDeep(data.content.filter(isEntryFiltered))
+    let searchedSortedEntryList = cloneDeep(sortByCurrentId(filteredContent))
+    if (data.attribute.type === 'glossary') {
+      if (searchTerm !== '') {
+        const fuse = new Fuse(filteredContent, {
+          ...searchOptions,
+          //keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html']
+          keys: ['content.' + $activeLang + '.html']
+        });
+        const results = fuse.search(searchTerm)
+        if (results.length > 0) {
+          // Highlight and return search results
+          searchedSortedEntryList = cloneDeep(highlight(results))
+        } else {
+          searchedSortedEntryList = []
+        }
+      }
+    }
+    // Sort entry list
+    parsedEntryList = cloneDeep(searchedSortedEntryList)
   }
 
   resetAllFilter()
@@ -128,9 +149,11 @@
     <div class="content no-break">
       <h1>{data.attribute.name[$activeLang]}</h1>
 
-      <div class="search">
-        <input class="search-box" bind:value={searchTerm} />
-      </div>
+      {#if data.attribute.type === 'glossary'}
+        <div class="search">
+          <input class="search-box" bind:value={searchTerm} />
+        </div>
+      {/if}
 
       <div class="filter-list">
         <List i18n={data.i18n} listType={data.attribute.type} entryList={parsedEntryList} {level} env={data.env} />

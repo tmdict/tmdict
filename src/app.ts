@@ -67,7 +67,16 @@ export default class App {
 
           // If glossary, include content
           if (filter === 'glossary') {
-            entryAttrFilterlist['content'] = entryData.content
+            entryAttrFilterlist['content'] = entryData.content.map(item => {
+              return ['en', 'ja', 'zh'].reduce((acc, lang) => {
+                return _.merge(acc, { 
+                  [lang]: {
+                    id: item.i18n[lang] ? attrData['content-id'][item.id].data.name[lang] : '', // Get content-id name
+                    html: item.i18n[lang] ? parser.parseSearchMarkup(item.i18n[lang].html) : '',
+                  }
+                })
+              }, {})
+            })
           }
 
           // Merge parsed entry filterlist data and i18n data into accumulator

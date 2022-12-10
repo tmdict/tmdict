@@ -126,6 +126,11 @@
         &:hover {
           cursor: pointer;
         }
+
+        .search-highlight {
+          color: $primary-highlight;
+          background-color: $text-background;
+        }
       }
 
       .item-content {
@@ -138,20 +143,27 @@
 
         p {
           padding: 0 5px;
+
+          .search-highlight {
+            color: $primary-highlight;
+            background-color: $text-background;
+          }
         }
 
         h2 {
           font-size: 1rem;
           font-weight: bold;
-          margin: 20px 0 0 10px;
+          letter-spacing: 0.1rem;
+          margin: 30px 0 0 10px;
         }
 
         h3 {
           font-size: .75rem;
-          margin-left: 5px;
+          margin: 0 0 0 5px;
         }
 
         h4 {
+          font-size: 0.8rem;
           margin-left: 5px;
         }
 
