@@ -1,0 +1,49 @@
+{
+  "type": "profile",
+  "uid": "20191202.fgo",
+
+  "img": [],
+
+  "attribute": {
+    "star": "_na",
+    "place-of-birth": "germany"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ophelia Phamrsolone",
+      "ja": "オフィリア・ファムルソローネ",
+      "zh": "奥菲莉亚·法姆索罗涅"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "48kg",
+      "ja": "48kg",
+      "zh": "48kg"
+    },
+    "special-talents": {
+      "en": "Spiritual Evocation, Summoning, Mystic Eye of Delay, baking",
+      "ja": "降霊術、召喚術、遷延の魔眼、お菓子作り",
+      "zh": "降灵术、召唤术、迁延之魔眼、制作点心"
+    },
+    "likes": {
+      "en": "Käsetorte, Lindt chocolate, Kirschtaria",
+      "ja": "ケーゼトルテ、リンツのチョコ、キリシュタリア",
+      "zh": "Käsetorte（德式芝士蛋糕）、瑞士莲巧克力、基尔什塔利亚"
+    },
+    "dislikes": {
+      "en": "Sundays",
+      "ja": "日曜日",
+      "zh": "星期天"
+    }
+  },
+
+  "layout": [
+    ["place-of-birth", "height", "weight"],
+    ["special-talents", "likes", "dislikes"]
+  ]
+}

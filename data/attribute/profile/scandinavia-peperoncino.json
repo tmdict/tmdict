@@ -1,0 +1,49 @@
+{
+  "type": "profile",
+  "uid": "20191204.fgo",
+
+  "img": [],
+
+  "attribute": {
+    "star": "_na",
+    "place-of-birth": "unknown"
+  },
+
+  "data": {
+    "name": {
+      "en": "Scandinavia Peperoncino",
+      "ja": "スカンジナビア・ペペロンチーノ",
+      "zh": "斯堪的纳维亚·佩佩隆奇诺"
+    },
+    "height": {
+      "en": "188cm",
+      "ja": "188cm",
+      "zh": "188cm"
+    },
+    "weight": {
+      "en": "75kg",
+      "ja": "75kg",
+      "zh": "75kg"
+    },
+    "special-talents": {
+      "en": "Love fortunes, shugendou, dirty jobs",
+      "ja": "恋占い、修験道、汚れ仕事",
+      "zh": "恋爱占卜、修验道、肮脏的工作"
+    },
+    "likes": {
+      "en": "Positivity, reconciliation, Prince of Destiny",
+      "ja": "プラス思考、仲直り、運命の王子様",
+      "zh": "正面思考、当和事佬、命运的王子殿下"
+    },
+    "dislikes": {
+      "en": "Negativity, crows, diets",
+      "ja": "マイナス思考、カラス、ダイエット",
+      "zh": "负面思考、乌鸦、节食"
+    }
+  },
+
+  "layout": [
+    ["place-of-birth", "height", "weight"],
+    ["special-talents", "likes", "dislikes"]
+  ]
+}

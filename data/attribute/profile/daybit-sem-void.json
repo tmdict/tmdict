@@ -1,0 +1,49 @@
+{
+  "type": "profile",
+  "uid": "20191207.fgo",
+
+  "img": [],
+
+  "attribute": {
+    "star": "_na",
+    "place-of-birth": ["usa", "nevada"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Daybit Sem Void",
+      "ja": "デイビット・ゼム・ヴォイド",
+      "zh": "戴比特·泽姆·沃伊德"
+    },
+    "height": {
+      "en": "179cm",
+      "ja": "179cm",
+      "zh": "179cm"
+    },
+    "weight": {
+      "en": "70kg",
+      "ja": "70kg",
+      "zh": "70kg"
+    },
+    "special-talents": {
+      "en": "None in particular",
+      "ja": "とくになし",
+      "zh": "并无特别"
+    },
+    "likes": {
+      "en": "Unique people",
+      "ja": "特徴の有る人間",
+      "zh": "具备特征的人类"
+    },
+    "dislikes": {
+      "en": "Nothing in particular",
+      "ja": "とくになし",
+      "zh": "并无特别"
+    }
+  },
+
+  "layout": [
+    ["place-of-birth", "height", "weight"],
+    ["special-talents", "likes", "dislikes"]
+  ]
+}

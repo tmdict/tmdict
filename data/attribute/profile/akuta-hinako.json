@@ -1,0 +1,49 @@
+{
+  "type": "profile",
+  "uid": "20191203.fgo",
+
+  "img": [],
+
+  "attribute": {
+    "star": "_na",
+    "place-of-birth": "japan"
+  },
+
+  "data": {
+    "name": {
+      "en": "Akuta Hinako",
+      "ja": "芥ヒナコ",
+      "zh": "芥雏子"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    },
+    "special-talents": {
+      "en": "History (biased towards one region and era), phytotherapy, feeding animals",
+      "ja": "歴史学（年代と歴史に偏りあり）、薬草学、動物の餌付け",
+      "zh": "历史学（年代与地域有所偏重）、药草学、饲养动物"
+    },
+    "likes": {
+      "en": "Reading, trekking (off-season only)",
+      "ja": "読書、トレッキング（シーズンオフに限る）",
+      "zh": "读书、徒步旅行（仅限于淡季）"
+    },
+    "dislikes": {
+      "en": "Noisy ambiences, crowds, being pried",
+      "ja": "騒がしい雰囲気、人混み、他人からの詮索",
+      "zh": "嘈杂的氛围、人群、他人的问话"
+    }
+  },
+
+  "layout": [
+    ["place-of-birth", "height", "weight"],
+    ["special-talents", "likes", "dislikes"]
+  ]
+}

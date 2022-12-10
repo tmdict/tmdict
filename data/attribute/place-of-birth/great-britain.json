@@ -1,0 +1,11 @@
+{
+  "type": "place-of-birth",
+
+  "data": {
+    "name": {
+      "en": "Great Britain",
+      "ja": "グレートブリテン",
+      "zh": "大不列颠"
+    }
+  }
+}

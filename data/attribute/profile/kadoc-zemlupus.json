@@ -1,0 +1,54 @@
+{
+  "type": "profile",
+  "uid": "20191201.fgo",
+
+  "img": [],
+
+  "attribute": {
+    "star": "_na",
+    "place-of-birth": "poland"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kadoc Zemlupus",
+      "ja": "カドック・ゼムルプス",
+      "zh": "卡多克·泽姆露普斯"
+    },
+    "height": {
+      "en": "174cm",
+      "ja": "174cm",
+      "zh": "174cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    },
+    "special-talents": {
+      "en": "Anti-Beast Magecraft, erasing his scent, survival in the wild",
+      "ja": "対獣魔術、臭跡消し、野外技能",
+      "zh": "对兽魔术、消除气味、野外技能"
+    },
+    "likes": {
+      "en": "Modern music in general (mainly rock)",
+      "ja": "現代音楽全般（主にロック）",
+      "zh": "现代音乐全部（主要是摇滚乐）"
+    },
+    "dislikes": {
+      "en": "Talented mages",
+      "ja": "才能溢れる魔術師",
+      "zh": "才华洋溢的魔术师"
+    },
+    "lifetime-complicated-matter": {
+      "en": "Tsarina",
+      "ja": "皇女",
+      "zh": "皇女"
+    }
+  },
+
+  "layout": [
+    ["place-of-birth", "height", "weight"],
+    ["special-talents", "likes", "dislikes", "lifetime-complicated-matter"]
+  ]
+}
