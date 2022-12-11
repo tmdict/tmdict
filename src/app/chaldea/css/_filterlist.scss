@@ -60,6 +60,10 @@
           margin: 6px;
           margin-left: auto;
           font-weight: bold;
+
+          @media #{$media-mobile} {
+            display: none;
+          }
         }
       }
 
