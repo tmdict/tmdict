@@ -8,9 +8,6 @@
 
   <link rel="canonical" href="https://www.tmdict.com/{{lang}}/{{attribute.id}}" />
   <link rel="shortcut icon" href="{{level}}favicon.ico" />
-  {{#if (equals attribute.id 'search')}}
-    <link rel="stylesheet" href="{{level}}src/vendor/tipuesearch/tipuesearch.css" />
-  {{/if}}
   <link rel='stylesheet' href='{{level}}src/css/bamboo.css'/>
 </head>
 <body>
@@ -35,7 +32,7 @@
         </div>
         <div class="side">
           <div class="search">
-            <form action="search"><input type="text" name="q" id="tipue_search_input" autoComplete="off" required="" /></form>
+            <form action="search"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
           </div>
           <div class="menu"><a title="{{app.i18n.about.lang}}" href="{{level}}{{lang}}/about{{ext}}">{{lookup app.i18n.about lang}}</a> | <a title="{{lookup app.i18n.site lang}}" href="{{level}}{{lang}}/site{{ext}}">{{lookup app.i18n.site lang}}</a> | <a title="{{lookup app.i18n.misc lang}}" href="{{level}}{{lang}}/misc{{ext}}">{{lookup app.i18n.misc lang}}</a> | <a title="{{lookup app.i18n.book lang}}" href="{{level}}book/">{{lookup app.i18n.book lang}}</a></div>
           <div class="lang"><span class="first"><a class="{{#if (equals lang 'en')}}active{{/if}}" href="{{level}}en/{{attribute.id}}{{ext}}" title="EN">EN</a></span><span class=""><a class="{{#if (equals lang 'zh')}}active{{/if}}" href="{{level}}zh/{{attribute.id}}{{ext}}" title="ZH">ZH</a></span><span class=""><a class="{{#if (equals lang 'ja')}}active{{/if}}" href="{{level}}ja/{{attribute.id}}{{ext}}" title="JA">JA</a></span></div>
@@ -63,18 +60,6 @@
   </div>
 </body>
 {{#if (equals attribute.id 'search')}}
-  <script src="../src/vendor/jquery-3.3.1.min.js"></script>
-  <script src="../src/vendor/tipuesearch/tipuesearch_set.js"></script>
-  <script src="../src/vendor/tipuesearch/tipuesearch.min.js"></script>
-  <script src="../src/js/search.data.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#tipue_search_input').tipuesearch({
-        'minimumLength': 2,
-        'highlightTerms': true,
-        'wholeWords': false,
-      });
-    });
-  </script>
+  <script defer type='module' src='{{level}}src/js/{{lang}}/search.js'></script>
 {{/if}}
 </html>

@@ -1,5 +1,5 @@
 
-#tipue_search_input {
+#searchbox {
   font: 13px/1.6 Verdana, Sans-serif;
   color: $text-dark;
   width: 144px;
@@ -8,7 +8,7 @@
   margin: 11px 10px 8px 18px;
   border: 1px solid #e2e2e2;
   //border-radius: 0;
-  background: #fff url('../vendor/tipuesearch/img/search.png') no-repeat 6px 6px;
+  background: #fff url('../img/search.png') no-repeat 6px 6px;
 
   @media #{$media-mobile} {
     margin: 11px 10px 8px 10px;

@@ -6,4 +6,4 @@ weight: 1
 name: "Search"
 ---
 
-<div id="tipue_search_content"></div>
+<div id="search"></div>

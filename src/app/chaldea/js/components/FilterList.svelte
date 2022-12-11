@@ -58,6 +58,8 @@
       ), {})
     )
   }
+  // Reset on load
+  resetAllFilter()
 
   // Check if the given entry should be filtered out or not
   const isEntryFiltered = (entry) => {
@@ -139,8 +141,6 @@
     // Sort entry list
     parsedEntryList = cloneDeep(searchedSortedEntryList)
   }
-
-  resetAllFilter()
 </script>
 
 <div id="container">

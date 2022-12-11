@@ -4,7 +4,7 @@ import * as sass from 'sass'
 import * as Jimp from 'jimp';
 import { SitemapStream, streamToPromise } from 'sitemap'
 
-import { AppConfig, AppPaths, EntryContent, EntryData, Search } from './types'
+import { AppConfig, AppPaths, EntryContent, EntryData } from './types'
 
 /**
  * @param content Content to be written to output file
@@ -181,12 +181,6 @@ export default class Builder {
       level: '../',
       ext: ext,
     })
-  }
-
-  /** Output search data to dist */
-  buildSearchData = (paths: AppPaths, search: Search[]): void => {
-    const data = `var tipuesearch = ${JSON.stringify({ pages: search })}`
-    outputFile(data, `${paths.dist}/src/js/search.data.js`)
   }
 
   /** Output sitemap to dist root */

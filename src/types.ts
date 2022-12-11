@@ -156,7 +156,9 @@ export interface MissingContent {
 }
 
 export interface Search {
-  text: string
-  title: string
-  url: string
+  [key: string]: {
+    text: string
+    title: string
+    url: string
+  }[]
 }

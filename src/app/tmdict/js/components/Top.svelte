@@ -23,7 +23,7 @@
   </div>
   <div class="side">
     <div class="search">
-      <form action="search"><input type="text" name="q" id="tipue_search_input" autoComplete="off" required="" /></form>
+      <form action="search"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
     </div>
     <div class="menu">
       {#each menuPage as p, i}

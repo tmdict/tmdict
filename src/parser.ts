@@ -477,8 +477,6 @@ export default class Parser {
   /** strip HTML tags from search data */
   parseSearchMarkup = (html: string): string => {
     return html
-      //.replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
-      //.replace(/<p>|<\/p>|<li>|<\/li>|<ol>|<\/ol>|<ul>|<\/ul>|<br>/g, ' ')
       .replace(/<h3 id="(.*)">/g, '<h3>')
       .replace(/<h5 id="translation-notes">(.*)<\/h5>/g, '')
       .replace(/<a id="[a-z0-9-_.]+" class="notelink" title="[a-z0-9-_.]+" href="#[a-z0-9-_.]+">\^<\/a>/g, '')

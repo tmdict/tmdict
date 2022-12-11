@@ -7,7 +7,7 @@ import { AppConfig, AttributeData, EntryContent, EntryData, Search } from './typ
 export default class App {
   /** Generates Chaldea app and site */
   chaldea = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\n\nBuilding: chaldea')
+    console.log('\nBuilding: chaldea')
 
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
@@ -35,12 +35,10 @@ export default class App {
 
           // Generates JSON data (as js files) to be consumed by the js app
           builder.toJsExport(`${tmp}/data/${entryPath}.js`, entryData)
-
           // Generates js file for the app
           builder.toTemplate(templates['entry.js'].replace(/^ +/gm, ''), `${tmp}/js/${entryPath}.js`, {
             path: entryPath,
           })
-
           // Generates HTML for Entries
           builder.toTemplate(templates['entry.html'], `${appConfig.paths.dist}/${entryPath}.html`, {
             id: entryData.attribute.id,
@@ -138,7 +136,7 @@ export default class App {
 
   /** Generates TMdict app and site */
   tmdict = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\n\nBuilding: tmdict')
+    console.log('\nBuilding: tmdict')
 
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
@@ -231,7 +229,7 @@ export default class App {
 
     // Build entries HTML and aggregate search data
     console.log(`Building static html entries`)
-    const searchData: Search[] = []
+    const searchData: Search = { en: [], ja: [], zh: [] }
     const sitemap: { [key: string]: any }[] = []
     count = 0
     parsedData.entries.forEach((entryData: EntryData) => {
@@ -252,8 +250,10 @@ export default class App {
             return c.i18n[lang] ? c.i18n[lang].html : ''
           })
           .join(' ')
-        searchData.push({
-          text: parser.parseSearchMarkup(content),
+        searchData[lang].push({
+          text: parser.parseSearchMarkup(content)
+            .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
+            .replace(/<p>|<\/p>|<li>|<\/li>|<ol>|<\/ol>|<ul>|<\/ul>|<br>/g, ' '),
           title: entryData.attribute.attr.name[lang],
           url: `https://www.tmdict.com/${lang}/${entryData.attribute.ja}.${entryData.attribute.id}${ext}`,
         })
@@ -266,10 +266,22 @@ export default class App {
       count++
     })
     console.log(`...Built ${count} html files`)
-    builder.buildSearchData(appConfig.paths, searchData)
-    console.log(`...Built search data`)
     builder.buildSitemap(appConfig.paths, sitemap)
     console.log(`...Built sitemap`)
+
+    // Build search
+    Object.keys(appConfig.app.lang).forEach((lang: string) => {
+      const tmp = `${appConfig.paths.src}/__tmp`
+      // Generates JSON data (as js files) to be consumed by the js app
+      builder.toJsExport(`${tmp}/data/${lang}/search.js`, {
+        search: searchData[lang],
+        lang: lang
+      })
+      // Generates js file for search
+      builder.toTemplate(templates['search.js'].replace(/^ +/gm, ''), `${tmp}/js/${lang}/search.js`, {
+        path: lang,
+      })
+    })
 
     // Build filterlist
     Object.keys(appConfig.app.lang).forEach((lang: string) => {
@@ -294,7 +306,7 @@ export default class App {
 
   /** Generates TMdict Book app */
   book = (appConfig: AppConfig, templates: any, env: string): any => {
-    console.log('\n\nBuilding: book')
+    console.log('\nBuilding: book')
 
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths)
