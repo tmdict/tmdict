@@ -59,7 +59,7 @@
 
             <div>
               <table>
-                {#if attribute.uid.split(':')[0] < 1000} 
+                {#if attribute.uid.split(":")[1] === "fgosvt"} 
                   <tr><td>ID</td><td>{attribute.uid.split(':')[0]}</td></tr>
                 {/if}
                 {#each attribute.layout[contentLang] as section, i}

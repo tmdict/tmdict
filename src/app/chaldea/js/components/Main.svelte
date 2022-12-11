@@ -17,11 +17,11 @@
     <Content data={data.content[0]} />
 
     <a href="{level}profile/#{APP.lang[$activeLang].id}">
-      <img class="center" src="{level}src/img/banner_servant.png" alt="Profile" />
+      <img class="center" src="{level}src/img/banner_profile.png" alt="Profile" />
     </a>
 
     <a href="{level}ce/#{APP.lang[$activeLang].id}">
-      <img class="center" src="{level}src/img/banner_ce.png" alt="CE" />
+      <img class="center" src="{level}src/img/banner_glossary.png" alt="Glossary" />
     </a>
 
     <div class="content">

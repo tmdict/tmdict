@@ -20,6 +20,25 @@
     }
     sortBy.set(updatedSortBy)
   }
+
+  const getImgSrc = (uid) => {
+    let img = ""
+    switch (uid.split(":")[1]) {
+      case "fgosvt": {
+        img = `S${uid.split(":")[0].toString().padStart(4, "0")}.jpg`
+        break;
+      }
+      case "default": {
+        img = "0000.jpg"
+        break;
+      }
+      default: {
+        img = `${uid.split(":")[0]}.jpg`
+        break;
+      }
+    }
+    return img
+  }
 </script>
 
 <div class="list">
@@ -56,9 +75,7 @@
           <li><a href="{level}{listType}/{entry.id}{ext}#{$activeLang}">
             <div class="item">
               <div class="icon">
-                <img src="{level}src/img/profile/icon/{entry.uid.split(":")[1] === "fgosvt"
-                  ? "S" + entry.uid.split(":")[0].toString().padStart(4, "0")
-                  : "0000"}.jpg" alt="{entry.name[$activeLang]}" />
+                <img src="{level}src/img/profile/icon/{getImgSrc(entry.uid)}" alt="{entry.name[$activeLang]}" />
               </div>
               <div class="id">{(entry.uid.split(":")[1] === "fgosvt") ? entry.uid.split(':')[0] : '-'}</div>
               <div class="name">{entry.name[$activeLang]}</div>
