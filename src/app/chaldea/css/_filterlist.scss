@@ -62,6 +62,12 @@
           font-weight: bold;
         }
       }
+
+      &.item {
+        .id, .name, .star, .expand-all {
+          margin-bottom: 0;
+        }
+      }
     }
 
     .item {
