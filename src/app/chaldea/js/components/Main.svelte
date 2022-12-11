@@ -26,7 +26,7 @@
 
     <div class="content">
       <table class="center" style="width:350px">
-        <tr><td style="width:120px">Last Updated</td><td>2022-04-02</td></tr>
+        <tr><td style="width:120px">Last Updated</td><td>2023-12-11</td></tr>
       </table>  
     </div>
 

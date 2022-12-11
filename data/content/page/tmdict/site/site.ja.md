@@ -26,9 +26,26 @@ name: "サイト"
 
 ### ニュース
 
+**2022-12-11**
+
+For this last update of the year, we are introducing some major changes to CHALDEAの記録: from now on CHALDEAの記録 will no longer carry contents that come directly from the FGO game, this includes some servant in-game profiles, as well as all CE data (these contents are widely available on many sites and wiki, we recommend checking out Atlas Academy DB).
+
+The old Servant section is repurposed into a more generic Character Profile section, which will focus on profile translations found in material books from the wider Type-Moon universe. We’ve also added all glossary data to the site, presented in a more modern and (hopefully) user-friendly interface, think of it as what a modern version of TMdict could look like!
+
+These changes allow us to focus on more important contents that we find interesting (as opposed to spending time parsing through thousands of CE game files, which can be quite tedious).
+
+Finally, we’ve also updated the site backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!
+
+- Changed Servant section in CHALDEAの記録 to Character Profile.
+- Changed search engine from Tipue Search to Fuse.js.
+- Added Crypters, Surtr, and a few side character profiles from FGOM7 and 8 to CHALDEAの記録.
+- Added Luminary profile from Katatuki Kouhon to CHALDEAの記録.
+- Removed CE section from CHALDEAの記録.
+- General site improvement.
+
 **2022-11-27**
 
-_Katatuki Kouhon_, or TYPE-MOON Manuscript (型月稿本), is a book released at Comiket 100 by Nasu and Takeuchi’s doujin group Takebouki. The book is a compilation of designs and settings of various TYPE-MOON works, including <em>Tsukihime R</em>’s world and character setting, both of which have been added to our database.
+_Katatuki Kouhon_, or Type-Moon Manuscript (型月稿本), is a book released at Comiket 100 by Nasu and Takeuchi’s doujin group Takebouki. The book is a compilation of designs and settings of various Type-Moon works, including <em>Tsukihime R</em>’s world and character setting, both of which have been added to our database.
 
 - Added Katatuki Kouhon World & Tsukihime Character Setting (Japanese/English/Chinese).
 
@@ -56,7 +73,7 @@ For now we will focus on improving site stability and user experience, and conti
 
 - Added Encyclopedia of Prisma Illya MOVIE.
 - Added Mahou Tsukai no Hako Small Encylopedia English glossary.
-- Updated CHALDEAの記録 contents up to _FGO Material 8_.
+- Updated CHALDEAの記録 contents up to FGO Material 8.
 
 **2020-08-01**
 
@@ -117,11 +134,11 @@ With this update, the _Fate/EXTRA_ glossary is finally complete; missing entries
 
 **2019-05-19**
 
-The site’s stylesheet has been updated to use responsive design, making it more mobile friendly. There’s also a new glossary, it comes from a small booklet, _HibiChika Complete Capture Book_, found in the _Mahou Tsukai no Hako Box Set_ sold at the TYPE-MOON booth in C78, its content is mostly random facts and jokes.
+The site’s stylesheet has been updated to use responsive design, making it more mobile friendly. There’s also a new glossary, it comes from a small booklet, _HibiChika Complete Capture Book_, found in the _Mahou Tsukai no Hako Box Set_ sold at the Type-Moon booth in C78, its content is mostly random facts and jokes.
 
 - Site style is now responsive to screen size.
 - Added Mahou Tsukai no Hako Small Encylopedia (Japanese/Chinese).
-- Added images for _Fate/Zero Animation Visual Guide I + II_.
+- Added images for Fate/Zero Animation Visual Guide I + II.
 
 **2019-05-01**
 
@@ -176,34 +193,34 @@ For those who like to see everything on one page, we’ve also added a “Books�
 - Added books/glossary section
 - Removed glossary diff feature
 - Edited several incorrectly translated/assigned categories
-- Edited Chinese translation errors in _Tsukihime_ glossary
+- Edited Chinese translation errors in Tsukihime glossary
 
 **2015-08-16**
 
 A glossary diff feature has been implemented in order to keep track of changes to site content. Missing entries in the Chinese version of Tsukihime Dictionary Revised (_Plus Period_) have also been added.
 
 - Added glossary diff feature to keep track of change
-- Added missing Chinese entries from Tsukihime Dictionary Revised (_Dokuhon_)
+- Added missing Chinese entries from Tsukihime Dictionary Revised (Dokuhon)
 
 **2015-07-29**
 
 Some big backend changes, the site now supports 3 kinds of entries: 1) entry with a common category, a normal glossary entry with one or more sortable category/tag 2) entry with unique category, an entry with a one-of-a-kind category, non-filterable (since by definition there’s already only one of it), this is to account for a select few glossary formats, and 3) entries with no category, this opens up the possibility to add “non-glossary” entries such as those from _Fate/Complete Material 3_, think of it more as a future-proof change. Categories are now also clickable and will lead you to a filtered list when clicked. Most of the changes are under-the-hood. In terms of content, entries from Nasu’s _Notes._ have been added, bumping our version number to 1.1.0.
 
 - Changed site categorization scheme for future expansion
-- Added Notes. glossary (_Dokuhon_) Japanese/English/Chinese content
+- Added Notes. glossary (Dokuhon) Japanese/English/Chinese content
 
 **2015-05-12**
 
 Japanese content from Tsukihime Dictionary (_Dokuhon_) and Tsukihime Dictionary Revised (_Plus Period_) have been completely transcribed, proofread, and added to the site. With this update, the version has been incremented to v1.0.0 :)
 
-- Added Tsukihime Dictionary (_Dokuhon_) Japanese content
-- Added Tsukihime Dictionary Revised (_Dokuhon_) Japanese content
+- Added Tsukihime Dictionary (Dokuhon) Japanese content
+- Added Tsukihime Dictionary Revised (Dokuhon) Japanese content
 
 **2015-03-22**
 
 Thanks to feedback and suggestions we received from the past week, the site’s backend and database has been completely revamped, and the default ordering and URL of the glossary terms is now Japanese instead of English.
 
-- Added missing _Kara no Kyoukai_ Japanese entry “Orange Bag”
+- Added missing Kara no Kyoukai Japanese entry “Orange Bag”
 - Changed default sorting and URL order changed from English to Japanese
 - Changed database format to support flexible sorting based on language
 - Changed standardized Chinese name (Arcueid, Ciel, Sion, Roa, etc.)
