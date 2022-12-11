@@ -34,7 +34,7 @@
 <div class="swiper-container">
   <div class="swiper-wrapper">
     {#each attribute.img as img}
-      <div class="swiper-slide"><a href="https://img.tmdict.com/{attribute.type}/{img.src}"><img src="https://img.tmdict.com/{attribute.type}/{img.src}" id={img.id} alt={img.id} /></a></div>
+      <div class="swiper-slide"><a href="https://img.tmdict.com/profile/{img.src}"><img src="https://img.tmdict.com/profile/{img.src}" id={img.id} alt={img.id} /></a></div>
     {/each}
   </div>
   <div class="swiper-pagination"></div>
