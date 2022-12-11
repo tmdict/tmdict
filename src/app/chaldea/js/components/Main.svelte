@@ -20,7 +20,7 @@
       <img class="center" src="{level}src/img/banner_profile.png" alt="Profile" />
     </a>
 
-    <a href="{level}ce/#{APP.lang[$activeLang].id}">
+    <a href="{level}glossary/#{APP.lang[$activeLang].id}">
       <img class="center" src="{level}src/img/banner_glossary.png" alt="Glossary" />
     </a>
 
@@ -48,7 +48,7 @@
   }
 
   .center {
-    margin: 20px auto 10px;
+    margin: 15px auto;
   }
 
   @media only screen and (max-width: 660px) {

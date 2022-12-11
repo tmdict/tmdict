@@ -71,22 +71,22 @@
   {#each Object.keys(filterValues) as filterKey (filterKey)}
     <h6>{APP.i18n[filterKey][$activeLang]}</h6>
     <ul>
-      <li><a href="#{$activeLang}" on:click={() => resetCurrentFilter(filterKey)}>all</a></li>
+      <li><div class="item"><a href="#{$activeLang}" on:click={() => resetCurrentFilter(filterKey)}>all</a></div></li>
       {#each sortFilterValues(filterValues[filterKey], filterKey) as filterValue (filterValue)}
         {#if i18n[filterKey][filterValue]}
           <li>
-            <div class="quick" class:active={filterValue === $filters[filterKey].quick}>
+            <div class="item quick" class:active={filterValue === $filters[filterKey].quick}>
               <a href="#{$activeLang}" on:click={() => updateQuickFilterState(filterKey, filterValue)}>
                 {i18n[filterKey][filterValue][$activeLang]}
               </a>
             </div>
-            <div class="common" class:active={$filters[filterKey].common.includes(filterValue)}>
+            <div class="item common" class:active={$filters[filterKey].common.includes(filterValue)}>
               <a href="#{$activeLang}" on:click={() => updateCommonFilterState(filterKey, filterValue)}>&nbsp;</a>
             </div>
           </li>
         {/if}
       {/each}
-      <li><a href="#{$activeLang}" on:click={resetFilters}>reset all</a></li>
+      <li><div class="item"><a href="#{$activeLang}" on:click={resetFilters}>reset all</a></div></li>
     </ul>
   {/each}
 </div>

@@ -206,26 +206,7 @@
           border-top: $dotted-border;
         }
 
-        a {
-          display: block;
-          text-decoration: none;
-          padding: 0.2em;
-          height: 100%;
-          min-height: 18px;
-  
-          &:hover {
-            background: $bg-row-grey-dark;
-          }
-        }
-
-        .quick {
-          width: 138px;
-          float: left;
-  
-          @media #{$media-compact} {
-            width: 98px;
-          }
-
+        .item {
           &.active {
             background: $bg-row-grey-light;
   
@@ -238,33 +219,41 @@
             background: $bg-row-grey-dark;
           }
 
+          a {
+            display: block;
+            text-decoration: none;
+            padding: 0.2em 0.25em;
+            height: 90%;
+          }
+  
           a:hover {
             background: none;
+          }
+        }
+
+        .item {
+          width: 100%;
+  
+          @media #{$media-compact} {
+            width: 98px;
+          }
+        }
+
+        .quick {
+          width: 138px;
+  
+          @media #{$media-compact} {
+            width: 98px;
           }
         }
 
         .common {
           width: 22.3px;
           min-height: 22.3px;
-          float: left;
           border-left: $dotted-border;
 
           &.active {
-            background: $bg-row-grey-light;
-  
-            a:before {
-              content: "✕";
-              margin-left: 3px;
-              color: $primary-link-highlight;
-            }
-          }
-  
-          &:hover {
-            background: $bg-row-grey-dark;
-          }
-
-          a:hover {
-            background: none;
+            background-color: $primary-link-highlight;
           }
         }
       }
