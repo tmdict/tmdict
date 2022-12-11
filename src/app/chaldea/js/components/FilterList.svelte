@@ -1,6 +1,6 @@
 <script>
   import Fuse from 'fuse.js';
-  import cloneDeep from 'lodash/clonedeep';
+  import cloneDeep from './lodash/clonedeep';
 
   import Top from './Top.svelte';
   import Footer from './Footer.svelte';

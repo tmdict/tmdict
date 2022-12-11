@@ -32,9 +32,9 @@ For this last update of the year, we are introducing some major changes to CHALD
 
 The old Servant section is repurposed into a more generic Character Profile section, which will focus on profile translations found in material books from the wider Type-Moon universe. We’ve also added all glossary data to the site, presented in a more modern and (hopefully) user-friendly interface, think of it as what a modern version of TMdict could look like!
 
-These changes allow us to focus on more important contents that we find interesting (as opposed to spending time parsing through thousands of CE game files, which can be quite tedious).
+These changes allow us to focus on more important and interesting contents (as opposed to spending time parsing through thousands of CE game files, which can be quite tedious).
 
-Finally, we’ve also updated the site backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!
+Finally, we’ve also updated the site’s backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!
 
 - Changed Servant section in CHALDEAの記録 to Character Profile.
 - Changed search engine from Tipue Search to Fuse.js.

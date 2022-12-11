@@ -5,9 +5,9 @@
 
   <p>The old Servant section is repurposed into a more generic <a href="https://chaldea.tmdict.com/profile/">Character Profile section</a>, which will focus on profile translations found in material books from the wider Type-Moon universe. We’ve also added <a href="https://chaldea.tmdict.com/glossary/">all glossary data to the site</a>, presented in a more modern and (hopefully) user-friendly interface, think of it as what a modern version of TMdict could look like!</p>
   
-  <p>These changes allow us to focus on more important contents that we find interesting (as opposed to spending time parsing through thousands of CE game files, which can be quite tedious).</p>
+  <p>These changes allow us to focus on more important and interesting contents (as opposed to spending time parsing through thousands of CE game files, which can be quite tedious).</p>
 
-  <p>Finally, we’ve also updated the site backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!</p>
+  <p>Finally, we’ve also updated the site’s backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!</p>
 
   <p><span class="highlight">Changelog:</span></p>
 

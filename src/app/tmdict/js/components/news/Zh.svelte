@@ -3,13 +3,13 @@
 
   <h5>2022-12-11</h5>
 
-  <p>这是今年最后一次更新，在此<a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>将会有一些重大的改变：CHALDEAの記録将不再收录来自FGO游戏里的内容。这包括部分英灵的游戏数据，以及所有礼装相关的数据（这些信息可以在很多网站和wiki上找到，我们推荐<a href="https://apps.atlasacademy.io/db/">Atlas Academy DB</a>）。</p>
+  <p>这是今年最后一次更新，在此<a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>将会有一些重大的改变：它将不再收录来自FGO游戏里的内容。这包括部分英灵的游戏数据，以及所有礼装相关的数据（这些信息可以在很多网站和wiki上找到，我们推荐<a href="https://apps.atlasacademy.io/db/">Atlas Academy DB</a>）。</p>
 
   <p>之前的Servant页面被改进成<a href="https://chaldea.tmdict.com/profile/">角色简介</a>，专注于FGO以及其它Type-Moon书籍中的人物简介翻译。我们还添加了一个<a href="https://chaldea.tmdict.com/glossary/">Glossary页面</a>，收录了型月辞典的全部词条，将其以更现代化、更易用的方式呈现出来，可以把它当成一个“现代版”的型月辞典！</p>
 
   <p>通过这些改动，我们希望以后能把更多的时间花在更重要，更有意思的信息和翻译上（而不是把时间都花在整理数不完的礼装游戏文件…）。</p>
 
-  <p>最后，我们还更新了网站后端系统，并更新了网站的搜索引擎（支持模糊搜索）。如果发现任何问题，请不妨联系我们！</p>
+  <p>最后，我们还更新了网站的后端系统和搜索引擎（支持模糊搜索）。如果发现任何问题，请不妨联系我们！</p>
 
   <p><span class="highlight">Changelog:</span></p>
 
