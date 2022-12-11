@@ -1,8 +1,8 @@
 <script>
-  import BookTop from './BookTop.svelte'
-  import BookContent from './BookContent.svelte'
+  import BookTop from './BookTop.svelte';
+  import BookContent from './BookContent.svelte';
 
-  export let book
+  export let book;
 </script>
 
 <div id="container">

@@ -29,7 +29,7 @@ export function highlight(searchResult, highlightClassName = 'search-highlight')
         inputText.substring(start, highlightStartEnd[0]),
         `<span class="${highlightClassName}">`,
         inputText.substring(highlightStartEnd[0], end),
-        '</span>'
+        '</span>',
       ].join('');
       start = end;
     });

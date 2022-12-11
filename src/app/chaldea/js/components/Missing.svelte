@@ -1,17 +1,17 @@
 <script>
-  import Top from './Top.svelte'
-  import Footer from './Footer.svelte'
+  import Top from './Top.svelte';
+  import Footer from './Footer.svelte';
 
-  import { activeLang } from '../stores.js'
+  import { activeLang } from '../stores.js';
 
-  export let data
-  export let level
+  export let data;
+  export let level;
 
   const getEntryUrl = (e, lang) => {
-    const section = (e.sectionId) ? `.${e.sectionId}` : ''
-    const ext = data.env === 'production' ? '' : '.html'
-    return `${level}${e.type}/${e.id}${ext}#${e.lang}${section}`
-  }
+    const section = e.sectionId ? `.${e.sectionId}` : '';
+    const ext = data.env === 'production' ? '' : '.html';
+    return `${level}${e.type}/${e.id}${ext}#${e.lang}${section}`;
+  };
 </script>
 
 <div id="container">

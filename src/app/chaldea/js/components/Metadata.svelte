@@ -1,30 +1,30 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { createEventDispatcher } from 'svelte'
-  import { activeLang, activeLangTick } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { createEventDispatcher } from 'svelte';
+  import { activeLang, activeLangTick } from '../stores.js';
 
-  export let source = ''
-  export let translation = ''
-  export let language = []
-  export let gitUrl = '#'
-  export let devUrl = '#'
+  export let source = '';
+  export let translation = '';
+  export let language = [];
+  export let gitUrl = '#';
+  export let devUrl = '#';
 
-  let contentLang = $activeLang
+  let contentLang = $activeLang;
 
   // Update local contentLang when global activeLang changes
   $: {
-    $activeLangTick
-    contentLang = $activeLang
+    $activeLangTick;
+    contentLang = $activeLang;
   }
 
-  const dispatch = createEventDispatcher()
+  const dispatch = createEventDispatcher();
 
-  const updateLang = lang => {
-    contentLang = lang
+  const updateLang = (lang) => {
+    contentLang = lang;
     dispatch('langUpdate', {
-      lang: lang
-    })
-  }
+      lang: lang,
+    });
+  };
 </script>
 
 <div class="metadata">

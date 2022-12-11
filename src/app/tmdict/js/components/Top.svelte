@@ -1,15 +1,19 @@
 <script>
-  import Nav from './Nav.svelte'
-  import { navLang, navIndex, filterSrc } from '../stores.js'
+  import Nav from './Nav.svelte';
+  import { navLang, navIndex, filterSrc } from '../stores.js';
 
-  import APP from '../../__tmp/data/constants.js'
+  import APP from '../../__tmp/data/constants.js';
 
-  export let env
-  export let lang
-  export let filterlistIndex
+  export let env;
+  export let lang;
+  export let filterlistIndex;
 
-  const menuPage = ['about', 'site', 'misc']
-  const menuLang = [ { id: 'en', name: 'EN' }, { id: 'zh', name: 'ZH' }, { id: 'ja', name: 'JA' }]
+  const menuPage = ['about', 'site', 'misc'];
+  const menuLang = [
+    { id: 'en', name: 'EN' },
+    { id: 'zh', name: 'ZH' },
+    { id: 'ja', name: 'JA' },
+  ];
 </script>
 
 <div class="top">

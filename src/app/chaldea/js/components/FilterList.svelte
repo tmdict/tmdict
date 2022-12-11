@@ -2,82 +2,90 @@
   import Fuse from 'fuse.js';
   import cloneDeep from 'lodash/clonedeep';
 
-  import Top from './Top.svelte'
-  import Footer from './Footer.svelte'
-  import List from './List.svelte'
-  import Filter from './Filter.svelte'
+  import Top from './Top.svelte';
+  import Footer from './Footer.svelte';
+  import List from './List.svelte';
+  import Filter from './Filter.svelte';
   import { highlight } from '../highlight';
-  import { activeLang, filters, sortBy } from '../stores.js'
+  import { activeLang, filters, sortBy } from '../stores.js';
 
-  export let data
-  export let level
+  export let data;
+  export let level;
 
   // Preprocess a list of filter values given filter keys and data to be filtered
   const filterValues = data.attribute.filter.reduce(
     // For each filter id
     (acc, filter) => {
-      const flattened = data.content.map(d => d[filter]).reduce((acc, cur) => acc.concat(cur))
-      const deduped = [...new Set(flattened)]
+      const flattened = data.content.map((d) => d[filter]).reduce((acc, cur) => acc.concat(cur));
+      const deduped = [...new Set(flattened)];
 
-      return ({
+      return {
         ...acc, // data filter collected so far
-        [filter]: deduped // Get distinct filter data for current filter id
-    })},
+        [filter]: deduped, // Get distinct filter data for current filter id
+      };
+    },
     {} // Default empty {} for reducer
-  )
+  );
 
   // Initialize search options
-  let searchTerm = ''
+  let searchTerm = '';
   const searchOptions = {
     includeMatches: true,
     minMatchCharLength: 3,
     findAllMatches: true,
     shouldSort: true,
     ignoreLocation: true,
-    threshold: 0.0
+    threshold: 0.0,
   };
 
   // Initialize full entry list
-  let parsedEntryList = cloneDeep(data.content)
-  sortBy.set({ id: 'uid', order: '▼' })
+  let parsedEntryList = cloneDeep(data.content);
+  sortBy.set({ id: 'uid', order: '▼' });
 
   // Reset all filters to empty
   const resetAllFilter = () => {
     // Quick filter: can only select one at a time; Common filter: can select multiple at a time
-    // { 
+    // {
     //   filter1: { common: [ ... ], quick: '...' },
     //   filter2: { common: [ ... ], quick: '...' },
     //   ...
     // }
     filters.set(
-      data.attribute.filter.reduce((acc, filter) => (
-        { ...acc, [filter]: {
-          'common': [],
-          'quick': '' }
-        }
-      ), {})
-    )
-  }
+      data.attribute.filter.reduce(
+        (acc, filter) => ({
+          ...acc,
+          [filter]: {
+            common: [],
+            quick: '',
+          },
+        }),
+        {}
+      )
+    );
+  };
   // Reset on load
-  resetAllFilter()
+  resetAllFilter();
 
   // Check if the given entry should be filtered out or not
   const isEntryFiltered = (entry) => {
     // Goes through each filter
     for (let [filterKey, filterBuckets] of Object.entries($filters)) {
       // If at least one of the filter buckets have filters in it
-      if ((filterBuckets.quick !== '') || (filterBuckets.common.length !== 0)) {
+      if (filterBuckets.quick !== '' || filterBuckets.common.length !== 0) {
         // If current entry has an attribute match for any of the two buckets
-        if (entry[filterKey] && entry[filterKey].some(e => (filterBuckets.quick === e || filterBuckets.common.includes(e)))) {  
-          continue // Has a match for current filter, move on to next filter
+        if (
+          entry[filterKey] &&
+          entry[filterKey].some((e) => filterBuckets.quick === e || filterBuckets.common.includes(e))
+        ) {
+          continue; // Has a match for current filter, move on to next filter
         } else {
-          return false // Current filter has no match, short-circuit
+          return false; // Current filter has no match, short-circuit
         }
       }
     }
     // Either entry has a matching attribute for ALL selected filters, or none are selected
-    return true
-  }
+    return true;
+  };
 
   // Sort a given array `arr` by current sortBy state
   const sortByCurrentId = (arr) =>
@@ -88,58 +96,56 @@
             ? parseFloat(a[$sortBy.id].split(':')[0]) - parseFloat(b[$sortBy.id].split(':')[0]) ||
                 a['name'][$activeLang].localeCompare(b['name'][$activeLang])
             : parseFloat(b[$sortBy.id].split(':')[0]) - parseFloat(a[$sortBy.id].split(':')[0]) ||
-                b['name'][$activeLang].localeCompare(a['name'][$activeLang])
+                b['name'][$activeLang].localeCompare(a['name'][$activeLang]);
         }
         case 'name': {
           // Sorts by name in current language
           return $sortBy.order === '▲'
             ? a[$sortBy.id][$activeLang].localeCompare(b[$sortBy.id][$activeLang])
-            : b[$sortBy.id][$activeLang].localeCompare(a[$sortBy.id][$activeLang])
+            : b[$sortBy.id][$activeLang].localeCompare(a[$sortBy.id][$activeLang]);
         }
         case 'star': {
           // Content is in first element of the array
           return $sortBy.order === '▲'
             ? a[$sortBy.id][0].localeCompare(b[$sortBy.id][0])
-            : b[$sortBy.id][0].localeCompare(a[$sortBy.id][0])
+            : b[$sortBy.id][0].localeCompare(a[$sortBy.id][0]);
         }
         default:
           // Fallback to sort by name
-          return $sortBy.order === '▲'
-            ? a['name'].localeCompare(b['name'])
-            : b['name'].localeCompare(a['name'])
+          return $sortBy.order === '▲' ? a['name'].localeCompare(b['name']) : b['name'].localeCompare(a['name']);
       }
-    })
+    });
 
   // Re-sort data whenever sortBy state changes
   $: {
-    $sortBy
-    parsedEntryList = cloneDeep(sortByCurrentId(parsedEntryList))
+    $sortBy;
+    parsedEntryList = cloneDeep(sortByCurrentId(parsedEntryList));
   }
 
   // Update filtered data by given filter (or return as-is) whenever global filter changes
   // Filter by search if is glossary
   $: {
-    $filters
+    $filters;
     // Filter entry list
-    let filteredContent = cloneDeep(data.content.filter(isEntryFiltered))
-    let searchedSortedEntryList = cloneDeep(sortByCurrentId(filteredContent))
+    let filteredContent = cloneDeep(data.content.filter(isEntryFiltered));
+    let searchedSortedEntryList = cloneDeep(sortByCurrentId(filteredContent));
     if (data.attribute.type === 'glossary') {
       if (searchTerm !== '') {
         const fuse = new Fuse(filteredContent, {
           ...searchOptions,
-          keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html']
+          keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html'],
         });
-        const results = fuse.search(searchTerm)
+        const results = fuse.search(searchTerm);
         if (results.length > 0) {
           // Highlight and return search results
-          searchedSortedEntryList = cloneDeep(highlight(results))
+          searchedSortedEntryList = cloneDeep(highlight(results));
         } else {
-          searchedSortedEntryList = []
+          searchedSortedEntryList = [];
         }
       }
     }
     // Sort entry list
-    parsedEntryList = cloneDeep(searchedSortedEntryList)
+    parsedEntryList = cloneDeep(searchedSortedEntryList);
   }
 </script>
 

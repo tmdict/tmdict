@@ -1,20 +1,20 @@
 <script>
-  import Swiper from 'tiny-swiper'
-  import SwiperPluginPagination from 'tiny-swiper/lib/modules/pagination.min.js'
-  import { afterUpdate } from 'svelte'
+  import Swiper from 'tiny-swiper';
+  import SwiperPluginPagination from 'tiny-swiper/lib/modules/pagination.min.js';
+  import { afterUpdate } from 'svelte';
 
-  export let attribute
+  export let attribute;
 
   afterUpdate(() => {
     // https://github.com/joe223/tiny-swiper/
     const swiper = new Swiper('.swiper-container', {
       pagination: {
         el: '.swiper-pagination',
-        clickable: true
+        clickable: true,
       },
-      plugins: [ SwiperPluginPagination ]
-    })
-  })
+      plugins: [SwiperPluginPagination],
+    });
+  });
 </script>
 
 <svelte:head>

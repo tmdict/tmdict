@@ -1,14 +1,14 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, currentSource } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, currentSource } from '../stores.js';
 
-  export let data
+  export let data;
 
   const updateActiveLang = (lang) => {
-    activeLang.set(lang)
-    localStorage.setItem("tmdict.book.lang", $activeLang)
-  }
-  const updateCurrentSource = (src) => currentSource.set(src)
+    activeLang.set(lang);
+    localStorage.setItem('tmdict.book.lang', $activeLang);
+  };
+  const updateCurrentSource = (src) => currentSource.set(src);
 </script>
 
 <div id="toc">

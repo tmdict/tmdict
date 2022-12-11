@@ -1,44 +1,44 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import ListGlossary from './ListGlossary.svelte'
-  import { activeLang, sortBy } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import ListGlossary from './ListGlossary.svelte';
+  import { activeLang, sortBy } from '../stores.js';
 
-  export let i18n
-  export let listType
-  export let entryList
-  export let level
-  export let env
+  export let i18n;
+  export let listType;
+  export let entryList;
+  export let level;
+  export let env;
   let expandAll = false;
-  console.log(level)
+  console.log(level);
 
-  const ext = (env === 'production') ? '' : '.html'
+  const ext = env === 'production' ? '' : '.html';
 
-  const updateSortBy = sortHeader => {
+  const updateSortBy = (sortHeader) => {
     const updatedSortBy = {
       id: sortHeader,
-      order: $sortBy.order === '▲' ? '▼' : '▲'
-    }
-    sortBy.set(updatedSortBy)
-  }
+      order: $sortBy.order === '▲' ? '▼' : '▲',
+    };
+    sortBy.set(updatedSortBy);
+  };
 
   const getImgSrc = (uid) => {
-    let img = ""
-    switch (uid.split(":")[1]) {
-      case "fgosvt": {
-        img = `S${uid.split(":")[0].toString().padStart(4, "0")}.jpg`
+    let img = '';
+    switch (uid.split(':')[1]) {
+      case 'fgosvt': {
+        img = `S${uid.split(':')[0].toString().padStart(4, '0')}.jpg`;
         break;
       }
-      case "default": {
-        img = "0000.jpg"
+      case 'default': {
+        img = '0000.jpg';
         break;
       }
       default: {
-        img = `${uid.split(":")[0]}.jpg`
+        img = `${uid.split(':')[0]}.jpg`;
         break;
       }
     }
-    return img
-  }
+    return img;
+  };
 </script>
 
 <div class="list">

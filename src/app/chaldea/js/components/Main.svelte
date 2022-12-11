@@ -1,13 +1,13 @@
 <script>
-  import Top from './Top.svelte'
-  import Content from './Content.svelte'
-  import Footer from './Footer.svelte'
+  import Top from './Top.svelte';
+  import Content from './Content.svelte';
+  import Footer from './Footer.svelte';
 
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang } from '../stores.js';
 
-  export let data
-  export let level
+  export let data;
+  export let level;
 </script>
 
 <div id="container">

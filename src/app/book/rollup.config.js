@@ -1,13 +1,13 @@
-import * as fs from 'fs-extra'
-import svelte from 'rollup-plugin-svelte'
-import resolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
-import livereload from 'rollup-plugin-livereload'
-import { terser } from 'rollup-plugin-terser'
-import css from 'rollup-plugin-css-only'
+import * as fs from 'fs-extra';
+import svelte from 'rollup-plugin-svelte';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import livereload from 'rollup-plugin-livereload';
+import { terser } from 'rollup-plugin-terser';
+import css from 'rollup-plugin-css-only';
 
-const production = !process.env.ROLLUP_WATCH
-const appConfig = JSON.parse(fs.readFileSync(`${__dirname}/config.json`, 'utf8'))
+const production = !process.env.ROLLUP_WATCH;
+const appConfig = JSON.parse(fs.readFileSync(`${__dirname}/config.json`, 'utf8'));
 
 export default {
   input: `${__dirname}/__tmp/js/app.js`,
@@ -21,8 +21,8 @@ export default {
     svelte({
       compilerOptions: {
         // enable run-time checks when not in production
-        dev: !production
-      }
+        dev: !production,
+      },
     }),
     // we'll extract any component CSS out into
     // a separate file - better for performance
@@ -54,25 +54,25 @@ export default {
   watch: {
     clearScreen: false,
   },
-}
+};
 
 function serve() {
-  let server
+  let server;
 
   function toExit() {
-    if (server) server.kill(0)
+    if (server) server.kill(0);
   }
 
   return {
     writeBundle() {
-      if (server) return
+      if (server) return;
       server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
         stdio: ['ignore', 'inherit', 'inherit'],
-        shell: true
-      })
+        shell: true,
+      });
 
-      process.on('SIGTERM', toExit)
-      process.on('exit', toExit)
-    }
-  }
+      process.on('SIGTERM', toExit);
+      process.on('exit', toExit);
+    },
+  };
 }

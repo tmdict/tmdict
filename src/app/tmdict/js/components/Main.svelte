@@ -1,46 +1,46 @@
 <script>
-  import NewsEn from './news/En.svelte'
-  import NewsJa from './news/Ja.svelte'
-  import NewsZh from './news/Zh.svelte'
-  import { navLang, navIndex, filterSrc } from '../stores.js'
+  import NewsEn from './news/En.svelte';
+  import NewsJa from './news/Ja.svelte';
+  import NewsZh from './news/Zh.svelte';
+  import { navLang, navIndex, filterSrc } from '../stores.js';
 
-  export let env
-  export let lang
-  export let data
-  export let filterlistIndex
+  export let env;
+  export let lang;
+  export let data;
+  export let filterlistIndex;
 
   const pageComponent = {
-    'en': { component: NewsEn },
-    'ja': { component: NewsJa },
-    'zh': { component: NewsZh }
-  }
+    en: { component: NewsEn },
+    ja: { component: NewsJa },
+    zh: { component: NewsZh },
+  };
 
-  // Returns an array of objects, each representing an index + entries 
+  // Returns an array of objects, each representing an index + entries
   const getFilterlistEntry = (nl, ni, src) => {
     const filteredContent = data.content.reduce((acc, entry) => {
       // Add to array if 'all' or current id matches selected index
-      const nlId = (nl === 'en') ? 'en' : 'jaRow'
+      const nlId = nl === 'en' ? 'en' : 'jaRow';
       if ((ni === '' || entry[nlId] === ni) && (src === '' || entry.source.includes(src))) {
         // Instantiate object for current index
         if (!(entry[nlId] in acc)) {
-          acc[entry[nlId]] = []
+          acc[entry[nlId]] = [];
         }
-        acc[entry[nlId]].push(entry)
+        acc[entry[nlId]].push(entry);
       }
-      return acc
-    }, {})
+      return acc;
+    }, {});
     const result = filterlistIndex[nl].reduce((acc, nIdName) => {
       if (filteredContent[nIdName.id]) {
         // Add to collection if entries under this index exists
         acc.push({
           name: nIdName.name,
-          entries: filteredContent[nIdName.id]
-        })
+          entries: filteredContent[nIdName.id],
+        });
       }
-      return acc
-    }, [])
-    return result
-  }
+      return acc;
+    }, []);
+    return result;
+  };
 </script>
 
 <div class="main">

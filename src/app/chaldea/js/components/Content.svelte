@@ -1,25 +1,25 @@
 <script>
-  import Metadata from './Metadata.svelte'
-  import { activeLang, activeLangTick } from '../stores.js'
+  import Metadata from './Metadata.svelte';
+  import { activeLang, activeLangTick } from '../stores.js';
 
-  export let entryType
-  export let entryId
-  export let data
+  export let entryType;
+  export let entryId;
+  export let data;
 
-  let contentLang = $activeLang
+  let contentLang = $activeLang;
 
   // Update local contentLang when global activeLang changes
   $: {
-    $activeLangTick
-    contentLang = $activeLang
+    $activeLangTick;
+    contentLang = $activeLang;
   }
 
-  const updateLang = (event) => (contentLang = event.detail.lang)
+  const updateLang = (event) => (contentLang = event.detail.lang);
 
   const getGitUrl = (source, entryId, entryType, contentId, contentLang, parent, domain = 'com') => {
-    const path = entryType === 'profile' ? `${source}/${entryId}/${contentId}` : `${source}/${entryId}`
-    return parent == 'chaldea-app' ? '#' : `https://github.${domain}/tmdict/tmdict/blob/main/data/content/${path}`
-  }
+    const path = entryType === 'profile' ? `${source}/${entryId}/${contentId}` : `${source}/${entryId}`;
+    return parent == 'chaldea-app' ? '#' : `https://github.${domain}/tmdict/tmdict/blob/main/data/content/${path}`;
+  };
 </script>
 
 <div class="content">

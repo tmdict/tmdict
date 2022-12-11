@@ -1,7 +1,7 @@
 <script>
-  import { theme } from '../stores.js'
+  import { theme } from '../stores.js';
 
-  export let level
+  export let level;
 </script>
 
 <svelte:head>

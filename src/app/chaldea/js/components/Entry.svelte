@@ -1,29 +1,29 @@
 <script>
-  import Top from './Top.svelte'
-  import Footer from './Footer.svelte'
-  import Content from './Content.svelte'
-  import EntryImgHover from './EntryImgHover.svelte'
-  import EntryImgSwipe from './EntryImgSwipe.svelte'
-  import Metadata from './Metadata.svelte'
-  import Sidebar from './Sidebar.svelte'
-  import Theme from './Theme.svelte'
+  import Top from './Top.svelte';
+  import Footer from './Footer.svelte';
+  import Content from './Content.svelte';
+  import EntryImgHover from './EntryImgHover.svelte';
+  import EntryImgSwipe from './EntryImgSwipe.svelte';
+  import Metadata from './Metadata.svelte';
+  import Sidebar from './Sidebar.svelte';
+  import Theme from './Theme.svelte';
 
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, activeLangTick } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, activeLangTick } from '../stores.js';
 
-  export let attribute
-  export let content
+  export let attribute;
+  export let content;
 
-  let contentLang = $activeLang  
-  let screenWidth
+  let contentLang = $activeLang;
+  let screenWidth;
 
   // Update local contentLang when global activeLang changes
   $: {
-    $activeLangTick
-    contentLang = $activeLang
+    $activeLangTick;
+    contentLang = $activeLang;
   }
 
-  const updateLang = event => (contentLang = event.detail.lang)
+  const updateLang = (event) => (contentLang = event.detail.lang);
 </script>
 
 <svelte:head>

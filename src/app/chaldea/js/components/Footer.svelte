@@ -1,11 +1,11 @@
 <script>
-  import page from 'page'
+  import page from 'page';
 
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang } from '../stores.js';
 
-  export let level
-  export let name = ''
+  export let level;
+  export let name = '';
 </script>
 
 <div id="footer">

@@ -1,15 +1,15 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, currentSource } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, currentSource } from '../stores.js';
 
-  export let entry
+  export let entry;
 
-  let contentLang = $activeLang
+  let contentLang = $activeLang;
 
   // Update local contentLang when global activeLang changes
-  $: contentLang = $activeLang
+  $: contentLang = $activeLang;
 
-  const updateContentLang = (lang) => contentLang = lang
+  const updateContentLang = (lang) => (contentLang = lang);
 </script>
 
 <div class="entry" id={`${entry.source}.${entry.parent}`}>

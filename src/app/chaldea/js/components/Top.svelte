@@ -1,43 +1,41 @@
 <script>
-  import page from 'page'
+  import page from 'page';
 
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, activeLangTick, theme } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, activeLangTick, theme } from '../stores.js';
 
-  export let level
-
-  const logoHint = { en: "Try clicking 記録", ja: "クリック“記録”", zh: "尝试点击“記録”"}
+  export let level;
 
   const updateActiveLang = (lang) => {
-    activeLangTick.update(n => !n)
-    activeLang.set(lang)
-  }
+    activeLangTick.update((n) => !n);
+    activeLang.set(lang);
+  };
 
   // Update browser local storage when theme toggle is updated
   const toggleDarkMode = () => {
-    ($theme == 'chaldea') ? theme.set('shadow-border') : theme.set('chaldea')
-    localStorage.setItem("tmdict.chaldea.theme", $theme)
-  }
+    $theme == 'chaldea' ? theme.set('shadow-border') : theme.set('chaldea');
+    localStorage.setItem('tmdict.chaldea.theme', $theme);
+  };
 
   // Set route based on URL
-  page('/*', ctx => {
-    const hash = ctx.hash.match(/^([a-z]{2})($|\.)/)
+  page('/*', (ctx) => {
+    const hash = ctx.hash.match(/^([a-z]{2})($|\.)/);
     // Check if language in hash is valid
     if (hash !== null && Object.keys(APP.lang).includes(hash[1])) {
-      updateActiveLang(hash[1])
+      updateActiveLang(hash[1]);
     }
-  })
+  });
   // Start listening to change
-  page({ click: false })
+  page({ click: false });
 </script>
 
 <div id="top"></div>
 <div id="header">
   <span on:click={toggleDarkMode} on:keydown={toggleDarkMode}>
     {#if $theme === 'chaldea'}
-      <img class="logo" src="{level}src/img/top.png" title={logoHint[$activeLang]} alt="Chaldea" />
+      <img class="logo" src="{level}src/img/top.png" title="Chaldea" alt="Chaldea" />
     {:else}
-      <img class="logo" src="{level}src/img/top_.png" title={logoHint[$activeLang]} alt="Shadow Border" />
+      <img class="logo" src="{level}src/img/top_.png" title="Shadow Border" alt="Shadow Border" />
     {/if}
   </span>
 

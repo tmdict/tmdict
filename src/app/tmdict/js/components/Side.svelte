@@ -1,18 +1,20 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { navLang, navIndex, filterSrc } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { navLang, navIndex, filterSrc } from '../stores.js';
 
-  export let lang
-  export let i18n
+  export let lang;
+  export let i18n;
 
   const getSources = () => {
-    return Object.keys(i18n.source).map(id => {
-      return {
-        id: id,
-        name: i18n.source[id][lang]
-      }
-    }).sort((a, b) => a.name.localeCompare(b.name))
-  }
+    return Object.keys(i18n.source)
+      .map((id) => {
+        return {
+          id: id,
+          name: i18n.source[id][lang],
+        };
+      })
+      .sort((a, b) => a.name.localeCompare(b.name));
+  };
 </script>
 
 <div class="side">

@@ -1,19 +1,19 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, activeLangTick } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, activeLangTick } from '../stores.js';
 
-  export let attribute
-  export let contentLang = $activeLang
-  
+  export let attribute;
+  export let contentLang = $activeLang;
+
   // Update local contentLang when global activeLang changes
   $: {
-    $activeLangTick
-    contentLang = $activeLang
+    $activeLangTick;
+    contentLang = $activeLang;
   }
 
-  let currentImg = attribute.img[0]
+  let currentImg = attribute.img[0];
 
-  const updateImg = img => (currentImg = img)
+  const updateImg = (img) => (currentImg = img);
 </script>
 
 {#if attribute.img.length > 0}

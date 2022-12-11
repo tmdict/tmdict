@@ -1,16 +1,16 @@
 <script>
   import { slide } from 'svelte/transition';
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang } from '../stores.js';
 
-  export let i18n
-  export let entry
-  export let level
-  export let env
+  export let i18n;
+  export let entry;
+  export let level;
+  export let env;
   export let showDetail = false;
 
-  const ext = (env === 'production') ? '' : '.html'
-  
+  const ext = env === 'production' ? '' : '.html';
+
   function toggleDetails() {
     showDetail = !showDetail;
   }

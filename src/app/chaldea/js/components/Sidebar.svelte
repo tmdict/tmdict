@@ -1,23 +1,23 @@
 <script>
-  import APP from '../../__tmp/data/constants.js'
-  import { activeLang, activeLangTick } from '../stores.js'
+  import APP from '../../__tmp/data/constants.js';
+  import { activeLang, activeLangTick } from '../stores.js';
 
-  export let attribute
-  export let content
+  export let attribute;
+  export let content;
 
-  let contentLang = $activeLang  
-  let screenWidth
+  let contentLang = $activeLang;
+  let screenWidth;
   let screenTop;
   let screenLeft;
 
   // Update local contentLang when global activeLang changes
   $: {
-    $activeLangTick
-    contentLang = $activeLang
+    $activeLangTick;
+    contentLang = $activeLang;
   }
 
-  const updateLang = event => (contentLang = event.detail.lang)
-  const scrollTo = (id) => document.getElementById(id).scrollIntoView({behavior:'smooth'})
+  const updateLang = (event) => (contentLang = event.detail.lang);
+  const scrollTo = (id) => document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
 </script>
 
 <svelte:window bind:innerWidth={screenWidth} bind:scrollY={screenTop} />

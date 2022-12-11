@@ -3,7 +3,7 @@
   import cloneDeep from 'lodash/clonedeep';
   import { highlight } from '../highlight';
 
-  export let data
+  export let data;
 
   // Initialize search
   const fuse = new Fuse(data.search, {
@@ -13,28 +13,28 @@
     shouldSort: true,
     ignoreLocation: true,
     threshold: 0.0,
-    keys: ['text', 'title']
+    keys: ['text', 'title'],
   });
 
   const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
   });
 
-  let searchResults = []
+  let searchResults = [];
   if (params.q !== '') {
-    const results = fuse.search(params.q)
+    const results = fuse.search(params.q);
     if (results.length > 0) {
       // Highlight and return search results
-      console.log(results)
-      searchResults = cloneDeep(highlight(results))
+      console.log(results);
+      searchResults = cloneDeep(highlight(results));
     }
   }
 
   function truncateString(str, num) {
     if (str.length <= num) {
-      return str
+      return str;
     }
-    return str.slice(0, num) + '...'
+    return str.slice(0, num) + '...';
   }
 </script>
 
