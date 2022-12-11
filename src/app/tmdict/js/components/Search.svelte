@@ -1,6 +1,5 @@
 <script>
   import Fuse from 'fuse.js';
-  import cloneDeep from 'lodash/clonedeep';
   import { highlight } from '../highlight';
 
   export let data;
@@ -26,7 +25,7 @@
     if (results.length > 0) {
       // Highlight and return search results
       console.log(results);
-      searchResults = cloneDeep(highlight(results));
+      searchResults = structuredClone(highlight(results));
     }
   }
 

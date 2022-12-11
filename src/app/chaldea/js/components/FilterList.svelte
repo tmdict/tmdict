@@ -1,6 +1,5 @@
 <script>
   import Fuse from 'fuse.js';
-  import cloneDeep from './lodash/clonedeep';
 
   import Top from './Top.svelte';
   import Footer from './Footer.svelte';
@@ -39,7 +38,7 @@
   };
 
   // Initialize full entry list
-  let parsedEntryList = cloneDeep(data.content);
+  let parsedEntryList = structuredClone(data.content);
   sortBy.set({ id: 'uid', order: '▼' });
 
   // Reset all filters to empty
@@ -119,7 +118,7 @@
   // Re-sort data whenever sortBy state changes
   $: {
     $sortBy;
-    parsedEntryList = cloneDeep(sortByCurrentId(parsedEntryList));
+    parsedEntryList = structuredClone(sortByCurrentId(parsedEntryList));
   }
 
   // Update filtered data by given filter (or return as-is) whenever global filter changes
@@ -127,8 +126,8 @@
   $: {
     $filters;
     // Filter entry list
-    let filteredContent = cloneDeep(data.content.filter(isEntryFiltered));
-    let searchedSortedEntryList = cloneDeep(sortByCurrentId(filteredContent));
+    let filteredContent = structuredClone(data.content.filter(isEntryFiltered));
+    let searchedSortedEntryList = structuredClone(sortByCurrentId(filteredContent));
     if (data.attribute.type === 'glossary') {
       if (searchTerm !== '') {
         const fuse = new Fuse(filteredContent, {
@@ -138,14 +137,14 @@
         const results = fuse.search(searchTerm);
         if (results.length > 0) {
           // Highlight and return search results
-          searchedSortedEntryList = cloneDeep(highlight(results));
+          searchedSortedEntryList = structuredClone(highlight(results));
         } else {
           searchedSortedEntryList = [];
         }
       }
     }
     // Sort entry list
-    parsedEntryList = cloneDeep(searchedSortedEntryList);
+    parsedEntryList = structuredClone(searchedSortedEntryList);
   }
 </script>
 
