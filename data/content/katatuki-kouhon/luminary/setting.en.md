@@ -97,7 +97,7 @@ As for Shiki, she stubbornly refused to ever touch him on her own, due to him ha
 
 And now for some FAQs about the Luminary.
 
-#### #### — Can you touch it?
+#### — Can you touch it?
 
 Once it enters a stable state, the Luminary materializes—so yes, it has hit detection.
 It feels both like hard stone and flowing water to the touch.
