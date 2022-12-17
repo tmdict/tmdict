@@ -14,6 +14,8 @@
     "class": "avenger",
     "star": "star_5",
     "gender": "female",
+    "origin": ["mesopotamian-mythology", "old-testament", "ugaritic-mythology", "phoenician-mythology", "etc"],
+    "region": "servant-universe",
     "alignment": "lawful-evil",
     "strength.parameter": "b",
     "endurance.parameter": "ex",
@@ -21,8 +23,10 @@
     "magic.parameter": "ex",
     "luck.parameter": "cp",
     "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
     "illustrator": "morii-shizuki",
     "character-voice": "ueda-kana",
+    "major-appearances": "fate-grand-order",
     "related.profile": ["ishtar", "ishtar-rider"]
   },
 
@@ -31,14 +35,29 @@
       "en": "Space Ishtar",
       "ja": "スペース・イシュタル",
       "zh": "太空伊什塔尔"
+    },
+    "true-name": {
+      "en": "Ishtar Astarte",
+      "ja": "イシュタル・アシュタレト",
+      "zh": "伊什塔尔·阿斯塔蒂"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "？？kg",
+      "zh": "？？kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
     ["related.profile"]
   ]
 }

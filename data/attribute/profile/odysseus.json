@@ -14,6 +14,8 @@
     "class": "rider",
     "star": "star_5",
     "gender": "male",
+    "origin": "greek-mythology",
+    "region": "europe",
     "alignment": "neutral-good",
     "strength.parameter": "c",
     "endurance.parameter": "ap",
@@ -21,8 +23,10 @@
     "magic.parameter": "bp",
     "luck.parameter": "ex",
     "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
     "illustrator": "redjuice",
-    "character-voice": "kirimoto-takuya"
+    "character-voice": "kirimoto-takuya",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +34,28 @@
       "en": "Odysseus",
       "ja": "オデュッセウス",
       "zh": "奥德修斯"
+    },
+    "true-name": {
+      "en": "Odysseus",
+      "ja": "オデュッセウス",
+      "zh": "奥德修斯"
+    },
+    "height": {
+      "en": "179cm",
+      "ja": "179cm",
+      "zh": "179cm"
+    },
+    "weight": {
+      "en": "63kg",
+      "ja": "63kg",
+      "zh": "63kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

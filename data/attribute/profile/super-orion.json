@@ -14,6 +14,8 @@
     "class": "archer",
     "star": "star_5",
     "gender": "male",
+    "origin": "greek-mythology",
+    "region": "greece",
     "alignment": "chaotic-neutral",
     "strength.parameter": "a",
     "endurance.parameter": "a",
@@ -21,8 +23,10 @@
     "magic.parameter": "c",
     "luck.parameter": "a",
     "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
     "illustrator": "i-iv",
-    "character-voice": "canna-nobutoshi"
+    "character-voice": "canna-nobutoshi",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +34,28 @@
       "en": "Super Orion",
       "ja": "超人オリオン",
       "zh": "超人俄里翁"
+    },
+    "true-name": {
+      "en": "Orion",
+      "ja": "オリオン",
+      "zh": "俄里翁"
+    },
+    "height": {
+      "en": "230cm",
+      "ja": "230cm",
+      "zh": "230cm"
+    },
+    "weight": {
+      "en": "187kg",
+      "ja": "187kg",
+      "zh": "187kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

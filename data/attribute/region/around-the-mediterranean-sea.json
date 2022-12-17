@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Around the Mediterranean Sea",
+      "ja": "地中海周辺",
+      "zh": "地中海周边"
+    }
+  }
+}

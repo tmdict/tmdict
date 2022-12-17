@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "United States",
+      "ja": "アメリカ合衆国",
+      "zh": "美利坚合众国"
+    }
+  }
+}

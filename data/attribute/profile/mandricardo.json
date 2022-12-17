@@ -15,6 +15,8 @@
     "class": "rider",
     "star": "star_3",
     "gender": "male",
+    "origin": ["orlando-innamorato", "orlando-furioso"],
+    "region": "france",
     "alignment": "true-neutral",
     "strength.parameter": "c",
     "endurance.parameter": "b",
@@ -22,8 +24,10 @@
     "magic.parameter": "c",
     "luck.parameter": "b",
     "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
     "illustrator": "ginka",
-    "character-voice": "toshiki-masuda"
+    "character-voice": "toshiki-masuda",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -31,13 +35,28 @@
       "en": "Mandricardo",
       "ja": "マンドリカルド",
       "zh": "曼迪卡尔多"
+    },
+    "true-name": {
+      "en": "Mandricardo",
+      "ja": "マンドリカルド",
+      "zh": "曼迪卡尔多"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "68kg",
+      "ja": "68kg",
+      "zh": "68kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

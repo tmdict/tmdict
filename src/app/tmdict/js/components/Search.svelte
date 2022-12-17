@@ -37,7 +37,7 @@
   }
 </script>
 
-<h4>{searchResults.length} results</h4>
+<h4>{params.q} (<span style="color:#c05b4d;">{searchResults.length}</span> results)</h4>
 
 <div>
   {#each searchResults as result}

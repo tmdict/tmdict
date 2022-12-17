@@ -14,6 +14,8 @@
     "class": "archer",
     "star": "star_5",
     "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
     "alignment": "chaotic-good",
     "strength.parameter": "e",
     "endurance.parameter": "d",
@@ -21,8 +23,10 @@
     "magic.parameter": "c",
     "luck.parameter": "a",
     "noble-phantasm.parameter": "dpp",
+    "character-setting": "oksg",
     "illustrator": "mika-pikazo",
-    "character-voice": "fairouz-ai"
+    "character-voice": "fairouz-ai",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +34,28 @@
       "en": "Sei Shounagon",
       "ja": "清少納言",
       "zh": "清少纳言"
+    },
+    "true-name": {
+      "en": "Sei Shounagon",
+      "ja": "清少納言",
+      "zh": "清少纳言"
+    },
+    "height": {
+      "en": "157cm",
+      "ja": "157cm",
+      "zh": "157cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

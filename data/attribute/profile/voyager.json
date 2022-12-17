@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "281:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0281a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0281b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0281c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0281d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0281e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": ["north-america", "united-states"],
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "okiayu-ryoutarou",
+    "major-appearances": ["fate-requiem", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Voyager",
+      "ja": "ボイジャー",
+      "zh": "旅行者"
+    },
+    "true-name": {
+      "en": "Voyager",
+      "ja": "ボイジャー",
+      "zh": "旅行者"
+    },
+    "height": {
+      "en": "127cm (First and Second Ascension) 148cm (Third Ascension)",
+      "ja": "127cm（第一、二再臨）148cm（第三再臨）",
+      "zh": "127cm（第一、二再临）148cm（第三再临）"
+    },
+    "weight": {
+      "en": "26kg (First and Second Ascension) 40cm (Third Ascension)",
+      "ja": "26kg（第一、二再臨）40cm（第三再臨）",
+      "zh": "26kg（第一、二再临）40cm（第三再临）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

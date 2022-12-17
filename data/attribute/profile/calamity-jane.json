@@ -14,6 +14,8 @@
     "class": "archer",
     "star": "star_4",
     "gender": "female",
+    "origin": "historical-fact",
+    "region": "servant-universe",
     "alignment": "chaotic-neutral",
     "strength.parameter": "c",
     "endurance.parameter": "a",
@@ -21,8 +23,10 @@
     "magic.parameter": "d",
     "luck.parameter": "a",
     "noble-phantasm.parameter": "d",
+    "character-setting": ["nasu-kinoko", "acpi"],
     "illustrator": "bsuke",
-    "character-voice": "touyama-nao"
+    "character-voice": "touyama-nao",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +34,28 @@
       "en": "Calamity Jane",
       "ja": "カラミティ・ジェーン",
       "zh": "灾星简"
+    },
+    "true-name": {
+      "en": "Calamity Jane (Historical fact: Martha Jane Canary)",
+      "ja": "カラミティ・ジェーン（史実：マーサ・ジェーン・カナリー）",
+      "zh": "灾星简（史实：玛莎·简·金丝雀）"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "60kg",
+      "ja": "60kg",
+      "zh": "60kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Tang",
+      "ja": "唐",
+      "zh": "唐"
+    }
+  }
+}

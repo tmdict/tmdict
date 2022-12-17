@@ -14,6 +14,8 @@
     "class": "lancer",
     "star": "star_4",
     "gender": "_na",
+    "origin": "greek-mythology",
+    "region": "europe",
     "alignment": "neutral-evil",
     "strength.parameter": "a",
     "endurance.parameter": "bp",
@@ -21,8 +23,10 @@
     "magic.parameter": "d",
     "luck.parameter": "b",
     "noble-phantasm.parameter": "c",
+    "character-setting": "sakurai-hikaru",
     "illustrator": "azusa",
-    "character-voice": "komatsu-mikako"
+    "character-voice": "komatsu-mikako",
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +34,28 @@
       "en": "Caenis",
       "ja": "カイニス",
       "zh": "凯妮斯"
+    },
+    "true-name": {
+      "en": "Caenis",
+      "ja": "カイニス",
+      "zh": "凯妮斯"
+    },
+    "height": {
+      "en": "174cm",
+      "ja": "174cm",
+      "zh": "174cm"
+    },
+    "weight": {
+      "en": "59kg",
+      "ja": "59kg",
+      "zh": "59kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

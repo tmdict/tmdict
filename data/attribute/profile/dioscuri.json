@@ -11,9 +11,10 @@
   ],
 
   "attribute": {
-    "class": "saber",
     "star": "star_5",
-    "gender": "_na",
+    "gender": ["male", "female"],
+    "origin": "greek-mythology",
+    "region": "around-the-mediterranean-sea",
     "alignment": "chaotic-neutral",
     "strength.parameter": "a",
     "endurance.parameter": "app",
@@ -21,8 +22,10 @@
     "magic.parameter": "c",
     "luck.parameter": "c",
     "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
     "illustrator": "taiki",
-    "character-voice": ["uchida-yuma", "uchida-maaya"]
+    "character-voice": ["uchida-yuma", "uchida-maaya"],
+    "major-appearances": "fate-grand-order"
   },
 
   "data": {
@@ -30,13 +33,33 @@
       "en": "Dioscuri",
       "ja": "ディオスクロイ",
       "zh": "狄俄斯库里"
+    },
+    "true-name": {
+      "en": "Dioscuri",
+      "ja": "ディオスクロイ",
+      "zh": "狄俄斯库里"
+    },
+    "height": {
+      "en": "175cm (Brother Castor) 175cm (Sister Pollux)",
+      "ja": "175cm（兄カストロ）175cm（妹ポルクス）",
+      "zh": "175cm（哥哥卡斯托耳）175cm（妹妹波鲁克斯）"
+    },
+    "weight": {
+      "en": "67kg (Brother Castor) 57cm (Sister Pollux)",
+      "ja": "67kg（兄カストロ）57cm（妹ポルクス）",
+      "zh": "67kg（哥哥卡斯托耳）57cm（妹妹波鲁克斯）"
+    },
+    "class": {
+      "en": "Saber (Avenger)",
+      "ja": "セイバー（アヴェンジャー）",
+      "zh": "Saber（Avenger）"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }

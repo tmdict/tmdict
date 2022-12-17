@@ -27,8 +27,8 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
-    "major-appearances": ["fate-stay-night", "fate-zero", "others"],
-    "related.profile": "altria-pendragon-archer"
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["altria-caster", "altria-pendragon-archer", "altria-pendragon-lily"]
   },
 
   "data": {

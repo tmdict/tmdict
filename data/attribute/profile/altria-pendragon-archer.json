@@ -27,7 +27,7 @@
     "illustrator": "takeuchi-takashi",
     "character-voice": "kawasumi-ayako",
     "major-appearances": "fate-grand-order",
-    "related.profile": "altria-pendragon"
+    "related.profile": ["altria-caster", "altria-pendragon", "altria-pendragon-lily"]
   },
 
   "data": {

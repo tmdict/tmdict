@@ -1,0 +1,11 @@
+{
+  "type": "character-setting",
+
+  "data": {
+    "name": {
+      "en": "OKSG",
+      "ja": "OKSG",
+      "zh": "OKSG"
+    }
+  }
+}

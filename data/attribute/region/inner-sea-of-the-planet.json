@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Inner Sea of the Planet",
+      "ja": "星の内海",
+      "zh": "星之内海"
+    }
+  }
+}

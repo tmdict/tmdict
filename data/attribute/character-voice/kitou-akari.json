@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Kitou Akari",
+      "ja": "鬼頭明里",
+      "zh": "鬼头明里"
+    }
+  }
+}

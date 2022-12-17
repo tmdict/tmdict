@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Shinshu Togakushi",
+      "ja": "信州戸隠",
+      "zh": "信州户隐"
+    }
+  }
+}

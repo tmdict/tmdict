@@ -13,7 +13,8 @@
   "attribute": {
     "class": "saber",
     "star": "star_5",
-    "gender": "_qm",
+    "origin": "legend-of-charlemagne",
+    "region": "france",
     "alignment": "chaotic-good",
     "strength.parameter": "cp",
     "endurance.parameter": "c",
@@ -21,8 +22,10 @@
     "magic.parameter": "b",
     "luck.parameter": "app",
     "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
     "illustrator": "konoe-ototsugu",
     "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-grand-order",
     "related.profile": "astolfo"
   },
 
@@ -31,14 +34,34 @@
       "en": "Astolfo (Saber)",
       "ja": "アストルフォ（セイバー）",
       "zh": "阿斯托尔福（Saber）"
+    },
+    "true-name": {
+      "en": "Astolfo",
+      "ja": "アストルフォ",
+      "zh": "阿斯托尔福"
+    },
+    "height": {
+      "en": "164cm",
+      "ja": "164cm",
+      "zh": "164cm"
+    },
+    "weight": {
+      "en": "56kg",
+      "ja": "56kg",
+      "zh": "56kg"
+    },
+    "gender": {
+      "en": "??? (Per Astolfo’s request, their gender is a secret)",
+      "ja": "？？？（本人の要望により秘密）",
+      "zh": "？？？（基于本人的意愿，对外保密）"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
     ["related.profile"]
   ]
 }

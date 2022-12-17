@@ -15,7 +15,7 @@
     "star": "star_5",
     "gender": "female",
     "origin": "historical-fact",
-    "region": "china",
+    "region": ["china", "tang"],
     "alignment": "chaotic-good",
     "strength.parameter": "d",
     "endurance.parameter": "c",
@@ -23,7 +23,7 @@
     "magic.parameter": "a",
     "luck.parameter": "d",
     "noble-phantasm.parameter": "bp",
-    "character-setting": "_missing",
+    "character-setting": "hoshizora-meteo",
     "illustrator": "kuroboshi-kouhaku",
     "character-voice": "yoshimura-haruka",
     "major-appearances": "fate-grand-order"
@@ -36,9 +36,9 @@
       "zh": "杨贵妃"
     },
     "true-name": {
-      "en": "Yang Guifei",
-      "ja": "楊貴妃",
-      "zh": "杨贵妃"
+      "en": "Yang Yuhuan",
+      "ja": "楊玉環（ヤン・ユーファン）",
+      "zh": "杨玉环"
     },
     "height": {
       "en": "155cm",

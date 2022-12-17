@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "284:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0284a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0284b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0284c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0284d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0284e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": ["inner-sea-of-the-planet", "raging-waters-of-tintagel"],
+    "alignment": "neutral-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "app",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["altria-pendragon", "altria-pendragon-archer", "altria-pendragon-lily"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Altria Caster",
+      "ja": "アルトリア・キャスター",
+      "zh": "阿尔托莉雅·卡斯特"
+    },
+    "true-name": {
+      "en": "Altria Avalon",
+      "ja": "アルトリア・アヴァロン",
+      "zh": "阿尔托莉雅·阿瓦隆"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

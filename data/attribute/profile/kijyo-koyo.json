@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "282:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0282a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0282b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0282c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0282d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0282e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "legend-of-momiji",
+    "region": ["japan", "shinshu-togakushi"],
+    "alignment": "neutral-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "noco",
+    "character-voice": "hikasa-youko",
+    "major-appearances": ["fate-requiem", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Kijyo Koyo",
+      "ja": "鬼女紅葉",
+      "zh": "鬼女红叶"
+    },
+    "true-name": {
+      "en": "Kureha",
+      "ja": "呉羽（くれは）",
+      "zh": "吴羽"
+    },
+    "height": {
+      "en": "234cm (First Ascension, height does not include horns) / 172cm (Second Ascension) / 178cm (Third Ascension)",
+      "ja": "234cm（第一再臨・ツノを含まない体高） / 172cm（第二再臨） / 178cm（第三再臨）",
+      "zh": "234cm（第一再临·不包括角的体高） / 172cm（第二再临） / 178cm（第三再临）"
+    },
+    "weight": {
+      "en": "450kg (First Ascension, height does not include horns) / 56cm (Second Ascension) / 69cm (Third Ascension)",
+      "ja": "450kg（第一再臨・ツノを含まない体高） / 56cm（第二再臨） / 69cm（第三再臨）",
+      "zh": "450kg（第一再临·不包括角的体高） / 56cm（第二再临） / 69cm（第三再临）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

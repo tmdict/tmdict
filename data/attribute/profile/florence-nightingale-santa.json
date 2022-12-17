@@ -12,6 +12,8 @@
     "class": "archer",
     "star": "star_4",
     "gender": "female",
+    "origin": "historical-fact",
+    "region": "europe",
     "alignment": "lawful-good",
     "strength.parameter": "dp",
     "endurance.parameter": "bp",
@@ -19,8 +21,10 @@
     "magic.parameter": "dp",
     "luck.parameter": "ap",
     "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
     "illustrator": "takahashi-keitarou",
     "character-voice": "sawashiro-miyuki",
+    "major-appearances": "fate-grand-order",
     "related.profile": "nightingale"
   },
 
@@ -29,14 +33,29 @@
       "en": "Florence Nightingale (Santa)",
       "ja": "ナイチンゲール（サンタ）",
       "zh": "南丁格尔（圣诞）"
+    },
+    "true-name": {
+      "en": "Florence Nightingale (Santa)",
+      "ja": "フローレンス・ナイチンゲール（サンタ）",
+      "zh": "弗罗伦斯·南丁格尔（圣诞）"
+    },
+    "height": {
+      "en": "165cm",
+      "ja": "165cm",
+      "zh": "165cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
     ["related.profile"]
   ]
 }

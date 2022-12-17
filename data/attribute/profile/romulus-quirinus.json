@@ -13,7 +13,9 @@
   "attribute": {
     "class": "lancer",
     "star": "star_5",
-    "gender": "male",
+    "gender": "_na",
+    "origin": "roman-mythology",
+    "region": "europe",
     "alignment": "chaotic-neutral",
     "strength.parameter": "a",
     "endurance.parameter": "c",
@@ -21,8 +23,11 @@
     "magic.parameter": "bpp",
     "luck.parameter": "ex",
     "noble-phantasm.parameter": "a",
+    "character-setting": "sakurai-hikaru",
     "illustrator": "koyama-hirokazu",
-    "character-voice": "okiayu-ryoutarou"
+    "character-voice": "okiayu-ryoutarou",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "romulus"
   },
 
   "data": {
@@ -30,13 +35,29 @@
       "en": "Romulus=Quirinus",
       "ja": "ロムルス＝クィリヌス",
       "zh": "罗穆路斯·奎里努斯"
+    },
+    "true-name": {
+      "en": "Romulus=Quirinus",
+      "ja": "ロムルス＝クィリヌス",
+      "zh": "罗穆路斯·奎里努斯"
+    },
+    "height": {
+      "en": "185cm",
+      "ja": "185cm",
+      "zh": "185cm"
+    },
+    "weight": {
+      "en": "73kg",
+      "ja": "73kg",
+      "zh": "73kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
   ]
 }
