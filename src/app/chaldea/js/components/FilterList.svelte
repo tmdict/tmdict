@@ -30,7 +30,7 @@
   let searchTerm = '';
   const searchOptions = {
     includeMatches: true,
-    minMatchCharLength: 3,
+    minMatchCharLength: 2,
     findAllMatches: true,
     shouldSort: true,
     ignoreLocation: true,

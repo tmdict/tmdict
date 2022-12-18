@@ -7,7 +7,7 @@
   // Initialize search
   const fuse = new Fuse(data.search, {
     includeMatches: true,
-    minMatchCharLength: 3,
+    minMatchCharLength: 2,
     findAllMatches: true,
     shouldSort: true,
     ignoreLocation: true,
