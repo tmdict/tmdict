@@ -43,8 +43,10 @@
   {#each searchResults as result}
     <div class="result">
       <div class="title">{@html result.title}</div>
-      <div class="url"><a href={result.url}>{result.url}</a></div>
-      <div class="text">{@html truncateString(result.text, 1000)}</div>
+      <a href={result.url}>
+        <div class="url">{result.url}</div>
+        <div class="text">{@html truncateString(result.text, 1000)}</div>
+      </a>
     </div>
   {/each}
 </div>
