@@ -80,12 +80,12 @@ export default class Builder {
   };
 
   /** Compiles SCSS into CSS */
-  buildCss = (paths: AppPaths, scss: string[]): void => {
+  buildCss = (paths: AppPaths, scss: string[], uuid = ''): void => {
     console.log(`Building css`);
     scss.forEach((file) => {
       try {
         const result = sass.compile(`${paths.src}/css/${file}.scss`, { style: 'compressed' });
-        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}.css`);
+        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${uuid}.css`);
       } catch (err) {
         console.log(`[ERROR css]: ${err}`);
       }
@@ -106,10 +106,11 @@ export default class Builder {
     templates: { [key: string]: string },
     data: any,
     level: string,
-    path = '.'
+    path = '.',
+    uuid = ''
   ): void => {
     console.log(`Building ${path} app data`);
-    const templateData = { level: level, path: path };
+    const templateData = { level: level, path: path, uuid: uuid };
     const tmp = `${paths.src}/__tmp`;
     this.toTemplate(templates['app.html'], `${paths.dist}/${path}/index.html`, templateData);
     this.toTemplate(templates['app.js'].replace(/^ +/gm, ''), `${tmp}/js/${path}/app.js`, templateData);
@@ -123,7 +124,9 @@ export default class Builder {
     page: EntryContent,
     lang: string,
     nav: any,
-    ext: string
+    ext: string,
+    uuid = '',
+    hash = ''
   ): void => {
     const path = `${appConfig.paths.dist}/${lang}`;
     this.toTemplate(templates['page.html'], `${path}/${page.id}.html`, {
@@ -142,6 +145,8 @@ export default class Builder {
       app: appConfig.app,
       level: '../',
       ext: ext,
+      uuid: uuid,
+      hash: hash
     });
   };
 
@@ -154,7 +159,8 @@ export default class Builder {
     lang: string,
     nav: any,
     sidebar: any,
-    ext: string
+    ext: string,
+    uuid = ''
   ): void => {
     const en = entryData.attribute.en;
     const ja = entryData.attribute.ja;
@@ -180,6 +186,7 @@ export default class Builder {
       app: appConfig.app,
       level: '../',
       ext: ext,
+      uuid: uuid,
     });
   };
 

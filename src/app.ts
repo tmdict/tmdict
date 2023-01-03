@@ -1,3 +1,4 @@
+import * as crypto from 'crypto';
 import * as _ from 'lodash';
 import { builder } from './builder';
 import { loader } from './loader';
@@ -138,13 +139,16 @@ export default class App {
   tmdict = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: tmdict');
 
+    const uuid = '-' + crypto.randomUUID();
+    console.log('\nUUID: ' + uuid);
+
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
     const contentData: any = loader.loadContentData(appConfig.paths);
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img);
-    builder.buildCss(appConfig.paths, appConfig.paths.css);
+    builder.buildCss(appConfig.paths, appConfig.paths.css, uuid);
     builder.buildRaw(appConfig.paths, appConfig.content);
 
     // Output JS used by the App
@@ -153,17 +157,6 @@ export default class App {
     // Preoprocess navigation data
     const ext = env === 'production' ? '' : '.html';
     const nav = parser.parseAlphabetNav(attrData);
-
-    // Build pages
-    console.log(`Building static html pages`);
-    const pageData = Object.keys(attrData['page'])
-      .map((id: string) => parser.parseEntry(id, 'page', attrData, env, contentData))
-      .filter((p) => p.attribute.id === 'tmdict');
-    pageData[0].content.forEach((page) => {
-      Object.keys(page.i18n).forEach((lang) => {
-        builder.buildPageWithSidebarHtml(appConfig, templates, page, lang, nav, ext);
-      });
-    });
 
     // Build entries
     console.log(`Parsing entries`);
@@ -247,7 +240,8 @@ export default class App {
           lang,
           nav,
           sortedSidebar,
-          ext
+          ext,
+          uuid
         );
         // Aggregate search data
         const content = entryData.content
@@ -276,16 +270,31 @@ export default class App {
     console.log(`...Built sitemap`);
 
     // Build search
+    const searchHash = '-' + crypto.createHash('md5').update(JSON.stringify(searchData)).digest('hex');
+    console.log('\nSearch Hash: ' + searchHash);
     Object.keys(appConfig.app.lang).forEach((lang: string) => {
       const tmp = `${appConfig.paths.src}/__tmp`;
       // Generates JSON data (as js files) to be consumed by the js app
-      builder.toJsExport(`${tmp}/data/${lang}/search.js`, {
+      builder.toJsExport(`${tmp}/data/${lang}/search${searchHash}.js`, {
         search: searchData[lang],
         lang: lang,
       });
       // Generates js file for search
-      builder.toTemplate(templates['search.js'].replace(/^ +/gm, ''), `${tmp}/js/${lang}/search.js`, {
+      builder.toTemplate(templates['search.js'].replace(/^ +/gm, ''), `${tmp}/js/${lang}/search${searchHash}.js`, {
         path: lang,
+        uuid: searchHash,
+      });
+    });
+    console.log(`...Built search data`);
+
+    // Build pages
+    console.log(`Building static html pages`);
+    const pageData = Object.keys(attrData['page'])
+      .map((id: string) => parser.parseEntry(id, 'page', attrData, env, contentData))
+      .filter((p) => p.attribute.id === 'tmdict');
+    pageData[0].content.forEach((page) => {
+      Object.keys(page.i18n).forEach((lang) => {
+        builder.buildPageWithSidebarHtml(appConfig, templates, page, lang, nav, ext, uuid, searchHash);
       });
     });
 
@@ -305,7 +314,8 @@ export default class App {
           env: env,
         },
         '../',
-        lang
+        lang,
+        uuid
       );
     });
   };
@@ -314,13 +324,16 @@ export default class App {
   book = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: book');
 
+    const uuid = '-' + crypto.randomUUID();
+    console.log('\nUUID: ' + uuid);
+
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
     const contentData: any = loader.loadContentData(appConfig.paths);
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img);
-    builder.buildCss(appConfig.paths, appConfig.paths.css);
+    builder.buildCss(appConfig.paths, appConfig.paths.css, uuid);
 
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP');
@@ -363,7 +376,9 @@ export default class App {
         .sort((a: any, b: any) => {
           return a.source.weight - b.source.weight;
         }),
-      ''
+      '',
+      '.',
+      uuid
     );
   };
 }

@@ -4,14 +4,16 @@
 
   export let data;
 
+  let minChar = data.lang === 'en' ? 3 : 2;
+
   // Initialize search
   const fuse = new Fuse(data.search, {
+    includeScore: true,
     includeMatches: true,
-    minMatchCharLength: 2,
-    findAllMatches: true,
+    minMatchCharLength: minChar,
+    threshold: 0.0,
     shouldSort: true,
     ignoreLocation: true,
-    threshold: 0.0,
     keys: ['text', 'title'],
   });
 
@@ -20,11 +22,10 @@
   });
 
   let searchResults = [];
-  if (params.q !== '') {
+  if (params.q !== null && params.q.length > 0) {
     const results = fuse.search(params.q);
     if (results.length > 0) {
       // Highlight and return search results
-      console.log(results);
       searchResults = structuredClone(highlight(results));
     }
   }

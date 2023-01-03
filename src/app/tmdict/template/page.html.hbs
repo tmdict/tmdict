@@ -8,7 +8,7 @@
 
   <link rel="canonical" href="https://www.tmdict.com/{{lang}}/{{attribute.id}}" />
   <link rel="shortcut icon" href="{{level}}favicon.ico" />
-  <link rel='stylesheet' href='{{level}}src/css/bamboo.css'/>
+  <link rel='stylesheet' href='{{level}}src/css/bamboo{{uuid}}.css'/>
 </head>
 <body>
   <div id="container">
@@ -60,6 +60,6 @@
   </div>
 </body>
 {{#if (equals attribute.id 'search')}}
-  <script defer type='module' src='{{level}}src/js/{{lang}}/search.js'></script>
+  <script defer type='module' src='{{level}}src/js/{{lang}}/search{{hash}}.js'></script>
 {{/if}}
 </html>
