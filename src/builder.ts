@@ -107,14 +107,15 @@ export default class Builder {
     data: any,
     level: string,
     path = '.',
-    uuid = ''
+    uuid = '',
+    appHash = ''
   ): void => {
     console.log(`Building ${path} app data`);
-    const templateData = { level: level, path: path, uuid: uuid };
+    const templateData = { level: level, path: path, uuid: uuid, appHash: appHash };
     const tmp = `${paths.src}/__tmp`;
     this.toTemplate(templates['app.html'], `${paths.dist}/${path}/index.html`, templateData);
-    this.toTemplate(templates['app.js'].replace(/^ +/gm, ''), `${tmp}/js/${path}/app.js`, templateData);
-    this.toJsExport(`${tmp}/data/${path}/app.js`, data);
+    this.toTemplate(templates['app.js'].replace(/^ +/gm, ''), `${tmp}/js/${path}/app${appHash}.js`, templateData);
+    this.toJsExport(`${tmp}/data/${path}/app${appHash}.js`, data);
   };
 
   /** Build static HTML page with sidebar */
@@ -126,7 +127,7 @@ export default class Builder {
     nav: any,
     ext: string,
     uuid = '',
-    hash = ''
+    searchHash = ''
   ): void => {
     const path = `${appConfig.paths.dist}/${lang}`;
     this.toTemplate(templates['page.html'], `${path}/${page.id}.html`, {
@@ -146,7 +147,7 @@ export default class Builder {
       level: '../',
       ext: ext,
       uuid: uuid,
-      hash: hash
+      searchHash: searchHash
     });
   };
 

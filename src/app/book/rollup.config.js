@@ -3,6 +3,7 @@ import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
+import multiInput from 'rollup-plugin-multi-input';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 
@@ -10,14 +11,15 @@ const production = !process.env.ROLLUP_WATCH;
 const appConfig = JSON.parse(fs.readFileSync(`${__dirname}/config.json`, 'utf8'));
 
 export default {
-  input: `${__dirname}/__tmp/js/app.js`,
+  input: [`${__dirname}/__tmp/js/**/*.js`],
   output: {
     sourcemap: true,
     format: 'iife',
     name: 'app',
-    file: `${appConfig.paths.dist}/src/js/app.js`,
+    dir: `${appConfig.paths.dist}/src`,
   },
   plugins: [
+    multiInput({ relative: `${appConfig.paths.src}/__tmp/` }),
     svelte({
       compilerOptions: {
         // enable run-time checks when not in production

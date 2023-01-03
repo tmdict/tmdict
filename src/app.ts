@@ -304,6 +304,8 @@ export default class App {
       const fl = parsedData.filterlist.map((entry) => {
         return _.merge(_.omit(entry, 'name'), { name: entry.name[lang] });
       });
+      const appHash = '-' + crypto.createHash('md5').update(JSON.stringify(fl)).digest('hex');
+      console.log('\nApp Hash: ' + appHash);
       builder.buildAppData(
         appConfig.paths,
         templates,
@@ -315,7 +317,8 @@ export default class App {
         },
         '../',
         lang,
-        uuid
+        uuid,
+        appHash
       );
     });
   };
@@ -367,6 +370,9 @@ export default class App {
       parsedData[id].entries.sort((a: EntryContent, b: EntryContent) => a.weight - b.weight);
     });
 
+    const appHash = '-' + crypto.createHash('md5').update(JSON.stringify(parsedData)).digest('hex');
+    console.log('\nApp Hash: ' + appHash);
+
     // Build book data
     builder.buildAppData(
       appConfig.paths,
@@ -378,7 +384,8 @@ export default class App {
         }),
       '',
       '.',
-      uuid
+      uuid,
+      appHash
     );
   };
 }
