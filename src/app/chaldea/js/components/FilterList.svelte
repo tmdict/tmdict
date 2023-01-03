@@ -31,7 +31,6 @@
   const searchOptions = {
     includeMatches: true,
     minMatchCharLength: 2,
-    findAllMatches: true,
     shouldSort: true,
     ignoreLocation: true,
     threshold: 0.0,

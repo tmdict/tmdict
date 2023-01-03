@@ -139,17 +139,14 @@ export default class App {
   tmdict = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: tmdict');
 
-    const uuid = '-' + Date.now();
-    console.log('\nUUID: ' + uuid);
-
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
     const contentData: any = loader.loadContentData(appConfig.paths);
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img);
-    builder.buildCss(appConfig.paths, appConfig.paths.css, uuid);
     builder.buildRaw(appConfig.paths, appConfig.content);
+    const cssHash = builder.buildCss(appConfig.paths, appConfig.paths.css);
 
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP');
@@ -241,7 +238,7 @@ export default class App {
           nav,
           sortedSidebar,
           ext,
-          uuid
+          cssHash
         );
         // Aggregate search data
         const content = entryData.content
@@ -271,7 +268,7 @@ export default class App {
 
     // Build search
     const searchHash = '-' + crypto.createHash('md5').update(JSON.stringify(searchData)).digest('hex');
-    console.log('\nSearch Hash: ' + searchHash);
+    console.log('Search hash: ' + searchHash);
     Object.keys(appConfig.app.lang).forEach((lang: string) => {
       const tmp = `${appConfig.paths.src}/__tmp`;
       // Generates JSON data (as js files) to be consumed by the js app
@@ -282,7 +279,7 @@ export default class App {
       // Generates js file for search
       builder.toTemplate(templates['search.js'].replace(/^ +/gm, ''), `${tmp}/js/${lang}/search${searchHash}.js`, {
         path: lang,
-        uuid: searchHash,
+        searchHash: searchHash,
       });
     });
     console.log(`...Built search data`);
@@ -294,7 +291,7 @@ export default class App {
       .filter((p) => p.attribute.id === 'tmdict');
     pageData[0].content.forEach((page) => {
       Object.keys(page.i18n).forEach((lang) => {
-        builder.buildPageWithSidebarHtml(appConfig, templates, page, lang, nav, ext, uuid, searchHash);
+        builder.buildPageWithSidebarHtml(appConfig, templates, page, lang, nav, ext, cssHash, searchHash);
       });
     });
 
@@ -305,7 +302,7 @@ export default class App {
         return _.merge(_.omit(entry, 'name'), { name: entry.name[lang] });
       });
       const appHash = '-' + crypto.createHash('md5').update(JSON.stringify(fl)).digest('hex');
-      console.log('\nApp Hash: ' + appHash);
+      console.log('App hash: ' + appHash);
       builder.buildAppData(
         appConfig.paths,
         templates,
@@ -317,7 +314,7 @@ export default class App {
         },
         '../',
         lang,
-        uuid,
+        cssHash,
         appHash
       );
     });
@@ -327,16 +324,13 @@ export default class App {
   book = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: book');
 
-    const uuid = '-' + Date.now();
-    console.log('\nUUID: ' + uuid);
-
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
     const contentData: any = loader.loadContentData(appConfig.paths);
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img);
-    builder.buildCss(appConfig.paths, appConfig.paths.css, uuid);
+    const cssHash = builder.buildCss(appConfig.paths, appConfig.paths.css);
 
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP');
@@ -371,7 +365,7 @@ export default class App {
     });
 
     const appHash = '-' + crypto.createHash('md5').update(JSON.stringify(parsedData)).digest('hex');
-    console.log('\nApp Hash: ' + appHash);
+    console.log('App hash: ' + appHash);
 
     // Build book data
     builder.buildAppData(
@@ -384,7 +378,7 @@ export default class App {
         }),
       '',
       '.',
-      uuid,
+      cssHash,
       appHash
     );
   };

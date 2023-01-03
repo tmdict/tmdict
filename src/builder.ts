@@ -1,3 +1,4 @@
+import * as crypto from 'crypto';
 import * as fs from 'fs-extra';
 import * as handlebars from 'handlebars';
 import * as sass from 'sass';
@@ -80,16 +81,20 @@ export default class Builder {
   };
 
   /** Compiles SCSS into CSS */
-  buildCss = (paths: AppPaths, scss: string[], uuid = ''): void => {
+  buildCss = (paths: AppPaths, scss: string[]): string => {
     console.log(`Building css`);
+    let cssHash = ''
     scss.forEach((file) => {
       try {
         const result = sass.compile(`${paths.src}/css/${file}.scss`, { style: 'compressed' });
-        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${uuid}.css`);
+        cssHash = '-' + crypto.createHash('md5').update(result.css).digest('hex');
+        console.log(`CSS / ${file} hash: ${cssHash}`);
+        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${cssHash}.css`);
       } catch (err) {
         console.log(`[ERROR css]: ${err}`);
       }
     });
+    return cssHash;
   };
 
   /** Generate raw data to `output` dir */
@@ -107,11 +112,11 @@ export default class Builder {
     data: any,
     level: string,
     path = '.',
-    uuid = '',
+    cssHash = '',
     appHash = ''
   ): void => {
     console.log(`Building ${path} app data`);
-    const templateData = { level: level, path: path, uuid: uuid, appHash: appHash };
+    const templateData = { level: level, path: path, cssHash: cssHash, appHash: appHash };
     const tmp = `${paths.src}/__tmp`;
     this.toTemplate(templates['app.html'], `${paths.dist}/${path}/index.html`, templateData);
     this.toTemplate(templates['app.js'].replace(/^ +/gm, ''), `${tmp}/js/${path}/app${appHash}.js`, templateData);
@@ -126,7 +131,7 @@ export default class Builder {
     lang: string,
     nav: any,
     ext: string,
-    uuid = '',
+    cssHash = '',
     searchHash = ''
   ): void => {
     const path = `${appConfig.paths.dist}/${lang}`;
@@ -146,7 +151,7 @@ export default class Builder {
       app: appConfig.app,
       level: '../',
       ext: ext,
-      uuid: uuid,
+      cssHash: cssHash,
       searchHash: searchHash
     });
   };
@@ -161,7 +166,7 @@ export default class Builder {
     nav: any,
     sidebar: any,
     ext: string,
-    uuid = ''
+    cssHash = ''
   ): void => {
     const en = entryData.attribute.en;
     const ja = entryData.attribute.ja;
@@ -187,7 +192,7 @@ export default class Builder {
       app: appConfig.app,
       level: '../',
       ext: ext,
-      uuid: uuid,
+      cssHash: cssHash,
     });
   };
 
