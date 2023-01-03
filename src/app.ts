@@ -139,7 +139,7 @@ export default class App {
   tmdict = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: tmdict');
 
-    const uuid = '-' + crypto.randomUUID();
+    const uuid = '-' + Date.now();
     console.log('\nUUID: ' + uuid);
 
     // Load attributes and content
@@ -324,7 +324,7 @@ export default class App {
   book = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: book');
 
-    const uuid = '-' + crypto.randomUUID();
+    const uuid = '-' + Date.now();
     console.log('\nUUID: ' + uuid);
 
     // Load attributes and content
