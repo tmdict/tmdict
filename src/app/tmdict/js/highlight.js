@@ -38,6 +38,16 @@ export function highlight(searchResult, highlightClassName = 'search-highlight')
     return content
   }
 
+  // Truncate result (text only) using first result index as starting point
+  const truncateText = (inputText, match, maxLength = 400) => {
+    if (inputText.length <= maxLength || match.key !== 'text') {
+      return inputText;
+    }
+    const start = Math.max(0, match.indices[0][0] - 50);
+    const pre = start === 0 ? '' : '...'
+    return pre + inputText.slice(start, start + maxLength) + '...';
+  }
+
   return searchResult
     .filter(({ matches }) => matches && matches.length)
     .map(({ item, matches }) => {
@@ -45,7 +55,8 @@ export function highlight(searchResult, highlightClassName = 'search-highlight')
       // For each match, highlight the search result item
       matches.forEach((match) => {
         const highlight = generateHighlightedText(match.value, match.indices)
-        set(highlightedItem, match, highlight)
+        const truncate = truncateText(highlight, match)
+        set(highlightedItem, match, truncate)
       })
       return highlightedItem
     })
