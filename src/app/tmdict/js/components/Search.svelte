@@ -52,8 +52,8 @@
   {#each searchResults as result}
     <div class="result">
       <div class="title">{@html result.title}</div>
-      <a href={result.url}>
-        <div class="url">{result.url}</div>
+      <a href="https://www.tmdict.com/{data.lang}/{result.url}">
+        <div class="url">https://www.tmdict.com/{data.lang}/{result.url}</div>
         <div class="text">{@html result.text}</div>
       </a>
     </div>

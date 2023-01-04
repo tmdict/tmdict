@@ -252,7 +252,7 @@ export default class App {
             .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
             .replace(/<p>|<\/p>|<li>|<\/li>|<ol>|<\/ol>|<ul>|<\/ul>|<br>/g, ' '),
           title: entryData.attribute.attr.name[lang],
-          url: `https://www.tmdict.com/${lang}/${entryData.attribute.ja}.${entryData.attribute.id}${ext}`,
+          url: `${entryData.attribute.ja}.${entryData.attribute.id}${ext}`,
         });
         sitemap.push({
           changefreq: 'monthly',
