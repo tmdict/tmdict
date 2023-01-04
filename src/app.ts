@@ -16,7 +16,7 @@ export default class App {
 
     // Build assets, img, css, etc.
     builder.buildAssets(appConfig.paths, appConfig.paths.img, true);
-    builder.buildCss(appConfig.paths, appConfig.paths.css);
+    builder.buildCss(appConfig.paths, appConfig.paths.css, false);
 
     // Output JS used by the App
     builder.toJsExport(`${appConfig.paths.src}/__tmp/data/constants.js`, appConfig.app, 'APP');

@@ -9,8 +9,8 @@
   const queryTooShort = {
     en: `…Keyword must be longer than ${minChar - 1} characters`,
     zh: `…关键字必须长于${minChar - 1}`,
-    ja: `…キーワードは${minChar - 1}より長くする必要があります`
-  }
+    ja: `…キーワードは${minChar - 1}より長くする必要があります`,
+  };
 
   const params = new Proxy(new URLSearchParams(window.location.search), {
     get: (searchParams, prop) => searchParams.get(prop),
@@ -24,12 +24,12 @@
   }
 
   const fuse = new Fuse(data.search, {
-    includeScore: true,
-    includeMatches: true,
-    threshold: 0.0,
-    shouldSort: true,
     ignoreLocation: true,
+    includeMatches: true,
+    includeScore: true,
     minMatchCharLength: minMatchCharLen,
+    shouldSort: true,
+    threshold: 0.0,
     keys: ['text', 'title'],
   });
 

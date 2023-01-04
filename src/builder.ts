@@ -81,14 +81,16 @@ export default class Builder {
   };
 
   /** Compiles SCSS into CSS */
-  buildCss = (paths: AppPaths, scss: string[]): string => {
+  buildCss = (paths: AppPaths, scss: string[], useHash = true): string => {
     console.log(`Building css`);
-    let cssHash = ''
+    let cssHash = '';
     scss.forEach((file) => {
       try {
         const result = sass.compile(`${paths.src}/css/${file}.scss`, { style: 'compressed' });
-        cssHash = '-' + crypto.createHash('md5').update(result.css).digest('hex');
-        console.log(`CSS / ${file} hash: ${cssHash}`);
+        if (useHash) {
+          cssHash = '-' + crypto.createHash('md5').update(result.css).digest('hex');
+          console.log(`CSS / ${file} hash: ${cssHash}`);
+        }
         outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${cssHash}.css`);
       } catch (err) {
         console.log(`[ERROR css]: ${err}`);
@@ -152,7 +154,7 @@ export default class Builder {
       level: '../',
       ext: ext,
       cssHash: cssHash,
-      searchHash: searchHash
+      searchHash: searchHash,
     });
   };
 

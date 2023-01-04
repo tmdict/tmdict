@@ -29,10 +29,9 @@
   // Initialize search options
   let searchTerm = '';
   const searchOptions = {
-    includeMatches: true,
-    minMatchCharLength: 2,
-    shouldSort: true,
     ignoreLocation: true,
+    includeMatches: true,
+    shouldSort: true,
     threshold: 0.0,
   };
 
@@ -92,9 +91,9 @@
         case 'uid': {
           return $sortBy.order === '▲'
             ? parseFloat(a[$sortBy.id].split(':')[0]) - parseFloat(b[$sortBy.id].split(':')[0]) ||
-                a['name'][$activeLang].localeCompare(b['name'][$activeLang])
+                b['name'][$activeLang].localeCompare(a['name'][$activeLang])
             : parseFloat(b[$sortBy.id].split(':')[0]) - parseFloat(a[$sortBy.id].split(':')[0]) ||
-                b['name'][$activeLang].localeCompare(a['name'][$activeLang]);
+                a['name'][$activeLang].localeCompare(b['name'][$activeLang]);
         }
         case 'name': {
           // Sorts by name in current language
@@ -128,9 +127,10 @@
     let filteredContent = structuredClone(data.content.filter(isEntryFiltered));
     let searchedSortedEntryList = structuredClone(sortByCurrentId(filteredContent));
     if (data.attribute.type === 'glossary') {
-      if (searchTerm !== '') {
+      if (searchTerm !== '' && searchTerm.length > 1) {
         const fuse = new Fuse(filteredContent, {
           ...searchOptions,
+          minMatchCharLength: searchTerm.length,
           keys: ['name.' + $activeLang, 'content.' + $activeLang + '.html'],
         });
         const results = fuse.search(searchTerm);
