@@ -27,7 +27,7 @@ TMdictはエンサイクロペディアやWikiのような総合的な情報サ�
 このサイトの翻訳には複数の翻訳者の方々のご協力を頂いており、誤訳や矛盾をなくすため、訳文のチェックと編集を実施しています。その際、元の翻訳に忠実であることを心がけ、変更は最小限にとどめています。
 
 - <span class="highlight">Fate用語辞典:</span>
-  <a href="http://z13.invisionfree.com/Mobius_Space/index.php?act=idx">food</a>，<a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://tieba.baidu.com/f?kw=%D4%C2%D2%B9%D6%AE%BF%D5">十三维</a>
+  <a href="http://z13.invisionfree.com/Mobius_Space/index.php?act=idx">food</a>，<a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://tieba.baidu.com/f?kw=%D4%C2%D2%B9%D6%AE%BF%D5">十三维</a>，<a href="https://tieba.baidu.com/p/1504291610">路过的零</a>
 - <span class="highlight">Fate/Apocrypha用語辞典:</span>
   <a href="https://fateapocryphathetranslation.wordpress.com/side-materials/fateapocrypha-material/">Eternal Dreamer</a> / <a href="https://bbs.sumisora.net/read.php?tid=11071116">譯月漢化小组</a>
 - <span class="highlight">Fate EXTELLA用語辞典:</span>

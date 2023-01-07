@@ -1,6 +1,8 @@
 <div class="page-content">
   <h4 style="border-top:0">ニュース</h4>
 
+  <h5>2022-12-11</h5>
+
   <p>For this last update of the year, we are introducing some major changes to <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>: from now on CHALDEAの記録 will no longer carry contents that come directly from the FGO game, this includes some servant in-game profiles, as well as all CE data (these contents are widely available on many sites and wiki, we recommend checking out <a href="https://apps.atlasacademy.io/db/">Atlas Academy DB</a>).</p>
 
   <p>The old Servant section is repurposed into a more generic <a href="https://chaldea.tmdict.com/profile/">Character Profile section</a>, which will focus on profile translations found in material books from the wider Type-Moon universe. We’ve also added <a href="https://chaldea.tmdict.com/glossary/">all glossary data to the site</a>, presented in a more modern and (hopefully) user-friendly interface, think of it as what a modern version of TMdict could look like!</p>

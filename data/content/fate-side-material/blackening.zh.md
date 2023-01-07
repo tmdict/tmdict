@@ -4,12 +4,12 @@ source: fate-side-material
 id: fate-encyclopedia
 language: zh
 weight: 29
-translation: "zqh1985"
+translation: "路过的零"
 category:
 - other
 ---
 
-被正体不明的诅咒污染，外貌改变了。
-主要是Servant会黑化，被污染的Servant属性性格会反转。
-因为能给予作为确实的使魔的肉身，所以会成为更强力的Servant。
-虽与邪恶组织的再生怪人相似，但某个人，大幅改变设计几乎作为新人物登场。
+被原形不明的诅咒污染，外貌所产生的变化。
+如果是从者的黑化，被污染的从者属性和性格也会反转。
+能确实给予使魔肉身，变成更强有力的从者。
+和邪恶组织的再生怪人类似,不过其中一位被大幅变更设计，变成新角色登场了。

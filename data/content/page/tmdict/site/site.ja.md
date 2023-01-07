@@ -37,10 +37,10 @@ These changes allow us to focus on more important and interesting contents (as o
 Finally, we’ve also updated the site’s backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!
 
 - Changed Servant section in CHALDEAの記録 to Character Profile.
-- Changed search engine from Tipue Search to Fuse.js.
 - Added Crypters, Surtr, and a few side character profiles from FGOM7 and 8 to CHALDEAの記録.
 - Added Luminary profile from Katatuki Kouhon to CHALDEAの記録.
 - Removed CE section from CHALDEAの記録.
+- Updated search engine.
 - General site improvement.
 
 **2022-11-27**
