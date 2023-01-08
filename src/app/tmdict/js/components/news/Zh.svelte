@@ -1,6 +1,15 @@
 <div class="page-content">
   <h4 style="border-top:0">网站新闻</h4>
 
+  <h5>2023-01-08</h5>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>更新CHALDEAの記録人物简介到FGO Material 10。</li>
+    <li>修改了Fate/side material的中文翻译。</li>
+  </ul>
+
   <h5>2022-12-11</h5>
 
   <p>这是今年最后一次更新，在此<a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>将会有一些重大的改变：它将不再收录来自FGO游戏里的内容。这包括部分英灵的游戏数据，以及所有礼装相关的数据（这些信息可以在很多网站和wiki上找到，我们推荐<a href="https://apps.atlasacademy.io/db/">Atlas Academy DB</a>）。</p>

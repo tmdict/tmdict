@@ -1,6 +1,15 @@
 <div class="page-content">
   <h4 style="border-top:0">Site News</h4>
 
+  <h5>2023-01-08</h5>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>Update CHALDEAの記録 to include character profiles up to FGO Material 10.</li>
+    <li>Fixed Chinese translations for Fate/side material.</li>
+  </ul>
+
   <h5>2022-12-11</h5>
 
   <p>For this last update of the year, we are introducing some major changes to <a href="https://chaldea.tmdict.com/">CHALDEAの記録</a>: from now on CHALDEAの記録 will no longer carry contents that come directly from the FGO game, this includes some servant in-game profiles, as well as all CE data (these contents are widely available on many sites and wiki, we recommend checking out <a href="https://apps.atlasacademy.io/db/">Atlas Academy DB</a>).</p>
@@ -21,20 +30,6 @@
     <li>Removed CE section from CHALDEAの記録.</li>
     <li>General site improvement.</li>
   </ul>
-
-  <h5>2022-11-27</h5>
-
-  <p><em>Katatuki Kouhon</em>, or TYPE-MOON Manuscript (型月稿本), is a book released at Comiket 100 by Nasu and Takeuchi’s doujin group Takebouki. The book is a compilation of designs and settings of various TYPE-MOON works, including <a href="https://www.tmdict.com/book/#katatuki-kouhon?lang=en"><em>Tsukihime R</em>’s world and character setting</a>, both of which have been added to our database.</p>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>Added Katatuki Kouhon World & Tsukihime Character Setting (Japanese/English/Chinese).</li>
-  </ul>
-
-  <h5>2022-03-27</h5>
-
-  <p>We’ve recently launched a small side project for the game Genshin Impact: <strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>. It comes with a Character Build Guide, Daily Commission Achievement Tracker, and more!</p>
 
   <div class="readmore"><a href="./site#updates">Past Updates</a></div>
 </div>

@@ -26,6 +26,11 @@ Alternatively, there is a “Report Error” link on each page for user to easil
 
 ### Updates
 
+**2023-01-08**
+
+- Update CHALDEAの記録 to include character profiles up to FGO Material 10.
+- Fixed Chinese translations for Fate/side material.
+
 **2022-12-11**
 
 For this last update of the year, we are introducing some major changes to CHALDEAの記録: from now on CHALDEAの記録 will no longer carry contents that come directly from the FGO game, this includes some servant in-game profiles, as well as all CE data (these contents are widely available on many sites and wiki, we recommend checking out Atlas Academy DB).
