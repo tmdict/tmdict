@@ -20,6 +20,8 @@ name: "介绍"
     <a href="https://www.reddit.com/user/Konchew">Konchew</a>, 
     <a href="https://www.reddit.com/user/King_of_Padoru">King of Padoru</a>, 
     <a href="http://forums.nrvnqsr.com/member.php/6793-Lily-Emilio">Lily Emilio</a>, 
+    <a href="https://forums.nrvnqsr.com/member.php/1147-Petrikow">Petrikow</a>, 
+    <a href="https://www.reddit.com/user/PkFreezeAlpha">PkFreezeAlpha</a>, 
     <a href="https://www.reddit.com/user/Smoof101">Smoof101</a>
   </td></tr>
   <tr><td style="width:120px">支援，翻译（中）</td><td>

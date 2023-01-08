@@ -24,7 +24,7 @@ Save his obsessive affection towards the mekakure type, Bartholomew is generally
 
 His episodes of violence are not sporadic like Black Beard’s, but he is quick to deal with those he has chosen to abandon.
 
-### Motivation · Attitude towards Master
+### Attitude towards Master
 
 He interacts with his Master elegantly like the dandy he is. However, he starts speaking too fast when it comes to the mekakure type.
 
