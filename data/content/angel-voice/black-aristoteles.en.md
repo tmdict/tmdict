@@ -1,5 +1,5 @@
 ---
-parent: black-aristotle
+parent: black-aristoteles
 source: angel-voice
 id: notes
 language: en

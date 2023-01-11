@@ -41,9 +41,5 @@
     <li>添加型月稿本世界&月姬角色设定（日文，英文，中文）。</li>
   </ul>
 
-  <h5>2022-03-27</h5>
-
-  <p>我们最近发布了一个针对原神的小项目：<strong><a href="https://genshin.tmdict.com/">genshin.tmdict.com</a></strong>，里面有角色配装参考，每日委托成就表，和其它跟游戏有关的信息！</p>
-
   <div class="readmore"><a href="./site#updates">更新记录</a></div>
 </div>

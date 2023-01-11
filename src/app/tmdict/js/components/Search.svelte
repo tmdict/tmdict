@@ -8,8 +8,8 @@
   const minChar = data.lang === 'en' ? 3 : 2;
   const queryTooShort = {
     en: `…Keyword must be longer than ${minChar - 1} characters`,
-    zh: `…关键字必须长于${minChar - 1}`,
-    ja: `…キーワードは${minChar - 1}より長くする必要があります`,
+    zh: `…关键字必须长于${minChar - 1}个字符`,
+    ja: `…キーワードは${minChar - 1}文字以上であること`,
   };
 
   const params = new Proxy(new URLSearchParams(window.location.search), {
