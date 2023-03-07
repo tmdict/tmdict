@@ -5,7 +5,7 @@ id: character
 language: zh
 weight: 4
 profile: true
-translation: "Akiraka"
+translation: "Akiraka, vt789123"
 ---
 
 <table>
@@ -27,7 +27,11 @@ translation: "Akiraka"
 
 ### 台词例
 
-{{missing}}
+“游戏要适可而止。懂了吗？”
+“现在的我既不是骑士也不是王，只是作为您的代理而战的射手。无论什么舞台也好，去取得那无上之位吧！”
+“swimming！华丽，太华丽了！
+解开帆柱，Excalibur，vivia——n！”
+“讨厌的人……躲在背后的Assassin roller之类的，还有从远处狙击的caster sniper也有点……运动不就是快乐地，从正面认真对决的竞争嘛！”
 
 ### 游戏内的角色
 

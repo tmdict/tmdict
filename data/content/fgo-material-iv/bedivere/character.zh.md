@@ -5,7 +5,7 @@ id: character
 language: zh
 weight: 4
 profile: true
-translation: "Akiraka"
+translation: "Akiraka, vt789123"
 ---
 
 <table>
@@ -30,7 +30,10 @@ translation: "Akiraka"
 
 ### 台词例
 
-{{missing}}
+“Saber，贝德维尔 。此后就是您的Servant。相信这也是为了吾王”
+“我不过是在贯彻自己的忠义”
+“用银之臂粉碎您”
+“宫廷的管家，王的负责人……被评价成这种感觉了吗。好吧，事到如今我也自认了哟”
 
 ### 『FGO』中的人物像
 

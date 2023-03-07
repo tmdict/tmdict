@@ -1,6 +1,6 @@
 ---
 parent: florence-nightingale-santa
-source: fgo-material-ix
+source: fgo-material-x
 id: comment-from-illustrator
 language: en
 weight: 5

@@ -1,6 +1,6 @@
 ---
-parent: calamity-jane
-source: fgo-material-ix
+parent: utsumi-erice
+source: fgo-material-x
 id: noble-phantasm
 language: en
 weight: 3

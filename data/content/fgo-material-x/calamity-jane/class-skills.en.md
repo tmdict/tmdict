@@ -1,6 +1,6 @@
 ---
-parent: calamity-jane
-source: fgo-material-ix
+parent: utsumi-erice
+source: fgo-material-x
 id: class-skills
 language: en
 weight: 1

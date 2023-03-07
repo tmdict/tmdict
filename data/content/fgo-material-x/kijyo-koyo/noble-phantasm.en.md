@@ -1,6 +1,6 @@
 ---
 parent: kijyo-koyo
-source: fgo-material-ix
+source: fgo-material-x
 id: noble-phantasm
 language: en
 weight: 3

@@ -5,7 +5,7 @@ id: character
 language: zh
 weight: 4
 profile: true
-translation: "Akiraka"
+translation: "Akiraka, vt789123"
 ---
 
 #### 安妮
@@ -39,7 +39,25 @@ translation: "Akiraka"
 
 ### 台词例
 
-{{missing}}
+#### 安妮
+
+竟然要穿成这样去战斗什么的……
+Master还真是鬼畜呢，呵呵”
+
+#### 玛莉
+
+“Master发出很强烈的抗议呢不过这样而已……”
+
+#### 玛莉
+
+“呐Master。虽然可能会被安妮胡来地压迫，但那不过是一贯如此的挑拨而已呢。认真起来也没用呢？真的！”
+
+#### 安妮
+
+“Master……Master，Master，Master。
+呼呼，真是不可思议的叫法。
+尽管只有一个夏天时间的短暂感情，现在我们也很幸福喔。
+对，十分地！”
 
 ### 史上的实像·人物像
 

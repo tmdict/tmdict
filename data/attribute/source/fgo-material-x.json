@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2022-09-22",
+  "weight": 20220900,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material X",
+      "ja": "FGO material X",
+      "zh": "FGO material X"
+    }
+  }
+}

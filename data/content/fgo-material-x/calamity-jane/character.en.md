@@ -1,6 +1,6 @@
 ---
-parent: calamity-jane
-source: fgo-material-ix
+parent: utsumi-erice
+source: fgo-material-x
 id: character
 language: en
 weight: 4

@@ -1,6 +1,6 @@
 ---
 parent: voyager
-source: fgo-material-ix
+source: fgo-material-x
 id: personal-skills
 language: en
 weight: 2

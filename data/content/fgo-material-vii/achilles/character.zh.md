@@ -5,7 +5,7 @@ id: character
 language: zh
 weight: 4
 profile: true
-translation: "Akiraka"
+translation: "Akiraka, vt789123"
 ---
 
 <table>
@@ -41,7 +41,14 @@ translation: "Akiraka"
 
 ### 台词例
 
-{{missing}}
+“抽到不错的Servant了呢，你啊！
+自我介绍下，Rider的Servant，阿喀琉斯。
+……对对，就是那个弱点脚后跟被人熟知的英雄。
+嘛，能碰到我的后跟的，也不是谁都能做到的！人类最快的脚，可不是在跟你闹着玩的哦？”
+“——来了。
+真正的英雄，真正的战士早已印刻在这副身躯上”
+“克珊托斯！巴利俄斯！佩达索斯！要上了！全力突进！
+我的生命如流星般！Troias・Tragoidia！[疾风怒涛的不死战车]！啊啊啊啊啊啊啊！”
 
 ### 史上的实像·人物像
 

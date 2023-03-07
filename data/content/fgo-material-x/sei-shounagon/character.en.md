@@ -1,6 +1,6 @@
 ---
 parent: sei-shounagon
-source: fgo-material-ix
+source: fgo-material-x
 id: character
 language: en
 weight: 4

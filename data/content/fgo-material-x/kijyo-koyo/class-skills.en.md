@@ -1,6 +1,6 @@
 ---
 parent: kijyo-koyo
-source: fgo-material-ix
+source: fgo-material-x
 id: class-skills
 language: en
 weight: 1

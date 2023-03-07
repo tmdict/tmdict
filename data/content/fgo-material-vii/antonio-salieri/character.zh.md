@@ -5,7 +5,7 @@ id: character
 language: zh
 weight: 4
 profile: true
-translation: "Akiraka"
+translation: "Akiraka, vt789123"
 ---
 
 <table>
@@ -32,7 +32,9 @@ Avenger萨列里会凭借机械性的顺从心接受御主的命令。
 
 ### 台词例
 
-{{missing}}
+“我是，谁。究竟是谁……!”
+“我已经，死了。我是，被神所爱之人杀死的”
+“戈特利布・莫扎特{{n1}}。杀掉——你——”
 
 ### 史上的实像·人物像
 
@@ -110,3 +112,7 @@ Avenger萨列里会凭借机械性的顺从心接受御主的命令。
 #### 贞德（Alter）
 
 节奏合拍。
+
+##### {{notes}}
+
+1. {{note1}} 戈特利布，莫扎特的名字中的Theophilus是希腊语，德语译为Gottlieb，意思是上帝的爱。
