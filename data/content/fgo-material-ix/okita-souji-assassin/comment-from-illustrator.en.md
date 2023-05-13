@@ -1,5 +1,5 @@
 ---
-parent: altria-caster
+parent: okita-souji-assassin
 source: fgo-material-ix
 id: comment-from-illustrator
 language: en

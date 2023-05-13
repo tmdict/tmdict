@@ -1,5 +1,5 @@
 ---
-parent: altria-caster
+parent: okita-souji-assassin
 source: fgo-material-ix
 id: noble-phantasm
 language: en
