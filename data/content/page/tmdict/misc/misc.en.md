@@ -263,7 +263,7 @@ Below is a list of the content currently on this site. “-” means we currentl
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=en">The Adventures of Lord El-Melloi II Glossary</a></td>
+    <td><a href="../book/#type-moon-books-material?lang=en">The Adventures of Lord El-Melloi II Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

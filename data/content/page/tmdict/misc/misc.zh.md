@@ -215,7 +215,7 @@ name: "其他"
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=zh">君主·埃尔梅罗二世历险记用语辞典</a></td>
+    <td><a href="../book/#type-moon-books-material?lang=zh">君主·埃尔梅罗二世历险记用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

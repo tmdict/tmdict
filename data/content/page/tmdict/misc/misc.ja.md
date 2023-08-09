@@ -215,7 +215,7 @@ name: "その他"
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=ja">ロード・エルメロイⅡ世の冒険用語集</a></td>
+    <td><a href="../book/#type-moon-books-material?lang=ja">ロード・エルメロイⅡ世の冒険用語集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
