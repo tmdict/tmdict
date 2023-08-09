@@ -140,6 +140,9 @@ name: "その他"
   <tr id="2022kk">
     <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界 & 月姫キャラ設定</span>, <span class="page">pp.30–41</span></td>
   </tr>
+  <tr id="2023tmbm">
+    <td>2023-07-26<br /><span class="source">TYPE-MOON BOOKS material</span>: <span class="glossary">ロード・エルメロイⅡ世の冒険用語集</span>, <span class="page">pp.22–25</span></td>
+  </tr>
 </table>
 
 以下が、現時点におけるこのサイトの掲載コンテンツのリストであり、また掲載内容の全てです。「-」はソース素材へのアクセスが出来ないまたはプロジェクトの対象外となっていること、「0%–50%」は現在翻訳作業中である状態、「50%–99%」は翻訳が完了し編集作業中の訳文がサイトで利用できる可能性がある状態、「100%」は全作業が完了しサイトでコンテンツとして利用可能となった状態をそれぞれ示しています。
@@ -207,6 +210,12 @@ name: "その他"
   </tr>
   <tr>
     <td><a href="../book/#lord-el-melloi-ii-case-files-material?lang=ja">ロード・エルメロイⅡ世の事件簿用語辞典</a></td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+  </tr>
+  <tr>
+    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=ja">ロード・エルメロイⅡ世の冒険用語集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

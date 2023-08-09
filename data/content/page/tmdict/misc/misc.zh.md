@@ -140,6 +140,9 @@ name: "其他"
   <tr id="2022kk">
     <td>2022-08-14<br /><span class="source">型月稿本</span>: <span class="glossary">世界 & 月姬角色设定</span>, <span class="page">pp.30–41</span></td>
   </tr>
+  <tr id="2023tmbm">
+    <td>2023-07-26<br /><span class="source">TYPE-MOON BOOKS material</span>: <span class="glossary">君主·埃尔梅罗二世历险记用语辞典</span>, <span class="page">pp.22–25</span></td>
+  </tr>
 </table>
 
 以下是现在这个网站上的内容。“-”表明我们目前没有资源或不在计划内，“0%–50%”表示正在翻译，“50%–99%”表示翻译完工，正在进行修改和校对，部分内容可能已在网站上，“100%”表示完工并已加载到网站上。
@@ -207,6 +210,12 @@ name: "其他"
   </tr>
   <tr>
     <td><a href="../book/#lord-el-melloi-ii-case-files-material?lang=zh">君主·埃尔梅罗二世事件簿用语辞典</a></td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+  </tr>
+  <tr>
+    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=zh">君主·埃尔梅罗二世历险记用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

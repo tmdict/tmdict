@@ -26,6 +26,12 @@ name: "サイト"
 
 ### ニュース
 
+**2023-08-09**
+
+<em>TYPE-MOON Ace 15</em> came with a supplemental booklet that contains a short glossary for <em>The Adventures of Lord El-Melloi II</em>, translations for this glossary have been added to our database.
+
+- Added The Adventures of Lord El-Melloi II Glossary.
+
 **2023-01-08**
 
 - Update CHALDEAの記録 to include character profiles up to FGO Material 10.

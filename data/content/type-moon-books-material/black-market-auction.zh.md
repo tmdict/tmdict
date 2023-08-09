@@ -4,7 +4,7 @@ source: type-moon-books-material
 id: the-adventures-of-lord-el-melloi-ii-glossary
 language: zh
 weight: 15
-translation: "撒玛利亚"
+translation: "现代魔术科official"
 category:
 - other_alt
 ---

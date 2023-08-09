@@ -140,6 +140,9 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
   <tr id="2022kk">
     <td>2022-08-14<br /><span class="source">Katatuki Kouhon</span>: <span class="glossary">World & Tsukihime Character Setting</span>, <span class="page">pp.30–41</span></td>
   </tr>
+  <tr id="2023tmbm">
+    <td>2023-07-26<br /><span class="source">TYPE-MOON BOOKS material</span>: <span class="glossary">The Adventures of Lord El-Melloi II Glossary</span>, <span class="page">pp.22–25</span></td>
+  </tr>
 </table>
 
 Below is a list of the content currently on this site. “-” means we currently don’t have access to the source material, or it is currently not in our scope, “0%–50%” indicates translation is currently in progress, “50%–99%” indicates translation is complete and the text is currently being edited and may be available on the site, “100%” means all work has been completed and the content is currently available on the site.
@@ -255,6 +258,12 @@ Below is a list of the content currently on this site. “-” means we currentl
   </tr>
   <tr>
     <td><a href="../book/#yoi-no-myoujou?lang=en">Talk.</a></td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+  </tr>
+  <tr>
+    <td><a href="../book/#the-adventures-of-lord-el-melloi-ii-glossary?lang=en">The Adventures of Lord El-Melloi II Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

@@ -1,6 +1,16 @@
 <div class="page-content">
   <h4 style="border-top:0">Site News</h4>
 
+  <h5>2023-08-09</h5>
+
+  <p><em>TYPE-MOON Ace 15</em> came with a supplemental booklet that contains a short glossary for <em>The Adventures of Lord El-Melloi II</em>, translations for this glossary have been added to our database.</p>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>Added The Adventures of Lord El-Melloi II Glossary.</li>
+  </ul>
+
   <h5>2023-01-08</h5>
 
   <p><span class="highlight">Changelog:</span></p>

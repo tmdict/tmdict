@@ -60,6 +60,8 @@ Translations on this site come from different translators, as such, translations
   <a href="https://www.reddit.com/user/King_of_Padoru">King of Padoru</a> / vt789123
 - <span class="highlight">Talk.:</span>
   <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://bbs.sumisora.net/read.php?tid=10946479#2831447">zqh1985</a>
+- <span class="highlight">The Adventures of Lord El-Melloi II Glossary:</span>
+  <a href="https://forums.nrvnqsr.com/showthread.php/5419-Lord-El-Melloi-II-Case-Files?p=3281356&viewfull=1#post3281356">ComunCoutinho</a> / 现代魔术科official
 - <span class="highlight">Tsukihime Dictionary:</span>
   <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://home.gamer.com.tw/homeindex.php?owner=typemercury">譯月漢化小组</a>
 - <span class="highlight">Tsukihime Dictionary (MBAC):</span>

@@ -44,6 +44,8 @@ TMdictはエンサイクロペディアやWikiのような総合的な情報サ�
   <a href="http://z13.invisionfree.com/Mobius_Space/index.php?">food</a> / <a href="https://bbs.sumisora.net/read.php?tid=4458241">renshujian0</a>
 - <span class="highlight">ロード・エルメロイⅡ世の事件簿用語辞典:</span>
   <a href="https://forums.nrvnqsr.com/showthread.php/5943-Lord-El-Melloi-II-Case-Files">TwilightsCall</a> / <a href="https://www.weibo.com/u/6537160863">Akiraka</a>
+- <span class="highlight">ロード・エルメロイⅡ世の冒険用語集:</span>
+  <a href="https://forums.nrvnqsr.com/showthread.php/5419-Lord-El-Melloi-II-Case-Files?p=3281356&viewfull=1#post3281356">ComunCoutinho</a> / 现代魔术科official
 - <span class="highlight">まほうつかいの箱小事典:</span>
   RHuot / <a href="https://bbs.sumisora.net/read.php?tid=11077935">vt789123</a>
 - <span class="highlight">メルティブラッド用語解説:</span>

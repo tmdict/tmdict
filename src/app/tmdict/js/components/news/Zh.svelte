@@ -1,6 +1,16 @@
 <div class="page-content">
   <h4 style="border-top:0">网站新闻</h4>
 
+  <h5>2023-08-09</h5>
+
+  <p>TYPE-MOON Ace 15的附带小册子里有一份君主·埃尔梅罗二世历险记的用语辞典。此次更新将这个小辞典收录于本网站词库。</p>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>添加君主·埃尔梅罗二世历险记用语辞典。</li>
+  </ul>
+
   <h5>2023-01-08</h5>
 
   <p><span class="highlight">Changelog:</span></p>

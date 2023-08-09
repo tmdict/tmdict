@@ -44,6 +44,8 @@ name: "关于"
   <a href="http://z13.invisionfree.com/Mobius_Space/index.php?">food</a> / <a href="https://bbs.sumisora.net/read.php?tid=4458241">renshujian0</a>
 - <span class="highlight">君主·埃尔梅罗二世事件簿用语辞典:</span>
   <a href="https://forums.nrvnqsr.com/showthread.php/5943-Lord-El-Melloi-II-Case-Files">TwilightsCall</a> / <a href="https://www.weibo.com/ttarticle/p/show?id=2309404456317354901671">Akiraka</a>
+- <span class="highlight">君主·埃尔梅罗二世历险记用语辞典:</span>
+  <a href="https://forums.nrvnqsr.com/showthread.php/5419-Lord-El-Melloi-II-Case-Files?p=3281356&viewfull=1#post3281356">ComunCoutinho</a> / 现代魔术科official
 - <span class="highlight">魔法使之箱小事典:</span>
   RHuot / <a href="https://bbs.sumisora.net/read.php?tid=11077935">vt789123</a>
 - <span class="highlight">Melty Blood用语解説:</span>
