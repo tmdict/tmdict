@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2023-07-26",
+  "weight": 20230700,
+
+  "attribute": {
+    "work": "lord-el-melloi-ii"
+  },
+
+  "data": {
+    "name": {
+      "en": "TYPE-MOON BOOKS material",
+      "ja": "TYPE-MOON BOOKS material",
+      "zh": "TYPE-MOON BOOKS material"
+    }
+  }
+}

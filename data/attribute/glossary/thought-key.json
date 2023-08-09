@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
+  "data": {
+    "name": {
+      "en": "Thought Key",
+      "ja": "思想鍵紋（しそうけんもん）",
+      "zh": "思想键纹"
+    }
+  }
+}

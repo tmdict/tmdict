@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "l",
+    "hiragana": "a",
+    "hiragana-row": "_"
+  },
+
+  "data": {
+    "name": {
+      "en": "Library of Alexandria",
+      "ja": "アレクサンドリア大図書館",
+      "zh": "亚历山大里亚图书馆"
+    }
+  }
+}

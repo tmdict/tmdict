@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "y",
+    "hiragana": "ya",
+    "hiragana-row": "y"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yakou",
+      "ja": "夜劫",
+      "zh": "夜劫"
+    }
+  }
+}

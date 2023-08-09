@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
+  "data": {
+    "name": {
+      "en": "Thought Foundation",
+      "ja": "思想盤",
+      "zh": "思想盘"
+    }
+  }
+}

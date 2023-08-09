@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "ya",
+    "hiragana-row": "y"
+  },
+
+  "data": {
+    "name": {
+      "en": "Black Market Auction",
+      "ja": "闇オークション",
+      "zh": "黑市拍卖"
+    }
+  }
+}

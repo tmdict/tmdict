@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "p",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ptolemy",
+      "ja": "プトレマイオス",
+      "zh": "托勒密"
+    }
+  }
+}

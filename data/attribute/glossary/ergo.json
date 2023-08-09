@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "e",
+    "hiragana": "e",
+    "hiragana-row": "_"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ergo",
+      "ja": "エルゴ",
+      "zh": "埃尔戈"
+    }
+  }
+}

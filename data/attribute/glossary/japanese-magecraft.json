@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "j",
+    "hiragana": "ni",
+    "hiragana-row": "n"
+  },
+
+  "data": {
+    "name": {
+      "en": "Japanese Magecraft",
+      "ja": "日本の魔術",
+      "zh": "日本的魔术"
+    }
+  }
+}

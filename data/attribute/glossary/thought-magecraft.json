@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "t",
+    "hiragana": "shi",
+    "hiragana-row": "s"
+  },
+
+  "data": {
+    "name": {
+      "en": "Thought Magecraft",
+      "ja": "思想魔術",
+      "zh": "思想魔术"
+    }
+  }
+}

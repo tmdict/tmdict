@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "b",
+    "hiragana": "fu",
+    "hiragana-row": "h"
+  },
+
+  "data": {
+    "name": {
+      "en": "Blaze of Etna (Emberglow Armor)",
+      "ja": "『灰燼灼鎧（ブレイズ・オブ・エトナ）』",
+      "zh": "『灰烬灼铠（Blaze of Etna）』"
+    }
+  }
+}

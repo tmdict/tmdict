@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "k",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
+  "data": {
+    "name": {
+      "en": "Karmaglyph",
+      "ja": "カルマグリフ",
+      "zh": "卡尔马格里夫"
+    }
+  }
+}

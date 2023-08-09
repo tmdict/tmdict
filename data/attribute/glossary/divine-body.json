@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "d",
+    "hiragana": "ka",
+    "hiragana-row": "k"
+  },
+
+  "data": {
+    "name": {
+      "en": "Divine Body",
+      "ja": "神體",
+      "zh": "神体"
+    }
+  }
+}

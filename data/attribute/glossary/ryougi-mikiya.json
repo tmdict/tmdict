@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "alphabet": "r",
+    "hiragana": "ra",
+    "hiragana-row": "r"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ryougi Mikiya",
+      "ja": "両儀幹也",
+      "zh": "两仪干也"
+    }
+  }
+}
