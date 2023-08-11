@@ -9,7 +9,6 @@
   export let level;
   export let env;
   let expandAll = false;
-  console.log(level);
 
   const ext = env === 'production' ? '' : '.html';
 
