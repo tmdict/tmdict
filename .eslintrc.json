@@ -14,8 +14,7 @@
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint/eslint-plugin",
-    "svelte3"
+    "@typescript-eslint/eslint-plugin"
   ],
   "rules": {
     "@typescript-eslint/member-delimiter-style": [
