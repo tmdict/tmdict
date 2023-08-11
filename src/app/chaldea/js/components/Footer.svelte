@@ -1,6 +1,4 @@
 <script>
-  import page from 'page';
-
   import APP from '../../__tmp/data/constants.js';
   import { activeLang } from '../stores.js';
 

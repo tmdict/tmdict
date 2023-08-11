@@ -23,13 +23,13 @@ function buildOptimizedImg(dir: string, output: string): void {
   fs.readdir(dir, (err, files) => {
     if (err) console.log(`[ ERROR fs/jimp ] ${err}`);
     else {
-      files = files.filter((item) => !/(^|\/)\.[^\/\.]/g.test(item));
+      files = files.filter((item) => !/(^|\/)\.[^/.]/g.test(item));
       let count = 0;
       files.forEach((file) => {
         count += 1;
         Jimp.read(`${dir}/${file}`)
           .then((image: any) => {
-            const outfile = `${file.substr(0, file.lastIndexOf('.'))}.jpg`;
+            const outfile = `${file.substring(0, file.lastIndexOf('.'))}.jpg`;
             image
               .quality(60) // Set JPEG quality (60)
               .write(`${output}/${outfile}`);

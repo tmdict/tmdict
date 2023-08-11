@@ -48,7 +48,7 @@ function arrayToObject(arr: any[], key = 'id'): any {
  * @param loader Function used to process files
  * @param data Object to hold all files loaded so far
  */
-function walkDir(currentPath: string, loader: Function, data: any = {}): any {
+function walkDir(currentPath: string, loader: (path: string, file: string) => any, data: any = {}): any {
   return (
     fs
       .readdirSync(currentPath)
