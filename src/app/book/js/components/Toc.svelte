@@ -27,7 +27,7 @@
     {#each data as book}
       <li>
         <a on:click={() => updateCurrentSource(book.source.id)} href={`#${book.source.id}`} title={book.glossary.data.name[$activeLang]}>
-          <div class="info">
+          <div class="info" class:new={book.source.releaseDate.split('-')[0] === '2023'}>
             {book.source.releaseDate} / {book.source.data.name[$activeLang]}
           </div>
           {book.glossary.data.name[$activeLang]}
