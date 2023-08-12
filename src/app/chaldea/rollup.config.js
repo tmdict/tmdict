@@ -1,3 +1,4 @@
+import { spawn } from 'child_process';
 import fs from 'fs-extra'
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
@@ -19,7 +20,7 @@ export default [
       dir: `${appConfig.paths.dist}/src`,
     },
     plugins: [
-      multiInput({ relative: `${appConfig.paths.src}/__tmp/` }),
+      multiInput.default({ relative: `${appConfig.paths.src}/__tmp/` }),
       svelte({
         compilerOptions: {
           // enable run-time checks when not in production
@@ -37,7 +38,8 @@ export default [
       // https://github.com/rollup/rollup-plugin-commonjs
       resolve({
         browser: true,
-        dedupe: (importee) => importee === 'svelte' || importee.startsWith('svelte/'),
+        dedupe: ['svelte'],
+        exportConditions: ['svelte']
       }),
       commonjs(),
 
@@ -69,13 +71,13 @@ function serve() {
   return {
     writeBundle() {
       if (server) return;
-      server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
+      server = spawn('npm', ['run', 'start', '--', '--dev'], {
         stdio: ['ignore', 'inherit', 'inherit'],
-        shell: true,
+        shell: true
       });
 
       process.on('SIGTERM', toExit);
       process.on('exit', toExit);
-    },
+    }
   };
 }

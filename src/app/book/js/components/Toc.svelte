@@ -3,6 +3,7 @@
   import { activeLang, currentSource } from '../stores.js';
 
   export let data;
+  data.sort((a, b) => (a.source.weight > b.source.weight) ? -1 : 1);
 
   const updateActiveLang = (lang) => {
     activeLang.set(lang);
