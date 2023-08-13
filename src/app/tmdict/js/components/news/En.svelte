@@ -16,7 +16,7 @@
   <p><span class="highlight">Changelog:</span></p>
 
   <ul>
-    <li>Update CHALDEAの記録 to include character profiles up to FGO Material 10.</li>
+    <li>Updated CHALDEAの記録 with character profiles from FGO Material 9 and 10.</li>
     <li>Fixed Chinese translations for Fate/side material.</li>
   </ul>
 

@@ -22,9 +22,10 @@
 
   const getImgSrc = (uid) => {
     let img = '';
-    switch (uid.split(':')[1]) {
+    const parsedUid = uid.split(':');
+    switch (parsedUid[parsedUid.length - 1]) {
       case 'fgosvt': {
-        img = `S${uid.split(':')[0].toString().padStart(4, '0')}.jpg`;
+        img = `S${parsedUid[0].toString().padStart(4, '0')}.jpg`;
         break;
       }
       case 'default': {
@@ -32,7 +33,7 @@
         break;
       }
       default: {
-        img = `${uid.split(':')[0].split('.')[1]}.jpg`;
+        img = `${parsedUid[0]}.jpg`;
         break;
       }
     }

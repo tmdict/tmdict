@@ -16,7 +16,7 @@
   <p><span class="highlight">Changelog:</span></p>
 
   <ul>
-    <li>更新CHALDEAの記録人物简介到FGO Material 10。</li>
+    <li>更新CHALDEAの記録人物简介FGO Material 9和10。</li>
     <li>修改了Fate/side material的中文翻译。</li>
   </ul>
 

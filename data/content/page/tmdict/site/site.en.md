@@ -34,7 +34,7 @@ Alternatively, there is a “Report Error” link on each page for user to easil
 
 **2023-01-08**
 
-- Updated CHALDEAの記録 to include character profiles up to FGO Material 10.
+- Updated CHALDEAの記録 with character profiles from FGO Material 9 and 10.
 - Fixed Chinese translations for Fate/side material.
 
 **2022-12-11**

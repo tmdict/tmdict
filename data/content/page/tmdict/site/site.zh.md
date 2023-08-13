@@ -34,7 +34,7 @@ TYPE-MOON Ace 15的附带小册子里有一份君主·埃尔梅罗二世历险�
 
 **2023-01-08**
 
-- 更新CHALDEAの記録人物简介到FGO Material 10。
+- 更新CHALDEAの記録人物简介FGO Material 9和10。
 - 修改了Fate/side material的中文翻译。
 
 **2022-12-11**
