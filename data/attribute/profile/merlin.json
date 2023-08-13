@@ -8,7 +8,8 @@
     { "weight": 3, "id": "img_s3", "src": "S0150c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0150d.png" },
     { "weight": 5, "id": "img_april-fools", "src": "S0150e_april-fools.png" },
-    { "weight": 6, "id": "img_camelot-co", "src": "S0150f_camelot-co.png" }
+    { "weight": 6, "id": "img_camelot-co", "src": "S0150f_camelot-co.png" },
+    { "weight": 7, "id": "img_camelot-co-model-frame", "src": "S0150g_camelot-co-model-frame.png" }
   ],
 
   "attribute": {

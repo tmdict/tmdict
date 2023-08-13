@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "299:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0299a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0299b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0299c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0299d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0299e_april-fools.png" },
+    { "weight": 6, "id": "img_fragment-of-the-great-serpent-gods-spirit", "src": "S0299f_fragment-of-the-great-serpent-gods-spirit.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["shuten-douji-emaki", "otogizoushi", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "ap",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "ex",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ibuki-Douji",
+      "ja": "伊吹童子",
+      "zh": "伊吹童子"
+    },
+    "true-name": {
+      "en": "Ibuki-Douji",
+      "ja": "伊吹童子",
+      "zh": "伊吹童子"
+    },
+    "height": {
+      "en": "First Ascension: 133cm (Overall 200cm) / Second and Third Ascension: 180cm (300cm during combat)",
+      "ja": "第一段階：133cm（全長200cm）／ 第二、第三：180cm（戦闘時300cm）",
+      "zh": "第一阶段：133cm（全长200cm）／ 第二、第三阶段：180cm（战斗时300cm）"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "??kg",
+      "zh": "??kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

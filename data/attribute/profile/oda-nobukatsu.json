@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "294:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0294a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0294b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0294c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0294d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0294e_april-fools.png" },
+    { "weight": 6, "id": "img_oda-gold-rimmed-round-glasses", "src": "S0294f_oda-gold-rimmed-round-glasses.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_1",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "e",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "d",
+    "character-setting": "keikenchi",
+    "illustrator": "pako",
+    "original-character-design.illustrator": "keikenchi",
+    "character-voice": "yamashita-daiki",
+    "major-appearances": ["gudaguda-ace", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Oda Nobukatsu",
+      "ja": "織田信勝",
+      "zh": "织田信胜"
+    },
+    "true-name": {
+      "en": "Oda Nobukatsu",
+      "ja": "織田信勝",
+      "zh": "织田信胜"
+    },
+    "height": {
+      "en": "164cm",
+      "ja": "164cm",
+      "zh": "164cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

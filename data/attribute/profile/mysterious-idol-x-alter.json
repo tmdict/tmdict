@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "308:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0308a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0308d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0308e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fgo-waltz-collaboration-bedazzled-grail-concert",
+    "region": "servant-universe",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "bp",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "bunbun",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "mysterious-heroine-x-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mysterious Idol X (Alter)",
+      "ja": "謎のアイドルX（オルタ）",
+      "zh": "谜之偶像X（Alter）"
+    },
+    "true-name": {
+      "en": "Mysterious Idol X (Alter)",
+      "ja": "謎のアイドルX（オルタ）",
+      "zh": "谜之偶像X（Alter）"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "42kg",
+      "ja": "42kg",
+      "zh": "42kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

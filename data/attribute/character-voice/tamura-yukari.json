@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Tamura Yukari",
+      "ja": "田村ゆかり",
+      "zh": "田村由香里"
+    }
+  }
+}

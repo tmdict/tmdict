@@ -7,7 +7,9 @@
     { "weight": 2, "id": "img_s2", "src": "S0123b.png" },
     { "weight": 3, "id": "img_s3", "src": "S0123c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0123d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0123e_april-fools.png" }
+    { "weight": 5, "id": "img_april-fools", "src": "S0123e_april-fools.png" },
+    { "weight": 6, "id": "img_elegant-square", "src": "S0123f_elegant-square.png" },
+    { "weight": 7, "id": "img_scion-of-summer", "src": "S0123g_scion-of-summer.png" }
   ],
 
   "attribute": {

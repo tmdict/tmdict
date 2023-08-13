@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "298:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0298a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0298b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0298c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0298d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0298e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "neutral-good",
+    "strength.parameter": "bp",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "hidari",
+    "character-voice": "akabane-kenji",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Watanabe-no-Tsuna",
+      "ja": "渡辺綱",
+      "zh": "渡边纲"
+    },
+    "true-name": {
+      "en": "Watanabe-no-Tsuna",
+      "ja": "渡辺綱",
+      "zh": "渡边纲"
+    },
+    "height": {
+      "en": "180cm",
+      "ja": "180cm",
+      "zh": "180cm"
+    },
+    "weight": {
+      "en": "77kg",
+      "ja": "77kg",
+      "zh": "77kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

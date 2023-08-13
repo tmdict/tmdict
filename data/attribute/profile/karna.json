@@ -8,7 +8,8 @@
     { "weight": 3, "id": "img_s3", "src": "S0085c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0085d.png" },
     { "weight": 5, "id": "img_april-fools", "src": "S0085e_april-fools.png" },
-    { "weight": 6, "id": "img_burning-garment-of-three-gods", "src": "S0085f_burning-garment-of-three-gods.png" }
+    { "weight": 6, "id": "img_burning-garment-of-three-gods", "src": "S0085f_burning-garment-of-three-gods.png" },
+    { "weight": 7, "id": "img_iridescence-shining-at-the-end", "src": "S0085g_iridescence-shining-at-the-end.png" }
   ],
 
   "attribute": {
@@ -27,7 +28,8 @@
     "character-setting": "nasu-kinoko",
     "illustrator": "pako",
     "character-voice": "yusa-kouji",
-    "major-appearances": ["fate-extra-ccc", "fate-apocrypha"]
+    "major-appearances": ["fate-extra-ccc", "fate-apocrypha"],
+    "related.profile": "karna-santa"
   },
 
   "data": {
@@ -57,6 +59,7 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
   ]
 }

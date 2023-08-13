@@ -7,7 +7,9 @@
     { "weight": 4, "id": "img_s4", "src": "S0277b.png" },
     { "weight": 4, "id": "img_s4", "src": "S0277c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0277d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0277e_april-fools.png" }
+    { "weight": 5, "id": "img_april-fools", "src": "S0277e_april-fools.png" },
+    { "weight": 6, "id": "img_aegis-s2", "src": "S0277f_aegis-s2.png" },
+    { "weight": 7, "id": "img_aegis-s3", "src": "S0277g_aegis-s3.png" }
   ],
 
   "attribute": {

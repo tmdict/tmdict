@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "303:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0303a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0303b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0303c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0303d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0303e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_5",
+    "gender": "_na",
+    "origin": ["the-tale-of-the-heike", "gikeiki", "legend-of-kagekiyo"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "a",
+    "agility.parameter": "ap",
+    "magic.parameter": "b",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "sakamoto-mineji",
+    "character-voice": "hayami-saori",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Taira-no-Kagekiyo",
+      "ja": "平景清",
+      "zh": "平景清"
+    },
+    "true-name": {
+      "en": "Taira-no-Kagekiyo",
+      "ja": "平景清",
+      "zh": "平景清"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "286:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0286a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0286b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0286c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0286d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0286e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "fate-kaleid-liner-prisma-illya",
+    "region": ["japan", "fuyuki-city"],
+    "alignment": "neutral-summer",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "cm",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "hiroyama-hiroshi",
+    "illustrator": "hiroyama-hiroshi",
+    "character-voice": ["kadowaki-mai", "takano-naoko"],
+    "major-appearances": ["fate-kaleid-liner-prisma-illya", "etc"],
+    "related.profile": "illyasviel-von-einzbern"
+  },
+
+  "data": {
+    "name": {
+      "en": "Illyasviel von Einzbern (Archer)",
+      "ja": "イリヤスフィール・フォン・アインツベルン（アーチャー）",
+      "zh": "伊莉雅丝菲尔·冯·爱因兹贝伦（Archer）"
+    },
+    "true-name": {
+      "en": "Illyasviel von Einzbern",
+      "ja": "イリヤスフィール・フォン・アインツベルン",
+      "zh": "伊莉雅丝菲尔·冯·爱因兹贝伦"
+    },
+    "height": {
+      "en": "133cm",
+      "ja": "133cm",
+      "zh": "133cm"
+    },
+    "weight": {
+      "en": "29.5kg",
+      "ja": "29.5kg",
+      "zh": "29.5kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

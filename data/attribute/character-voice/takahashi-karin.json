@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Takahashi Karin",
+      "ja": "髙橋花林",
+      "zh": "高桥花林"
+    }
+  }
+}

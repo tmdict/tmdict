@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "290:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0290a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0290b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0290c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0290d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0290e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["the-tale-of-the-heike", "genpei-jousuiki", "theatre-play-tomoe", "etc"],
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shirabi",
+    "character-voice": "kanemoto-hisako",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "tomoe-gozen"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tomoe Gozen (Saber)",
+      "ja": "巴御前（セイバー）",
+      "zh": "巴御前（Saber）"
+    },
+    "true-name": {
+      "en": "Tomoe Gozen",
+      "ja": "巴御前（ともえごぜん）",
+      "zh": "巴御前"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

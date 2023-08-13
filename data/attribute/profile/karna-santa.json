@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "301:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0301a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0301d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0301e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "glorious-path-to-santa-claus",
+    "region": "india",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "a",
+    "agility.parameter": "ex",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "minase-hazuki",
+    "illustrator": "pako",
+    "character-voice": "yusa-kouji",
+    "major-appearances": ["fate-extra-ccc", "fate-apocrypha"],
+    "related.profile": "karna"
+  },
+
+  "data": {
+    "name": {
+      "en": "Karna (Santa)",
+      "ja": "カルナ（サンタ）",
+      "zh": "迦尔纳（圣诞）"
+    },
+    "true-name": {
+      "en": "Karna (Santa)",
+      "ja": "カルナ（サンタ）",
+      "zh": "迦尔纳（圣诞）"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

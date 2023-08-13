@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "293:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0293a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0293b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0293c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0293d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0293e_april-fools.png" },
+    { "weight": 6, "id": "img_hajime-chan-glasses", "src": "S0293f_hajime-chan-glasses.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "bp",
+    "magic.parameter": "e",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "keikenchi",
+    "illustrator": "shin-ikezawa",
+    "original-character-design.illustrator": "keikenchi",
+    "character-voice": "kaito-ishikawa",
+    "major-appearances": ["gudaguda-ace", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Saito Hajime",
+      "ja": "斎藤一",
+      "zh": "斋藤一"
+    },
+    "true-name": {
+      "en": "Saito Hajime",
+      "ja": "斎藤一",
+      "zh": "斋藤一"
+    },
+    "height": {
+      "en": "178cm",
+      "ja": "178cm",
+      "zh": "178cm"
+    },
+    "weight": {
+      "en": "77kg",
+      "ja": "77kg",
+      "zh": "77kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

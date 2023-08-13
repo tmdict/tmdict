@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Somewhere under the sea",
+      "ja": "どこかの海底",
+      "zh": "海底某处"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Mediterranean Sea",
+      "ja": "地中海",
+      "zh": "地中海"
+    }
+  }
+}

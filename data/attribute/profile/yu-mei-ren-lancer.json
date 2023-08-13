@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "288:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0288a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0288d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0288e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "book-of-han"],
+    "region": "china",
+    "alignment": "lawful-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "minase-hazuki",
+    "illustrator": "toi8",
+    "character-voice": "ise-mariya",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "yu-mei-ren"
+  },
+
+  "data": {
+    "name": {
+      "en": "Yu Mei-ren (Lancer)",
+      "ja": "虞美人（ランサー）",
+      "zh": "虞美人（Lancer）"
+    },
+    "true-name": {
+      "en": "Yu Mei-ren",
+      "ja": "虞美人",
+      "zh": "虞美人"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "49kg",
+      "ja": "49kg",
+      "zh": "49kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

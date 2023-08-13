@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "305:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0305a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0305b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0305c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0305d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0305e_april-fools.png" },
+    { "weight": 6, "id": "img_devil-caren", "src": "S0305f_devil-caren.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["greek-mythology", "roman-mythology", "fate-hollow-ataraxia"],
+    "region": ["mediterranean-sea", "europe"],
+    "alignment": "lawful-good",
+    "strength.parameter": "cm",
+    "endurance.parameter": "ap",
+    "agility.parameter": "bm",
+    "magic.parameter": "cm",
+    "luck.parameter": "am",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "morii-shizuki",
+    "character-voice": "koshimizu-ami",
+    "major-appearances": ["fate-hollow-ataraxia", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Caren C. Hortensia",
+      "ja": "カレン・C・オルテンシア",
+      "zh": "卡莲·C·奥尔黛西亚"
+    },
+    "true-name": {
+      "en": "Amor (Caren)",
+      "ja": "アムール（カレン）",
+      "zh": "阿摩耳（卡莲）"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "40kg",
+      "ja": "40kg",
+      "zh": "40kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

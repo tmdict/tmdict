@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "uid": "304:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0304a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0304d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0304e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "_na",
+    "origin": ["gikeiki", "otogizoushi", "legend-of-the-kurama-tengu", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "ap",
+    "magic.parameter": "ex",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "ohmori-aoi",
+    "character-voice": "kakuma-ai",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kiichi Hogen",
+      "ja": "鬼一法眼",
+      "zh": "鬼一法眼"
+    },
+    "true-name": {
+      "en": "Kiichi Hogen",
+      "ja": "鬼一法眼",
+      "zh": "鬼一法眼"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "57kg",
+      "ja": "57kg",
+      "zh": "57kg"
+    },
+    "notes": {
+      "en": "Current physical body is female",
+      "ja": "現在の肉体は女性",
+      "zh": "现在的肉体是女性"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "notes", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

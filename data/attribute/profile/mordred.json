@@ -8,7 +8,8 @@
     { "weight": 3, "id": "img_s3", "src": "S0076c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0076d.png" },
     { "weight": 5, "id": "img_april-fools", "src": "S0076e_april-fools.png" },
-    { "weight": 6, "id": "img_memories-of-trifas", "src": "S0076f_memories-of-trifas.png" }
+    { "weight": 6, "id": "img_memories-of-trifas", "src": "S0076f_memories-of-trifas.png" },
+    { "weight": 7, "id": "img_red-saber", "src": "S0076g_red-saber.png" }
   ],
 
   "attribute": {

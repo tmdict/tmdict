@@ -34,7 +34,7 @@ name: "サイト"
 
 **2023-01-08**
 
-- Update CHALDEAの記録 to include character profiles up to FGO Material 10.
+- Updated CHALDEAの記録 to include character profiles up to FGO Material 10.
 - Fixed Chinese translations for Fate/side material.
 
 **2022-12-11**

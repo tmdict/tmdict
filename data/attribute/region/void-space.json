@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Void Space",
+      "ja": "虚数空間",
+      "zh": "虚数空间"
+    }
+  }
+}

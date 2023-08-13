@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "309:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0309a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0309b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0309c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0309d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0309e_april-fools.png" },
+    { "weight": 6, "id": "img_queen-of-winter", "src": "S0309f_queen-of-winter.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "legend-of-king-arthur",
+    "region": "orkney-at-worlds-end",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "e",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "ishikawa-yui",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Morgan",
+      "ja": "モルガン",
+      "zh": "摩根"
+    },
+    "true-name": {
+      "en": "Morgan",
+      "ja": "モルガン",
+      "zh": "摩根"
+    },
+    "height": {
+      "en": "170cm",
+      "ja": "170cm",
+      "zh": "170cm"
+    },
+    "weight": {
+      "en": "56kg",
+      "ja": "56kg",
+      "zh": "56kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

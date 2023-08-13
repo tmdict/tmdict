@@ -32,7 +32,7 @@
         break;
       }
       default: {
-        img = `${uid.split(':')[0]}.jpg`;
+        img = `${uid.split(':')[0].split('.')[1]}.jpg`;
         break;
       }
     }
@@ -41,6 +41,7 @@
 </script>
 
 <div class="list">
+  <!-- svelte-ignore a11y-no-static-element-interactions -->
   <div class="header item {listType}">
     {#if listType === 'profile'}
       <div class="id" on:click={() => updateSortBy("uid")} on:keydown={() => updateSortBy("uid")}>

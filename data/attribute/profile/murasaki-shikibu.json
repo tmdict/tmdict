@@ -25,7 +25,8 @@
     "noble-phantasm.parameter": "c",
     "character-setting": "sakurai-hikaru",
     "illustrator": "honjou-raita",
-    "character-voice": "kayano-ai"
+    "character-voice": "kayano-ai",
+    "related.profile": "murasaki-shikibu-rider"
   },
 
   "data": {
@@ -55,6 +56,7 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice"],
+    ["related.profile"]
   ]
 }

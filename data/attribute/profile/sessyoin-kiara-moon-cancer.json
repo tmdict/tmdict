@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "285:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0285a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0285b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0285c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0285d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0285e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "moon-cancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["fgo-abyssal-cyber-paradise-se-ra-ph", "mermaid-legend", "konjaku-hyakki-shuui"],
+    "region": ["japan", "somewhere-under-the-sea"],
+    "alignment": "lawful-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "ap",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "tanaka-rie",
+    "major-appearances": ["fate-extra-ccc", "fate-grand-order"],
+    "related.profile": ["beast-iii-r", "sessyoin-kiara"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Sessyoin Kiara (Moon Cancer)",
+      "ja": "殺生院キアラ（ムーンキャンサー）",
+      "zh": "杀生院祈荒（Moon Cancer）"
+    },
+    "true-name": {
+      "en": "Yaobikuni, Sessoyin Lily, Sessyoin Kiara",
+      "ja": "八百比丘尼, 殺生院リリィ, 殺生院キアラ",
+      "zh": "八百比丘尼, 杀生院Lily, 杀生院祈荒"
+    },
+    "height": {
+      "en": "166cm / Lily: 136cm",
+      "ja": "166cm リリィ時：136cm",
+      "zh": "166cm Lily时：136cm"
+    },
+    "weight": {
+      "en": "53kg? / Lily: 31kg",
+      "ja": "53kg リリィ時：31kg",
+      "zh": "53kg Lily时：31kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

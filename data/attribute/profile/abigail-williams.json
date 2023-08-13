@@ -26,7 +26,8 @@
     "character-setting": "hoshizora-meteo",
     "illustrator": "kuroboshi-kouhaku",
     "character-voice": "ohwada-hitomi",
-    "major-appearances": "fate-grand-order"
+    "major-appearances": "fate-grand-order",
+    "related.profile": "abigail-williams-summer"
   },
 
   "data": {
@@ -56,6 +57,7 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
   ]
 }

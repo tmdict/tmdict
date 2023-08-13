@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2022-12-30",
+  "weight": 20221200,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XI",
+      "ja": "FGO material XI",
+      "zh": "FGO material XI"
+    }
+  }
+}

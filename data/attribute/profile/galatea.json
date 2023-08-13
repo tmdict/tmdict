@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "306:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0306a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0306b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0306c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0306d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0306e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "greek-mythology",
+    "region": ["greece", "cyprus-island"],
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "ex",
+    "agility.parameter": "e",
+    "magic.parameter": "bp",
+    "luck.parameter": "cp",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "minase-hazuki",
+    "illustrator": "shimada-fumikane",
+    "character-voice": "suegara-rie",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Galatea",
+      "ja": "ガラテア",
+      "zh": "伽拉忒亚"
+    },
+    "true-name": {
+      "en": "Galatea",
+      "ja": "ガラテア",
+      "zh": "伽拉忒亚"
+    },
+    "height": {
+      "en": "160cm",
+      "ja": "160cm",
+      "zh": "160cm"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "??kg",
+      "zh": "??kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

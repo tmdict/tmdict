@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Yamashita Daiki",
+      "ja": "山下大輝",
+      "zh": "山下大辉"
+    }
+  }
+}

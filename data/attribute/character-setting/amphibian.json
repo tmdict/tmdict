@@ -1,0 +1,11 @@
+{
+  "type": "character-setting",
+
+  "data": {
+    "name": {
+      "en": "amphibian",
+      "ja": "amphibian",
+      "zh": "amphibian"
+    }
+  }
+}

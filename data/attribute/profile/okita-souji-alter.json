@@ -7,7 +7,8 @@
     { "weight": 2, "id": "img_s2", "src": "S0209b.png" },
     { "weight": 3, "id": "img_s3", "src": "S0209c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0209d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0209e_april-fools.png" }
+    { "weight": 5, "id": "img_april-fools", "src": "S0209e_april-fools.png" },
+    { "weight": 6, "id": "img_rengoku-alter", "src": "S0209f_rengoku-alter.png" }
   ],
 
   "attribute": {

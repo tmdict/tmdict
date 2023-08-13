@@ -1,0 +1,71 @@
+{
+  "type": "profile",
+  "uid": "296:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0296a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0296b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0296c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0296d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0296e_april-fools.png" },
+    { "weight": 6, "id": "img_browline-frame", "src": "S0296f_browline-frame.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "origin": ["greek-mythology", "twenty-thousand-leagues-under-the-seas"],
+    "region": ["europe", "india"],
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "dangerdrop",
+    "character-voice": "hanamori-yumiri",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nemo",
+      "ja": "ネモ",
+      "zh": "尼莫"
+    },
+    "true-name": {
+      "en": "Nemo / Triton",
+      "ja": "ネモ／トリトン",
+      "zh": "尼莫／特里同"
+    },
+    "gender": {
+      "en": "Unknown → Male",
+      "ja": "不明→男性",
+      "zh": "不明→男性"
+    },
+    "notes": {
+      "en": "",
+      "ja": "召還時は性别が定まっていなかった。キャプテン・ネモとして有ることを決めてからは男性体に。作中ではトリトソを「海神の息子」と說明しているが、Fate世界では中性的な存在である。",
+      "zh": ""
+    },
+    "height": {
+      "en": "150cm",
+      "ja": "150cm",
+      "zh": "150cm"
+    },
+    "weight": {
+      "en": "40kg",
+      "ja": "40kg",
+      "zh": "40kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "notes", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

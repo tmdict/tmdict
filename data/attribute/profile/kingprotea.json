@@ -7,7 +7,9 @@
     { "weight": 2, "id": "img_s2", "src": "S0238b.png" },
     { "weight": 3, "id": "img_s3", "src": "S0238c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0238d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0238e_april-fools.png" }
+    { "weight": 5, "id": "img_april-fools", "src": "S0238e_april-fools.png" },
+    { "weight": 6, "id": "img_keeper-of-tlatlauqui", "src": "S0238f_keeper-of-tlatlauqui.png" },
+    { "weight": 7, "id": "img_dark-protea", "src": "S0238g_dark-protea.png" }
   ],
 
   "attribute": {

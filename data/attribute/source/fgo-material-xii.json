@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2023-04-28",
+  "weight": 20230400,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XII",
+      "ja": "FGO material XII",
+      "zh": "FGO material XII"
+    }
+  }
+}

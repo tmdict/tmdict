@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "297:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0297a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0297b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0297c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0297d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0297e_april-fools.png" },
+    { "weight": 6, "id": "img_asagao-patterned-yukata-curse", "src": "S0297f_img_asagao-patterned-yukata-curse.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "unknown",
+    "origin": ["uji-shui-monogatari", "abe-no-seimei-monogatari", "ashiya-douman-oouchi-kagami", "aztec-mythology", "slavic-mythology", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "e",
+    "magic.parameter": "ex",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "furumi-shouichi",
+    "character-voice": "morikawa-toshiyuki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ashiya Douman",
+      "ja": "蘆屋道満",
+      "zh": "芦屋道满"
+    },
+    "true-name": {
+      "en": "Ashiya Douman",
+      "ja": "蘆屋道満",
+      "zh": "芦屋道满"
+    },
+    "height": {
+      "en": "200cm",
+      "ja": "200cm",
+      "zh": "200cm"
+    },
+    "weight": {
+      "en": "110kg",
+      "ja": "110kg",
+      "zh": "110kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

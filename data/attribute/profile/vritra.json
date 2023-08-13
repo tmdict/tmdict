@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "300:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0300a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0300b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0300c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0300d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0300e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "indian-mythology",
+    "region": "india",
+    "alignment": "neutral-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "minase-hazuki",
+    "illustrator": "la-na",
+    "character-voice": "asahina-madoka",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Vritra",
+      "ja": "ヴリトラ",
+      "zh": "弗栗多"
+    },
+    "true-name": {
+      "en": "Vritra",
+      "ja": "ヴリトラ",
+      "zh": "弗栗多"
+    },
+    "height": {
+      "en": "169cm",
+      "ja": "169cm",
+      "zh": "169cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

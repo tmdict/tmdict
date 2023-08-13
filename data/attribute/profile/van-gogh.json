@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "295:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0295a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0295b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0295c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0295d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0295e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["historical-fact", "greek-mythology"],
+    "region": ["netherlands", "greece", "void-space"],
+    "alignment": "chaotic-evil",
+    "strength.parameter": "e",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "amphibian",
+    "illustrator": "kibadori-rue",
+    "character-voice": "takahashi-karin",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Van Gogh",
+      "ja": "ヴァン・ゴッホ",
+      "zh": "梵高"
+    },
+    "true-name": {
+      "en": "Clytie van Gogh (Requires redefining every time they materialize)",
+      "ja": "クリュティエ＝ヴァン・ゴッホ（※現界のたび再定義が必要）",
+      "zh": "克吕提厄·梵高（每一次现世都需要重新定义）"
+    },
+    "height": {
+      "en": "140cm",
+      "ja": "140cm",
+      "zh": "140cm"
+    },
+    "weight": {
+      "en": "39kg",
+      "ja": "39kg",
+      "zh": "39kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

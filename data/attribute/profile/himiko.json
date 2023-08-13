@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "292:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0292a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0292b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0292c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0292d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0292e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "gishi-wajinden",
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "bpp",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "keikenchi",
+    "illustrator": "toi8",
+    "original-character-design.illustrator": "keikenchi",
+    "character-voice": "tamura-yukari",
+    "major-appearances": ["gudaguda-ace", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Himiko",
+      "ja": "卑弥呼",
+      "zh": "卑弥呼"
+    },
+    "true-name": {
+      "en": "Himiko",
+      "ja": "卑弥呼",
+      "zh": "卑弥呼"
+    },
+    "height": {
+      "en": "161cm",
+      "ja": "161cm",
+      "zh": "161cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "original-character-design.illustrator", "character-voice", "major-appearances"]
+  ]
+}

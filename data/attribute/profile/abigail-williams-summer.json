@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "289:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0289a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0289b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0289c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0289d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0289e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": ["north-america", "massachusetts"],
+    "alignment": "lawful-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "kuroboshi-kouhaku",
+    "character-voice": "ohwada-hitomi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "abigail-williams"
+  },
+
+  "data": {
+    "name": {
+      "en": "Abigail Williams (Summer)",
+      "ja": "アビゲイル・ウィリアムズ（夏）",
+      "zh": "阿比盖尔·威廉姆斯（夏）"
+    },
+    "true-name": {
+      "en": "Abigail Williams",
+      "ja": "アビゲイル・ウィリアムズ",
+      "zh": "阿比盖尔·威廉姆斯"
+    },
+    "height": {
+      "en": "152cm",
+      "ja": "152cm",
+      "zh": "152cm"
+    },
+    "weight": {
+      "en": "44kg",
+      "ja": "44kg",
+      "zh": "44kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

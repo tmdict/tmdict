@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Akabane Kenji",
+      "ja": "赤羽根健治",
+      "zh": "赤羽根健治"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "287:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0287a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0287b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0287c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0287d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0287e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "norse-mythology",
+    "region": "europe",
+    "alignment": "neutral-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "miwa-shirow",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "brynhild"
+  },
+
+  "data": {
+    "name": {
+      "en": "Brynhild (Berserker)",
+      "ja": "ブリュンヒルデ（バーサーカー）",
+      "zh": "布伦希尔德（Berserker）"
+    },
+    "true-name": {
+      "en": "Brynhild",
+      "ja": "ブリュンヒルデ",
+      "zh": "布伦希尔德"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

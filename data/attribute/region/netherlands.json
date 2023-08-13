@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Netherlands",
+      "ja": "オランダ",
+      "zh": "荷兰"
+    }
+  }
+}

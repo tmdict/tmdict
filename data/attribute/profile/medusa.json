@@ -7,7 +7,8 @@
     { "weight": 2, "id": "img_s2", "src": "S0023b.png" },
     { "weight": 3, "id": "img_s3", "src": "S0023c.png" },
     { "weight": 4, "id": "img_s4", "src": "S0023d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0023e_april-fools.png" }
+    { "weight": 5, "id": "img_april-fools", "src": "S0023e_april-fools.png" },
+    { "weight": 6, "id": "img_reading-glasses", "src": "S0023f_reading-glasses.png" }
   ],
 
   "attribute": {

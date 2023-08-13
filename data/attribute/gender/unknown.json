@@ -1,0 +1,11 @@
+{
+  "type": "gender",
+
+  "data": {
+    "name": {
+      "en": "Unknown",
+      "ja": "不明",
+      "zh": "不明"
+    }
+  }
+}

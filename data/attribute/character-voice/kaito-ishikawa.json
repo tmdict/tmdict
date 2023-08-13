@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Kaito Ishikawa",
+      "ja": "石川界人",
+      "zh": "石川界人"
+    }
+  }
+}
