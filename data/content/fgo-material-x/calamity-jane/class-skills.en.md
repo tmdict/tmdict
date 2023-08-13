@@ -1,5 +1,5 @@
 ---
-parent: utsumi-erice
+parent: calamity-jane
 source: fgo-material-x
 id: class-skills
 language: en

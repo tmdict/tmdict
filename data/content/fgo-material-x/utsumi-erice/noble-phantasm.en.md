@@ -8,8 +8,6 @@ profile: true
 translation: "Clyton"
 ---
 
-### Space Dead Man’s Hand: A Black Hand that Leads to Death
-
 ### Ame-no-Sakahoko (Heavenly Retracing Spear)
 
 <table>
