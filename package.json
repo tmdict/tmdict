@@ -1,6 +1,6 @@
 {
   "name": "tmdict",
-  "version": "3.10.0",
+  "version": "3.12.0",
   "scripts": {
     "build": "cross-env APP=all NODE_ENV=production run-s clean compile pack",
     "build:dev": "cross-env APP=all NODE_ENV=development run-s clean compile pack:all",

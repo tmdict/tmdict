@@ -26,6 +26,13 @@ Alternatively, there is a “Report Error” link on each page for user to easil
 
 ### Updates
 
+**2023-08-14**
+
+- Updated CHALDEAの記録 with FGO Material 11 character profiles.
+- Updated CHALDEAの記録 with FGO Material 12 character profiles.
+- Fixed various translation inconsistencies in CHALDEAの記録.
+- Upgraded site backend.
+
 **2023-08-09**
 
 <em>TYPE-MOON Ace 15</em> came with a supplemental booklet that contains a short glossary for <em>The Adventures of Lord El-Melloi II</em>, translations for this glossary have been added to our database.
