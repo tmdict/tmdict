@@ -29,7 +29,7 @@ To defend against the Noble Phantasm, instead of physical defensive power, a res
 
 <table>
   <tr><td>Rank</td><td>C</td></tr>
-  <tr><td>Type</td><td>Barrier-Type Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Barrier Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~10</td></tr>
   <tr><td>Maximum Number of Targets</td><td>50 people</td></tr>
 </table>

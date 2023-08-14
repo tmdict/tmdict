@@ -26,7 +26,7 @@ The Noble Phantasm’s wooden horse is in fact a giant mount covered in divine s
 
 <table>
   <tr><td>Rank</td><td>A</td></tr>
-  <tr><td>Type</td><td>Bounded Field Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Barrier Noble Phantasm</td></tr>
   <tr><td>Range</td><td>-</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

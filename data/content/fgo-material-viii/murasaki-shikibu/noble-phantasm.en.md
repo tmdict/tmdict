@@ -27,7 +27,7 @@ translation: "ComunCoutinho"
 
 The poem recited along with the True Name Release works as a form of blessing, leading her party to victory.
 
-A Recovery + Bounded Field Noble Phantasm.
+A Recovery + Barrier Noble Phantasm.
 This waka poem was published in the The Lady of the Paulownia-Courtyard Chambers, the 1st tome of The Tale of Genji.
 It’s a poem a sickly woman composed as a response to her loved one’s farewell.
 “Despite all the sorrow of parting ways with you, I still want to live my life.”

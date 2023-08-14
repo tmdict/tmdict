@@ -50,14 +50,14 @@ When its True Name is released, it unleashes a battery of ardent light, but in �
 
 <table>
   <tr><td>Rank</td><td>B</td></tr>
-  <tr><td>Type</td><td>Bounded Field Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Barrier Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~40</td></tr>
   <tr><td>Maximum Number of Targets</td><td>100 people</td></tr>
 </table>
 
 Moles Necessariae{{n1}}.
 The tragic legend in which Romulus killed their beloved brother Remus with their own hands, manifested as bloodstained ramparts of love.
-By dividing space through the manifestation of “ramparts of light”, this Bounded Field Noble Phantasm can defend the interior of the walls. These ramparts manifest by surging out of the ground instantly, so by adjusting the location of the manifestation, it is possible to slice apart the target.
+By dividing space through the manifestation of “ramparts of light”, this Barrier Noble Phantasm can defend the interior of the walls. These ramparts manifest by surging out of the ground instantly, so by adjusting the location of the manifestation, it is possible to slice apart the target.
 While the effects of a True Name release are fundamentally not used in “FateGO”, you might be able to see a glimpse of it during their Extra Attacks.
 
 ##### {{notes}}

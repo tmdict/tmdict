@@ -1,5 +1,5 @@
 ---
-parent: brynhild-berserker
+parent: illyasviel-von-einzbern-archer
 source: fgo-material-xi
 id: character
 language: zh
