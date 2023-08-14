@@ -100,7 +100,7 @@ Even though she thinks Chaldea an eyesore, she also finds Beast III/R (Kiara) od
 As a pair, R and L make up Beast III, but its visual concept is “the hell of women”.
 While Kiara is the “boundless yet lone woman (or in other words, boundless motherhood)”, Kama is the “all-encompassing yet lone girl (or in other words, all-encompassing girlhood)”.
 Kiara’s Beastly trait is Kiara herself, but Kama’s encompasses “all the charms and terrors of a girl”.
-Kama-Mara ’s Noble Phantasm which “fires indiscriminate arrows of love that burn all in the center of the universe” has been shifted to “throwing one’s self (doubles) into enveloping all and burning them with one-sided love” as Beast III/L.
+Kama-Mara’s Noble Phantasm which “fires indiscriminate arrows of love that burn all in the center of the universe” has been shifted to “throwing one’s self (doubles) into enveloping all and burning them with one-sided love” as Beast III/L.
 
 ##### {{notes}}
 

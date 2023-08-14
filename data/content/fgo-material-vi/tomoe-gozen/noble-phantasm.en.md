@@ -34,6 +34,6 @@ Namaḥ Samantavajrānāṃ Hāṃ.
 An arrow of death that leads to boiling, evaporating, and finally extinction.
 She transforms her mana into heat, and shoots and arrow of flames towards her enemy. The arrow itself isn’t special (for something that’s shot at the speed of sound), but the flames give it more power.
 It’s similar but different to Mana Burst. The fact that it can be used for long-range attacks is the biggest difference.
-Tomoe tries to lie saying this abnormal power ’Comes from the Shogun of Asahi, Yoshinaka-sama’s power’, but it is most likely due to her strong demon blood, and she could use it even in life.
+Tomoe tries to lie saying this abnormal power ‘Comes from the Shogun of Asahi, Yoshinaka-sama’s power’, but it is most likely due to her strong demon blood, and she could use it even in life.
 In FGO there’s no activation through chanting its name, and Tomoe uses it in her regular attacks.
 If she so wishes, she can even use the flames with her Naginata.

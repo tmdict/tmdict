@@ -95,7 +95,7 @@ And Genkurougitsune is indeed Osakabehime’s little brother.
 
 Osakabehime “Ahhh but having seen Ushiwakamaru in Chaldea I can’t help but feel she did it while thinking something like…‘Well the Minamoto house didn’t need some rainmaking relic, so I gave it to this random fox’…”
 
-(from the joruri ’Yoshitsune Senbonzakura’)
+(from the joruri ‘Yoshitsune Senbonzakura’)
 
 #### Kiyohime
 

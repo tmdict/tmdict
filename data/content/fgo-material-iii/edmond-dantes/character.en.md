@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>ore / sometimes watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>omae / kisama</td></tr>
   <tr><td>Third-person pronoun</td><td>yakko / kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

@@ -12,7 +12,7 @@ translation: "vt789123"
   <tr><td>第一人称</td><td>我</td></tr>
   <tr><td>第二人称</td><td>您 / 〇〇〇先生 / 小姐（名字加上后缀）</td></tr>
   <tr><td>第三人称</td><td>那位 / 大家</td></tr>
-  <tr><td></td><td>对Master叫“Master”“您”</td></tr>
+  <tr><td>对御主称呼</td><td>对Master叫“Master”“您”</td></tr>
 </table>
 
 ### 性格

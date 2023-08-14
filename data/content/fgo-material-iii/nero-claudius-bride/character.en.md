@@ -12,7 +12,7 @@ translation: "ComunCoutinho"
   <tr><td>First-person pronoun</td><td>you</td></tr>
   <tr><td>Second-person pronoun</td><td>kiden / kisama / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>kidentachi / kisamara / 〇〇 (without honorifics)</td></tr>
-</table> 
+</table>
 
 ### Personality
 

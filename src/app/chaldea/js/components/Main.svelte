@@ -27,7 +27,7 @@
     <div class="content">
       <table class="center" style="width:350px">
         <tr><td style="width:120px">Last Updated</td><td>2023-07-24</td></tr>
-      </table>  
+      </table> 
     </div>
 
     {#each data.content.slice(1) as section}

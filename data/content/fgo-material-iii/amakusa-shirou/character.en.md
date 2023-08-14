@@ -12,7 +12,7 @@ translation: "Chaldeum, castor212"
   <tr><td>First-person pronoun</td><td>watashi / ore</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / anata [only to females]</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

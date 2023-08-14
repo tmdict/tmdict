@@ -12,7 +12,7 @@ translation: "Akiraka, vt789123"
   <tr><td>第一人称</td><td>私</td></tr>
   <tr><td>第二人称</td><td>おまえ / 人类 / 〇〇（不加称谓）/（亲近后）あなた</td></tr>
   <tr><td>第三人称</td><td>おまえたち / 〇〇（不加称谓）</td></tr>
-  <tr><td>对Master称呼</td><td>（刚开始）〇〇（不加称谓）/（契约后）Master / 驾驶员</td></tr>
+  <tr><td>对御主称呼</td><td>（刚开始）〇〇（不加称谓）/（契约后）Master / 驾驶员</td></tr>
 </table>
 
 ### 性格

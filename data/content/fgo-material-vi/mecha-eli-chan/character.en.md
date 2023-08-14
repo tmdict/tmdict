@@ -53,7 +53,7 @@ To Mecha Eli-chan, the Master who tried to protect Čachtice Castle, even though
 “I’ll reward you with the iron hammer of justice. It is made of iron so receive it and be smashed to smithereens.”
 “We are Servants of steel, Mecha Eli-chan. We’ll protect you with gunfire and thunder.”
 
-“Thank you. However, no need to worry about me, Master. Nothing can wound me. As you can see, I am made of iron.” (From the last episode of ’Crimson Parting, Mecha Eli-chan’s Kamikaze Attack’)
+“Thank you. However, no need to worry about me, Master. Nothing can wound me. As you can see, I am made of iron.” (From the last episode of ‘Crimson Parting, Mecha Eli-chan’s Kamikaze Attack’)
 
 ### Setting
 

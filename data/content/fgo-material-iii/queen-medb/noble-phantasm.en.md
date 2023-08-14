@@ -17,7 +17,7 @@ translation: "Clyton"
   <tr><td>Maximum Number of Targets</td><td>50 people</td></tr>
 </table>
 
-She mounts the “chariot” that embodies her own powerful influence and performs a charging attack. An area of effect attack. It is a two-unit chariot that uses the bulls associated with the “Táin Bó Cúailnge”, and this chariot represents the lord’s royal authority that rules over the people, the steel that oppresses the people, and the fear that makes the people tremble. It is particularly effective against males. It is difficult for any man to brush aside the approaching Medb. In “Fate/Grand Order”, it has been readjusted (retuned) from being an Anti-Army Noble Phantasm into an Anti-Personnel Noble Phantasm.
+She mounts the “chariot” that embodies her own powerful influence and performs a charging attack. An area of effect attack. It is a two-unit chariot that uses the bulls associated with the “Táin Bó Cúailnge”, and this chariot represents the lord’s royal authority that rules over the people, the steel that oppresses the people, and the fear that makes the people tremble. It is particularly effective against males. It is difficult for any man to brush aside the approaching Medb. In “Fate/Grand Order”, it has been readjusted (retuned) from being an Anti-Army Noble Phantasm into an Anti-Unit Noble Phantasm.
 
 No man caught in Medb’s chariot can escape it, no matter what. Her chariot room has already changed into a Reality Marble by then, a love nest that will not set them free until the deed is finished.
 

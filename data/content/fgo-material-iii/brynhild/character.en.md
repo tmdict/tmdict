@@ -12,7 +12,7 @@ translation: "Smoof101"
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / anata [only to females] / 〇〇-san</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / ano hito (only in regards to Sigurd)</td></tr>
-</table> 
+</table>
 
 ### Personality
 

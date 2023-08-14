@@ -12,7 +12,7 @@ translation: "Velox0blivio, Dry_AG, Clyton"
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / 〇〇 (without honorifics)</td></tr>
-</table> 
+</table>
 
 ### Personality
 

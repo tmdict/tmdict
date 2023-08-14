@@ -12,7 +12,7 @@ translation: "Akiraka"
   <tr><td>第一人称</td><td>私</td></tr>
   <tr><td>第二人称</td><td>貴方 / 〇〇さん</td></tr>
   <tr><td>第三人称</td><td>彼 / 彼女 / あの人</td></tr>
-  <tr><td>Master</td><td>名字+君or不加君 / Master君or不加君</td></tr>
+  <tr><td>对御主称呼</td><td>名字+君or不加君 / Master君or不加君</td></tr>
 </table>
 
 ### 性格

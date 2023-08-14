@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / anata [only to females] / anta</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / aitsu / are</td></tr>
-</table> 
+</table>
 
 ### Personality
 

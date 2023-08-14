@@ -14,7 +14,7 @@ A skill that increases the water pressure and discharge from the hose. As a side
 
 ### Summer Vacation! (Child): A+
 
-Elementary school children are powerful, almost invincible during the summer. (They think) they can do anything, and (they think) they have all the time in the world. They start to weaken around the end of August
+Elementary school children are powerful, almost invincible during the summer. (They think) they can do anything, and (they think) they have all the time in the world. They start to weaken around the end of August.
 
 ### Legal Shower!: B++
 

@@ -12,7 +12,7 @@ translation: "ComunCoutinho"
   <tr><td>First-person pronoun</td><td>ore</td></tr>
   <tr><td>Second-person pronoun</td><td>omae</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

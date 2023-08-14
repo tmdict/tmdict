@@ -24,7 +24,7 @@ The embodiment of Ushiwakamaru’s various legends, which were created from righ
 
 Forcibly relocates everyone that are on the field. It changes battle conditions in that it creates an overwhelming advantage for each ally’s position and an overwhelming disadvantage for the enemy camp.
 
-〇 Usumidori – Short Steps with the Heavenly Blade / Anti-Personnel Secret Technique
+〇 Usumidori – Short Steps with the Heavenly Blade / Anti-Unit Secret Technique
 
 A brilliant slash with Usumidori. This single attack, delivered after a Shukuchi movement that was executed according to the footwork of a tengu, is difficult to evade.
 

@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>ore</td></tr>
   <tr><td>Second-person pronoun</td><td>temee / omae / kisama, etc.</td></tr>
   <tr><td>Third-person pronoun</td><td>aitsu / are, etc.</td></tr>
-</table> 
+</table>
 
 ### Personality
 

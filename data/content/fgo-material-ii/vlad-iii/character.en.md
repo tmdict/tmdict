@@ -38,9 +38,9 @@ Vlad is one of the greatest heroes of Romania, his most famous deed being repell
 
 Then he became known as a hero in western europe, and as the embodiment of evil in western europe.
 
-Vlad could have disappeared in history as just the hero of a small country, with him not gaining global fame, but since he was used as the model for Bram Stoker’s ’Dracula’, his fame suddenly exploded.
+Vlad could have disappeared in history as just the hero of a small country, with him not gaining global fame, but since he was used as the model for Bram Stoker’s ‘Dracula’, his fame suddenly exploded.
 
-But he was not famous as the hero who defeated Mehmed II, but rather he became famous as the vampire of calamity that appeared in ’Dracula’, Count Dracula.
+But he was not famous as the hero who defeated Mehmed II, but rather he became famous as the vampire of calamity that appeared in ‘Dracula’, Count Dracula.
 
 Furthermore, when being summoned as a Berserker and not as a Lancer, Vlad is summoned as a vampire, not as a hero. That is his current state. He is a monster that sucks blood, transforms into mist and bats, and destroys his enemies with stakes made inside his body.
 

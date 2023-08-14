@@ -10,7 +10,7 @@ translation: "fumei, Konchew"
 
 <table>
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
-  <tr><td>Second-person pronoun</td><td>anata/human / 〇〇 (without honorifics))</td></tr>
+  <tr><td>Second-person pronoun</td><td>anata/human / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>anata-tachi / 〇〇 (without honorifics)</td></tr>
   <tr><td>Master designation</td><td>(initially) 〇〇 (without honorific) / (with a contract) master / pilot</td></tr>
 </table>

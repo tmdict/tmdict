@@ -30,7 +30,7 @@ She claims to have “become jealous” due to Leviathan’s influence, but sinc
 
 Although her looking down on humans remains unchanged, her dislike for humans is being repressed compared to the usual Melt.
 “I am the Mysterious Alterego, Lambda. The greatest entertainer who has awakened to the awareness of a professional.
-My job is to charm the audience. I won’t spout something like ’I will remain a human-hater forever’.
+My job is to charm the audience. I won’t spout something like ‘I will remain a human-hater forever’.
 Those who understand my beauty should receive a deserving reward, no?”
 Hmm~. Well, she is the usual Melt (rest omitted).
 
@@ -38,8 +38,8 @@ Hmm~. Well, she is the usual Melt (rest omitted).
 
 “That’s right. I have no memories of it. Don’t be so over-familiar when you address me. I am a star here, after all.”
 “Haah? It looks like a penguin hoodie to you? Are your eyes melting like ice blocks? No matter how you look at it, it’s a Leviathan hoodie.”
-“Among the many ’bests’, you are the one who tried to reach the absolute pinnacle.
-I pride myself on being the one and only ’best’ there is.
+“Among the many ‘bests’, you are the one who tried to reach the absolute pinnacle.
+I pride myself on being the one and only ‘best’ there is.
 As expected, we won’t get along.
 In the Palace of the Dragon King, no one will take notice of the likes of a flower from the surface.
 There is only one goddess in this world.

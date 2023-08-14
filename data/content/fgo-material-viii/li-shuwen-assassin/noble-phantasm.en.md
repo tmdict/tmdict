@@ -19,7 +19,7 @@ translation: "BananaShiki"
 
 No Second Strike.
 Just like Tsubame Gaeshi, or God Spear No Second Strike, this is a technique forged and mastered to the point where it’s become a Noble Phantasm.
-It’s effect is the same as his Lancer version’s ’God Spear No Second Strike’, but due to being done using his bare hands, the range has been reduced to only his fists’ reach.
+It’s effect is the same as his Lancer version’s ‘God Spear No Second Strike’, but due to being done using his bare hands, the range has been reduced to only his fists’ reach.
 
 ### Mouko Kou Hazan: Fierce Tiger Climbs the Mountain
 

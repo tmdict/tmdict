@@ -12,7 +12,7 @@ category:
 “The minds of people became used to being managed and regulated, and civilization stagnated.
 There are no great tragedies, however there are also no new discoveries.
 Everyone is pessimistic in this flavorless world where you can only await death.
-This is our ’reality’.”
+This is our ‘reality’.”
 
 Fate/EXTRA is set on Earth in 2030.
 The world of EXTRA differs from that of Fate/stay night in that it follows a different timeline and events starting from 1970. History took a different path.

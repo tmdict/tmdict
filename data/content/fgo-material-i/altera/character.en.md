@@ -16,7 +16,7 @@ translation: "Chaldeum, Clyton"
 
 ### Personality
 
-With her excellent instincts, she can deal with even the drastic of circumstances without abandoning her reason – a proud and logical fighter. However, there is a sort of ’emptiness’ about her.
+With her excellent instincts, she can deal with even the drastic of circumstances without abandoning her reason – a proud and logical fighter. However, there is a sort of ‘emptiness’ about her.
 
 Regardless of friend or foe, she has some magnanimity for those warriors whose skill (performance) she has acknowledged, but those who stand against her are treated as only obstructions to be removed, and she is fundamentally merciless. There is no hesitation in her blade. In battle, she can coolly and correctly grasp the situation, becoming a merciless killing machine.
 

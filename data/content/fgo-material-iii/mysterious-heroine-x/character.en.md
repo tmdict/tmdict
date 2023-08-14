@@ -12,7 +12,7 @@ translation: "ComunCoutinho"
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / omae</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

@@ -17,7 +17,7 @@ translation: "Clyton"
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
 
-Iron Fist Holy Judgement. A fearsome Anti-Personnel Noble Phantasm that looks like Tarasque’s prayer taking form, say, a sort of prayer of not wanting to be only treated like before. While Tarasque comes flying in to crash onto the target, Martha gives further damage with a barrage of fists. Although it appears as if Tarasque is being struck by the barrage, because Martha is swinging her fists with the same striking method as a kind of “sunkei”{{n1}} that “goes through” him, there is no damage done to Tarasque, and all the damage appears to be delivered to the target underneath Tarasque————or so it seems.
+Iron Fist Holy Judgement. A fearsome Anti-Unit Noble Phantasm that looks like Tarasque’s prayer taking form, say, a sort of prayer of not wanting to be only treated like before. While Tarasque comes flying in to crash onto the target, Martha gives further damage with a barrage of fists. Although it appears as if Tarasque is being struck by the barrage, because Martha is swinging her fists with the same striking method as a kind of “sunkei”{{n1}} that “goes through” him, there is no damage done to Tarasque, and all the damage appears to be delivered to the target underneath Tarasque————or so it seems.
 
 Tarasque’s voice: “Stop, it’s quite painful!”
 

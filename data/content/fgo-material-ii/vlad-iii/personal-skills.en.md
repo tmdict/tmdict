@@ -14,7 +14,7 @@ One of Vlad’s vampiric abilities. He can turn others into slaves by sucking th
 
 The one who has their blood sucked enters a state of living in death, and usually obeys whoever sucked their blood.
 
-Also, since this counts not as an attack but rather a show of affection, it cannot be defended against even if you were to posses ’a body which rejects all attacks’.
+Also, since this counts not as an attack but rather a show of affection, it cannot be defended against even if you were to posses ‘a body which rejects all attacks’.
 
 ### Shapeshifting: C
 

@@ -12,7 +12,7 @@ translation: "castor212"
   <tr><td>First-person pronoun</td><td>boku</td></tr>
   <tr><td>Second-person pronoun</td><td>kimi</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / aitsunado</td></tr>
-</table> 
+</table>
 
 ### Personality
 

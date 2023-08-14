@@ -14,7 +14,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>boku</td></tr>
   <tr><td>Second-person pronoun</td><td>kimi</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / 〇〇-san</td></tr>
-</table> 
+</table>
 
 #### When He is Hyde
 
@@ -22,7 +22,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>ore / oresama-chan</td></tr>
   <tr><td>Second-person pronoun</td><td>temee / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>aitsu / ano yarou / ano onna</td></tr>
-</table> 
+</table>
 
 ### Personality
 

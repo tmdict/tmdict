@@ -58,7 +58,7 @@ According to the “Genpei Jōsuiki”, Tomoe then married to Wada Yoshimori and
 ### Character Image in “FateGO”
 
 She’s a female warrior who, along with her ever continuint feelings towards her lord Yoshinaka, she also carries the regret of not being able to spend his last moments together.
-This quiet sorrow of hers was turned into a flame of rage by Ashiya Douman in ’The seven duels of the swordmaster heroic spirits’, and she became a monster of fire with the objective of burning down the Sagami region.
+This quiet sorrow of hers was turned into a flame of rage by Ashiya Douman in ‘The seven duels of the swordmaster heroic spirits’, and she became a monster of fire with the objective of burning down the Sagami region.
 Usually she is a graceful maiden. She hates quarrels between people, and enjoys the beauty of nature.
 
 Her red eyes may be proof of her being a mix of human with a now-extinct species of demon. She possesses a low-rank version of Mad Enhancenment even though she’s an Archer. She doesn’t lose any of her sanity, but some of her physical abilities are enhanced, allowing her to display a ferocious fighting style.
@@ -69,7 +69,7 @@ It seems she is quite attracted to those involving battles.
 
 <>
 
-In ’The seven duels of the swordmaster heroic spirits’, she was one of the swordmaster heroic spirits summoned by the necromancer, and appeared as Archer Inferno, fighting the protagonist and Miyamoto Musashi.
+In ‘The seven duels of the swordmaster heroic spirits’, she was one of the swordmaster heroic spirits summoned by the necromancer, and appeared as Archer Inferno, fighting the protagonist and Miyamoto Musashi.
 The Tomoe summoned in Chaldea has no memories of this. She’s essentially a different person.
 
 However, she’s aware of what happened in the pruned phenomenom of Shimousa after having read the records in Chaldea’s database. After having read it, she went around visiting everyone who had been involved in the singularity and, lowering her head in apology, told them “Even if that was a different incarnation of myself, it was still one with the same soul as mine. At that time, Inferno truly caused you a lot of trouble.”.

@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>boku</td></tr>
   <tr><td>Second-person pronoun</td><td>kimi</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

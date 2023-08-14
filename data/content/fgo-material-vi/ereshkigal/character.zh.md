@@ -12,7 +12,7 @@ translation: "Akiraka"
   <tr><td>第一人称</td><td>私</td></tr>
   <tr><td>第二人称</td><td>アナタ / 人类 / 英灵</td></tr>
   <tr><td>第三人称</td><td>人类们 / 英灵们</td></tr>
-  <tr><td>对Master称呼</td><td>アナタ / 〇〇（不加称谓）/ 契约者 很少会用Master称呼。基本上都是「契约者」</td></tr>
+  <tr><td>对御主称呼</td><td>アナタ / 〇〇（不加称谓）/ 契约者 很少会用Master称呼。基本上都是「契约者」</td></tr>
 </table>
 
 ### 性格

@@ -12,7 +12,7 @@ translation: "ComunCoutinho"
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
   <tr><td>Second-person pronoun</td><td>anata / Mr.〇〇 / Ms.〇〇</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo / Mr.〇〇 / Ms.〇〇</td></tr>
-</table> 
+</table>
 
 ### Personality
 
@@ -30,7 +30,7 @@ Nightingale’s existence can be summed up exclusively to always saving people, 
 
 “Let us save all lives. I will definitely do so, even if I have to take away all lives.”
 “I will do anything! To save lives! You heard it right, anything!”
-“The words ’angel in gown’ never fail to make laugh.”
+“The words ‘angel in gown’ never fail to make laugh.”
 “Angels are not those who scatter beautiful flowers, they are those who fight to save those who suffer.”
 “If you are a real commanding officer, then you must also obey my instructions. I know the importance of battlefield medicine. Lack of hygiene causes hell. So please, remain clean.”
 

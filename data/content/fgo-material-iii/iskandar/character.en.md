@@ -12,7 +12,7 @@ translation: "castor212"
   <tr><td>First-person pronoun</td><td>yo</td></tr>
   <tr><td>Second-person pronoun</td><td>kisama / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>kisamara / kisamatachi / 〇〇 (without honorifics)</td></tr>
-</table> 
+</table>
 
 ### Personality
 

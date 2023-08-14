@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>yo</td></tr>
   <tr><td>Second-person pronoun</td><td>omae / kisama / nanji, etc.</td></tr>
   <tr><td>Third-person pronoun</td><td>kare / kanojo</td></tr>
-</table> 
+</table>
 
 ### Personality
 

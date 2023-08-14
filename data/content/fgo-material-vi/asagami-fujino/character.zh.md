@@ -12,7 +12,7 @@ translation: "Akiraka, vt789123"
   <tr><td>第一人称</td><td>わたし</td></tr>
   <tr><td>第二人称</td><td>〇〇さん（名字后加上さん）/ あなた</td></tr>
   <tr><td>第三人称</td><td>あのかた / みなさん</td></tr>
-  <tr><td>Master</td><td>年青的魔术师先生（小姐）/ 〇〇さん  关键时刻则是「Master」</td></tr>
+  <tr><td>对御主称呼</td><td>年青的魔术师先生（小姐）/ 〇〇さん  关键时刻则是「Master」</td></tr>
 </table>
 
 ### 性格

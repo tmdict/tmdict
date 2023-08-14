@@ -59,7 +59,7 @@ He really shouldn’t have been recorded into the throne as an anti-hero to begi
 Even though Salieri had once lost his position as court musician, he was still a very respected musician who also took many other musicians and their children as pupils. This included Mozart’s best pupil, Süssmayr, as well as Mozart’s son Franz Xaver Wolfgang Mozart and even Beethoven.
 
 However, sometime around 1820, the rumor that Salieri had killed Mozart started to spread all over the world. Even though it was untrue, people kept imagining this story where “the genius loved by god was murdered by a jealous and hateful prodigy”.
-The now old Salieri told his pupil Moscheles ’that is nothing but vile slander’, but people even took that as a confession of the crime. Later there were even rumors that a regretful Salieri had taken his own life by cutting his throat with a knife.
+The now old Salieri told his pupil Moscheles ‘that is nothing but vile slander’, but people even took that as a confession of the crime. Later there were even rumors that a regretful Salieri had taken his own life by cutting his throat with a knife.
 
 And now, after long time passed, Salieri’s existence has become warped by the unjustified rumors. His existence has also become fused with the mysterious man in grey, who is also related to Amadeus’ last days, and has materialized as a Servant in this way.
 An anti-hero that kills people.

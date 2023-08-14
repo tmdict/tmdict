@@ -106,6 +106,6 @@ That aside, he gets on well with the elder Li Shuwen (Assassin), and often discu
 ##### {{notes}}
 
 1. {{note1}} The verb used here is 入寂する rather than the usual 死ぬ for “to die”. 入寂 refers to the death of a priest, but can also mean “nirvana” or “spiritual liberty”, so I translated it as “entering nirvana”.
-2. {{note2}} This is what was written, but it’s either a typo or Chaldea’s Inshun talking to his Epic of Remnant self. The ’braiding his hair’ thing would be connected to point 3.
+2. {{note2}} This is what was written, but it’s either a typo or Chaldea’s Inshun talking to his Epic of Remnant self. The ‘braiding his hair’ thing would be connected to point 3.
 3. {{note3}} Inshun’s demon form in Makai Tenshō. Kamikiri is a kind of yōkai that cut people’s hair from the string that tied their hair.
 4. {{note4}} Reference to Makai Tenshō’s manga adptation.

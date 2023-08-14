@@ -12,7 +12,7 @@ translation: "Clyton"
   <tr><td>First-person pronoun</td><td>washi</td></tr>
   <tr><td>Second-person pronoun</td><td>onushi</td></tr>
   <tr><td>Third-person pronoun</td><td>ayatsu</td></tr>
-</table> 
+</table>
 
 ### Personality
 

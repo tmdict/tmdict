@@ -32,7 +32,7 @@ They begin their approach in the same way as the original Anne & Mary whom attai
 
 ### Attitude towards Master
 
-They are a rare pair of female pirates, but this time, they visit the Master in swimsuits carefreely. With a ’Bonny!’ feeling, Anne attacks the Master in a swimsuit with a high degree of exposure, while Mary pouts in dere towards the Master with a physique that has a ’Read!’ feeling to it, turning into a pincer attack.
+They are a rare pair of female pirates, but this time, they visit the Master in swimsuits carefreely. With a ‘Bonny!’ feeling, Anne attacks the Master in a swimsuit with a high degree of exposure, while Mary pouts in dere towards the Master with a physique that has a ‘Read!’ feeling to it, turning into a pincer attack.
 
 ### Dialogue Examples
 

@@ -50,7 +50,7 @@ My sister is amazing! She taught me about warfare that someone like me couldn’
 
 This is just a hypothesis, but had the Oda siblings been born not as feudal lords, but as regular civilians, maybe they could have lived their lives and future harmoniously as brother and sister.
 
-By the way during this summoning, maybe because of some remaining fragment of Nobunaga’s Saint Graph or something, Nobukatsu is able to summon those ’mysterious little things’ to aid him. According to Nobukatsu they have received some minor renewals, so you might be able to kill some time if you compare them to the older ones to see what’s different.
+By the way during this summoning, maybe because of some remaining fragment of Nobunaga’s Saint Graph or something, Nobukatsu is able to summon those ‘mysterious little things’ to aid him. According to Nobukatsu they have received some minor renewals, so you might be able to kill some time if you compare them to the older ones to see what’s different.
 
 ### General Armaments
 

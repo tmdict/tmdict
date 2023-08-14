@@ -24,4 +24,4 @@ Due to being summoned as a Lancer this time, his usage of Sphere Boundary has no
 
 ### Juezhao: B
 
-The secrets of Bajiquan that Li Shuwen had learned. With regards to Anti-Personnel abilities, this is certainly said to be the ultimate one among them.
+The secrets of Bajiquan that Li Shuwen had learned. With regards to Anti-Unit abilities, this is certainly said to be the ultimate one among them.

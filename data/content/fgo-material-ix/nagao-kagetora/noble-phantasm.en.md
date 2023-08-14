@@ -17,7 +17,7 @@ translation: "Clyton"
   <tr><td>Maximum Number of Targets</td><td>100 people</td></tr>
 </table>
 
-A Noble Phantasm that converted the Winding Wheel Formation – which Nagao Kagetora is said to have regarded as her specialty – for Anti-Personnel Combat. A tactical formation that originally divided one’s military force into several divisions so that each division took turns in assaulting the enemy line.
+A Noble Phantasm that converted the Winding Wheel Formation – which Nagao Kagetora is said to have regarded as her specialty – for Anti-Unit Combat. A tactical formation that originally divided one’s military force into several divisions so that each division took turns in assaulting the enemy line.
 
 At the moment of its True Name Release, the fully armed, horseback riding figure of Kagetora splits off into 8 fully armed, horseback riding clones of Kagetora, before bringing certain death to her opponent with a one-man Winding Wheel Formation, the clones rushing at them with each clone taking turns in assaulting them.
 

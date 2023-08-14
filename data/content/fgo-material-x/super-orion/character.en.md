@@ -27,7 +27,7 @@ It’s actually kinda funny if you take a step back and think about it.
 I mean, how did it even come to this?
 I’m a Servant, for crying out loud!
 Wait… Is it a curse from my name?
-Is it all because my name stems from ’to urinate’{{n1}}?
+Is it all because my name stems from ‘to urinate’{{n1}}?
 Hahaha, I see, hahahaha!
 What kind of awful origin of a name is that!?” “Master, this may be abrupt but I was caught cheating, so sorry, but I’ll retreat for a bit!”
 “I won’t let anyone fell you but me!
@@ -82,7 +82,7 @@ I! Love! Y──
 
 #### Jason / Achilles
 
-“I don’t at all agree with the media’s portrayal of us as ’a trio of greek muscleheads’. Well, I guess it’s not that off the mark, but…”
+“I don’t at all agree with the media’s portrayal of us as ‘a trio of greek muscleheads’. Well, I guess it’s not that off the mark, but…”
 
 #### Atlantis Argonauts
 

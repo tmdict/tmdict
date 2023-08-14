@@ -78,7 +78,7 @@ Constantly worrying about how to make them like her with a difficult look on her
 #### Achilles
 
 She is grateful to him for stopping her past self.
-However, the fact that he calls both her and her Archer version ’big sis’ gives her slightly conflicting feelings.
+However, the fact that he calls both her and her Archer version ‘big sis’ gives her slightly conflicting feelings.
 
 #### Jeanne d’Arc (Alter)
 
