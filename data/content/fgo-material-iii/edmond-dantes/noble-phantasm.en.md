@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>C</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>—</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -27,7 +27,7 @@ Upon releasing its True Name, the grudges amassed within himself scatters to his
 
 <table>
   <tr><td>Rank</td><td>?</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel / Anti-Army Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit / Anti-Army Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~20</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1~100 people</td></tr>
 </table>
@@ -40,7 +40,7 @@ In “Fate/Grand Order”, he performs a simultaneous multi-attack by means of t
 
 <table>
   <tr><td>Rank</td><td>B</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~50</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

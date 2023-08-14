@@ -24,7 +24,7 @@ A cursed sacred sword that achieved the feat of dragon slaying. Being that it ev
 
 <table>
   <tr><td>Rank</td><td>B+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>—</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

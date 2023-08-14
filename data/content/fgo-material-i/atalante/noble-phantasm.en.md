@@ -24,7 +24,7 @@ With “Tauropolos: The Bow of the Heavens”, which she received from her guard
 
 <table>
   <tr><td>Rank</td><td>B+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm (Self)</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm (Self)</td></tr>
   <tr><td>Range</td><td>0</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

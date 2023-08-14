@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>—</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>2~5</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

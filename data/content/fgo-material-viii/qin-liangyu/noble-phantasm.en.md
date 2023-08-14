@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>D</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>2~5</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -25,7 +25,7 @@ It has been told that ash was used as a material for spears in Greece far and wi
 
 <table>
   <tr><td>Rank</td><td>B</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel (Self) Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit (Self) Noble Phantasm</td></tr>
   <tr><td>Range</td><td>0</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

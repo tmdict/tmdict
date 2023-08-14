@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>A++{{n1}}</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~50</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -25,7 +25,7 @@ An arrow fired with Artemis’ power of love towards Orion. Because it is shot t
 
 <table>
   <tr><td>Rank</td><td>A+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~50</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

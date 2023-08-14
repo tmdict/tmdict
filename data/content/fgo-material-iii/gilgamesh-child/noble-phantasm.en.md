@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>B+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>–</td></tr>
   <tr><td>Maximum Number of Targets</td><td>–</td></tr>
 </table>
@@ -25,7 +25,7 @@ Although the quantity of the contents that can be shot out is lower in compariso
 
 <table>
   <tr><td>Rank</td><td>?</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~30</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -36,7 +36,7 @@ A Noble Phantasm crowned with the name of Gilgamesh’s one and only friend. One
 
 <table>
   <tr><td>Rank</td><td>EX</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>–</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

@@ -12,7 +12,7 @@ translation: "Clyton"
 
 <table>
   <tr><td>Rank</td><td>EX{{n1}}</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel{{n2}} Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit{{n2}} Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -23,7 +23,7 @@ Xiuhcoatl Driver. The second coming of the flames that burned down her own templ
 
 <table>
   <tr><td>Rank</td><td>A</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel~Anti-Army Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit~Anti-Army Noble Phantasm</td></tr>
   <tr><td>Range</td><td>2~80</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1~200</td></tr>
 </table>

@@ -27,7 +27,7 @@ It has been said that Bradamante, who defeated Atlantes, obtained the shield the
 
 <table>
   <tr><td>Rank</td><td>C</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm / Barrier Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm / Barrier Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~10</td></tr>
   <tr><td>Maximum Number of Targets</td><td>30 people</td></tr>
 </table>

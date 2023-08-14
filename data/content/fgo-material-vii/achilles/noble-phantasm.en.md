@@ -23,7 +23,7 @@ Troias Tragoidia (Troy’s Tragedy). A three-horse chariot. Two of the horses ar
 
 <table>
   <tr><td>Rank</td><td>A+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel (Self) Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit (Self) Noble Phantasm</td></tr>
   <tr><td>Range</td><td>0</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -34,7 +34,7 @@ Dromos Kometes (Running Comet). A Noble Phantasm of the Constantly Invoked-Type 
 
 <table>
   <tr><td>Rank</td><td>B</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel (Self) Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit (Self) Noble Phantasm</td></tr>
   <tr><td>Range</td><td>0</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
@@ -45,7 +45,7 @@ Andreios Amarantos (The Brave and Everlasting One). A blessing of immortality gi
 
 <table>
   <tr><td>Rank</td><td>B+</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit Noble Phantasm</td></tr>
   <tr><td>Range</td><td>2~10</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>

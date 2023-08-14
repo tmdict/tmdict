@@ -12,7 +12,7 @@ translation: "PkFreezeAlpha"
 
 <table>
   <tr><td>Rank</td><td>B</td></tr>
-  <tr><td>Type</td><td>Anti-Personnel~Anti-Army Noble Phantasm</td></tr>
+  <tr><td>Type</td><td>Anti-Unit~Anti-Army Noble Phantasm</td></tr>
   <tr><td>Range</td><td>3~100</td></tr>
   <tr><td>Maximum Number of Targets</td><td>1~500 people</td></tr>
 </table>
