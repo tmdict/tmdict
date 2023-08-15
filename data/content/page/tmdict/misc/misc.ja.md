@@ -298,4 +298,10 @@ name: "その他"
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
+  <tr>
+    <td><a href="../book/#katatuki-kouhon?lang=ja">世界 & 月姫キャラ設定</a></td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+  </tr>
 </table>

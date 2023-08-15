@@ -293,7 +293,13 @@ name: "其他"
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-material-i?lang=ja">『月姬』作品用语集</a></td>
+    <td><a href="../book/#tsukihime-material-i?lang=zh">『月姬』作品用语集</a></td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+    <td class="progress3">100%</td>
+  </tr>
+  <tr>
+    <td><a href="../book/#katatuki-kouhon?lang=zh">世界 & 月姬角色设定</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
