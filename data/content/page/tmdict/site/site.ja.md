@@ -69,7 +69,7 @@ _Katatuki Kouhon_, or Type-Moon Manuscript (型月稿本), is a book released at
 
 **2022-03-27**
 
-We’ve recently launched a small side project for the game Genshin Impact: [genshin.tmdict.com](https://genshin.tmdict.com/). It comes with a Character Build Guide, Daily Commission Achievement Tracker, and more!
+We’ve recently launched a small side project for games by miHoYo/HoYoverse (Genshin Impact, etc.): [mhy.tmdict.com](https://mhy.tmdict.com/). It comes with a Character Build Guide, Daily Commission Achievement Tracker, and more!
 
 **2022-02-23**
 
