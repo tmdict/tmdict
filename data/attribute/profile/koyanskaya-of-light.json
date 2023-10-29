@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "314:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0314a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0314b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0314c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0314d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0314e_april-fools.png" },
+    { "weight": 6, "id": "img_nff-bunny", "src": "S0314f_nff-bunny.png" }
+  ],
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": "russia",
+    "alignment": "lawful-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Koyanskaya of Light",
+      "ja": "光のコヤンスカヤ",
+      "zh": "光之高扬斯卡娅"
+    },
+    "true-name": {
+      "en": "Tamamo Vitch Koyanskaya",
+      "ja": "タマモヴィッチ・コヤンスカヤ",
+      "zh": "玉藻巫池·高扬斯卡娅"
+    },
+    "height": {
+      "en": "168cm (taller than Tamamo Original)",
+      "ja": "168cm（オリジナルより背が伸びている）",
+      "zh": "168cm（比原版玉藻高）"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

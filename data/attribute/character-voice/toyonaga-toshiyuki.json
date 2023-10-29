@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Toyonaga Toshiyuki",
+      "ja": "豊永利行",
+      "zh": "丰永利行"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "type": "profile",
+  "uid": "315:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0315a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0315d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0315e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "scottish-fairy-lore",
+    "region": ["proper-human-history-british-isles", "lostbelt-british-isles"],
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "hirai-yukio",
+    "character-voice": "itou-ayasa",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Habetrot",
+      "ja": "ハベトロット",
+      "zh": "哈贝特洛特"
+    },
+    "true-name": {
+      "en": "Habetrot",
+      "ja": "ハベトロット",
+      "zh": "哈贝特洛特"
+    },
+    "height": {
+      "en": "50~60cm",
+      "ja": "50～60cm",
+      "zh": "50～60cm"
+    },
+    "weight": {
+      "en": "10~20kg",
+      "ja": "10～20kg",
+      "zh": "10～20kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

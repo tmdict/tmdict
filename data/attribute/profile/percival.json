@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "313:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0313a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0313b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0313c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0313d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0313e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "legend-of-king-arthur",
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "shiramine",
+    "character-voice": "matsukaze-masaya",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Percival",
+      "ja": "パーシヴァル",
+      "zh": "珀西瓦尔"
+    },
+    "true-name": {
+      "en": "Percival",
+      "ja": "パーシヴァル",
+      "zh": "珀西瓦尔"
+    },
+    "height": {
+      "en": "195cm",
+      "ja": "195cm",
+      "zh": "195cm"
+    },
+    "weight": {
+      "en": "110kg",
+      "ja": "110kg",
+      "zh": "110kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

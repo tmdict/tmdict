@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "310:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0310a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0310b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0310c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0310d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0310e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["english-fairy-lore", "british-lostbelt"],
+    "region": ["faerie-britain", "oxford", "manchester"],
+    "alignment": "chaotic-good",
+    "strength.parameter": "bp",
+    "endurance.parameter": "a",
+    "agility.parameter": "a",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "melon22",
+    "character-voice": "inoue-marina",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tam Lin Gawain (Barghest)",
+      "ja": "妖精騎士ガウェイン（バーゲスト）",
+      "zh": "妖精骑士高文（巴格斯特）"
+    },
+    "true-name": {
+      "en": "Barghest",
+      "ja": "バーゲスト",
+      "zh": "巴格斯特"
+    },
+    "height": {
+      "en": "190cm",
+      "ja": "190cm",
+      "zh": "190cm"
+    },
+    "weight": {
+      "en": "120kg",
+      "ja": "120kg",
+      "zh": "120kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "type": "profile",
+  "uid": "316:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0316a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0316b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0316c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0316d.png" },
+    { "weight": 5, "id": "img_s4full", "src": "S0316e_s4full.png" },
+    { "weight": 6, "id": "img_april-fools", "src": "S0316f_april-fools.png" },
+    { "weight": 7, "id": "img_refreshing-summer-prince", "src": "S0316g_refreshing-summer-prince.png" },
+    { "weight": 8, "id": "img_moody-summer-oberon", "src": "S0316h_moody-summer-oberon.png" }
+  ],
+
+  "attribute": {
+    "class": "pretender",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["germanic-folklore", "medieval-european-literature"],
+    "region": "britain",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "ap",
+    "magic.parameter": "a",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "umino-chica",
+    "character-voice": "toyonaga-toshiyuki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Faerie King Oberon",
+      "ja": "妖精王オベロン",
+      "zh": "妖精王奥伯龙"
+    },
+    "true-name": {
+      "en": "Winter Prince, or maybe Robin Goodfellow",
+      "ja": "冬の王子、あるいはロビン・グッドフェロー",
+      "zh": "冬之王子，或是罗宾·古德费洛"
+    },
+    "height": {
+      "en": "As a human: 174cm / As a faerie: 17cm",
+      "ja": "人間時：174cm／妖精時：17cm",
+      "zh": "人类时：174cm／妖精时：17cm"
+    },
+    "weight": {
+      "en": "As a human: 56kg / As a faerie: 6kg",
+      "ja": "人間時：56kg／妖精時：6kg",
+      "zh": "人类时：56kg／妖精时：6kg"
+    },
+    "notes": {
+      "en": "Saber. Or Rider, or Caster, or,",
+      "ja": "セイバー。あるいはライダー、あるいはキャスター。あるいは、",
+      "zh": "Saber。或Rider，或Caster。或，"
+    },
+    "notes2": {
+      "en": "Oberon-Vortigern",
+      "ja": "オベロン・ヴォーティガーン",
+      "zh": "奥伯龙·沃帝根"
+    }
+  },
+
+  "layout": [
+    ["star", "class", "notes"],
+    ["true-name", "notes2", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

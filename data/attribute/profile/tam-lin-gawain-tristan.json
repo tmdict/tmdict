@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "311:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0311a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0311b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0311c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0311d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0311e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["english-fairy-lore", "british-lostbelt"],
+    "region": ["faerie-britain", "darlington-region"],
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "e",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "mochizuki-kei",
+    "character-voice": "waki-azumi",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Tam Lin Tristan (Baobhan Sith)",
+      "ja": "妖精騎士トリスタン（バーヴァン・シー）",
+      "zh": "妖精骑士崔斯坦（芭万·希）"
+    },
+    "true-name": {
+      "en": "Baobhan Sith",
+      "ja": "バーヴァン・シー",
+      "zh": "芭万·希"
+    },
+    "height": {
+      "en": "170cm",
+      "ja": "170cm",
+      "zh": "170cm"
+    },
+    "weight": {
+      "en": "54kg",
+      "ja": "54kg",
+      "zh": "54kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}
