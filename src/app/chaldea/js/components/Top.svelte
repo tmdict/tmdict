@@ -31,7 +31,7 @@
 
 <div id="top"></div>
 <div id="header">
-  <span on:click={toggleDarkMode} on:keydown={toggleDarkMode}>
+  <span on:click={toggleDarkMode} on:keydown={toggleDarkMode} role="button" tabindex="0">
     {#if $theme === 'chaldea'}
       <img class="logo" src="{level}src/img/top.png" title="Chaldea" alt="Chaldea" />
     {:else}

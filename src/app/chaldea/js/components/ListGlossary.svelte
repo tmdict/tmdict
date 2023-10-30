@@ -18,7 +18,7 @@
 
 <li>
   <div class="item">
-    <div class="item-header" on:click={toggleDetails} on:keydown={toggleDetails}>
+    <div class="item-header" on:click={toggleDetails} on:keydown={toggleDetails} role="button" tabindex="0">
       <div class="name">{@html entry.name[$activeLang]}</div>
       <div class="info">
         {#each entry.work as work, i}
