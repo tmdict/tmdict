@@ -14,7 +14,7 @@ translation: "JunnaMoonlight"
   <tr><td>Rank</td><td>A</td></tr>
   <tr><td>Type</td><td>Anti-World Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~333</td></tr>
-  <tr><td>Maximum Number of Targets</td><td>100 People</td></tr>
+  <tr><td>Maximum Number of Targets</td><td>100 people</td></tr>
 </table>
 
 Heaven of Pleasure, the Clam Mandala.

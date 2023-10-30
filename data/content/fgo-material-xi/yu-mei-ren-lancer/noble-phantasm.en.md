@@ -14,7 +14,7 @@ translation: "amplified"
   <tr><td>Rank</td><td>A</td></tr>
   <tr><td>Type</td><td>Anti-Army Noble Phantasm</td></tr>
   <tr><td>Range</td><td>1~10</td></tr>
-  <tr><td>Maximum Number of Targets</td><td>20 People</td></tr>
+  <tr><td>Maximum Number of Targets</td><td>20 people</td></tr>
 </table>
 
 Anti-Fling Rondo.

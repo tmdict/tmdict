@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "British Isles",
+      "ja": "ブリテン島",
+      "zh": "不列颠岛"
+    }
+  }
+}

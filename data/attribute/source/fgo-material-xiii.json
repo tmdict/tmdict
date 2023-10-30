@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2023-08-13",
+  "weight": 20230800,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XIII",
+      "ja": "FGO material XIII",
+      "zh": "FGO material XIII"
+    }
+  }
+}

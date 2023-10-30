@@ -26,6 +26,10 @@ name: "サイト"
 
 ### ニュース
 
+**2023-10-29**
+
+- Updated CHALDEAの記録 with FGO Material 13 character profiles.
+
 **2023-08-14**
 
 - Updated CHALDEAの記録 with FGO Material 11 character profiles.
