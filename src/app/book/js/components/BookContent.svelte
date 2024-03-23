@@ -12,7 +12,7 @@
   const updateContentLang = (lang) => (contentLang = lang);
 </script>
 
-<div class="entry" id={`${entry.source}.${entry.parent}`}>
+<div class="entry" id={`${entry.source}.${entry.parent}`} lang={contentLang}>
   <div class="entry-header group">
     <div class="entry-title">{entry.name[contentLang]}</div>
     <div class="permalink">

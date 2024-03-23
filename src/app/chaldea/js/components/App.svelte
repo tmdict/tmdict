@@ -5,7 +5,7 @@
   import FilterList from './FilterList.svelte';
   import Theme from './Theme.svelte';
 
-  import { theme } from '../stores.js';
+  import { activeLang, theme } from '../stores.js';
 
   export let data;
 
@@ -19,4 +19,6 @@
 
 <Theme level={pageComponent[data.attribute.type].level} />
 
-<svelte:component this={pageComponent[data.attribute.type].component} {data} level={pageComponent[data.attribute.type].level} />
+<div lang={$activeLang}>
+  <svelte:component this={pageComponent[data.attribute.type].component} {data} level={pageComponent[data.attribute.type].level} />
+</div>

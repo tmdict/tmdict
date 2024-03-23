@@ -35,7 +35,7 @@
 
 <svelte:window bind:innerWidth={screenWidth} />
 
-<div id="container">
+<div id="container" lang={$activeLang}>
   <Top level='../' />
 
   {#if screenWidth > 1220}
