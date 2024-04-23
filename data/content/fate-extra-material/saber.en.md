@@ -13,7 +13,7 @@ category:
 Saber is one of the main Servants who can be contracted by the protagonist.
 Her body is wrapped in a bright red dress. However she is a self proclaimed cross-dressing young swordswoman. She is often called Red Saber in order to differentiate her from the other Sabers.
 She refers to herself with 余 [yo] or この身 [kono mi – literally: this body]. She only uses 私 [watashi] after she has lost her position as Empress.
-When contracted by the protagonist she refers to his/her as 奉者 [houmono – literally: revered person].
+When contracted by the protagonist she refers to his/her as 奉者 [sousha – literally: player].
 Red Saber never lets her personal feelings interfere, and only at times when she must make use of her sword does she call the protagonist Master.
 When alone and talking as a young maiden she refers to them with そなた [sonata].
 By the way, the only one Red Saber ever says そなた [sonata] to during the Holy Grail War is the protagonist.
@@ -81,7 +81,7 @@ How could I not answer the cry of that noble soul!”
 As such, Red Saber was not summoned by a Master, instead she imposed her own will on the Servant selection room.
 Despite hating settling for something other than a genius of her level to the point that she had a splitting headache, she still asked the nameless person the following:
 
-“Answer me———are you my Master?”
+“Answer me———are you my Master [sousha]?”
 
 <>
 
