@@ -49,8 +49,14 @@
   }
 }
 
-.tm {
-  color: $primary-teal;
+h1 {
+  a:hover {
+    color: $primary-teal;
+  }
+
+  .tm {
+    color: $text-dark;
+  }
 }
 
 .nav-ver {
