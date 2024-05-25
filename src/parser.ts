@@ -421,7 +421,7 @@ export default class Parser {
     entryData: EntryData,
     attrData: AttributeData,
     language: string[],
-    entryGroup: any
+    entryGroup: { [key: string]: any }
   ): any => {
     try {
       if (!_.has(entryGroup, groupById)) {
