@@ -33,7 +33,7 @@ It’s possible this is one aspect, or perhaps one application, of a downsized n
 <table>
   <tr><td>Rank</td><td>A</td></tr>
   <tr><td>Type</td><td>Special Move Noble Phantasm</td></tr>
-  <tr><td>Range</td><td>—</td></tr>
+  <tr><td>Range</td><td>-</td></tr>
   <tr><td>Maximum Number of Targets</td><td>Self</td></tr>
 </table>
 

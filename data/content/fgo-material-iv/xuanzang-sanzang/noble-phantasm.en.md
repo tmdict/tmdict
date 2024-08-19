@@ -26,7 +26,7 @@ Borrows a small portion of the power of Shakyamuni, who serves as the venerable 
 <table>
   <tr><td>Rank</td><td>EX</td></tr>
   <tr><td>Type</td><td>Prophecy of Future Enlightenment Noble Phantasm</td></tr>
-  <tr><td>Range</td><td>—</td></tr>
+  <tr><td>Range</td><td>-</td></tr>
   <tr><td>Maximum Number of Targets</td><td>Herself</td></tr>
 </table>
 
