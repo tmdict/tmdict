@@ -13,7 +13,7 @@
 
 <div id="top">
   <div class="wrapper group">
-    <h2>{book.source.data.name[$activeLang]}</h2>
+    <h1>{book.source.data.name[$activeLang]}</h1>
     <div class="nav">
       <div class="nav-info">
         {book.source.releaseDate}
