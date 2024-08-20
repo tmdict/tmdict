@@ -175,6 +175,7 @@ export default class Builder {
     const jaRow = entryData.attribute.jaRow;
     // Get i18n content for each content[] for template
     const entryContent = entryData.content.map((c) => c.i18n[lang]);
+    const metaDescription = entryContent[0].html.replace(/(<([^>]+)>)/ig, ' ').substring(0, 150)
     const entryPath = `${lang}/${ja}.${entryData.attribute.id}`;
     // Generates HTML for Entries
     this.toTemplate(templates['entry.html'], `${appConfig.paths.dist}/${entryPath}.html`, {
@@ -189,6 +190,7 @@ export default class Builder {
       sidebar: {
         list: sidebar[ja],
       },
+      metaDescription: metaDescription,
       nav: nav,
       lang: lang,
       app: appConfig.app,
