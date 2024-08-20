@@ -12,6 +12,8 @@
     "class": "saber",
     "star": "star_4",
     "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
     "alignment": "chaotic-good",
     "strength.parameter": "c",
     "endurance.parameter": "c",
@@ -19,8 +21,10 @@
     "magic.parameter": "cm",
     "luck.parameter": "bm",
     "noble-phantasm.parameter": "b",
+    "character-setting": "hoshizora-meteo",
     "illustrator": "kuroboshi-kouhaku",
     "character-voice": "yukana",
+    "major-appearances": "fate-grand-order",
     "related.profile": "katsushika-hokusai"
   },
 
@@ -29,14 +33,29 @@
       "en": "Katsushika Hokusai (Saber)",
       "ja": "葛飾北斎（セイバー）",
       "zh": "葛饰北斋（Rider）"
+    },
+    "true-name": {
+      "en": "Katsushika Hokusai",
+      "ja": "葛飾北斎",
+      "zh": "葛饰北斋"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "51kg",
+      "ja": "51kg",
+      "zh": "51kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
     ["related.profile"]
   ]
 }

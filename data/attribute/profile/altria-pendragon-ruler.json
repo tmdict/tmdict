@@ -35,14 +35,29 @@
       "en": "Altria Pendragon (Ruler)",
       "ja": "アルトリア・ペンドラゴン（ルーラー）",
       "zh": "阿尔托莉雅·潘德拉贡（Rider）"
+    },
+    "true-name": {
+      "en": "Altria Pendragon",
+      "ja": "アルトリア・ペンドラゴン",
+      "zh": "阿尔托莉雅·潘德拉贡"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "57kg?",
+      "ja": "57kg？",
+      "zh": "57kg？"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
     ["related.profile"]
   ]
 }

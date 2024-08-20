@@ -34,13 +34,28 @@
       "en": "Charlotte Corday",
       "ja": "シャルロット・コルデー",
       "zh": "夏洛特・科黛"
+    },
+    "true-name": {
+      "en": "Charlotte Corday",
+      "ja": "シャルロット・コルデー",
+      "zh": "夏洛特・科黛"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "43kg",
+      "ja": "43kg",
+      "zh": "43kg"
     }
   },
 
   "layout": [
     ["star", "class"],
-    ["gender", "alignment"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["illustrator", "character-voice"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
   ]
 }
