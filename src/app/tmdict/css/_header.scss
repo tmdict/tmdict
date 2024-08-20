@@ -49,7 +49,12 @@
   }
 }
 
-h1 {
+.nav-title {
+  float: left;
+  margin: 7px 6px 4px 10px;
+  font: bold 1em $font-title;
+  height: 20px;
+  
   a:hover {
     color: $primary-teal;
   }

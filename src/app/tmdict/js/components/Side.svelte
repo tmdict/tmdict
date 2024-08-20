@@ -20,7 +20,7 @@
 <div class="side">
   <div class="side-content">
     {#if $navLang}
-      <h2><span class="first-char">s</span>ource</h2>
+      <div class="side-title"><span class="first-char">S</span>ource</div>
       <ul>
         <li class:active={$filterSrc === ''}><a href="#{($navLang !== '') ? `?nav=${$navLang}` : ''}{($navIndex !== '') ? `.${$navIndex}` : ''}">
           <div class="entry group">
@@ -36,7 +36,7 @@
         {/each}
       </ul>
     {:else}
-      <h2><span class="first-char">H</span>ome</h2>
+      <div class="side-title"><span class="first-char">H</span>ome</div>
       {@html APP.i18n.side[lang].top}
       {@html APP.i18n.side[lang].contribute}
       {@html APP.i18n.side[lang].project}

@@ -9,19 +9,10 @@ body, html{
 
 h1 {
   float: left;
-  margin: 7px 6px 4px 10px;
-  font: bold 1em $font-title;
-  height: 20px;
 }
 
 h2 {
-  background: $nav-background;
-  color: $primary-teal;
-  height: 16px;
-  font-weight: bold;
-  font-size: 1.2em;
-  margin: 0 0 13px;
-  padding: 9px 0 7px;
+  float: left;
 }
 
 h3 {

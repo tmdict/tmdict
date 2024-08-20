@@ -19,7 +19,7 @@
 <div class="top">
   <div class="top-img"><a title="{APP.i18n.index[lang]}" href="../{APP.lang[lang].id}/">{APP.i18n.index[lang]}</a></div>
   <div class="nav">
-    <h1><a href="../{APP.lang[lang].id}/">TM<span class="tm">dict</span></a></h1>
+    <div class="nav-title"><a href="../{APP.lang[lang].id}/">TM<span class="tm">dict</span></a></div>
     <div class="nav-ver">v3</div>
     <div class="nav-index">
       <Nav index={filterlistIndex.ja} nlang={'ja'} all={'全'} {lang} /><br/>

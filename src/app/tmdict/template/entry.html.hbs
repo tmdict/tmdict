@@ -16,7 +16,7 @@
       <div class="top">
         <div class="top-img"><a title="Home" href="{{level}}{{lang}}/">Home</a></div>
         <div class="nav">
-          <h1><a href="{{level}}{{lang}}/">TM<span class="tm">dict</span></a></h1>
+          <div class="nav-title"><a href="{{level}}{{lang}}/">TM<span class="tm">dict</span></a></div>
           <div class="nav-ver">v3</div>
           <div class="nav-index">
             {{~#each nav.ja~}}
@@ -74,7 +74,7 @@
       </div>
       <div class="side">
         <div class="side-content">
-          <h2><span class="first-char">{{sidebar.list.name}}</span></h2>
+          <div class="side-title"><span class="first-char">{{sidebar.list.name}}</span></div>
           <ul>
             {{#each (lookup sidebar.list.entries lang)}}
               <li class="{{#if (equals this.id ../attribute.id)}}active{{/if}}"><a title="{{this.name}}" href="{{this.hiragana}}.{{this.id}}{{../ext}}">

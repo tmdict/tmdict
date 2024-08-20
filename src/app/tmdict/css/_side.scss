@@ -81,6 +81,16 @@
     @extend .clear-list;
   }
 
+  .side-title {
+    background: $nav-background;
+    color: $primary-teal;
+    height: 16px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 0 13px;
+    padding: 9px 0 7px;
+  }
+
   .first-char {
     display: block;
     float: left;

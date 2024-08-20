@@ -16,7 +16,7 @@
       <div class="top">
         <div class="top-img"><a title="Home" href="{{level}}{{lang}}/">Home</a></div>
         <div class="nav">
-          <h1><a href="{{level}}{{lang}}/">TM<span class="tm">dict</span></a></h1>
+          <div class="nav-title"><a href="{{level}}{{lang}}/">TM<span class="tm">dict</span></a></div>
           <div class="nav-ver">v3</div>
           <div class="nav-index">
             {{~#each nav.ja~}}
@@ -47,7 +47,7 @@
       </div>
       <div class="side">
         <div class="side-content">
-          <h2><span class="first-char">{{sidebar.fname}}</span>{{sidebar.lname}}</h2>
+          <div class="side-title"><span class="first-char">{{sidebar.fname}}</span>{{sidebar.lname}}</div>
           {{{sidebar.content.top}}}
           {{{sidebar.content.contribute}}}
           {{{sidebar.content.project}}}
