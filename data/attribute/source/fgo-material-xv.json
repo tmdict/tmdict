@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2024-08-12",
+  "weight": 20240800,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XV",
+      "ja": "FGO material XV",
+      "zh": "FGO material XV"
+    }
+  }
+}

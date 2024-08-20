@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2023-12-31",
+  "weight": 20231201,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO Arcade material",
+      "ja": "FGO Arcade material",
+      "zh": "FGO Arcade material"
+    }
+  }
+}

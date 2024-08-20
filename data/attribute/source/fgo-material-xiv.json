@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2023-12-30",
+  "weight": 20231200,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XIV",
+      "ja": "FGO material XIV",
+      "zh": "FGO material XIV"
+    }
+  }
+}
