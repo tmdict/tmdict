@@ -48,7 +48,7 @@
     {#if $navLang}
       <div class="filter-list">
         {#each getFilterlistEntry($navLang, $navIndex, $filterSrc) as navSection}
-          <h4>{navSection.name}</h4>
+          <h2>{navSection.name}</h2>
           <ul>
             {#each navSection.entries as entry, i}
               <li><a href="{entry.ja}.{entry.id}{(env === 'development') ? '.html' : ''}" title={entry.name}>

@@ -43,7 +43,7 @@
   }
 </script>
 
-<h4>{params.q} (<span style="color:#c05b4d;">{searchResults.length}</span> results)</h4>
+<h2>{params.q} (<span style="color:#c05b4d;">{searchResults.length}</span> results)</h2>
 
 <div>
   {#if params.q.length < minChar}

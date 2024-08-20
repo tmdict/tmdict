@@ -121,17 +121,17 @@
   }
 
   .entry-content {
-    h3 {
-      color: $text-dark;
-      font-size: 1em;
-    }
-    
-    h4 {
+    h2 {
       color: $text-light;
       font-size: 1em;
       margin: 0 0 13px;
       padding: 9px 0 7px;
       border: 0;
+    }
+
+    h3 {
+      color: $text-dark;
+      font-size: 1em;
     }
   }
 

@@ -1,7 +1,7 @@
 <div class="page-content">
-  <h4 style="border-top:0">Site News</h4>
+  <h2 style="border-top:0">Site News</h2>
 
-  <h5>2023-10-29</h5>
+  <h4>2023-10-29</h4>
 
   <p><span class="highlight">Changelog:</span></p>
 
@@ -9,7 +9,7 @@
     <li>Updated CHALDEAの記録 with FGO Material 13 character profiles.</li>
   </ul>
 
-  <h5>2023-08-14</h5>
+  <h4>2023-08-14</h4>
 
   <p><span class="highlight">Changelog:</span></p>
 
@@ -20,7 +20,7 @@
     <li>Upgraded site backend.</li>
   </ul>
 
-  <h5>2023-08-09</h5>
+  <h4>2023-08-09</h4>
 
   <p><em>TYPE-MOON Ace 15</em> came with a supplemental booklet that contains a short glossary for <em>The Adventures of Lord El-Melloi II</em>, translations for this glossary have been added to our database.</p>
 
@@ -30,7 +30,7 @@
     <li>Added The Adventures of Lord El-Melloi II Glossary.</li>
   </ul>
 
-  <h5>2023-01-08</h5>
+  <h4>2023-01-08</h4>
 
   <p><span class="highlight">Changelog:</span></p>
 
