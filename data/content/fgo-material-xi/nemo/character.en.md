@@ -100,7 +100,7 @@ As Nemo, he has no particular thoughts, but Triton’s soul has a strong aversio
 
 A father god like a storm, a volcano, or a giant octopus. “Having too much love is very difficult… I think one is enough for a destined partner.”
 
-#### Nemo Series
+#### ○ Nemo Series
 
 Operating a submarine, especially a military-grade vessel, is impossible for Nemo alone.
 
@@ -109,8 +109,6 @@ Anticipating that Nemo would eventually struggle to manage his own ship, Sion, u
 As a result, Nemo can now create “specialized duplicates, each with nearly identical roles,” by dispersing his own magical energy. These duplicates are known as the Nemo Series, who work at the Wandering Sea Dock. As the story progresses, the Nemo Series members begin to appear as staff on the Nautilus and the Storm Border.
 
 Including Captain Nemo, the gender ratio within the Nemo Series is 3:3.
-
-**○ Nemo Series**
 
 #### Nemo Marine
 
