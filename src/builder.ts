@@ -90,8 +90,9 @@ export default class Builder {
         if (useHash) {
           cssHash = '-' + crypto.createHash('md5').update(result.css).digest('hex');
           console.log(`CSS / ${file} hash: ${cssHash}`);
+          outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${cssHash}.css`);
         }
-        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}${cssHash}.css`);
+        outputFile(result.css.toString(), `${paths.dist}/src/css/${file}.css`);
       } catch (err) {
         console.log(`[ERROR css]: ${err}`);
       }
