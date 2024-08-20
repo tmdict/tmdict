@@ -14,7 +14,7 @@ Merely a battle style.
 A number of combat skills created as a result of Meltryllis, who adores classic ballet, retuning herself.
 She came to possess diverse abilities by converting already perfected stories and settings into skills.
 『The Name on the Heel is the Cursed Sword Giselle』『Unforgivable Hilarion』『Farewell Albrecht』『The Siren Who Burns Entrails』and so on.
-Originally, Meltryllis is an Alter Ego created from BB’s “Altruism Desire” and “Pleasure", its true nature being the figure of an abnormally lovely maiden who can’t help but stir up the desire in men to protect her―――――is how it used to be.
+Originally, Meltryllis is an Alter Ego created from BB’s “Altruism Desire” and “Pleasure”, its true nature being the figure of an abnormally lovely maiden who can’t help but stir up the desire in men to protect her―――――is how it used to be.
 Although it appears her adoration for ballet is due to that image, perhaps due to the influence of the skill that continues to steal the opponent’s abilities, currently, her personality is quite belligerent.
 
 ### Sadistic Constitution: A

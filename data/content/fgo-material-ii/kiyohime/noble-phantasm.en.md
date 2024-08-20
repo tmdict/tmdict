@@ -27,4 +27,4 @@ What is here is just a persistent, firm conviction on the man that lied to her.
 
 ##### {{notes}}
 
-1. {{note1}} Samadhi is a state of mind in which you’re super-concentrated on something. 三昧 (Zanmai) also refers to "being immersed/absorbed in sth". Quite fitting for a yandere.
+1. {{note1}} Samadhi is a state of mind in which you’re super-concentrated on something. 三昧 (Zanmai) also refers to “being immersed/absorbed in sth”. Quite fitting for a yandere.

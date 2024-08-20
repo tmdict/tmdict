@@ -58,7 +58,7 @@ They are a disharmonious pair, but they joined each other to participate in the 
 
 Their racing tactic was very aggressive.
 They would forcibly drive into anyone standing in their way, until both machines crashed enough times for them to be able to overspeed the enemy.
-Due to Nero considering all teams "superb rivals", she rejoices in her opponents’ merits while desiring to surpass them.
+Due to Nero considering all teams “superb rivals”, she rejoices in her opponents’ merits while desiring to surpass them.
 Alter doesn’t care about any of that, she just wants to rise to the top.
 Since the final result is the same, they don’t fight over it. What a miraculously balanced team.
 

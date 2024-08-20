@@ -29,7 +29,7 @@ Only when he becomes Romani Archaman that he finally acquires his original human
 His root is that of a pessimist and realist. Even though he speaks of wishful thinking as a moodmaker, due to himself unable to think of that as more than pipe dreams, he is quite shameless in some respects.
 He loves humans, but because he’s a coward in nature who “does not want to see sad things”, he ends up limiting himself with superficial relationships. On the other hand, he is capable of being good terms with pretty much everybody. Your typical affable friendly guy.
 When being faced with a dilemma, he has the bad habit of choosing to stay undecided and devoting himself to just observe, or just straight up runs away, so that the status quo is maintained.
-Due to Roman himself is reflecting on that weakness of his, it only needs a few words, for someone in his surroundings to simply says "hang in there”, for him to somehow holds his ground and displays a resolution worthy of the King of Magic.
+Due to Roman himself is reflecting on that weakness of his, it only needs a few words, for someone in his surroundings to simply says “hang in there”, for him to somehow holds his ground and displays a resolution worthy of the King of Magic.
 
 Incidentally, any Servants would end up having “I don’t know the reason but this guy’s the one at fault here” as their first impression for Roman; and due to that they will unconsciously complain about him.
 The only ones who don’t judge him negatively are those who aren’t Servants, the contrarians, and the Berserkers that don’t perceive evil as evil.

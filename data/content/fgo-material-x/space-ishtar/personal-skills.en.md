@@ -10,7 +10,7 @@ translation: "Konchew"
 
 ### Devil’s Sugar A
 
-Even while being bothered by having been reduced to a mere demon, she makes thorough use of her powers of “seduction and arousal", just like a true demon would.
+Even while being bothered by having been reduced to a mere demon, she makes thorough use of her powers of “seduction and arousal”, just like a true demon would.
 S Ishtar’s smiles and blown kisses raise the morale of her allies, allowing them to ignore the burden on their bodies and draw out power beyond their limits. Since what’s being used on her allies is pretty much a charm (curse), they won’t be affected by the enemy’s charms since they are already head over heels for S Ishtar.
 You might as well call this the Charisma of a Demon that combined her facet as a goddess of victory and her facet as a demon.
  

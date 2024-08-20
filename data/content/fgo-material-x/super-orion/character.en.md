@@ -112,4 +112,4 @@ Even if, now, not a single trace of that existence remains.
 
 ##### {{notes}}
 
-1. {{note1}} The idea is that Ovid posited that “Hyries called him Urion, because of his conception: the first letter has now lost its ancient sound”. The greek word in question would actually be “ouron” (urine) which gives the verb "ourein" (to urinate).
+1. {{note1}} The idea is that Ovid posited that “Hyries called him Urion, because of his conception: the first letter has now lost its ancient sound”. The greek word in question would actually be “ouron” (urine) which gives the verb “ourein” (to urinate).

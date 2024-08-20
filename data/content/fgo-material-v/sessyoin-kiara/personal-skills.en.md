@@ -23,7 +23,7 @@ Originally created in order to produce a map of the patient’s spirit to help u
 By nature, the tumor of the consciousness’ depths (SG) is something meant to be slowly brought to the surface, but with the Thesis of the Still Heart it is possible to detect it and swiftly pluck it out.
 Although the SG is a secret, it is also a matter to be disclosed.
 Anybody would want to guard their secrets, but, at the same time, they would also want someone know about them.
-A heart that persists in guarding its secrets is “pitiful".
+A heart that persists in guarding its secrets is “pitiful”.
 Humans are creatures who want comfort. Because it’s a secret they don’t want anyone to know about, they have to confide in someone, be understood and ask for forgiveness. The Thesis of the Still Heart was created with the goal of granting the desire held in the depths of the heart, the true mutual understanding of the people…is what Kiara claims.
 In FGO, it reduces the NP gauge of every enemy and their defenses.
 

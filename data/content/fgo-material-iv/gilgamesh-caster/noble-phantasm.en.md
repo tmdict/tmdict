@@ -53,5 +53,5 @@ Normally a continuously active Noble Phantasm, but in FateGO its True Name relea
 
 ##### {{notes}}
 
-1. {{note1}} Melam Dingir’s name presumably comes from melam (melammu in akkadian), a concept of ancient Mesopotamian divinity, which is a "mantle of radiance" type of blazing light that is worn like a garment depicted like a light aura that surrounds a deity or demon, and dingir which is simply Sumerian words for god, used to denote religious names and related concepts. So literally Godly Divine Radiance?
+1. {{note1}} Melam Dingir’s name presumably comes from melam (melammu in akkadian), a concept of ancient Mesopotamian divinity, which is a “mantle of radiance” type of blazing light that is worn like a garment depicted like a light aura that surrounds a deity or demon, and dingir which is simply Sumerian words for god, used to denote religious names and related concepts. So literally Godly Divine Radiance?
 2. {{note2}} Sha Naqba Imuru is an incipit that actually is written in the Epic of Gilgamesh, meaning “He who Saw the Deep”, or in modern terms: “He who Sees the Unknown”.

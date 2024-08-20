@@ -105,4 +105,4 @@ is there any meaning in wearing a mask?
 1. {{note1}} In Kabbalah, the middle soul, the spirit. It contains moral virtues and the ability to distinguish good from evil.
 2. {{note2}} Written 強靭さ instead of 強さ. 強靭 can also mean “tenacious”.
 3. {{note3}} This clarification isn’t just because he’s called Solomon too. Apparently, a 12th century philosopher mistranslated his signature as “Solomon, the Jew, the king”, and attributed many of his works to THE Solomon.
-4. {{note4}} Avicebron was said to have lupus vulgaris, skin lesions produced by tuberculosis. He actually had a complex about this, and described himself as "short and ugly" in some poems.
+4. {{note4}} Avicebron was said to have lupus vulgaris, skin lesions produced by tuberculosis. He actually had a complex about this, and described himself as “short and ugly” in some poems.

@@ -10,7 +10,7 @@ translation: "castor212"
 
 ### Territory Creation: C
 
-Creation of a "Workshop" territory that is advantageous to himself as a magus.
+Creation of a “Workshop” territory that is advantageous to himself as a magus.
 But since he tends to gets tired of it usually he just toss it away halfway.
 
 ### High Speed Incantation: C

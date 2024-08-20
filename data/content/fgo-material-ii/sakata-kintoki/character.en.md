@@ -91,7 +91,7 @@ Golden Week.
 
 #### Artoria
 
-Awed by Excalibur’s “Golden splendor".
+Awed by Excalibur’s “Golden splendor”.
 “Ohh…What a Golden Flash….The Golden Rainbow that cleaves apart the dark night. You’re truly without a doubt the Knight of Gold!”
 
 #### Frankenstein

@@ -42,4 +42,4 @@ As compensations, his life span and internal organs are severely damaged, parts 
 ##### {{notes}}
 
 1. {{note1}} Is it Ogre Transform or Ogre Trance? Im not sure. Context wise transfrom makes more sense, but the katakana read toransu. DO they just shorten Transform into Trans, maybe? Is that a thing in Japanese? Right now using Trans. Inb4 it’s Ogre-like Translation.
-Also dunno if the “continue for generations” is referring to the suspicion or to the "true form”; im leaning towards the latter based on what i know about japanese grammar but context wise it’s kinda weird.
+Also dunno if the “continue for generations” is referring to the suspicion or to the “true form”; im leaning towards the latter based on what i know about japanese grammar but context wise it’s kinda weird.

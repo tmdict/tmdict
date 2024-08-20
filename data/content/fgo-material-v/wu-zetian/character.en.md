@@ -62,7 +62,7 @@ At that point, on top of cutting out the limbs of Consort Xiao, she had executed
 From this flow of event, there are those who considered that perhaps she had murdered her own child and laid the blame on the empress, but-----
 The truth is not certain.
 
-To add, due to the curse of "you shall be reborn as a mouse, and I, reborn as a cat, sha bite you to death" said by the dying Consort Xiao at the time, she would thereafter completely prohibit of keeping cats in the imperial court. There is also a theory stating that she had moved the capital Chang’an to Luoyang due to fear of ghosts.
+To add, due to the curse of “you shall be reborn as a mouse, and I, reborn as a cat, sha bite you to death” said by the dying Consort Xiao at the time, she would thereafter completely prohibit of keeping cats in the imperial court. There is also a theory stating that she had moved the capital Chang’an to Luoyang due to fear of ghosts.
 
 In any case, she had grasped the real power of statecraft from behind the bamboo blind; she would then murder (assassinate) any relatives who had become hindrances and her political enemies one by one.
 After Gaozong’s death, she changed the name of the country to “Zhou”, finally took the throne for herself, and granted herself the title of “Shengshen Huangdi”.

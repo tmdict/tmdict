@@ -88,4 +88,4 @@ The Yucatán Peninsula is the place where a meteorite fell and caused the extinc
 
 #### ■■■■■■ ■■■■■■
 
-“I’ll replace the blood in your entire body with a “deathly poison that goes hand in hand with the most extreme pain in this world", and furthermore, continuously bathe solar winds on your body until it becomes only bones; after that, I’ll affix your soul to them so that you’ll live as a skeleton as well, before making you do ten thousand years worth of labouring underground in the underworld!”
+“I’ll replace the blood in your entire body with a “deathly poison that goes hand in hand with the most extreme pain in this world”, and furthermore, continuously bathe solar winds on your body until it becomes only bones; after that, I’ll affix your soul to them so that you’ll live as a skeleton as well, before making you do ten thousand years worth of labouring underground in the underworld!”

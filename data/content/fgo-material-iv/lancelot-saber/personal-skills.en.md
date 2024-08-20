@@ -21,7 +21,7 @@ By means of perfect unification of the mind, technique, and body, even when affe
 ### A Knight Does Not Die with Empty Hands: A+
 
 Knight of Owner
-Normally a Noble Phantasm instead of a skill. An ability Noble Phantasm that grants the attribute to everything he holds "his Noble Phantasm". Be it an iron pole or an aircraft fighter, it will be treated as a D rank Noble Phantasm.
+Normally a Noble Phantasm instead of a skill. An ability Noble Phantasm that grants the attribute to everything he holds “his Noble Phantasm”. Be it an iron pole or an aircraft fighter, it will be treated as a D rank Noble Phantasm.
 
 ### Protection of the Spirit: A
 

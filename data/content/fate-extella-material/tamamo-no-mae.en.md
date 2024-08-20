@@ -25,7 +25,7 @@ In the beginning of EXTELLA, she saves the Soul of the Main Character, who had r
 When Archimedes comes to her, she instinctively realizes that he is up to no good, but ignores her instincts in order to spend more time being lovey-dovey with the Main Character.
 This is how Tamamo becomes the monstrous Empress of her kingdom.
 She follows her whims, and not only forces her perspective on the Servants who serve under her, but on occasion uses her influence (power) to pressure even the Main Character to ensure she gets her way.
-Tamamo no Mae is typically sweet and affectionate towards the Main Character, but will turn cold and cruel at the suggestion of peaceful negotiation with others, chiding him or her for questioning her methods, all through a threatening smile. “When you show such unnecessary kindness to others,” she might say, "I might find myself upset. Even I have no idea what I might do.”
+Tamamo no Mae is typically sweet and affectionate towards the Main Character, but will turn cold and cruel at the suggestion of peaceful negotiation with others, chiding him or her for questioning her methods, all through a threatening smile. “When you show such unnecessary kindness to others,” she might say, “I might find myself upset. Even I have no idea what I might do.”
 It goes without saying that her goal is not to achieve peace on SE.RA.PH, but to return the Main Character to normal, and keep him or her by her side until the very end.
 She can see plain as day that Archimedes is lying, so she plans to use this knowledge to her advantage, and come in and “save the day,” capturing the Main Character’s heart in the process.
 But an evil empire isn’t built in a day, and evil deeds are bound to come back to bite.

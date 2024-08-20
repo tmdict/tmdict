@@ -53,7 +53,7 @@ Originally, love and desire are things to be thought of separately and they shou
 When the soul of the messiah who tried to love and bring joy to people attained the Third Magic, Sesshouin Kiara metamorphosed into something inhuman.
 Wishing for the greatest salvation, she brings relief to every animal on Earth via pleasure while also becoming an outlet for said pleasure.
 Seven billion lives for the sake of her own salvation alone, in an attempt to reach climax.
-Unaffected by a purpose or a sufficient end, she’s just trying to bring salvation to a "human" with pleasure alone.
+Unaffected by a purpose or a sufficient end, she’s just trying to bring salvation to a “human” with pleasure alone.
 
 The Evils of Man revealed up to the appearance of Beast III were:
 『Regression』: The desire to start over, the heart wishing to return to the beginning. Reset Desire.

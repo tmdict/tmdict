@@ -19,6 +19,6 @@ translation: "ComunCoutinho"
 
 You think she just added wind instruments to the Domus Aurea, but those pipes turn out to be all gun muzzles.
 Whether you think this is a deed of unimaginable creativity or you think the designer was insane, we can all agree that the pipe-organs look a bit like gun muzzles. That is the complex origin story of this opera fort.
-Having earned her Saint Graph as a "Songstress", Nero displays her maximum talent.
+Having earned her Saint Graph as a “Songstress”, Nero displays her maximum talent.
 The Domus Aurea has been turned into one large outdoors stage that unfortunately can make her singing voice reach outside the theater, as well as inside.
 Nero’s singing voice becomes heat rays and engulfs the crowd, giving them a feverish excitement.

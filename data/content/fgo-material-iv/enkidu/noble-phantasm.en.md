@@ -24,4 +24,4 @@ Originally, Enkidu was a weapon made use by the gods in order to return Gilgames
 The “lynchpin of heaven” that holds together gods and men, Gilgamesh.
 Due to Gilgamesh rebelling against the gods, Enkidu was given the role to bind him and guide him back to the heavens.
 
-But Enkidu befriended Gilgamesh instead. Enkidu had chosen, just as the one wish of his friend, for a path that use the "chains that binds even gods" for the sake of men.
+But Enkidu befriended Gilgamesh instead. Enkidu had chosen, just as the one wish of his friend, for a path that use the “chains that binds even gods” for the sake of men.

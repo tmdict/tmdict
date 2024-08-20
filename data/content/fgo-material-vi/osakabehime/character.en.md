@@ -84,7 +84,7 @@ Origami: Her origami attacks, protects, and moves her.
 
 …Back when she was having trouble with other youkai who lived in Himeji castle, they all suddenly ran away once Miyamoto Musashi decided to stay in the castle for a while.
 
-Osakabehime "T-Thanks for that…Huh? Wait were they a man, or a woman? Aaaah at any rate they’re scary! The force of their smile is too much!"
+Osakabehime “T-Thanks for that…Huh? Wait were they a man, or a woman? Aaaah at any rate they’re scary! The force of their smile is too much!”
 
 #### Minamoto no Yoshitsune
 
@@ -110,7 +110,7 @@ They once had this huge argument about how one of them had already called dibs o
 
 After having lost the argument, Osakabehime ended up dropping her fox element and adopted a bat element when being summoned!
 
-Osakabehime "Just looking at her she seems to exude this incredible normie aura, but I also feel like there’s something oddly off about her, like she carries a very unfortunate air around her due to carrying some huge weight on her shoulders～♪ I guess being strong and famous isn’t all that great after all…"
+Osakabehime “Just looking at her she seems to exude this incredible normie aura, but I also feel like there’s something oddly off about her, like she carries a very unfortunate air around her due to carrying some huge weight on her shoulders～♪ I guess being strong and famous isn’t all that great after all…”
 
 #### Murasaki Shikibu
 

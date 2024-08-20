@@ -10,7 +10,7 @@ translation: "castor212"
 
 ### Territory Creation: B
 
-Creation of a "Workshop" territory that is advantageous to himself as a magus.
+Creation of a “Workshop” territory that is advantageous to himself as a magus.
 He creates an impromptu campsite that capitalizes on locational advantage instead of a closed off workshop.
 Bonus to all member’s fighting prowess.
 

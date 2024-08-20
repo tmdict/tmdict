@@ -9,7 +9,7 @@ category:
 - person
 ---
 
-The center piece of the Twin Towers of Iselma. Casually written as "a beauty that can’t be expressed by pictures," they were the first on the list of problems for the illustrator Mr. Mineji and the manga artist Mr. Azuma Tou. Who made this character? It was me.
+The center piece of the Twin Towers of Iselma. Casually written as “a beauty that can’t be expressed by pictures,” they were the first on the list of problems for the illustrator Mr. Mineji and the manga artist Mr. Azuma Tou. Who made this character? It was me.
 If anything brought to its utmost limit could bring one to the Root, my idea was to follow that premise with a supreme beauty.
 But, as a “beauty that can reach the Root,” it had to follow a completely different path than even the beauty of a goddess. For a supreme beauty that included every possibility, is that really something human standards would find beautiful? The answer to that question exists only in the hearts of those who saw those two face to face.
 

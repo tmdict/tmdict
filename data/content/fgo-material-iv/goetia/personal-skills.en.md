@@ -11,7 +11,7 @@ translation: "castor212"
 ### Evocation: EX
 
 Magic that evokes of spiritual bodies of the past, or perhaps the future.
-After the death of King Solomon, the concept of “Seventy Two Demon Gods”, deserted, then nested inside the corpse of King Solomon and through long months and years was rebirth as "someone” who wears Solomon’s skin.
+After the death of King Solomon, the concept of “Seventy Two Demon Gods”, deserted, then nested inside the corpse of King Solomon and through long months and years was rebirth as “someone” who wears Solomon’s skin.
 Although unable on performing heroic Spirit summoning or normal familiar summoning, he is capable of freely summonning to existence the “Seventy Two Demon Gods”.
 Simply put, a converter that projects into reality the “imaginary demon gods” nesting within King Solomon’s inner world.
 

@@ -10,7 +10,7 @@ translation: "castor212"
 
 ### Territory Creation: A
 
-Creation of a "Workshop" territory that is advantageous to himself as a magus.
+Creation of a “Workshop” territory that is advantageous to himself as a magus.
 It’s possible to create the “Shí Bīng Bā Zhèn” that surpasses “Workshop”.
 
 ### Tool Creation: B

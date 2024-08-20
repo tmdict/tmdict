@@ -75,4 +75,4 @@ Appears in 『Fate/EXTRA』. His Master is Rani. Because of his predestination a
 2. {{note2}} 虎狼 can also mean “cruel and greedy brute”, but it’s translated literally in this context.
 3. {{note3}} How do you even write this roar thing?
 4. {{note4}} One of the Four Beauties of China, like Hinako, and the only one whose existence isn’t confirmed. In the Romance of the Three Kingdoms, she made Lü Bu kill his foster father, Dong Zhuo.
-5. {{note5}} It says 非凡ならざる, but that translates as "not an extraordinary man". Weird typo or am I doing something wrong?
+5. {{note5}} It says 非凡ならざる, but that translates as “not an extraordinary man”. Weird typo or am I doing something wrong?

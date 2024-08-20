@@ -20,7 +20,7 @@ translation: "castor212"
 Excalibur Galatine.
 A sword of the sun with a pseudo sun stored within the handle. A sister sword of the “Sword of Promised Victory” held by King Arthur, brought about by the fairy Lady of the Lake.
 A holy sword not much recited in the legend. Compared to the sword of the king that receives the protection of the moon, this sword too receives the blessing of the sun. If the “Sword of Promised Victory” slashes apart with the light of the planet, the “Sword of Revolving Victory” burns to cinders with the scorching heat of the sun.
-In addition, the “Sword of Promised Victory” is a centralized-type attack{{n1}}, but the "Sword of Revolving Victory" is a radiation-type attack that mows down the advancing enemy soldiers.
+In addition, the “Sword of Promised Victory” is a centralized-type attack{{n1}}, but the “Sword of Revolving Victory” is a radiation-type attack that mows down the advancing enemy soldiers.
 
 ##### {{notes}}
 
