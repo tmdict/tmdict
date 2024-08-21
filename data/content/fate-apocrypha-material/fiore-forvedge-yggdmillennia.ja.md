@@ -1,7 +1,7 @@
 ---
 parent: fiore-forvedge-yggdmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 83
 category:

@@ -1,7 +1,7 @@
 ---
 parent: double-summon
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 64
 translation: "譯月漢化小组"

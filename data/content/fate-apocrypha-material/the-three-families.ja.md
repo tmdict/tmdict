@@ -1,7 +1,7 @@
 ---
 parent: the-three-families
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 41
 category:

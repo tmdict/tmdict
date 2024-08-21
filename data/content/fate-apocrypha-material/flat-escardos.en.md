@@ -1,7 +1,7 @@
 ---
 parent: flat-escardos
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 86
 translation: "Eternal Dreamer"

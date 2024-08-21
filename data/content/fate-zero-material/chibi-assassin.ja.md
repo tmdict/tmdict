@@ -1,7 +1,7 @@
 ---
 parent: chibi-assassin
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 29
 img: fzm_chibi-assassin.png

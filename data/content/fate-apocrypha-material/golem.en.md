@@ -1,7 +1,7 @@
 ---
 parent: golem
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 39
 translation: "Eternal Dreamer"

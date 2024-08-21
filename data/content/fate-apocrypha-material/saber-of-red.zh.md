@@ -1,7 +1,7 @@
 ---
 parent: saber-of-red
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 7
 translation: "譯月漢化小组"

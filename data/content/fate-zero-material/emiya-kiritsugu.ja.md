@@ -1,7 +1,7 @@
 ---
 parent: emiya-kiritsugu
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 9
 category:

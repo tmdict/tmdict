@@ -1,7 +1,7 @@
 ---
 parent: calico-m950
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 11
 category:

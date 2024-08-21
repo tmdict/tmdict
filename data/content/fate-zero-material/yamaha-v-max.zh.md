@@ -1,7 +1,7 @@
 ---
 parent: yamaha-v-max
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 45
 translation: "七夜蒼月"

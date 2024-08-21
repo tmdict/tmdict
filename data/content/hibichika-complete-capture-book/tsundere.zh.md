@@ -1,7 +1,7 @@
 ---
 parent: tsundere
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: zh
 weight: 33
 translation: "vt789123"

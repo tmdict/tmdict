@@ -1,7 +1,7 @@
 ---
 parent: sunao-chan
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 27
 img: hibichika_sunao-chan.png

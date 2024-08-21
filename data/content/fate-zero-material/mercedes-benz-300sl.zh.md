@@ -1,7 +1,7 @@
 ---
 parent: mercedes-benz-300sl
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 43
 translation: "七夜蒼月"

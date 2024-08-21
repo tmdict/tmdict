@@ -1,7 +1,7 @@
 ---
 parent: legend-of-dracula
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 104
 translation: "Eternal Dreamer"

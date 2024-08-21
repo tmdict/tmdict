@@ -1,7 +1,7 @@
 ---
 parent: illyasviel-von-einzbern
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 4
 category:

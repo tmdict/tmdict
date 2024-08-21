@@ -1,7 +1,7 @@
 ---
 parent: waver-velvet
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 6
 translation: "七夜蒼月"

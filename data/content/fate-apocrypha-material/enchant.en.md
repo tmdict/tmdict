@@ -1,7 +1,7 @@
 ---
 parent: enchant
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 24
 translation: "Eternal Dreamer"

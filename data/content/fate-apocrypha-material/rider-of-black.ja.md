@@ -1,7 +1,7 @@
 ---
 parent: rider-of-black
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 37
 category:

@@ -1,7 +1,7 @@
 ---
 parent: gilgamesh
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 12
 translation: "七夜蒼月"

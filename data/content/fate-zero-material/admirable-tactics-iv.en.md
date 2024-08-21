@@ -1,7 +1,7 @@
 ---
 parent: admirable-tactics-iv
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 2
 translation: "Mcjon01"

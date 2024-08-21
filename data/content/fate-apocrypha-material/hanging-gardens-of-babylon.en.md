@@ -1,7 +1,7 @@
 ---
 parent: hanging-gardens-of-babylon
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 77
 translation: "Eternal Dreamer"

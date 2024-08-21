@@ -1,7 +1,7 @@
 ---
 parent: berserker-of-black
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 36
 img: fam_berserker-of-black.png

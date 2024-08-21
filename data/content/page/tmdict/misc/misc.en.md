@@ -69,16 +69,16 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
     <td>2007-08-20<br /><span class="source">Fate/stay night Visual Story</span>: <span class="glossary">Fate Encyclopedia</span>, <span class="page">pp.235–255</span></td>
   </tr>
   <tr id="2008fzm">
-    <td>2008-08-08<br /><span class="source">Fate/Zero material</span>: <span class="glossary">Fate/Zero Encylopedia</span>, <span class="page">pp.90–105</span></td>
+    <td>2008-08-08<br /><span class="source">Fate/Zero material</span>: <span class="glossary">Fate/Zero Encyclopedia</span>, <span class="page">pp.90–105</span></td>
   </tr>
   <tr id="2010fsnubwfog">
     <td>2010-02-10<br /><span class="source">Fate/stay night Unlimited Blade Work Film Official Guide</span>: <span class="glossary">Encyclopedia of Fate</span>, <span class="page">pp.106–108</span></td>
   </tr>
   <tr id="2010hibichika">
-    <td>2010-08-13<br /><span class="source">HibiChika Complete Capture Book</span>: <span class="glossary">Mahou Tsukai no Hako Small Encylopedia</span>, <span class="page">pp.15–27</span></td>
+    <td>2010-08-13<br /><span class="source">HibiChika Complete Capture Book</span>: <span class="glossary">Mahou Tsukai no Hako Small Encyclopedia</span>, <span class="page">pp.15–27</span></td>
   </tr>
   <tr id="2011rgwscgc">
-    <td>2011-11-10<br /><span class="source">Record of the Grail War Second Chapter Glossary Collection</span>: <span class="glossary">Fate/Zero Encylopedia</span>, <span class="page">p.1</span></td>
+    <td>2011-11-10<br /><span class="source">Record of the Grail War Second Chapter Glossary Collection</span>: <span class="glossary">Fate/Zero Encyclopedia</span>, <span class="page">p.1</span></td>
   </tr>
   <tr id="2012fzavg1">
     <td>2012-03-26<br /><span class="source">Fate/Zero Animation Visual Guide I</span>: <span class="glossary">Glossary of the holy grail war</span>, <span class="page">pp.166–172</span></td>
@@ -102,7 +102,7 @@ Below is a list of all Type-Moon glossaries currently available (as far as we kn
     <td>2014-11-27<br /><span class="source">Capsule material</span>: <span class="glossary">Encyclopedia of CAPSULE SERVANT</span>, <span class="page">pp.136–161</span></td>
   </tr>
   <tr id="2015fam">
-    <td>2015-08-14<br /><span class="source">Fate/Apocrypha material</span>: <span class="glossary">Fate/Apocrypha Encylopedia</span>, <span class="page">pp.148–191</span></td>
+    <td>2015-08-14<br /><span class="source">Fate/Apocrypha material</span>: <span class="glossary">Fate/Apocrypha Encyclopedia</span>, <span class="page">pp.148–191</span></td>
   </tr>
   <tr id="2016mbbaan">
     <td>2016-07-26<br /><span class="source">Melty Blood Back Alley Alliance Nightmare Vol. 1</span>: <span class="glossary">Encyclopedia of Rojiura Nightmare</span>, <span class="page">pp.192–195</span></td>
@@ -185,7 +185,7 @@ Below is a list of the content currently on this site. “-” means we currentl
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-material?lang=en">Fate/Zero Encylopedia</a></td>
+    <td><a href="../book/#fate-zero-material?lang=en">Fate/Zero Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
@@ -215,7 +215,7 @@ Below is a list of the content currently on this site. “-” means we currentl
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#hibichika-complete-capture-book?lang=en">Mahou Tsukai no Hako Small Encylopedia</a></td>
+    <td><a href="../book/#hibichika-complete-capture-book?lang=en">Mahou Tsukai no Hako Small Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

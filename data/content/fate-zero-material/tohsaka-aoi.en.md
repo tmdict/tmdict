@@ -1,7 +1,7 @@
 ---
 parent: tohsaka-aoi
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 31
 translation: "Mcjon01"

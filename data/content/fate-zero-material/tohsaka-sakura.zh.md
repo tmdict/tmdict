@@ -1,7 +1,7 @@
 ---
 parent: tohsaka-sakura
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 32
 translation: "七夜蒼月"

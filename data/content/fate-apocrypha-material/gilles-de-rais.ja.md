@@ -1,7 +1,7 @@
 ---
 parent: gilles-de-rais
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 54
 category:

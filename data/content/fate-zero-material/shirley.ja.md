@@ -1,7 +1,7 @@
 ---
 parent: shirley
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 21
 img: fzm_shirley.png

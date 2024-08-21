@@ -1,7 +1,7 @@
 ---
 parent: king-of-knights
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 28
 translation: "Eternal Dreamer"

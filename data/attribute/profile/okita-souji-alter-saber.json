@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "317:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0317a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0317b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0317c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0317d.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "keikenchi",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": ["yuuki-aoi", "nakamura-yuuichi"],
+    "major-appearances": "fate-grand-order",
+    "related.profile": "okita-souji-alter"
+  },
+
+  "data": {
+    "name": {
+      "en": "Okita Souji Alter (Saber)",
+      "ja": "魔神(人)・沖田総司（セイバー）",
+      "zh": "冲田总司（Alter）(Saber)"
+    },
+    "true-name": {
+      "en": "Okita Souji (Alter)",
+      "ja": "沖田総司（オルタ）",
+      "zh": "冲田总司（Alter）"
+    },
+    "height": {
+      "en": "156cm (First, Second Ascensions) 163cm (Third Ascension)",
+      "ja": "156cm（第1、2再臨）、163cm（第3再臨）",
+      "zh": "156cm（第1、2再临），163cm（第3再临）"
+    },
+    "weight": {
+      "en": "42kg (First, Second Ascensions) 51kg (Third Ascension)",
+      "ja": "42kg（第1、2再臨）、51kg（第3再臨）",
+      "zh": "42kg（第1、2再临），51kg（第3再临）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

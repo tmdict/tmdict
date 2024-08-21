@@ -1,7 +1,7 @@
 ---
 parent: ruby-chan
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 63
 translation: "RHuot"

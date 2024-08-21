@@ -1,7 +1,7 @@
 ---
 parent: saber-of-black
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 35
 translation: "譯月漢化小组"

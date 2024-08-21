@@ -1,7 +1,7 @@
 ---
 parent: bram-nuada-re-sophia-ri
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 87
 translation: "譯月漢化小组"

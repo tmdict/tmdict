@@ -1,7 +1,7 @@
 ---
 parent: tohsaka-sakura
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 32
 translation: "Mcjon01"

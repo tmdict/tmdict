@@ -1,7 +1,7 @@
 ---
 parent: fujimura-taiga
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 39
 translation: "Mcjon01"

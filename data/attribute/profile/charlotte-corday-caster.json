@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "319:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0319a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0319b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0319c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0319d.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "france",
+    "alignment": "chaotic-summer",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "cpp",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "aotsuki-takao",
+    "character-voice": "horie-yui",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "charlotte-corday"
+  },
+
+  "data": {
+    "name": {
+      "en": "Charlotte Corday (Caster)",
+      "ja": "シャルロット・コルデー（キャスター）",
+      "zh": "夏洛特・科黛 (Caster)"
+    },
+    "true-name": {
+      "en": "Charlotte Corday",
+      "ja": "シャルロット・コルデー",
+      "zh": "夏洛特・科黛"
+    },
+    "height": {
+      "en": "166cm",
+      "ja": "166cm",
+      "zh": "166cm"
+    },
+    "weight": {
+      "en": "43kg",
+      "ja": "43kg",
+      "zh": "43kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

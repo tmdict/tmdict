@@ -1,7 +1,7 @@
 ---
 parent: mapo-curry
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 52
 translation: "RHuot"

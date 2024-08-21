@@ -1,7 +1,7 @@
 ---
 parent: matou-byakuya
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 42
 category:

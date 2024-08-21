@@ -1,7 +1,7 @@
 ---
 parent: mahou-tsukai-no-hako-event
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 56
 translation: "RHuot"

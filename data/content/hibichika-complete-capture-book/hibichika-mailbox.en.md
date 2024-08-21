@@ -1,7 +1,7 @@
 ---
 parent: hibichika-mailbox
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 42
 translation: "RHuot"

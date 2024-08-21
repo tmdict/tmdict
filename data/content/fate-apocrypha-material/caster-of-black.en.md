@@ -1,7 +1,7 @@
 ---
 parent: caster-of-black
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 34
 translation: "Eternal Dreamer"

@@ -1,7 +1,7 @@
 ---
 parent: steyr-aug
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 23
 translation: "七夜蒼月"

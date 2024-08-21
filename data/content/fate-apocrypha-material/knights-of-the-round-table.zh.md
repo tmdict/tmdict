@@ -1,7 +1,7 @@
 ---
 parent: knights-of-the-round-table
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 23
 translation: "譯月漢化小组"

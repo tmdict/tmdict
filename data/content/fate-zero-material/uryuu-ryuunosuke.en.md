@@ -1,7 +1,7 @@
 ---
 parent: uryuu-ryuunosuke
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 8
 translation: "Mcjon01"

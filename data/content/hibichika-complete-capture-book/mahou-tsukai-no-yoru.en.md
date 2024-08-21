@@ -1,7 +1,7 @@
 ---
 parent: mahou-tsukai-no-yoru
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 58
 translation: "RHuot"

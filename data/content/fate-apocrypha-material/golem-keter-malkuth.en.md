@@ -1,7 +1,7 @@
 ---
 parent: golem-keter-malkuth
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 40
 translation: "Eternal Dreamer"

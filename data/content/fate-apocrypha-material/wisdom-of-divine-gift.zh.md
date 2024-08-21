@@ -1,7 +1,7 @@
 ---
 parent: wisdom-of-divine-gift
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 56
 translation: "譯月漢化小组"

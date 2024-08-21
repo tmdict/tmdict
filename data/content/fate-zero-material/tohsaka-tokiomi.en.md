@@ -1,7 +1,7 @@
 ---
 parent: tohsaka-tokiomi
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 33
 translation: "Mcjon01"

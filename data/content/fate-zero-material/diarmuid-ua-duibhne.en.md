@@ -1,7 +1,7 @@
 ---
 parent: diarmuid-ua-duibhne
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 30
 translation: "Mcjon01"

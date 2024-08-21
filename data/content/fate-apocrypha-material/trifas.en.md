@@ -1,7 +1,7 @@
 ---
 parent: trifas
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 69
 translation: "Eternal Dreamer"

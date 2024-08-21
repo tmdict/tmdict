@@ -1,7 +1,7 @@
 ---
 parent: welcome-to-ahnenerbe
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 3
 translation: "RHuot"

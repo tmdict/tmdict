@@ -1,7 +1,7 @@
 ---
 parent: caules-forvedge-yggdmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 25
 img: fam_caules-forvedge-yggdmillennia.png

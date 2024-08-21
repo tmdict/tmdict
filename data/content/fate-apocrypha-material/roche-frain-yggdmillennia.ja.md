@@ -1,7 +1,7 @@
 ---
 parent: roche-frain-yggdmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 107
 img: fam_roche-frain-yggdmillennia.png

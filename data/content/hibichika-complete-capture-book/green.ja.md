@@ -1,7 +1,7 @@
 ---
 parent: green
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 60
 category:

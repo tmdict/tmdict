@@ -1,7 +1,7 @@
 ---
 parent: gordes-musik-yddgmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 44
 category:

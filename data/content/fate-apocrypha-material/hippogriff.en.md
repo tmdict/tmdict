@@ -1,7 +1,7 @@
 ---
 parent: hippogriff
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 79
 translation: "Eternal Dreamer"

@@ -1,7 +1,7 @@
 ---
 parent: secret-of-pedigree
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 48
 translation: "譯月漢化小组"

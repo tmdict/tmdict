@@ -1,7 +1,7 @@
 ---
 parent: thompson-center-arms-contender
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 35
 category:

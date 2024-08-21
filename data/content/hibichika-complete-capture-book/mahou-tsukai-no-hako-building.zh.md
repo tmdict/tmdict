@@ -1,7 +1,7 @@
 ---
 parent: mahou-tsukai-no-hako-building
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: zh
 weight: 57
 translation: "vt789123"

@@ -1,7 +1,7 @@
 ---
 parent: hundred-faced-hassan
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 38
 translation: "Mcjon01"

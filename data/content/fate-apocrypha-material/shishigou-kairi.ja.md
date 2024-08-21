@@ -1,7 +1,7 @@
 ---
 parent: shishigou-kairi
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 52
 img: fam_shishigou-kairi.png

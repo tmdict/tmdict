@@ -1,7 +1,7 @@
 ---
 parent: glen-mackenzie
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 14
 img: fzm_glen-mackenzie.png

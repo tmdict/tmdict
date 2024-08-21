@@ -1,7 +1,7 @@
 ---
 parent: today-is-another-unproductive-day
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 20
 translation: "RHuot"

@@ -1,7 +1,7 @@
 ---
 parent: darnic-prestone-yggdmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 60
 img: fam_darnic-prestone-yggdmillennia.png

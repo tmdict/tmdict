@@ -1,7 +1,7 @@
 ---
 parent: caules-forvedge-yggdmillennia
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 25
 translation: "Eternal Dreamer"

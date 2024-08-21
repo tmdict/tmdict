@@ -1,7 +1,7 @@
 ---
 parent: sola-ui-nuada-re-sophia-ri
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 28
 translation: "Mcjon01"

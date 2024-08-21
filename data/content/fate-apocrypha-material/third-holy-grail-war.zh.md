@@ -1,7 +1,7 @@
 ---
 parent: third-holy-grail-war
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 61
 translation: "譯月漢化小组"

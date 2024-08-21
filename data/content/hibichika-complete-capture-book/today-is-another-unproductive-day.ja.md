@@ -1,7 +1,7 @@
 ---
 parent: today-is-another-unproductive-day
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 20
 category:

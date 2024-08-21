@@ -1,7 +1,7 @@
 ---
 parent: shirley
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 21
 translation: "Mcjon01"

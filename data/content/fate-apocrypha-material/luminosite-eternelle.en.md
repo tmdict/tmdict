@@ -1,7 +1,7 @@
 ---
 parent: luminosite-eternelle
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 103
 translation: "Eternal Dreamer"

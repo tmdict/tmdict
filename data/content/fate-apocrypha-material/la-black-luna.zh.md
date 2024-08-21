@@ -1,7 +1,7 @@
 ---
 parent: la-black-luna
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 97
 translation: "譯月漢化小组"

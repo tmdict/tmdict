@@ -1,7 +1,7 @@
 ---
 parent: prisma-illya
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 49
 img: hibichika_prisma-illya.png

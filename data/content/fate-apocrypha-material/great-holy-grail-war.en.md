@@ -1,7 +1,7 @@
 ---
 parent: great-holy-grail-war
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 57
 translation: "Eternal Dreamer"

@@ -1,7 +1,7 @@
 ---
 parent: iskandar
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 3
 translation: "Mcjon01"

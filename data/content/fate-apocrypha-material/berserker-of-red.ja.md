@@ -1,7 +1,7 @@
 ---
 parent: berserker-of-red
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 8
 img: fam_berserker-of-red.png

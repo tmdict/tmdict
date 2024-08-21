@@ -1,7 +1,7 @@
 ---
 parent: maria-the-ripper
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 93
 translation: "譯月漢化小组"

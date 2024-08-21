@@ -1,7 +1,7 @@
 ---
 parent: hanging-gardens-of-babylon
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 77
 img: fam_hanging-gardens-of-babylon.png

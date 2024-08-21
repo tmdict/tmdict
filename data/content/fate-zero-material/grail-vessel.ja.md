@@ -1,7 +1,7 @@
 ---
 parent: grail-vessel
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 25
 category:

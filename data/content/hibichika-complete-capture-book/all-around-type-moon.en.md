@@ -1,7 +1,7 @@
 ---
 parent: all-around-type-moon
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: en
 weight: 14
 translation: "RHuot"

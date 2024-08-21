@@ -1,7 +1,7 @@
 ---
 parent: mushroom-people
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 21
 img: hibichika_mushroom-people.png

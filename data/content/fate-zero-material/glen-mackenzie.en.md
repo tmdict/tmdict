@@ -1,7 +1,7 @@
 ---
 parent: glen-mackenzie
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 14
 translation: "Mcjon01"

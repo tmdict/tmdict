@@ -1,7 +1,7 @@
 ---
 parent: fujimura-taiga
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 39
 img: fzm_fujimura-taiga.png

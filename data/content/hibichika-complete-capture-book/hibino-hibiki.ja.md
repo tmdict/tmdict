@@ -1,7 +1,7 @@
 ---
 parent: hibino-hibiki
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 44
 img: hibichika_hibino-hibiki.png

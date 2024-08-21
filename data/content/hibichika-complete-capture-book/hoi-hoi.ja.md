@@ -1,7 +1,7 @@
 ---
 parent: hoi-hoi
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: ja
 weight: 50
 category:

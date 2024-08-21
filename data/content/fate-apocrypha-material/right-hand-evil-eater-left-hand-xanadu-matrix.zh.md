@@ -1,7 +1,7 @@
 ---
 parent: right-hand-evil-eater-left-hand-xanadu-matrix
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 98
 translation: "譯月漢化小组"

@@ -1,7 +1,7 @@
 ---
 parent: lord-el-melloi-ii
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: en
 weight: 106
 translation: "Eternal Dreamer"

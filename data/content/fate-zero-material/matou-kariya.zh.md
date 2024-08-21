@@ -1,7 +1,7 @@
 ---
 parent: matou-kariya
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 40
 translation: "七夜蒼月"

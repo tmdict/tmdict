@@ -1,7 +1,7 @@
 ---
 parent: matou-byakuya
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 42
 translation: "七夜蒼月"

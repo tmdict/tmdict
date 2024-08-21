@@ -1,7 +1,7 @@
 ---
 parent: mercedes-benz-300sl
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 43
 img: fzavg1_mercedes-benz-300sl.png

@@ -1,7 +1,7 @@
 ---
 parent: natalia-kaminski
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 36
 translation: "Mcjon01"

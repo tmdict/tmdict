@@ -1,7 +1,7 @@
 ---
 parent: kayneth-el-melloi-archibald
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: en
 weight: 16
 translation: "Mcjon01"

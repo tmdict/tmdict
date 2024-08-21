@@ -1,7 +1,7 @@
 ---
 parent: bridal-chest-blasted-tree
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: zh
 weight: 85
 translation: "譯月漢化小组"

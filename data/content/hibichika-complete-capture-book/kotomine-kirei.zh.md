@@ -1,7 +1,7 @@
 ---
 parent: kotomine-kirei
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: zh
 weight: 23
 translation: "vt789123"

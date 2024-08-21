@@ -1,7 +1,7 @@
 ---
 parent: saber
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 27
 category:

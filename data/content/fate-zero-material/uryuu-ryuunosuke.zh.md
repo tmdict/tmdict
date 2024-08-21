@@ -1,7 +1,7 @@
 ---
 parent: uryuu-ryuunosuke
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: zh
 weight: 8
 translation: "七夜蒼月"

@@ -1,7 +1,7 @@
 ---
 parent: walther-wa-2000
 source: fate-zero-material
-id: fate-zero-encylopedia
+id: fate-zero-encyclopedia
 language: ja
 weight: 44
 category:

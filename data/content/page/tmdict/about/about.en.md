@@ -28,7 +28,7 @@ Translations on this site come from different translators, as such, translations
 
 - <span class="highlight">Fate Encyclopedia:</span>
   <a href="http://z13.invisionfree.com/Mobius_Space/index.php?act=idx">food</a>, <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://tieba.baidu.com/f?kw=%D4%C2%D2%B9%D6%AE%BF%D5">十三维</a>, <a href="https://tieba.baidu.com/p/1504291610">路过的零</a>
-- <span class="highlight">Fate/Apocrypha Encylopedia:</span>
+- <span class="highlight">Fate/Apocrypha Encyclopedia:</span>
   <a href="https://fateapocryphathetranslation.wordpress.com/side-materials/fateapocrypha-material/">Eternal Dreamer</a> / <a href="https://bbs.sumisora.net/read.php?tid=11071116">譯月漢化小组</a>
 - <span class="highlight">Fate/EXTELLA Encyclopedia:</span>
   RHuot, Fate/EXTELLA material (English) / Fate/EXTELLA material (中文)
@@ -36,7 +36,7 @@ Translations on this site come from different translators, as such, translations
   RHuot / <a href="https://tieba.baidu.com/p/2536360820">agemizy</a>, <a href="https://bbs.sumisora.net/read.php?tid=11051957">syoutsuki</a>, vt789123, <a href="https://tieba.baidu.com/p/5124843633">偶累瓦刚大木</a>, <a href="https://bbs.sumisora.net/read.php?tid=11045922">冰弑</a><a href="https://bbs.sumisora.net/read.php?tid=11070209">樱霜</a>, <a href="https://tieba.baidu.com/p/2558097923">浮云般飘过</a>, <a href="https://tieba.baidu.com/p/4861921746">貓的薛定諤</a>, <a href="https://home.gamer.com.tw/creationDetail.php?sn=2002017">雪色‧彌斐爾</a>
 - <span class="highlight">Fate/type Redline Glossary:</span>
   <a href="https://www.reddit.com/user/BananaShiki">BananaShiki</a> / <a href="https://www.weibo.com/u/6537160863">Akiraka</a>
-- <span class="highlight">Fate/Zero Encylopedia:</span>
+- <span class="highlight">Fate/Zero Encyclopedia:</span>
   <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://home.gamer.com.tw/homeindex.php?owner=langrisseriv">七夜蒼月</a>
 - <span class="highlight">Fate/Zero Glossary of the holy grail war:</span>
   RHuot / vt789123
@@ -44,7 +44,7 @@ Translations on this site come from different translators, as such, translations
   <a href="http://z13.invisionfree.com/Mobius_Space/index.php?">food</a> / <a href="https://bbs.sumisora.net/read.php?tid=4458241">renshujian0</a>
 - <span class="highlight">Lord El-Melloi II Case Files Glossary:</span>
   <a href="https://forums.nrvnqsr.com/showthread.php/5943-Lord-El-Melloi-II-Case-Files">TwilightsCall</a> / <a href="https://www.weibo.com/u/6537160863">Akiraka</a>
-- <span class="highlight">Mahou Tsukai no Hako Small Encylopedia:</span>
+- <span class="highlight">Mahou Tsukai no Hako Small Encyclopedia:</span>
   RHuot / <a href="https://bbs.sumisora.net/read.php?tid=11077935">vt789123</a>
 - <span class="highlight">Melty Blood Glossary:</span>
   RHuot / <a href="https://bbs.sumisora.net/read.php?tid=10974953">六条秋分</a>

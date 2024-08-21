@@ -1,7 +1,7 @@
 ---
 parent: great-holy-grail-war
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 57
 category:

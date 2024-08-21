@@ -1,7 +1,7 @@
 ---
 parent: luminosite-eternelle
 source: fate-apocrypha-material
-id: fate-apocrypha-encylopedia
+id: fate-apocrypha-encyclopedia
 language: ja
 weight: 103
 img: fam_luminosite-eternelle.png

@@ -1,7 +1,7 @@
 ---
 parent: ua-
 source: hibichika-complete-capture-book
-id: mahou-tsukai-no-hako-small-encylopedia
+id: mahou-tsukai-no-hako-small-encyclopedia
 language: zh
 weight: 9
 translation: "vt789123"

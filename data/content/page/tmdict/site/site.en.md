@@ -94,7 +94,7 @@ Happy holidays! With this update comes the addition of a new _PRISMA material/pe
 For now we will focus on improving site stability and user experience, and continue to update CHALDEAの記録 with new content.
 
 - Added Encyclopedia of Prisma Illya MOVIE.
-- Added Mahou Tsukai no Hako Small Encylopedia English glossary.
+- Added Mahou Tsukai no Hako Small Encyclopedia English glossary.
 - Updated CHALDEAの記録 contents up to FGO Material 8.
 
 **2020-08-01**
@@ -159,7 +159,7 @@ With this update, the _Fate/EXTRA_ glossary is finally complete; missing entries
 The site’s stylesheet has been updated to use responsive design, making it more mobile friendly. There’s also a new glossary, it comes from a small booklet, _HibiChika Complete Capture Book_, found in the _Mahou Tsukai no Hako Box Set_ sold at the Type-Moon booth in C78, its content is mostly random facts and jokes.
 
 - Site style is now responsive to screen size.
-- Added Mahou Tsukai no Hako Small Encylopedia (Japanese/Chinese).
+- Added Mahou Tsukai no Hako Small Encyclopedia (Japanese/Chinese).
 - Added images for Fate/Zero Animation Visual Guide I + II.
 
 **2019-05-01**
@@ -191,7 +191,7 @@ Minor update, fixed a bunch of transcription errors in the Japanese text of _Fat
 
 Translation for _Fate/Apocrypha material_, a collaboration project with 譯月漢化小组 and NanoDesu’s Eternal Dreamer, is now available!
 
-- Added Fate/Apocrypha Encylopedia (English, Chinese, Japanese)
+- Added Fate/Apocrypha Encyclopedia (English, Chinese, Japanese)
 - Changed Kara no Kyoukai glossary Chinese entry title to “「 」”
 - Fixed an issue with some entries not sorting correctly in Japanese
 
