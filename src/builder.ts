@@ -179,7 +179,7 @@ export default class Builder {
     const entryContent = entryData.content.map((c) => c.i18n[lang]);
     // Generate meta description
     let cleaned = entryContent[0].html.replace(/(<([^>]+)>)/gi, " ");
-    let trimmed = `${entryData.attribute.attr.name[lang]} -${cleaned}`.substring(0, 150);
+    let trimmed = `${entryData.attribute.attr.name[lang]} -${cleaned}`.substring(0, 160);
     const metaDescription = trimmed.substring(0, Math.min(trimmed.length, trimmed.lastIndexOf(" ")));
     // Generates HTML for Entries
     this.toTemplate(templates['entry.html'], `${appConfig.paths.dist}/${entryPath}.html`, {
