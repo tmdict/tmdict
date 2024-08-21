@@ -174,10 +174,13 @@ export default class Builder {
     const en = entryData.attribute.en;
     const ja = entryData.attribute.ja;
     const jaRow = entryData.attribute.jaRow;
+    const entryPath = `${lang}/${ja}.${entryData.attribute.id}`;
     // Get i18n content for each content[] for template
     const entryContent = entryData.content.map((c) => c.i18n[lang]);
-    const metaDescription = entryContent[0].html.replace(/(<([^>]+)>)/ig, ' ').substring(0, 150)
-    const entryPath = `${lang}/${ja}.${entryData.attribute.id}`;
+    // Generate meta description
+    let cleaned = entryContent[0].html.replace(/(<([^>]+)>)/gi, " ");
+    let trimmed = `${entryData.attribute.attr.name[lang]} -${cleaned}`.substring(0, 150);
+    const metaDescription = trimmed.substring(0, Math.min(trimmed.length, trimmed.lastIndexOf(" ")));
     // Generates HTML for Entries
     this.toTemplate(templates['entry.html'], `${appConfig.paths.dist}/${entryPath}.html`, {
       attribute: {
