@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "324:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0324a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0324b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0324c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0324d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0324e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "foreigner",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["legends-of-the-knights-templar", "historical-fact"],
+    "region": ["europe", "cyprus", "syria-crusader-states"],
+    "alignment": "neutral-evil",
+    "strength.parameter": "bp",
+    "endurance.parameter": "ap",
+    "agility.parameter": "d",
+    "magic.parameter": "ex",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "kuroboshi-kouhaku",
+    "character-voice": "aoki-shiki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Jacques de Molay",
+      "ja": "ジャック・ド・モレー",
+      "zh": "雅克·德·莫莱"
+    },
+    "true-name": {
+      "en": "Jacques de Molay",
+      "ja": "ジャック・ド・モレー",
+      "zh": "雅克·德·莫莱"
+    },
+    "height": {
+      "en": "167cm",
+      "ja": "167cm",
+      "zh": "167cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

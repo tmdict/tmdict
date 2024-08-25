@@ -1,40 +1,40 @@
 {
   "type": "profile",
-  "uid": "276:fgosvt",
+  "uid": "323:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0276a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0276b.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0276c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0276d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0276e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0323a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0323b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0323c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0323d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0323e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "archer",
-    "star": "star_5",
+    "class": "berserker",
+    "star": "star_4",
     "gender": "female",
     "origin": "historical-fact",
     "region": "japan",
-    "alignment": "chaotic-good",
-    "strength.parameter": "e",
+    "alignment": "chaotic-summer",
+    "strength.parameter": "c",
     "endurance.parameter": "d",
     "agility.parameter": "b",
-    "magic.parameter": "c",
+    "magic.parameter": "e",
     "luck.parameter": "a",
     "noble-phantasm.parameter": "dpp",
     "character-setting": "oksg",
     "illustrator": "mika-pikazo",
     "character-voice": "fairouz-ai",
     "major-appearances": "fate-grand-order",
-    "related.profile": "sei-shounagon-berserker"
+    "related.profile": "sei-shounagon"
   },
 
   "data": {
     "name": {
-      "en": "Sei Shounagon",
-      "ja": "清少納言",
-      "zh": "清少纳言"
+      "en": "Sei Shounagon (Berserker)",
+      "ja": "清少納言（バーサーカー）",
+      "zh": "清少纳言（Berserker）"
     },
     "true-name": {
       "en": "Sei Shounagon",

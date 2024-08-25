@@ -1,28 +1,28 @@
 {
   "type": "profile",
-  "uid": "279:fgosvt",
+  "uid": "322:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0279a.png" },
-    { "weight": 4, "id": "img_s2", "src": "S0279b.png" },
-    { "weight": 4, "id": "img_s3", "src": "S0279c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0279d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0279e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0322a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0322b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0322c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0322d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0322e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "lancer",
+    "class": "rider",
     "star": "star_4",
     "gender": "_na",
     "origin": "greek-mythology",
     "region": "europe",
-    "alignment": "neutral-evil",
-    "strength.parameter": "a",
+    "alignment": "neutral-summer",
+    "strength.parameter": "c",
     "endurance.parameter": "bp",
     "agility.parameter": "a",
     "magic.parameter": "d",
-    "luck.parameter": "b",
-    "noble-phantasm.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
     "character-setting": "sakurai-hikaru",
     "illustrator": "azusa",
     "character-voice": "komatsu-mikako",
@@ -32,9 +32,9 @@
 
   "data": {
     "name": {
-      "en": "Caenis",
-      "ja": "カイニス",
-      "zh": "凯妮斯"
+      "en": "Caenis (Rider)",
+      "ja": "カイニス（アヴェンジャー）",
+      "zh": "凯妮斯（Rider）"
     },
     "true-name": {
       "en": "Caenis",

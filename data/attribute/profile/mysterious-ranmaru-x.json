@@ -1,0 +1,59 @@
+{
+  "type": "profile",
+  "uid": "328:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0328a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0328d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0328e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_4",
+    "gender": "_qm",
+    "origin": "historical-fact",
+    "region": "planet-ranmaru",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "d",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "keikenchi",
+    "illustrator": "mika-pikazo",
+    "character-voice": "machico",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mysterious Ranmaru X",
+      "ja": "謎の蘭丸X",
+      "zh": "谜之兰丸X"
+    },
+    "true-name": {
+      "en": "Mysterious Ranmaru X",
+      "ja": "謎の蘭丸X",
+      "zh": "谜之兰丸X"
+    },
+    "height": {
+      "en": "155cm",
+      "ja": "155cm",
+      "zh": "155cm"
+    },
+    "weight": {
+      "en": "43kg",
+      "ja": "43kg",
+      "zh": "43kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

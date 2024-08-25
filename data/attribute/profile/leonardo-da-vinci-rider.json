@@ -27,7 +27,7 @@
     "illustrator": "shimokoshi",
     "character-voice": "sakamoto-maaya",
     "major-appearances": "fate-grand-order",
-    "related.profile": "leonardo-da-vinci"
+    "related.profile": ["leonardo-da-vinci", "leonardo-da-vinci-ruler"]
   },
 
   "data": {

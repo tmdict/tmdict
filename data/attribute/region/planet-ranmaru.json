@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Planet Ranmaru",
+      "ja": "蘭丸星",
+      "zh": "兰丸星"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Aoki Shiki",
+      "ja": "青木志貴",
+      "zh": "青木志贵"
+    }
+  }
+}

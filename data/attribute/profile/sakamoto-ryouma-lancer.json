@@ -1,38 +1,41 @@
 {
   "type": "profile",
-  "uid": "211:fgosvt",
+  "uid": "329:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0211a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0211d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0211e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0329a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0329b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0329c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0329d.png" },
+    { "weight": 5, "id": "img_s4full", "src": "S0329e_s4full.png" },
+    { "weight": 6, "id": "img_april-fools", "src": "S0329f_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "rider",
-    "star": "star_4",
+    "class": "lancer",
+    "star": "star_5",
     "gender": "male",
     "origin": "historical-fact",
     "region": "japan",
     "alignment": "true-neutral",
-    "strength.parameter": "c",
+    "strength.parameter": "b",
     "endurance.parameter": "c",
-    "agility.parameter": "b",
-    "magic.parameter": "d",
+    "agility.parameter": "bp",
+    "magic.parameter": "c",
     "luck.parameter": "am",
     "noble-phantasm.parameter": "ex",
     "character-setting": "keikenchi",
     "illustrator": "pako",
     "character-voice": ["kase-yasuyuki", "horie-yui"],
-    "major-appearances": ["koha-ace-go", "fate-grand-order"],
-    "related.profile": "sakamoto-ryouma-lancer"
+    "major-appearances": "fate-grand-order",
+    "related.profile": "sakamoto-ryouma"
   },
 
   "data": {
     "name": {
-      "en": "Sakamoto Ryouma",
-      "ja": "坂本龍馬",
-      "zh": "坂本龙马"
+      "en": "Sakamoto Ryouma (Lancer)",
+      "ja": "坂本龍馬（ランサー）",
+      "zh": "坂本龙马（Lancer）"
     },
     "true-name": {
       "en": "Sakamoto Ryouma",

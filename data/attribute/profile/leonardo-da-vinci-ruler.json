@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "320:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0320a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0320d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0320e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_4",
+    "gender": "young-girl-body",
+    "origin": ["historical-fact", "fate-grand-order"],
+    "region": "2017-south-pole",
+    "alignment": "lawful-summer",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "shimokoshi",
+    "character-voice": "sakamoto-maaya",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["leonardo-da-vinci", "leonardo-da-vinci-rider"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Leonardo da Vinci (Ruler)",
+      "ja": "レオナルド・ダ・ヴィンチ（ルーラー）",
+      "zh": "莱昂纳多·达·芬奇（Ruler）"
+    },
+    "true-name": {
+      "en": "Leonardo Da Vinci",
+      "ja": "レオナルド・ダ・ヴィンチ",
+      "zh": "莱昂纳多·达·芬奇"
+    },
+    "height": {
+      "en": "144cm",
+      "ja": "144cm",
+      "zh": "144cm"
+    },
+    "weight": {
+      "en": "36.5kg",
+      "ja": "36.5kg",
+      "zh": "36.5kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "326:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0326a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0326d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0326e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "halloween-rising",
+    "region": "hungary",
+    "alignment": "chaotic-song",
+    "strength.parameter": "d",
+    "endurance.parameter": "e",
+    "agility.parameter": "a",
+    "magic.parameter": "b",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "wada-arco",
+    "character-voice": "ookubo-rumi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["elisabeth-bathory", "elisabeth-bathory-halloween", "elisabeth-bathory-brave"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Elisabeth Báthory (Cinderella)",
+      "ja": "エリザベート・バートリー（シンデレラ）",
+      "zh": "伊丽莎白·巴托里（灰姑娘）"
+    },
+    "true-name": {
+      "en": "Elisabeth Báthory (Cinderella)",
+      "ja": "エリザベート・バートリー（シンデレラ）",
+      "zh": "伊丽莎白·巴托里（灰姑娘）"
+    },
+    "height": {
+      "en": "154cm",
+      "ja": "154cm",
+      "zh": "154cm"
+    },
+    "weight": {
+      "en": "44kg",
+      "ja": "44kg",
+      "zh": "44kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

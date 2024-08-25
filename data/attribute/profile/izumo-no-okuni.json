@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "327:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0327a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0327b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0327c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0327d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0327e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "chaotic-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "d",
+    "agility.parameter": "cp",
+    "magic.parameter": "b",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "keikenchi",
+    "illustrator": "noco",
+    "character-voice": ["uesaka-sumire", "mafia-kajita"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Izumo-no-Okuni",
+      "ja": "出雲阿国",
+      "zh": "出云阿国"
+    },
+    "true-name": {
+      "en": "Izumo-no-Okuni",
+      "ja": "出雲阿国",
+      "zh": "出云阿国"
+    },
+    "height": {
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
+    },
+    "weight": {
+      "en": "43kg",
+      "ja": "43kg",
+      "zh": "43kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

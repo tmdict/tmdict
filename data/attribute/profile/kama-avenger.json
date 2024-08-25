@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "321:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0321a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0321b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0321c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0321d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0321e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "avenger",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "indian-mythology",
+    "region": "india",
+    "alignment": "neutral-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "cp",
+    "agility.parameter": "a",
+    "magic.parameter": "ex",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "minase-hazuki",
+    "illustrator": "redrop",
+    "character-voice": "shitaya-noriko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "kama"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kama (Avenger)",
+      "ja": "カーマ（アヴェンジャー）",
+      "zh": "迦摩（Avenger）"
+    },
+    "true-name": {
+      "en": "Kama",
+      "ja": "カーマ",
+      "zh": "迦摩"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

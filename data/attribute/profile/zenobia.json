@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "325:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0325a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0325b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0325c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0325d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0325e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "palmyrene-empire",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "bp",
+    "agility.parameter": "a",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "minase-hazuki",
+    "illustrator": "nishide-kengoro",
+    "character-voice": "shouji-umeka",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Zenobia",
+      "ja": "ゼノビア",
+      "zh": "芝诺比阿"
+    },
+    "true-name": {
+      "en": "Zenobia",
+      "ja": "ゼノビア",
+      "zh": "芝诺比阿"
+    },
+    "height": {
+      "en": "175cm",
+      "ja": "175cm",
+      "zh": "175cm"
+    },
+    "weight": {
+      "en": "60kg",
+      "ja": "60kg",
+      "zh": "60kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}
