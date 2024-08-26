@@ -1,3 +1,3 @@
-https://chaldea.netlify.com/* https://chaldea.tmdict.com/:splat 301!
+https://chaldea.netlify.app/* https://chaldea.tmdict.com/:splat 301!
 https://www.chaldea.tmdict.com/* https://chaldea.tmdict.com/:splat 301!
 /servant/* /profile/:splat 301!
