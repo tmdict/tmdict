@@ -205,9 +205,9 @@ export default class Builder {
   };
 
   /** Output sitemap to dist root */
-  buildSitemap = (paths: AppPaths, data: { [key: string]: any }[]): void => {
+  buildSitemap = (paths: AppPaths, hostname: string, data: { [key: string]: any }[]): void => {
     // Create a stream to write to
-    const stream = new SitemapStream({ hostname: 'https://www.tmdict.com' });
+    const stream = new SitemapStream({ hostname: hostname });
     // Loop over your links and add them to your stream
     data.forEach((sm) => stream.write(sm));
     // End the stream

@@ -9,6 +9,7 @@ export default class App {
   /** Generates Chaldea app and site */
   chaldea = (appConfig: AppConfig, templates: any, env: string): any => {
     console.log('\nBuilding: chaldea');
+    const sitemap: { [key: string]: any }[] = [];
 
     // Load attributes and content
     const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
@@ -45,6 +46,11 @@ export default class App {
             id: entryData.attribute.id,
             type: entryData.attribute.type,
             level: '../',
+          });
+          sitemap.push({
+            changefreq: 'monthly',
+            priority: 1.0,
+            url: `https://chaldea.tmdict.com/${entryData.attribute.type}/${entryData.attribute.id}`,
           });
           count++;
 
@@ -120,6 +126,10 @@ export default class App {
 
     // Build missing content page
     const missing = parser.getMissingContent(appConfig.content, ['profile']);
+
+    builder.buildSitemap(appConfig.paths, 'https://chaldea.tmdict.com', sitemap);
+    console.log(`...Built sitemap`);
+
     builder.buildAppData(
       appConfig.paths,
       templates,
@@ -263,7 +273,7 @@ export default class App {
       count++;
     });
     console.log(`...Built ${count} html files`);
-    builder.buildSitemap(appConfig.paths, sitemap);
+    builder.buildSitemap(appConfig.paths, 'https://www.tmdict.com', sitemap);
     console.log(`...Built sitemap`);
 
     // Build search

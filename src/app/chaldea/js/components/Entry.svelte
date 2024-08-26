@@ -28,7 +28,7 @@
 
 <svelte:head>
   <title>{attribute.attr.name[$activeLang]} | CHALDEAの記録</title>
-  <link rel="canonical" href="https://www.chaldea.tmdict.com/{attribute.type}/{attribute.id}" />
+  <link rel="canonical" href="https://chaldea.tmdict.com/{attribute.type}/{attribute.id}" />
 </svelte:head>
 
 <Theme level='../' />
