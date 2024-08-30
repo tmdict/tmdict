@@ -1,43 +1,40 @@
 {
   "type": "profile",
-  "uid": "320:fgosvt",
+  "uid": "329.20231200.1:fgoarc",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0320a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0320d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0320e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "ruler",
+    "class": "rider",
     "star": "star_4",
     "gender": "young-girl-body",
     "origin": ["historical-fact", "fate-grand-order"],
     "region": "2017-south-pole",
-    "alignment": "lawful-summer",
+    "alignment": "lawful-good",
     "strength.parameter": "d",
-    "endurance.parameter": "c",
+    "endurance.parameter": "d",
     "agility.parameter": "b",
     "magic.parameter": "a",
     "luck.parameter": "ap",
     "noble-phantasm.parameter": "b",
-    "character-setting": "higashide-yuuichirou",
+    "character-setting": "nasu-kinoko",
     "illustrator": "shimokoshi",
     "character-voice": "sakamoto-maaya",
-    "major-appearances": "fate-grand-order",
-    "related.profile": ["leonardo-da-vinci", "leonardo-da-vinci-rider", "leonardo-da-vinci-arcade"]
+    "major-appearances": ["fate-grand-order-arcade", "fate-grand-order"],
+    "related.profile": ["leonardo-da-vinci", "leonardo-da-vinci-ruler", "leonardo-da-vinci-arcade"]
   },
 
   "data": {
     "name": {
-      "en": "Leonardo da Vinci (Ruler)",
-      "ja": "レオナルド・ダ・ヴィンチ（ルーラー）",
-      "zh": "莱昂纳多·达·芬奇（Ruler）"
+      "en": "Leonardo da Vinci (Arcade)",
+      "ja": "レオナルド・ダ・ヴィンチ（Arcade）",
+      "zh": "莱昂纳多·达·芬奇（Arcade）"
     },
     "true-name": {
-      "en": "Leonardo Da Vinci",
-      "ja": "レオナルド・ダ・ヴィンチ",
-      "zh": "莱昂纳多·达·芬奇"
+      "en": "Gran Cavallo",
+      "ja": "グラン・カヴァッロ",
+      "zh": "格兰·卡瓦洛"
     },
     "height": {
       "en": "144cm",

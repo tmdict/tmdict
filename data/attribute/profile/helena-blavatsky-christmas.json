@@ -1,40 +1,35 @@
 {
   "type": "profile",
-  "uid": "180:fgosvt",
+  "uid": "329.20231200.2:fgoarc",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0180a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0180b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0180c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0180d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0180e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "archer",
+    "class": "rider",
     "star": "star_4",
     "gender": "female",
-    "origin": ["historical-fact", "dead-heat-summer-race"],
+    "origin": "historical-fact",
     "region": "europe",
     "alignment": "chaotic-good",
     "strength.parameter": "e",
     "endurance.parameter": "d",
-    "agility.parameter": "b",
+    "agility.parameter": "bp",
     "magic.parameter": "a",
     "luck.parameter": "a",
-    "noble-phantasm.parameter": "bp",
+    "noble-phantasm.parameter": "b",
     "character-setting": "sakurai-hikaru",
     "illustrator": "matsuryuu",
     "character-voice": "kanemoto-hisako",
-    "major-appearances": "fate-grand-order",
+    "major-appearances": ["fate-grand-order-arcade"],
     "related.profile": ["helena-blavatsky", "helena-blavatsky-christmas"]
   },
 
   "data": {
     "name": {
-      "en": "Helena Blavatsky (Archer)",
-      "ja": "エレナ・ブラヴァツキー（アーチャー）",
-      "zh": "海伦娜·布拉瓦茨基（Archer）"
+      "en": "Helena Blavatsky (Christmas)",
+      "ja": "エレナ・ブラヴァツキー（クリスマス）",
+      "zh": "海伦娜·布拉瓦茨基（Christmas）"
     },
     "true-name": {
       "en": "Helena Blavatsky",
