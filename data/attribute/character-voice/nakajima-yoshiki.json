@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Nakajima Yoshiki",
+      "ja": "中島ヨシキ",
+      "zh": "中岛良树"
+    }
+  }
+}

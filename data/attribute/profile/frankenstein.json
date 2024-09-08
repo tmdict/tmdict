@@ -27,7 +27,7 @@
     "illustrator": "okazaki-takashi",
     "character-voice": "nonaka-ai",
     "major-appearances": "fate-apocrypha",
-    "related.profile": "frankenstein-saber"
+    "related.profile": ["frankenstein-saber", "frankenstein-christmas"]
   },
 
   "data": {

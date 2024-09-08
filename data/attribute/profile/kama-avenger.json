@@ -27,7 +27,7 @@
     "illustrator": "redrop",
     "character-voice": "shitaya-noriko",
     "major-appearances": "fate-grand-order",
-    "related.profile": "kama"
+    "related.profile": ["kama", "kama-mistake"]
   },
 
   "data": {

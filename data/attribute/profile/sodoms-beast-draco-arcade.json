@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "329.10:fgoarc",
+
+  "img": [
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["new-testament", "fate-grand-order"],
+    "region": "europe",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "b",
+    "endurance.parameter": "bp",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "tange-sakura",
+    "major-appearances": ["fate-grand-order-arcade", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Sodom’s Beast/Draco (Arcade)",
+      "ja": "ソドムズビースト／ドラコー（Arcade）",
+      "zh": "所多玛之兽／德拉科（Arcade）"
+    },
+    "true-name": {
+      "en": "Sodom’s Beast/Draco",
+      "ja": "ソドムズビースト／ドラコー",
+      "zh": "所多玛之兽／德拉科"
+    },
+    "height": {
+      "en": "135cm",
+      "ja": "135cm",
+      "zh": "135cm"
+    },
+    "weight": {
+      "en": "100kg (35 kg for the body and 65 kg for the tail)",
+      "ja": "100kg（本体が35kg。尻尾が65kg）",
+      "zh": "100kg（本体35kg。尾巴65kg）"
+    },
+    "notes": {
+      "en": "When she was a fully-fledged Beast VI, she took the form of a gigantic adult woman, but after she accepted her defeat, she opened a special exception to her personal rules and preserved her Saint Graph in an “extremely normal format, matching the standards of mankind”.",
+      "ja": "ビーストⅥとして万全だった時は成人した女性体であり、その大きさも巨大であったが、一度敗れた事実を受け入れ、殊勝にも『極めて普通の、人類に合わせた』霊基フォーマットを維持している。",
+      "zh": "作为BeastⅥ获得完整力量时是成人的女性体，其尺寸也十分巨大，但一度接受了败北的事实，就会值得称赞地维持『极为普通，与人类相符』的灵基格式。"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

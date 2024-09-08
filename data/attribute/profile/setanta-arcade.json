@@ -1,0 +1,56 @@
+{
+  "type": "profile",
+  "uid": "329.6:fgoarc",
+
+  "img": [
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": ["celtic-mythology", "ulster-mythology"],
+    "region": "ireland",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "bp",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "lack",
+    "character-voice": "murase-ayumu",
+    "major-appearances": "fate-grand-order-arcade"
+  },
+
+  "data": {
+    "name": {
+      "en": "Sétanta (Arcade)",
+      "ja": "セタンタ（Arcade）",
+      "zh": "塞坦塔（Arcade）"
+    },
+    "true-name": {
+      "en": "Sétanta",
+      "ja": "セタンタ",
+      "zh": "塞坦塔"
+    },
+    "height": {
+      "en": "165cm",
+      "ja": "165cm",
+      "zh": "165cm"
+    },
+    "weight": {
+      "en": "56kg",
+      "ja": "56kg",
+      "zh": "56kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

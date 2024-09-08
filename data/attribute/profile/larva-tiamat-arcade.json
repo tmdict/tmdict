@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "329.9:fgoarc",
+
+  "img": [
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "mesopotamian-mythology",
+    "region": "middle-east",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "yamanaka-kotetsu",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": ["fate-grand-order-arcade", "fate-grand-order"],
+    "related.profile": "tiamat"
+  },
+
+  "data": {
+    "name": {
+      "en": "Larva/Tiamat (Arcade)",
+      "ja": "ラーヴァ／ティアマト（Arcade）",
+      "zh": "幼体／提亚马特（Arcade）"
+    },
+    "true-name": {
+      "en": "Larva/Tiamat",
+      "ja": "ラーヴァ／ティアマト",
+      "zh": "幼体／提亚马特"
+    },
+    "height": {
+      "en": "Young form: Around 140cm / Adult form: Around 160cm",
+      "ja": "少女体：140cm台／成人体：160cm台",
+      "zh": "少女体：约140cm／成人体：约160cm"
+    },
+    "weight": {
+      "en": "Young form: 40kg + 5kg / 50kg + 10kg",
+      "ja": "少女体：40kg＋5kg／成人体：50kg＋10kg",
+      "zh": "少女体：40kg＋5kg／成人体：50kg＋10kg"
+    },
+    "notes": {
+      "en": "Although weight can’t be measured in the Imaginary Sea, in her Alter Ego state, she gains weight appropriate to her physique. The + marks the weight of the horns. “They’re a bit heavy”, she says.",
+      "ja": "『虚数の海』において体重は測定できないが、アルターエゴである状態では体格に見合った体重となる。＋されているのは角の重さ。本人曰く「スコシダケ　オモタイ」。",
+      "zh": "在『虚数之海』中虽无法测定体重，但这是与他人格状态下体格相符的体重数值。＋后面的是角的重量。本人曰「稍微　有些重」。"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

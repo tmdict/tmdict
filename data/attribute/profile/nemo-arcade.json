@@ -1,0 +1,58 @@
+{
+  "type": "profile",
+  "uid": "329.11:fgoarc",
+
+  "img": [
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["twenty-thousand-leagues-under-the-seas", "old-testament-book-of-genesis"],
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "c",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "oyo",
+    "character-voice": "hanamori-yumiri",
+    "major-appearances": "fate-grand-order-arcade",
+    "related.profile": "nemo"
+  },
+
+  "data": {
+    "name": {
+      "en": "Nemo (Arcade)",
+      "ja": "ネモ（Arcade）",
+      "zh": "尼莫（Arcade）"
+    },
+    "true-name": {
+      "en": "Nemo",
+      "ja": "ネモ",
+      "zh": "尼莫"
+    },
+    "height": {
+      "en": "176cm",
+      "ja": "176cm",
+      "zh": "176cm"
+    },
+    "weight": {
+      "en": "65kg",
+      "ja": "65kg",
+      "zh": "65kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

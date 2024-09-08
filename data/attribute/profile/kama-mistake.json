@@ -1,0 +1,58 @@
+{
+  "type": "profile",
+  "uid": "329.12:fgoarc",
+
+  "img": [
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "indian-mythology",
+    "region": "india",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "c",
+    "endurance.parameter": "bp",
+    "agility.parameter": "b",
+    "magic.parameter": "ap",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": ["minase-hazuki", "nasu-kinoko"],
+    "illustrator": "redrop",
+    "character-voice": "shitaya-noriko",
+    "major-appearances": "fate-grand-order-arcade",
+    "related.profile": ["kama", "kama-avenger"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Kama (Mistake)",
+      "ja": "カーマ（ミステイク）",
+      "zh": "迦摩（错误）"
+    },
+    "true-name": {
+      "en": "Kama",
+      "ja": "カーマ",
+      "zh": "迦摩"
+    },
+    "height": {
+      "en": "136cm",
+      "ja": "136cm",
+      "zh": "136cm"
+    },
+    "weight": {
+      "en": "33kg",
+      "ja": "33kg",
+      "zh": "33kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

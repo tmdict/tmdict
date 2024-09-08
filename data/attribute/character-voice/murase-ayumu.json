@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Murase Ayumu",
+      "ja": "村瀬歩",
+      "zh": "村濑步"
+    }
+  }
+}

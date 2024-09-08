@@ -1,40 +1,35 @@
 {
   "type": "profile",
-  "uid": "165:fgosvt",
+  "uid": "329.5:fgoarc",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0165a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0165b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0165c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0165d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0165e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "saber",
+    "class": "lancer",
     "star": "star_4",
     "gender": "female",
     "origin": ["suzuka-no-soushi", "tamura-no-soushi", "tamura-sandaiki", "etc"],
     "region": "japan",
     "alignment": "neutral-evil",
     "strength.parameter": "d",
-    "endurance.parameter": "d",
+    "endurance.parameter": "c",
     "agility.parameter": "a",
     "magic.parameter": "a",
-    "luck.parameter": "b",
-    "noble-phantasm.parameter": "ex",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "a",
     "character-setting": "takenoko-seijin",
     "illustrator": "takenoko-seijin",
     "character-voice": "touyama-nao",
-    "major-appearances": "fate-extra-ccc-foxtail",
-    "related.profile": "suzuka-gozen-santa"
+    "major-appearances": "fate-grand-order-arcade",
+    "related.profile": "suzuka-gozen"
   },
 
   "data": {
     "name": {
-      "en": "Suzuka Gozen",
-      "ja": "鈴鹿御前",
-      "zh": "铃鹿御前"
+      "en": "Suzuka Gozen (Santa)",
+      "ja": "鈴鹿御前（サンタ）",
+      "zh": "铃鹿御前（圣诞）"
     },
     "true-name": {
       "en": "Suzuka Gozen",
