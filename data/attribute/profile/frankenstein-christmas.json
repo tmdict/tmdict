@@ -1,8 +1,10 @@
 {
   "type": "profile",
-  "uid": "329.8:fgoarc",
+  "uid": "329.08:fgoarc",
 
   "img": [
+    { "weight": 1, "id": "img_s1", "src": "329.08a.png" },
+    { "weight": 4, "id": "img_s4", "src": "329.08d.png" }
   ],
 
   "attribute": {

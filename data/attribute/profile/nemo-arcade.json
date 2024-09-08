@@ -3,6 +3,10 @@
   "uid": "329.11:fgoarc",
 
   "img": [
+    { "weight": 1, "id": "img_s1", "src": "329.11a.png" },
+    { "weight": 2, "id": "img_s2", "src": "329.11b.png" },
+    { "weight": 3, "id": "img_s3", "src": "329.11c.png" },
+    { "weight": 4, "id": "img_s4", "src": "329.11d.png" }
   ],
 
   "attribute": {
