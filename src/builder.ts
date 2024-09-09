@@ -2,7 +2,7 @@ import * as crypto from 'crypto';
 import * as fs from 'fs-extra';
 import * as handlebars from 'handlebars';
 import * as sass from 'sass';
-import * as Jimp from 'jimp';
+import * as sharp from 'sharp';
 import { SitemapStream, streamToPromise } from 'sitemap';
 
 import { AppConfig, AppPaths, EntryContent, EntryData } from './types';
@@ -21,22 +21,23 @@ function outputFile(content: string, path: string): void {
 
 function buildOptimizedImg(dir: string, output: string): void {
   fs.readdir(dir, (err, files) => {
-    if (err) console.log(`[ ERROR fs/jimp ] ${err}`);
+    if (err) console.log(`[ ERROR fs/sharp ] ${err}`);
     else {
       files = files.filter((item) => !/(^|\/)\.[^/.]/g.test(item));
       let count = 0;
       files.forEach((file) => {
         count += 1;
-        Jimp.read(`${dir}/${file}`)
-          .then((image: any) => {
-            const outfile = `${file.substring(0, file.lastIndexOf('.'))}.jpg`;
-            image
-              .quality(60) // Set JPEG quality (60)
-              .write(`${output}/${outfile}`);
-          })
-          .catch((err: any) => {
-            console.error(`[ ERROR jimp/${dir} ] ${err}`);
-          });
+        const outfile = `${file.substring(0, file.lastIndexOf('.'))}.jpg`;
+        try {
+          if (!fs.existsSync(output)) {
+            fs.mkdirSync(output, { recursive: true });
+          }
+          sharp(`${dir}/${file}`)
+            .jpeg({ mozjpeg: true, quality: 60 })
+            .toFile(`${output}/${outfile}`)
+        } catch (err) {
+          console.error(`[ ERROR sharp/${dir}/${file} ] ${err}`);
+        }
       });
       console.log(`Optimized ${count} ${dir} images`);
     }
