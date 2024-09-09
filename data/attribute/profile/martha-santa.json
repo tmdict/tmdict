@@ -1,40 +1,38 @@
 {
   "type": "profile",
-  "uid": "135:fgosvt",
+  "uid": "330:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0135a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0135b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0135c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0135d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0135e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0330a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0330d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0330e_april-fools.png" }
   ],
 
   "attribute": {
-    "class": "ruler",
+    "class": "caster",
     "star": "star_4",
     "gender": "female",
-    "origin": ["historical-fact", "new-testament"],
+    "origin": ["historical-fact", "new-testament", "making-chrismas-party"],
     "region": "europe",
     "alignment": "lawful-good",
-    "strength.parameter": "bp",
-    "endurance.parameter": "b",
-    "agility.parameter": "b",
+    "strength.parameter": "c",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
     "magic.parameter": "a",
     "luck.parameter": "ap",
-    "noble-phantasm.parameter": "a",
+    "noble-phantasm.parameter": "cp",
     "character-setting": "sakurai-hikaru",
     "illustrator": "sakamoto-mineji",
     "character-voice": "hayami-saori",
     "major-appearances": "fate-grand-order",
-    "related.profile": ["martha", "martha-santa"]
+    "related.profile": ["martha", "martha-ruler"]
   },
 
   "data": {
     "name": {
-      "en": "Martha (Ruler)",
-      "ja": "マルタ（ルーラー）",
-      "zh": "玛尔达（Ruler）"
+      "en": "Martha (Santa)",
+      "ja": "マルタ（サンタ）",
+      "zh": "玛尔达（圣诞））"
     },
     "true-name": {
       "en": "Martha",
@@ -42,14 +40,14 @@
       "zh": "玛尔达"
     },
     "height": {
-      "en": "161cm",
-      "ja": "161cm",
-      "zh": "161cm"
+      "en": "158cm",
+      "ja": "158cm",
+      "zh": "158cm"
     },
     "weight": {
-      "en": "49kg",
-      "ja": "49kg",
-      "zh": "49kg"
+      "en": "47kg",
+      "ja": "47kg",
+      "zh": "47kg"
     }
   },
 

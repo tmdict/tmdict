@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "335:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0335a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0335b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0335c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0335d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0335e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "pretender",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["historical-fact", "lord-el-melloi-ii-case-files"],
+    "region": "macedonia",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "ap",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "bpp",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": ["lord-el-melloi-ii-case-files", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Hephaistíon",
+      "ja": "ヘファイスティオン",
+      "zh": "赫费斯提翁"
+    },
+    "true-name": {
+      "en": "Hephaestion Mnemosyne (The name recorded with this Saint Graph)",
+      "ja": "ヘファイスティオン・ムネーモシュネー（霊基として登録された名）",
+      "zh": "赫费斯提翁·谟涅摩叙涅（灵基中登录的名字）"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "58kg",
+      "ja": "58kg",
+      "zh": "58kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

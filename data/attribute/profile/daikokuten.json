@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "uid": "340:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0340a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0340b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0340c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0340d.png" }
+  ],
+
+  "attribute": {
+    "class": "caster",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["folklore", "primarily-japanese-buddhism", "mythology", "folk-religion"],
+    "region": "japan",
+    "alignment": "neutral-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "d",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "riyo",
+    "illustrator": "riyo",
+    "character-voice": "takeda-hana",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Daikokuten",
+      "ja": "大黒天",
+      "zh": "大黑天"
+    },
+    "true-name": {
+      "en": "Daikokuten",
+      "ja": "大黒天",
+      "zh": "大黑天"
+    },
+    "height": {
+      "en": "131cm (No. 1) / 126cm (No. 2)",
+      "ja": "131cm（1号）／126cm（2号）",
+      "zh": "131cm（1号）／126cm（2号）"
+    },
+    "weight": {
+      "en": "22kg (No. 1) / 19kg (No. 2)",
+      "ja": "22kg（1号）／19kg（2号）",
+      "zh": "22kg（1号）／19kg（2号）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

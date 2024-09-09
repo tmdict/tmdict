@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "331:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0331a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0331b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0331c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0331d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0331e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["historical-fact", "records-of-the-grand-historian", "investiture-of-the-gods", "etc"],
+    "region": "china",
+    "alignment": "neutral-good",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "ex",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "oyo",
+    "character-voice": "maeno-tomoaki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Taigong Wang",
+      "ja": "太公望",
+      "zh": "太公望"
+    },
+    "true-name": {
+      "en": "Taigong Wang",
+      "ja": "太公望",
+      "zh": "太公望"
+    },
+    "height": {
+      "en": "179cm",
+      "ja": "179cm",
+      "zh": "179cm"
+    },
+    "weight": {
+      "en": "63kg",
+      "ja": "63kg",
+      "zh": "63kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

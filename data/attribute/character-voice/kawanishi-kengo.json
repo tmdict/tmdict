@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Kawanishi Kengo",
+      "ja": "河西健吾",
+      "zh": "河西健吾"
+    }
+  }
+}

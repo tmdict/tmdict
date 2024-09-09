@@ -7,6 +7,7 @@
   ],
 
   "attribute": {
+    "class": "beast",
     "star": "star_5",
     "gender": "female",
     "origin": "tokugawa-kaiten-labyrinth-ooku",
@@ -27,13 +28,8 @@
   "data": {
     "name": {
       "en": "Beast III/L",
-      "ja": "ビースト III／Ｌ",
+      "ja": "ビースト III／L",
       "zh": "Beast III／L"
-    },
-    "class": {
-      "en": "Beast",
-      "ja": "ビースト",
-      "zh": "Beast"
     },
     "true-name": {
       "en": "Kama Mara",

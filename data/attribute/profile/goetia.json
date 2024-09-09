@@ -7,6 +7,7 @@
   ],
 
   "attribute": {
+    "class": "beast",
     "star": "star_5",
     "gender": "male",
     "origin": "old-testament",
@@ -25,15 +26,15 @@
   },
 
   "data": {
+    "notes": {
+      "en": "Beast I",
+      "ja": "ビースト I",
+      "zh": "Beast I"
+    },
     "name": {
       "en": "Goetia",
       "ja": "ゲーティア",
       "zh": "盖提亚"
-    },
-    "class": {
-      "en": "Beast I",
-      "ja": "ビースト I",
-      "zh": "Beast I"
     },
     "true-name": {
       "en": "Goetia",
@@ -53,7 +54,7 @@
   },
 
   "layout": [
-    ["star", "class"],
+    ["star", "class", "notes"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"]

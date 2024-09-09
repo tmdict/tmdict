@@ -1,0 +1,64 @@
+{
+  "type": "profile",
+  "uid": "333:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0333a.png" }
+  ],
+
+  "attribute": {
+    "class": "beast",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "fate-grand-order",
+    "region": "russia",
+    "alignment": "chaotic-evil",
+    "strength.parameter": "a",
+    "endurance.parameter": "a",
+    "agility.parameter": "b",
+    "magic.parameter": "ex",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "wada-arco",
+    "character-voice": "saitou-chiwa",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "koyanskaya-of-dark"
+  },
+
+  "data": {
+    "name": {
+      "en": "Beast IV",
+      "ja": "ビースト IV",
+      "zh": "Beast IV"
+    },
+    "true-name": {
+      "en": "Beast IV/L",
+      "ja": "ビースト IV／L",
+      "zh": "Beast IV／L"
+    },
+    "height": {
+      "en": "12m (including the tail)",
+      "ja": "本体12m（尾含む）",
+      "zh": "本体12m（包括尾巴）"
+    },
+    "weight": {
+      "en": "10t",
+      "ja": "10t",
+      "zh": "10t"
+    },
+    "notes": {
+      "en": "Total length (Living Area): 3 million km",
+      "ja": "全長（生存領域）：300万km",
+      "zh": "全长（生存领域）：300万km"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

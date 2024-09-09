@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Vietnam",
+      "ja": "ベトナム",
+      "zh": "越南"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "uid": "337:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0337a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0337b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0337c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0337d.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "vietnam",
+    "alignment": "lawful-good",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "minase-hazuki",
+    "illustrator": "take",
+    "character-voice": ["reina-kondou", "itou-kanae"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hai Bà Trưng",
+      "ja": "徴姉妹",
+      "zh": "征氏姐妹"
+    },
+    "true-name": {
+      "en": "Hai Bà Trưng",
+      "ja": "徴姉妹",
+      "zh": "征氏姐妹"
+    },
+    "height": {
+      "en": "156cm (Trắc) / 158cm (Nhị)",
+      "ja": "156cm（徴側）／158cm（徴弐）",
+      "zh": "156cm（征侧）／158cm（征贰）"
+    },
+    "weight": {
+      "en": "41kg (Trắc) / 43kg (Nhị)",
+      "ja": "41kg（徴側）／43kg（徴弐）",
+      "zh": "41kg（征侧）／43kg（征贰）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

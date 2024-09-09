@@ -27,7 +27,7 @@
     "illustrator": "sakamoto-mineji",
     "character-voice": "hayami-saori",
     "major-appearances": "fate-grand-order",
-    "related.profile": "martha-ruler"
+    "related.profile": ["martha-ruler", "martha-santa"]
   },
 
   "data": {

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "332:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0332a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0332b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0332c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0332d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0332e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_4",
+    "gender": "female_qm",
+    "origin": "bylina",
+    "region": ["russia", "ukraine"],
+    "alignment": "neutral-good",
+    "strength.parameter": "ap",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "robina",
+    "character-voice": "mineda-mayu",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Dobrynya Nikitich",
+      "ja": "ドブルイニャ・ニキチッチ",
+      "zh": "多布雷尼亚·尼基季奇"
+    },
+    "true-name": {
+      "en": "Dobrynya Nikitich",
+      "ja": "ドブルイニャ・ニキチッチ",
+      "zh": "多布雷尼亚·尼基季奇"
+    },
+    "height": {
+      "en": "165cm (including her ears)",
+      "ja": "165cm（ミミ含む）",
+      "zh": "165cm（包括耳朵）"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

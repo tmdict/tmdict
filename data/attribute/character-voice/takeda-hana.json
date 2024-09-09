@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Takeda Hana",
+      "ja": "武田華",
+      "zh": "武田华"
+    }
+  }
+}

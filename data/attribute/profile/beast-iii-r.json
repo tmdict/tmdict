@@ -7,6 +7,7 @@
   ],
 
   "attribute": {
+    "class": "beast",
     "star": "star_5",
     "gender": "female",
     "origin": "fate-grand-order",
@@ -28,13 +29,8 @@
   "data": {
     "name": {
       "en": "Beast III/R",
-      "ja": "ビースト III／Ｒ",
+      "ja": "ビースト III／R",
       "zh": "Beast III／R"
-    },
-    "class": {
-      "en": "Beast III",
-      "ja": "ビースト III",
-      "zh": "Beast III"
     },
     "true-name": {
       "en": "Heaven’s Hole / The Tenma Natured Boddhisatva of Pleasure Ruling the Souls of Sumeru",

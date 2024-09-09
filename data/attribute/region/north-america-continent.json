@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "North American Continent",
+      "ja": "北アメリカ大陸",
+      "zh": "北美大陆"
+    }
+  }
+}

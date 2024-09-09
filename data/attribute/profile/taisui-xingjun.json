@@ -1,0 +1,58 @@
+{
+  "type": "profile",
+  "uid": "338:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0338a.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0338d.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "folklore",
+    "region": "china",
+    "alignment": "true-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "ex",
+    "agility.parameter": "d",
+    "magic.parameter": "b",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "minase-hazuki",
+    "illustrator": "take",
+    "character-voice": ["minami-omi", "kawanishi-kengo"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Taisui Xingjun",
+      "ja": "太歳星君",
+      "zh": "太岁星君"
+    },
+    "true-name": {
+      "en": "Taisui Xingjun",
+      "ja": "太歳星君",
+      "zh": "太岁星君"
+    },
+    "height": {
+      "en": "129cm (Boy) / 170cm (Adult)",
+      "ja": "129cm（少年時）／170cm（青年時）",
+      "zh": "129cm（少年时）／170cm（青年时）"
+    },
+    "weight": {
+      "en": "24kg (Boy) / 64kg (Adult)",
+      "ja": "24kg（少年時）／64kg（青年時）",
+      "zh": "24kg（少年时）／64kg（青年时）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

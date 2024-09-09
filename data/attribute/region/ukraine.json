@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Ukraine",
+      "ja": "ウクライナ",
+      "zh": "乌克兰"
+    }
+  }
+}

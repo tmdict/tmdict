@@ -1,0 +1,60 @@
+{
+  "type": "profile",
+  "uid": "341:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0341a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0341b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0341c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0341d.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_1",
+    "gender": "female",
+    "origin": "historical-fact",
+    "region": "united-kingdom",
+    "alignment": "true-neutral",
+    "strength.parameter": "b",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "e",
+    "noble-phantasm.parameter": "c",
+    "character-setting": "riyo",
+    "illustrator": "riyo",
+    "character-voice": "naganawa-maria",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Mary Anning",
+      "ja": "メアリー・アニング",
+      "zh": "玛丽·安宁"
+    },
+    "true-name": {
+      "en": "Mary Anning",
+      "ja": "メアリー・アニング",
+      "zh": "玛丽·安宁"
+    },
+    "height": {
+      "en": "152cm",
+      "ja": "152cm",
+      "zh": "152cm"
+    },
+    "weight": {
+      "en": "50kg (self-reported)",
+      "ja": "50kg（自己申告）",
+      "zh": "50kg（自我申告）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

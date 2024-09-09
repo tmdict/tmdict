@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "336:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0336a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0336b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0336c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0336d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0336e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["celtic-mythology", "fate-hollow-ataraxia"],
+    "region": "ireland",
+    "alignment": "neutral-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "ex",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "minase-hazuki",
+    "illustrator": "hayashi-kewi",
+    "character-voice": "nabatame-hitomi",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Manannán mac Lir (Bazett)",
+      "ja": "マナナン・マク・リール（バゼット）",
+      "zh": "马纳南·麦克·利尔（巴泽特）"
+    },
+    "true-name": {
+      "en": "Manannán mac Lir",
+      "ja": "マナナン・マク・リール",
+      "zh": "马纳南·麦克·利尔"
+    },
+    "height": {
+      "en": "172cm",
+      "ja": "172cm",
+      "zh": "172cm"
+    },
+    "weight": {
+      "en": "58kg",
+      "ja": "58kg",
+      "zh": "58kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}
