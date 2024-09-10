@@ -10,8 +10,8 @@ translation: "ComunCoutinho"
 
 <table>
   <tr><td>First-person pronoun</td><td>atashi-chan / atashi / uchira</td></tr>
-  <tr><td>Second-person pronoun</td><td>anta / chan-Mas / nickname</td></tr>
-  <tr><td>Third-person pronoun</td><td>aitsu / ano kata / nickname</td></tr>
+  <tr><td>Second-person pronoun</td><td>anta / chan-Mas / 〇〇 (nickname)</td></tr>
+  <tr><td>Third-person pronoun</td><td>aitsu / ano kata / 〇〇 (nickname)</td></tr>
 </table>
 
 ### Personality
