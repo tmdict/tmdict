@@ -8,4 +8,4 @@ profile: true
 translation: "Radiant-Hope-469"
 ---
 
-“I had a clear image in mind for the Second Ascension, but I struggled with the designs for the First and Third Ascensions. It felt like I added elements and then gradually removed them. Especially for the Third Ascension, I had a lot of doubts! I hope I can show you the design ideas that didn’t make the cut someday.” (Azusa)
+Elisabeth Cinderella, your singing was wonderfully exquisite and terribly splendid!!!! I remembered the costume of Cinderella from the old-fashioned and excessively large three major fairy tale collection that was at my grandmother’s house, and I drew it while faintly recalling that image. The dress is imagined like a glass dress to match the glass slippers. I drew her a bit thinner than usual as a pitiful Cinderella, but since Eli-chan is already thin, I regret making her a bit too thin…” (WADARCO)

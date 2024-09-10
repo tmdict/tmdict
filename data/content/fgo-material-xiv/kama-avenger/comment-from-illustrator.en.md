@@ -8,4 +8,4 @@ profile: true
 translation: "IreyimikaTheLost"
 ---
 
-From Jacques de Molay (Saber), the lamb is transformed into a goat and the back of the shield resembles a Genghis Khan pot. Since he was accused of all kinds of crimes, burned and then became a Foreigner, I designed her based on the most dubious rumour related to Molay: “The Knight Templar’s vast wealth were later used by the Nazis to develop UFOs” That’s why the design looks a bit like a space suit. I also tried to make a design that would make Saber Molay faint if he saw it. (Kouhaku Kuroboshi)
+The First Ascension had cute flowers, while the Third Ascension had the image of a God (Demon King) those two were set from the start but the Second Ascension was a two month long struggle. The work was truly weighing on my mind at that time. I didn’t notice it at all when it was made, but when I looked at it again after it was implemented, I was surprised at how great the Third Ascension looked. I felt like if that was safe, I could do anything. I drew as many ideas and differences as I could and sent them to them so that they could choose and use them,and they decided to use them all. I felt so thankful. (ReDrop)

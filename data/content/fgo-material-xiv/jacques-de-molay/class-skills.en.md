@@ -14,7 +14,7 @@ A Foreigner from the Void of the Outer Universe. One who has been possessed by a
 
 ### Territory Creation: A
 
-Creates an advantageous position for one's self. She becomes the head of a secret society of mages, and gathers magical energy and followers from a wide array of branches located around the temple tower. However, due to various restrictions in Chaldea, it doesn't seem like it's showing it's true potential.
+Creates an advantageous position for one’s self. She becomes the head of a secret society of mages, and gathers magical energy and followers from a wide array of branches located around the temple tower. However, due to various restrictions in Chaldea, it doesn’t seem like it’s showing it’s true potential.
 
 ### Divinity: B
 
