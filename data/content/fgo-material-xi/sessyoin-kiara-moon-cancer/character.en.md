@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: “JunnaMoonlight"
+translation: "JunnaMoonlight"
 ---
 
 #### Lily’s pronouns

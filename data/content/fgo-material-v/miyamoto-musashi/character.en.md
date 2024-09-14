@@ -138,7 +138,7 @@ This is why Girl Musashi was not considered one of “Japan’s numerous swordsm
 As such, ever since she was summoned into our world, it has been surprise after surprise for her.
 Like “No way, I’m famous!? Me!?”
 But there was one thing Musashi does not know.
-At their last years, the swordsmasters from the same era as Musashi nostalgically whispered to their pupils in their last breaths: ”She will likely not be recorded in history, but there was one tremendous swordsmaster only I know of”.
+At their last years, the swordsmasters from the same era as Musashi nostalgically whispered to their pupils in their last breaths: “She will likely not be recorded in history, but there was one tremendous swordsmaster only I know of”.
 For the swordsmen, the way she appeared unexpectedly at relay stations to fight remarkable duels with swordsmasters then leave was considered a beautiful flower, even amongst the bloodiest war strategists.
 
 ### Drifter
