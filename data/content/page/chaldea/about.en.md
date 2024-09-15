@@ -25,6 +25,7 @@ This project is the work of TMdict, with help from various fans and other commun
     <a href="http://forums.nrvnqsr.com/member.php/6793-Lily-Emilio">Lily Emilio</a>, 
     <a href="https://forums.nrvnqsr.com/member.php/1147-Petrikow">Petrikow</a>, 
     <a href="https://www.reddit.com/user/PkFreezeAlpha">PkFreezeAlpha</a>, 
+    <a href="https://new.reddit.com/user/Radiant-Hope-469/">Radiant-Hope-469</a>, 
     <a href="https://www.reddit.com/user/shinyklefkey">shinyklefkey</a>, 
     <a href="https://www.reddit.com/user/Smoof101">Smoof101</a>, 
     <a href="https://www.reddit.com/user/UdonSamurai/">UdonSamurai</a>

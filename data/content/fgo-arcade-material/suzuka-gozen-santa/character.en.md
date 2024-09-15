@@ -38,7 +38,7 @@ To summarise, that’s a much happier Suzuka than what would normally be seen in
 
 Her Summer Saint Graph would be the most carefree compared of all her versions, by the way. Due to some miscalculations on her part, she becomes just a little more self-servicing compared to her original self.
 
-### Motivation · Attitude towards Master
+### Attitude towards Master
 
 She becomes much more of a busybody towards her Master than ever.
 

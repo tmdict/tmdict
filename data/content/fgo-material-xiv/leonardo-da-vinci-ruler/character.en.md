@@ -13,7 +13,7 @@ translation: "Radiant-Hope-469"
   <tr><td>Second-person pronoun</td><td>kimi / aitsu / 〇〇 (without honorifics)</td></tr>
   <tr><td>Third-person pronoun</td><td>kare (for males) / kanojo (for females) / 〇〇 (without honorifics)</td></tr>
   <tr><td>Master</td><td>Master-kun / Master-chan / 〇〇-kun / 〇〇-chan</td></tr>
-  <tr><td>*Master*</td><td>Also, Goredolf is referred to as Goredolf-kun.</td></tr>
+  <tr><td></td><td>Also, Goredolf is referred to as Goredolf-kun.</td></tr>
 </table>
 
 ### Personality
