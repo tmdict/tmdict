@@ -26,6 +26,12 @@ name: "网站"
 
 ### 更新
 
+**2024-09-14**
+
+- 更新CHALDEAの記録FGO Material 14人物简介。
+- 更新CHALDEAの記録FGO Material 15人物简介。
+- 更新CHALDEAの記録FGO Arcade material人物简介。
+
 **2023-10-29**
 
 - 更新CHALDEAの記録FGO Material 13人物简介。

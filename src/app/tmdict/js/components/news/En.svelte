@@ -1,6 +1,16 @@
 <div class="page-content">
   <h2 style="border-top:0">Site News</h2>
 
+  <h4>2024-09-14</h4>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>Updated CHALDEAの記録 with FGO Material 14 character profiles.</li>
+    <li>Updated CHALDEAの記録 with FGO Material 15 character profiles.</li>
+    <li>Updated CHALDEAの記録 with FGO Arcade material character profiles.</li>
+  </ul>
+
   <h4>2023-10-29</h4>
 
   <p><span class="highlight">Changelog:</span></p>
