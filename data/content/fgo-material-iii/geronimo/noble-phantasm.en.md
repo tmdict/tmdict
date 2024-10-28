@@ -25,4 +25,4 @@ A great thaumaturgy that reproduce the legend of Apache tribe, even if it’s in
 
 ##### {{notes}}
 
-1. {{note1}} Tsago Degi Naleya is apparently part of a lyric form Geronimo’s IRL holy song.
+1. {{note1}} Tsago Degi Naleya is apparently part of a lyric from Geronimo’s IRL holy song.
