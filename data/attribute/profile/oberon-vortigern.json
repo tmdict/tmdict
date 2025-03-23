@@ -7,6 +7,7 @@
   ],
 
   "attribute": {
+    "class": "pretender",
     "star": "star_5",
     "gender": "male",
     "origin": ["germanic-folklore", "medieval-european-literature", "fate-grand-order"],
@@ -45,15 +46,15 @@
       "ja": "人間時：56kg／妖精時：6kg",
       "zh": "人类时：56kg／妖精时：6kg"
     },
+    "notes": {
+      "en": "(the fact that his class would shift every time in the script proves that everything about him was a lie to begin with)",
+      "ja": "（シナリオ上で登場する時にクラスがころころ変わるのは、もともとぜんふ嘘だよ、という証左）",
+      "zh": "（剧本里的职阶会不时发生变化，这证明它原本就是一个彻头彻尾的谎言。）"
+    },
     "notes2": {
       "en": "Wyrm Form: Overall length 1440 km (approximate distance from the northern tip to the southern tip of Britain)",
       "ja": "虫竜時：全長1440km（ブリテン島の北から南までのおおよその距離）",
       "zh": "虫龙时：全长1140km（不列颠岛从北到南的大致距离）"
-    },
-    "class": {
-      "en": "Pretender (the fact that his class would shift every time in the script proves that everything about him was a lie to begin with)",
-      "ja": "プリテンダー（シナリオ上で登場する時にクラスがころころ変わるのは、もともとぜんふ嘘だよ、という証左）",
-      "zh": "Pretender（剧本里的职阶会不时发生变化，这证明它原本就是一个彻头彻尾的谎言。）"
     },
     "noble-phantasm.parameter": {
       "en": "E→EX",
@@ -63,7 +64,7 @@
   },
 
   "layout": [
-    ["star", "class"],
+    ["star", "class", "notes"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight", "notes2"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
     ["character-setting", "illustrator", "character-voice", "major-appearances"],
