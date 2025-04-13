@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Nomura Kenji",
+      "ja": "乃村健次",
+      "zh": "乃村健次"
+    }
+  }
+}

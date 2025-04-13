@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "352:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0352a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0352b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0352c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0352d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0352e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "alter-ego",
+    "star": "star_3",
+    "gender": "female",
+    "origin": ["historical-fact", "nihon-shoki", "legend-of-xu-fu", "chinese-mythology"],
+    "region": ["china", "japan"],
+    "alignment": "true-neutral",
+    "strength.parameter": "e",
+    "endurance.parameter": "d",
+    "agility.parameter": "d",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "takolegs",
+    "character-voice": "watada-misaki",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Xu Fu",
+      "ja": "徐福",
+      "zh": "徐福"
+    },
+    "true-name": {
+      "en": "Xu Fu",
+      "ja": "徐福",
+      "zh": "徐福"
+    },
+    "height": {
+      "en": "163cm",
+      "ja": "163cm",
+      "zh": "163cm"
+    },
+    "weight": {
+      "en": "41kg",
+      "ja": "41kg",
+      "zh": "41kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

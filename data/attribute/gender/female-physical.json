@@ -1,0 +1,11 @@
+{
+  "type": "gender",
+
+  "data": {
+    "name": {
+      "en": "Female (Physically)",
+      "ja": "女性（肉体）",
+      "zh": "女性（肉体）"
+    }
+  }
+}

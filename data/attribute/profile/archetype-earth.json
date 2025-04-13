@@ -1,0 +1,69 @@
+{
+  "type": "profile",
+  "uid": "351:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0351a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0351b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0351c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0351d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0351e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "moon-cancer",
+    "star": "star_5",
+    "gender": "female",
+    "origin": "tsukihime",
+    "strength.parameter": "b",
+    "endurance.parameter": "b",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "nasu-kinoko",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "hasegawa-ikumi",
+    "major-appearances": ["tsukihime", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Archetype: EARTH",
+      "ja": "アーキタイプ：アース",
+      "zh": "Archetype：Earth"
+    },
+    "true-name": {
+      "en": "Arcueid Brunestud",
+      "ja": "アルクェイド・ブリュンスタッド",
+      "zh": "爱尔奎特·布伦史塔德"
+    },
+    "region": {
+      "en": "The Entire Earth (though she manifested in Europe)",
+      "ja": "地球全般（出現地は欧州）",
+      "zh": "地球整体（出现地为欧洲）"
+    },
+    "alignment": {
+      "en": "Chaotic-Good (though her second Spirit Origin is Neutral-Good)",
+      "ja": "混沌・善（霊基第二では中立・善）",
+      "zh": "混沌·善（第二灵基时为中立·善）"
+    },
+    "height": {
+      "en": "167cm",
+      "ja": "167cm",
+      "zh": "167cm"
+    },
+    "weight": {
+      "en": "52kg",
+      "ja": "52kg",
+      "zh": "52kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

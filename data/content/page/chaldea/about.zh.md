@@ -9,7 +9,6 @@ name: "介绍"
 本网站由型月辞典（TMdict）制作，加上其它网站和爱好者的协力和支持。翻译来自诸多志愿者和TM爱好者。
 
 <table>
-  <tr><td style="width:120px">管理员</td><td>gum</td></tr>
   <tr><td style="width:120px">支援，翻译（英）</td><td>
     <a href="https://www.reddit.com/user/amplifiedscans">amplified</a>, 
     <a href="https://twitter.com/BananaShiki">BananaShiki</a>, 

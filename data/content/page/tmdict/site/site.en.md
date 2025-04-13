@@ -26,6 +26,10 @@ Alternatively, there is a “Report Error” link on each page for user to easil
 
 ### Updates
 
+**2025-04-12**
+
+- Updated CHALDEAの記録 with FGO Material 16 character profiles.
+
 **2024-09-14**
 
 - Updated CHALDEAの記録 with FGO Material 14 character profiles.

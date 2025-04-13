@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: “Konchew"
+translation: "Konchew"
 ---
 
 <table>

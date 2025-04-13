@@ -14,11 +14,8 @@ TMdictはエンサイクロペディアやWikiのような総合的な情報サ�
 
 ### コントリビューター
 
-このプロジェクトにはgum、月館のスタッフ、澄空のType-Moon BBSのメンバーが参加しています。翻訳にはコミュニティの多くのメンバーが協力してくれています。
-
-- <span class="highlight">管理者：</span> gum
-- <span class="highlight">支援：</span> Sasaki546，都谷捻柏
-- <span class="highlight">翻訳：</span> RHuot，浮云般飘过，六条秋分，vt789123, Akiraka
+- <span class="highlight">支援：</span> gum，Sasaki546，都谷捻柏
+- <span class="highlight">翻訳：</span> RHuot，浮云般飘过，六条秋分，vt789123，Akiraka
 - <span class="highlight">校正：</span> Eclipse，南宫月汐
 - <span class="highlight">特別な感謝：</span> <a href="http://tsukikan.com/">Tsuki-kan</a>，<a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
 

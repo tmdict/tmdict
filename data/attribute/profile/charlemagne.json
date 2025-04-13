@@ -1,0 +1,62 @@
+{
+  "type": "profile",
+  "uid": "343:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0343a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0343b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0343c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0343d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0343e_april-fools.png" },
+    { "weight": 6, "id": "img_disguise-costume", "src": "S0343f_disguise-costume.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "legend-of-charlemagne",
+    "region": "france",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "c",
+    "agility.parameter": "b",
+    "magic.parameter": "a",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "ap",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "wada-arco",
+    "character-voice": "kimura-ryohei",
+    "major-appearances": ["fate-extella-link", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Charlemagne",
+      "ja": "シャルルマーニュ",
+      "zh": "查理曼"
+    },
+    "true-name": {
+      "en": "Charlemagne",
+      "ja": "シャルルマーニュ",
+      "zh": "查理曼"
+    },
+    "height": {
+      "en": "176cm",
+      "ja": "176cm",
+      "zh": "176cm"
+    },
+    "weight": {
+      "en": "69kg",
+      "ja": "69kg",
+      "zh": "69kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

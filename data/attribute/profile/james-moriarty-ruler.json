@@ -1,0 +1,63 @@
+{
+  "type": "profile",
+  "uid": "346:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0346a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0346b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0346c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0346d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0346e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["sherlock-holmes-series", "norse-mythology"],
+    "region": "all-of-europe",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "cp",
+    "agility.parameter": "b",
+    "magic.parameter": "b",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "honjou-raita",
+    "character-voice": "ito-kent",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "james-moriarty"
+  },
+
+  "data": {
+    "name": {
+      "en": "James Moriarty (Ruler)",
+      "ja": "ジェームズ・モリアーティ（ルーラー）",
+      "zh": "詹姆斯·莫里亚蒂（Ruler）"
+    },
+    "true-name": {
+      "en": "James Moriarty",
+      "ja": "ジェームズ・モリアーティ",
+      "zh": "詹姆斯·莫里亚蒂"
+    },
+    "height": {
+      "en": "175cm",
+      "ja": "175cm",
+      "zh": "175cm"
+    },
+    "weight": {
+      "en": "68kg",
+      "ja": "68kg",
+      "zh": "68kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

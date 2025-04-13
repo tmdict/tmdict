@@ -8,7 +8,7 @@ profile: true
 translation: "IreyimikaTheLost"
 ---
 
-### Oath of the Chivalric Order A
+### Oath of the Chivalric Order: A
 “Death Rather Than Surrender” “Poverty, Chastity, and Obedience” The Sacred Oath of the Knights Templar which a young Molay took to with hope in his heart and never forgot as he lived.
 
 ### Recommended Almsgiving: A

@@ -9,7 +9,6 @@ name: "About"
 This project is the work of TMdict, with help from various fans and other communities. Translations are contributed from many members of the community.
 
 <table>
-  <tr><td style="width:120px">Admin</td><td>gum</td></tr>
   <tr><td style="width:120px">Contributor (EN)</td><td>
     <a href="https://www.reddit.com/user/amplifiedscans">amplified</a>, 
     <a href="https://twitter.com/BananaShiki">BananaShiki</a>, 

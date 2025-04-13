@@ -1,6 +1,14 @@
 <div class="page-content">
   <h2 style="border-top:0">网站新闻</h2>
 
+  <h4>2025-04-12</h4>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>更新CHALDEAの記録FGO Material 16人物简介。</li>
+  </ul>
+
   <h4>2024-09-14</h4>
 
   <p><span class="highlight">Changelog:</span></p>
@@ -38,15 +46,6 @@
 
   <ul>
     <li>添加君主·埃尔梅罗二世历险记用语辞典。</li>
-  </ul>
-
-  <h4>2023-01-08</h4>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>更新CHALDEAの記録人物简介FGO Material 9和10。</li>
-    <li>修改了Fate/side material的中文翻译。</li>
   </ul>
 
   <div class="readmore"><a href="./site#updates">更新记录</a></div>

@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "349:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0349a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0349b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0349c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0349d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0349e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "female-physical",
+    "origin": "historical-fact",
+    "region": "japan",
+    "alignment": "lawful-neutral",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "bp",
+    "magic.parameter": "bp",
+    "luck.parameter": "cm",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "hoshizora-meteo",
+    "illustrator": "takolegs",
+    "character-voice": ["serizawa-yu", "kawano-taketoshi"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kyokutei Bakin",
+      "ja": "曲亭馬琴",
+      "zh": "曲亭马琴"
+    },
+    "true-name": {
+      "en": "Takizawa Okikuni",
+      "ja": "滝沢興邦[たきざわ・おきくに]",
+      "zh": "泷泽兴邦"
+    },
+    "height": {
+      "en": "157cm",
+      "ja": "157cm",
+      "zh": "157cm"
+    },
+    "weight": {
+      "en": "45kg",
+      "ja": "45kg",
+      "zh": "45kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

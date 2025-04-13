@@ -1,6 +1,14 @@
 <div class="page-content">
   <h2 style="border-top:0">ニュース</h2>
 
+  <h4>2025-04-12</h4>
+
+  <p><span class="highlight">Changelog:</span></p>
+
+  <ul>
+    <li>Updated CHALDEAの記録 with FGO Material 16 character profiles.</li>
+  </ul>
+
   <h4>2024-09-14</h4>
 
   <p><span class="highlight">Changelog:</span></p>
@@ -38,15 +46,6 @@
 
   <ul>
     <li>Added The Adventures of Lord El-Melloi II Glossary.</li>
-  </ul>
-
-  <h4>2023-01-08</h4>
-
-  <p><span class="highlight">Changelog:</span></p>
-
-  <ul>
-    <li>Updated CHALDEAの記録 with character profiles from FGO Material 9 and 10.</li>
-    <li>Fixed Chinese translations for Fate/side material.</li>
   </ul>
 
   <div class="readmore"><a href="./site#updates">過去の更新履歴</a></div>

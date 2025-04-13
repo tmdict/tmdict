@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "345:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0345a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0345b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0345c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0345d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0345e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_4",
+    "gender": "female",
+    "origin": "the-nibelungenlied",
+    "region": "germany",
+    "alignment": "chaotic-neutral",
+    "strength.parameter": "cpp",
+    "endurance.parameter": "d",
+    "agility.parameter": "c",
+    "magic.parameter": "a",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "konoe-ototsugu",
+    "character-voice": "koga-aoi",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kriemhild",
+      "ja": "クリームヒルト",
+      "zh": "克里姆希尔德"
+    },
+    "true-name": {
+      "en": "Kriemhild",
+      "ja": "クリームヒルト",
+      "zh": "克里姆希尔德"
+    },
+    "height": {
+      "en": "168cm",
+      "ja": "168cm",
+      "zh": "168cm"
+    },
+    "weight": {
+      "en": "55kg",
+      "ja": "55kg",
+      "zh": "55kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "type": "profile",
+  "uid": "347:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0347a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0347b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0347c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0347d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0347e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "lancer",
+    "star": "star_4",
+    "origin": "don-quixote",
+    "region": "europe",
+    "strength.parameter": "c",
+    "endurance.parameter": "c",
+    "agility.parameter": "c",
+    "magic.parameter": "c",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "murayama-ryota",
+    "character-voice": ["tobita-nobuo", "arai-satomi"],
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Don Quixote & Sancho Panza",
+      "ja": "ドン・キホーテ",
+      "zh": "堂·吉诃德 & 桑丘"
+    },
+    "true-name": {
+      "en": "Don Quixote de La Mancha (Alonso Quijano)",
+      "ja": "ドン・キホーテ・デ・ラ・マンチャ（アロンソ・キハーノ）",
+      "zh": "堂吉诃德·德·拉曼恰（阿隆索·吉哈诺）"
+    },
+    "gender": {
+      "en": "Male (Don Quixote), Female (Sancho)",
+      "ja": "男性（ドン・キホーテ）, 女性（サンチョ）",
+      "zh": "男性（堂·吉诃德）, 女性（桑丘）"
+    },
+    "alignment": {
+      "en": "Lawful Good (Don Quixote), Chaotic Neutral (Sancho)",
+      "ja": "秩序・善（ドン・キホーテ）, 混沌・中庸（サンチョ）",
+      "zh": "秩序·善（堂·吉诃德）, 混沌·中庸（桑丘）"
+    },
+    "height": {
+      "en": "148cm (Don Quixote), 169cm (Sancho)",
+      "ja": "148cm（ドン・キホーテ）, 169cm（サンチョ）",
+      "zh": "148cm（堂·吉诃德）, 169cm（桑丘）"
+    },
+    "weight": {
+      "en": "50kg (Don Quixote), 54kg (Sancho)",
+      "ja": "50kg（ドン・キホーテ）, 169cm（桑丘）",
+      "zh": "50kg（堂·吉诃德）, 169cm（桑丘）"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

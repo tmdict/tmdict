@@ -5,7 +5,7 @@ id: personal-skills
 language: en
 weight: 2
 profile: true
-translation: “Radiant-Hope-469"
+translation: "Radiant-Hope-469"
 ---
 
 ### Voyager of the Storm: C++

@@ -1,0 +1,11 @@
+{
+  "type": "character-voice",
+
+  "data": {
+    "name": {
+      "en": "Kimura Ryohei",
+      "ja": "木村良平",
+      "zh": "木村良平"
+    }
+  }
+}

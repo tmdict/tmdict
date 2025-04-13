@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "350:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0350a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0350b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0350c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0350d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0350e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "archer",
+    "star": "star_5",
+    "gender": "male",
+    "origin": ["historical-fact", "chinsetsu-yumiharizuki", "etc"],
+    "region": "japan",
+    "alignment": "true-neutral",
+    "strength.parameter": "a",
+    "endurance.parameter": "bpp",
+    "agility.parameter": "b",
+    "magic.parameter": "d",
+    "luck.parameter": "ex",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "dd",
+    "character-voice": "nomura-kenji",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Minamoto-no-Tametomo",
+      "ja": "源為朝",
+      "zh": "源为朝"
+    },
+    "true-name": {
+      "en": "Minamoto-no-Tametomo",
+      "ja": "源為朝",
+      "zh": "源为朝"
+    },
+    "height": {
+      "en": "232cm",
+      "ja": "232cm",
+      "zh": "232cm"
+    },
+    "weight": {
+      "en": "190kg",
+      "ja": "190kg",
+      "zh": "190kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

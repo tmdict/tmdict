@@ -5,7 +5,7 @@ id: class-skills
 language: en
 weight: 1
 profile: true
-translation: “Radiant-Hope-469"
+translation: "Radiant-Hope-469"
 ---
 
 ### Riding: A+

@@ -14,10 +14,7 @@ TMdict does not aim to be a comprehensive encyclopedia or a wiki, and does not c
 
 ### Contributors
 
-This project is the work of gum, staff from Tsuki-kan, and members from SumiSora’s Type-Moon BBS. Translations are contributed from many members of the community.
-
-- <span class="highlight">Admin:</span> gum
-- <span class="highlight">Support:</span> Sasaki546, 都谷捻柏
+- <span class="highlight">Contributor:</span> gum, Sasaki546, 都谷捻柏
 - <span class="highlight">Translation:</span> RHuot, 浮云般飘过, 六条秋分, vt789123, Akiraka
 - <span class="highlight">Proofreading:</span> Eclipse, 南宫月汐
 - <span class="highlight">Special Thanks:</span> <a href="http://tsukikan.com/">Tsuki-kan</a>, <a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>

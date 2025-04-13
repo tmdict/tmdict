@@ -1,0 +1,66 @@
+{
+  "type": "profile",
+  "uid": "344:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0344a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0344b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0344c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0344d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0344e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "male",
+    "origin": "legend-of-charlemagne",
+    "region": "france",
+    "alignment": "lawful-good",
+    "strength.parameter": "a",
+    "endurance.parameter": "ap",
+    "agility.parameter": "b",
+    "magic.parameter": "c",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "sakamoto-mineji",
+    "character-voice": "terashima-takuma",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Roland",
+      "ja": "ローラン",
+      "zh": "罗兰"
+    },
+    "true-name": {
+      "en": "Roland",
+      "ja": "ローラン",
+      "zh": "罗兰"
+    },
+    "height": {
+      "en": "183cm",
+      "ja": "183cm",
+      "zh": "183cm"
+    },
+    "weight": {
+      "en": "99kg",
+      "ja": "99kg",
+      "zh": "99kg"
+    },
+    "notes2": {
+      "en": "Chaotic when running amok",
+      "ja": "狂奔時には混沌",
+      "zh": "狂奔时是混沌"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "notes2", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

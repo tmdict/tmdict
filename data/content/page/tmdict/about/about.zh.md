@@ -14,11 +14,8 @@ name: "关于"
 
 ### 合作人员
 
-这个网站由gum制作，加上Tsuki-kan和澄空学园Type-Moon应援会的各位朋友的协力和支持。翻译来自诸多志愿者和TM爱好者。
-
-- <span class="highlight">管理员：</span> gum
-- <span class="highlight">支援：</span> Sasaki546，都谷捻柏
-- <span class="highlight">翻译：</span> RHuot，浮云般飘过，六条秋分，vt789123, Akiraka
+- <span class="highlight">支援：</span> gum，Sasaki546，都谷捻柏
+- <span class="highlight">翻译：</span> RHuot，浮云般飘过，六条秋分，vt789123，Akiraka
 - <span class="highlight">校对：</span> Eclipse，南宫月汐
 - <span class="highlight">特别感谢：</span> <a href="http://tsukikan.com/">Tsuki-kan</a>，<a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
 

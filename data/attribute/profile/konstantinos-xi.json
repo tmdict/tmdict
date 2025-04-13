@@ -1,0 +1,61 @@
+{
+  "type": "profile",
+  "uid": "342:fgosvt",
+
+  "img": [
+    { "weight": 1, "id": "img_s1", "src": "S0342a.png" },
+    { "weight": 2, "id": "img_s2", "src": "S0342b.png" },
+    { "weight": 3, "id": "img_s3", "src": "S0342c.png" },
+    { "weight": 4, "id": "img_s4", "src": "S0342d.png" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0342e_april-fools.png" }
+  ],
+
+  "attribute": {
+    "class": "rider",
+    "star": "star_5",
+    "gender": "male",
+    "origin": "historical-fact",
+    "region": "europe",
+    "alignment": "lawful-good",
+    "strength.parameter": "c",
+    "endurance.parameter": "a",
+    "agility.parameter": "c",
+    "magic.parameter": "d",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "ex",
+    "character-setting": "higashide-yuuichirou",
+    "illustrator": "kurahana-chinatsu",
+    "character-voice": "kamio-shinichiro",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Kōnstantînos XI",
+      "ja": "コンスタンティノス11世",
+      "zh": "君士坦丁十一世"
+    },
+    "true-name": {
+      "en": "Kōnstantînos XI",
+      "ja": "コンスタンティノス11世",
+      "zh": "君士坦丁十一世"
+    },
+    "height": {
+      "en": "171cm",
+      "ja": "171cm",
+      "zh": "171cm"
+    },
+    "weight": {
+      "en": "73kg",
+      "ja": "73kg",
+      "zh": "73kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

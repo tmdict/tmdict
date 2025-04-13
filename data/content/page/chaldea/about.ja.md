@@ -9,7 +9,6 @@ name: "概要"
 このプロジェクトは、型月辞典（TMdict）の仕事で、 様々なファンおよびコミューニティからの応援を頂いております。訳文はコミューニティの数多くボランティアで翻訳してものです。
 
 <table>
-  <tr><td style="width:120px">管理者</td><td>gum</td></tr>
   <tr><td style="width:120px">支援，翻訳（英）</td><td>
     <a href="https://www.reddit.com/user/amplifiedscans">amplified</a>, 
     <a href="https://twitter.com/BananaShiki">BananaShiki</a>, 
