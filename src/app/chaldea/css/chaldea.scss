@@ -1,4 +1,4 @@
-@import 'normalize';
+@use 'lib/normalize';
 
 $media-compact: "only screen and (max-width: 840px)";
 $media-mobile: "only screen and (max-width: 660px)";
@@ -27,9 +27,5 @@ $content-gold: #baaf81;
 $content-break: url('../img/ornament.png');
 $content-break-position: calc(50% - 95px);
 
-@import 'base';
-@import 'header';
-@import 'filterlist';
-@import 'content';
-
-@import 'swiper';
+@import 'layout';
+@import 'lib/swiper';
