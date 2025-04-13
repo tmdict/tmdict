@@ -191,8 +191,8 @@
       "img_silk-of-venus": { "en": "Silk of Venus", "ja": "ヴィナスのシルク", "zh": "维纳斯的丝绸" },
       "img_yooo-this-hakama-is-rad": { "en": "Yooo This Hakama Is Rad", "ja": "まっこと格好えい羽織袴", "zh": "着实俊逸的羽织袴" },
       "img_mad-bunny": { "en": "Mad Bunny", "ja": "マッド・バニー", "zh": "疯狂兔子" },
-
       "img_invisible-air-barrier-of-the-wind-king": { "en": "Invisible Air: Barrier of the Wind King", "ja": "風王結界", "zh": "风王结界" },
+
       "img_memories-with-my-lover": { "en": "Memories with My Lover", "ja": "我が愛との思い出", "zh": "与吾爱的回忆" },
       "img_eastern-socialite-attire": { "en": "Eastern Socialite Attire", "ja": "辨天衣", "zh": "辨天衣" },
       "img_summer-casual": { "en": "Summer Casual", "ja": "サマー・カジュアル", "zh": "夏日休闲装" },
@@ -212,8 +212,8 @@
       "img_that-is-very-mahatma-": { "en": "That is Very Mahatma~!☆", "ja": "それってとってもマハトマね☆", "zh": "那真是非常伟大灵魂呢☆" },
       "img_beyond-the-mirror": { "en": "Beyond the Mirror", "ja": "Beyond the Mirror", "zh": "Beyond the Mirror" },
       "img_splendid-cherry-blossom-song": { "en": "Splendid Cherry Blossom Song", "ja": "桜歌爛漫", "zh": "樱歌烂漫" },
-
       "img_poisonous-flower-that-blooms-during-the-night": { "en": "Poisonous Flower that Blooms During the Night", "ja": "夜に咲く毒の華", "zh": "绽放于深夜的毒之花" },
+
       "img_smiling-glory-day": { "en": "Smiling glory day", "ja": "笑顔 glory day", "zh": "笑颜 glory day" },
       "img_bright-voyager": { "en": "Bright Voyager", "ja": "Bright Voyager", "zh": "Bright Voyager" },
       "img_prove": { "en": "Prove", "ja": "Prove", "zh": "Prove" },
@@ -233,8 +233,8 @@
       "img_iridescence-shining-at-the-end": { "en": "Iridescence Shining at the End", "ja": "終末に輝く彩虹", "zh": "闪耀于终焉的彩虹" },
       "img_browline-frame": { "en": "Browline Frame", "ja": "ブローフレーム", "zh": "眉毛框眼镜" },
       "img_reading-glasses": { "en": "Reading Glasses", "ja": "リーディンググラス", "zh": "老花镜" },
-
       "img_magnifiers": { "en": "Magnifiers", "ja": "マグニファイアーズ", "zh": "放大镜" },
+
       "img_camelot-co-model-frame": { "en": "Camelot & Co Model Frame", "ja": "Camelot & Coモデルフレーム", "zh": "Camelot & Co模型框" },
       "img_rimless-round": { "en": "Rimless Round", "ja": "リムレスラウンド", "zh": "无框圆镜" },
       "img_student-council-president-arjuna": { "en": "Student Council President Arjuna", "ja": "生徒会長たるアルジュナ", "zh": "身为学生会长的阿周那" },
@@ -255,8 +255,8 @@
       "img_holiday-memories-style": { "en": "Holiday Memories Style", "ja": "思い出の休日スタイル", "zh": "回忆中的假期风格" },
       "img_nff-bunny": { "en": "NFF Bunny", "ja": "NFFバニー", "zh": "NFF兔女郎" },
       "img_ninkigal": { "en": "Ninkigal", "ja": "ニンキガル", "zh": "宁基伽勒" },
-      "img_keeper-of-tlatlauqui": { "en": "Keeper of Tlatlauqui", "ja": "トラトラウキの番人", "zh": "特拉特劳基的守护者" },
 
+      "img_keeper-of-tlatlauqui": { "en": "Keeper of Tlatlauqui", "ja": "トラトラウキの番人", "zh": "特拉特劳基的守护者" },
       "img_dark-protea": { "en": "Dark Protea", "ja": "ダーク・プロテア", "zh": "Dark Protea" },
       "img_jaguar-man": { "en": "Jaguar Man", "ja": "ジャガーマン", "zh": "豹人" },
       "img_scion-of-summer": { "en": "Scion of Summer", "ja": "夏の御曹司", "zh": "夏日贵公子" },
@@ -273,7 +273,13 @@
       "img_summer-knight-outfit": { "en": "Summer Knight Outfit", "ja": "夏の騎士の装い", "zh": "夏日骑士装束" },
       "img_smiley-summer-wear": { "en": "Smiley Summer Wear", "ja": "スマイリー・サマーウェア", "zh": "微笑夏装" },
       "img_open-summer": { "en": "Open Summer", "ja": "スマイリー・サマーウェア", "zh": "开启夏日" },
-      "img_glasses-off-mode": { "en": "Glasses-Off Mode", "ja": "メガネオフモード", "zh": "眼镜摘除模式" }
+      "img_glasses-off-mode": { "en": "Glasses-Off Mode", "ja": "メガネオフモード", "zh": "眼镜摘除模式" },
+      "img_innocent-flower": { "en": "Innocent Flower", "ja": "イノセントフラワー", "zh": "无瑕之花" },
+      "img_muryan": { "en": "Muryan", "ja": "ムリアン", "zh": "缪瑞恩" },
+
+      "img_farewell-balloon-light": { "en": "Farewell Balloon Light", "ja": "決別のバルーンライト", "zh": "诀别的气球灯" },
+      "img_with-glasses-s2": { "en": "With Glasses (2nd Ascension)", "ja": "メガネあり（第二再臨）", "zh": "戴眼镜（第二再臨）" },
+      "img_with-glasses-s3": { "en": "With Glasses (3rd Ascension)", "ja": "メガネあり（第三再臨）", "zh": "戴眼镜（第三再臨）" }
     }
   }
 }
