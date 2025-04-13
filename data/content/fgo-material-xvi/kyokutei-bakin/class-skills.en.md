@@ -16,7 +16,7 @@ However, when it comes to dogs and dogs alone, this skill becomes equivalent to 
 
 ### Magic Resistance: B
 
-Nullifies spells of three verses or less. Difficult to harm even with grand magic, ritual spells and the like. This skill is further increased by the renown of Bakin's works and his depth of understanding concerning the Heroic Spirits used as characters.
+Nullifies spells of three verses or less. Difficult to harm even with grand magic, ritual spells and the like. This skill is further increased by the renown of Bakin’s works and his depth of understanding concerning the Heroic Spirits used as characters.
 
 ### Divinity: C
 

@@ -8,4 +8,6 @@ profile: true
 translation: "IreyimikaTheLost"
 ---
 
-Jacques de Molay (Saber) is a Servant that represented the financial organization (bank) of the Knights Templar so I created a design based on the black arm covers worn by bankers in the past. The pouch was also made to look like a wallet, and bar codes, which are associated with money, were also incorporated into the costume. The sheep character was also designed to resemble mascots, often seen in banks. The wrists, ankles, and neck are drawn one size thinner than usual because he tends to get sick. For Molay (foreigner), the sheep has been changed to a goat, and the back of the shield has been made to look like a Genghis Khan pot. (Kouhaku Kuroboshi)
+Since Kyokutei Bakin is one Servant with three completely distinct personalities, I figured that if they were all different people, their expressions would also be completely different. So, I prepared three sets of facial expressions for all three personalities, but making adjustments and managing everything during the process was the most challenging part.
+
+Regarding the Eight Dog Warriors, I was told that the breed of the dogs didn’t need to be limited to Japanese breeds, so I primarily chose breeds that are easy to distinguish even as puppies and seemed like they could hold their own in a fight to some extent. That said, the illustrations prioritize cuteness and a sense of softness, with an intentional two-dimensional (flat) aesthetic (TAKOLEGS)
