@@ -1,25 +1,38 @@
+import { fileURLToPath } from 'node:url';
+import { globSync } from 'glob';
 import { spawn } from 'child_process';
-import fs from 'fs-extra'
-import svelte from 'rollup-plugin-svelte';
-import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import livereload from 'rollup-plugin-livereload';
-import multiInput from 'rollup-plugin-multi-input';
-import terser from '@rollup/plugin-terser';
 import css from 'rollup-plugin-css-only';
+import fs from 'fs-extra'
+import livereload from 'rollup-plugin-livereload';
+import path from 'node:path';
+import resolve from '@rollup/plugin-node-resolve';
+import svelte from 'rollup-plugin-svelte';
+import terser from '@rollup/plugin-terser';
 
 const production = !process.env.ROLLUP_WATCH;
 const appConfig = JSON.parse(fs.readFileSync(`${__dirname}/config.json`, 'utf8'));
 
 export default {
-  input: [`${__dirname}/__tmp/js/**/*.js`],
+  input: Object.fromEntries(
+    globSync(`${__dirname}/__tmp/js/**/*.js`).map(file => [
+      // This removes `src/` as well as the file extension from each
+      // file, so e.g. src/nested/foo.js becomes nested/foo
+      path.relative(
+        `${appConfig.paths.src}/__tmp/`,
+        file.slice(0, file.length - path.extname(file).length)
+      ),
+      // This expands the relative paths to absolute paths, so e.g.
+      // src/nested/foo becomes /project/src/nested/foo.js
+      fileURLToPath(new URL(file, import.meta.url))
+    ])
+  ),
   output: {
     sourcemap: true,
     format: 'es',
     dir: `${appConfig.paths.dist}/src`,
   },
   plugins: [
-    multiInput.default({ relative: `${appConfig.paths.src}/__tmp/` }),
     svelte({
       compilerOptions: {
         // enable run-time checks when not in production
