@@ -8,10 +8,11 @@ profile: true
 translation: "IreyimikaTheLost"
 ---
 
-### Entity of the Outer Realm: D
+### Territory Creation (Atelier): C+
 
-A freeloader from the Servant Universe.
+This skill specializes in clothing and apparel, and the quality of her work when created inside this territory both improves and gains additional effects. 
+While the barrier provides a visual obstruction to prevent any from seeing inside, it is not so effective at protecting those within from attack.
 
-### Altereactor: B
+### Item Construction (Cloth): A
 
-Through the use of the rare element Alternium all sorts of energy can be converted to magical energy, though it only lasts for a minute. She’ll work harder if the a message is attached to the offering.
+Allows for the creation of high quality cloth and clothing, imbued with magical energy.
