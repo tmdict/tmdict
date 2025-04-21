@@ -116,5 +116,5 @@ No no no, please wait, I’m er, a completely different person from that Alci-wh
 
 1. {{note1}} Her profile in FGO called her a demigod (半神) but here they call her a goddess (女神) for no reason.
 2. {{note2}} It’s interesting to note that she uses 閨 for “bedroom”, which usually is used for a married couple’s room. Also, why lewd the loli when the loli already lewds herself on her own?
-3. {{note3}} ミジンコ寝かして, literally “lying down like a water flea”. From what I’ve found it’s a trending hashtag in Japan for pictures of pets sleeping like in a fetal position. [Here’s an example.](https://sociorocketnewsen.files.word...9/04/df-31.png)
+3. {{note3}} ミジンコ寝かして, literally “lying down like a water flea”. From what I’ve found it’s a trending hashtag in Japan for pictures of pets sleeping like in a fetal position.
 4. {{note4}} Reference to Alcina, heavily based on Circe. Also, teaser for Charles & co. in the Greek LB?
