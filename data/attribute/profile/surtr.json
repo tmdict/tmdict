@@ -5,7 +5,6 @@
   "img": [],
 
   "attribute": {
-    "class": ["ancient-giant", "saber"],
     "star": "_na",
     "gender": "male",
     "origin": "norse-mythology",
@@ -38,6 +37,11 @@
       "en": "1t~???t",
       "ja": "1t~？？？t",
       "zh": "1t~？？？t"
+    },
+    "class": {
+      "en": "Ancient Giant (Giant Species), Saber",
+      "ja": "エソツェソト・ヅャイアソト（巨人種）, セイバー",
+      "zh": "Ancient Giant（巨人种）, Saber"
     }
   },
 
