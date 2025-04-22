@@ -16,7 +16,7 @@ Before the release of CCC we revealed information about the game which included 
 But we should note that Cas-ko’s EXTRA bikini really isn’t worth mentioning.
 For all it’s worth, Caster’s revealing swimsuit was simply a bikini with a very small surface area of cloth.
 On the other hand, Red Saber’s bikini takes things even further with a Brazilian bikini that is no more than some string.
-Saber’s swimsuit was even more aggressively lacking in string coverage until CERO got angry about it. Prior to that the shot from behind made her look stark naked. Truly a ~ situation.
+Saber’s swimsuit was even more aggressively lacking in string coverage until CERO{{n1}} got angry about it. Prior to that the shot from behind made her look stark naked. Truly a ~ situation.
 But really the most outrageous swimsuits are worn by the guys. Especially the combination of Archer and the male version of the protagonist (both wearing swimsuits). Their terrible combination has the power to crush all reason even in the most serious of scenes.
 
 ##### {{notes}}

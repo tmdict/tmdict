@@ -29,7 +29,7 @@ Its damage as a single target Noble Phantasm is low, but its turnover rate after
   <tr><td>Rank</td><td>EX</td></tr>
   <tr><td>Type</td><td>Anti-World Noble Phantasm</td></tr>
   <tr><td>Range</td><td>20~500</td></tr>
-  <tr><td>Maximum Number of Targets</td><td>500{{n1}}</td></tr>
+  <tr><td>Maximum Number of Targets</td><td>500</td></tr>
 </table>
 
 Hollow Heart Albion.
@@ -45,4 +45,4 @@ She serves as proof that “the dragon that failed to return to the planet” wi
 
 ##### {{notes}}
 
-1. The kanji (匹) used here and for Hollow Heart Albion is the counter for animals instead of the usual one for humans so I assume everyone is just a small animal to the super-duper dragon Melusine.
+1. {{note1}} The kanji (匹) used here and for Hollow Heart Albion is the counter for animals instead of the usual one for humans so I assume everyone is just a small animal to the super-duper dragon Melusine.

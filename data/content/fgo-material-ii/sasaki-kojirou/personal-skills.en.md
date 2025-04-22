@@ -11,7 +11,7 @@ translation: "castor212"
 ### Mind’s Eye (Fake): A
 
 Resistance against corrections{{n1}} caused by vision obstructions.
-It can be also be defined as a sixth sense or premonition{{2}}; sensing danger by means of natural talent.
+It can be also be defined as a sixth sense or premonition{{n2}}; sensing danger by means of natural talent.
 
 ### Vitrification: B+{{n3}}
 

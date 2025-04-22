@@ -67,4 +67,4 @@ Fergus basically does not want to speak words and do deeds that will appear to d
 ##### {{notes}}
 
 1. {{note1}} Fergus essentially wants to do a threesome with both his wife and Medb.
-1. {{note1}} Can also be expressed as ‘with endless sexual stamina.’
+1. {{note2}} Can also be expressed as ‘with endless sexual stamina.’

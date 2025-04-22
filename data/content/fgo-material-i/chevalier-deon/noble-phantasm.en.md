@@ -39,6 +39,8 @@ Beautiful sword dance version 2 that charms the beholders. Its reading is the sa
 
 This sword dance causes a fully bloomed lily, which symbolizes the French Royal Authority, to rise to the surface, fascinating the enemy camp all at once and causing the targets’ Strength/Constitution/Agility parameters to be lowered for a while. Furthermore, if they do not succeed in their Luck Checks, they will become unable to act for a period of 1 turn. There is no damage effect for this version.
 
+{{n1}}
+
 ##### {{notes}}
 
 1. {{note1}} D’Éon has a 3rd version of his/her Noble Phantasm. As seen in Agartha, it’s called “Fleur-de-Lis: Profusion of a Hundred Flowers that Flutters Lily Petals”, which is a more potent version of their 2nd Noble Phantasm. It’s a hidden Noble Phantasm that, by releasing all the magical energy in their body, causes lilies to dance for however long d’Éon wishes them to in order to fascinate their enemies. Compared to their 2nd Noble Phantasm’s maximum number of targets being fifty people, this version can target a hundred or even a thousand people, creating just enough dancing lilies to potentially affect everyone in an enemy camp regardless of their number.

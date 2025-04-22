@@ -38,10 +38,10 @@ She won’t think of humans as anything more than targets to observe and judge, 
 
 ### Setting
 
-The prison guard (oni) managing the Enma Pavilion. Datsue-ba and King Enma’s{{3}} adopted daughter.
-They say she was a young girl working as a servant for a high-class prostitute in her previous life who got lost in the mountains and died. (Her throat and tongue were crushed during her time working at the red-light district. Even when she was reborn, her tongue did not heal.) By the compassion of Jizō Boddhisatva{{4}}, she was reborn as an oni of hell (and losing her memories from her time as a human), became the adopted daughter of Datsue-ba at the Sanzu River and worked hard.
+The prison guard (oni) managing the Enma Pavilion. Datsue-ba and King Enma’s{{n3}} adopted daughter.
+They say she was a young girl working as a servant for a high-class prostitute in her previous life who got lost in the mountains and died. (Her throat and tongue were crushed during her time working at the red-light district. Even when she was reborn, her tongue did not heal.) By the compassion of Jizō Boddhisatva{{n4}}, she was reborn as an oni of hell (and losing her memories from her time as a human), became the adopted daughter of Datsue-ba at the Sanzu River and worked hard.
 The news of her achievements have reached King Enma’s ears and she officially became his adopted daughter.
-She apprenticed under the Great King Enma to become a judge, and later, in recognition of her merits, she was left with the management of the “Mayoiga”{{5}} on the surface.
+She apprenticed under the Great King Enma to become a judge, and later, in recognition of her merits, she was left with the management of the “Mayoiga”{{n5}} on the surface.
 Benienma renamed the “Mayoiga” to “the place where gods can relax”…in other words, “The Sparrow’s Inn”, became friends with the sparrows who lived there originally and turned it into a business.
 However, during this, for no reason whatsoever, Benienma started yearning after a human village (as an afterglow of the memories of her previous life), and when she descended the mountains to visit it, she was captured by a greedy old woman.
 Benienma was cowering in fear due to the trauma from her previous life that had been forgotten, but she was saved from her predicament by a “kind old man” who was treated as an oddball in the village.

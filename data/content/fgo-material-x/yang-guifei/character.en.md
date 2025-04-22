@@ -38,7 +38,7 @@ Eh, ah, yes, that’s right, I’m Yang Guifei. I’ll be in your care…so plea
 “Burn GO GO!” “Mm\~ lychee’s delish\~♪” “We’ll hold a dance and celebration of victory here!” Yay! Now for the hot spring♪ Hot spring♪”
 “You see, I want to remain married to my most important person until the end. This time for sure. That is my wish.”
 “I’d like to request you to keep this between us, but when I see strong-willed gentlemen acting as if they were young infants…Umm, how do I put this, it makes me excited…it makes me aroused.”
-“Imperial edict! High Priest of Mount Penglai, Yang Taizhen is departing! Release the emperor of the Purple Forbidden Enclosure’s{{2}} North Gate of the Military Camp{{n3}} and bring here the troops of the Feathered Forest!{{n4}} Ia! Ph’nglui mglw’nafh Fomalhaut n’gha-ghaa naf’lthag! 『Marital Vows of Rainbow Skirts and Feather Robes』!”
+“Imperial edict! High Priest of Mount Penglai, Yang Taizhen is departing! Release the emperor of the Purple Forbidden Enclosure’s{{n2}} North Gate of the Military Camp{{n3}} and bring here the troops of the Feathered Forest!{{n4}} Ia! Ph’nglui mglw’nafh Fomalhaut n’gha-ghaa naf’lthag! 『Marital Vows of Rainbow Skirts and Feather Robes』!”
 
 ### Historical Image · Character Image
 

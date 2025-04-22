@@ -32,7 +32,7 @@ It is said that the night assault that had continued endlessly had inevitably fo
   <tr><td>Maximum Number of Targets</td><td>1 person</td></tr>
 </table>
 
-Ogre Trans.
+Ogre Trans{{n1}}.
 Fuuma Kotarou. It is his true form that had, for generations, been suspected to be that of an oni, or an existance comparable to it. And probably of the figure of one from a foreign country as well, from his stature and appearance.
 
 His reasoning is equipped with Mad Enhancement. All of his status is improved to the extreme, and his stamina is recovered every turn continuously.
