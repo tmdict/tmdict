@@ -58,6 +58,7 @@
     font-size: 0.85rem;
     margin-bottom: 1em;
     line-height: 1.5em;
+    color: var(--text-light);
   }
 
   .language {
@@ -65,7 +66,21 @@
     font-size: 0.85rem;
   }
 
+  .language .select {
+    text-decoration: underline;
+    color: var(--primary-link);
+  }
+
   .language .select:hover {
     cursor: pointer;
+    color: var(--primary-link-highlight);
+  }
+
+  .git a {
+    color: var(--text-light);
+  }
+
+  .git a:hover {
+    color: var(--text-dark);
   }
 </style>

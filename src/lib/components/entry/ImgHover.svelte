@@ -50,6 +50,11 @@
     border-top: 1px dotted #aaa;
   }
 
+  ul li.active,
+  ul li:hover {
+    background: var(--bg-row-grey-light);
+  }
+
   ul li a {
     display: block;
     font-size: 0.75rem;

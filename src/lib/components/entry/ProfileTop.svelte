@@ -83,6 +83,7 @@
 
   td:nth-child(1) {
     width: 150px;
+    color: var(--text-light);
   }
 
   @media only screen and (max-width: 840px) {

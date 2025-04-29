@@ -121,35 +121,6 @@ h6 {
   margin-top: 35px;
 }
 
-.content .top ul li.active,
-.content .top ul li:hover {
-  background: var(--bg-row-grey-light);
-}
-
-.content .top td:nth-child(1) {
-  color: var(--text-light);
-}
-
-.content .metadata {
-  color: var(--text-light);
-}
-
-.content .metadata .language .select {
-  color: var(--primary-link);
-}
-
-.content .metadata .language .select:hover {
-  color: var(--primary-link-highlight);
-}
-
-.content .metadata .git a {
-  color: var(--text-light);
-}
-
-.content .metadata .git a:hover {
-  color: var(--text-dark);
-}
-
 .content .note {
   font-weight: bold;
   margin: 0 1px 0 3px;
@@ -240,6 +211,8 @@ h6 {
     width: 140px;
   }
 }
+
+
 
 .filter-list .list ul li:nth-child(even) {
   background: var(--bg-row-grey-light);
