@@ -39,6 +39,7 @@
 </script>
 
 <svelte:head>
+  <link rel="canonical" href="https://www.tmdict.com/book/" />
   <link rel="stylesheet" type="text/css" href="/__generated/css/{hashes["book/kara"]}.css" />
 </svelte:head>
 

@@ -12,8 +12,8 @@
 </script>
 
 <svelte:head>
-  <title>{data.attribute.attr.name[store.lang.value]} | CHALDEAの記録</title>
-  <link rel="canonical" href="https://tmdict.com/{store.lang.value}/{canonicalLink}" />
+  <title>{data.attribute.attr.name[store.lang.value]} | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/{store.lang.value}/{canonicalLink}" />
 </svelte:head>
 
 <svelte:window bind:innerWidth={screenWidth} />

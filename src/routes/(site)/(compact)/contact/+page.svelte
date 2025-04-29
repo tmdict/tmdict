@@ -4,6 +4,11 @@
   const title = page.url.hash.substring(1);
 </script>
 
+<svelte:head>
+  <title>Contact | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/contact/" />
+</svelte:head>
+
 <h1>Contact <span style="color:#777;">§</span> <span style="color:#c05b4d;font-size:0.85em">发送消息</span></h1>
 <br />
 <div class="content">

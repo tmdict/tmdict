@@ -9,6 +9,11 @@
   import glossaryBanner from "$lib/img/banner_glossary.png?enhanced";
 </script>
 
+<svelte:head>
+  <title>型月辞典 | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/{store.lang.value}/" />
+</svelte:head>
+
 <div class="content">
   <div>{@html PAGES.top.i18n[store.lang.value].html}</div>
 </div>
