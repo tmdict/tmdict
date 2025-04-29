@@ -155,151 +155,151 @@ Below is a list of the content currently on this site. “-” means we currentl
     <td style="width:10px;">CH</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-side-material?lang=en">Fate Encyclopedia</a></td>
+    <td><a href="../book/#fate-side-material">Fate Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-apocrypha-material?lang=en">Fate/Apocrypha Encyclopedia</a></td>
+    <td><a href="../book/#fate-apocrypha-material">Fate/Apocrypha Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-extella-material?lang=en">Fate/EXTELLA Encyclopedia</a></td>
+    <td><a href="../book/#fate-extella-material">Fate/EXTELLA Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-extra-material?lang=en">Fate/EXTRA Encyclopedia</a></td>
+    <td><a href="../book/#fate-extra-material">Fate/EXTRA Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-type-redline-vol-1?lang=en">Fate/type Redline Glossary</a></td>
+    <td><a href="../book/#fate-type-redline-vol-1">Fate/type Redline Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-material?lang=en">Fate/Zero Encyclopedia</a></td>
+    <td><a href="../book/#fate-zero-material">Fate/Zero Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-animation-guide-i?lang=en">Fate/Zero Animation I - Glossary of the holy grail war</a></td>
+    <td><a href="../book/#fate-zero-animation-guide-i">Fate/Zero Animation I - Glossary of the holy grail war</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-animation-guide-ii?lang=en">Fate/Zero Animation II - Glossary of the holy grail war</a></td>
+    <td><a href="../book/#fate-zero-animation-guide-ii">Fate/Zero Animation II - Glossary of the holy grail war</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#garden-of-sinners-pamphlet?lang=en">Kara no Kyoukai Settings Glossary</a></td>
+    <td><a href="../book/#garden-of-sinners-pamphlet">Kara no Kyoukai Settings Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#lord-el-melloi-ii-case-files-material?lang=en">Lord El-Melloi II Case Files Glossary</a></td>
+    <td><a href="../book/#lord-el-melloi-ii-case-files-material">Lord El-Melloi II Case Files Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#hibichika-complete-capture-book?lang=en">Mahou Tsukai no Hako Small Encyclopedia</a></td>
+    <td><a href="../book/#hibichika-complete-capture-book">Mahou Tsukai no Hako Small Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-official-strategy-guide?lang=en">Melty Blood Glossary</a></td>
+    <td><a href="../book/#melty-blood-official-strategy-guide">Melty Blood Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-back-alley-alliance-nightmare-vol-1?lang=en">Melty Blood Rojiura Nightmare Encyclopedia</a></td>
+    <td><a href="../book/#melty-blood-back-alley-alliance-nightmare-vol-1">Melty Blood Rojiura Nightmare Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#moonlight-lostroom-material?lang=en">MOONLIGHT/LOSTROOM Encyclopedia</a></td>
+    <td><a href="../book/#moonlight-lostroom-material">MOONLIGHT/LOSTROOM Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#angel-voice?lang=en">Notes.</a></td>
+    <td><a href="../book/#angel-voice">Notes.</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#character-material?lang=en">Prelude Explanation</a></td>
+    <td><a href="../book/#character-material">Prelude Explanation</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#prisma-material-petit?lang=en">Prisma Illya MOVIE Encyclopedia</a></td>
+    <td><a href="../book/#prisma-material-petit">Prisma Illya MOVIE Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#yoi-no-myoujou?lang=en">Talk.</a></td>
+    <td><a href="../book/#yoi-no-myoujou">Talk.</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#type-moon-books-material?lang=en">The Adventures of Lord El-Melloi II Glossary</a></td>
+    <td><a href="../book/#type-moon-books-material">The Adventures of Lord El-Melloi II Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-data-collection?lang=en">Tsukihime Dictionary</a></td>
+    <td><a href="../book/#tsukihime-data-collection">Tsukihime Dictionary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#colorful-moon-tsukihime?lang=en">Tsukihime Dictionary (Colorful MOON)</a></td>
+    <td><a href="../book/#colorful-moon-tsukihime">Tsukihime Dictionary (Colorful MOON)</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-act-cadenza-ps2-manual?lang=en">Tsukihime Dictionary (MBAC)</a></td>
+    <td><a href="../book/#melty-blood-act-cadenza-ps2-manual">Tsukihime Dictionary (MBAC)</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-dokuhon-plus-period?lang=en">Tsukihime Dictionary Revised</a></td>
+    <td><a href="../book/#tsukihime-dokuhon-plus-period">Tsukihime Dictionary Revised</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-material-i?lang=en">Tsukihime Work Glossary</a></td>
+    <td><a href="../book/#tsukihime-material-i">Tsukihime Work Glossary</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#katatuki-kouhon?lang=en">World & Tsukihime Character Setting</a></td>
+    <td><a href="../book/#katatuki-kouhon">World & Tsukihime Character Setting</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

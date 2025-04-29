@@ -1,0 +1,138 @@
+.side {
+  float: left;
+  width: 199px;
+  border-left: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  background: #f8f5ec;
+}
+
+@media only screen and (max-width: 640px) {
+  .side {
+    width: 100%;
+    min-width: 240px;
+    border-left: 0;
+  }
+}
+
+.side img {
+  margin-top: 10px;
+  padding: 3px;
+  border: 1px dashed #777;
+  -webkit-filter: grayscale(0.65);
+  filter: gray;
+  filter: grayscale(0.65);
+  opacity: 0.9;
+}
+
+.side img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+  opacity: 1;
+}
+
+.side ul {
+  margin-bottom: 14px;
+}
+
+.side ul li {
+  font-size: 0.9em;
+  background: transparent;
+}
+
+.side ul li a {
+  color: #444;
+}
+
+.side ul li .entry {
+  padding: 5px 0px 4px 12px;
+}
+
+.side ul li .entry:hover,
+.side ul li .entry:active,
+.side ul li.active .entry {
+  background: #f7ebc6;
+  padding-left: 7px;
+  border-left: 5px solid #f7d87c;
+}
+
+.side ul li a .entry:hover,
+.side ul li a .entry:active,
+.side ul li .entry:hover .entry-source,
+.side ul li .entry:active .entry-source,
+.side ul li.active .entry .entry-source,
+.side ul li.active a .entry {
+  color: #c05b4d;
+}
+
+.side-content {
+  font-size: 0.75em;
+}
+
+.side-content p {
+  color: #777;
+  line-height: 1.5em;
+  margin: 13px;
+}
+
+.side-content h2 {
+  border-top: 1px dotted #ccc;
+  margin: 0 13px;
+  padding: 20px 0 0;
+}
+
+.side-content ul,
+.side-content ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-content .side-title {
+  background: #f1ede4;
+  color: #36958e;
+  height: 16px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 0 13px;
+  padding: 9px 0 7px;
+}
+
+.side-content .first-char {
+  display: block;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  background: #f7ebc6;
+  border: 4px solid #ccc;
+  border-radius: 50%;
+  width: 20px;
+  height: 24px;
+  top: -9px;
+  padding: 4px 0 0 8px;
+  margin-right: 2px;
+}
+
+.side-content .side-menu {
+  color: #c05b4d;
+  border-top: 1px dotted #ccc;
+}
+
+.side-content .side-menu .menu-arrow {
+  float: left;
+  font-weight: bold;
+  font-size: 1.05em;
+  background: #f7ebc6;
+  border-right: 1px dotted #ccc;
+}
+
+.side-content .side-menu .menu-arrow a {
+  color: #c05b4d;
+  padding: 4px 8px;
+  display: block;
+}
+
+.side-content .side-back {
+  border-top: 1px dotted #ccc;
+  margin-top: 15px;
+  padding: 5px 0 0;
+}

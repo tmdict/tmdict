@@ -1,0 +1,362 @@
+body, html {
+  background: var(--bg-body);
+  color: var(--text-medium);
+}
+
+a {
+  color: var(--primary-link);
+}
+
+a:hover {
+  color: var(--primary-link-highlight);
+}
+
+.highlight {
+  color: var(--secondary-highlight);
+}
+
+h1 {
+  font: 2.4rem Georgia, serif;
+  color: var(--primary-heading);
+  margin: 0.2em 0 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 660px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font: 1.6rem Arial, "Microsoft YaHei", Meiryo, sans-serif;
+  color: var(--primary-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin: 1.4em 0 0.4em;
+}
+
+h2 a {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 660px) {
+  h2 {
+    margin-top: 2em;
+  }
+
+  h2:before {
+    display: none;
+  }
+}
+
+h3 {
+  font-size: 0.95rem;
+  color: var(--secondary-heading);
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 660px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+h4 {
+  font: bold 0.95rem Arial, "Microsoft YaHei", Meiryo, sans-serif;
+  color: var(--text-light);
+}
+
+h5 {
+  font: bold 0.8rem Arial, "Microsoft YaHei", Meiryo, sans-serif;
+  color: var(--primary-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 45px 0 0;
+}
+
+h6 {
+  font: bold 0.8rem Arial, "Microsoft YaHei", Meiryo, sans-serif;
+  color: var(--primary-heading);
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 1.5em 0 0.5em;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: [col-start] auto [col-1] 840px [col-2] auto [col-end];
+  grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
+}
+
+@media only screen and (max-width: 840px) {
+  #container {
+    grid-template-columns: [col-start] auto [col-1] 720px [col-2] auto [col-end];
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
+  }
+}
+
+#main {
+  background: var(--bg-main);
+}
+
+#header {
+  color: var(--text-header);
+}
+
+#header #name {
+  color: var(--text-header);
+}
+
+#header #name a {
+  color: var(--text-header);
+}
+
+#header #name a .alt {
+  color: var(--primary-highlight);
+}
+
+#header #nav a {
+  color: var(--text-header);
+}
+
+#header #nav a:before {
+  color: var(--text-header);
+}
+
+#header #nav a:hover {
+  color: var(--primary-highlight);
+}
+
+#footer {
+  color: var(--text-light);
+}
+
+.content {
+  line-height: 1.5rem;
+  margin-bottom: 7.5em;
+}
+
+.content:after {
+  content: var(--content-break);
+  position: absolute;
+  left: var(--content-break-position);
+  margin-top: 35px;
+}
+
+.content .top ul li.active,
+.content .top ul li:hover {
+  background: var(--bg-row-grey-light);
+}
+
+.content .top td:nth-child(1) {
+  color: var(--text-light);
+}
+
+.content .metadata {
+  color: var(--text-light);
+}
+
+.content .metadata .language .select {
+  color: var(--primary-link);
+}
+
+.content .metadata .language .select:hover {
+  color: var(--primary-link-highlight);
+}
+
+.content .metadata .git a {
+  color: var(--text-light);
+}
+
+.content .metadata .git a:hover {
+  color: var(--text-dark);
+}
+
+.content .note {
+  font-weight: bold;
+  margin: 0 1px 0 3px;
+}
+
+.content .note:before {
+  font-weight: normal;
+  content: "[";
+}
+
+.content .note:after {
+  font-weight: normal;
+  content: "]";
+}
+
+.content .notelink {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content .contact a {
+  color: var(--primary-heading);
+  text-decoration: none;
+  border-bottom: 1px dotted #aaa;
+}
+
+.content .contact a:hover {
+  color: var(--primary-link);
+}
+
+.content .contact:before {
+  content: "[";
+  margin-left: 3px;
+  color: var(--text-light);
+}
+
+.content .contact:after {
+  content: "]";
+  margin-right: 3px;
+  color: var(--text-light);
+}
+
+.content table {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.content tr {
+  padding: 1px 0;
+  line-height: 1.2rem;
+  font-size: 0.75rem;
+}
+
+.content tr:nth-child(odd) {
+  background: var(--bg-row-grey-light);
+}
+
+.content tr:hover {
+  background: var(--bg-row-grey-dark);
+}
+
+.content tr.break td {
+  border-top: 1px dotted #aaa;
+}
+
+.content td:nth-child(1) {
+  width: 240px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 660px) {
+  .content td:nth-child(1) {
+    width: 140px;
+  }
+}
+
+.filter-nav .menu,
+.filter-nav .clear,
+.filter-nav .filter-item .quick {
+  color: var(--primary-link);
+}
+
+.filter-nav .label {
+  color: var(--secondary-heading);
+}
+
+.filter-nav .menu .label,
+.filter-nav h6,
+.filter-nav h6:hover .label,
+.filter-nav .clear:hover {
+  color: var(--primary-link-highlight);
+}
+
+.filter-nav .filter-item .quick:hover,
+.filter-nav .filter-item .common:hover {
+  background-color: var(--bg-row-grey-dark);
+}
+
+.filter-nav .filter-item .quick.active,
+.filter-nav .filter-item .common.active {
+  color: var(--secondary-highlight);
+  background-color: var(--bg-row-grey-light);
+}
+
+.filter-list .list ul li:nth-child(even) {
+  background: var(--bg-row-grey-light);
+}
+
+.filter-list .list ul li:hover {
+  background: var(--bg-row-grey-dark);
+}
+
+.filter-list .list .item .name a {
+  color: var(--text-medium);
+}
+
+.filter-list .list .item .category {
+  color: var(--primary-link-highlight);
+}
+
+.filter-list .list .item .work,
+.filter-list .list .item .entry-header {
+  color: var(--primary-link);
+}
+
+.filter-list .list .item .entry-header .search-highlight,
+.filter-list .list .item .entry-content p .search-highlight {
+  color: var(--primary-highlight);
+  background-color: var(--text-medium);
+}
+
+.filter-list .list .item .entry-content a,
+.filter-list .list .item .entry-content a:hover {
+  color: var(--text-dark);
+}
+
+.filter-list .list .item .entry-content p {
+  padding: 0 5px;
+}
+
+.filter-list .list .item .entry-content h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  margin: 30px 0 0 10px;
+}
+
+.filter-list .list .item .entry-content h3 {
+  font-size: .75rem;
+  margin: 0 0 0 5px;
+}
+
+.filter-list .list .item .entry-content h4 {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.filter-list .list .item .entry-content h5 {
+  margin: 15px 0 5px 15px;
+}
+
+.filter-list .list .item .entry-content p {
+  color: var(--text-medium);
+}
+
+.filter-list .filter ul li .item {
+  color: var(--primary-link);
+}
+
+.filter-list .filter ul li .item.active {
+  color: var(--primary-link-highlight);
+  background: var(--bg-row-grey-light);
+}
+
+.filter-list .filter ul li .item:hover {
+  background: var(--bg-row-grey-dark);
+}

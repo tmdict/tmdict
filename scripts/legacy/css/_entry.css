@@ -1,0 +1,58 @@
+.entry {
+  font: normal 1.1em "Trebuchet MS", Trebuchet, Verdana, Arial, Meiryo, Sans-serif;
+}
+
+.entry-title {
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.entry-title a {
+  color: #333;
+}
+
+.entry-category {
+  float: left;
+  color: #c05b4d;
+  font-size: 1em;
+}
+
+.entry-category a {
+  color: #c05b4d;
+}
+
+.entry-category:before {
+  content: "[";
+  margin-right: 3px;
+}
+
+.entry-category:after {
+  content: "]";
+  margin-left: 3px;
+}
+
+.entry-category.uniq {
+  color: #777;
+}
+
+.entry-source {
+  float: left;
+  color: #36958e;
+  font-size: 1em;
+}
+
+.entry-source a {
+  color: #36958e;
+}
+
+.entry-source:before {
+  content: "[";
+  margin-right: 3px;
+}
+
+.entry-source:after {
+  content: "]";
+  margin-left: 3px;
+}

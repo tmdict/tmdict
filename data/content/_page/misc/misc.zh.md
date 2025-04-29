@@ -155,151 +155,151 @@ name: "其他"
     <td style="width:10px;">CH</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-side-material?lang=zh">Fate用语辞典</a></td>
+    <td><a href="../book/#fate-side-material">Fate用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-apocrypha-material?lang=zh">Fate/Apocrypha用语辞典</a></td>
+    <td><a href="../book/#fate-apocrypha-material">Fate/Apocrypha用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-extella-material?lang=zh">Fate EXTELLA用语辞典</a></td>
+    <td><a href="../book/#fate-extella-material">Fate EXTELLA用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-extra-material?lang=zh">Fate/EXTRA用语辞典</a></td>
+    <td><a href="../book/#fate-extra-material">Fate/EXTRA用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-type-redline-vol-1?lang=zh">Fate/type Redline用语事典</a></td>
+    <td><a href="../book/#fate-type-redline-vol-1">Fate/type Redline用语事典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-material?lang=zh">Fate/Zero用语辞典</a></td>
+    <td><a href="../book/#fate-zero-material">Fate/Zero用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-animation-guide-i?lang=zh">Fate/Zero动画I 第四次圣杯戦争用语集</a></td>
+    <td><a href="../book/#fate-zero-animation-guide-i">Fate/Zero动画I 第四次圣杯戦争用语集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#fate-zero-animation-guide-ii?lang=zh">Fate/Zero动画II 第四次圣杯戦争用语集</a></td>
+    <td><a href="../book/#fate-zero-animation-guide-ii">Fate/Zero动画II 第四次圣杯戦争用语集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#garden-of-sinners-pamphlet?lang=zh">空之境界设定用语集</a></td>
+    <td><a href="../book/#garden-of-sinners-pamphlet">空之境界设定用语集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#lord-el-melloi-ii-case-files-material?lang=zh">君主·埃尔梅罗二世事件簿用语辞典</a></td>
+    <td><a href="../book/#lord-el-melloi-ii-case-files-material">君主·埃尔梅罗二世事件簿用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#type-moon-books-material?lang=zh">君主·埃尔梅罗二世历险记用语辞典</a></td>
+    <td><a href="../book/#type-moon-books-material">君主·埃尔梅罗二世历险记用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#hibichika-complete-capture-book?lang=zh">魔法使之箱小事典</a></td>
+    <td><a href="../book/#hibichika-complete-capture-book">魔法使之箱小事典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-official-strategy-guide?lang=zh">Melty Blood用语解説</a></td>
+    <td><a href="../book/#melty-blood-official-strategy-guide">Melty Blood用语解説</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-back-alley-alliance-nightmare-vol-1?lang=zh">小巷子噩梦用语辞典</a></td>
+    <td><a href="../book/#melty-blood-back-alley-alliance-nightmare-vol-1">小巷子噩梦用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#moonlight-lostroom-material?lang=zh">MOONLIGHT/LOSTROOM用语辞典</a></td>
+    <td><a href="../book/#moonlight-lostroom-material">MOONLIGHT/LOSTROOM用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#angel-voice?lang=zh">Notes.</a></td>
+    <td><a href="../book/#angel-voice">Notes.</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#character-material?lang=zh">Prelude Explanation</a></td>
+    <td><a href="../book/#character-material">Prelude Explanation</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#prisma-material-petit?lang=zh">Prisma Illya MOVIE Encyclopedia</a></td>
+    <td><a href="../book/#prisma-material-petit">Prisma Illya MOVIE Encyclopedia</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#yoi-no-myoujou?lang=zh">Talk.</a></td>
+    <td><a href="../book/#yoi-no-myoujou">Talk.</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-data-collection?lang=zh">月姬用语辞典</a></td>
+    <td><a href="../book/#tsukihime-data-collection">月姬用语辞典</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#colorful-moon-tsukihime?lang=zh">月姬用语辞典（Colorful MOON）</a></td>
+    <td><a href="../book/#colorful-moon-tsukihime">月姬用语辞典（Colorful MOON）</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#melty-blood-act-cadenza-ps2-manual?lang=zh">月姬用语辞典（MBAC）</a></td>
+    <td><a href="../book/#melty-blood-act-cadenza-ps2-manual">月姬用语辞典（MBAC）</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-dokuhon-plus-period?lang=zh">月姬用语词典改订新版</a></td>
+    <td><a href="../book/#tsukihime-dokuhon-plus-period">月姬用语词典改订新版</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#tsukihime-material-i?lang=zh">『月姬』作品用语集</a></td>
+    <td><a href="../book/#tsukihime-material-i">『月姬』作品用语集</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
   </tr>
   <tr>
-    <td><a href="../book/#katatuki-kouhon?lang=zh">世界 & 月姬角色设定</a></td>
+    <td><a href="../book/#katatuki-kouhon">世界 & 月姬角色设定</a></td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>
     <td class="progress3">100%</td>

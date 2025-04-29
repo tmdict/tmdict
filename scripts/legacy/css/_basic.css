@@ -1,0 +1,131 @@
+body, html {
+  height: 100%;
+  font: 1em Verdana, Arial, Sans-Serif;
+  color: #333;
+  background: #333;
+}
+
+h1 {
+  float: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+h2 {
+  color: #c05b4d;
+  height: 16px;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 0 13px;
+  padding: 9px 0 7px;
+}
+
+h3 {
+  color: #36958e;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 0;
+  padding: 0 10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  border-left: 5px solid #f7d87c;
+}
+
+h4 {
+  color: #333;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin: 12px 0;
+  padding: 3px 10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #36958e;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #c05b4d;
+}
+
+ul, ol {
+  padding-left: 27px;
+}
+
+blockquote {
+  color: #666;
+  margin: 25px 0 25px 25px;
+}
+
+.section {
+  width: 20px;
+  margin: 15px auto;
+  padding-right: 20px;
+  text-align: center;
+  font: bold 1em "Times New Roman", Times, serif;
+}
+
+.center {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.highlight {
+  color: #637c84;
+  font-weight: bold;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container {
+  position: relative;
+  top: 5%;
+  background: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 640px) {
+  #container {
+    width: auto;
+    min-width: 240px;
+  }
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  padding: 1px 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapper {
+    width: 100%;
+    min-width: 240px;
+  }
+}
+
+#searchbox {
+  font: 13px/1.6 Verdana, Sans-serif;
+  color: #333;
+  width: 144px;
+  height: 26px;
+  padding: 0 0 0 28px;
+  margin: 11px 10px 8px 18px;
+  border: 1px solid #e2e2e2;
+  background: #fff url("../search.png") no-repeat 6px 6px;
+}
+
+@media only screen and (max-width: 640px) {
+  #searchbox {
+    margin: 11px 10px 8px 10px;
+  }
+}

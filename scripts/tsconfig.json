@@ -1,0 +1,21 @@
+{
+  "files": [
+    "cli/main.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bin"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,  
+    "module": "NodeNext",
+    "outDir": "../bin",
+    "rootDir": "./cli",
+    "target": "es6",
+    "sourceMap": true,
+  }
+}

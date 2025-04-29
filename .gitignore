@@ -1,9 +1,29 @@
-# Dependency directory
-bin
-dist
 node_modules
-__tmp
-.vscode
 
-# Garbage files
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Others
+/bin
+/src/lib/__generated
+/static/__generated
+/static/legacy

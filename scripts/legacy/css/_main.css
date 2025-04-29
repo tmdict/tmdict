@@ -1,0 +1,265 @@
+.main {
+  float: left;
+  width: 500px;
+}
+
+@media only screen and (max-width: 640px) {
+  .main {
+    width: 100%;
+    min-width: 240px;
+  }
+}
+
+.main-content {
+  font-size: 0.8em;
+  margin: 15px 0 30px;
+  line-height: 1.8em;
+}
+
+@media only screen and (max-width: 640px) {
+  .main-content {
+    font-size: 1em;
+    margin: 15px 0 30px 14px;
+  }
+}
+
+.main-content td {
+  padding: 0 15px 0 5px;
+}
+
+.main-content .entry-content,
+.main-content .page-content {
+  margin: 10px 20px 0 0;
+  font-family: Verdana, Arial, "Microsoft YaHei", Meiryo, Sans-Serif;
+}
+
+.main-content .entry-content table,
+.main-content .page-content table {
+  background: #f8f5ec;
+  border-top: 1px solid #777;
+  border-left: 1px solid #777;
+  border-spacing: 0;
+  margin: 20px auto;
+  width: 99%;
+  font-size: 0.95em;
+}
+
+.main-content .entry-content tr:hover,
+.main-content .page-content tr:hover {
+  background: #f7ebc6;
+  color: #c05b4d;
+}
+
+.main-content .entry-content tr.header td,
+.main-content .page-content tr.header td {
+  color: #555;
+  font-weight: bold;
+  background: #f1ede4;
+}
+
+.main-content .entry-content td,
+.main-content .page-content td {
+  border-right: 1px solid #777;
+  border-bottom: 1px solid #777;
+  line-height: 1.6em;
+  padding: 4px;
+  margin: 12px;
+  font-size: 0.9em;
+  vertical-align: top;
+}
+
+.main-content .entry-content td a,
+.main-content .page-content td a {
+  text-align: left;
+  border: 0;
+}
+
+.main-content .entry-category,
+.main-content .entry-source {
+  margin: 0 0 5px;
+}
+
+.main-content .entry-header {
+  font: normal 1.1em "Trebuchet MS", Trebuchet, Verdana, Arial, Meiryo, Sans-serif;
+}
+
+.main-content .permalink {
+  float: left;
+  color: #aaa;
+  font: normal 1.1em "Trebuchet MS", Trebuchet, Verdana, Arial, Meiryo, Sans-serif;
+}
+
+.main-content .permalink a {
+  color: #aaa;
+  padding: 0 2px;
+}
+
+.main-content .permalink a:hover {
+  color: #36958e;
+  border-bottom: 1px dotted #ccc;
+}
+
+.main-content .entry-content h2 {
+  color: #777;
+  font-size: 1em;
+  margin: 0 0 13px;
+  padding: 9px 0 7px;
+  border: 0;
+}
+
+.main-content .entry-content h3 {
+  color: #333;
+  font-size: 1em;
+}
+
+.main-content .entry-category {
+  width: 100%;
+}
+
+.main-content .entry-category:hover {
+  color: #a5473a;
+}
+
+.main-content .entry-source:hover {
+  color: #637c84;
+}
+
+.main-content .entry-image {
+  margin: 20px auto 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.main-content .entry-image img {
+  border: 1px dashed #ccc;
+  margin: 0 5px;
+}
+
+.main-content .note {
+  color: #aaa;
+  margin: 0 2px 0 1px;
+  font-weight: bold;
+}
+
+.main-content .note a:hover {
+  border-bottom: 1px dotted #ccc;
+}
+
+.main-content .note:before {
+  content: "[";
+}
+
+.main-content .note:after {
+  content: "]";
+}
+
+.main-content .notelink {
+  font-weight: bold;
+}
+
+.main-content .first {
+  border-top: 1px dotted #ccc;
+}
+
+.main-content .filter-list-item {
+  font-size: 0.95em;
+  border-bottom: 1px dotted #ccc;
+}
+
+.main-content .filter-list-item:hover {
+  background: #f7ebc6;
+}
+
+.main-content .filter-list-item .entry-title {
+  font-size: 1.1em;
+  color: #333;
+  width: 170px;
+}
+
+@media only screen and (max-width: 640px) {
+  .main-content .filter-list-item .entry-title {
+    width: 100%;
+  }
+}
+
+.main-content .filter-list-item .entry-category {
+  width: 150px;
+  margin: 2px 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .main-content .filter-list-item .entry-category {
+    width: 100%;
+    margin: 2px;
+  }
+}
+
+.main-content .filter-list-item .entry-source {
+  width: 170px;
+  margin: 2px 0;
+}
+
+@media only screen and (max-width: 640px) {
+  .main-content .filter-list-item .entry-source {
+    width: 100%;
+    margin: 2px;
+  }
+}
+
+.main-content .page-content a {
+  border-bottom: 1px dotted #ccc;
+}
+
+.main-content .page-content td a {
+  display: block;
+}
+
+.main-content .page-content td .source {
+  color: #637c84;
+}
+
+.main-content .page-content td .page {
+  color: #777;
+}
+
+.main-content .page-content td .glossary {
+  color: #c05b4d;
+}
+
+.main-content .page-content td.progress0 {
+  background: #fcc;
+}
+
+.main-content .page-content td.progress1 {
+  background: #fd9;
+}
+
+.main-content .page-content td.progress2 {
+  background: #ff9;
+}
+
+.main-content .page-content td.progress3 {
+  background: #dfc;
+}
+
+.main-content .page-content img {
+  border: 1px dashed #ccc;
+  padding: 2px;
+}
+
+.main-content .page-content .readmore {
+  border-top: 1px dotted #ccc;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.filter-list ul,
+.filter-list ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-list .entry {
+  padding: 5px 0 1px 5px;
+}

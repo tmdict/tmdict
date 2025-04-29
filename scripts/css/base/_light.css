@@ -1,0 +1,21 @@
+:root {
+  --primary-link: #21759b;
+  --primary-link-highlight: #c05b4d;
+  --primary-heading: #c05b4d;
+  --primary-highlight: #f7d87c;
+  --secondary-heading: #333;
+  --secondary-highlight: #c05b4d;
+
+  --bg-main: #f8f7f6;
+  --bg-body: #222;
+  --bg-row-grey-light: #eee;
+  --bg-row-grey-dark: #e9e9e9;
+
+  --text-header: #e6eaed;
+  --text-light: #757575;
+  --text-medium: #333;
+  --text-dark: #555;
+
+  --content-break: url("../../../src/lib/img/style/ornament.png");
+  --content-break-position: calc(50% - 95px);
+}
