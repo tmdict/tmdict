@@ -110,6 +110,9 @@
   }
 
   ul li a { text-decoration: none; }
+  ul li:nth-child(even) { background: var(--bg-row-grey-light); }
+  ul li:hover { background: var(--bg-row-grey-dark); }
+
 
   .header {
     font-weight: bold;

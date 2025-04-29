@@ -212,49 +212,18 @@ h6 {
   }
 }
 
-
-
-.filter-list .list ul li:nth-child(even) {
-  background: var(--bg-row-grey-light);
+.filter-list .list .item .entry-header .search-highlight {
+  color: var(--primary-highlight);
+  background-color: var(--text-medium);
 }
 
-.filter-list .list ul li:hover {
-  background: var(--bg-row-grey-dark);
-}
-
-.filter-list .list .item .name a {
-  color: var(--text-medium);
-}
-
-.filter-list .list .item .category {
-  color: var(--primary-link-highlight);
-}
-
-.filter-list .list .item .work,
-.filter-list .list .item .entry-header {
-  color: var(--primary-link);
-}
-
-.filter-list .list .item .entry-header .search-highlight,
 .filter-list .list .item .entry-content p .search-highlight {
   color: var(--primary-highlight);
   background-color: var(--text-medium);
 }
 
-.filter-list .list .item .entry-content a,
-.filter-list .list .item .entry-content a:hover {
-  color: var(--text-dark);
-}
-
 .filter-list .list .item .entry-content p {
   padding: 0 5px;
-}
-
-.filter-list .list .item .entry-content h2 {
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  margin: 30px 0 0 10px;
 }
 
 .filter-list .list .item .entry-content h3 {
@@ -269,8 +238,4 @@ h6 {
 
 .filter-list .list .item .entry-content h5 {
   margin: 15px 0 5px 15px;
-}
-
-.filter-list .list .item .entry-content p {
-  color: var(--text-medium);
 }
