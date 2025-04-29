@@ -6,14 +6,14 @@
   import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
   
-  export let data;
-
-  let screenWidth;
+  let { data } = $props();
+  let screenWidth = $state(0);
+  const canonicalLink = data.attribute.type === "profile" ? `profile/${data.attribute.id}` : `${data.attribute.ja}.${data.attribute.id}`;
 </script>
 
 <svelte:head>
   <title>{data.attribute.attr.name[store.lang.value]} | CHALDEAの記録</title>
-  <link rel="canonical" href="https://tmdict.com/{data.attribute.type}/{data.attribute.id}" />
+  <link rel="canonical" href="https://tmdict.com/{store.lang.value}/{canonicalLink}" />
 </svelte:head>
 
 <svelte:window bind:innerWidth={screenWidth} />
