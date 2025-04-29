@@ -112,11 +112,18 @@
     display: block;
     text-decoration: none;
     padding: 0.35em 0.25em;
+    color: var(--primary-link);
+  }
+
+  .item.active {
+    color: var(--primary-link-highlight);
+    background: var(--bg-row-grey-light);
   }
 
   .item:hover {
     background: none;
     cursor: pointer;
+    background: var(--bg-row-grey-dark);
   }
 
   @media only screen and (max-width: 840px) {

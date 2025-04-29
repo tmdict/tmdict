@@ -18,6 +18,7 @@
     font: 0.85rem Verdana, Arial, "Microsoft YaHei", Meiryo, sans-serif;
     text-align: center;
     margin: 10px 0 25px;
+    color: var(--text-light);
   }
 
   a {

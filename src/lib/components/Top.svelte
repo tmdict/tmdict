@@ -113,6 +113,7 @@
     grid-row: row-start/row-1;
     text-align: center;
     padding: 1em;
+    color: var(--text-header);
   }
 
   #header .logo {
@@ -137,7 +138,12 @@
     letter-spacing: 0.1rem;
   }
   
-  #name a { text-decoration: none; }
+  #name a {
+    text-decoration: none;
+    color: var(--text-header);
+  }
+
+  #name a .alt { color: var(--primary-highlight); }
   #name a:hover { color: #ccc; }
   #name a:hover .alt { color: #777; }
 
@@ -169,15 +175,18 @@
     font: 0.8rem Arial, "Microsoft YaHei", Meiryo, sans-serif;
     text-decoration: none;
     padding: 0 0.2em;
+    color: var(--text-header);
   }
   
   #nav a:before { 
     content: " | ";
     margin-right: 5px;
+    color: var(--text-header);
   }
 
   #nav a.first::before { content: ""; }
-  #header #nav a.active { color: #f7d87c; }
+  #nav a.active { color: #f7d87c; }
+  #nav a:hover { color: var(--primary-highlight); }
 
   #menu {
     text-transform: uppercase;

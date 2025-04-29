@@ -131,6 +131,7 @@
     letter-spacing: 0.1rem;
     cursor: pointer;
     text-align: center;
+    color: var(--primary-link);
   }
 
   .filter-nav .menu:hover {

@@ -109,38 +109,6 @@ h6 {
   background: var(--bg-main);
 }
 
-#header {
-  color: var(--text-header);
-}
-
-#header #name {
-  color: var(--text-header);
-}
-
-#header #name a {
-  color: var(--text-header);
-}
-
-#header #name a .alt {
-  color: var(--primary-highlight);
-}
-
-#header #nav a {
-  color: var(--text-header);
-}
-
-#header #nav a:before {
-  color: var(--text-header);
-}
-
-#header #nav a:hover {
-  color: var(--primary-highlight);
-}
-
-#footer {
-  color: var(--text-light);
-}
-
 .content {
   line-height: 1.5rem;
   margin-bottom: 7.5em;
@@ -273,34 +241,6 @@ h6 {
   }
 }
 
-.filter-nav .menu,
-.filter-nav .clear,
-.filter-nav .filter-item .quick {
-  color: var(--primary-link);
-}
-
-.filter-nav .label {
-  color: var(--secondary-heading);
-}
-
-.filter-nav .menu .label,
-.filter-nav h6,
-.filter-nav h6:hover .label,
-.filter-nav .clear:hover {
-  color: var(--primary-link-highlight);
-}
-
-.filter-nav .filter-item .quick:hover,
-.filter-nav .filter-item .common:hover {
-  background-color: var(--bg-row-grey-dark);
-}
-
-.filter-nav .filter-item .quick.active,
-.filter-nav .filter-item .common.active {
-  color: var(--secondary-highlight);
-  background-color: var(--bg-row-grey-light);
-}
-
 .filter-list .list ul li:nth-child(even) {
   background: var(--bg-row-grey-light);
 }
@@ -360,17 +300,4 @@ h6 {
 
 .filter-list .list .item .entry-content p {
   color: var(--text-medium);
-}
-
-.filter-list .filter ul li .item {
-  color: var(--primary-link);
-}
-
-.filter-list .filter ul li .item.active {
-  color: var(--primary-link-highlight);
-  background: var(--bg-row-grey-light);
-}
-
-.filter-list .filter ul li .item:hover {
-  background: var(--bg-row-grey-dark);
 }

@@ -97,6 +97,11 @@
 
   h6 .show .label {
     font-size: 1rem;
+    color: var(--secondary-heading);
+  }
+
+  h6, h6:hover .label {
+    color: var(--primary-link-highlight);
   }
 
   .content-row {
@@ -109,11 +114,13 @@
   .clear {
     font-size: 0.9em;
     margin: 8px;
+    color: var(--primary-link);
   }
 
   .clear:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: var(--primary-link-highlight);
   }
 
   .filter-item {
@@ -136,12 +143,21 @@
     padding: 5px 10px 5px 5px;
     overflow-wrap: anywhere;
     align-items: center;
+    color: var(--primary-link);
   }
   
-  .filter-item .quick:hover {
+  .filter-item .quick.active,
+  .filter-item .common.active {
+    color: var(--secondary-highlight);
+    background-color: var(--bg-row-grey-light);
+  }
+
+  .filter-item .quick:hover,
+  .filter-item .common:hover {
     cursor: pointer;
+    background-color: var(--bg-row-grey-dark);
   }
-  
+
   .filter-item .quick.active:hover {
     text-decoration: underline;
   }
@@ -152,12 +168,9 @@
     border-left: 1px solid #aaa;
   }
   
-  .filter-item .common:hover {
-    cursor: pointer;
-  }
-
   .filter-item .common.active {
     background-color: #999;
+    margin: 1px;
     margin-left: 0;
     border-left: 0;
   }
