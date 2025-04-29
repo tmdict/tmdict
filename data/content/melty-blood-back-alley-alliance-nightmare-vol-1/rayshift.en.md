@@ -7,7 +7,7 @@ weight: 27
 translation: "RHuot"
 ---
 
-Pseudo-spiritron transference{{n1}}. A person is transformed into a pseudo-spiritron form (their soul is quantified as data) and projected into a different time axis/phase. Rayshifting is a navigation technique that has been proved to perform such transference. A mix of time travel and parallel worlds.
+Pseudo-spiritron{{n1}} transference. A person is transformed into a pseudo-spiritron form (their soul is quantified as data) and projected into a different time axis/phase. Rayshifting is a navigation technique that has been proved to perform such transference. A mix of time travel and parallel worlds.
 
 ##### {{notes}}
 
