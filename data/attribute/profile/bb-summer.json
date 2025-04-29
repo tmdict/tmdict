@@ -3,13 +3,13 @@
   "uid": "220:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0220a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0220b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0220c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0220d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0220e_april-fools.png" },
-    { "weight": 6, "id": "img_little-devils-egg-colored-skin-s2", "src": "S0220f_little-devils-egg-colored-skin-s2.png" },
-    { "weight": 7, "id": "img_little-devils-egg-colored-skin-s3", "src": "S0220g_little-devils-egg-colored-skin-s3.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0220a" },
+    { "weight": 2, "id": "img_s2", "src": "S0220b" },
+    { "weight": 3, "id": "img_s3", "src": "S0220c" },
+    { "weight": 4, "id": "img_s4", "src": "S0220d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0220e_april-fools" },
+    { "weight": 6, "id": "img_little-devils-egg-colored-skin-s2", "src": "S0220f_little-devils-egg-colored-skin-s2" },
+    { "weight": 7, "id": "img_little-devils-egg-colored-skin-s3", "src": "S0220g_little-devils-egg-colored-skin-s3" }
   ],
 
   "attribute": {

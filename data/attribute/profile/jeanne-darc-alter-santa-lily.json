@@ -3,9 +3,9 @@
   "uid": "141:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0141a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0141d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0141e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0141a" },
+    { "weight": 4, "id": "img_s4", "src": "S0141d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0141e_april-fools" }
   ],
 
   "attribute": {

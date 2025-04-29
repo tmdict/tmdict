@@ -9,8 +9,8 @@
   <div class="embla__container">
       {#each attribute.img as img}
       <div class="embla__slide">
-        <a href="https://img.tmdict.com/profile/{img.src}">
-          <img src="https://img.tmdict.com/profile/{img.src}" id={img.id} alt={img.id} />
+        <a href="https://img.tmdict.com/profile/{img.src}.png">
+          <img src="https://img.tmdict.com/profile/{img.src}.png" id={img.id} alt={img.id} />
         </a>
       </div>
       {/each}

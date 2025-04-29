@@ -3,13 +3,13 @@
   "uid": "210:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0210a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0210b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0210c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0210d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0210e_april-fools.png" },
-    { "weight": 6, "id": "img_yooo-this-hakama-is-rad", "src": "S0210f_yooo-this-hakama-is-rad.png" },
-    { "weight": 7, "id": "img_im-one-dapping-fella-suit", "src": "S0210g_im-one-dapping-fella-suit.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0210a" },
+    { "weight": 2, "id": "img_s2", "src": "S0210b" },
+    { "weight": 3, "id": "img_s3", "src": "S0210c" },
+    { "weight": 4, "id": "img_s4", "src": "S0210d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0210e_april-fools" },
+    { "weight": 6, "id": "img_yooo-this-hakama-is-rad", "src": "S0210f_yooo-this-hakama-is-rad" },
+    { "weight": 7, "id": "img_im-one-dapping-fella-suit", "src": "S0210g_im-one-dapping-fella-suit" }
   ],
 
   "attribute": {

@@ -3,12 +3,12 @@
   "uid": "257:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0257a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0257b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0257c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0257d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0257e_april-fools.png" },
-    { "weight": 6, "id": "img_smiley-summer-wear", "src": "S0257f_smiley-summer-wear.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0257a" },
+    { "weight": 2, "id": "img_s2", "src": "S0257b" },
+    { "weight": 3, "id": "img_s3", "src": "S0257c" },
+    { "weight": 4, "id": "img_s4", "src": "S0257d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0257e_april-fools" },
+    { "weight": 6, "id": "img_smiley-summer-wear", "src": "S0257f_smiley-summer-wear" }
   ],
 
   "attribute": {

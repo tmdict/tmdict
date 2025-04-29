@@ -3,11 +3,11 @@
   "uid": "212:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0212a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0212b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0212c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0212d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0212e_april-fools.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0212a" },
+    { "weight": 2, "id": "img_s2", "src": "S0212b" },
+    { "weight": 3, "id": "img_s3", "src": "S0212c" },
+    { "weight": 4, "id": "img_s4", "src": "S0212d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0212e_april-fools" }
   ],
 
   "attribute": {

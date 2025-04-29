@@ -3,12 +3,12 @@
   "uid": "266:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0266a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0266b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0266c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0266d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0266e_april-fools.png" },
-    { "weight": 6, "id": "img_ice-celebrity", "src": "S0266f_ice-celebrity.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0266a" },
+    { "weight": 2, "id": "img_s2", "src": "S0266b" },
+    { "weight": 3, "id": "img_s3", "src": "S0266c" },
+    { "weight": 4, "id": "img_s4", "src": "S0266d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0266e_april-fools" },
+    { "weight": 6, "id": "img_ice-celebrity", "src": "S0266f_ice-celebrity" }
   ],
 
   "attribute": {

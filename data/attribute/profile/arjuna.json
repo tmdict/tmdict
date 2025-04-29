@@ -3,12 +3,12 @@
   "uid": "84:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0084a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0084b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0084c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0084d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0084e_april-fools.png" },
-    { "weight": 6, "id": "img_endowed-travel-wear", "src": "S0084f_endowed-travel-wear.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0084a" },
+    { "weight": 2, "id": "img_s2", "src": "S0084b" },
+    { "weight": 3, "id": "img_s3", "src": "S0084c" },
+    { "weight": 4, "id": "img_s4", "src": "S0084d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0084e_april-fools" },
+    { "weight": 6, "id": "img_endowed-travel-wear", "src": "S0084f_endowed-travel-wear" }
   ],
 
   "attribute": {

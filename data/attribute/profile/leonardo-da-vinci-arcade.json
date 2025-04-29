@@ -3,8 +3,8 @@
   "uid": "329.01:fgoarc",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "329.01a.png" },
-    { "weight": 4, "id": "img_s4", "src": "329.01d.png" }
+    { "weight": 1, "id": "img_s1", "src": "329.01a" },
+    { "weight": 4, "id": "img_s4", "src": "329.01d" }
   ],
 
   "attribute": {

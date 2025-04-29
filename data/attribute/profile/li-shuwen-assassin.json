@@ -3,13 +3,13 @@
   "uid": "235:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0235a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0235b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0235c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0235d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0235e_april-fools.png" },
-    { "weight": 6, "id": "img_glassless-s1", "src": "S0235f_glassless-s1.png" },
-    { "weight": 7, "id": "img_glassless-s2", "src": "S0235g_glassless-s2.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0235a" },
+    { "weight": 2, "id": "img_s2", "src": "S0235b" },
+    { "weight": 3, "id": "img_s3", "src": "S0235c" },
+    { "weight": 4, "id": "img_s4", "src": "S0235d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0235e_april-fools" },
+    { "weight": 6, "id": "img_glassless-s1", "src": "S0235f_glassless-s1" },
+    { "weight": 7, "id": "img_glassless-s2", "src": "S0235g_glassless-s2" }
   ],
 
   "attribute": {

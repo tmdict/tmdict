@@ -3,15 +3,15 @@
   "uid": "247:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0247a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0247b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0247c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0247d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0247e_april-fools.png" },
-    { "weight": 6, "id": "img_student-council-president-arjuna", "src": "S0247f_student-council-president-arjuna.png" },
-    { "weight": 7, "id": "img_student-council-president-arjuna-full", "src": "S0247g_student-council-president-arjuna-full.png" },
-    { "weight": 8, "id": "img_student-council-president-arjuna-glasses", "src": "S0247h_student-council-president-arjuna-glasses.png" },
-    { "weight": 7, "id": "img_student-council-president-arjuna-glasses-full", "src": "S0247i_student-council-president-arjuna-glasses-full.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0247a" },
+    { "weight": 2, "id": "img_s2", "src": "S0247b" },
+    { "weight": 3, "id": "img_s3", "src": "S0247c" },
+    { "weight": 4, "id": "img_s4", "src": "S0247d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0247e_april-fools" },
+    { "weight": 6, "id": "img_student-council-president-arjuna", "src": "S0247f_student-council-president-arjuna" },
+    { "weight": 7, "id": "img_student-council-president-arjuna-full", "src": "S0247g_student-council-president-arjuna-full" },
+    { "weight": 8, "id": "img_student-council-president-arjuna-glasses", "src": "S0247h_student-council-president-arjuna-glasses" },
+    { "weight": 7, "id": "img_student-council-president-arjuna-glasses-full", "src": "S0247i_student-council-president-arjuna-glasses-full" }
   ],
 
   "attribute": {

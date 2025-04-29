@@ -3,14 +3,14 @@
   "uid": "85:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0085a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0085b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0085c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0085d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0085e_april-fools.png" },
-    { "weight": 6, "id": "img_burning-garment-of-three-gods", "src": "S0085f_burning-garment-of-three-gods.png" },
-    { "weight": 7, "id": "img_iridescence-shining-at-the-end", "src": "S0085g_iridescence-shining-at-the-end.png" },
-    { "weight": 8, "id": "img_karnas-summer-outfit", "src": "S0085h_karnas-summer-outfit.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0085a" },
+    { "weight": 2, "id": "img_s2", "src": "S0085b" },
+    { "weight": 3, "id": "img_s3", "src": "S0085c" },
+    { "weight": 4, "id": "img_s4", "src": "S0085d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0085e_april-fools" },
+    { "weight": 6, "id": "img_burning-garment-of-three-gods", "src": "S0085f_burning-garment-of-three-gods" },
+    { "weight": 7, "id": "img_iridescence-shining-at-the-end", "src": "S0085g_iridescence-shining-at-the-end" },
+    { "weight": 8, "id": "img_karnas-summer-outfit", "src": "S0085h_karnas-summer-outfit" }
   ],
 
   "attribute": {

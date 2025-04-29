@@ -3,12 +3,12 @@
   "uid": "70:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0070a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0070b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0070c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0070d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0070e_april-fools.png" },
-    { "weight": 6, "id": "img_piercing-bunny", "src": "S0070f_piercing-bunny.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0070a" },
+    { "weight": 2, "id": "img_s2", "src": "S0070b" },
+    { "weight": 3, "id": "img_s3", "src": "S0070c" },
+    { "weight": 4, "id": "img_s4", "src": "S0070d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0070e_april-fools" },
+    { "weight": 6, "id": "img_piercing-bunny", "src": "S0070f_piercing-bunny" }
   ],
 
   "attribute": {

@@ -3,10 +3,10 @@
   "uid": "329.09:fgoarc",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "329.09a.png" },
-    { "weight": 2, "id": "img_s2", "src": "329.09b.png" },
-    { "weight": 3, "id": "img_s3", "src": "329.09c.png" },
-    { "weight": 4, "id": "img_s4", "src": "329.09d.png" }
+    { "weight": 1, "id": "img_s1", "src": "329.09a" },
+    { "weight": 2, "id": "img_s2", "src": "329.09b" },
+    { "weight": 3, "id": "img_s3", "src": "329.09c" },
+    { "weight": 4, "id": "img_s4", "src": "329.09d" }
   ],
 
   "attribute": {

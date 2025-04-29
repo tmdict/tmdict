@@ -3,12 +3,12 @@
   "uid": "96:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0096a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0096b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0096c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0096d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0096e_april-fools.png" },
-    { "weight": 6, "id": "img_monte-cristo-selection", "src": "S0096f_monte-cristo-selection.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0096a" },
+    { "weight": 2, "id": "img_s2", "src": "S0096b" },
+    { "weight": 3, "id": "img_s3", "src": "S0096c" },
+    { "weight": 4, "id": "img_s4", "src": "S0096d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0096e_april-fools" },
+    { "weight": 6, "id": "img_monte-cristo-selection", "src": "S0096f_monte-cristo-selection" }
   ],
 
   "attribute": {

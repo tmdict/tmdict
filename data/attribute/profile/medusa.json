@@ -3,12 +3,12 @@
   "uid": "23:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0023a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0023b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0023c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0023d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0023e_april-fools.png" },
-    { "weight": 6, "id": "img_reading-glasses", "src": "S0023f_reading-glasses.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0023a" },
+    { "weight": 2, "id": "img_s2", "src": "S0023b" },
+    { "weight": 3, "id": "img_s3", "src": "S0023c" },
+    { "weight": 4, "id": "img_s4", "src": "S0023d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0023e_april-fools" },
+    { "weight": 6, "id": "img_reading-glasses", "src": "S0023f_reading-glasses" }
   ],
 
   "attribute": {

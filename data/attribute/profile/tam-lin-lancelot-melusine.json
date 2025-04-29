@@ -3,14 +3,14 @@
   "uid": "312:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0312a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0312b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0312c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0312d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0312e_april-fools.png" },
-    { "weight": 6, "id": "img_faerie-knight-lancelot-s1", "src": "S0312f_faerie-knight-lancelot-s1.png" },
-    { "weight": 7, "id": "img_faerie-knight-lancelot-s2", "src": "S0312g_faerie-knight-lancelot-s2.png" },
-    { "weight": 8, "id": "img_red-hot-deviation", "src": "S0312h_red-hot-deviation.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0312a" },
+    { "weight": 2, "id": "img_s2", "src": "S0312b" },
+    { "weight": 3, "id": "img_s3", "src": "S0312c" },
+    { "weight": 4, "id": "img_s4", "src": "S0312d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0312e_april-fools" },
+    { "weight": 6, "id": "img_faerie-knight-lancelot-s1", "src": "S0312f_faerie-knight-lancelot-s1" },
+    { "weight": 7, "id": "img_faerie-knight-lancelot-s2", "src": "S0312g_faerie-knight-lancelot-s2" },
+    { "weight": 8, "id": "img_red-hot-deviation", "src": "S0312h_red-hot-deviation" }
   ],
 
   "attribute": {

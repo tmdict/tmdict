@@ -3,12 +3,12 @@
   "uid": "171:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0171a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0171b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0171c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0171d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0171e_april-fools.png" },
-    { "weight": 6, "id": "img_amazoness-ceo-set", "src": "S0171f_amazoness-ceo-set.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0171a" },
+    { "weight": 2, "id": "img_s2", "src": "S0171b" },
+    { "weight": 3, "id": "img_s3", "src": "S0171c" },
+    { "weight": 4, "id": "img_s4", "src": "S0171d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0171e_april-fools" },
+    { "weight": 6, "id": "img_amazoness-ceo-set", "src": "S0171f_amazoness-ceo-set" }
   ],
 
   "attribute": {

@@ -3,11 +3,11 @@
   "uid": "233:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0233a.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0233d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0233e_april-fools.png" },
-    { "weight": 6, "id": "img_tecnico-mascara", "src": "S0233f_tecnico-mascara.png" },
-    { "weight": 7, "id": "img_rudos-mascara", "src": "S0233g_rudos-mascara.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0233a" },
+    { "weight": 4, "id": "img_s4", "src": "S0233d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0233e_april-fools" },
+    { "weight": 6, "id": "img_tecnico-mascara", "src": "S0233f_tecnico-mascara" },
+    { "weight": 7, "id": "img_rudos-mascara", "src": "S0233g_rudos-mascara" }
   ],
 
   "attribute": {

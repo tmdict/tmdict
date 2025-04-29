@@ -3,12 +3,12 @@
   "uid": "59:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0059a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0059b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0059c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0059d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0059e_april-fools.png" },
-    { "weight": 6, "id": "img_prove", "src": "S0059f_prove.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0059a" },
+    { "weight": 2, "id": "img_s2", "src": "S0059b" },
+    { "weight": 3, "id": "img_s3", "src": "S0059c" },
+    { "weight": 4, "id": "img_s4", "src": "S0059d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0059e_april-fools" },
+    { "weight": 6, "id": "img_prove", "src": "S0059f_prove" }
   ],
 
   "attribute": {

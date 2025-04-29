@@ -3,12 +3,12 @@
   "uid": "3:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0003a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0003b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0003c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0003d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0003e_april-fools.png" },
-    { "weight": 6, "id": "img_jet-black-king-of-knights-ver-shinjuku-1999", "src": "S0003f_jet-black-king-of-knights-ver-shinjuku-1999.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0003a" },
+    { "weight": 2, "id": "img_s2", "src": "S0003b" },
+    { "weight": 3, "id": "img_s3", "src": "S0003c" },
+    { "weight": 4, "id": "img_s4", "src": "S0003d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0003e_april-fools" },
+    { "weight": 6, "id": "img_jet-black-king-of-knights-ver-shinjuku-1999", "src": "S0003f_jet-black-king-of-knights-ver-shinjuku-1999" }
   ],
 
   "attribute": {

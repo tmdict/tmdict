@@ -3,12 +3,12 @@
   "uid": "313:fgosvt",
 
   "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0313a.png" },
-    { "weight": 2, "id": "img_s2", "src": "S0313b.png" },
-    { "weight": 3, "id": "img_s3", "src": "S0313c.png" },
-    { "weight": 4, "id": "img_s4", "src": "S0313d.png" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0313e_april-fools.png" },
-    { "weight": 6, "id": "img_summer-knight-outfit", "src": "S0313f_summer-knight-outfit.png" }
+    { "weight": 1, "id": "img_s1", "src": "S0313a" },
+    { "weight": 2, "id": "img_s2", "src": "S0313b" },
+    { "weight": 3, "id": "img_s3", "src": "S0313c" },
+    { "weight": 4, "id": "img_s4", "src": "S0313d" },
+    { "weight": 5, "id": "img_april-fools", "src": "S0313e_april-fools" },
+    { "weight": 6, "id": "img_summer-knight-outfit", "src": "S0313f_summer-knight-outfit" }
   ],
 
   "attribute": {
