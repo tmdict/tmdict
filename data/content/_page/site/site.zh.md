@@ -14,6 +14,8 @@ name: "网站"
 
 以上为本网站的规则，有的翻译者和数据提供者对自己的翻译也会有不同的要求，请尊重他们的要求。如果有问题，我们推荐跟翻译者直接联系。
 
+网站内使用的游戏图片和文本原文仅用于更好地表现游戏资料，其版权属于TYPE-MOON/FGO PROJECT。
+
 ## 应援
 
 如果有兴趣参与网站内容的制作和修改，请<a href="/contact/">联系我们</a>。您也可以<a href="https://github.com/tmdict/tmdict/tree/main/data">通过GitHub</a>直接帮忙翻译或整理资源。
@@ -121,7 +123,7 @@ MOONLIGHT/LOSTROOM辞典的完整中文和英文翻译以添加到网站上。CH
 
 型月辞典最近开发的一个小项目：
 
-[CHALDEAの記録](https://chaldea.tmdict.com/)，这是一个以『Fate/Grand Order』英灵和概念礼装的资料网站。其内容以出现在Type-Moon和FGO官方设定或资料里的用语以及它们的翻译为主。目前不包括游戏数据和信息，以及没有出现在Type-Moon官方设定里的资源。
+CHALDEAの記録，这是一个以『Fate/Grand Order』英灵和概念礼装的资料网站。其内容以出现在Type-Moon和FGO官方设定或资料里的用语以及它们的翻译为主。目前不包括游戏数据和信息，以及没有出现在Type-Moon官方设定里的资源。
 
 这次更新网站后端架构也有很大的变化，从React迁移到Svelte，全部数据移植到了GitHub，网站性能大幅度提升。
 

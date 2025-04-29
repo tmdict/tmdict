@@ -5,8 +5,6 @@
 
 <div class="content">
   <h1>{PAGES.site.i18n[store.lang.value].name.name}</h1>
-  
   <div class="content"></div>
-
   <div>{@html PAGES.site.i18n[store.lang.value].html}</div>
 </div>

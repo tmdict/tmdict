@@ -253,6 +253,20 @@ h6 {
   font-weight: bold;
 }
 
+.content td .source {
+  color: var(--primary-link-highlight);
+}
+
+.content td .glossary {
+  color: var(--primary-link);
+  font-weight: normal;
+}
+
+.content td .page {
+  color: #777;
+  font-weight: normal;
+}
+
 @media only screen and (max-width: 660px) {
   .content td:nth-child(1) {
     width: 140px;

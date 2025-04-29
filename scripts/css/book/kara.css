@@ -119,6 +119,12 @@ a:hover {
   text-align: center;
 }
 
+@media only screen and (max-width: 660px) {
+  #main #toc h1 {
+    font-size: 1.6em;
+  }
+}
+
 #main #toc ul {
   list-style: none;
   margin: 0;
@@ -139,6 +145,12 @@ a:hover {
 
 #main #toc li:hover {
   background: #f8f7ef;
+}
+
+@media only screen and (max-width: 660px) {
+  #main #toc li a {
+    font-size: 0.8em;
+  }
 }
 
 #main #toc .info {

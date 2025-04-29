@@ -145,6 +145,7 @@
       "site": { "en": "Site", "ja": "サイト", "zh": "网站" },
       "source": { "en": "Source", "ja": "出典", "zh": "资料来源" },
       "translation": { "en": "Translation", "ja": "", "zh": "翻译" },
+      "update": { "en": "Site Updates", "ja": "サイト更新", "zh": "网站更新" },
 
       "_1": { "en": "", "ja": "", "zh": "" },
       "_2": { "en": "", "ja": "", "zh": "" },

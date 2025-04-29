@@ -13,7 +13,7 @@
   <div>{@html PAGES.top.i18n[store.lang.value].html}</div>
 </div>
 
-<div class="content">
+<div class="content frontpage">
   <a href="/{store.lang.value}/profile/" aria-label="Profile">
     <enhanced:img class="center" src={profileBanner} alt="Profile" />
   </a>
@@ -21,6 +21,11 @@
   <a href="/{store.lang.value}/glossary" aria-label="Glossary">
     <enhanced:img class="center" src={glossaryBanner} alt="Glossary" />
   </a>
+</div>
+
+<div class="content frontpage">
+  <h2>{APP.i18n.update[store.lang.value]}</h2>
+  <div>{@html PAGES.updates.i18n[store.lang.value].html}</div>
 </div>
 
 <div class="content">
@@ -34,11 +39,19 @@
 </div>
 
 <style>
-  img {
+  .center {
+    margin: 15px auto;
+  }
+
+  :global(.frontpage img) {
     display: block;
   }
 
-  .center {
-    margin: 15px auto;
+  :global(.frontpage ul) {
+    padding-left: 30px;
+  }
+
+  :global(.frontpage li) {
+    margin-top: 10px;
   }
 </style>

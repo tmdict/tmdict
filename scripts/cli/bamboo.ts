@@ -20,21 +20,6 @@ const filters = {
   "contentFilter": ["source", "category"]
 }
 
-const side: any = {
-  "en": {
-    "top": "<p>TMdict is a growing collection of glossaries from works by Type-Moon.</p><p>It presents the content in a light-weight, simple format that can be sorted and searched.</p>",
-    "contribute": "<h2>Contribute</h2><p>Have a question? Find an error? Want to contribute? <a href=\"../../contact/\">Contact us</a>!</p>"
-  },
-  "ja": {
-    "top": "<p>TMdict は、ゲーム、書籍、アニメなどTYPE-MOON の作品のボキャブラリーを収録していくプロジェクトです。</p><p>コンテンツは軽量かつシンプルなフォーマットで、用語の検索や並べ替えが可能です。</p>",
-    "contribute": "<h2>お問合わせ</h2><p>ご質問やエラーのご連絡、またご協力については<a href=\"../../contact/\">お問い合わせください</a>。</p>"
-  },
-  "zh": {
-    "top": "<p>型月辞典是一个在不断扩展的，以Type-Moon游戏，书，动漫等作品的词条为基础的网站。</p><p>本网站注重构造简单，方便快捷的模式，并提供一些简单的分类和搜索功能。</p>",
-    "contribute": "<h2>应援</h2><p>有问题？碰到错误或不顺的地方了？想帮忙翻译或整理资源？请<a href=\"../../contact/\">联系我们</a>！</p>"
-  }
-}
-
 /** Generates a file for the given template and data */
 function toTemplate(template: string, path: string, data: any): void {
   try {
@@ -79,6 +64,17 @@ export default class Bamboo {
       .then((output) => {
         fs.outputFileSync("static/legacy/src/css/bamboo.css", output.css);
       });
+    // Load pages and sidebar data
+    const pageData = parser.parseEntry("page", "page", attrData, contentData);
+    const sideData = pageData.content
+    .filter(page => ["top", "contribute"].includes(page.id))
+    .reduce((acc: any, page) => {
+      Object.keys(page.i18n).forEach(lang => {
+        acc[lang] = acc[lang] || {};
+        acc[lang][page.id] = page.i18n[lang].html;
+      });
+      return acc;
+    }, {});
       // Build Entries
     Object.keys(attrData.glossary).forEach((entryId: string) => {
       const entryDataRaw: EntryData = parser.parseEntry(entryId, "glossary", attrData, contentData);
@@ -108,7 +104,7 @@ export default class Bamboo {
           sidebar: {
             fname: attrData["hiragana"][ja].data.name[lang],
             lname: "",
-            content: side[lang],
+            content: sideData[lang],
           },
           back: `/${lang}/${ja}.${entryData.attribute.id}`,
         });
@@ -131,8 +127,6 @@ export default class Bamboo {
     Object.keys(attrData["work"]).forEach((work: string) => {
       i18n["work"][work] = attrData["work"][work].data.name;
     });
-    // Load pages data
-    const pageData = parser.parseEntry("page", "page", attrData, contentData);
     Object.keys(appConfig.app.lang).forEach((lang) => {
       // Build pages
       pageData.content.forEach((page) => {
@@ -150,7 +144,7 @@ export default class Bamboo {
           sidebar: {
             fname: page.i18n.en.name.name[0],
             lname: page.i18n.en.name.name.substring(1),
-            content: side[lang],
+            content: sideData[lang],
           },
           back: `/${lang}/${page.id}`,
         });

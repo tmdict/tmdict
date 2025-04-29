@@ -51,11 +51,11 @@
 <div id="top"></div>
 
 <div id="header">
-  <a href="/" aria-label="TMdict"><enhanced:img class="logo" src={topImg} title="TMdict" alt="TMdict" /></a>
+  <a href="/{store.lang.value}/" aria-label="TMdict"><enhanced:img class="logo" src={topImg} title="TMdict" alt="TMdict" /></a>
 
   <div id="title">
     <div id="name">
-      <a href="/{store.lang.value}/"><span class="alt">TM</span>dict</a>
+      <a href="/"><span class="alt">TM</span>dict</a>
     </div>
 
     <div id="svg-icons">

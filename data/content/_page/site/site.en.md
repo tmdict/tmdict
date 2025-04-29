@@ -14,6 +14,8 @@ The contents of this site may be used in derivative works on the condition that 
 
 This policy applies to all content excepting translations by translators and data providers who have additional policies regarding usage of their work. When in doubt, we recommend you contact the translator for permission.
 
+This site uses images and materials from the game to enrich the user experience, all official materials are copyright of TYPE-MOON/FGO PROJECT.
+
 ## Collaborate
 
 If you are interested in contributing, please <a href="/contact/">send us a message</a>. You can also contribute directly <a href="https://github.com/tmdict/tmdict/tree/main/data">via GitHub</a>.
@@ -121,7 +123,7 @@ Full English and Chinese glossary translation for _MOONLIGHT/LOSTROOM material_ 
 
 TMdict is excited to announce the launch of a new project:
 
-[CHALDEAの記録](https://chaldea.tmdict.com/) (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
+CHALDEAの記録 (Chaldea Records) is a compendium of 『Fate/Grand Order』 data and lore. It is a collection of Servant and Craft Essence text and translations found in official materials, books and games. It currently does not focus on game-related stats and data.
 
 The site’s backend archtecture also received a major update, switching from React to Svelte, as well as moving its data to GitHub. Many small improvements have also been made around the site.
 

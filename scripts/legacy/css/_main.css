@@ -226,22 +226,6 @@
   color: #c05b4d;
 }
 
-.main-content .page-content td.progress0 {
-  background: #fcc;
-}
-
-.main-content .page-content td.progress1 {
-  background: #fd9;
-}
-
-.main-content .page-content td.progress2 {
-  background: #ff9;
-}
-
-.main-content .page-content td.progress3 {
-  background: #dfc;
-}
-
 .main-content .page-content img {
   border: 1px dashed #ccc;
   padding: 2px;
