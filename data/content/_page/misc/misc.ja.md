@@ -10,7 +10,7 @@ name: "その他"
 
 型月辞典の旧版ウェブサイト。
 
-<a href="../../legacy/ja/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../banner.png" alt="banner" /></a>
+<a href="../../legacy/ja/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../img/banner.png" alt="banner" /></a>
 
 以下、現在ご利用可能（こちらで把握している限り）なType-Moon用語集のリストです。
 

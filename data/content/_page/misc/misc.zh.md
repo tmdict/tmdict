@@ -10,7 +10,7 @@ name: "其他"
 
 型月辞典的旧版网站。
 
-<a href="../../legacy/zh/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../banner.png" alt="banner" /></a>
+<a href="../../legacy/zh/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../img/banner.png" alt="banner" /></a>
 
 以下是我们能找到的所有Type-Moon作品相关辞典（根据我们能找到的几乎所有资料）。
 

@@ -16,6 +16,6 @@
   --text-medium: #333;
   --text-dark: #555;
 
-  --content-break: url("../../../src/lib/img/style/ornament.png");
+  --content-break: url("/img/ornament.png");
   --content-break-position: calc(50% - 95px);
 }

@@ -10,7 +10,7 @@ name: "Misc"
 
 Older version of TMdict, in its original theme.
 
-<a href="../../legacy/en/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../banner.png" alt="banner" /></a>
+<a href="../../legacy/en/index.html"><img style="border:1px dotted #777; padding: 3px;" title="Link to us!" src="../img/banner.png" alt="banner" /></a>
 
 Below is a list of all Type-Moon glossaries currently available (as far as we know!).
 

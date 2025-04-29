@@ -5,8 +5,9 @@
   import APP from "$lib/__generated/constants.json";
 
   let { filterKey, filterValues, i18n } = $props();
-
   let showFilter = $state(false);
+
+  const sorted = filterValues.sort((a, b) => i18n[filterKey][a][store.lang.value].localeCompare(i18n[filterKey][b][store.lang.value]))
 
   if (["alphabet", "star"].includes(filterKey)) {
     showFilter = true;
@@ -59,19 +60,10 @@
       <span class="clear"
         role="button"
         tabindex="0"
-        onclick={() => filterlist.resetByType(filterKey)}
-        onkeydown={() => filterlist.reset()}
-      >
-        Clear
-      </span>
-      ·
-      <span class="clear"
-        role="button"
-        tabindex="0"
         onclick={() => filterlist.reset()}
         onkeydown={() => filterlist.reset()}
       >
-        Clear All
+        Clear
       </span>
     </div>
   {/if}
