@@ -62,11 +62,6 @@
   })
 </script>
 
-<svelte:head>
-  <title>{data.attribute.name[lang]} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{lang}/{data.attribute.type}" />
-</svelte:head>
-
 <h1>{data.attribute.name[lang]}</h1>
 
 {#if data.attribute.type === "glossary"}

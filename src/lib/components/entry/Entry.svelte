@@ -7,13 +7,7 @@
   
   let { lang, data } = $props();
   let screenWidth = $state(0);
-  const canonicalLink = data.attribute.type === "profile" ? `profile/${data.attribute.id}` : `${data.attribute.ja}.${data.attribute.id}`;
 </script>
-
-<svelte:head>
-  <title>{data.attribute.attr.name[lang]} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{lang}/{canonicalLink}" />
-</svelte:head>
 
 <svelte:window bind:innerWidth={screenWidth} />
 

@@ -6,7 +6,7 @@
 
 <svelte:head>
   <title>{PAGES.site.i18n[data.lang].name.name} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{data.lang}/site/" />
+  <link rel="canonical" href="https://www.tmdict.com/{data.lang}/site" />
 </svelte:head>
 
 <div class="content">
