@@ -14,10 +14,10 @@ At the conclusion of Heaven’s Fall, Sakura mentions something at the end about
 This means that the protagonist’s consciousness is reincarnated in the real world with an artificially created human body.
 (Since Sakura is an AI, the base of her body is different from that of humans.)
 After that, since they are now far from the Moon, Sakura and the protagonist have no means of finding out what happened with the Holy Grail War.
-Perhaps Leo won and is facing off against “him”{{n1}} in Moon Cell‘s core. Is it Rin or Rani who survived?
+Perhaps Leo won and is facing off against “him”{{n1}} in Moon Cell’s core. Is it Rin or Rani who survived?
 Or is it true to history where the weakest Master, not involved in the events of CCC, made it to the core?
 It’s a future filled with the hope of endless possibilities.
 
 ##### {{notes}}
 
-1. {{note1}} “Him” is in reference to Twice, who‘s waiting for the winner.
+1. {{note1}} “Him” is in reference to Twice, who’s waiting for the winner.

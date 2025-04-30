@@ -24,7 +24,7 @@ Julius was originally a contract killer, and Assassin was originally a professio
 Julius kills due to his profession,
 while Assassin enjoys a fight to the death because he is a warrior.
 Although Assassin is not a maniacal killer, he feels joy once a fight starts.
-Assassin would heartily laugh and say that without such an attitude it would be impossible to reach the height of martial arts, to which Julius replied seriously: “……so that‘s how it is.”
+Assassin would heartily laugh and say that without such an attitude it would be impossible to reach the height of martial arts, to which Julius replied seriously: “……so that’s how it is.”
 
 <>
 

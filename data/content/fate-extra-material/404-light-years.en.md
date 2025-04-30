@@ -9,9 +9,9 @@ category:
 - codecast
 ---
 
-This is the borderline that lies between the seventh layer and Moon Cell‘s core. Pseudo-Spiritrons are made of light, and it’s warned that at the speed of light it would take 404 years to get past this border and to the computer addresses which lie beyond. This essentially communicates “that address doesn’t exist” to anyone/anything attempting to pass.
+This is the borderline that lies between the seventh layer and Moon Cell’s core. Pseudo-Spiritrons are made of light, and it’s warned that at the speed of light it would take 404 years to get past this border and to the computer addresses which lie beyond. This essentially communicates “that address doesn’t exist” to anyone/anything attempting to pass.
 It’s actually an infinite distance that cannot be covered even if you try for centuries.
-The only thing that can serve as a bridge across the borderline to connect Moon Cell‘s core to the normal address space is the arena that Moon Cell made to summon the victor of the Holy Grail War.
+The only thing that can serve as a bridge across the borderline to connect Moon Cell’s core to the normal address space is the arena that Moon Cell made to summon the victor of the Holy Grail War.
 …Is how it’s supposed to be, but BB used an imaginary number space to force herself to become an infinite concept,
 and by using a fake arena she managed to break past the borderline.
 When she decided to take on the massive problem of getting past 404 Light Years, her words were filled with determination,

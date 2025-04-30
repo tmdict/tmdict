@@ -49,7 +49,7 @@ She brags that though her painterly skills may still have a ways to go, her crea
 
 “Ain’t it a lil’ too early for s-s-smooching…?”
 
-“*cough* *cough* ‘s dang smoky! If ya gonna smoke a cig then do it somewhere else”
+“*cough* *cough* ’s dang smoky! If ya gonna smoke a cig then do it somewhere else”
 
 “If ya gon kill a painter ya dun need a blade, just three deadlines. So scary, damn scary… as scary as swallowing a kuwai-no-kinton whole”
 
@@ -99,13 +99,13 @@ She carps about every damn thing I do… I mean, didya forget? The Xian soars, t
 
 #### Gogh
 
-Spinnin’ round ‘n round, almost dizzyingly… tremendously captivating. Ya sure paint some good stuff, lady Vincent van Gogh. Ain’t it just a bit too sad that the works of someone like this only sold in the handful in their lifetime? Guess I shoulda be thankful towards poppa together with the mister at the publishin’ house.
+Spinnin’ round ’n round, almost dizzyingly… tremendously captivating. Ya sure paint some good stuff, lady Vincent van Gogh. Ain’t it just a bit too sad that the works of someone like this only sold in the handful in their lifetime? Guess I shoulda be thankful towards poppa together with the mister at the publishin’ house.
 Might be a bit intrusive of me but I’ll also burden myself with that conviction of yours that led to ya to grip the brush even unto death, lady Gogh.
 
 #### Suzuka Gozen
 
-Demoness of the Heavens, Suzuka Gozen… The totally chic ‘n new, gallant girl ‘a heaven!
-I know I tried showin’ off ‘n saying I too would build up my “Jay-Kay” power to imitate you but… t’was a bit much.
+Demoness of the Heavens, Suzuka Gozen… The totally chic ’n new, gallant girl ‘a heaven!
+I know I tried showin’ off ’n saying I too would build up my “Jay-Kay” power to imitate you but… t’was a bit much.
 Gotta thinka ‘nother approach, I thought. All ‘a sudden I ‘membered the great thief who pilfered over 3000 ryo—Nezumi Kozou and then it came to me!
 A blabber-mouth town girl at day who transforms into a heavenly phantom thiefess bounding across the expanse of Edo at night! So whaddya think, huh?
 
@@ -123,4 +123,4 @@ The protagonist of Ol’ Bakin’s “A Wonder Tale: Moonbow” book!
 Through the roar of his bow so tightly strung it needed the strength of five men, he would sink anything to the bottoms of the sea, whether it be a battleship or a monster whale.
 Puttin’ it simply, my personal hero. I’d often make lil’ dolls of ‘im to play with.
 If ya wanna put ‘im up against a great hero in Chaldea then it’d be… hmm…
-Their weapons of choice in bow and sword ‘s a bit different but maybe Ol’ Siegfried’s a match…? Haha…
+Their weapons of choice in bow and sword ’s a bit different but maybe Ol’ Siegfried’s a match…? Haha…

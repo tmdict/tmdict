@@ -16,7 +16,7 @@ In EXTRA this Noble Phantasm deals high physical damage, and applies the abnorma
 
 It’s more White Berserker’s special characteristic than it is a Noble Phantasm.
 It uses the relationship between the Earth and the Moon to affect enemies.
-Originating from the brain of the Moon, it is the embodiment of the Moon that after many years became the Earth’s touch. This avatar possesses Earth‘s Authority while also being a copy of the Moon.
+Originating from the brain of the Moon, it is the embodiment of the Moon that after many years became the Earth’s touch. This avatar possesses Earth’s Authority while also being a copy of the Moon.
 It simultaneously personifies the fundamental rules of both the Moon and the Earth, and by putting the rules of the Earth and Moon side by side it can use the discrepancies as a method of attack.
 This includes the ability to bring the surrounding environment to her side (the Earth side), called Terraforming Attraction.
 The gravity of the Moon is no more than one sixth of the Earth’s.

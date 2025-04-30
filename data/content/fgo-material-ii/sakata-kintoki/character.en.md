@@ -60,7 +60,7 @@ Because he frankly socializes with the Master, he has extraordinarily good affin
 Sakata Kintoki.
 One of the members of Minamoto Raikou -Heian Period’s strongest Mystery Killer-’s Shitennou{{n3}}. Widely known by his childhood name, Kintarou.
 While living with his mother in Mount Ashigara, he was found by Raikou and became his retainer.
-Had participated in the extermination of Mount Ooe‘s Shuten-Douji. By disguising himself as a monk, he struck down Shuten-Douji after making the latter drank spiked sake.
+Had participated in the extermination of Mount Ooe’s Shuten-Douji. By disguising himself as a monk, he struck down Shuten-Douji after making the latter drank spiked sake.
 
 ### Character Image in “FateGO”
 

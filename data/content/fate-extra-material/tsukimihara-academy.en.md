@@ -15,4 +15,4 @@ This school becomes the stage for the Holy Grail War. The Masters are given thei
 There is more than one single school building, and during the first round of battle there are actually seven school buildings that are in use.
 From the second round this decreases to two school buildings, and from the fourth round the surviving Masters are gathered in the last remaining school building.
 School buildings are essentially colonies that float in the sea known as SE.RA.PH, and are similar to boats in that respect. When progressing to the next round, the depth increases.
-The last school building ultimately reaches Moon Cell‘s core, and it is said that after safely delivering the last remaining Master there that the school collapses and crumbles away into the great whirlpool of information surrounding it.
+The last school building ultimately reaches Moon Cell’s core, and it is said that after safely delivering the last remaining Master there that the school collapses and crumbles away into the great whirlpool of information surrounding it.

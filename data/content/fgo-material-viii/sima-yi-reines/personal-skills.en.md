@@ -18,7 +18,7 @@ The higher the skill rank, the higher the accuracy of the advice given. With an 
 
 To counter this, one must possess luck and skills capable of breaking down all sorts of analyses.
 
-### Emperor Xuan of Jin‘s Command: A
+### Emperor Xuan of Jin’s Command: A
 
 A variation of the “Tactician’s Command” skill bestowed to tactician Servants. 
 

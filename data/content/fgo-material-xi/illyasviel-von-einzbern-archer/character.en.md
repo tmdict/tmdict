@@ -63,11 +63,11 @@ She was looking at my swimsuit with envy.
 
 #### Miyu Edelfelt
 
-Would you like me to lend you a swimsuit? Obviously it‘ll be a string bikini! I think she‘d respond well to that!
+Would you like me to lend you a swimsuit? Obviously it’ll be a string bikini! I think she’d respond well to that!
 
 #### Sitonai
 
-That swimsuit, something like that is interesting… No! It‘s nothing!
+That swimsuit, something like that is interesting… No! It’s nothing!
 
 #### Abigail Williams
 
