@@ -1,9 +1,8 @@
 <script>
   import { slide } from "svelte/transition";
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { entry, i18n, showDetail = false } = $props();
+  let { lang, entry, i18n, showDetail = false } = $props();
 
   function toggleDetails() {
     showDetail = !showDetail;
@@ -12,31 +11,31 @@
 
 <div class="entry-header" onclick={toggleDetails} onkeydown={toggleDetails} role="button" tabindex="0">
   <div class="name">
-    <a href="/{store.lang.value}/{entry.ja}.{entry.id}">
-      {@html entry.name[store.lang.value]}
+    <a href="/{lang}/{entry.ja}.{entry.id}">
+      {@html entry.name[lang]}
     </a>
   </div>
   <div class="category">
     [
     {#each entry.category as category, i}
-      {#if i > 0}{" / "}{/if}{i18n["category"][category][store.lang.value]}
+      {#if i > 0}{" / "}{/if}{i18n["category"][category][lang]}
     {/each}
     ]
   </div>
   <div class="work">
     [
     {#each entry.work as work, i}
-      {#if i > 0}{", "}{/if}{i18n["work"][work][store.lang.value]}
+      {#if i > 0}{", "}{/if}{i18n["work"][work][lang]}
     {/each}
     ]
   </div>
 </div>
 {#if showDetail}
   <div transition:slide={{ duration: 200 }} class="entry-content">
-    <a href="/{store.lang.value}/{entry.ja}.{entry.id}">
+    <a href="/{lang}/{entry.ja}.{entry.id}">
       {#each entry.content as content, j}
-        <h2>{content[store.lang.value].id}</h2>
-        <p>{@html content[store.lang.value].html}</p>
+        <h2>{content[lang].id}</h2>
+        <p>{@html content[lang].html}</p>
       {/each}
     </a>
   </div>

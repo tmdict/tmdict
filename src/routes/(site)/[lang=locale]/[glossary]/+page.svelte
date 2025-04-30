@@ -5,4 +5,4 @@
   let { data } = $props();
 </script>
 
-<Entry {data} />
+<Entry {...data} />

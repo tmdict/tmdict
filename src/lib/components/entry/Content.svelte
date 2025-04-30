@@ -1,10 +1,8 @@
 <script>
   import Metadata from "$lib/components/entry/Metadata.svelte";
   
-  import { store } from "$lib/util/stores.svelte.js"
-
-  let { data, entryType, entryId } = $props();
-  let contentLang = $derived(store.lang.value);
+  let { lang, data, entryType, entryId } = $props();
+  let contentLang = $derived(lang);
 
   function updateContentLang(lang) {
     contentLang = lang;
@@ -28,6 +26,7 @@
     {/if}
 
     <Metadata
+      {lang}
       {data}
       language={Object.keys(data.i18n)}
       gitUrl={getGitUrl(data.source, entryId, entryType, data.id, contentLang, data.parent)}

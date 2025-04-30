@@ -2,20 +2,19 @@
   import Theme from "$lib/components/Theme.svelte";
   import Top from "$lib/components/Top.svelte";
   import Footer from "$lib/components/Footer.svelte";
-  
   import { store } from "$lib/util/stores.svelte.js"
 
-  let { children } = $props();
+  let { data, children } = $props();
 </script>
 
 <Theme />
 
-<div id="container" lang={store.lang.value}>
-  <Top />
+<div id="container" lang={data.lang}>
+  <Top lang={data.lang} />
   <div id="main" class:bgimg={(store.theme === "chaldea")}>
     {@render children()}
   </div>
-  <Footer />
+  <Footer lang={data.lang} />
 </div>
 
 <style>

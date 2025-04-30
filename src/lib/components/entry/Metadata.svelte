@@ -1,19 +1,19 @@
 <script>
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { 
+  let {
+    lang,
     data,
     language = [],
     gitUrl = "#",
     updateContentLang
   } = $props();
 
-  let contentLang = $derived(store.lang.value);
+  let contentLang = $derived(lang);
 
-  function updateLang(lang) {
-    contentLang = lang;
-    updateContentLang(lang);
+  function updateLang(localLang) {
+    contentLang = localLang;
+    updateContentLang(localLang);
   };
 </script>
 
@@ -37,14 +37,14 @@
     </div>
   {/if}
   <div class="language">
-    {#each language as lang}
+    {#each language as l}
       [ <span class="select"
           role="button"
           tabindex="0"
-          onclick={() => updateLang(lang)}
-          onkeydown={() => updateLang(lang)}
+          onclick={() => updateLang(l)}
+          onkeydown={() => updateLang(l)}
         >
-          {APP.lang[lang].name}
+          {APP.lang[l].name}
         </span> ]{" "}
     {/each}
     {#if gitUrl != "#"}

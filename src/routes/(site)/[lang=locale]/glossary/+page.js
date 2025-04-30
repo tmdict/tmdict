@@ -5,11 +5,3 @@ export function load({ params }) {
     lang: params.lang
   };
 }
-
-export const entries = () => {
-  return [
-    { lang: "en" },
-    { lang: "ja" },
-    { lang: "zh" },
-  ]
-}

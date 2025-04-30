@@ -1,8 +1,8 @@
 <script>
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
   let {
+    lang,
     headerId,
     i18n,
     margin = 0,
@@ -26,6 +26,6 @@
   onclick={() => updateSort(headerId)}
   onkeydown={() => updateSort(headerId)}
 >
-  {APP.i18n[headerId][store.lang.value]}
+  {APP.i18n[headerId][lang]}
   {sortBy === headerId ? ` ${sortOrder ? "▲" : "▼"}` : ""}
 </div>

@@ -13,8 +13,8 @@
 
   --text-header: #e6eaed;
   --text-light: #757575;
-  --text-medium: #333;
-  --text-dark: #555;
+  --text-medium: #555;
+  --text-dark: #333;
 
   --content-break: url("/img/ornament.png");
   --content-break-position: calc(50% - 95px);

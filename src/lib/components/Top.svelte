@@ -1,7 +1,6 @@
 <script>
   import ToggleDark from "$lib/components/svg/Moon.svelte";
   import ToggleLight from "$lib/components/svg/Sun.svelte";
-
   import { afterNavigate } from "$app/navigation";
   import { page } from "$app/state";
   import { store } from "$lib/util/stores.svelte.js";
@@ -10,17 +9,13 @@
   import topImgChaldea from "$lib/img/top2.png?enhanced";
   import topImgShadowBorder from "$lib/img/top3.png?enhanced";
 
+  let { lang } = $props();
   let spin = $state(false);
   let topImg = $state(topImgBamboo);
+  let path = $derived(page.url.pathname.replace(/^\/\w+/, "") + page.url.hash);
 
   afterNavigate(() => {
-    // Update language depending on URL
-    const urlLang = page.url.pathname.split("/")[1];
     topImage();
-    if (store.lang.value !== urlLang && Object.keys(APP.lang).includes(urlLang)) {
-      store.lang.value = page.url.pathname.split("/")[1];
-    }
-    store.path = page.url.pathname.replace(/^\/\w+/, "") + page.url.hash;
   });
 
   function topImage() {
@@ -37,11 +32,6 @@
     topImage();
   }
 
-  function updateActiveLang(l) {
-    store.lang.value = l;
-    store.lang.syncAll();
-  }
-
   function spinIcon(duration) {
     spin = true;
     setTimeout(() => (spin = false), duration);
@@ -51,7 +41,7 @@
 <div id="top"></div>
 
 <div id="header">
-  <a href="/{store.lang.value}/" aria-label="TMdict"><enhanced:img class="logo" src={topImg} title="TMdict" alt="TMdict" /></a>
+  <a href="/{lang}/" aria-label="TMdict"><enhanced:img class="logo" src={topImg} title="TMdict" alt="TMdict" /></a>
 
   <div id="title">
     <div id="name">
@@ -77,21 +67,18 @@
 
   <div id="nav">
     <div id="menu">
-      <a href="/{store.lang.value}/" class="first">{APP.i18n.index[store.lang.value]}</a>
-      <a href="/{store.lang.value}/glossary">{APP.i18n.glossary[store.lang.value]}</a>
-      <a href="/{store.lang.value}/profile/">{APP.i18n.profile[store.lang.value]}</a>
-      <a href="/book/">{APP.i18n.book[store.lang.value]}</a>
+      <a href="/{lang}/" class="first">{APP.i18n.index[lang]}</a>
+      <a href="/{lang}/glossary">{APP.i18n.glossary[lang]}</a>
+      <a href="/{lang}/profile/">{APP.i18n.profile[lang]}</a>
+      <a href="/book/">{APP.i18n.book[lang]}</a>
     </div>
 
     <div id="language">
-      {#each Object.keys(APP.lang) as lang, i}
-        <a
-          href="/{APP.lang[lang].id}{store.path}"
+      {#each Object.keys(APP.lang) as appLang, i}
+        <a href="/{APP.lang[appLang].id}{path}"
           class:first={i === 0}
-          class:active={store.lang.value === APP.lang[lang].id}
-          onclick={() => updateActiveLang(lang)}
-          onkeydown={() => updateActiveLang(lang)}>
-            {APP.lang[lang].name}
+          class:active={lang === APP.lang[appLang].id}>
+            {APP.lang[appLang].name}
         </a>
       {/each}
     </div>

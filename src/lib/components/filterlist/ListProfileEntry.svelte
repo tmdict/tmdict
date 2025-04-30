@@ -1,6 +1,4 @@
 <script>
-  import { store } from "$lib/util/stores.svelte.js"
-
   // Load images to be enhanced
   const icons = import.meta.glob(
     "$lib/__generated/img/profile/icon/*.png", {
@@ -11,7 +9,7 @@
     }
   );
 
-  let { entry, i18n } = $props();
+  let { lang, entry, i18n } = $props();
 
   function getIconImage(uid) {
     let name = "";
@@ -38,15 +36,15 @@
 <div class="icon">
   <enhanced:img
     src={getIconImage(entry.uid)}
-    alt="{entry.name[store.lang.value]}"
+    alt="{entry.name[lang]}"
     style:width="50px"
     style:margin="2px"
     loading="lazy"
   />
 </div>
 <div class="id">{(entry.uid.split(":")[1] === "fgosvt") ? entry.uid.split(":")[0] : "-"}</div>
-<div class="name">{entry.name[store.lang.value]}</div>
-<div class="star">{i18n["star"][entry.star][store.lang.value]}</div>
+<div class="name">{entry.name[lang]}</div>
+<div class="star">{i18n["star"][entry.star][lang]}</div>
 
 <style>
   .icon {

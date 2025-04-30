@@ -1,8 +1,7 @@
 <script>
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { attribute, content } = $props()
+  let { lang, attribute, content } = $props()
 
   let screenWidth = $state(0);
   let screenTop = $state(0);
@@ -27,20 +26,20 @@
     {#if content.length > 0}
       <li class="sidebar-item"><a href="#{attribute.id}">TOP</a></li>
       {#each content as section}
-        {#if section.i18n[store.lang.value]}
+        {#if section.i18n[lang]}
           <li class="sidebar-item">
             <a onclick={preventDefault(scrollTo(`${section.id}`))} href={`#${section.id}`}>
-              <div class="status">{section.i18n[store.lang.value].name.name}</div>
+              <div class="status">{section.i18n[lang].name.name}</div>
             </a>
           </li>
         {/if}
       {/each}
     {/if}
-    <li class="sidebar-item"><a href="/contact/#{[store.lang.value]}.{attribute.id}">{APP.i18n.report[store.lang.value]}</a></li>
+    <li class="sidebar-item"><a href="/contact/#{lang}.{attribute.id}">{APP.i18n.report[lang]}</a></li>
     {#if attribute.type === "glossary"}
-      <li class="sidebar-item"><a href="/legacy/{[store.lang.value]}/{attribute.ja}.{attribute.id}.html">{APP.i18n.legacy[store.lang.value]}</a></li>
+      <li class="sidebar-item"><a href="/legacy/{lang}/{attribute.ja}.{attribute.id}.html">{APP.i18n.legacy[lang]}</a></li>
     {/if}
-    <li class="sidebar-item"><a href="/{store.lang.value}/{attribute.type}">BACK</a></li>
+    <li class="sidebar-item"><a href="/{lang}/{attribute.type}">BACK</a></li>
   </ul>
 </div>
 

@@ -3,15 +3,14 @@
   import ImgSwipe from "$lib/components/entry/ImgSwipe.svelte";
   import Metadata from "$lib/components/entry/Metadata.svelte";
 
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { data, screenWidth } = $props();
+  let { lang, data, screenWidth } = $props();
   
-  let contentLang = $derived(store.lang.value);
+  let contentLang = $derived(lang);
 
-  function updateContentLang(lang) {
-    contentLang = lang;
+  function updateContentLang(localLang) {
+    contentLang = localLang;
   }
 </script>
 

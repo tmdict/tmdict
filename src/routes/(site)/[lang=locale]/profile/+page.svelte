@@ -1,8 +1,9 @@
 
 <script>
   import FilterList from "$lib/components/filterlist/FilterList.svelte";
-  
-  import data from "$lib/__generated/data/profile/filterlist.json";
+  import filterlistData from "$lib/__generated/data/profile/filterlist.json";
+
+  let { data } = $props();
 </script>
 
-<FilterList {data} />
+<FilterList lang={data.lang} data={filterlistData} />

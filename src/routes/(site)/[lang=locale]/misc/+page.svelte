@@ -1,15 +1,16 @@
 <script>
   import PAGES from "$lib/__generated/pages.json";
-  import { store } from "$lib/util/stores.svelte.js"
+
+  let { data } = $props();
 </script>
 
 <svelte:head>
-  <title>{PAGES.misc.i18n[store.lang.value].name.name} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{store.lang.value}/misc/" />
+  <title>{PAGES.misc.i18n[data.lang].name.name} | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/{data.lang}/misc/" />
 </svelte:head>
 
 <div class="content">
-  <h1>{PAGES.misc.i18n[store.lang.value].name.name}</h1>
+  <h1>{PAGES.misc.i18n[data.lang].name.name}</h1>
   <div class="content"></div>
-  <div>{@html PAGES.misc.i18n[store.lang.value].html}</div>
+  <div>{@html PAGES.misc.i18n[data.lang].html}</div>
 </div>

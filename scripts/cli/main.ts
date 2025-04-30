@@ -25,15 +25,16 @@ builder.toJsonExport("src/lib/__generated/constants.json", appConfig.app);
 console.log("Building pages...");
 const pageData = parser.parseEntry("page", "page", attrData, contentData).content
   .reduce((acc, page) => {
-      return _.merge(acc, {
-        [page.id]: {
-          id: page.id,
-          i18n: page.i18n
-        }
-      })
-    }, {});
+    return _.merge(acc, {
+      [page.id]: {
+        id: page.id,
+        i18n: page.i18n
+      }
+    })
+  }, {});
 builder.toJsonExport("src/lib/__generated/pages.json", pageData);
 
+const staticEntryPaths: { [key: string]: any } = {};
 const bookData: { [key: string]: any } = {};
 // Build metadata and content for each content type (profile and glossary)
 Object.keys(appConfig.content).forEach((contentType: string) => {
@@ -41,6 +42,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
   
   // Build entries
   let count = 0;
+  staticEntryPaths[contentType] = [];
   // Parse each attribute in an attribute type
   const parsedData = Object.keys(attrData[contentType]).reduce(
     (acc, entryId: string) => {
@@ -50,6 +52,14 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       // Generates JSON data  to be consumed by the js app
       const entryPath = `${entryData.attribute.type}/entries/${entryData.attribute.id}`;
       builder.toJsonExport(`src/lib/__generated/data/${entryPath}.json`, entryData);
+
+      ["en", "ja", "zh"].forEach(lang => {
+        const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
+        staticEntryPaths[contentType].push({
+          lang: lang,
+          [contentType]: path
+        });
+      });
       count++;
 
       // Add parsed data to filterlist data and i18n collection
@@ -141,8 +151,10 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
   // Build entries js
   //builder.toJsonExport(`src/lib/__generated/data/${contentType}/entries.json`, parsedData.entries);
-  //console.log(`Build ${contentType} entries complete!!!`);
 });
+
+// Build paths js for static pages
+builder.toJsonExport("src/lib/__generated/entrypaths.json", staticEntryPaths);
 
 // Build book js
 console.log("Building book...");

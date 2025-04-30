@@ -1,6 +1,6 @@
 body, html {
   background: var(--bg-body);
-  color: var(--text-medium);
+  color: var(--text-dark);
 }
 
 a {

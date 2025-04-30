@@ -2,15 +2,13 @@
   import FilterNav from "$lib/components/filterlist/FilterNav.svelte";
   import List from "$lib/components/filterlist/List.svelte";
   import Filter from "$lib/components/filterlist/Filter.svelte";
-  
-  import { slide } from "svelte/transition";
   import Fuse from "fuse.js";
+  import { slide } from "svelte/transition";
   import { highlight } from "$lib/util/highlight.js";
   import { filterlist } from "$lib/util/filterlist.svelte.js"
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { data } = $props();
+  let { lang, data } = $props();
   let expandAllFilters = $state(true);
 
   filterlist.init(data.attribute.filter);
@@ -54,7 +52,7 @@
         const fuse = new Fuse(filtered, {
           ...searchOptions,
           minMatchCharLength: searchTerm.length,
-          keys: ["name." + store.lang.value, "content." + store.lang.value + ".html"],
+          keys: ["name." + lang, "content." + lang + ".html"],
         });
         const results = fuse.search(searchTerm);
         return (results.length > 0) ? structuredClone(highlight(results)) : [];
@@ -65,15 +63,15 @@
 </script>
 
 <svelte:head>
-  <title>{data.attribute.name[store.lang.value]} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{store.lang.value}/{data.attribute.type}" />
+  <title>{data.attribute.name[lang]} | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/{lang}/{data.attribute.type}" />
 </svelte:head>
 
-<h1>{data.attribute.name[store.lang.value]}</h1>
+<h1>{data.attribute.name[lang]}</h1>
 
 {#if data.attribute.type === "glossary"}
   <div class="search">
-    <input class="search-box" bind:value={searchTerm} placeholder="{APP.i18n.search[store.lang.value]}..." />
+    <input class="search-box" bind:value={searchTerm} placeholder="{APP.i18n.search[lang]}..." />
   </div>
 {/if}
 
@@ -91,15 +89,15 @@
   {#if expandAllFilters}
     <div transition:slide>
       {#each Object.keys(filterValues) as filterKey}
-        <FilterNav {filterKey} filterValues={filterValues[filterKey]} i18n={data.i18n} />
+        <FilterNav {lang} {filterKey} filterValues={filterValues[filterKey]} i18n={data.i18n} />
       {/each}
     </div>
   {/if}
 </div>
 
 <div class="filter-list">
-  <List i18n={data.i18n} listType={data.attribute.type} {entryList} />
-  <Filter type={data.attribute.type} i18n={data.i18n} filterValues={sourceFilterValues} />
+  <List {lang} i18n={data.i18n} listType={data.attribute.type} {entryList} />
+  <Filter {lang} type={data.attribute.type} i18n={data.i18n} filterValues={sourceFilterValues} />
 </div>
 
 <style>

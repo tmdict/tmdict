@@ -3,29 +3,28 @@
   import ProfileTop from "$lib/components/entry/ProfileTop.svelte";
   import Sidebar from "$lib/components/entry/Sidebar.svelte";
 
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
   
-  let { data } = $props();
+  let { lang, data } = $props();
   let screenWidth = $state(0);
   const canonicalLink = data.attribute.type === "profile" ? `profile/${data.attribute.id}` : `${data.attribute.ja}.${data.attribute.id}`;
 </script>
 
 <svelte:head>
-  <title>{data.attribute.attr.name[store.lang.value]} | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/{store.lang.value}/{canonicalLink}" />
+  <title>{data.attribute.attr.name[lang]} | TMdict</title>
+  <link rel="canonical" href="https://www.tmdict.com/{lang}/{canonicalLink}" />
 </svelte:head>
 
 <svelte:window bind:innerWidth={screenWidth} />
 
 {#if screenWidth > 1220}
-  <Sidebar attribute={data.attribute} content={data.content} />
+  <Sidebar {lang} attribute={data.attribute} content={data.content} />
 {/if}
 
-<h1 id="{data.attribute.id}">{data.attribute.attr.name[store.lang.value]}</h1>
+<h1 id="{data.attribute.id}">{data.attribute.attr.name[lang]}</h1>
 
 {#if data.attribute.type === "profile" && data.attribute.layout[Object.keys(data.attribute.layout)[0]].length > 0}
-  <ProfileTop {data} {screenWidth} />
+  <ProfileTop {lang} {data} {screenWidth} />
 {/if}
 
 {#if data.attribute.type === "glossary"}
@@ -33,5 +32,5 @@
 {/if}
 
 {#each data.content as section}
-  <Content entryType={data.attribute.type} entryId={data.attribute.id} data={section} />
+  <Content {lang} data={section} entryType={data.attribute.type} entryId={data.attribute.id} />
 {/each}

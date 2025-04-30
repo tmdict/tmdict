@@ -1,14 +1,15 @@
 <script>
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
+
+  let { lang = "en" } = $props();
 </script>
 
 <div id="footer">
-  <a href="/{store.lang.value}/about">{APP.i18n.about[store.lang.value]}</a> · 
-  <a href="/{store.lang.value}/site">{APP.i18n.site[store.lang.value]}</a> · 
-  <a href="/{store.lang.value}/misc">{APP.i18n.misc[store.lang.value]}</a> · 
-  <a href="/legacy/{store.lang.value}/index.html">{APP.i18n.legacy[store.lang.value]}</a> · 
-  <a href="/contact/">{APP.i18n.contact[store.lang.value]}</a>
+  <a href="/{lang}/about">{APP.i18n.about[lang]}</a> · 
+  <a href="/{lang}/site">{APP.i18n.site[lang]}</a> · 
+  <a href="/{lang}/misc">{APP.i18n.misc[lang]}</a> · 
+  <a href="/legacy/{lang}/index.html">{APP.i18n.legacy[lang]}</a> · 
+  <a href="/contact/">{APP.i18n.contact[lang]}</a>
 </div>
 
 <style>

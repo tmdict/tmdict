@@ -1,13 +1,12 @@
 <script>
   import { slide } from "svelte/transition";
   import { filterlist } from "$lib/util/filterlist.svelte.js"
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { filterKey, filterValues, i18n } = $props();
+  let { lang, filterKey, filterValues, i18n } = $props();
   let showFilter = $state(false);
 
-  const sorted = filterValues.sort((a, b) => i18n[filterKey][a][store.lang.value].localeCompare(i18n[filterKey][b][store.lang.value]))
+  const sorted = filterValues.sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang]))
 
   if (["alphabet", "star"].includes(filterKey)) {
     showFilter = true;
@@ -15,7 +14,7 @@
 
   function getWidthByLongestElement(arr) {
     const maxLength = Math.max(...arr.map(item => {
-      return i18n[filterKey][item][store.lang.value].length;
+      return i18n[filterKey][item][lang].length;
     }));
     return `${maxLength * 8 + 8}px`; // 7px per char + padding
   }
@@ -29,7 +28,7 @@
         onclick={() => { showFilter = !showFilter }}
         onkeydown={() => { showFilter = !showFilter }}
       >
-        {APP.i18n[filterKey][store.lang.value]} 
+        {APP.i18n[filterKey][lang]} 
         <span class="label">{#if showFilter}-{:else}+{/if}</span>
       </div>
     </h6>
@@ -40,13 +39,13 @@
           <div class="quick"
             class:active={item === filterlist.get(filterKey).quick}
             style:min-width={getWidthByLongestElement(filterValues)}
-            style:padding-left={(i18n[filterKey][item][store.lang.value].length) === 1 ? "10px" : "5px"}
+            style:padding-left={(i18n[filterKey][item][lang].length) === 1 ? "10px" : "5px"}
             role="button"
             tabindex="0"
             onclick={() => filterlist.updateQuickFilter(filterKey, item)}
             onkeydown={() => filterlist.updateQuickFilter(filterKey, item)}
           >
-            {i18n[filterKey][item][store.lang.value]}
+            {i18n[filterKey][item][lang]}
           </div>
           <div class="common"
             class:active={filterlist.get(filterKey).common.includes(item)}

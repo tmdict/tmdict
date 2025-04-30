@@ -2,11 +2,9 @@
   import ListGlossaryEntry from "$lib/components/filterlist/ListGlossaryEntry.svelte";
   import ListProfileEntry from "$lib/components/filterlist/ListProfileEntry.svelte";
   import SortHeader from "$lib/components/filterlist/SortHeader.svelte";
-  
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { i18n, listType, entryList } = $props();
+  let { lang, i18n, listType, entryList } = $props();
 
   const defaultSortBy = (listType === "profile") ? "id" : "name";
   const defaultSortOrder = (listType !== "profile");
@@ -20,15 +18,15 @@
         case "id": {
           return sortOrder
             ? parseFloat(a["uid"].split(":")[0]) - parseFloat(b["uid"].split(":")[0]) ||
-                b["name"][store.lang.value].localeCompare(a["name"][store.lang.value])
+                b["name"][lang].localeCompare(a["name"][lang])
             : parseFloat(b["uid"].split(":")[0]) - parseFloat(a["uid"].split(":")[0]) ||
-                a["name"][store.lang.value].localeCompare(b["name"][store.lang.value]);
+                a["name"][lang].localeCompare(b["name"][lang]);
         }
         case "name": {
           // Sorts by name in current language
           return sortOrder
-            ? a[sortBy][store.lang.value].localeCompare(b[sortBy][store.lang.value])
-            : b[sortBy][store.lang.value].localeCompare(a[sortBy][store.lang.value]);
+            ? a[sortBy][lang].localeCompare(b[sortBy][lang])
+            : b[sortBy][lang].localeCompare(a[sortBy][lang]);
         }
         case "star": {
           // Rarity level is in first element of the array
@@ -51,11 +49,11 @@
 <div class="list">
   <div class="header item {listType}">
     {#if listType === "profile"}
-      <SortHeader headerId="id" margin={64} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
-      <SortHeader headerId="name" margin={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
-      <SortHeader headerId="star" margin={335} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="id" margin={64} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="name" margin={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="star" margin={335} {i18n} {sortBy} {sortOrder} {updateSortBy} />
     {:else}
-      <SortHeader headerId="name" margin={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="name" margin={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
       <div
         class="expand-all"
         role="button"
@@ -63,7 +61,7 @@
         onclick={() => (expandAll = !expandAll)}
         onkeydown={() => (expandAll = !expandAll)}
       >
-        {expandAll ? `${APP.i18n.expand[store.lang.value]} -` : `${APP.i18n.expand[store.lang.value]} +`}
+        {expandAll ? `${APP.i18n.expand[lang]} -` : `${APP.i18n.expand[lang]} +`}
       </div>
     {/if}
   </div>
@@ -72,15 +70,15 @@
     {#if sortedEntries.length > 0}
       {#each sortedEntries as entry, i (entry.id)}
         {#if listType === "profile"}
-          <li><a href="/{store.lang.value}/{listType}/{entry.id}">
+          <li><a href="/{lang}/{listType}/{entry.id}">
             <div class="item">
-              <ListProfileEntry {entry} {i18n} />
+              <ListProfileEntry {lang} {entry} {i18n} />
             </div>
           </a></li>
         {:else}
           <li>
             <div class="item">
-              <ListGlossaryEntry {entry} {i18n} showDetail={expandAll} />
+              <ListGlossaryEntry {lang} {entry} {i18n} showDetail={expandAll} />
             </div>
           </li>
         {/if}

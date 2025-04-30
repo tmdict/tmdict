@@ -1,12 +1,9 @@
 <script>
   import { createEventDispatcher } from "svelte";
   import { filterlist } from "$lib/util/filterlist.svelte.js"
-  import { store } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  export let type;
-  export let i18n;
-  export let filterValues;
+  let { lang, type, i18n, filterValues } = $props();
 
   // https://stackoverflow.com/questions/48601273/sorting-royal-names-using-javascript
   const romanToNum = (roman) => {
@@ -41,7 +38,7 @@
 
 <div class="filter">
   {#each Object.keys(filterValues) as filterKey (filterKey)}
-    <h6>{APP.i18n[filterKey][store.lang.value]}</h6>
+    <h6>{APP.i18n[filterKey][lang]}</h6>
     <ul>
       <li>
         <div class="item"
@@ -63,7 +60,7 @@
               onclick={() => filterlist.updateQuickFilter(filterKey, filterValue)}
               onkeydown={() => filterlist.updateQuickFilter(filterKey, filterValue)}
             >
-              {i18n[filterKey][filterValue][store.lang.value]}
+              {i18n[filterKey][filterValue][lang]}
             </div>
           </li>
         {/if}
