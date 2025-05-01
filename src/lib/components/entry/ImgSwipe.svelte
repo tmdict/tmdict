@@ -3,14 +3,22 @@
   import hashes from "$lib/__generated/hashes.json";
 
   let { attribute } = $props();
+
+  function getImage(entryImg, format) {
+    const group = attribute.uid.split(":")[1] === "fgosvt" ? entryImg[2] : entryImg[0];
+    return `https://img${group}.tmdict.com/profile/${format}/${entryImg}.${format}`;
+  }
 </script>
 
 <div class="embla" use:emblaCarouselSvelte="{{ loop: false }}">
   <div class="embla__container">
       {#each attribute.img as img}
       <div class="embla__slide">
-        <a href="https://img.tmdict.com/profile/{img.src}.png">
-          <img src="https://img.tmdict.com/profile/{img.src}.png" id={img.id} alt={img.id} />
+        <a href={getImage(img.src, "jpg")}>
+          <picture>
+            <source srcset={getImage(img.src, "avif")} type="image/avif" />
+            <img src={getImage(img.src, "jpg")} id={img.id} alt={img.id} />
+          </picture>
         </a>
       </div>
       {/each}

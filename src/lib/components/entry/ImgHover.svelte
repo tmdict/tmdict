@@ -8,16 +8,25 @@
   function updateImg(img) {
     currentImg = img;
   }
+
+  function getImage(entryImg, format) {
+    const group = attribute.uid.split(":")[1] === "fgosvt" ? entryImg[2] : entryImg[0];
+    return `https://img${group}.tmdict.com/profile/${format}/${entryImg}.${format}`;
+  }
 </script>
 
 {#if attribute.img.length > 0}
-  <a href="https://img.tmdict.com/profile/{currentImg.src}.png"><img src="https://img.tmdict.com/profile/{currentImg.src}.png" id={currentImg.id} alt={currentImg.id} /></a>
-
+  <a href={getImage(currentImg.src, "jpg")}>
+    <picture>
+      <source srcset={getImage(currentImg.src, "avif")} type="image/avif" />
+      <img src={getImage(currentImg.src, "jpg")} id={currentImg.id} alt={currentImg.id} />
+    </picture>
+  </a>
   {#if attribute.img.length > 1}
     <ul>
       {#each attribute.img as img}
         <li class="image-list" class:active={img.id === currentImg.id}>
-          <a class="image-link" href="https://img.tmdict.com/profile/{img.src}.png" onmouseover={() => updateImg(img)} onfocus={() => updateImg(img)}>
+          <a class="image-link" href={getImage(img.src, "jpg")} onmouseover={() => updateImg(img)} onfocus={() => updateImg(img)}>
             <span>{APP.i18n[img.id][contentLang]}</span>
           </a>
         </li>
