@@ -4,12 +4,12 @@
   import Filter from "$lib/components/filterlist/Filter.svelte";
   import Fuse from "fuse.js";
   import { slide } from "svelte/transition";
+  import { store } from "$lib/util/stores.svelte.js";
   import { highlight } from "$lib/util/highlight.js";
   import { filterlist } from "$lib/util/filterlist.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data } = $props();
-  let expandAllFilters = $state(true);
 
   filterlist.init(data.attribute.filter);
 
@@ -72,16 +72,16 @@
 
 <div class="filter-nav">
   <div class="menu">
-    <div class={expandAllFilters ? 'show' : 'collapse'}
+    <div class={store.showfilter ? 'show' : 'collapse'}
       role="button"
       tabindex="0"
-      onclick={() => expandAllFilters = !expandAllFilters}
-      onkeydown={() => expandAllFilters = !expandAllFilters}
+      onclick={() => store.showfilter = !store.showfilter}
+      onkeydown={() => store.showfilter = !store.showfilter}
     >
       Filters
     </div>
   </div>
-  {#if expandAllFilters}
+  {#if store.showfilter}
     <div transition:slide>
       {#each Object.keys(filterValues) as filterKey}
         <FilterNav {lang} {filterKey} filterValues={filterValues[filterKey]} i18n={data.i18n} />
