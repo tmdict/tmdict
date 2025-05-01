@@ -9,7 +9,7 @@
   import topImgChaldea from "$lib/img/top2.png?enhanced";
   import topImgShadowBorder from "$lib/img/top3.png?enhanced";
 
-  let { lang } = $props();
+  let { lang = "en" } = $props();
   let spin = $state(false);
   let topImg = $state(topImgBamboo);
   let path = $derived(page.url.pathname.replace(/^\/\w+/, "") + page.url.hash);
