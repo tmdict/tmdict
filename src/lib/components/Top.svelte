@@ -1,6 +1,7 @@
 <script>
   import ToggleDark from "$lib/components/svg/Moon.svelte";
   import ToggleLight from "$lib/components/svg/Sun.svelte";
+  import { browser } from '$app/environment';
   import { afterNavigate } from "$app/navigation";
   import { page } from "$app/state";
   import { store } from "$lib/util/stores.svelte.js";
