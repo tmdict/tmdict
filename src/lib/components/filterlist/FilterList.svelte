@@ -149,7 +149,7 @@
   
   @media only screen and (max-width: 660px) {
     input {
-      margin: 30px 10px 0;
+      margin: 30px 6px 0;
     }
 
     .filter-nav {

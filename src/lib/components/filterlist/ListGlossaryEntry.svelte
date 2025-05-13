@@ -17,9 +17,13 @@
   </div>
   <div class="category">
     [
-    {#each entry.category as category, i}
-      {#if i > 0}{" / "}{/if}{i18n["category"][category][lang]}
-    {/each}
+      {#if entry.category.length > 0}
+        {#each entry.category as category, i}
+          {#if i > 0}{" / "}{/if}{i18n["category"][category][lang]}
+        {/each}
+      {:else}
+        -
+      {/if}
     ]
   </div>
   <div class="work">
@@ -105,7 +109,7 @@
   @media only screen and (max-width: 660px) {
     .category {
       float: right;
-      width: calc(80% - 180px);
+      width: calc(80% - 100px);
     }
 
     .work { display: none; }
