@@ -12,6 +12,18 @@ const appConfig = loader.loadConfig();
 const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
 const contentData: any = loader.loadContentData(appConfig.paths);
 
+// Sitemap
+const sitemap: { [key: string]: any }[] = [];
+sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
+["en", "ja", "zh"].forEach(lang => {
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/`});
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/about`});
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/site`});
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/misc`});
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/glossary`});
+  sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/profile/`});
+});
+
 // Build assets, img, css, etc.
 console.log("Building assets...");
 builder.buildImg(appConfig.paths);
@@ -58,6 +70,12 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
         staticEntryPaths[contentType].push({
           lang: lang,
           [contentType]: path
+        });
+
+        sitemap.push({
+          changefreq: 'monthly',
+          priority: 1.0,
+          url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
         });
       });
       count++;
@@ -168,6 +186,9 @@ builder.toJsonExport("src/lib/__generated/data/book.json", Object.keys(bookData)
     return a.source.weight - b.source.weight;
   })
 );
+
+// Build sitemap
+builder.buildSitemap("https://www.tmdict.com", sitemap);
 
 // Build old tmdict
 console.log("Building old tmdict...");

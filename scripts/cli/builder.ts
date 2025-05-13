@@ -106,7 +106,7 @@ export default class Builder {
     // Return a promise that resolves with your XML string
     streamToPromise(stream).then((data) => {
       // Write sitemap to file
-      outputFile(data.toString(), "static/__generated/sitemap.xml");
+      outputFile(data.toString(), "static/sitemap.xml");
     });
   };
 }

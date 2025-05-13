@@ -26,4 +26,5 @@ vite.config.ts.timestamp-*
 /bin
 /src/lib/__generated
 /static/__generated
+/static/sitemap.xml
 /static/legacy
