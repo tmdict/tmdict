@@ -6,6 +6,8 @@
   import PAGES from "$lib/__generated/pages.json";
   import profileBanner from "$lib/img/banner_profile.png?enhanced";
   import glossaryBanner from "$lib/img/banner_glossary.png?enhanced";
+  import tsukikan from "$lib/img/tsukikan.png?enhanced";
+  import mhy from "$lib/img/mhy.png?enhanced";
 
   let { data } = $props();
 </script>
@@ -39,9 +41,13 @@
   <div>{@html PAGES.collaborate.i18n[data.lang].html}</div>
 </div>
 
-<div class="content">
-  <h2>{PAGES.usage.i18n[data.lang].name.name}</h2>
-  <div>{@html PAGES.usage.i18n[data.lang].html}</div>
+<div class="projects">
+  <a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
+    <enhanced:img class="center" src={tsukikan} alt="Tsukikan" />
+  </a>
+  <a class="project" href="https://mhy.tmdict.com/" aria-label="mHY-notes">
+    <enhanced:img class="center" src={mhy} alt="mHY-notes" />
+  </a>
 </div>
 
 <style>
@@ -59,5 +65,21 @@
 
   :global(.frontpage li) {
     margin-top: 10px;
+  }
+
+  .projects {
+    display: block;
+  }
+
+  .project {
+    margin: 0 7px;
+  }
+
+  :global(.project img) {
+    border-radius: 5px;
+  }
+
+  :global(.project img:hover) {
+    opacity: 0.9;
   }
 </style>
