@@ -6,7 +6,7 @@ weight: 1
 name: "Site Updates"
 ---
 
-### 2025-04-29
+### 2025-05-18
 
 TMdict Turns 10!
 
