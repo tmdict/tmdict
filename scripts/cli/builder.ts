@@ -1,4 +1,3 @@
-import _ from "lodash";
 import cssnano from "cssnano";
 import crypto from "crypto";
 import fs from "fs-extra";

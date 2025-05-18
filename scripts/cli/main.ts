@@ -100,7 +100,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       if (contentType === "glossary") {
         // Add category to filterlist
         entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
-          return _.union(acc, item.category);
+          return [...new Set([...acc, ...item.category])];
         }, []);
         // If glossary, include entry content for filter list
         entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {

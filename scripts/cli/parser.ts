@@ -97,7 +97,7 @@ function parseAttribute(entryAttr: Attribute, attrData: AttributeData): object {
 
         // Convert them to arrays for multi-attrLayout support
         const currentAttr: string | string[] = entryAttr.attribute[attribute];
-        const data = _.isArray(currentAttr)
+        const data = Array.isArray(currentAttr)
           ? (currentAttr as string[]).map((a: string) => flattenAttributeData(attrData[attr][a]))
           : [flattenAttributeData(attrData[attr][currentAttr])];
 
@@ -130,7 +130,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
         // Map collection of keys to the parsed data
         return section.reduce((a, key) => {
           // Populate content for each attr section
-          const attrContent = _.isArray(parsedAttr[key])
+          const attrContent = Array.isArray(parsedAttr[key])
             ? // Attributes with array of values
               (parsedAttr[key] as string[]).map((e: any) => e[lang])
             : // Attribute with a single value
@@ -288,7 +288,7 @@ export default class Parser {
       for (const attr of filterlist.filter) {
         // Get array of filterable attributes
         if (entry.attribute && entry.attribute[attr]) {
-          const filterArr = _.isArray(entry.attribute[attr])
+          const filterArr = Array.isArray(entry.attribute[attr])
             ? (entry.attribute[attr] as string[])
             : [entry.attribute[attr] as string];
           attributes[attr] = filterArr;
@@ -297,7 +297,7 @@ export default class Parser {
           if (filterlist.contentFilter && filterlist.contentFilter.includes(attr)) {
             const contentFilters = entryData.content.reduce((acc: string[], content: any) => {
               if (content[attr]) {
-                const contentFilterKeys = _.isArray(content[attr])
+                const contentFilterKeys = Array.isArray(content[attr])
                   ? (content[attr] as string[])
                   : [content[attr] as string];
                 return acc.concat(contentFilterKeys);
@@ -330,7 +330,7 @@ export default class Parser {
       for (const attr of filterlist.filter) {
         // Get array of filterable attributes
         if (entry.attribute && entry.attribute[attr]) {
-          const filterArr = _.isArray(entry.attribute[attr])
+          const filterArr = Array.isArray(entry.attribute[attr])
             ? (entry.attribute[attr] as string[])
             : [entry.attribute[attr] as string];
           filterArr.forEach((f) => {
@@ -342,7 +342,7 @@ export default class Parser {
           if (filterlist.contentFilter && filterlist.contentFilter.includes(attr)) {
             const contentFilters = entryData.content.reduce((acc: string[], content: any) => {
               if (content[attr]) {
-                const contentFilterKeys = _.isArray(content[attr])
+                const contentFilterKeys = Array.isArray(content[attr])
                   ? (content[attr] as string[])
                   : [content[attr] as string];
                 return acc.concat(contentFilterKeys);

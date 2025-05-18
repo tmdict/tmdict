@@ -23,7 +23,7 @@ function loadMarkdown(p: string): any {
 
 /** Lodash customizer for merging arrays */
 function arrayCustomizer(objValue: any, srcValue: any): any[] {
-  if (_.isArray(objValue)) {
+  if (Array.isArray(objValue)) {
     return objValue.concat(srcValue);
   }
 }
