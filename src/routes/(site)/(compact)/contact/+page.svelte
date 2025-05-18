@@ -12,8 +12,8 @@
 <h1>Contact <span style="color:#777;">§</span> <span style="color:#c05b4d;font-size:0.85em">发送消息</span></h1>
 <br />
 <div class="content">
-  <form id="contact" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
-    <label class="hidden">Don"t fill this out if you"re human <input class="form" name="bot-field" /></label>
+  <form id="contact" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    <label class="hidden">Don"t fill this out if you're human <input class="form" name="bot-field" /></label>
     <label for="name">Name · 姓名 <input class="form" type="text" name="name" id="name" /></label><br />
     <label for="email">Email · 联系邮箱 <input class="form" type="text" name="email" id="email" /></label><br />
     <label for="title">Topic · 标题 <input class="form" type="text" name="title" id="title" value="{title}" /></label><br />
