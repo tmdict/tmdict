@@ -22,12 +22,12 @@
 </div>
 
 <div class="content frontpage">
-  <a href="/{data.lang}/profile/" aria-label="Profile">
-    <enhanced:img class="center" src={profileBanner} alt="Profile" />
-  </a>
-
   <a href="/{data.lang}/glossary" aria-label="Glossary">
     <enhanced:img class="center" src={glossaryBanner} alt="Glossary" />
+  </a>
+
+  <a href="/{data.lang}/profile/" aria-label="Profile">
+    <enhanced:img class="center" src={profileBanner} alt="Profile" />
   </a>
 </div>
 
