@@ -28,12 +28,6 @@
             ? a[sortBy][lang].localeCompare(b[sortBy][lang])
             : b[sortBy][lang].localeCompare(a[sortBy][lang]);
         }
-        case "star": {
-          // Rarity level is in first element of the array
-          return sortOrder
-            ? a[sortBy][0].localeCompare(b[sortBy][0])
-            : b[sortBy][0].localeCompare(a[sortBy][0]);
-        }
         default:
           return 0;
       }
@@ -51,7 +45,6 @@
     {#if listType === "profile"}
       <SortHeader {lang} headerId="id" margin={64} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
       <SortHeader {lang} headerId="name" margin={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
-      <SortHeader {lang} headerId="star" margin={335} {i18n} {sortBy} {sortOrder} {updateSortBy} />
     {:else}
       <SortHeader {lang} headerId="name" margin={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
       <div
