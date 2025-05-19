@@ -4,6 +4,11 @@
   <meta name="description" content="TMdict - a multi-lingual dictionary of vocabularies from games, books, anime, and other works by Type-Moon.">
   <link rel="canonical" href="https://www.tmdict.com/" />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    body, html {
+      background: #222;
+    }
+  </style>
 </svelte:head>
 
 <div id="enter">
@@ -16,10 +21,6 @@
 </div>
 
 <style>
-  :global(body), :global(html) {
-    background: #222;
-  }
-
   #enter {
     margin: 10% auto;
     width: 150px;
