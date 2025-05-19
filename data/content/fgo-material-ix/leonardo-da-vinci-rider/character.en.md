@@ -10,8 +10,8 @@ translation: "Konchew"
 
 <table>
   <tr><td>First-person pronoun</td><td>watashi</td></tr>
-  <tr><td>Second-person pronoun</td><td>kimi / aitsu / 〇〇 (without honorifics)</td></tr>
-  <tr><td>Third-person pronoun</td><td>kare (for males) / kanojo (for females) / 〇〇 (calling them by name with no honorifics)</td></tr>
+  <tr><td>Second-person pronoun</td><td>kimi / aitsu / 〇〇 (calling them by name with no honorifics)</td></tr>
+  <tr><td>Third-person pronoun</td><td>kare (for males) / kanojo (for females) / 〇〇 (without honorifics)</td></tr>
   <tr><td>Master</td><td>Master-kun / 〇〇〇-kun (Add Kun to the name (for both genders) and Goredolf-kun to Goredolf)</td></tr>
 </table>
 名前にくん付け（どちらの性别にも）またゴルドルフにもゴルドルフくん，とくん付け
