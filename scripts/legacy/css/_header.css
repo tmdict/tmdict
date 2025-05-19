@@ -9,7 +9,7 @@
 }
 
 .top-img {
-  background: #f1ede4 url("../top.png") no-repeat top left;
+  background: #f1ede4 url("../../img/top.png") no-repeat top left;
   width: 100px;
   height: 100px;
   float: left;
@@ -24,7 +24,7 @@
 }
 
 .top-img:hover {
-  background: #f1ede4 url("../top.png") no-repeat top left;
+  background: #f1ede4 url("../../img/top.png") no-repeat top left;
   border: 1px dotted #ccc;
   width: 98px;
   height: 98px;

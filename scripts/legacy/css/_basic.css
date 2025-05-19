@@ -121,7 +121,7 @@ blockquote {
   padding: 0 0 0 28px;
   margin: 11px 10px 8px 18px;
   border: 1px solid #e2e2e2;
-  background: #fff url("../search.png") no-repeat 6px 6px;
+  background: #fff url("../../img/search.png") no-repeat 6px 6px;
 }
 
 @media only screen and (max-width: 640px) {

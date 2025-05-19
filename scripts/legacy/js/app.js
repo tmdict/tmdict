@@ -189,7 +189,7 @@ m.mount(document.getElementById("container"), {
           m("div.side-back", 
             m("div.center", 
               m("a", { href: metadata.back }, 
-                m("img", { src: "../src/chaldea.png", alt: "CHALDEAの記録" })
+                m("img", { src: "../img/chaldea.png", alt: "CHALDEAの記録" })
               )
             )
           ),
