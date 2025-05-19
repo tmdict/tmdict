@@ -10,7 +10,7 @@ category:
 ---
 
 One of the five existing Magicians. It seems she hates the alliteration in her full name, and gets mad when people call her by it.
-As for why she’s a Magician, it’s because she arrived there at the end of a long and arduous road. If that’s not a clear answer for you, please refer to *Kara no Kyoukai*. Well, it might still be unclear even if you do that, though…
+As for why she’s a Magician, it’s because she arrived there at the end of a long and arduous road. If that’s not a clear answer for you, please refer to *Kara no Kyoukai*. However, Aoko merely arrived there, and was utterly clueless as to where or what it is.
 She had such a large influence on the young Shiki that to this day she is the only person he calls “Sensei.”
 The story of *Tsukihime* begins with Aoko and Shiki’s first meeting. At that time, she seemed to be an amiable older-sister type, but generally her stance is to avoid getting too involved with other people.
 Ever since becoming the Aozaki heir, she has lived the life of a rootless wanderer, roaming the world with a single trunk in hand. Her meeting with Shiki was merely a coincidence, akin to making friends with a local child in the midst of a long journey.
