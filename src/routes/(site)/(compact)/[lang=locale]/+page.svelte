@@ -68,19 +68,20 @@
   }
 
   .projects {
-    display: block;
+    display: flex;
     margin-bottom: 5px;
-  }
-
-  .project {
-    margin: 0 7px;
+    justify-content: center;
+    column-gap: 25px;
   }
 
   :global(.project img) {
-    border-radius: 5px;
+    border-radius: 4px;
+    filter: grayscale(0.35);
+    opacity: 0.9;
   }
 
   :global(.project img:hover) {
-    opacity: 0.9;
+    filter: none;
+    opacity: 1;
   }
 </style>
