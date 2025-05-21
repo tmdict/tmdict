@@ -8,9 +8,11 @@
     data.data.content
       .filter(ctn => !ctn.profile)[0].i18n[data.lang].html
       .replace(/(?:<[^>]*>|\n)+/g, " ")
-      .substring(1, 160)
+      .substring(1, 161)
   );
-  let metaDescription = $derived(parsed.substring(0, Math.min(parsed.length, parsed.lastIndexOf(" "))));
+  let metaDescription = $derived(
+    (parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed
+  );
 </script>
 
 <svelte:head>

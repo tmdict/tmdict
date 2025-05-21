@@ -11,8 +11,10 @@
 
   let { data } = $props();
 
-  let parsed = $derived(PAGES.top.i18n[data.lang].html.replace(/(?:<[^>]*>|\n)+/g, " ").substring(1, 160));
-  let metaDescription = $derived(parsed.substring(0, Math.min(parsed.length, parsed.lastIndexOf(" "))));
+  let parsed = $derived(PAGES.top.i18n[data.lang].html.replace(/(?:<[^>]*>|\n)+/g, " ").substring(1, 161));
+  let metaDescription = $derived(
+    (parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed
+  );
 </script>
 
 <svelte:head>
@@ -29,8 +31,6 @@
     }
   </style>
 </svelte:head>
-
-<h1>型月辞典 <span style="color:#777;">§</span> TMdict</h1>
 
 <div class="content">
   <div>{@html PAGES.top.i18n[data.lang].html}</div>
@@ -66,10 +66,6 @@
 </div>
 
 <style>
-  h1 {
-    font-size: 1.8rem;
-  }
-
   .center {
     margin: 15px auto;
   }

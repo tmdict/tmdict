@@ -18,13 +18,13 @@
       }
     } else if (data.data.content.length > 0 && data.data.content[0].i18n[data.lang]) {
       // If has content data
-      let parsed = data.data.content[0].i18n[data.lang].html
+      attrContent += ` | ${data.data.content[0].i18n[data.lang].html
         .replace(/(?:<[^>]*>|\n)+/g, " ")
         .replace(/    /g, " ")
-        .substring(1, 160)
-      attrContent += ` | ${parsed.substring(0, Math.min(parsed.length, parsed.lastIndexOf(" ")))}`;
+        .substring(1)}`;
     }
-    return attrContent;
+    const parsed = attrContent.substring(0, 160)
+    return (parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed;
   });
 </script>
 
