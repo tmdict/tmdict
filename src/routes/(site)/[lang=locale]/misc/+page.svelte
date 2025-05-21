@@ -9,8 +9,5 @@
   <link rel="canonical" href="https://www.tmdict.com/{data.lang}/misc" />
 </svelte:head>
 
-<div class="content">
-  <h1>{PAGES.misc.i18n[data.lang].name.name}</h1>
-  <div class="content"></div>
-  <div>{@html PAGES.misc.i18n[data.lang].html}</div>
-</div>
+<div class="content"><h1>{PAGES.misc.i18n[data.lang].name.name}</h1></div>
+<div class="content">{@html PAGES.misc.i18n[data.lang].html}</div>

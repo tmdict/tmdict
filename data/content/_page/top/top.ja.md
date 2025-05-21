@@ -10,4 +10,4 @@ TMdict は、ゲーム、書籍、アニメなどTYPE-MOON の作品のボキャ
 
 コンテンツは軽量かつシンプルなフォーマットで、用語の検索や並べ替えが可能です。
 
-現時点で<span class="highlight">1019</span>の用語を<span class="highlight">42</span>件のソースから収録。<span class="highlight">英語</span>、<span class="highlight">中国語</span>、<span class="highlight">日本語</span>の3ヵ国語で掲載しています。
+現時点で<span class="highlight">1395</span>のエントリーを<span class="highlight">42</span>件のソースから収録。<span class="highlight">英語</span>、<span class="highlight">中国語</span>、<span class="highlight">日本語</span>の3ヵ国語で掲載しています。

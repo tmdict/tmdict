@@ -9,8 +9,5 @@
   <link rel="canonical" href="https://www.tmdict.com/{data.lang}/site" />
 </svelte:head>
 
-<div class="content">
-  <h1>{PAGES.site.i18n[data.lang].name.name}</h1>
-  <div class="content"></div>
-  <div>{@html PAGES.site.i18n[data.lang].html}</div>
-</div>
+<div class="content"><h1>{PAGES.site.i18n[data.lang].name.name}</h1></div>
+<div class="content">{@html PAGES.site.i18n[data.lang].html}</div>

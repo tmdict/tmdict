@@ -9,7 +9,7 @@
   <link rel="canonical" href="https://www.tmdict.com/contact" />
 </svelte:head>
 
-<h1>Contact <span style="color:#777;">§</span> <span style="color:#c05b4d;font-size:0.85em">发送消息</span></h1>
+<h1>Contact <span style="color:#777;">§</span> 发送消息</h1>
 <br />
 <div class="content">
   <form 
@@ -29,8 +29,12 @@
 </div>
 
 <style>
+  h1 {
+    font-size: 1.8rem;
+  }
+  
   .hidden { 
-    display: none; 
+    display: none;
   }
 
   form {

@@ -15,14 +15,12 @@
   <Sidebar {lang} attribute={data.attribute} content={data.content} />
 {/if}
 
-<h1 id="{data.attribute.id}">{data.attribute.attr.name[lang]}</h1>
+<div class="content">
+  <h1 id="{data.attribute.id}">{data.attribute.attr.name[lang]}</h1>
+</div>
 
 {#if data.attribute.type === "profile" && data.attribute.layout[Object.keys(data.attribute.layout)[0]].length > 0}
   <ProfileTop {lang} {data} {screenWidth} />
-{/if}
-
-{#if data.attribute.type === "glossary"}
-  <div class="content"></div>
 {/if}
 
 {#each data.content as section}
