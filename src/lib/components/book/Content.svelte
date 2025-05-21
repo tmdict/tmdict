@@ -1,6 +1,6 @@
 <script>
-  import { bookstore } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
+  import { bookstore } from "$lib/util/stores.svelte.js"
   import gitIcon from "$lib/img/style/edit.svg"
 
   let { entry } = $props();

@@ -2,7 +2,6 @@
   import Content from "$lib/components/entry/Content.svelte";
   import ProfileTop from "$lib/components/entry/ProfileTop.svelte";
   import Sidebar from "$lib/components/entry/Sidebar.svelte";
-
   import APP from "$lib/__generated/constants.json";
   
   let { lang, data } = $props();

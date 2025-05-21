@@ -45,7 +45,7 @@
 
 <style>
   .sidebar {
-    width:200px;
+    width:205px;
     position:fixed;
   }
 
@@ -67,7 +67,7 @@
     text-decoration: none;
     font-size: 1rem;
     font-family: Arial, "Microsoft YaHei", sans-serif;
-    line-height: 1;
+    line-height: 1.2;
     color: #f7d87c;
     transition: 0.2s;
   }

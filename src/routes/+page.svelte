@@ -1,7 +1,7 @@
 <svelte:head>
   <title>TMdict | 型月辞典</title>
-  <meta charset="utf-8">
-  <meta name="description" content="TMdict - a multi-lingual dictionary of vocabularies from games, books, anime, and other works by Type-Moon.">
+  <meta charset="utf-8" />
+  <meta name="description" content="TMdict - a multi-lingual dictionary of vocabularies from games, books, anime, and other works by Type-Moon." />
   <link rel="canonical" href="https://www.tmdict.com/" />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <style>

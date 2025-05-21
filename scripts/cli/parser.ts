@@ -180,7 +180,7 @@ function parseContent(id: string, contentData: any, attrData: AttributeData): En
       const sourceLang = "source" in c.data ? attrData["source"][sourceId]["data"]["name"][lang] : "";
       const translation = "translation" in c.data ? c.data.translation : "";
       const img = "img" in c.data ? c.data.img : "";
-      const profile = "profile" in c.data ? 0 : 1; // Used to sort profile content
+      const profile = "profile" in c.data ? true : false; // Used to sort profile content
       // Use common attr ID for name, if not use "name" override, else ""
       const name =
         "name" in c.data
@@ -261,7 +261,7 @@ export default class Parser {
               // Sort content by type (profile vs glossary), then source weight, then content weight
               const aSource: number = attrData.source[a.source] ? attrData.source[a.source].weight : 0;
               const bSource: number = attrData.source[b.source] ? attrData.source[b.source].weight : 0;
-              return a.profile - b.profile || aSource - bSource || a.weight - b.weight;
+              return (a.profile ? 1 : 0) - (b.profile ? 1 : 0) || aSource - bSource || a.weight - b.weight;
             })
           : [];
       return {

@@ -1,6 +1,5 @@
 <script>
   import Book from "$lib/components/book/Book.svelte";
-
   import { onMount } from 'svelte';
   import { bookstore } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";

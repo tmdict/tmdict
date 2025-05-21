@@ -17,8 +17,17 @@
 
 <svelte:head>
   <title>型月辞典 | TMdict</title>
-  <meta name="description" content={metaDescription}>
+  <meta name="description" content={metaDescription} />
   <link rel="canonical" href="https://www.tmdict.com/{data.lang}/" />
+  <style>
+    ul {
+      padding-left: 30px;
+    }
+
+    .frontpage li {
+      margin-top: 10px;
+    }
+  </style>
 </svelte:head>
 
 <h1>型月辞典 <span style="color:#777;">§</span> TMdict</h1>
@@ -27,17 +36,17 @@
   <div>{@html PAGES.top.i18n[data.lang].html}</div>
 </div>
 
-<div class="content frontpage">
+<div class="content">
   <a href="/{data.lang}/glossary" aria-label="Glossary">
-    <enhanced:img class="center" src={glossaryBanner} alt="Glossary" />
+    <enhanced:img class="center img" src={glossaryBanner} alt="Glossary" />
   </a>
 
   <a href="/{data.lang}/profile/" aria-label="Profile">
-    <enhanced:img class="center" src={profileBanner} alt="Profile" />
+    <enhanced:img class="center img" src={profileBanner} alt="Profile" />
   </a>
 </div>
 
-<div class="content frontpage">
+<div class="content">
   <h2>{APP.i18n.update[data.lang]}</h2>
   <div>{@html PAGES.updates.i18n[data.lang].html}</div>
 </div>
@@ -49,10 +58,10 @@
 
 <div class="projects">
   <a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
-    <enhanced:img class="center" src={tsukikan} alt="Tsukikan" />
+    <enhanced:img class="center img" src={tsukikan} alt="Tsukikan" />
   </a>
   <a class="project" href="https://mhy.tmdict.com/" aria-label="mHY-notes">
-    <enhanced:img class="center" src={mhy} alt="mHY-notes" />
+    <enhanced:img class="center img" src={mhy} alt="mHY-notes" />
   </a>
 </div>
 
@@ -65,16 +74,8 @@
     margin: 15px auto;
   }
 
-  :global(.frontpage img) {
+  .content .img {
     display: block;
-  }
-
-  :global(.frontpage ul) {
-    padding-left: 30px;
-  }
-
-  :global(.frontpage li) {
-    margin-top: 10px;
   }
 
   .projects {
@@ -84,13 +85,13 @@
     column-gap: 25px;
   }
 
-  :global(.project img) {
+  .project .img {
     border-radius: 4px;
     filter: grayscale(0.35);
     opacity: 0.9;
   }
 
-  :global(.project img:hover) {
+  .project .img:hover {
     filter: none;
     opacity: 1;
   }
