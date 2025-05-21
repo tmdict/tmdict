@@ -36,16 +36,16 @@
     <div>{@html data.i18n[contentLang].html}</div>
 
     {#if data.img !== ""}
-    <div class="entry-image">
-      <picture>
-        <source srcset={getImage(data.img, "avif")} type="image/avif" />
-        <img src={getImage(data.img, "jpg")} 
-          title={data.i18n[contentLang].name.name}
-          alt={data.img}
-          style:border="1px dashed #777"
-        />
-      </picture>
-    </div>
+      <div class="entry-image">
+        <picture>
+          <source srcset={getImage(data.img, "avif")} type="image/avif" />
+          <img src={getImage(data.img, "jpg")} 
+            title={data.i18n[contentLang].name.name}
+            alt={data.img}
+            style:border="1px dashed #777"
+          />
+        </picture>
+      </div>
     {/if}
   </div>
 {/if}

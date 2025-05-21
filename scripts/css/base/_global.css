@@ -114,6 +114,12 @@ h6 {
   margin-bottom: 7.5em;
 }
 
+@media only screen and (max-width: 660px) {
+  .content {
+    line-height: 1.8rem;
+  }
+}
+
 .content:after {
   content: var(--content-break);
   position: absolute;
