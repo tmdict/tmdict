@@ -87,12 +87,16 @@ export default class Bamboo {
         const entryPath = `${lang}/${ja}.${entryData.attribute.id}`;
         // Get i18n content for each content[] for template
         const entryContent = entryData.content.map((c) => c.i18n[lang]);
+        // Generate meta description
+        const cleaned = entryContent[0].html.replace(/(?:<[^>]*>|\n)+/g, " ").substring(1, 160);
+        const metaDescription = cleaned.substring(0, cleaned.lastIndexOf(" "));
         toTemplate(templates["page.html"], `static/legacy/${entryPath}.html`, {
           isEntry: true,
           id: `${ja}.${entryData.attribute.id}`,
           app: appConfig.app,
           lang: lang,
           nav: nav,
+          metaDescription: metaDescription,
           attribute: {
             id: entryData.attribute.id,
             name: entryData.attribute.attr.name[lang],
