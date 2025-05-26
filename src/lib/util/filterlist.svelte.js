@@ -30,7 +30,7 @@ export const filterlist = {
     _filterlist[filterType].quick = "";
   },
   // Reset all filter types
-  reset: (filterType, filterValue) => {
+  reset: () => {
     // Iterate over each filter type and reset their content
     Object.keys(_filterlist).forEach((filterType) => {
       _filterlist[filterType].common = [];
@@ -39,8 +39,6 @@ export const filterlist = {
   },
   filterList: (arr) => {
     return arr.filter((item) => {
-      // Check each filter type
-      const filters = Object.values(_filterlist);
       for (const [filterKey, filterValue] of Object.entries(_filterlist)) {
         // If at least one filter is set
         if (filterValue.quick !== "" || filterValue.common.length !== 0) {

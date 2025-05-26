@@ -3,6 +3,7 @@
   const icons = import.meta.glob(
     "$lib/__generated/img/profile/icon/*.png", {
       eager: true,
+	    import: 'default',
       query: {
         enhanced: true,
       },
@@ -28,8 +29,7 @@
         break;
       }
     }
-    const img = `/src/lib/__generated/img/profile/icon/${name}.png`;
-    return icons[img].default;
+    return icons[`/src/lib/__generated/img/profile/icon/${name}.png`];
   }
 </script>
 
