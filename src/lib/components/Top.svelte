@@ -86,7 +86,7 @@
   </div>
 
   <div class="search">
-    <form action="#"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
+    <form action="/search"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
   </div>
 </div>
 <style>

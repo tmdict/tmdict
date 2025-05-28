@@ -50,9 +50,9 @@ function optimizeImg(dir: string, output: string): void {
 
 export default class Builder {
   // Generate JSON data with `name` as key
-  toJsonExport = (path: string, data: any): void => {
+  toJsonExport = (path: string, data: any, formatted = false): void => {
     try {
-      outputFile(JSON.stringify(data), path);
+      outputFile(JSON.stringify(data, null, formatted ? 2 : null), path);
     } catch (err) {
       console.log(`[ERROR toJsonExport] [${path}]: ${err}`);
     }

@@ -3,11 +3,11 @@
   import { onMount } from 'svelte';
   import { bookstore } from "$lib/util/stores.svelte.js"
   import APP from "$lib/__generated/constants.json";
-  import data from "$lib/__generated/data/book.json";
+  import BOOK_DATA from "$lib/__generated/data/book.json";
   import hashes from "$lib/__generated/hashes.json";
 
   let currentSource = $state("");
-  data.sort((a, b) => (a.source.weight > b.source.weight) ? -1 : 1);
+  BOOK_DATA.sort((a, b) => (a.source.weight > b.source.weight) ? -1 : 1);
 
   function parseUrlSource() {
     const hashUrl = window.location.hash.substring(1);
@@ -16,7 +16,7 @@
 
   function handleHashChange() {
     // Update source depending on URL
-    if (data.find((b) => b.source.id === parseUrlSource())) {
+    if (BOOK_DATA.find((b) => b.source.id === parseUrlSource())) {
       currentSource = parseUrlSource();
     } else {
       currentSource = "";
@@ -57,7 +57,7 @@
       </div>
       <div class="separator"></div>
       <ul>
-        {#each data as book}
+        {#each BOOK_DATA as book}
           <li>
             <a href={`#${book.source.id}`} id={`${book.source.id}`} title={book.glossary.data.name[bookstore.lang]}>
               <div class="info" class:new={book.source.releaseDate.split("-")[0] === "2023"}>
@@ -71,6 +71,6 @@
       <div class="separator-small"></div>
     </div>
   {:else}
-    <Book book={data.find(b => b.source.id === currentSource)} />
+    <Book book={BOOK_DATA.find(b => b.source.id === currentSource)} />
   {/if}
 </div>

@@ -24,6 +24,9 @@ sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/profile/`});
 });
 
+// Search
+const searchData: { [key: string]: any }[] = [];
+
 // Build assets, img, css, etc.
 console.log("Building assets...");
 builder.buildImg(appConfig.paths);
@@ -77,6 +80,19 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
           priority: 1.0,
           url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
         });
+
+        // Aggregate search data
+        const searchContent = entryData.content
+          .map((c: EntryContent) => (c.i18n[lang] ? c.i18n[lang].html : ''))
+          .join(' ');
+        searchData.push({
+          title: entryData.attribute.attr.name[lang],
+          url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
+          text: parser
+            .parseSearchMarkup(searchContent)
+            .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
+            .replace(/<[^>]*>/g, ' '),
+        })
       });
       count++;
 
@@ -166,6 +182,9 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     content: parsedData.filterlist,
     i18n: parsedData.i18n,
   });
+
+  // Build search js
+  builder.toJsonExport(`src/lib/__generated/data/search.json`, searchData, true);
 
   // Build entries js
   //builder.toJsonExport(`src/lib/__generated/data/${contentType}/entries.json`, parsedData.entries);
