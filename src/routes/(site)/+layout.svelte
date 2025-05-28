@@ -30,10 +30,10 @@
   }
 
   #main.bgimg {
-    background-image: url("$lib/img/style/bg_light.gif");
+    background-image: url("$lib/img/bg_light.gif");
     background-image: image-set(
-      url("$lib/img/style/bg_light.avif") type("image/avif"),
-      url("$lib/img/style/bg_light.gif") type("image/gif")
+      url("$lib/img/bg_light.avif") type("image/avif"),
+      url("$lib/img/bg_light.gif") type("image/gif")
     );
   }
 

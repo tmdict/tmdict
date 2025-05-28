@@ -1,7 +1,7 @@
 <script>
   import APP from "$lib/__generated/constants.json";
   import { bookstore } from "$lib/util/stores.svelte.js"
-  import gitIcon from "$lib/img/style/edit.svg"
+  import gitIcon from "$lib/img/edit.svg"
 
   let { entry } = $props();
   let contentLang = $derived(bookstore.lang);

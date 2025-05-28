@@ -87,11 +87,10 @@
 </div>
 <style>
   #top {
-    background-image: url("$lib/img/style/bg_dark.gif");
-    background-image: image-set(
-      url("$lib/img/style/bg_dark.avif") type("image/avif"),
-      url("$lib/img/style/bg_dark.gif") type("image/gif")
-    );
+    background: #0f212f;
+    border-bottom: 1px solid #baaf81;
+    outline: 2px solid #baaf81;
+    outline-offset: 4px;
     grid-column: col-start / col-end;
     grid-row: row-start / row-1;
   }
