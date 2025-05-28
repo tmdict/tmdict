@@ -42,7 +42,7 @@ function getFilters(sources, lang) {
 }
 
 m.mount(document.getElementById("container"), {
-	view: function() {
+  view: function() {
     // Get filters
     const filters = getFilters(data.i18n.source, metadata.lang);
     // Update states
@@ -52,7 +52,7 @@ m.mount(document.getElementById("container"), {
     filterSrc = filters.some(f => f.id === query.fs) ? query.fs : "";
     // Get filtered list
     const filteredList = getFilterlistEntry(data.filterlist, metadata.nav, navLang, navId, filterSrc);
-		return m("div.wrapper group", [
+    return m("div.wrapper group", [
       m("div.top", [
         // Top Image Link
         m("div.top-img", 
@@ -201,6 +201,6 @@ m.mount(document.getElementById("container"), {
           )
         ])
       )
-		])
-	}
+    ])
+  }
 });

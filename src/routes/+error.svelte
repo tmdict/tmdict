@@ -1,5 +1,5 @@
 <script>
-	import { page } from '$app/state';
+  import { page } from '$app/state';
   import errorImg from "$lib/img/error.png?enhanced";
 </script>
 
