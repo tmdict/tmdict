@@ -84,6 +84,10 @@
       {/each}
     </div>
   </div>
+
+  <div class="search">
+    <form action="#"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
+  </div>
 </div>
 <style>
   #top {
@@ -196,5 +200,21 @@
     #header a { font-size: 0.9rem; }
     #header #language a { font-size: 0.8rem; }
     #name a { font-size: 2rem; }
+  }
+
+  .search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search #searchbox {
+    font: 13px/1.6 Verdana, Sans-serif;
+    color: #333;
+    height: 26px;
+    padding: 0 0 0 25px;
+    margin: 10px auto;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: #fff url("$lib/img/search.svg") no-repeat 6px 6px;
   }
 </style>

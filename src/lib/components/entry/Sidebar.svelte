@@ -21,7 +21,7 @@
 
 <svelte:window bind:innerWidth={screenWidth} bind:scrollY={screenTop} />
 
-<div class="sidebar" style="top: {(screenTop > 300) ? 0 : (300-screenTop)}px; left: {0.5*screenWidth+410}px">
+<div class="sidebar" style="top: {(screenTop > 300) ? 0 : (350-screenTop)}px; left: {0.5*screenWidth+405}px">
   <ul>
     {#if content.length > 0}
       <li class="sidebar-item"><a href="#{attribute.id}">TOP</a></li>

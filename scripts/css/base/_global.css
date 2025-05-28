@@ -88,7 +88,7 @@ h6 {
 #container {
   display: grid;
   grid-template-columns: [col-start] auto [col-1] 840px [col-2] auto [col-end];
-  grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
+  grid-template-rows: [row-start] 345px [row-1] auto [row-2] auto [row-end];
 }
 
 @media only screen and (max-width: 840px) {
@@ -101,7 +101,7 @@ h6 {
   #container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: [row-start] 300px [row-1] auto [row-2] auto [row-end];
+    grid-template-rows: [row-start] 345px [row-1] auto [row-2] auto [row-end];
   }
 }
 
