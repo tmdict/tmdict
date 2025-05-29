@@ -88,8 +88,14 @@
       class:active={filter === currentFilter}
       role="button"
       tabindex="0"
-      onclick={() => (currentFilter = filter)}
-      onkeydown={() => (currentFilter = filter)}
+      onclick={() => {
+        currentFilter = filter;
+        currentPage = 1;
+      }}
+      onkeydown={() => {
+        currentFilter = filter;
+        currentPage = 1;
+      }}
     >
       {APP.lang[filter].name} 
       <span class="count">(<span class="number">{filters[filter]}</span>)</span>
@@ -100,8 +106,14 @@
     class="filter"
     role="button"
     tabindex="0"
-    onclick={currentFilter = ""}
-    onkeydown={currentFilter = ""}
+    onclick={() => {
+      currentFilter = "";
+      currentPage = 1;
+    }}
+    onkeydown={() => {
+      currentFilter = "";
+      currentPage = 1;
+    }}
   >
     All
   </span>
