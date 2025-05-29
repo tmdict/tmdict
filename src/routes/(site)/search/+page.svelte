@@ -4,7 +4,6 @@
   import Fuse from "fuse.js";
   import { highlight } from "$lib/util/highlight.js";
 
-  const minCharLenOffset = 0;
   const minChar = 2;
   const queryTooShort = {
     en: `…Keyword must be longer than ${minChar - 1} characters`,
@@ -17,12 +16,7 @@
     get: (searchParams, prop) => searchParams.get(prop),
   });
 
-  let minMatchCharLen = minChar;
-  if (params.q !== null && params.q.length > 0) {
-    if (params.q.length - minCharLenOffset > minMatchCharLen) {
-      minMatchCharLen = params.q.length - minCharLenOffset;
-    }
-  }
+  const minMatchCharLen = Math.max(minChar, params.q?.length || 0);
 
   const fuse = new Fuse(SEARCH_DATA, {
     ignoreLocation: true,
@@ -34,7 +28,7 @@
     keys: ['text', 'title'],
   });
 
-  let searchResults = [];
+  let searchResults = $state([]);
   if (params.q !== null && params.q.length > 0 && params.q.length >= minChar) {
     const results = fuse.search(params.q.replace('+', ' '));
     if (results.length > 0) {
