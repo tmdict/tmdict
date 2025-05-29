@@ -14,7 +14,7 @@
   let spin = $state(false);
   let topImg = $state(topImgBamboo);
   let path = $derived(page.url.pathname.replace(/^\/\w+/, "") + page.url.hash);
-  let searchQuery = $derived(page.url.searchParams.get('q') || '');
+  let searchQuery = $derived(browser ? page.url.searchParams.get("q") || "" : "");
 
   afterNavigate(() => {
     topImage();
