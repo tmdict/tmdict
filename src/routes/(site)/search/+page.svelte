@@ -28,12 +28,13 @@
   });
 
   let currentFilter = $state("");
+  let currentPage = $state(1);
+  const resultsPerPage = 10;
   let searchResults = $state([]);
 
   if (params.q !== null && params.q.length > 0 && params.q.length >= minChar) {
     const results = fuse.search(params.q.replace('+', ' '));
     if (results.length > 0) {
-      // Highlight and return search results
       searchResults = structuredClone(highlight(results, true));
     }
   }
@@ -42,6 +43,20 @@
   let filteredResults = $derived(
     currentFilter ? searchResults.filter(r => r.lang === currentFilter) : searchResults
   );
+
+  let paginatedResults = $derived(
+    filteredResults.slice(
+      (currentPage - 1) * resultsPerPage,
+      currentPage * resultsPerPage
+    )
+  );
+
+  let totalPages = $derived(Math.ceil(filteredResults.length / resultsPerPage));
+
+  function goToPage(page) {
+    currentPage = page;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   function countByLang(results) {
     return results.reduce((acc, result) => {
@@ -96,7 +111,7 @@
   {#if params.q && params.q.length < minChar}
     {queryTooShort[data.lang]}
   {/if}
-  {#each filteredResults as result}
+  {#each paginatedResults as result}
     <div class="result">
       <a href={result.url}>
         <div class="title">{@html result.title}</div>
@@ -110,6 +125,26 @@
     </div>
   {/each}
 </div>
+
+{#if totalPages > 1}
+  <div class="content">
+      <div class="pagination">
+        {#if currentPage > 1}
+          <button class="nav" onclick={() => goToPage(currentPage - 1)}>«</button>
+        {/if}
+        
+        {#each Array(totalPages) as _, i}
+          <button class:active={currentPage === i + 1} onclick={() => goToPage(i + 1)}>
+            {i + 1}
+          </button>
+        {/each}
+
+        {#if currentPage < totalPages}
+          <button class="nav" onclick={() => goToPage(currentPage + 1)}>»</button>
+        {/if}
+      </div>
+  </div>
+{/if}
 
 <style>
   .filters {
@@ -151,7 +186,7 @@
   .result a {
     color: var(--text-dark);
     text-decoration: none;
-    line-height: 1.5em;
+    line-height: 1.6em;
   }
 
   .result a:hover {
@@ -168,5 +203,37 @@
     .result .info .url {
       display: none;
     }
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 30px 0;
+  }
+
+  .pagination button {
+    padding: 8px 12px;
+    border: 1px solid var(--primary-link);
+    background: none;
+    color: var(--primary-link);
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .pagination button.nav {
+    padding: 8px 12px;
+    border: 1px dotted var(--primary-link);
+  }
+
+  .pagination button:hover {
+    background: var(--primary-link);
+    color: var(--bg-main);
+  }
+
+  .pagination button.active {
+    background: var(--primary-link);
+    color: var(--bg-main);
   }
 </style>
