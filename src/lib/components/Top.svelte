@@ -14,6 +14,7 @@
   let spin = $state(false);
   let topImg = $state(topImgBamboo);
   let path = $derived(page.url.pathname.replace(/^\/\w+/, "") + page.url.hash);
+  let searchQuery = $derived(page.url.searchParams.get('q') || '');
 
   afterNavigate(() => {
     topImage();
@@ -93,7 +94,14 @@
         window.location.href = `/search?q=${encodeURIComponent(query)}`;
       }
     }}>
-      <input type="text" name="q" id="searchbox" autoComplete="off" required="" />
+      <input 
+        type="text" 
+        name="q" 
+        id="searchbox" 
+        value={searchQuery}
+        autoComplete="off" 
+        required="" 
+      />
     </form>
   </div>
 </div>
