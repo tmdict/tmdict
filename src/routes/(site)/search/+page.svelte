@@ -71,11 +71,7 @@
   <title>Search | TMdict</title>
   <link rel="canonical" href="https://www.tmdict.com/contact" />
   <style>
-    .search-highlight {
-      color: var(--bg-main);
-      background-color: var(--text-dark);
-      font-size: 1.1em;
-    }
+    .search-highlight { color: var(--bg-main); background-color: var(--text-dark); font-size: 1.1em; }
   </style>
 </svelte:head>
 

@@ -9,9 +9,7 @@
   <meta name="description" content="404 Not Found." />
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <style>
-    body, html {
-      background: #222;
-    }
+    body, html { background: #222; }
   </style>
 </svelte:head>
 

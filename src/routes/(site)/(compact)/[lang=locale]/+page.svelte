@@ -22,13 +22,8 @@
   <meta name="description" content={metaDescription} />
   <link rel="canonical" href="https://www.tmdict.com/{data.lang}/" />
   <style>
-    ul {
-      padding-left: 30px;
-    }
-
-    .frontpage li {
-      margin-top: 10px;
-    }
+    ul { padding-left: 30px; }
+    .frontpage li { margin-top: 10px; }
   </style>
 </svelte:head>
 
