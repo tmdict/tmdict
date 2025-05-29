@@ -1,8 +1,9 @@
 <script>
-  import SEARCH_DATA from "$lib/__generated/data/search.json";
   import { browser } from '$app/environment';
   import Fuse from "fuse.js";
   import { highlight } from "$lib/util/highlight.js";
+  import APP from "$lib/__generated/constants.json";
+  import SEARCH_DATA from "$lib/__generated/data/search.json";
 
   const minChar = 2;
   const queryTooShort = {
@@ -28,6 +29,7 @@
     keys: ['text', 'title'],
   });
 
+  let currentFilter = $state("");
   let searchResults = $state([]);
   if (params.q !== null && params.q.length > 0 && params.q.length >= minChar) {
     const results = fuse.search(params.q.replace('+', ' '));
@@ -35,6 +37,20 @@
       // Highlight and return search results
       searchResults = structuredClone(highlight(results, true));
     }
+  }
+
+  let filters = $derived(countByLang(searchResults));
+
+  function countByLang(results) {
+    return results.reduce((acc, result) => {
+      const lang = result.lang || "unknown";
+      acc[lang] = (acc[lang] || 0) + 1;
+      return acc;
+    }, {});
+  }
+
+  function clearAll() {
+    currentFilter = "";
   }
 </script>
 
@@ -51,7 +67,33 @@
 </svelte:head>
 
 <h1>{params.q} (<span style="color:#777;">{searchResults.length}</span> results)</h1>
-<br />
+
+<div class="filters">
+  {#each Object.keys(filters) as filter}
+    <span
+      class="filter"
+      class:active={filter === currentFilter}
+      role="button"
+      tabindex="0"
+      onclick={() => (currentFilter = filter)}
+      onkeydown={() => (currentFilter = filter)}
+    >
+      {APP.lang[filter].name} 
+      <span class="count">(<span class="number">{filters[filter]}</span>)</span>
+    </span>
+    {' · '}
+  {/each}
+  <span
+    class="filter"
+    role="button"
+    tabindex="0"
+    onclick={clearAll}
+    onkeydown={clearAll}
+  >
+    Clear All
+  </span>
+</div>
+
 <div class="content">
   {#if params.q && params.q.length < minChar}
     {queryTooShort[data.lang]}
@@ -67,9 +109,27 @@
 </div>
 
 <style>
-  h1 {
-    font-size: 1.8rem;
+  .filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
   }
+
+  .filters .filter {
+    color: var(--primary-link);
+    font-size: 1.1em;
+    margin: 10px;
+  }
+
+  .filters .filter:hover {
+    color: var(--primary-link-highlight);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .filters .count { color: #777; }
+  .filters .number { color: var(--primary-heading); }
 
   .result .title {
     color: var(--primary-heading);
