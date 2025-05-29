@@ -19,6 +19,7 @@
 
 <style>
   #main {
+    background: var(--bg-main);
     grid-column: col-1 / col-2;
     grid-row: row-1 / row-2;
     min-height: 400px;

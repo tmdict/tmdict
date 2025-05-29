@@ -105,10 +105,6 @@ h6 {
   }
 }
 
-#main {
-  background: var(--bg-main);
-}
-
 .content {
   line-height: 1.5rem;
   margin-bottom: 7.5em;
@@ -216,32 +212,4 @@ h6 {
   .content td:nth-child(1) {
     width: 140px;
   }
-}
-
-.filter-list .list .item .entry-header .search-highlight {
-  color: var(--primary-highlight);
-  background-color: var(--text-dark);
-}
-
-.filter-list .list .item .entry-content p .search-highlight {
-  color: var(--primary-highlight);
-  background-color: var(--text-dark);
-}
-
-.filter-list .list .item .entry-content p {
-  padding: 0 5px;
-}
-
-.filter-list .list .item .entry-content h3 {
-  font-size: .75rem;
-  margin: 0 0 0 5px;
-}
-
-.filter-list .list .item .entry-content h4 {
-  font-size: 0.8rem;
-  margin-left: 5px;
-}
-
-.filter-list .list .item .entry-content h5 {
-  margin: 15px 0 5px 15px;
 }

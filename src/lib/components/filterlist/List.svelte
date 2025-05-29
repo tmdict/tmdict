@@ -40,6 +40,38 @@
   }
 </script>
 
+<svelte:head>
+  <style>
+    .list .item .entry-header .search-highlight {
+      color: var(--primary-highlight);
+      background-color: var(--text-dark);
+    }
+
+    .list .item .entry-content p .search-highlight {
+      color: var(--primary-highlight);
+      background-color: var(--text-dark);
+    }
+
+    .list .item .entry-content p {
+      padding: 0 5px;
+    }
+
+    .list .item .entry-content h3 {
+      font-size: .75rem;
+      margin: 0 0 0 5px;
+    }
+
+    .list .item .entry-content h4 {
+      font-size: 0.8rem;
+      margin-left: 5px;
+    }
+
+    .list .item .entry-content h5 {
+      margin: 15px 0 5px 15px;
+    }
+  </style>
+</svelte:head>
+
 <div class="list">
   <div class="header item {listType}">
     {#if listType === "profile"}
