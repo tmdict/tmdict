@@ -220,12 +220,12 @@ h6 {
 
 .filter-list .list .item .entry-header .search-highlight {
   color: var(--primary-highlight);
-  background-color: var(--text-medium);
+  background-color: var(--text-dark);
 }
 
 .filter-list .list .item .entry-content p .search-highlight {
   color: var(--primary-highlight);
-  background-color: var(--text-medium);
+  background-color: var(--text-dark);
 }
 
 .filter-list .list .item .entry-content p {

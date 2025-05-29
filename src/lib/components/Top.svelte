@@ -86,7 +86,15 @@
   </div>
 
   <div class="search">
-    <form action="/search"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
+    <form action="/search" onsubmit={(e) => {
+      e.preventDefault();
+      const query = e.target.querySelector('#searchbox').value;
+      if (query) {
+        window.location.href = `/search?q=${encodeURIComponent(query)}`;
+      }
+    }}>
+      <input type="text" name="q" id="searchbox" autoComplete="off" required="" />
+    </form>
   </div>
 </div>
 <style>

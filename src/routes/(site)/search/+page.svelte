@@ -39,7 +39,7 @@
     const results = fuse.search(params.q.replace('+', ' '));
     if (results.length > 0) {
       // Highlight and return search results
-      searchResults = structuredClone(highlight(results));
+      searchResults = structuredClone(highlight(results, true));
     }
   }
 </script>
@@ -47,16 +47,44 @@
 <svelte:head>
   <title>Search | TMdict</title>
   <link rel="canonical" href="https://www.tmdict.com/contact" />
+  <style>
+    .search-highlight {
+      color: var(--bg-main);
+      background-color: var(--text-dark);
+      font-size: 1.1em;
+    }
+  </style>
 </svelte:head>
 
-<h1>Search <span style="color:#777;">§</span> 搜索</h1>
+<h1>{params.q} (<span style="color:#777;">{searchResults.length}</span> results)</h1>
 <br />
 <div class="content">
+  {#if params.q && params.q.length < minChar}
+    {queryTooShort[data.lang]}
+  {/if}
+  {#each searchResults as result}
+    <div class="result">
+      <div class="title">{@html result.title}</div>
+      <a href={result.url}>
+        <div class="text">{@html result.text}</div>
+      </a>
+    </div>
+  {/each}
 </div>
 
 <style>
   h1 {
     font-size: 1.8rem;
   }
-  
+
+  .result .title {
+    color: var(--primary-heading);
+    font-weight: bold;
+    margin: 20px 0 5px;
+  }
+
+  .result a {
+    color: var(--text-dark);
+    text-decoration: none;
+  }
 </style>
