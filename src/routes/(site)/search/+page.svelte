@@ -5,13 +5,8 @@
   import APP from "$lib/__generated/constants.json";
   import SEARCH_DATA from "$lib/__generated/data/search.json";
 
-  const minChar = 2;
-  const queryTooShort = {
-    en: `…Keyword must be longer than ${minChar - 1} characters`,
-    zh: `…关键字必须长于${minChar - 1}个字符`,
-    ja: `…キーワードは${minChar - 1}文字以上であること`,
-  };
   // Get search query and setup
+  const minChar = 2;
   const searchTerm = (browser) ? window.location.search : ""
   const params = new Proxy(new URLSearchParams(searchTerm), {
     get: (searchParams, prop) => searchParams.get(prop),
@@ -77,62 +72,66 @@
 
 <h1>{params.q} (<span style="color:#777;">{searchResults.length}</span> results)</h1>
 
-<div class="filters">
-  {#each Object.keys(filters).sort() as filter}
+{#if params.q && params.q.length < minChar}
+  <div class="content" style="text-align:center;">
+    <p>Keyword must be longer than {minChar - 1} character{(minChar - 1 > 1) ? "s" : ""}</p>
+    <p>关键字必须长于{minChar - 1}个字符</p>
+  </div>
+{:else}
+  <div class="filters">
+    {#each Object.keys(filters).sort() as filter}
+      <span
+        class="filter"
+        class:active={filter === currentFilter}
+        role="button"
+        tabindex="0"
+        onclick={() => {
+          currentFilter = filter;
+          currentPage = 1;
+        }}
+        onkeydown={() => {
+          currentFilter = filter;
+          currentPage = 1;
+        }}
+      >
+        {APP.lang[filter].name} 
+        <span class="count">(<span class="number">{filters[filter]}</span>)</span>
+      </span>
+      {" · "}
+    {/each}
     <span
       class="filter"
-      class:active={filter === currentFilter}
       role="button"
       tabindex="0"
       onclick={() => {
-        currentFilter = filter;
+        currentFilter = "";
         currentPage = 1;
       }}
       onkeydown={() => {
-        currentFilter = filter;
+        currentFilter = "";
         currentPage = 1;
       }}
     >
-      {APP.lang[filter].name} 
-      <span class="count">(<span class="number">{filters[filter]}</span>)</span>
+      All
     </span>
-    {" · "}
-  {/each}
-  <span
-    class="filter"
-    role="button"
-    tabindex="0"
-    onclick={() => {
-      currentFilter = "";
-      currentPage = 1;
-    }}
-    onkeydown={() => {
-      currentFilter = "";
-      currentPage = 1;
-    }}
-  >
-    All
-  </span>
-</div>
+  </div>
 
-<div class="content">
-  {#if params.q && params.q.length < minChar}
-    {queryTooShort[data.lang]}
-  {/if}
-  {#each paginatedResults as result}
-    <div class="result">
-      <a href={result.url}>
-        <div class="title">{@html result.title}</div>
-        <div class="info">
-          {APP.i18n[result.type][result.lang]}
-           · {APP.lang[result.lang].name}
-          <span class="url"> · {result.url}</span>
-        </div>
-        <div class="text">{@html result.text}</div>
-      </a>
-    </div>
-  {/each}
-</div>
+  <div class="content">
+    {#each paginatedResults as result}
+      <div class="result">
+        <a href={result.url}>
+          <div class="title">{@html result.title}</div>
+          <div class="info">
+            {APP.i18n[result.type][result.lang]}
+              · {APP.lang[result.lang].name}
+            <span class="url"> · {result.url}</span>
+          </div>
+          <div class="text">{@html result.text}</div>
+        </a>
+      </div>
+    {/each}
+  </div>
+{/if}
 
 {#if totalPages > 1}
   <div class="content">

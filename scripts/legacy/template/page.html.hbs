@@ -32,7 +32,7 @@
         </div>
         <div class="side">
           <div class="search">
-            <form action="../../{{lang}}/glossary"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
+            <form action="../../search"><input type="text" name="q" id="searchbox" autoComplete="off" required="" /></form>
           </div>
           <div class="menu"><a title="{{app.i18n.about.lang}}" href="../{{lang}}/about.html">{{lookup app.i18n.about lang}}</a> | <a title="{{lookup app.i18n.site lang}}" href="../{{lang}}/site.html">{{lookup app.i18n.site lang}}</a> | <a title="{{lookup app.i18n.misc lang}}" href="../{{lang}}/misc.html">{{lookup app.i18n.misc lang}}</a> | <a title="{{lookup app.i18n.book lang}}" href="../../book/">{{lookup app.i18n.book lang}}</a></div>
           <div class="lang"><span class="first"><a class="{{#if (equals lang 'en')}}active{{/if}}" href="../en/{{id}}.html" title="EN">EN</a></span><span></span><a class="{{#if (equals lang 'zh')}}active{{/if}}" href="../zh/{{id}}.html" title="ZH">ZH</a></span><span><a class="{{#if (equals lang 'ja')}}active{{/if}}" href="../ja/{{id}}.html" title="JA">JA</a></span></div>

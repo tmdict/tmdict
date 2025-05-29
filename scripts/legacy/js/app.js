@@ -109,7 +109,7 @@ m.mount(document.getElementById("container"), {
         m("div.side", [
           // Search Form
           m("div.search", 
-            m("form", { action: `../../${metadata.lang}/glossary` },
+            m("form", { action: "../../search" },
               m("input", { type: "text", name: "q", id: "searchbox", autoComplete: "off", required: true })
             )
           ),
