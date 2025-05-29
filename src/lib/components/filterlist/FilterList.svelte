@@ -66,7 +66,11 @@
 
 {#if data.attribute.type === "glossary"}
   <div class="search">
-    <input class="search-box" bind:value={searchTerm} placeholder="{APP.i18n.search[lang]}..." />
+    <input
+      class="search-box"
+      bind:value={searchTerm}
+      placeholder="{APP.i18n.search[lang]}{lang === "en" ? " " : ""}{data.attribute.name[lang]}..."
+    />
   </div>
 {/if}
 
