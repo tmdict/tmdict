@@ -89,6 +89,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
           title: entryData.attribute.attr.name[lang],
           url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
           lang: lang,
+          type: contentType,
           text: parser
             .parseSearchMarkup(searchContent)
             .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
