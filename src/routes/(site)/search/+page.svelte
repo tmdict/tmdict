@@ -168,7 +168,6 @@
   }
 
   @media only screen and (max-width: 660px) {
-    .filters .filter { font-size: 0.95em; }
     .filters .count { display: none; }
   }
 
