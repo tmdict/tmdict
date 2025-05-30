@@ -13,4 +13,4 @@ A mystery different from magecraft. The final destination of every magus.
 “True Magic” achieves things that cannot be realized in a given era. An “outcome” which can be achieved through the investment of time and resources is not True Magic.
 Currently, the Association has determined five Magics.
 The so-called First and Second Magic are only known by a limited few in the Association.
-Although it is said that no more new “Magics” will emerge, Kokuto Mikiya insightfully pointed out the unrealized Magic.
+Although it is said that no more “Magic” will emerge, Kokuto Mikiya offhandedly points out Magic that has yet to be realized.

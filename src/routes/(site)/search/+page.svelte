@@ -1,5 +1,5 @@
 <script>
-  import { browser } from '$app/environment';
+  import { browser } from "$app/environment";
   import Fuse from "fuse.js";
   import { highlight } from "$lib/util/highlight.js";
   import APP from "$lib/__generated/constants.json";
@@ -19,7 +19,7 @@
     minMatchCharLength: minMatchCharLen,
     shouldSort: true,
     threshold: 0.0,
-    keys: ['text', 'title'],
+    keys: ["text", "title"],
   });
 
   let currentFilter = $state("");
@@ -28,7 +28,7 @@
   let searchResults = $state([]);
 
   if (params.q !== null && params.q.length > 0 && params.q.length >= minChar) {
-    const results = fuse.search(params.q.replace('+', ' '));
+    const results = fuse.search(params.q.replace("+", " "));
     if (results.length > 0) {
       searchResults = structuredClone(highlight(results, true));
     }
@@ -50,7 +50,7 @@
 
   function goToPage(page) {
     currentPage = page;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function countByLang(results) {
@@ -165,6 +165,11 @@
     color: var(--primary-link);
     font-size: 1.1em;
     margin: 10px;
+  }
+
+  @media only screen and (max-width: 660px) {
+    .filters .filter { font-size: 0.95em; }
+    .filters .count { display: none; }
   }
 
   .filters .filter.active {
