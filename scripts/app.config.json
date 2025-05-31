@@ -3,10 +3,9 @@
     "css": {
       "path": "scripts/css",
       "files": [
-        "chaldea",
-        "shadowborder",
-        "overrides/compact",
-        "book/kara"
+        "global",
+        "kara",
+        "vendors/normalize"
       ]
     },
     "data": "data",

@@ -1,8 +1,11 @@
 <script>
-  import Theme from "$lib/components/Theme.svelte";
+  import Theme from "$lib/components/theme/Theme.svelte";
+  import Chaldea from "$lib/components/theme/Chaldea.svelte";
+  import ShadowBorder from "$lib/components/theme/ShadowBorder.svelte";
   import Top from "$lib/components/Top.svelte";
   import Footer from "$lib/components/Footer.svelte";
   import { store } from "$lib/util/stores.svelte.js"
+  import hashes from "$lib/__generated/hashes.json";
 
   let { data, children } = $props();
 </script>
