@@ -5,12 +5,7 @@
 </script>
 
 <svelte:head>
-  <style>
-    #container { grid-template-columns: [col-start] auto [col-1] 400px [col-2] auto [col-end]; }
-    @media only screen and (max-width: 660px) {
-      #container { grid-template-columns: auto; }
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="/__generated/css/{hashes["overrides/compact"]}.css" />
 </svelte:head>
 
 {@render children()}
