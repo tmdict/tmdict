@@ -25,7 +25,6 @@
         --text-medium: #bfbfbf;
         --text-dark: #ccc;
         --content-break: "§";
-        --content-break-position: calc(50%);
       }
     </style>
   {:else}
@@ -46,7 +45,6 @@
         --text-medium: #555;
         --text-dark: #333;
         --content-break: url("/img/ornament.png");
-        --content-break-position: calc(50% - 95px);
       }
     </style>
   {/if}
