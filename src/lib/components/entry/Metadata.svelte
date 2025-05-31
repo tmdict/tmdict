@@ -9,7 +9,7 @@
     updateContentLang
   } = $props();
 
-  let contentLang = $derived(lang);
+  let contentLang = $state(lang);
 
   function updateLang(localLang) {
     contentLang = localLang;

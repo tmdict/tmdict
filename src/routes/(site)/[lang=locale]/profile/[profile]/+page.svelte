@@ -4,7 +4,7 @@
 
   let { data } = $props();
 
-  let metaDescription = $derived.by(() => {
+  const metaDescription = (() => {
     let attrContent = data.data.attribute.attr.name[data.lang];
     if (data.data.attribute.layout[data.lang].length > 0) {
       // If has attr data
@@ -25,7 +25,7 @@
     }
     const parsed = attrContent.substring(0, 160)
     return (parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed;
-  });
+  })();
 </script>
 
 <svelte:head>

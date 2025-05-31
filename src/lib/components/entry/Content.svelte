@@ -2,7 +2,7 @@
   import Metadata from "$lib/components/entry/Metadata.svelte";
   
   let { lang, data, entryType, entryId } = $props();
-  let contentLang = $derived(lang);
+  let contentLang = $state(lang);
 
   function updateContentLang(lang) {
     contentLang = lang;

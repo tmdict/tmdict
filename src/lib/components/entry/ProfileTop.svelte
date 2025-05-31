@@ -7,7 +7,7 @@
 
   let { lang, data, screenWidth } = $props();
   
-  let contentLang = $derived(lang);
+  let contentLang = $state(lang);
 
   function updateContentLang(localLang) {
     contentLang = localLang;
