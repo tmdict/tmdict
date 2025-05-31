@@ -1,15 +1,8 @@
 <script>
   import APP from "$lib/__generated/constants.json";
 
-  let {
-    lang,
-    data,
-    language = [],
-    gitUrl = "#",
-    updateContentLang
-  } = $props();
-
-  let contentLang = $state(lang);
+  let { lang, data, language = [], gitUrl = "#", updateContentLang } = $props();
+  let contentLang = $derived(lang);
 
   function updateLang(localLang) {
     contentLang = localLang;

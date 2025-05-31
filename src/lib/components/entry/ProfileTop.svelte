@@ -6,8 +6,7 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data, screenWidth } = $props();
-  
-  let contentLang = $state(lang);
+  let contentLang = $derived(lang);
 
   function updateContentLang(localLang) {
     contentLang = localLang;
