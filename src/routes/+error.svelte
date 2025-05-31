@@ -7,7 +7,6 @@
   <title>Not Found | 型月辞典</title>
   <meta charset="utf-8" />
   <meta name="description" content="404 Not Found." />
-  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <style>
     body, html { background: #222; }
   </style>
