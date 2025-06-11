@@ -50,7 +50,7 @@
 
   #main :global {
     .content {
-      line-height: 1.5rem;
+      line-height: 1.6rem;
       margin-bottom: 30px;
     }
 
