@@ -9,7 +9,7 @@
 
 <Theme />
 
-<div id="container" lang={data.lang}>
+<div id="container">
   <Top lang={data.lang} />
   <div id="main" class:bgimg={(store.theme === "chaldea")}>
     {@render children()}

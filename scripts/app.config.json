@@ -137,6 +137,7 @@
       "misc": { "en": "Misc", "ja": "その他", "zh": "其他" },
       "missing": { "en": "help translate", "ja": "支援", "zh": "帮忙翻译" },
       "tlnotes": { "en": "Translator’s Notes", "ja": "翻訳者注", "zh": "译者注" },
+      "pastupdates": { "en": "Past Updates", "ja": "過去の更新履歴", "zh": "更新记录" },
       "profile": { "en": "Profile", "ja": "人物", "zh": "人物" },
       "report": { "en": "report error", "ja": "エラー報告", "zh": "报告错误" },
       "return": { "en": "Return", "ja": "リターン", "zh": "返回" },

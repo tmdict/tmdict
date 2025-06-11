@@ -42,6 +42,7 @@
 <div class="content">
   <h2>{APP.i18n.update[data.lang]}</h2>
   <div>{@html PAGES.updates.i18n[data.lang].html}</div>
+  <div class="past">- <a href="/{data.lang}/site">{APP.i18n.pastupdates[data.lang]}</a> -</div>
 </div>
 
 <div class="content">
@@ -83,5 +84,13 @@
   .project .img:hover {
     filter: none;
     opacity: 1;
+  }
+
+  .past {
+    text-align: center;
+  }
+
+  .past a {
+    text-decoration: none;
   }
 </style>
