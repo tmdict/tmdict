@@ -17,6 +17,7 @@ const appData: { [key: string]: any } = {};
 const bookData: { [key: string]: any } = {};
 const staticEntryPaths: { [key: string]: any } = {};
 const sitemap: { [key: string]: any }[] = [];
+const searchData: { [key: string]: any }[] = [];
 
 // Sitemap
 sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
@@ -28,9 +29,6 @@ sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/glossary`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/profile/`});
 });
-
-// Search
-const searchData: { [key: string]: any }[] = [];
 
 // Build assets, img, css, etc.
 console.log("Building assets...");
@@ -76,6 +74,12 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
     // ENTRY DATA
 
+    // Merge parsed entry data into accumulator
+    appData[contentType].entries[entryId] = {
+      data: entryData,
+      filepath: `${entryData.attribute.type}/entries/${entryData.attribute.id}`,
+    };
+    // Build entry js
     const entryPath = `${entryData.attribute.type}/entries/${entryData.attribute.id}`;
     builder.toJsonExport(`src/lib/__generated/data/${entryPath}.json`, entryData);
 
@@ -126,9 +130,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr });
     // Prep i18n data for filterlist attributes
     const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
-
-    // GLOSSARY-ONLY
-
+    // Glossary-only
     if (contentType === "glossary") {
       // Add category to filterlist
       entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
@@ -146,9 +148,14 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
           });
         }, {});
       });
+    }
+    // Merge parsed entry filterlist data and i18n data into accumulator
+    appData[contentType].filterlist.list.push(entryFilterlist);
+    appData[contentType].filterlist.i18n = _.merge(appData[contentType].filterlist.i18n, entryAttrI18n);
 
-      // BOOK DATA
+    // BOOK DATA
 
+    if (contentType === "glossary") {
       entryData.content.forEach((entry: EntryContent) => {
         if (appConfig.sources.book.includes(entry.source)) {
           // If key for current source doesn"t exist, add it
@@ -165,11 +172,6 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
         }
       });
     }
-
-    // Merge parsed entry filterlist data and i18n data into accumulator
-    appData[contentType].entries[entryId] = entryData; // Currently not used
-    appData[contentType].filterlist.list.push(entryFilterlist);
-    appData[contentType].filterlist.i18n = _.merge(appData[contentType].filterlist.i18n, entryAttrI18n);
   }
   console.log(`...Parsed ${count} ${contentType} data`);
 
@@ -180,7 +182,6 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
   Object.keys(attrData["work"]).forEach((work) => {
     appData[contentType].filterlist.i18n["work"][work] = attrData["work"][work].data.name;
   });
-
   if (contentType === "glossary") {
     // Append category i18n data
     appData[contentType].filterlist.i18n["category"] = {};
@@ -188,10 +189,8 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       appData[contentType].filterlist.i18n["category"][category] = attrData["category"][category].data.name;
     });
   }
-});
 
-// Build filterlist js
-Object.keys(appConfig.content).forEach((contentType: string) => {
+  // Build filterlist js
   builder.toJsonExport(`src/lib/__generated/data/${contentType}/filterlist.json`, {
     attribute: appConfig.content[contentType],
     content: appData[contentType].filterlist,

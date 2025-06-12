@@ -16,6 +16,6 @@ In 2015, we launched a small dictionary website called TMdict. Ten years later, 
 
 - We've introduced a faster, more modern design with improved usability — including small enhancements like a brand-new dark mode. (If you miss the old design, you can still access it in our <a href="../legacy/en/index.html">legacy archive</a>).
 
-- The backend has been rebuilt using the SvelteKit framework, enabling easier development and allowing us to take advantage of modern tools to improve the user experience.
+- The backend has been rebuilt using a new framework, enabling easier development and allowing us to take advantage of modern tools to improve the user experience.
 
 Finally, we want to express our heartfelt thanks to the community for its continued support, and to all the translators who have contributed to our ever-growing database.
