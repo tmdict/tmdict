@@ -164,7 +164,7 @@
       "gender": { "en": "Gender", "ja": "性别", "zh": "性别" },
       "height": { "en": "Height", "ja": "身長", "zh": "身高" },
       "height-weight": { "en": "Height/Weight", "ja": "身長・体重", "zh": "身高·体重" },
-      "hiragana-row": { "en": "Hiragana", "ja": "行", "zh": "行" },
+      "hiragana-row": { "en": "Hiragana", "ja": "ひら", "zh": "ひら" },
       "illustrator": { "en": "Illustrator", "ja": "キャラクターデザイン", "zh": "绘师" },
       "img_na": { "en": "", "ja": "", "zh": "" },
       "img_s1": { "en": "Stage 1", "ja": "第一段階", "zh": "第一阶段" },
