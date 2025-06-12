@@ -12,8 +12,13 @@ const appConfig = loader.loadConfig();
 const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
 const contentData: any = loader.loadContentData(appConfig.paths);
 
-// Sitemap
+// Init data
+const appData: { [key: string]: any } = {};
+const bookData: { [key: string]: any } = {};
+const staticEntryPaths: { [key: string]: any } = {};
 const sitemap: { [key: string]: any }[] = [];
+
+// Sitemap
 sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
 ["en", "ja", "zh"].forEach(lang => {
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/`});
@@ -49,148 +54,152 @@ const pageData = parser.parseEntry("page", "page", attrData, contentData).conten
   }, {});
 builder.toJsonExport("src/lib/__generated/pages.json", pageData);
 
-const staticEntryPaths: { [key: string]: any } = {};
-const bookData: { [key: string]: any } = {};
-// Build metadata and content for each content type (profile and glossary)
+// Build metadata and content for each content type (1: glossary, 2: profile)
 Object.keys(appConfig.content).forEach((contentType: string) => {
   console.log(`Building ${contentType} data...`);
   
   // Build entries
   let count = 0;
   staticEntryPaths[contentType] = [];
+  appData[contentType] = {
+    entries: {},
+    filterlist: [], // Initial filterlist content array
+    i18n: {}, // Initial filterlist i18n attribute map
+  };
+
   // Parse each attribute in an attribute type
-  const parsedData = Object.keys(attrData[contentType]).reduce(
-    (acc, entryId: string) => {
-      const entryDataRaw: EntryData = parser.parseEntry(entryId, contentType, attrData, contentData);
-      const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.site);
+  for (const entryId of Object.keys(attrData[contentType])) {
+    const entryDataRaw: EntryData = parser.parseEntry(entryId, contentType, attrData, contentData);
+    const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.site);
 
-      // Generates JSON data  to be consumed by the js app
-      const entryPath = `${entryData.attribute.type}/entries/${entryData.attribute.id}`;
-      builder.toJsonExport(`src/lib/__generated/data/${entryPath}.json`, entryData);
+    // ENTRY DATA
 
-      ["en", "ja", "zh"].forEach(lang => {
-        const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
-        staticEntryPaths[contentType].push({
-          lang: lang,
-          [contentType]: path
-        });
+    const entryPath = `${entryData.attribute.type}/entries/${entryData.attribute.id}`;
+    builder.toJsonExport(`src/lib/__generated/data/${entryPath}.json`, entryData);
 
-        sitemap.push({
-          changefreq: 'monthly',
-          priority: 1.0,
-          url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
-        });
+    // STATIC PATHS, SITEMAP, SEARCH
 
-        // Aggregate search data
-        const searchContent = entryData.content
-          .map((c: EntryContent) => (c.i18n[lang] ? c.i18n[lang].html : ''))
-          .join(' ');
-        searchData.push({
-          title: entryData.attribute.attr.name[lang],
-          url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
-          lang: lang,
-          type: contentType,
-          text: parser
-            .parseSearchMarkup(searchContent)
-            .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
-            .replace(/<[^>]*>/g, ' '),
-        })
+    ["en", "ja", "zh"].forEach(lang => {
+      const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
+      staticEntryPaths[contentType].push({
+        lang: lang,
+        [contentType]: path
       });
-      count++;
+      // Append to sitemap
+      sitemap.push({
+        changefreq: 'monthly',
+        priority: 1.0,
+        url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
+      });
 
-      // Add parsed data to filterlist data and i18n collection
-      const entryAttrFilterlist = parser.parseAttributeFilterlist(
-        entryId,
-        entryData,
-        attrData,
-        appConfig.content[contentType]
-      );
+      // Aggregate search data
+      const searchContent = entryData.content
+        .map((c: EntryContent) => (c.i18n[lang] ? c.i18n[lang].html : ''))
+        .join(' ');
+      searchData.push({
+        title: entryData.attribute.attr.name[lang],
+        url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
+        lang: lang,
+        type: contentType,
+        text: parser
+          .parseSearchMarkup(searchContent)
+          .replace(/\\|<em>|<\/em>|<strong>|<\/strong>|\\n/g, '')
+          .replace(/<[^>]*>/g, ' '),
+      })
+    });
+    count++;
 
-      // Append Work attr to filterlist data object
-      const workAttr = entryAttrFilterlist["source"]
-        .map((src: string) => attrData["source"][src].attribute["work"])
-        .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i); // Dedupe
-      const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr });
+    // FILTERLIST
+  
+    const entryAttrFilterlist = parser.parseAttributeFilterlist(
+      entryId,
+      entryData,
+      attrData,
+      appConfig.content[contentType]
+    );
+    // Append Work attr to filterlist data object
+    const workAttr = entryAttrFilterlist["source"]
+      .map((src: string) => attrData["source"][src].attribute["work"])
+      .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i); // Dedupe
+    const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr });
+    // Prep i18n data for filterlist attributes
+    const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
 
-      // Prep i18n data for filterlist attributes
-      const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
+    // GLOSSARY-ONLY
 
-      if (contentType === "glossary") {
-        // Add category to filterlist
-        entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
-          return [...new Set([...acc, ...item.category])];
-        }, []);
-        // If glossary, include entry content for filter list
-        entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {
-          return ["en", "ja", "zh"].reduce((acc, lang) => {
-            return _.merge(acc, {
-              [lang]: {
-                id: entry.i18n[lang] ? attrData["content-id"][entry.id].data.name[lang] : "", // Get content-id name
-                source: entry.i18n[lang] ? attrData["source"][entry.source].data.name[lang] : "", // Get source name
-                html: entry.i18n[lang] ? parser.parseSearchMarkup(entry.i18n[lang].html) : "",
-              },
-            });
-          }, {});
-        });
+    if (contentType === "glossary") {
+      // Add category to filterlist
+      entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
+        return [...new Set([...acc, ...item.category])];
+      }, []);
+      // If glossary, include entry content for filter list
+      entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {
+        return ["en", "ja", "zh"].reduce((acc, lang) => {
+          return _.merge(acc, {
+            [lang]: {
+              id: entry.i18n[lang] ? attrData["content-id"][entry.id].data.name[lang] : "", // Get content-id name
+              source: entry.i18n[lang] ? attrData["source"][entry.source].data.name[lang] : "", // Get source name
+              html: entry.i18n[lang] ? parser.parseSearchMarkup(entry.i18n[lang].html) : "",
+            },
+          });
+        }, {});
+      });
 
-        // Filter for only specific glossary books
-        entryData.content.forEach((entry: EntryContent) => {
-          if (appConfig.sources.book.includes(entry.source)) {
-            // If key for current source doesn"t exist, add it
-            if (!(entry.source in bookData)) {
-              bookData[entry.source] = {
-                glossary: attrData["content-id"][entry.id],
-                source: attrData.source[entry.source],
-                entries: [],
-              };
-            }
-            bookData[entry.source].entries.push(
-              _.merge(entry, { name: attrData.glossary[entry.parent].data.name })
-            );
+      // BOOK DATA
+      
+      entryData.content.forEach((entry: EntryContent) => {
+        if (appConfig.sources.book.includes(entry.source)) {
+          // If key for current source doesn"t exist, add it
+          if (!(entry.source in bookData)) {
+            bookData[entry.source] = {
+              glossary: attrData["content-id"][entry.id],
+              source: attrData.source[entry.source],
+              entries: [],
+            };
           }
-        });
-      }
-
-      // Merge parsed entry filterlist data and i18n data into accumulator
-      return {
-        entries: _.merge(acc.entries, { [entryId]: entryData }),
-        filterlist: acc.filterlist.concat(entryFilterlist),
-        i18n: _.merge(acc.i18n, entryAttrI18n),
-      };
-    },
-    {
-      entries: {},
-      filterlist: [], // Initial filterlist content array
-      i18n: {}, // Initial filterlist i18n attribute map
+          bookData[entry.source].entries.push(
+            _.merge(entry, { name: attrData.glossary[entry.parent].data.name })
+          );
+        }
+      });
     }
-  );
+
+    // Merge parsed entry filterlist data and i18n data into accumulator
+    appData[contentType].entries[entryId] = entryData; // Currently not used
+    appData[contentType].i18n = _.merge(appData[contentType].i18n, entryAttrI18n);
+    appData[contentType].filterlist.push(entryFilterlist);
+  }
   console.log(`...Parsed ${count} ${contentType} data`);
 
   // Append work i18n data
-  parsedData.i18n["work"] = {};
+  appData[contentType].i18n["work"] = {};
   Object.keys(attrData["work"]).forEach((work) => {
-    parsedData.i18n["work"][work] = attrData["work"][work].data.name;
+    appData[contentType].i18n["work"][work] = attrData["work"][work].data.name;
   });
 
   // Append category i18n data
-  parsedData.i18n["category"] = {};
+  appData[contentType].i18n["category"] = {};
   Object.keys(attrData["category"]).forEach((category) => {
-    parsedData.i18n["category"][category] = attrData["category"][category].data.name;
+    appData[contentType].i18n["category"][category] = attrData["category"][category].data.name;
   });
-
-  // Build filterlist js
-  builder.toJsonExport(`src/lib/__generated/data/${contentType}/filterlist.json`, {
-    attribute: appConfig.content[contentType],
-    content: parsedData.filterlist,
-    i18n: parsedData.i18n,
-  });
-
-  // Build search js
-  builder.toJsonExport(`src/lib/__generated/data/search.json`, searchData, true);
-
-  // Build entries js
-  //builder.toJsonExport(`src/lib/__generated/data/${contentType}/entries.json`, parsedData.entries);
 });
+
+// Build glossary filterlist js
+builder.toJsonExport(`src/lib/__generated/data/glossary/filterlist.json`, {
+  attribute: appConfig.content.glossary,
+  content: appData.glossary.filterlist,
+  i18n: appData.glossary.i18n,
+});
+
+// Build profile filterlist js
+builder.toJsonExport(`src/lib/__generated/data/profile/filterlist.json`, {
+  attribute: appConfig.content.profile,
+  content: appData.profile.filterlist,
+  i18n: appData.profile.i18n,
+});
+
+// Build search js
+builder.toJsonExport(`src/lib/__generated/data/search.json`, searchData);
 
 // Build paths js for static pages
 builder.toJsonExport("src/lib/__generated/entrypaths.json", staticEntryPaths);

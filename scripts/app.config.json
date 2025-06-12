@@ -12,22 +12,6 @@
     "img": ["img/glossary", "img/profile/icon"]
   },
   "content": {
-    "profile": {
-      "type": "profile",
-      "name": {
-        "en": "Profile",
-        "ja": "人物",
-        "zh": "人物"
-      },
-      "filter": [
-        "source",
-        "star",
-        "class"
-      ],
-      "contentFilter": [
-        "source"
-      ]
-    },
     "glossary": {
       "type": "glossary",
       "name": {
@@ -39,6 +23,22 @@
         "alphabet",
         "hiragana-row",
         "source"
+      ],
+      "contentFilter": [
+        "source"
+      ]
+    },
+    "profile": {
+      "type": "profile",
+      "name": {
+        "en": "Profile",
+        "ja": "人物",
+        "zh": "人物"
+      },
+      "filter": [
+        "source",
+        "star",
+        "class"
       ],
       "contentFilter": [
         "source"
