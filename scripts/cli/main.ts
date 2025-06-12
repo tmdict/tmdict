@@ -58,13 +58,15 @@ builder.toJsonExport("src/lib/__generated/pages.json", pageData);
 Object.keys(appConfig.content).forEach((contentType: string) => {
   console.log(`Building ${contentType} data...`);
   
-  // Build entries
+  // Init for content type
   let count = 0;
   staticEntryPaths[contentType] = [];
   appData[contentType] = {
     entries: {},
-    filterlist: [], // Initial filterlist content array
-    i18n: {}, // Initial filterlist i18n attribute map
+    filterlist: {
+      list: [], // Initial filterlist content array
+      i18n: {} // Initial filterlist i18n attribute map
+    }
   };
 
   // Parse each attribute in an attribute type
@@ -146,7 +148,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       });
 
       // BOOK DATA
-      
+
       entryData.content.forEach((entry: EntryContent) => {
         if (appConfig.sources.book.includes(entry.source)) {
           // If key for current source doesn"t exist, add it
@@ -166,36 +168,34 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
     // Merge parsed entry filterlist data and i18n data into accumulator
     appData[contentType].entries[entryId] = entryData; // Currently not used
-    appData[contentType].i18n = _.merge(appData[contentType].i18n, entryAttrI18n);
-    appData[contentType].filterlist.push(entryFilterlist);
+    appData[contentType].filterlist.list.push(entryFilterlist);
+    appData[contentType].filterlist.i18n = _.merge(appData[contentType].filterlist.i18n, entryAttrI18n);
   }
   console.log(`...Parsed ${count} ${contentType} data`);
 
+  // FILTERLIST I18N
+
   // Append work i18n data
-  appData[contentType].i18n["work"] = {};
+  appData[contentType].filterlist.i18n["work"] = {};
   Object.keys(attrData["work"]).forEach((work) => {
-    appData[contentType].i18n["work"][work] = attrData["work"][work].data.name;
+    appData[contentType].filterlist.i18n["work"][work] = attrData["work"][work].data.name;
   });
 
-  // Append category i18n data
-  appData[contentType].i18n["category"] = {};
-  Object.keys(attrData["category"]).forEach((category) => {
-    appData[contentType].i18n["category"][category] = attrData["category"][category].data.name;
+  if (contentType === "glossary") {
+    // Append category i18n data
+    appData[contentType].filterlist.i18n["category"] = {};
+    Object.keys(attrData["category"]).forEach((category) => {
+      appData[contentType].filterlist.i18n["category"][category] = attrData["category"][category].data.name;
+    });
+  }
+});
+
+// Build filterlist js
+Object.keys(appConfig.content).forEach((contentType: string) => {
+  builder.toJsonExport(`src/lib/__generated/data/${contentType}/filterlist.json`, {
+    attribute: appConfig.content[contentType],
+    content: appData[contentType].filterlist,
   });
-});
-
-// Build glossary filterlist js
-builder.toJsonExport(`src/lib/__generated/data/glossary/filterlist.json`, {
-  attribute: appConfig.content.glossary,
-  content: appData.glossary.filterlist,
-  i18n: appData.glossary.i18n,
-});
-
-// Build profile filterlist js
-builder.toJsonExport(`src/lib/__generated/data/profile/filterlist.json`, {
-  attribute: appConfig.content.profile,
-  content: appData.profile.filterlist,
-  i18n: appData.profile.i18n,
 });
 
 // Build search js

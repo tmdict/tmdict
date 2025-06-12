@@ -3,7 +3,7 @@
   import { filterlist } from "$lib/util/filterlist.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, type, i18n, filterValues } = $props();
+  let { lang, type, filterValues, i18n } = $props();
 
   // https://stackoverflow.com/questions/48601273/sorting-royal-names-using-javascript
   const romanToNum = (roman) => {

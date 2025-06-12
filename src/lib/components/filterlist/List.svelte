@@ -4,7 +4,7 @@
   import SortHeader from "$lib/components/filterlist/SortHeader.svelte";
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, i18n, listType, entryList } = $props();
+  let { lang, listType, entryList, i18n } = $props();
 
   const defaultSortBy = (listType === "profile") ? "id" : "name";
   const defaultSortOrder = (listType !== "profile");

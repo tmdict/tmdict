@@ -17,7 +17,7 @@
   const filterValues = data.attribute.filter.filter(f => f !== "source").reduce(
     // For each filter id
     (acc, filter) => {
-      const flattened = data.content
+      const flattened = data.content.list
         .flatMap(d => d[filter]) // Flatten
         .filter(Boolean); // Filter out falsy values
       const deduped = [...new Set(flattened)];
@@ -31,7 +31,7 @@
 
   // Source filter for sidebar
   const sourceFilterValues = { source: [...new Set(
-    data.content.flatMap(d => d["source"]).filter(Boolean)
+    data.content.list.flatMap(d => d["source"]).filter(Boolean)
   )] };
 
   // Initialize search options
@@ -45,7 +45,7 @@
 
   // Update filtered data by given filter (or return as-is) whenever global filter changes
   let entryList = $derived.by(() => {
-    let filtered = structuredClone(filterlist.filterList(data.content));
+    let filtered = structuredClone(filterlist.filterList(data.content.list));
     // Filter by search if is glossary
     if (data.attribute.type === "glossary") {
       if (searchTerm !== "" && searchTerm.length > 1) {
@@ -88,15 +88,15 @@
   {#if store.showfilter}
     <div transition:slide>
       {#each Object.keys(filterValues) as filterKey}
-        <FilterNav {lang} {filterKey} filterValues={filterValues[filterKey]} i18n={data.i18n} />
+        <FilterNav {lang} {filterKey} filterValues={filterValues[filterKey]} i18n={data.content.i18n} />
       {/each}
     </div>
   {/if}
 </div>
 
 <div class="filter-list">
-  <List {lang} i18n={data.i18n} listType={data.attribute.type} {entryList} />
-  <Filter {lang} type={data.attribute.type} i18n={data.i18n} filterValues={sourceFilterValues} />
+  <List {lang} listType={data.attribute.type} {entryList} i18n={data.content.i18n} />
+  <Filter {lang} type={data.attribute.type} filterValues={sourceFilterValues} i18n={data.content.i18n} />
 </div>
 
 <style>
