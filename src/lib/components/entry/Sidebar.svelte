@@ -51,7 +51,7 @@
 
   .sidebar ul {
     list-style: none;
-    padding: 0 20px;
+    padding: 0 0 0 25px;
   }
 
   .sidebar ul li {
