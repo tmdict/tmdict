@@ -46,7 +46,7 @@
     }
   },
   "sources": {
-    "site": [
+    "glossary": [
       "angel-voice",
       "character-material",
       "colorful-moon-tsukihime",
@@ -71,7 +71,10 @@
       "tsukihime-dokuhon-plus-period",
       "tsukihime-material-i",
       "type-moon-books-material",
-      "yoi-no-myoujou",
+      "yoi-no-myoujou"
+    ],
+    "profile": [
+      "katatuki-kouhon",
       "fgo-arcade-material",
       "fgo-material-i",
       "fgo-material-ii",

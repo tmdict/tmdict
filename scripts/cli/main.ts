@@ -70,7 +70,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
   // Parse each attribute in an attribute type
   for (const entryId of Object.keys(attrData[contentType])) {
     const entryDataRaw: EntryData = parser.parseEntry(entryId, contentType, attrData, contentData);
-    const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.site);
+    const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources[contentType]);
 
     // ENTRY DATA
 
@@ -86,6 +86,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     // STATIC PATHS, SITEMAP, SEARCH
 
     ["en", "ja", "zh"].forEach(lang => {
+      // Append to static paths
       const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
       staticEntryPaths[contentType].push({
         lang: lang,
@@ -97,7 +98,6 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
         priority: 1.0,
         url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
       });
-
       // Aggregate search data
       const searchContent = entryData.content
         .map((c: EntryContent) => (c.i18n[lang] ? c.i18n[lang].html : ''))
