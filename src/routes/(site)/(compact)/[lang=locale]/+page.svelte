@@ -50,14 +50,12 @@
   <div>{@html PAGES.collaborate.i18n[data.lang].html}</div>
 </div>
 
-<div class="projects">
   <a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
-    <enhanced:img class="center img" src={tsukikan} alt="Tsukikan" />
+    <enhanced:img class="center img" src={tsukikan} title="Tsuki-kan" alt="Tsuki-kan" />
   </a>
-  <a class="project" href="https://mhy.tmdict.com/" aria-label="mHY-notes">
-    <enhanced:img class="center img" src={mhy} alt="mHY-notes" />
+  <a class="project" href="https://mhy.tmdict.com/" aria-label="mHY一图流">
+    <enhanced:img class="center img" src={mhy} title="mHY一图流" alt="mHY一图流" />
   </a>
-</div>
 
 <style>
   .center {
@@ -68,16 +66,9 @@
     display: block;
   }
 
-  .projects {
-    display: flex;
-    margin-bottom: 5px;
-    justify-content: center;
-    column-gap: 25px;
-  }
-
   .project .img {
-    border-radius: 4px;
-    filter: grayscale(0.35);
+    border-radius: 3px;
+    filter: grayscale(0.25);
     opacity: 0.9;
   }
 
