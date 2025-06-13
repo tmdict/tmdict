@@ -67,9 +67,11 @@
   }
 
   .project .img {
+    display: block;
     border-radius: 3px;
     filter: grayscale(0.25);
     opacity: 0.9;
+    margin-top: 25px;
   }
 
   .project .img:hover {
