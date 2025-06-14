@@ -38,6 +38,7 @@
 </script>
 
 <svelte:head>
+  <title>Glossary § 辞典</title>
   <link rel="canonical" href="https://www.tmdict.com/book/" />
   <link rel="stylesheet" type="text/css" href="/__generated/css/{hashes["vendors/normalize"]}.css" />
   <link rel="stylesheet" type="text/css" href="/__generated/css/{hashes["book"]}.css" />
@@ -45,7 +46,6 @@
 
 <div id="main">
   {#if currentSource === ""}
-    
     <div id="toc">
       <h1>Glossary § 辞典</h1>
       <div class="centered-info">
