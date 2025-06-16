@@ -138,6 +138,10 @@
       font-weight: bold;
     }
 
+    .content td.title:nth-child(1) {
+      width: 150px;
+    }
+
     .content td .source {
       color: var(--primary-link-highlight);
     }

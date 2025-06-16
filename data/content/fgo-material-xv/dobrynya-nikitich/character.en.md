@@ -63,7 +63,7 @@ The legendary Nikitich is not a female. He is a male. But why is this materializ
 The first theory: “The legend and the reality of the past are different from each other, just like the case with the Heroic Spirit Artoria, who is known as the Knight King Arthur Pendragon.”
 It is a simple and clear theory.
 
-The second theory: “Is the insuppressible evil nature of the wicked Dragon Kin Zmey Gorynych, who is being contained within the form of a Noble Phantasm, corrupting his Spiritual Foundation in the form of a hex?”
+The second theory: “Is the insuppressible evil nature of the wicked Dragon Kin Zmey Gorynych, who is being contained within the form of a Noble Phantasm, corrupting his Spirit Origin in the form of a hex?”
 It is a conceivable circumstance.
 
 The third theory: “It is not Nikitich himself, but his wife Nastasia (in this work, Nastasia is being treated as someone who has the characteristics of both her Mikulishna and Nikulichna versions) who is materializing into this masqueraded state in order to hide her True Name. In that case, perhaps Nastasia was concerned about her youthful and courteous husband Nikitich materializing and becoming popular with the opposite sex, or perhaps there was some trouble on the side of Chaldea’s summoning method…”

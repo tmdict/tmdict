@@ -29,12 +29,12 @@
       <div>
         <table><tbody>
           {#if data.attribute.uid.split(":")[1] === "fgosvt"} 
-            <tr><td>ID</td><td>{data.attribute.uid.split(":")[0]}</td></tr>
+            <tr><td class="title">ID</td><td>{data.attribute.uid.split(":")[0]}</td></tr>
           {/if}
           {#each data.attribute.layout[contentLang] as section, i}
             {#each Object.keys(section) as attr, j}
               <tr class:break={i !== 0 && j === 0}>
-                <td>{APP.i18n[attr][contentLang]}</td>
+                <td class="title">{APP.i18n[attr][contentLang]}</td>
                 {#if ["origin", "region"].includes(attr)}
                   <td>{@html section[attr].join(" · ")}</td>
                 {:else}
@@ -67,27 +67,8 @@
     width: 100%;
   }
 
-  table {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  tr {
-    padding: 1px 0;
-    line-height: 1.2rem;
-    font-size: 0.75rem;
-  }
-
-  td:nth-child(1) {
-    width: 150px;
+  .attribute td:nth-child(1) {
     color: var(--text-light);
-  }
-
-  @media only screen and (max-width: 840px) {
-    table {
-      width: 346px;
-    }
   }
 
   @media only screen and (max-width: 660px) {
@@ -96,8 +77,8 @@
       flex-wrap: wrap;
     }
 
-    .attribute { margin-left: 0; }
-    table { width: 100%; }
-    td:nth-child(1) { width: 140px; }
+    .attribute {
+      margin-left: 0;
+    }
   }
 </style>

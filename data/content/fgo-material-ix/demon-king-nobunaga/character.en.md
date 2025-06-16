@@ -36,7 +36,7 @@ However, as soon as the Master loses this intent of theirs, all will become wort
 
 ### Historical Image · Character Image
 
-{{missing}}
+Demon King of the Sixth Heaven, Oda Nobunaga. Possesses a Spirit Origin that can be said to be an aggregate of all possibilities of Nobunaga across past, present, and future. An extremely unique Heroic Spirit that is said to be capable of manifesting only in a certain special space.
 
 ### Character Image in “FateGO”
 
@@ -48,13 +48,11 @@ A multitude of possibilities sounds good on paper, but the end result that await
 She gained a mysterious arquebus, the Demon King Gatling Gun as a new armament. Isn’t this quite the superior, delightful and cool matchlock what with being able to perform a rotating rapid-fire?
 
 “Well, there’s all sorts of me, but even among them I am the most charming and cute, don’t you agree? Actually, isn’t the biggest me pretty frightening?”
- 
 
 Oda Kippōshi. Kippōshi was Oda Nobunaga’s name during her childhood.
 She’s done many odd things as a child and was called a fool by her surroundings.
 
 “Actually, at that time, I wasn’t called Kippoushi. Nevertheless, since other than me, amusingly enough, Nobunaga is around as well, it will be easier to understand it this way, no? Wahahahahaha!”
-
 
 Demon King Nobunaga. The Nobunaga who’s the furthest from every possible Nobunaga and the one closest to the abyss.
 Calling herself the Demon King of the Sixth Heaven, her body that has the fear and reverence felt towards Nobunaga throughout the ages seared into it is hollow yet powerful, and she is reborn into an existence that should be called a true Demon King.

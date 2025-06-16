@@ -34,7 +34,7 @@ She claims to have many wishes she would like to make on the Holy Grail and can�
 
 ### Character Image in “FGOAC”
 
-“Then I’ll be Snegurochka this year!” So declared Helena Blavatsky, splendidly changing her spiritual foundation with a Mahatma Change. While one might think this makes her Santa Helena Blavatsky, she is actually dressed in blue, not the traditional red attire of Santa. In Russia, there is “Ded Moroz,” a Santa-like figure in blue clothing, and his granddaughter “Snegurochka,” who also wears blue. Thus, Helena’s current form is not a Santa costume, nor is it a Russian Santa costume, but rather the attire of the daughter of a Russian Santa-like figure!
+“Then I’ll be Snegurochka this year!” So declared Helena Blavatsky, splendidly changing her Spirit Origin with a Mahatma Change. While one might think this makes her Santa Helena Blavatsky, she is actually dressed in blue, not the traditional red attire of Santa. In Russia, there is “Ded Moroz,” a Santa-like figure in blue clothing, and his granddaughter “Snegurochka,” who also wears blue. Thus, Helena’s current form is not a Santa costume, nor is it a Russian Santa costume, but rather the attire of the daughter of a Russian Santa-like figure!
 
 “С Рождеством! Here we go. Gifts for the good children! And gifts for the naughty ones too!”
 

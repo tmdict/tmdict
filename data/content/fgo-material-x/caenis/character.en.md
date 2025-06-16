@@ -57,9 +57,9 @@ As a Heroic Spirit, they materialize as a Servant with a feminine figure. Just l
 
 … It is said that Caenis transformed into “a bird that has golden wings” on the occasion of their death. That anecdote is being provided to them as a Noble Phantasm even in this materialization, but there is a possibility where the special characteristic of “being able to shapeshift their body as they please” that this Noble Phantasm contains can run out of control. It is perhaps that reason why they materialized with a female body and why their body is endowed with animal traits.
 
-When Caenis advances through their Spiritual Foundation Ascensions, the Divine Protection and Blessing of the Sea God, which is their Noble Phantasm, appears more pronounced, and they attain a form that gets closer to their own self when they were alive. That is to say, they become a shining existence with no equal, a being coiled around with sublime armour, as if they are in the likeness of the Great Sea God Poseidon————It is the figure of “an invulnerable warrior.”
+When Caenis advances through their Spirit Origin Ascensions, the Divine Protection and Blessing of the Sea God, which is their Noble Phantasm, appears more pronounced, and they attain a form that gets closer to their own self when they were alive. That is to say, they become a shining existence with no equal, a being coiled around with sublime armour, as if they are in the likeness of the Great Sea God Poseidon————It is the figure of “an invulnerable warrior.”
 
-Moreover, as a result of having received a particularly strong grace from Poseidon, Caenis’ Spiritual Foundation is being constructed into a state where their Spiritual Status has substantially ascended. They no longer fit into the status of a Heroic Spirit… The summoned warrior Caenis has achieved a materialization as a Divine Spirit Servant.
+Moreover, as a result of having received a particularly strong grace from Poseidon, Caenis’ Spirit Origin is being constructed into a state where their Spiritual Status has substantially ascended. They no longer fit into the status of a Heroic Spirit… The summoned warrior Caenis has achieved a materialization as a Divine Spirit Servant.
 
 <>
 

@@ -18,4 +18,4 @@ Caenis, who is the Hero of Tyranny, possesses a special Madness Enhancement on t
 
 ### Divine Core of the Sea God: B
 
-Caenis the Heroic Spirit originally did not possess a Divine Core, but the Sea God Poseidon bestowed a special grace onto that Spiritual Foundation of theirs. So as a rare exception, the Caenis who is summoned as a Servant possesses a pseudo-Divine Core, and they further possess the Spiritual Status of not a Heroic Spirit Servant, but a Divine Spirit Servant.
+Caenis the Heroic Spirit originally did not possess a Divine Core, but the Sea God Poseidon bestowed a special grace onto that Spirit Origin of theirs. So as a rare exception, the Caenis who is summoned as a Servant possesses a pseudo-Divine Core, and they further possess the Spiritual Status of not a Heroic Spirit Servant, but a Divine Spirit Servant.

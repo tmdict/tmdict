@@ -29,7 +29,7 @@ Since we’re in the beach, might as well have some pleasant times.
 You too. Go and enjoy yourself.
 
 Sometimes she gives off the nuance that tells the Master to train, like “Why don’t you do some laps, hmm?” But she stills says “Take a proper rest” too. Seems like more or less she is showing some consideration. However, once the Master is warmed up she’d probably urge him/her to endlessly run over the sandy beach until the end. Don’t show any negligence.
-Due to modifying her own spiritual foundation, Scathach’s liveliness is as expected different from usual.
+Due to modifying her own Spirit Origin, Scathach’s liveliness is as expected different from usual.
 
 ### Dialogue Examples
 
@@ -47,7 +47,7 @@ Completely the same with her Lancer manifestation.
 
 ### Character Image in “FateGO”
 
-The figure of Scathach who, for the sake of adapting in the uninhabited island, modifies her own spiritual foundation.
+The figure of Scathach who, for the sake of adapting in the uninhabited island, modifies her own Spirit Origin.
 It’s possible too for her to be different in style from her usual battle manner so that she can moves around easily. She will uses hidden weapons too. So, Assassin.
 
 --Waterside means swimsuit.

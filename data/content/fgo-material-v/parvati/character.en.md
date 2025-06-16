@@ -49,7 +49,7 @@ This is a situation which I myself am not familiar either; why don’t we learn 
 In Indian mythology, Parvati is the wife of the god of destruction and creation, Shiva.
 Parvati herself has no influence as a god, mostly treated only purely as Shiva’s wife.
 However, there are times where Shiva’s wife has been spoken of as goddess of war. Durga and Kali.
-These goddesses and Parvati are of different spiritual foundation, yet their divine core is considered to be the same.
+These goddesses and Parvati are of different Spirit Origin, yet their divine core is considered to be the same.
 It is possible for her to manifest as a Rider, but on that situation she would be borrowing Nandi, the divine ox belonging to Shiva. Due to normally governing over crop and harvests, it boasts low offensive power unbefitting of a divine beast.
 
 ### Character Image in “FateGO”

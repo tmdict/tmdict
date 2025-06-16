@@ -27,33 +27,22 @@ translation: "IreyimikaTheLost"
 ### Personality
 
 (As a Child)
-
 A child with sparkling eyes eager to try new things.
-
 Adventurous (though it feels like he is trying to reverse his original nature of being under ground).
-
 Positive Thinker.
 
 “I’m looking forward to it”
-
 “Ah, what’s that over there”
-
 “Yeah, leave it to me”
 
 (As an Adult)
-
 A young man, a transcendental God Although he appears as a completely cool beauty, it feels as though he is a mumbling airhead.
-
 Has a negative mindset.
-
 He is very aware of his nature as a god of curses, and thinks people should hurry up and bury him again before anything bad happens to them.
 
 “I’m sleepy ugh…”
-
 “You woke me up… How should I punish you?”
-
 “For the sake of the world of man I want to go back to sleep, quickly”
-
 “Is it okay for you to talk to me?”
 
 ### Motivation · Attitude towards Master
