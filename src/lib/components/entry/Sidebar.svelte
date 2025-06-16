@@ -1,11 +1,17 @@
 <script>
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, attribute, content } = $props()
+  let { lang, attribute, content } = $props();
+
+  const contentHeight = document.getElementById("main").offsetHeight;
 
   let screenWidth = $state(0);
+  let screenHeight = $state(0);
   let screenTop = $state(0);
   let screenLeft = $state(0);
+  let contentHeightOverflow = $derived((screenHeight - contentHeight) > 325);
+  let topStyle = $derived(`${(screenTop > 300) ? 0 : (350 - screenTop)}px`);
+  let leftStyle = $derived(`${0.5*screenWidth + 400 + (contentHeightOverflow ? 32 : 25)}px`);
 
   function preventDefault(fn) {
     return function (event) {
@@ -19,9 +25,9 @@
   }
 </script>
 
-<svelte:window bind:innerWidth={screenWidth} bind:scrollY={screenTop} />
+<svelte:window bind:innerWidth={screenWidth} bind:innerHeight={screenHeight} bind:scrollY={screenTop} />
 
-<div class="sidebar" style="top: {(screenTop > 300) ? 0 : (350-screenTop)}px; left: {0.5*screenWidth+405}px">
+<div class="sidebar" style="top: {topStyle}; left: {leftStyle}">
   <ul>
     {#if content.length > 0}
       <li class="sidebar-item"><a href="#{attribute.id}">TOP</a></li>
@@ -45,13 +51,13 @@
 
 <style>
   .sidebar {
-    width:205px;
-    position:fixed;
+    width: 205px;
+    position: fixed;
   }
 
   .sidebar ul {
     list-style: none;
-    padding: 0 0 0 25px;
+    padding: 0;
   }
 
   .sidebar ul li {
