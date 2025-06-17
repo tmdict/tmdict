@@ -6,6 +6,7 @@
   "scripts": {
     "build": "npm run compile && vite build",
     "clean": "rimraf bin build src/lib/__generated static/__generated static/legacy",
+    "clean:deep": "npm run clean && rimraf .svelte-kit",
     "compile": "npm run clean && tsc -p ./scripts && node bin/main.js",
     "dev": "npm run compile && vite dev",
     "prepare": "svelte-kit sync || echo ''",
