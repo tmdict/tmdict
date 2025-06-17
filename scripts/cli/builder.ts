@@ -61,8 +61,8 @@ export default class Builder {
   // Synchronously copy static assets from `source` dir to `output` dir
   buildImg = (paths: AppPaths): void => {
     console.log(`Building assets`);
-    fs.copySync(`${paths.data}/img/profile/icon`, "src/lib/__generated/img/profile/icon", { overwrite: true });
     optimizeImg(`${paths.data}/img/glossary`, "static/__generated/img/glossary");
+    optimizeImg(`${paths.data}/img/profile/icon`, "static/__generated/img/profile/icon");
   };
 
   // Post-process CSS

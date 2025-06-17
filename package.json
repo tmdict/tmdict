@@ -21,7 +21,6 @@
     "@types/postcss-import": "^14.0.3",
     "@types/uglify-js": "^3.17.5",
     "cssnano": "^7.0.7",
-    "embla-carousel-svelte": "^8.6.0",
     "fs-extra": "^11.3.0",
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",

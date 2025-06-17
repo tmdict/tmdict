@@ -1,18 +1,7 @@
 <script>
-  // Load images to be enhanced
-  const icons = import.meta.glob(
-    "$lib/__generated/img/profile/icon/*.png", {
-      eager: true,
-      import: 'default',
-      query: {
-        enhanced: true,
-      },
-    }
-  );
-
   let { lang, entry, i18n } = $props();
 
-  function getIconImage(uid) {
+  function getImage(uid, format) {
     let name = "";
     const parsedUid = uid.split(":");
     switch (parsedUid[parsedUid.length - 1]) {
@@ -29,28 +18,31 @@
         break;
       }
     }
-    return icons[`/src/lib/__generated/img/profile/icon/${name}.png`];
+    return `/__generated/img/profile/icon/${format}/${name}.${format}`;
   }
 </script>
 
 <div class="icon">
-  <enhanced:img
-    src={getIconImage(entry.uid)}
-    alt="{entry.name[lang]}"
-    style:width="50px"
-    style:margin="2px"
-    loading="lazy"
-  />
+  <picture>
+    <source srcset={getImage(entry.uid, "avif")} type="image/avif" />
+    <img src={getImage(entry.uid, "jpg")} 
+      id={entry.uid}
+      title={entry.name[lang]}
+      alt={entry.name[lang]}
+      loading="lazy"
+    />
+  </picture>
 </div>
 <div class="id">{(entry.uid.split(":")[1] === "fgosvt") ? entry.uid.split(":")[0] : "-"}</div>
 <div class="name">{entry.name[lang]}</div>
 <div class="star">{i18n["star"][entry.star][lang]}</div>
 
 <style>
-  .icon {
+  .icon img {
     float: left;
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
   }
 
   .id {

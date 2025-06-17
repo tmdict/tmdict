@@ -1,8 +1,5 @@
 <script>
-  import ImgHover from "$lib/components/entry/ImgHover.svelte";
-  import ImgSwipe from "$lib/components/entry/ImgSwipe.svelte";
   import Metadata from "$lib/components/entry/Metadata.svelte";
-
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data, screenWidth } = $props();
@@ -11,18 +8,40 @@
   function updateContentLang(localLang) {
     contentLang = localLang;
   }
+
+  function getImage(uid, format) {
+    let name = "";
+    const parsedUid = uid.split(":");
+    switch (parsedUid[parsedUid.length - 1]) {
+      case "fgosvt": {
+        name = `S${parsedUid[0].toString().padStart(4, "0")}`;
+        break;
+      }
+      case "default": {
+        name = "0000";
+        break;
+      }
+      default: {
+        name = `${parsedUid[0]}`;
+        break;
+      }
+    }
+    return `/__generated/img/profile/icon/${format}/${name}.${format}`;
+  }
 </script>
 
+<div class="profile-image">
+  <picture>
+    <source srcset={getImage(data.attribute.uid, "avif")} type="image/avif" />
+    <img src={getImage(data.attribute.uid, "jpg")} 
+      id={data.attribute.uid}
+      title={data.attribute.uid}
+      alt={data.attribute.uid}
+    />
+  </picture>
+</div>
 <div class="content">
   <div class="top">
-    <div class="image">
-      {#if screenWidth > 520}
-        <ImgHover attribute={data.attribute} {contentLang} />
-      {:else}
-        <ImgSwipe attribute={data.attribute} />
-      {/if}
-    </div>
-
     <div class="attribute">
       <Metadata {data} language={Object.keys(data.attribute.layout)} {updateContentLang} />
 
@@ -50,6 +69,16 @@
 </div>
 
 <style>
+  .profile-image {
+    text-align: center;
+  }
+  
+  .profile-image img {
+    border: 1px solid #baaf81;
+    outline: 2px solid #baaf81;
+    outline-offset: 1px;
+  }
+
   .top {
     display: flex;
     position: relative;
@@ -63,7 +92,7 @@
   }
 
   .attribute {
-    margin-left: 18px;
+    margin-left: 2px;
     width: 100%;
   }
 

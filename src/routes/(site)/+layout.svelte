@@ -139,7 +139,7 @@
     }
 
     .content td.title:nth-child(1) {
-      width: 150px;
+      width: 180px;
     }
 
     .content td .source {
