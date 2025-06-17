@@ -1,29 +1,38 @@
 <script>
   let { lang, entry, i18n } = $props();
+  let isHover = $state(false);
 
   function getImage(uid, format) {
     const [type, id] = uid.split(":");
     const dir = type === "fgosvt" ? type : "icon";
     const file = type === "default" ? "0000" : id;
-    return `/__generated/img/${format}/profile/${dir}/${file}.${format}`;
+    return `/__generated/img/${format}/profile/${dir}/${file}${(isHover && type === "fgosvt") ? "a" : ""}.${format}`;
   }
 </script>
 
-<div class="icon">
-  <picture>
-    <source srcset={getImage(entry.uid, "avif")} type="image/avif" />
-    <img src={getImage(entry.uid, "jpg")} 
-      title={entry.name[lang]}
-      alt={entry.uid}
-      loading="lazy"
-    />
-  </picture>
+<div class="profile" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
+  <div class="icon">
+    <picture>
+      <source srcset={getImage(entry.uid, "avif")} type="image/avif" />
+      <img src={getImage(entry.uid, "jpg")} 
+        title={entry.name[lang]}
+        alt={entry.uid}
+        loading="lazy"
+      />
+    </picture>
+  </div>
+  <div class="id">{(entry.uid.split(":")[0] === "fgosvt") ? entry.uid.split(":")[1] : "-"}</div>
+  <div class="name">{entry.name[lang]}</div>
+  <div class="star">{(entry.star[0] !== "_na") ? i18n["star"][entry.star[0]][lang] : ""}</div>
 </div>
-<div class="id">{(entry.uid.split(":")[0] === "fgosvt") ? entry.uid.split(":")[1] : "-"}</div>
-<div class="name">{entry.name[lang]}</div>
-<div class="star">{(entry.star[0] !== "_na") ? i18n["star"][entry.star[0]][lang] : ""}</div>
 
 <style>
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   .icon img {
     float: left;
     width: 50px;

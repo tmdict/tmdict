@@ -73,19 +73,17 @@
   <ul>
     {#if sortedEntries.length > 0}
       {#each sortedEntries as entry, i (entry.id)}
-        {#if listType === "profile"}
-          <li><a href="/{lang}/{listType}/{entry.id}">
-            <div class="item">
+        <li>
+          {#if listType === "profile"}
+            <a href="/{lang}/{listType}/{entry.id}">
               <ListProfileEntry {lang} {entry} {i18n} />
-            </div>
-          </a></li>
-        {:else}
-          <li>
+            </a>
+          {:else}
             <div class="item">
               <ListGlossaryEntry {lang} {entry} {i18n} showDetail={expandAll} />
             </div>
-          </li>
-        {/if}
+          {/if}
+        </li>
       {/each}
     {:else}
       <li><div class="item"><div class="no-result">No Results</div></div></li>

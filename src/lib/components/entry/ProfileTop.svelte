@@ -3,6 +3,7 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data } = $props();
+  let isHover = $state(false);
   let contentLang = $derived(lang);
 
   function updateContentLang(localLang) {
@@ -13,11 +14,11 @@
     const [type, id] = uid.split(":");
     const dir = type === "fgosvt" ? type : "icon";
     const file = type === "default" ? "0000" : id;
-    return `/__generated/img/${format}/profile/${dir}/${file}.${format}`;
+    return `/__generated/img/${format}/profile/${dir}/${file}${(type === "fgosvt" && isHover) ? "a" : ""}.${format}`;
   }
 </script>
 
-<div class="profile-image">
+<div class="profile-image" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
   <picture>
     <source srcset={getImage(data.attribute.uid, "avif")} type="image/avif" />
     <img src={getImage(data.attribute.uid, "jpg")} 
