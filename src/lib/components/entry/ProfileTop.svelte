@@ -2,7 +2,7 @@
   import Metadata from "$lib/components/entry/Metadata.svelte";
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, data, screenWidth } = $props();
+  let { lang, data } = $props();
   let contentLang = $derived(lang);
 
   function updateContentLang(localLang) {
@@ -10,23 +10,10 @@
   }
 
   function getImage(uid, format) {
-    let name = "";
-    const parsedUid = uid.split(":");
-    switch (parsedUid[parsedUid.length - 1]) {
-      case "fgosvt": {
-        name = `fgosvt/${parsedUid[0]}`;
-        break;
-      }
-      case "default": {
-        name = "icon/0000";
-        break;
-      }
-      default: {
-        name = `icon/${parsedUid[0]}`;
-        break;
-      }
-    }
-    return `/__generated/img/${format}/profile/${name}.${format}`;
+    const [type, id] = uid.split(":");
+    const dir = type === "fgosvt" ? type : "icon";
+    const file = type === "default" ? "0000" : id;
+    return `/__generated/img/${format}/profile/${dir}/${file}.${format}`;
   }
 </script>
 
@@ -34,8 +21,7 @@
   <picture>
     <source srcset={getImage(data.attribute.uid, "avif")} type="image/avif" />
     <img src={getImage(data.attribute.uid, "jpg")} 
-      id={data.attribute.uid}
-      title={data.attribute.uid}
+      title={data.attribute.attr.name[lang]}
       alt={data.attribute.uid}
     />
   </picture>

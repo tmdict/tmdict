@@ -19,7 +19,7 @@
 </div>
 
 {#if data.attribute.type === "profile" && data.attribute.layout[Object.keys(data.attribute.layout)[0]].length > 0}
-  <ProfileTop {lang} {data} {screenWidth} />
+  <ProfileTop {lang} {data} />
 {/if}
 
 {#each data.content as section}

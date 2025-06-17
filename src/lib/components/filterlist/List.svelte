@@ -17,9 +17,9 @@
       switch (sortBy) {
         case "id": {
           return sortOrder
-            ? parseFloat(a["uid"].split(":")[0]) - parseFloat(b["uid"].split(":")[0]) ||
+            ? parseFloat(a["uid"].split(":")[1]) - parseFloat(b["uid"].split(":")[1]) ||
                 b["name"][lang].localeCompare(a["name"][lang])
-            : parseFloat(b["uid"].split(":")[0]) - parseFloat(a["uid"].split(":")[0]) ||
+            : parseFloat(b["uid"].split(":")[1]) - parseFloat(a["uid"].split(":")[1]) ||
                 a["name"][lang].localeCompare(b["name"][lang]);
         }
         case "name": {

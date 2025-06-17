@@ -2,23 +2,10 @@
   let { lang, entry, i18n } = $props();
 
   function getImage(uid, format) {
-    let name = "";
-    const parsedUid = uid.split(":");
-    switch (parsedUid[parsedUid.length - 1]) {
-      case "fgosvt": {
-        name = `fgosvt/${parsedUid[0]}`;
-        break;
-      }
-      case "default": {
-        name = "icon/0000";
-        break;
-      }
-      default: {
-        name = `icon/${parsedUid[0]}`;
-        break;
-      }
-    }
-    return `/__generated/img/${format}/profile/${name}.${format}`;
+    const [type, id] = uid.split(":");
+    const dir = type === "fgosvt" ? type : "icon";
+    const file = type === "default" ? "0000" : id;
+    return `/__generated/img/${format}/profile/${dir}/${file}.${format}`;
   }
 </script>
 
@@ -26,16 +13,15 @@
   <picture>
     <source srcset={getImage(entry.uid, "avif")} type="image/avif" />
     <img src={getImage(entry.uid, "jpg")} 
-      id={entry.uid}
       title={entry.name[lang]}
-      alt={entry.name[lang]}
+      alt={entry.uid}
       loading="lazy"
     />
   </picture>
 </div>
-<div class="id">{(entry.uid.split(":")[1] === "fgosvt") ? entry.uid.split(":")[0] : "-"}</div>
+<div class="id">{(entry.uid.split(":")[0] === "fgosvt") ? entry.uid.split(":")[1] : "-"}</div>
 <div class="name">{entry.name[lang]}</div>
-<div class="star">{i18n["star"][entry.star][lang]}</div>
+<div class="star">{(entry.star[0] !== "_na") ? i18n["star"][entry.star[0]][lang] : ""}</div>
 
 <style>
   .icon img {
