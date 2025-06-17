@@ -22,30 +22,44 @@ function outputFile(content: string, path: string): void {
 
 /** Converts PNG to JPG and AVIF */
 function optimizeImg(dir: string, output: string): void {
-  fs.readdir(dir, (err, files) => {
-    if (err) console.log(`[ ERROR fs/sharp ] ${err}`);
-    else {
-      files = files.filter((item) => !/(^|\/)\.[^/.]/g.test(item));
-      let count = 0;
-      files.forEach((file) => {
-        count += 1;
-        const outfile = `${file.substring(0, file.lastIndexOf("."))}`;
-        try {
-          const outDir = [`${output}/jpg`, `${output}/avif`]
-          outDir.forEach(dir => {
-            if (!fs.existsSync(dir)) {
-              fs.mkdirSync(dir, { recursive: true });
-            }
-          })
-          sharp(`${dir}/${file}`).clone().jpeg({ mozjpeg: true }).toFile(`${output}/jpg/${outfile}.jpg`);
-          sharp(`${dir}/${file}`).clone().avif().toFile(`${output}/avif/${outfile}.avif`);
-        } catch (err) {
-          console.error(`[ ERROR sharp/${dir}/${file} ] ${err}`);
+  function processDirectory(currentDir: string) {
+    fs.readdir(currentDir, { withFileTypes: true }, (err, entries) => {
+      if (err) {
+        console.log(`[ ERROR fs/sharp ] ${err}`);
+        return;
+      }
+
+      entries.forEach(entry => {
+        const fullPath = `${currentDir}/${entry.name}`;
+        const relativePath = fullPath.replace(dir, '');
+
+        if (entry.isDirectory()) {
+          // Recursively process subdirectory
+          processDirectory(fullPath);
+        } else if (entry.isFile() && !/(^|\/)\.[^/.]/g.test(entry.name)) {
+          // Process image files
+          const outfile = `${relativePath.substring(0, relativePath.lastIndexOf("."))}`;
+          try {
+            // Create output directories for image formats if they don't exist
+            ['jpg', 'avif'].forEach(format => {
+              const outDir = `${output}/${format}${outfile.substring(0, outfile.lastIndexOf("/"))}`;
+              if (!fs.existsSync(outDir)) {
+                fs.mkdirSync(outDir, { recursive: true });
+              }
+            });
+
+            // Convert to JPG and AVIF
+            sharp(fullPath).clone().jpeg({ mozjpeg: true }).toFile(`${output}/jpg${outfile}.jpg`);
+            sharp(fullPath).clone().avif().toFile(`${output}/avif${outfile}.avif`);
+          } catch (err) {
+            console.error(`[ ERROR sharp/${fullPath} ] ${err}`);
+          }
         }
       });
-      console.log(`Optimized ${count} ${dir} images`);
-    }
-  });
+    });
+  }
+  // Start processing from the root directory
+  processDirectory(dir);
 }
 
 export default class Builder {
@@ -60,9 +74,8 @@ export default class Builder {
 
   // Synchronously copy static assets from `source` dir to `output` dir
   buildImg = (paths: AppPaths): void => {
-    console.log(`Building assets`);
-    optimizeImg(`${paths.data}/img/glossary`, "static/__generated/img/glossary");
-    optimizeImg(`${paths.data}/img/profile/icon`, "static/__generated/img/profile/icon");
+    console.log("Building assets");
+    optimizeImg(`${paths.data}/img`, "static/__generated/img");
   };
 
   // Post-process CSS

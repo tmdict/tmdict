@@ -18,7 +18,7 @@
         break;
       }
     }
-    return `/__generated/img/profile/icon/${format}/${name}.${format}`;
+    return `/__generated/img/${format}/profile/icon/${name}.${format}`;
   }
 </script>
 

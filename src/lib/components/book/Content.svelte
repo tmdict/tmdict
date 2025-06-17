@@ -18,7 +18,7 @@
   }
 
   function getImage(entryImg, format) {
-    const img = `/__generated/img/glossary/${format}/${entryImg.split(".")[0]}.${format}`;
+    const img = `/__generated/img/${format}/glossary/${entryImg.split(".")[0]}.${format}`;
     return img;
   }
 </script>
