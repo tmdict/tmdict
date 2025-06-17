@@ -2,14 +2,6 @@
   "type": "profile",
   "uid": "26:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0026a" },
-    { "weight": 2, "id": "img_s2", "src": "S0026b" },
-    { "weight": 3, "id": "img_s3", "src": "S0026c" },
-    { "weight": 4, "id": "img_s4", "src": "S0026d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0026e_april-fools" }
-  ],
-
   "attribute": {
     "class": "rider",
     "star": "star_3",

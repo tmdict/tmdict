@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "67:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0067a" },
-    { "weight": 2, "id": "img_s2", "src": "S0067b" },
-    { "weight": 3, "id": "img_s3", "src": "S0067c" },
-    { "weight": 4, "id": "img_s4", "src": "S0067d" },
-    { "weight": 5, "id": "img_s4_old", "src": "S0067d_old" },
-    { "weight": 6, "id": "img_april-fools", "src": "S0067e_april-fools" }
-  ],
-
   "attribute": {
     "class": "caster",
     "star": "star_4",

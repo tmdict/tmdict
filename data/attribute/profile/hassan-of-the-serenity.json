@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "124:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0124a" },
-    { "weight": 2, "id": "img_s2", "src": "S0124b" },
-    { "weight": 3, "id": "img_s3", "src": "S0124c" },
-    { "weight": 4, "id": "img_s4", "src": "S0124d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0124e_april-fools" },
-    { "weight": 6, "id": "img_poisonous-flower-that-blooms-during-the-night", "src": "S0124f_poisonous-flower-that-blooms-during-the-night" }
-  ],
-
   "attribute": {
     "class": "assassin",
     "star": "star_3",

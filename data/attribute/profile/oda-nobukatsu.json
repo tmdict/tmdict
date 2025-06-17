@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "294:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0294a" },
-    { "weight": 2, "id": "img_s2", "src": "S0294b" },
-    { "weight": 3, "id": "img_s3", "src": "S0294c" },
-    { "weight": 4, "id": "img_s4", "src": "S0294d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0294e_april-fools" },
-    { "weight": 6, "id": "img_oda-gold-rimmed-round-glasses", "src": "S0294f_oda-gold-rimmed-round-glasses" }
-  ],
-
   "attribute": {
     "class": "archer",
     "star": "star_1",

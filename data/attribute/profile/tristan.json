@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "122:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0122a" },
-    { "weight": 2, "id": "img_s2", "src": "S0122b" },
-    { "weight": 3, "id": "img_s3", "src": "S0122c" },
-    { "weight": 4, "id": "img_s4", "src": "S0122d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0122e_april-fools" },
-    { "weight": 6, "id": "img_chicken-of-luluhawa", "src": "S0122f_img_chicken-of-luluhawa" }
-  ],
-
   "attribute": {
     "class": "archer",
     "star": "star_4",

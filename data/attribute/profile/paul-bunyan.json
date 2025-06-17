@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "174:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0174a" },
-    { "weight": 2, "id": "img_s2", "src": "S0174b" },
-    { "weight": 3, "id": "img_s3", "src": "S0174c" },
-    { "weight": 4, "id": "img_s4", "src": "S0174d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0174e_april-fools" },
-    { "weight": 6, "id": "img_mad-bunny", "src": "S0174f_mad-bunny" }
-  ],
-
   "attribute": {
     "class": "berserker",
     "star": "star_1",

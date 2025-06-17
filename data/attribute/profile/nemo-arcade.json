@@ -2,13 +2,6 @@
   "type": "profile",
   "uid": "329.11:fgoarc",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "329.11a" },
-    { "weight": 2, "id": "img_s2", "src": "329.11b" },
-    { "weight": 3, "id": "img_s3", "src": "329.11c" },
-    { "weight": 4, "id": "img_s4", "src": "329.11d" }
-  ],
-
   "attribute": {
     "class": "rider",
     "star": "star_5",

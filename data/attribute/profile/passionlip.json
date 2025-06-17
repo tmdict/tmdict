@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "164:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0164a" },
-    { "weight": 2, "id": "img_s2", "src": "S0164b" },
-    { "weight": 3, "id": "img_s3", "src": "S0164c" },
-    { "weight": 4, "id": "img_s4", "src": "S0164d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0164e_april-fools" },
-    { "weight": 6, "id": "img_innocent-flower", "src": "S0164f_innocent-flower" }
-  ],
-
   "attribute": {
     "class": "alter-ego",
     "star": "star_4",

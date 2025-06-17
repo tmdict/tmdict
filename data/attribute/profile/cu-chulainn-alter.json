@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "98:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0098a" },
-    { "weight": 2, "id": "img_s2", "src": "S0098b" },
-    { "weight": 3, "id": "img_s3", "src": "S0098c" },
-    { "weight": 4, "id": "img_s4", "src": "S0098d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0098e_april-fools" },
-    { "weight": 6, "id": "img_oval-glasses", "src": "S0098f_oval-glasses" }
-  ],
-
   "attribute": {
     "class": "berserker",
     "star": "star_5",

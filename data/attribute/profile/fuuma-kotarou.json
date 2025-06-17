@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "117:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0117a" },
-    { "weight": 2, "id": "img_s2", "src": "S0117b" },
-    { "weight": 3, "id": "img_s3", "src": "S0117c" },
-    { "weight": 4, "id": "img_s4", "src": "S0117d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0117e_april-fools" },
-    { "weight": 6, "id": "img_ninja-attire-for-enjoying-summer-vacation", "src": "S0117f_ninja-attire-for-enjoying-summer-vacation" }
-  ],
-
   "attribute": {
     "class": "assassin",
     "star": "star_3",

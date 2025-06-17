@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "299:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0299a" },
-    { "weight": 2, "id": "img_s2", "src": "S0299b" },
-    { "weight": 3, "id": "img_s3", "src": "S0299c" },
-    { "weight": 4, "id": "img_s4", "src": "S0299d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0299e_april-fools" },
-    { "weight": 6, "id": "img_fragment-of-the-great-serpent-gods-spirit", "src": "S0299f_fragment-of-the-great-serpent-gods-spirit" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_5",

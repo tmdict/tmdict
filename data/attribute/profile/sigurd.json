@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "213:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0213a" },
-    { "weight": 2, "id": "img_s2", "src": "S0213b" },
-    { "weight": 3, "id": "img_s3", "src": "S0213c" },
-    { "weight": 4, "id": "img_s4", "src": "S0213d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0213e_april-fools" },
-    { "weight": 6, "id": "img_memories-with-my-lover", "src": "S0213f_memories-with-my-lover" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_5",

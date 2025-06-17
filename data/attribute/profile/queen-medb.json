@@ -2,16 +2,6 @@
   "type": "profile",
   "uid": "99:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0099a" },
-    { "weight": 2, "id": "img_s2", "src": "S0099b" },
-    { "weight": 3, "id": "img_s3", "src": "S0099c" },
-    { "weight": 4, "id": "img_s4", "src": "S0099d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0099e_april-fools" },
-    { "weight": 6, "id": "img_alluring-chief-warden-look", "src": "S0099f_alluring-chief-warden-look" },
-    { "weight": 7, "id": "img_my-dearest-antagonist", "src": "S0099g_my-dearest-antagonist" }
-  ],
-
   "attribute": {
     "class": "rider",
     "star": "star_5",

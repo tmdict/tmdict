@@ -2,14 +2,6 @@
   "type": "profile",
   "uid": "217:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0217a" },
-    { "weight": 2, "id": "img_s2", "src": "S0217b" },
-    { "weight": 3, "id": "img_s3", "src": "S0217c" },
-    { "weight": 4, "id": "img_s4", "src": "S0217d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0217e_april-fools" }
-  ],
-
   "attribute": {
     "class": "lancer",
     "star": "star_4",

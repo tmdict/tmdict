@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "56:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0056a" },
-    { "weight": 2, "id": "img_s2", "src": "S0056b" },
-    { "weight": 3, "id": "img_s3", "src": "S0056c" },
-    { "weight": 4, "id": "img_s4", "src": "S0056d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0056e_april-fools" },
-    { "weight": 6, "id": "img_kiyohime-the-otohime", "src": "S0056f_kiyohime-the-otohime" }
-  ],
-
   "attribute": {
     "class": "berserker",
     "star": "star_3",

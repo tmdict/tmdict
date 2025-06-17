@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "183:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0183a" },
-    { "weight": 2, "id": "img_s2", "src": "S0183b" },
-    { "weight": 3, "id": "img_s3", "src": "S0183c" },
-    { "weight": 4, "id": "img_s4", "src": "S0183d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0183e_april-fools" },
-    { "weight": 6, "id": "img_a-girls-most-sought-after", "src": "S0183f_a-girls-most-sought-after" }
-  ],
-
   "attribute": {
     "class": "lancer",
     "star": "star_4",

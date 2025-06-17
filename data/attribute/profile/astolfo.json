@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "94:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0094a" },
-    { "weight": 2, "id": "img_s2", "src": "S0094b" },
-    { "weight": 3, "id": "img_s3", "src": "S0094c" },
-    { "weight": 4, "id": "img_s4", "src": "S0094d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0094e_april-fools" },
-    { "weight": 6, "id": "img_memories-of-trifas", "src": "S0094f_memories-of-trifas" }
-  ],
-
   "attribute": {
     "class": "rider",
     "star": "star_4",

@@ -2,13 +2,6 @@
   "type": "profile",
   "uid": "329.12:fgoarc",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "329.12a" },
-    { "weight": 2, "id": "img_s2", "src": "329.12b" },
-    { "weight": 3, "id": "img_s3", "src": "329.12c" },
-    { "weight": 4, "id": "img_s4", "src": "329.12d" }
-  ],
-
   "attribute": {
     "class": "archer",
     "star": "star_5",

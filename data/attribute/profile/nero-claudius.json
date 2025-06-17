@@ -2,17 +2,6 @@
   "type": "profile",
   "uid": "5:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0005a" },
-    { "weight": 2, "id": "img_s2", "src": "S0005b" },
-    { "weight": 3, "id": "img_s3", "src": "S0005c" },
-    { "weight": 4, "id": "img_s4", "src": "S0005d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0005e_april-fools" },
-    { "weight": 6, "id": "img_olympian-bloomers", "src": "S0005f_olympian-bloomers" },
-    { "weight": 7, "id": "img_silk-of-venus", "src": "S0005g_silk-of-venus" },
-    { "weight": 8, "id": "img_barbaric-tyrants-rhapsodia", "src": "S0005h_barbaric-tyrants-rhapsodia" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_4",

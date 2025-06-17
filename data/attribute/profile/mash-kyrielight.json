@@ -2,20 +2,6 @@
   "type": "profile",
   "uid": "1:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0001a" },
-    { "weight": 2, "id": "img_s2", "src": "S0001b" },
-    { "weight": 3, "id": "img_s3", "src": "S0001c" },
-    { "weight": 4, "id": "img_s4", "src": "S0001d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0001e_april-fools" },
-    { "weight": 6, "id": "img_april-fools-ortinax", "src": "S0001f_april-fools-ortinax" },
-    { "weight": 7, "id": "img_swimsuit-of-perpetual-summer", "src": "S0001g_swimsuit-of-perpetual-summer" },
-    { "weight": 8, "id": "img_ortinax", "src": "S0001h_ortinax" },
-    { "weight": 9, "id": "img_ortinax-upgraded", "src": "S0001i_ortinax-upgraded" },
-    { "weight": 10, "id": "img_swimsuit-of-perpetual-summer-ver02", "src": "S0001j_swimsuit-of-perpetual-summer-ver02" },
-    { "weight": 11, "id": "img_bright-voyager", "src": "S0001k_bright-voyager" }
-  ],
-
   "attribute": {
     "class": "shielder",
     "star": "star_4",

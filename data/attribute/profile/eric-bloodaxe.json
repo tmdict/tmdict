@@ -2,14 +2,6 @@
   "type": "profile",
   "uid": "57:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0057a" },
-    { "weight": 2, "id": "img_s2", "src": "S0057b" },
-    { "weight": 3, "id": "img_s3", "src": "S0057c" },
-    { "weight": 4, "id": "img_s4", "src": "S0057d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0057e_april-fools" }
-  ],
-
   "attribute": {
     "class": "berserker",
     "star": "star_2",

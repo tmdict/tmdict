@@ -2,16 +2,6 @@
   "type": "profile",
   "uid": "277:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0277a" },
-    { "weight": 4, "id": "img_s4", "src": "S0277b" },
-    { "weight": 4, "id": "img_s4", "src": "S0277c" },
-    { "weight": 4, "id": "img_s4", "src": "S0277d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0277e_april-fools" },
-    { "weight": 6, "id": "img_aegis-s2", "src": "S0277f_aegis-s2" },
-    { "weight": 7, "id": "img_aegis-s3", "src": "S0277g_aegis-s3" }
-  ],
-
   "attribute": {
     "class": "rider",
     "star": "star_5",

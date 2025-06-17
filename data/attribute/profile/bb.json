@@ -2,12 +2,6 @@
   "type": "profile",
   "uid": "166:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0166a" },
-    { "weight": 4, "id": "img_s4", "src": "S0166d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0166e_april-fools" }
-  ],
-
   "attribute": {
     "class": "moon-cancer",
     "star": "star_4",

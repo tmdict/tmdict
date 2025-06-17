@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "227:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0227a" },
-    { "weight": 2, "id": "img_s2", "src": "S0227b" },
-    { "weight": 3, "id": "img_s3", "src": "S0227c" },
-    { "weight": 4, "id": "img_s4", "src": "S0227d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0227e_april-fools" },
-    { "weight": 6, "id": "img_eastern-socialite-attire", "src": "S0227f_eastern-socialite-attire" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_4",

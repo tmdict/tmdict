@@ -2,17 +2,6 @@
   "type": "profile",
   "uid": "316:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0316a" },
-    { "weight": 2, "id": "img_s2", "src": "S0316b" },
-    { "weight": 3, "id": "img_s3", "src": "S0316c" },
-    { "weight": 4, "id": "img_s4", "src": "S0316d" },
-    { "weight": 5, "id": "img_s4full", "src": "S0316e_s4full" },
-    { "weight": 6, "id": "img_april-fools", "src": "S0316f_april-fools" },
-    { "weight": 7, "id": "img_refreshing-summer-prince", "src": "S0316g_refreshing-summer-prince" },
-    { "weight": 8, "id": "img_moody-summer-oberon", "src": "S0316h_moody-summer-oberon" }
-  ],
-
   "attribute": {
     "star": "star_5",
     "gender": "male",

@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "51:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0051a" },
-    { "weight": 2, "id": "img_s2", "src": "S0051b" },
-    { "weight": 3, "id": "img_s3", "src": "S0051c" },
-    { "weight": 4, "id": "img_s4", "src": "S0051d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0051e_april-fools" },
-    { "weight": 6, "id": "img_heian-warrior-attire", "src": "S0051f_heian-warrior-attire" }
-  ],
-
   "attribute": {
     "class": "berserker",
     "star": "star_5",

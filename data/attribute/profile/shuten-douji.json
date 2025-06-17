@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "112:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0112a" },
-    { "weight": 2, "id": "img_s2", "src": "S0112b" },
-    { "weight": 3, "id": "img_s3", "src": "S0112c" },
-    { "weight": 4, "id": "img_s4", "src": "S0112d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0112e_april-fools" },
-    { "weight": 6, "id": "img_splendid-cherry-blossom-song", "src": "S0112f_splendid-cherry-blossom-song" }
-  ],
-
   "attribute": {
     "class": "assassin",
     "star": "star_5",

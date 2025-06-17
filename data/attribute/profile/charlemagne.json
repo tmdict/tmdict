@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "343:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0343a" },
-    { "weight": 2, "id": "img_s2", "src": "S0343b" },
-    { "weight": 3, "id": "img_s3", "src": "S0343c" },
-    { "weight": 4, "id": "img_s4", "src": "S0343d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0343e_april-fools" },
-    { "weight": 6, "id": "img_disguise-costume", "src": "S0343f_disguise-costume" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_5",

@@ -2,16 +2,6 @@
   "type": "profile",
   "uid": "123:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0123a" },
-    { "weight": 2, "id": "img_s2", "src": "S0123b" },
-    { "weight": 3, "id": "img_s3", "src": "S0123c" },
-    { "weight": 4, "id": "img_s4", "src": "S0123d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0123e_april-fools" },
-    { "weight": 6, "id": "img_elegant-square", "src": "S0123f_elegant-square" },
-    { "weight": 7, "id": "img_scion-of-summer", "src": "S0123g_scion-of-summer" }
-  ],
-
   "attribute": {
     "class": "saber",
     "star": "star_4",

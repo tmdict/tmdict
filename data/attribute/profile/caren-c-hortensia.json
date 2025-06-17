@@ -2,15 +2,6 @@
   "type": "profile",
   "uid": "305:fgosvt",
 
-  "img": [
-    { "weight": 1, "id": "img_s1", "src": "S0305a" },
-    { "weight": 2, "id": "img_s2", "src": "S0305b" },
-    { "weight": 3, "id": "img_s3", "src": "S0305c" },
-    { "weight": 4, "id": "img_s4", "src": "S0305d" },
-    { "weight": 5, "id": "img_april-fools", "src": "S0305e_april-fools" },
-    { "weight": 6, "id": "img_devil-caren", "src": "S0305f_devil-caren" }
-  ],
-
   "attribute": {
     "class": "ruler",
     "star": "star_5",
