@@ -28,7 +28,6 @@ export interface AppPaths {
     files: string[]
   }
   data: string
-  img: string[]
 }
 
 export interface AttributeData {
@@ -44,7 +43,6 @@ export interface Attribute {
   ja?: string
   jaRow?: string
   uid?: string
-  img?: EntryImg[]
   weight?: number
   releaseDate?: string
   page?: string
@@ -71,12 +69,6 @@ export interface LayoutAttribute {
   }[]
 }
 
-export interface EntryImg {
-  id: string
-  src: string
-  weight: number
-}
-
 export interface EntryMetadata {
   id: string
   type: string
@@ -84,7 +76,6 @@ export interface EntryMetadata {
   ja?: string
   jaRow?: string
   uid: string
-  img?: EntryImg[]
   page?: string
   attr: any
   layout: LayoutAttribute
