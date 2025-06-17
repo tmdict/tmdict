@@ -6,19 +6,19 @@
     const parsedUid = uid.split(":");
     switch (parsedUid[parsedUid.length - 1]) {
       case "fgosvt": {
-        name = `S${parsedUid[0].toString().padStart(4, "0")}`;
+        name = `fgosvt/${parsedUid[0]}`;
         break;
       }
       case "default": {
-        name = "0000";
+        name = "icon/0000";
         break;
       }
       default: {
-        name = `${parsedUid[0]}`;
+        name = `icon/${parsedUid[0]}`;
         break;
       }
     }
-    return `/__generated/img/${format}/profile/icon/${name}.${format}`;
+    return `/__generated/img/${format}/profile/${name}.${format}`;
   }
 </script>
 
