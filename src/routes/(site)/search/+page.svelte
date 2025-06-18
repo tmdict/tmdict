@@ -202,7 +202,7 @@
 
   .result a:hover {
     color: var(--text-light);
-    text-decoration: underline;
+    text-decoration: underline dotted;
   }
   
   .result .info {

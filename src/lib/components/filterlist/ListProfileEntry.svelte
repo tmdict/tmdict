@@ -35,9 +35,9 @@
 
   .icon img {
     float: left;
-    width: 50px;
-    height: 50px;
-    margin: 2px;
+    width: 56px;
+    height: 56px;
+    margin: 4px 2px;
   }
 
   .id {
@@ -57,7 +57,7 @@
     color: #baaf81;
     float: right;
     text-align: left;
-    margin: 6px 10px 6px 6px;
+    margin: 6px 5px;
     width: 70px;
   }
 </style>

@@ -18,7 +18,7 @@
   }
 </script>
 
-<div class="profile-image" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
+<div class="icon" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
   <picture>
     <source srcset={getImage(data.attribute.uid, "avif")} type="image/avif" />
     <img src={getImage(data.attribute.uid, "jpg")} 
@@ -56,11 +56,11 @@
 </div>
 
 <style>
-  .profile-image {
+  .icon {
     text-align: center;
   }
   
-  .profile-image img {
+  .icon img {
     border: 1px solid #baaf81;
     outline: 2px solid #baaf81;
     outline-offset: 1px;
