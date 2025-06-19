@@ -37,7 +37,7 @@
     float: left;
     width: 56px;
     height: 56px;
-    margin: 4px 2px;
+    margin: 3px 2px;
   }
 
   .id {

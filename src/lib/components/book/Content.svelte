@@ -56,7 +56,7 @@
             <img src={getImage(entry.img, "jpg")} 
               title={entry.name[contentLang]}
               alt={entry.img}
-            loading="lazy"
+              loading="lazy"
             />
           </picture>
         </div>
