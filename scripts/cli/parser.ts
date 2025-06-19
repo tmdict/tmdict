@@ -199,7 +199,7 @@ function parseContent(id: string, contentData: any, attrData: AttributeData): En
             })
           : [];
       // Instantiate content data if there is no content under current source.id key
-      if (!_.has(parsedContent, sourceSectionKey)) {
+      if (!parsedContent.hasOwnProperty(sourceSectionKey)) {
         parsedContent[sourceSectionKey] = {
           parent: c.data.parent,
           source: sourceId, // Optional
@@ -333,7 +333,7 @@ export default class Parser {
             ? (entry.attribute[attr] as string[])
             : [entry.attribute[attr] as string];
           filterArr.forEach((f) => {
-            if (!_.has(i18n, attr)) i18n[attr] = {}; // Instantiate new attr type key in i18n
+            if (!i18n.hasOwnProperty(attr)) i18n[attr] = {}; // Instantiate new attr type key in i18n
             i18n[attr][f] = attrData[attr][f].data.name;
           });
         } else {
@@ -351,7 +351,7 @@ export default class Parser {
             contentFilters
               .filter((val, i) => contentFilters.indexOf(val) == i) // Dedupe
               .forEach((f) => {
-                if (!_.has(i18n, attr)) i18n[attr] = {}; // Instantiate new attr type key in i18n
+                if (!i18n.hasOwnProperty(attr)) i18n[attr] = {}; // Instantiate new attr type key in i18n
                 i18n[attr][f] = attrData[attr][f].data.name;
               });
           }
