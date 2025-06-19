@@ -1,4 +1,3 @@
-import _ from "lodash";
 import cssnano from "cssnano";
 import fs from "fs-extra";
 import handlebars from "handlebars";
@@ -117,14 +116,18 @@ export default class Bamboo {
       const entryAttrFilterlist = parser.parseAttributeFilterlist(entryId, entryData, attrData, filters);
       // Append Work attr
       filterlist.push(
-        _.merge(entryAttrFilterlist, { 
+        { ...entryAttrFilterlist, ...{ 
           work: entryAttrFilterlist["source"]
             .map((src: string) => attrData["source"][src].attribute["work"])
             .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i) // Dedupe
-        })
+        }}
       );
       // Prep i18n data for filterlist
-      i18n = _.merge(i18n, parser.parseFilterlistI18n(entryId, entryData, attrData, filters));
+      const entryi18n = parser.parseFilterlistI18n(entryId, entryData, attrData, filters);
+      Object.keys(entryi18n).forEach(attrType => {
+        // Append merge each i18n attr entry for that attr into the attr's i18n collection
+        i18n[attrType] = { ...i18n[attrType], ...entryi18n[attrType] };
+      });
     });
     // Append work i18n data
     i18n["work"] = {};

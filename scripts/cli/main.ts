@@ -1,4 +1,3 @@
-import _ from "lodash";
 import { bamboo } from "./bamboo.js";
 import { builder } from "./builder.js";
 import { loader } from "./loader.js";
@@ -43,12 +42,13 @@ builder.toJsonExport("src/lib/__generated/constants.json", appConfig.app);
 console.log("Building pages...");
 const pageData = parser.parseEntry("page", "page", attrData, contentData).content
   .reduce((acc, page) => {
-    return _.merge(acc, {
+    return { ...acc, ...{
       [page.id]: {
         id: page.id,
         i18n: page.i18n
+      
       }
-    })
+    }}
   }, {});
 builder.toJsonExport("src/lib/__generated/pages.json", pageData);
 
@@ -127,7 +127,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     const workAttr = entryAttrFilterlist["source"]
       .map((src: string) => attrData["source"][src].attribute["work"])
       .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i); // Dedupe
-    const entryFilterlist = _.merge(entryAttrFilterlist, { work: workAttr });
+    const entryFilterlist: { [key: string]: any } = { ...entryAttrFilterlist, ...{ work: workAttr } };
     // Prep i18n data for filterlist attributes
     const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
     // Glossary-only
@@ -139,19 +139,25 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       // If glossary, include entry content for filter list
       entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {
         return ["en", "ja", "zh"].reduce((acc, lang) => {
-          return _.merge(acc, {
+          return { ...acc, ...{
             [lang]: {
               id: entry.i18n[lang] ? attrData["content-id"][entry.id].data.name[lang] : "", // Get content-id name
               source: entry.i18n[lang] ? attrData["source"][entry.source].data.name[lang] : "", // Get source name
               html: entry.i18n[lang] ? parser.parseSearchMarkup(entry.i18n[lang].html) : "",
             },
-          });
+          }};
         }, {});
       });
     }
     // Merge parsed entry filterlist data and i18n data into accumulator
     appData[contentType].filterlist.list.push(entryFilterlist);
-    appData[contentType].filterlist.i18n = _.merge(appData[contentType].filterlist.i18n, entryAttrI18n);
+    Object.keys(entryAttrI18n).forEach(attrType => {
+      // Append merge each i18n attr entry for that attr into the attr's i18n collection
+      appData[contentType].filterlist.i18n[attrType] = {
+        ...appData[contentType].filterlist.i18n[attrType],
+        ...entryAttrI18n[attrType]
+      };
+    });
 
     // BOOK DATA
 
@@ -167,7 +173,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
             };
           }
           bookData[entry.source].entries.push(
-            _.merge(entry, { name: attrData.glossary[entry.parent].data.name })
+            { ...entry, ...{ name: attrData.glossary[entry.parent].data.name } }
           );
         }
       });
