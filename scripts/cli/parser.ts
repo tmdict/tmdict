@@ -1,5 +1,3 @@
-import _ from "lodash";
-
 import {
   Attribute,
   AttributeData,
@@ -58,11 +56,13 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
 function flattenAttributeData(attr: any): PreparedAttribute {
   let attrName: { [key: string]: string } = {};
   try {
-    // If attr type is `profile` or `glossary`, append make it linkable
+    // If attr type is `profile` or `glossary`, make it linkable
     if (["profile", "glossary"].includes(attr.type)) {
       Object.keys(attr.data.name).forEach((lang: string) => {
-        const link = (attr.type === "profile") ? `<a href="/${lang}/${attr.type}/${attr.id}">${attr.data.name[lang]}</a>` : `<a href="/${lang}/${attr.id}">${attr.data.name[lang]}</a>`;
-        attrName = _.merge(attrName, { [lang]: link });
+        const link = (attr.type === "profile")
+          ? `<a href="/${lang}/${attr.type}/${attr.id}">${attr.data.name[lang]}</a>`
+          : `<a href="/${lang}/${attr.id}">${attr.data.name[lang]}</a>`;
+        attrName = { ...attrName, ...{ [lang]: link } };
       });
     } else {
       attrName = attr.data.name;
@@ -71,7 +71,7 @@ function flattenAttributeData(attr: any): PreparedAttribute {
     console.log(`[ERROR flattenAttributeData] [${attr.id}]: ${err}`);
   }
   // Flatten the attributes for easier keying for rendering
-  return _.merge({ id: attr.id, type: attr.type }, attrName);
+  return { ...attrName, ...{ id: attr.id, type: attr.type } };
 }
 
 /**
@@ -101,7 +101,7 @@ function parseAttribute(entryAttr: Attribute, attrData: AttributeData): object {
           ? (currentAttr as string[]).map((a: string) => flattenAttributeData(attrData[attr][a]))
           : [flattenAttributeData(attrData[attr][currentAttr])];
 
-        parsedAttr = _.merge(parsedAttr, { [attribute]: data });
+        parsedAttr = { ...parsedAttr, ...{ [attribute]: data } };
       } catch (err) {
         console.log(`[ERROR parseAttribute] [${entryAttr.id}/${attribute}/${entryAttr.attribute[attribute]}]: ${err}`);
       }
@@ -135,10 +135,10 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
               (parsedAttr[key] as string[]).map((e: any) => e[lang])
             : // Attribute with a single value
               [parsedAttr[key][lang]];
-          return _.merge(a, { [key]: attrContent });
+          return { ...a, ...{ [key]: attrContent } };
         }, {});
       });
-      return _.merge(acc, { [lang]: result });
+      return { ...acc, ...{ [lang]: result } };
     }, {});
   } catch (err) {
     console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${parsedAttr.name.en})]: ${err}`);
@@ -153,7 +153,7 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
     attr: parsedAttr,
     layout: layout,
     uid: entryAttr.uid ? entryAttr.uid : "-",
-    // https://stackoverflow.com/a/50367186 and https://stackoverflow.com/a/40560953
+    // Conditionally add attr to metadata if they are available
     ...(entryAttr.attribute.alphabet && { en: entryAttr.attribute.alphabet as string }),
     ...(entryAttr.attribute.hiragana && { ja: entryAttr.attribute.hiragana as string }),
     ...(entryAttr.attribute["hiragana-row"] && { jaRow: entryAttr.attribute["hiragana-row"] as string }),
@@ -308,14 +308,17 @@ export default class Parser {
         }
       }
       // Return extracted attributes and other necessary data (id, etc.) for filterlist
-      return _.merge(attributes, {
-        id: entry.id,
-        name: entry.data.name,
-        uid: entry.uid ? entry.uid : "-",
-        ...(entry.attribute.alphabet && { en: entry.attribute.alphabet as string }),
-        ...(entry.attribute.hiragana && { ja: entry.attribute.hiragana as string }),
-        ...(entry.attribute["hiragana-row"] && { jaRow: entry.attribute["hiragana-row"] as string }),
-      });
+      return {
+        ...attributes,
+        ...{
+          id: entry.id,
+          name: entry.data.name,
+          uid: entry.uid ? entry.uid : "-",
+          ...(entry.attribute.alphabet && { en: entry.attribute.alphabet as string }),
+          ...(entry.attribute.hiragana && { ja: entry.attribute.hiragana as string }),
+          ...(entry.attribute["hiragana-row"] && { jaRow: entry.attribute["hiragana-row"] as string }),
+        }
+      };
     } catch (err) {
       console.log(`[ERROR parseAttributeFilterlist] [${entryId}]: ${err}`);
     }

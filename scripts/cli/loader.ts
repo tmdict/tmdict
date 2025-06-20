@@ -88,7 +88,7 @@ function attrLoader(path: string, file: string): any {
   if (!file.startsWith(".") && file.endsWith(".json")) {
     // Remove extension from file name to get id
     const id: string = file.replace(/\.json$/, "");
-    const json = _.merge({ id: id }, loadJson(path));
+    const json = { ...{ id: id }, ...loadJson(path) };
     // If name doesn"t have i18n, use name value for all i18n
     if (json.data.name.en === undefined) {
       json.data.name = {
@@ -154,11 +154,11 @@ export default class Loader {
   loadTemplate = (path: string): any => {
     console.log("Loading templates");
     const raw: any = walkDir(path, templateLoader);
-    const parsed = {};
+    let parsed = {};
     // Convert array of templates into key-values maps
     for (const key of Object.keys(raw)) {
       // There's only 1 template per key
-      _.merge(parsed, { [key]: raw[key][0] });
+      parsed = { ...parsed, ...{ [key]: raw[key][0] } };
     }
     return parsed;
   };
@@ -167,11 +167,11 @@ export default class Loader {
   loadAttrData = (paths: AppPaths): any => {
     console.log("Loading attr data");
     const rawAttrData: any = walkDir(`${paths.data}/attribute`, attrLoader);
-    const parsedAttrData = {};
+    let parsedAttrData = {};
     // Convert array of attributes into key-values attribute maps
     // {attr: [ { ... }, { ... }, ]} --> {attr: { id: {...}, id: {...}, }}
     for (const attr of Object.keys(rawAttrData)) {
-      _.merge(parsedAttrData, { [attr]: arrayToObject(rawAttrData[attr]) });
+      parsedAttrData = { ...parsedAttrData, ...{ [attr]: arrayToObject(rawAttrData[attr]) } };
     }
     return parsedAttrData;
   };
