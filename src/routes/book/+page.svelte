@@ -7,6 +7,8 @@
   import hashes from "$lib/__generated/hashes.json";
 
   let currentSource = $state("");
+  const NEW = "2025";
+
   BOOK_DATA.sort((a, b) => (a.source.weight > b.source.weight) ? -1 : 1);
 
   function parseUrlSource() {
@@ -61,7 +63,7 @@
         {#each BOOK_DATA as book}
           <li>
             <a href={`#${book.source.id}`} id={`${book.source.id}`} title={book.glossary.data.name[bookstore.lang]}>
-              <div class="info" class:new={book.source.releaseDate.split("-")[0] === "2023"}>
+              <div class="info" class:new={book.source.releaseDate.split("-")[0] === NEW}>
                 {book.source.releaseDate} / {book.source.data.name[bookstore.lang]}
               </div>
               {book.glossary.data.name[bookstore.lang]}
