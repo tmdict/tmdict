@@ -18,14 +18,13 @@
     "@sveltejs/kit": "^2.21.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/lodash": "^4.17.17",
     "@types/postcss-import": "^14.0.3",
     "@types/uglify-js": "^3.17.5",
     "cssnano": "^7.0.7",
     "fs-extra": "^11.3.0",
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
-    "lodash": "^4.17.21",
+    "handlebars": "^4.7.8",
     "marked": "^15.0.12",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
@@ -36,8 +35,5 @@
     "typescript": "^5.8.3",
     "uglify-js": "^3.19.3",
     "vite": "^6.3.5"
-  },
-  "dependencies": {
-    "handlebars": "^4.7.8"
   }
 }
