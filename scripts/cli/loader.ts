@@ -1,4 +1,3 @@
-import _ from "lodash";
 import fs from "fs-extra";
 import { marked } from "marked";
 import matter from "gray-matter";
@@ -21,13 +20,6 @@ function loadMarkdown(p: string): any {
   return { ...data, html: marked(data.content) };
 }
 
-/** Lodash customizer for merging arrays */
-function arrayCustomizer(objValue: any, srcValue: any): any[] {
-  if (Array.isArray(objValue)) {
-    return objValue.concat(srcValue);
-  }
-}
-
 /**
  * Converts an array of objects into a object of objects, keyed by the `key`
  * field of each array element, by default uses the `id` key
@@ -37,6 +29,18 @@ function arrayToObject(arr: any[], key = "id"): any {
     obj[item[key]] = item;
     return obj;
   }, {});
+}
+
+/** Merges two objects, if there is an array, concatenates instead of replace */
+function mergeWithArrayConcat(target: any, source: any): any {
+  const result = { ...target, ...source };
+  // If the key is an array, concatenation their values
+  Object.keys(source).forEach(key => {
+    if (Array.isArray(target[key]) && Array.isArray(source[key])) {
+      result[key] = target[key].concat(source[key]);
+    }
+  });
+  return result;
 }
 
 /**
@@ -58,12 +62,12 @@ function walkDir(currentPath: string, loader: (path: string, file: string) => an
         const subDirPath = path.join(currentPath, f);
         if (fs.statSync(subDirPath).isDirectory()) {
           // Recursively process dir/files in that directory
-          return _.mergeWith(acc, walkDir(subDirPath, loader), arrayCustomizer);
+          return mergeWithArrayConcat(acc, walkDir(subDirPath, loader));
         } else {
           // If just a file, load the file using given loader
           const result = loader(subDirPath, f);
           // If file is eligible for the loader, add it to collection [] under [key]
-          return result.valid ? _.mergeWith(acc, { [result.key]: [result.data] }, arrayCustomizer) : acc;
+          return result.valid ? mergeWithArrayConcat(acc, { [result.key]: [result.data] }) : acc;
         }
       }, data)
   );
