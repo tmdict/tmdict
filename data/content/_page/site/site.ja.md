@@ -24,24 +24,38 @@ name: "サイト"
 
 ## ニュース
 
+### 2025-05-18
+
+TMdict Turns 10!
+
+In 2015, we launched a small dictionary website called TMdict. Ten years later, the site is still going strong — continuing to serve as a valuable resource for the community. Over the past decade, TMdict has gone through many changes and iterations. To celebrate our 10th anniversary, we're giving the website a complete overhaul:
+
+- CHALDEAの記録 has been merged into the main site, so all glossaries and profile translations are now available side by side.
+
+- We've introduced a faster, more modern design with improved usability — including small enhancements like a brand-new dark mode. (If you miss the old design, you can still access it in our <a href="../legacy/ja/index.html">legacy archive</a>).
+
+- The backend has been rebuilt using a new framework, enabling easier development and allowing us to take advantage of modern tools to improve the user experience.
+
+Finally, we want to express our heartfelt thanks to the community for its continued support, and to all the translators who have contributed to our ever-growing database.
+
 **2025-04-12**
 
-- Updated CHALDEAの記録 with FGO Material 16 character profiles.
+- Added FGO Material 16 character profiles.
 
 **2024-09-14**
 
-- Updated CHALDEAの記録 with FGO Material 14 character profiles.
-- Updated CHALDEAの記録 with FGO Material 15 character profiles.
-- Updated CHALDEAの記録 with FGO Arcade material character profiles.
+- Added FGO Material 14 character profiles.
+- Added FGO Material 15 character profiles.
+- Added FGO Arcade material character profiles.
 
 **2023-10-29**
 
-- Updated CHALDEAの記録 with FGO Material 13 character profiles.
+- Added with FGO Material 13 character profiles.
 
 **2023-08-14**
 
-- Updated CHALDEAの記録 with FGO Material 11 character profiles.
-- Updated CHALDEAの記録 with FGO Material 12 character profiles.
+- Added with FGO Material 11 character profiles.
+- Added with FGO Material 12 character profiles.
 - Fixed various translation inconsistencies in CHALDEAの記録.
 - Upgraded site backend.
 
@@ -53,7 +67,7 @@ name: "サイト"
 
 **2023-01-08**
 
-- Updated CHALDEAの記録 with character profiles from FGO Material 9 and 10.
+- Added character profiles from FGO Material 9 and 10.
 - Fixed Chinese translations for Fate/side material.
 
 **2022-12-11**
@@ -66,11 +80,11 @@ These changes allow us to focus on more important and interesting contents (as o
 
 Finally, we’ve also updated the site’s backend, and onboarded a new search engine that supports fuzzy search. Let us know if you find any issues!
 
-- Changed Servant section in CHALDEAの記録 to Character Profile.
 - Added Crypters, Surtr, and a few side character profiles from FGOM7 and 8 to CHALDEAの記録.
 - Added Luminary profile from Katatuki Kouhon to CHALDEAの記録.
-- Removed CE section from CHALDEAの記録.
+- Updated Servant section in CHALDEAの記録 to Character Profile.
 - Updated search engine.
+- Removed CE section from CHALDEAの記録.
 - General site improvement.
 
 **2022-11-27**
@@ -137,7 +151,7 @@ Given these major changes, TMdict is now version 3!
 Full glossary translation for _Lord El-Melloi II Case Files material_, from TwilightsCall (English) and Akiraka (Chinese), is now a part of our collection.
 
 - Added Lord El-Melloi II Case Files Glossary (English, Chinese, Japanese).
-- Renamed the Chinese translation of “El-Melloi” from “艾尔梅洛伊” to “埃尔梅罗.”
+- Updated the Chinese translation of “El-Melloi” from “艾尔梅洛伊” to “埃尔梅罗.”
 - Fixed formatting and translation inconsistencies.
 - Fixed minor site display and filter bugs.
 
@@ -159,16 +173,16 @@ First update of 2020! With this update, the _Fate/EXTELLA_ glossary is now compl
 With this update, the _Fate/EXTRA_ glossary is finally complete; missing entries in the Chinese glossary have been filled, and proofreading of the English glossary is now finished. If you notice any more errors, please notify us!
 
 - Added missing entries to Fate/EXTRA Chinese glossary.
+- Updated the term “Virtual Spiritron” to “Pseudo-Spiritron.”
 - Fixed formatting, grammar, and translation inconsistencies in Fate/EXTRA English glossary.
-- Renamed the term “Virtual Spiritron” to “Pseudo-Spiritron.”
 
 **2019-05-19**
 
 The site’s stylesheet has been updated to use responsive design, making it more mobile friendly. There’s also a new glossary, it comes from a small booklet, _HibiChika Complete Capture Book_, found in the _Mahou Tsukai no Hako Box Set_ sold at the Type-Moon booth in C78, its content is mostly random facts and jokes.
 
-- Site style is now responsive to screen size.
 - Added Mahou Tsukai no Hako Small Encyclopedia (Japanese/Chinese).
 - Added images for Fate/Zero Animation Visual Guide I + II.
+- Site style is now responsive to screen size.
 
 **2019-05-01**
 
@@ -176,8 +190,8 @@ A content-focused update: added glossary entries from _Fate/Zero Animation Visua
 
 - Added Fate/Zero Animation Visual Guide I glossary (Japanese/Chinese).
 - Added Fate/Zero Animation Visual Guide II glossary (Japanese/Chinese).
-- Edited Melty Blood Back Alley Alliance Nightmare Chinese entries.
-- Edited many data/translation/spelling mistakes found in several glossaries.
+- Updated Melty Blood Back Alley Alliance Nightmare Chinese entries.
+- Fixed many data/translation/spelling mistakes found in several glossaries.
 
 **2019-02-10**
 
@@ -193,14 +207,14 @@ TMdict is now 2.x.x!
 
 Minor update, fixed a bunch of transcription errors in the Japanese text of _Fate/Apocrypha material_ and _Kara no Kyoukai_.
 
-- Edited transcription errors in Fate/Apocrypha glossary and Kara no Kyoukai glossary (Japanese)
+- Fixed transcription errors in Fate/Apocrypha glossary and Kara no Kyoukai glossary (Japanese)
 
 **2016-07-30**
 
 Translation for _Fate/Apocrypha material_, a collaboration project with 譯月漢化小组 and NanoDesu’s Eternal Dreamer, is now available!
 
 - Added Fate/Apocrypha Encyclopedia (English, Chinese, Japanese)
-- Changed Kara no Kyoukai glossary Chinese entry title to “「 」”
+- Updated Kara no Kyoukai glossary Chinese entry title to “「 」”
 - Fixed an issue with some entries not sorting correctly in Japanese
 
 **2016-06-11**
@@ -209,7 +223,7 @@ Another big update! Aside from correcting various errors and fixing an issue wit
 
 - Added Tsukihime Dictionary (English, Chinese, Japanese)
 - Added Melty Blood Glossary (English, Chinese, Japanese)
-- Edited English and Chinese translation errors in Tsukihime and Fate/Zero glossaries
+- Fixed English and Chinese translation errors in Tsukihime and Fate/Zero glossaries
 - Fixed an issue with entries not sorting alphabetically based on EN index
 
 **2016-05-01**
@@ -221,9 +235,9 @@ For those who like to see everything on one page, we’ve also added a “Books�
 - Major overhaul of site backend
 - Moved glossary database to SQLite
 - Added books/glossary section
+- Fixed several incorrectly translated/assigned categories
+- Fixed Chinese translation errors in Tsukihime glossary
 - Removed glossary diff feature
-- Edited several incorrectly translated/assigned categories
-- Edited Chinese translation errors in Tsukihime glossary
 
 **2015-08-16**
 
@@ -236,8 +250,8 @@ A glossary diff feature has been implemented in order to keep track of changes t
 
 Some big backend changes, the site now supports 3 kinds of entries: 1) entry with a common category, a normal glossary entry with one or more sortable category/tag 2) entry with unique category, an entry with a one-of-a-kind category, non-filterable (since by definition there’s already only one of it), this is to account for a select few glossary formats, and 3) entries with no category, this opens up the possibility to add “non-glossary” entries such as those from _Fate/Complete Material 3_, think of it more as a future-proof change. Categories are now also clickable and will lead you to a filtered list when clicked. Most of the changes are under-the-hood. In terms of content, entries from Nasu’s _Notes._ have been added, bumping our version number to 1.1.0.
 
-- Changed site categorization scheme for future expansion
 - Added Notes. glossary (Dokuhon) Japanese/English/Chinese content
+- Updated site categorization scheme for future expansion
 
 **2015-05-12**
 
@@ -251,11 +265,11 @@ Japanese content from Tsukihime Dictionary (_Dokuhon_) and Tsukihime Dictionary 
 Thanks to feedback and suggestions we received from the past week, the site’s backend and database has been completely revamped, and the default ordering and URL of the glossary terms is now Japanese instead of English.
 
 - Added missing Kara no Kyoukai Japanese entry “Orange Bag”
-- Changed default sorting and URL order changed from English to Japanese
-- Changed database format to support flexible sorting based on language
-- Changed standardized Chinese name (Arcueid, Ciel, Sion, Roa, etc.)
-- Edited Japanese entry typos (コペンハーゲン, 両儀識)
-- Edited overall Chinese content as result of comprehensive proofreading/editing
+- Updated default sorting and URL order changed from English to Japanese
+- Updated database format to support flexible sorting based on language
+- Updated standardized Chinese name (Arcueid, Ciel, Sion, Roa, etc.)
+- Fixed Japanese entry typos (コペンハーゲン, 両儀識)
+- Fixed many Chinese contents as result of comprehensive proofreading/editing
 
 **2015-03-14**
 
