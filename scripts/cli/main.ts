@@ -10,7 +10,8 @@ import {
   ContentData,
   EntryContent,
   EntryData,
-  I18n,
+  I18nData,
+  Lang,
   List,
   SearchData,
   Sitemap,
@@ -33,7 +34,7 @@ const searchData: SearchData[] = [];
 
 // Sitemap
 sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
-["en", "ja", "zh"].forEach(lang => {
+["en", "ja", "zh"].forEach((lang: Lang) => {
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/about`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/site`});
@@ -97,7 +98,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
     // STATIC PATHS, SITEMAP, SEARCH
 
-    ["en", "ja", "zh"].forEach(lang => {
+    ["en", "ja", "zh"].forEach((lang: Lang) => {
       // Append to static paths
       const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
       staticEntryPaths[contentType].push({
@@ -141,7 +142,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i); // Dedupe
     const entryFilterlist: List = { ...entryAttrFilterlist, ...{ work: workAttr } };
     // Prep i18n data for filterlist attributes
-    const entryAttrI18n: I18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
+    const entryAttrI18n: I18nData = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
     // Glossary-only
     if (contentType === "glossary") {
       // Add category to filterlist
@@ -150,7 +151,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       }, []);
       // If glossary, include entry content for filter list
       entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {
-        return ["en", "ja", "zh"].reduce((acc, lang) => {
+        return ["en", "ja", "zh"].reduce((acc, lang: Lang) => {
           return { ...acc, ...{
             [lang]: {
               id: entry.i18n[lang] ? attrData["content-id"][entry.id].data.name[lang] : "", // Get content-id name

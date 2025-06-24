@@ -9,7 +9,8 @@ import {
   EntryData,
   EntryMetadata,
   Filter,
-  I18n,
+  I18nData,
+  Lang,
   LayoutAttribute,
   List,
   ParsedAttribute,
@@ -56,15 +57,15 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
 }
 
 /**
- * Flattens a Attribute's `data {...}` into { type: ..., <key>: ..., en: <name>, ja: <name>, zh: <name> }
+ * Flattens an Attribute's `data {...}` into { type: ..., <key>: ..., en: <name>, ja: <name>, zh: <name> }
  * and append links to attributes that have their own page
  */
 function flattenAttributeData(attr: Attribute): CommonAttribute {
-  let attrName: { [key: string]: string } = {};
+  let attrName: DataAttribute = {};
   try {
     // If attr type is `profile` or `glossary`, make it linkable
     if (["profile", "glossary"].includes(attr.type)) {
-      Object.keys(attr.data.name).forEach((lang: string) => {
+      Object.keys(attr.data.name).forEach((lang: Lang) => {
         const link = (attr.type === "profile")
           ? `<a href="/${lang}/${attr.type}/${attr.id}">${attr.data.name[lang]}</a>`
           : `<a href="/${lang}/${attr.id}">${attr.data.name[lang]}</a>`;
@@ -178,7 +179,7 @@ function parseContent(id: string, contentData: Content[], attrData: AttributeDat
       // Temp key to group contents of different language by source.id
       const sourceSectionKey = `${c.data.source}.${c.data.id}`;
       // Current lang
-      const lang = c.data.language;
+      const lang: Lang = c.data.language;
       // Parse custom {{}} markup
       const parsedHtml: string = parseContentMarkup(c.html, lang, sourceSectionKey);
       // Replace optional member with "" if not present
@@ -327,10 +328,15 @@ export default class Parser {
   };
 
   /** Generate an i18n map for all filterlist filters that appears for this entry, a map of attrType->attrName->i18n */
-  parseFilterlistI18n = (entryId: string, entryData: EntryData, attrData: AttributeData, filterlist: Filter): I18n => {
+  parseFilterlistI18n = (
+    entryId: string,
+    entryData: EntryData,
+    attrData: AttributeData,
+    filterlist: Filter
+  ): I18nData => {
     try {
       const entry: Attribute = attrData[filterlist.type][entryId];
-      const i18n: I18n = {};
+      const i18n: I18nData = {};
       for (const attr of filterlist.filter) {
         // Get array of filterable attributes
         if (entry.attribute && entry.attribute[attr]) {

@@ -11,11 +11,13 @@ import {
   AttributeData,
   ContentData,
   EntryData,
-  I18n,
+  Filter,
+  I18nData,
+  Lang,
   List,
 } from "./types.js";
 
-const filters = {
+const filters: Filter = {
   "type": "glossary",
   "name": {
     "en": "glossary",
@@ -57,7 +59,7 @@ export default class Bamboo {
         .sort((a, b) => a.name.localeCompare(b.name))
     };
     let filterlist: List[] = []; // Initial filterlist content array
-    let i18n: I18n = {}; // Initial filterlist i18n attribute map
+    let i18n: I18nData = {}; // Initial filterlist i18n attribute map
     // Build Assets and CSS
     fs.copySync("scripts/legacy/asset", "static/legacy", { overwrite: true });
     fs.copySync("data/img/glossary", "static/legacy/src/img", { overwrite: true });
@@ -86,7 +88,7 @@ export default class Bamboo {
       const entryDataRaw: EntryData = parser.parseEntry(entryId, "glossary", attrData, contentData);
       const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.book);
       // Generates HTML for Entries
-      Object.keys(entryData.attribute.attr.name).forEach((lang: string) => {
+      Object.keys(entryData.attribute.attr.name).forEach((lang: Lang) => {
         const en = entryData.attribute.en;
         const ja = entryData.attribute.ja;
         const jaRow = entryData.attribute.jaRow;
@@ -130,7 +132,7 @@ export default class Bamboo {
         }}
       );
       // Prep i18n data for filterlist
-      const entryi18n: I18n = parser.parseFilterlistI18n(entryId, entryData, attrData, filters);
+      const entryi18n: I18nData = parser.parseFilterlistI18n(entryId, entryData, attrData, filters);
       Object.keys(entryi18n).forEach(attrType => {
         // Append merge each i18n attr entry for that attr into the attr's i18n collection
         i18n[attrType] = { ...i18n[attrType], ...entryi18n[attrType] };
@@ -141,7 +143,7 @@ export default class Bamboo {
     Object.keys(attrData["work"]).forEach((work: string) => {
       i18n["work"][work] = attrData["work"][work].data.name;
     });
-    Object.keys(appConfig.app.lang).forEach((lang) => {
+    Object.keys(appConfig.app.lang).forEach((lang: Lang) => {
       // Build pages
       pageData.content.forEach((page) => {
         toTemplate(templates["page.html"], `static/legacy/${lang}/${page.id}.html`, {

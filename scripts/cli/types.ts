@@ -1,3 +1,6 @@
+export type Lang = 'en' | 'ja' | 'zh';
+export type I18n = Record<Lang, string>;
+
 export interface Attribute {
   id: string;
   type: string;
@@ -13,15 +16,9 @@ export interface Attribute {
     [key: string]: string | string[];
   };
   data: {
-    name: {
-      /** En, Ja, Zh */
-      [key: string]: string;
-    };
+    name: I18n;
     /** Data attr name */
-    [key: string]: {
-      /** En, Ja, Zh */
-      [key: string]: string;
-    };
+    [key: string]: I18n;
   };
   layout?: string[][];
 }
@@ -45,10 +42,7 @@ export interface CommonAttribute extends DataAttribute {
 }
 
 export interface ParsedAttribute {
-  name: {
-    /** En, Ja, Zh */
-    [key: string]: string;
-  };
+  name: I18n;
   /** Attr name */
   [key: string]: CommonAttribute[] | DataAttribute;
 }
@@ -78,7 +72,7 @@ export interface Content {
   data: {
     parent: string;
     id: string;
-    language: string;
+    language: Lang;
     weight: number;
     source?: string;
     translation?: string;
@@ -136,10 +130,7 @@ export interface Filter {
   type: string;
   filter: string[];
   contentFilter?: string[];
-  name: {
-    /** En, Ja, Zh */
-    [key: string]: string;
-  };
+  name: I18n;
 }
 
 export interface ListContent {
@@ -153,10 +144,7 @@ export interface ListContent {
 
 export interface List {
   id: string;
-  name: {
-    /** En, Ja, Zh */
-    [key: string]: string;
-  };
+  name: I18n;
   source: string[];
   work: string[];
   uid: string;
@@ -171,20 +159,17 @@ export interface List {
   category?: string[];
 }
 
-export interface I18n {
+export interface I18nData {
   /** Attr type */
   [key: string]: {
     /** Attr name */
-    [key: string]: {
-      /** En, Ja, Zh */
-      [key: string]: string;
-    };
+    [key: string]: I18n;
   };
 }
 
 export interface FilterList {
   list: List[];
-  i18n: I18n;
+  i18n: I18nData;
 }
 
 export interface AppData {
@@ -202,10 +187,7 @@ export interface AppData {
 }
 
 export interface BookEntry extends EntryContent {
-  name: {
-    /** En, Ja, Zh */
-    [key: string]: string;
-  };
+  name: I18n;
 }
 
 export interface Book {
@@ -262,11 +244,7 @@ export type AppConfig = {
     };
     i18n: {
       /** Site text */
-      [key: string]: {
-        en: string;
-        ja: string;
-        zh: string;
-      };
+      [key: string]: I18n;
     };
   };
 }
