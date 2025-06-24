@@ -1,6 +1,10 @@
 import {
   Attribute,
   AttributeData,
+  CommonAttribute,
+  Content,
+  ContentData,
+  DataAttribute,
   EntryContent,
   EntryData,
   EntryMetadata,
@@ -9,9 +13,6 @@ import {
   LayoutAttribute,
   List,
   ParsedAttribute,
-  PreparedAttribute,
-  RawContent,
-  RawContentData,
 } from "./types.js";
 
 /** Converts custom content markup into HTML */
@@ -58,7 +59,7 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
  * Flattens a Attribute's `data {...}` into { type: ..., <key>: ..., en: <name>, ja: <name>, zh: <name> }
  * and append links to attributes that have their own page
  */
-function flattenAttributeData(attr: Attribute): PreparedAttribute {
+function flattenAttributeData(attr: Attribute): CommonAttribute {
   let attrName: { [key: string]: string } = {};
   try {
     // If attr type is `profile` or `glossary`, make it linkable
@@ -93,6 +94,7 @@ function flattenAttributeData(attr: Attribute): PreparedAttribute {
 function parseAttribute(entryAttr: Attribute, attrData: AttributeData): ParsedAttribute {
   let parsedAttr: ParsedAttribute = entryAttr.data;
 
+  // If there is common attributes
   if (entryAttr.attribute) {
     for (const attribute of Object.keys(entryAttr.attribute)) {
       try {
@@ -137,7 +139,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: ParsedAttribute): Layou
           // Populate content for each attr section
           const attrContent = Array.isArray(parsedAttr[key])
             ? // Attributes with array of values
-              (parsedAttr[key]).map((e: PreparedAttribute) => e[lang])
+              (parsedAttr[key]).map((e: CommonAttribute) => e[lang])
             : // Attribute with a single value
               [parsedAttr[key][lang]];
           return { ...a, ...{ [key]: attrContent } };
@@ -146,7 +148,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: ParsedAttribute): Layou
       return { ...acc, ...{ [lang]: result } };
     }, {});
   } catch (err) {
-    console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${(parsedAttr as any).name.en})]: ${err}`);
+    console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${parsedAttr.name.en})]: ${err}`);
   }
 }
 
@@ -168,10 +170,10 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: ParsedAttribute, layout
 }
 
 /** Converts raw content JSON into entry page data */
-function parseContent(id: string, contentData: RawContent[], attrData: AttributeData): EntryContent[] {
+function parseContent(id: string, contentData: Content[], attrData: AttributeData): EntryContent[] {
   const parsedContent: { [key: string]: EntryContent } = {};
   // Go through each content and group them by id and language
-  contentData.forEach((c: RawContent) => {
+  contentData.forEach((c: Content) => {
     try {
       // Temp key to group contents of different language by source.id
       const sourceSectionKey = `${c.data.source}.${c.data.id}`;
@@ -244,7 +246,7 @@ function parseContent(id: string, contentData: RawContent[], attrData: Attribute
 
 export default class Parser {
   /**  Generates site data given entry files, some content types may not have translations */
-  parseEntry = (entryId: string, entryType: string, attrData: AttributeData, contentData: RawContentData): EntryData => {
+  parseEntry = (entryId: string, entryType: string, attrData: AttributeData, contentData: ContentData): EntryData => {
     try {
       // Convert raw attribute data into attr object keyed by attr name
       const entryAttr: Attribute = attrData[entryType][entryId];

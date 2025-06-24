@@ -9,10 +9,10 @@ import { parser } from "./parser.js";
 import {
   AppConfig,
   AttributeData,
+  ContentData,
   EntryData,
   I18n,
   List,
-  RawContentData,
 } from "./types.js";
 
 const filters = {
@@ -43,7 +43,7 @@ function toTemplate(template: string, path: string, data: any): void {
 }
 
 export default class Bamboo {
-  buildTmdict = (appConfig: AppConfig, attrData: AttributeData, contentData: RawContentData): void => {
+  buildTmdict = (appConfig: AppConfig, attrData: AttributeData, contentData: ContentData): void => {
     appConfig;
     contentData;
     const templates = loader.loadTemplate("scripts/legacy/template");

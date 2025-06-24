@@ -1,43 +1,3 @@
-export type AppConfig = {
-  paths: AppPaths;
-  content: {
-    [key: string]: Filter;
-  };
-  sources: {
-    site: string[];
-    book: string[];
-  };
-  app: {
-    lang: {
-      [key: string]: {
-        id: string;
-        name: string;
-      };
-    };
-    i18n: {
-      [key: string]: {
-        en: string;
-        ja: string;
-        zh: string;
-      };
-    };
-  };
-}
-
-export interface AppPaths {
-  css: {
-    path: string;
-    files: string[];
-  };
-  data: string;
-}
-
-export interface AttributeData {
-  [key: string]: {
-    [key: string]: Attribute;
-  };
-}
-
 export interface Attribute {
   id: string;
   type: string;
@@ -49,28 +9,54 @@ export interface Attribute {
   releaseDate?: string;
   page?: string;
   attribute: {
+    /** Common attr name */
     [key: string]: string | string[];
   };
   data: {
+    name: {
+      /** En, Ja, Zh */
+      [key: string]: string;
+    };
+    /** Data attr name */
     [key: string]: {
+      /** En, Ja, Zh */
       [key: string]: string;
     };
   };
   layout?: string[][];
 }
 
-export interface ParsedAttribute {
-  [key: string]: PreparedAttribute[] | { [key: string]: string };
+export interface AttributeData {
+  /** Attr type */
+  [key: string]: {
+    /** Attr name */
+    [key: string]: Attribute;
+  };
 }
 
-export interface PreparedAttribute {
-  id: string;
-  type: string;
+export interface DataAttribute {
+  /** En, Ja, Zh */
   [key: string]: string;
 }
 
+export interface CommonAttribute extends DataAttribute {
+  id: string;
+  type: string;
+}
+
+export interface ParsedAttribute {
+  name: {
+    /** En, Ja, Zh */
+    [key: string]: string;
+  };
+  /** Attr name */
+  [key: string]: CommonAttribute[] | DataAttribute;
+}
+
 export interface LayoutAttribute {
+  /** En, Ja, Zh */
   [key: string]: {
+    /** Attr name */
     [key: string]: string;
   }[];
 }
@@ -83,11 +69,11 @@ export interface EntryMetadata {
   jaRow?: string;
   uid: string;
   page?: string;
-  attr: any;
+  attr: ParsedAttribute;
   layout: LayoutAttribute;
 }
 
-export interface RawContent {
+export interface Content {
   html: string;
   data: {
     parent: string;
@@ -101,11 +87,13 @@ export interface RawContent {
     profile?: boolean;
     category?: string[];
   };
+  /** Loaded fields e.g. content, isEmpty, excerpt */
   [key: string]: any;
 }
 
-export interface RawContentData {
-  [key: string]: RawContent[];
+export interface ContentData {
+  /** Content parent (attr id) */
+  [key: string]: Content[];
 }
 
 export interface EntryContent {
@@ -117,7 +105,7 @@ export interface EntryContent {
   profile: boolean;
   category: string[];
   i18n: {
-    // en, ja, zh
+    /** En, Ja, Zh */
     [key: string]: {
       name: {
         id: string;
@@ -149,11 +137,13 @@ export interface Filter {
   filter: string[];
   contentFilter?: string[];
   name: {
+    /** En, Ja, Zh */
     [key: string]: string;
   };
 }
 
 export interface ListContent {
+  /** En, Ja, Zh */
   [key: string]: {
     id: string;
     source: string;
@@ -164,7 +154,7 @@ export interface ListContent {
 export interface List {
   id: string;
   name: {
-    // en, ja, zh
+    /** En, Ja, Zh */
     [key: string]: string;
   };
   source: string[];
@@ -182,9 +172,11 @@ export interface List {
 }
 
 export interface I18n {
+  /** Attr type */
   [key: string]: {
+    /** Attr name */
     [key: string]: {
-      // en, ja, zh
+      /** En, Ja, Zh */
       [key: string]: string;
     };
   };
@@ -196,8 +188,10 @@ export interface FilterList {
 }
 
 export interface AppData {
+  /** Glossary, Profile */
   [key: string]: {
     entries: {
+      /** Entry id */
       [key: string]: {
         data: EntryData;
         filepath: string;
@@ -209,6 +203,7 @@ export interface AppData {
 
 export interface BookEntry extends EntryContent {
   name: {
+    /** En, Ja, Zh */
     [key: string]: string;
   };
 }
@@ -220,6 +215,7 @@ export interface Book {
 }
 
 export interface BookData {
+  /** Entry source */
   [key: string]: Book;
 }
 
@@ -232,10 +228,11 @@ export interface SearchData {
 }
 
 export interface StaticEntryPaths {
+  /** Glossary, Profile */
   [key: string]: {
     lang: string;
-    glossary?: string;
-    profile?: string;
+    /** Glossary, Profile */
+    [key: string]: string;
   }[];
 }
 
@@ -243,4 +240,41 @@ export interface Sitemap {
   changefreq: string;
   priority: number;
   url: string;
+}
+
+export type AppConfig = {
+  paths: AppPaths;
+  content: {
+    /** Glossary, Profile */
+    [key: string]: Filter;
+  };
+  sources: {
+    site: string[];
+    book: string[];
+  };
+  app: {
+    lang: {
+      /** En, Ja, Zh */
+      [key: string]: {
+        id: string;
+        name: string;
+      };
+    };
+    i18n: {
+      /** Site text */
+      [key: string]: {
+        en: string;
+        ja: string;
+        zh: string;
+      };
+    };
+  };
+}
+
+export interface AppPaths {
+  css: {
+    path: string;
+    files: string[];
+  };
+  data: string;
 }

@@ -6,11 +6,12 @@ import {
   AppData,
   AttributeData,
   Book,
+  BookData,
+  ContentData,
   EntryContent,
   EntryData,
   I18n,
   List,
-  RawContentData,
   SearchData,
   Sitemap,
   StaticEntryPaths,
@@ -21,11 +22,11 @@ console.log("\nBuilding: tmdict");
 // Load attributes and content
 const appConfig = loader.loadConfig();
 const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
-const contentData: RawContentData = loader.loadContentData(appConfig.paths);
+const contentData: ContentData = loader.loadContentData(appConfig.paths);
 
 // Init data
 const appData: AppData = {};
-const bookData: { [key: string]: Book } = {};
+const bookData: BookData = {};
 const staticEntryPaths: StaticEntryPaths = {};
 const sitemap: Sitemap[] = [];
 const searchData: SearchData[] = [];
