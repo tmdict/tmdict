@@ -6,7 +6,14 @@ import atImport from "postcss-import";
 import UglyJS from "uglify-js";
 import { loader } from "./loader.js";
 import { parser } from "./parser.js";
-import { AppConfig, AttributeData, EntryData } from "./types.js";
+import {
+  AppConfig,
+  AttributeData,
+  EntryData,
+  I18n,
+  List,
+  RawContentData,
+} from "./types.js";
 
 const filters = {
   "type": "glossary",
@@ -36,7 +43,7 @@ function toTemplate(template: string, path: string, data: any): void {
 }
 
 export default class Bamboo {
-  buildTmdict = (appConfig: AppConfig, attrData: AttributeData, contentData: any): void => {
+  buildTmdict = (appConfig: AppConfig, attrData: AttributeData, contentData: RawContentData): void => {
     appConfig;
     contentData;
     const templates = loader.loadTemplate("scripts/legacy/template");
@@ -49,8 +56,8 @@ export default class Bamboo {
         .map(id => ({ id: id, name: attrData["hiragana-row"][id].data.name.ja }))
         .sort((a, b) => a.name.localeCompare(b.name))
     };
-    let filterlist: any = []; // Initial filterlist content array
-    let i18n: any = {}; // Initial filterlist i18n attribute map
+    let filterlist: List[] = []; // Initial filterlist content array
+    let i18n: I18n = {}; // Initial filterlist i18n attribute map
     // Build Assets and CSS
     fs.copySync("scripts/legacy/asset", "static/legacy", { overwrite: true });
     fs.copySync("data/img/glossary", "static/legacy/src/img", { overwrite: true });
@@ -67,7 +74,7 @@ export default class Bamboo {
     const pageData = parser.parseEntry("page", "page", attrData, contentData);
     const sideData = pageData.content
     .filter(page => ["top", "contribute"].includes(page.id))
-    .reduce((acc: any, page) => {
+    .reduce((acc: { [key: string]: { [key: string]: string } }, page) => {
       Object.keys(page.i18n).forEach(lang => {
         acc[lang] = acc[lang] || {};
         acc[lang][page.id] = page.i18n[lang].html;
@@ -113,17 +120,17 @@ export default class Bamboo {
         });
       });
       // Add parsed data to filterlist data and i18n collection
-      const entryAttrFilterlist = parser.parseAttributeFilterlist(entryId, entryData, attrData, filters);
+      const entryAttrFilterlist: List = parser.parseAttributeFilterlist(entryId, entryData, attrData, filters);
       // Append Work attr
       filterlist.push(
         { ...entryAttrFilterlist, ...{ 
           work: entryAttrFilterlist["source"]
-            .map((src: string) => attrData["source"][src].attribute["work"])
+            .flatMap((src: string) => attrData["source"][src].attribute["work"])
             .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i) // Dedupe
         }}
       );
       // Prep i18n data for filterlist
-      const entryi18n = parser.parseFilterlistI18n(entryId, entryData, attrData, filters);
+      const entryi18n: I18n = parser.parseFilterlistI18n(entryId, entryData, attrData, filters);
       Object.keys(entryi18n).forEach(attrType => {
         // Append merge each i18n attr entry for that attr into the attr's i18n collection
         i18n[attrType] = { ...i18n[attrType], ...entryi18n[attrType] };
@@ -158,7 +165,7 @@ export default class Bamboo {
       });
       // Build filterlist js
       const fl = {
-        filterlist: filterlist.map((entry: any) => ({
+        filterlist: filterlist.map((entry: List) => ({
           ...entry,
           name: entry.name[lang],
         })),

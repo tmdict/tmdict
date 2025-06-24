@@ -10,10 +10,10 @@ import {
   EntryData,
   I18n,
   List,
-  RawContent,
+  RawContentData,
   SearchData,
   Sitemap,
-  StaticEntryPaths
+  StaticEntryPaths,
 } from "./types.js";
 
 console.log("\nBuilding: tmdict");
@@ -21,7 +21,7 @@ console.log("\nBuilding: tmdict");
 // Load attributes and content
 const appConfig = loader.loadConfig();
 const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
-const contentData: RawContent = loader.loadContentData(appConfig.paths);
+const contentData: RawContentData = loader.loadContentData(appConfig.paths);
 
 // Init data
 const appData: AppData = {};

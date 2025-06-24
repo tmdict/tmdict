@@ -8,8 +8,10 @@ import {
   I18n,
   LayoutAttribute,
   List,
+  ParsedAttribute,
   PreparedAttribute,
   RawContent,
+  RawContentData,
 } from "./types.js";
 
 /** Converts custom content markup into HTML */
@@ -56,7 +58,7 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
  * Flattens a Attribute's `data {...}` into { type: ..., <key>: ..., en: <name>, ja: <name>, zh: <name> }
  * and append links to attributes that have their own page
  */
-function flattenAttributeData(attr: any): PreparedAttribute {
+function flattenAttributeData(attr: Attribute): PreparedAttribute {
   let attrName: { [key: string]: string } = {};
   try {
     // If attr type is `profile` or `glossary`, make it linkable
@@ -88,8 +90,8 @@ function flattenAttributeData(attr: any): PreparedAttribute {
  *  [dataAttr2]: { en:"", ja:"", zh:"" }
  * }
  */
-function parseAttribute(entryAttr: Attribute, attrData: AttributeData): object {
-  let parsedAttr: any = entryAttr.data;
+function parseAttribute(entryAttr: Attribute, attrData: AttributeData): ParsedAttribute {
+  let parsedAttr: ParsedAttribute = entryAttr.data;
 
   if (entryAttr.attribute) {
     for (const attribute of Object.keys(entryAttr.attribute)) {
@@ -125,7 +127,7 @@ function parseAttribute(entryAttr: Attribute, attrData: AttributeData): object {
  *   zh: [...],
  * }
  */
-function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
+function mapAttrToLayout(layout: string[][], parsedAttr: ParsedAttribute): LayoutAttribute {
   try {
     return Object.keys(parsedAttr.name).reduce((acc, lang) => {
       // Go through each attr section
@@ -135,7 +137,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
           // Populate content for each attr section
           const attrContent = Array.isArray(parsedAttr[key])
             ? // Attributes with array of values
-              (parsedAttr[key] as string[]).map((e: any) => e[lang])
+              (parsedAttr[key]).map((e: PreparedAttribute) => e[lang])
             : // Attribute with a single value
               [parsedAttr[key][lang]];
           return { ...a, ...{ [key]: attrContent } };
@@ -144,12 +146,12 @@ function mapAttrToLayout(layout: string[][], parsedAttr: any): LayoutAttribute {
       return { ...acc, ...{ [lang]: result } };
     }, {});
   } catch (err) {
-    console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${parsedAttr.name.en})]: ${err}`);
+    console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${(parsedAttr as any).name.en})]: ${err}`);
   }
 }
 
 /** Converts raw attribute JSON into app data */
-function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttribute): EntryMetadata {
+function parseMetadata(entryAttr: Attribute, parsedAttr: ParsedAttribute, layout: LayoutAttribute): EntryMetadata {
   return {
     id: entryAttr.id,
     type: entryAttr.type,
@@ -166,10 +168,10 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: any, layout: LayoutAttr
 }
 
 /** Converts raw content JSON into entry page data */
-function parseContent(id: string, contentData: any, attrData: AttributeData): EntryContent[] {
+function parseContent(id: string, contentData: RawContent[], attrData: AttributeData): EntryContent[] {
   const parsedContent: { [key: string]: EntryContent } = {};
   // Go through each content and group them by id and language
-  contentData.forEach((c: any) => {
+  contentData.forEach((c: RawContent) => {
     try {
       // Temp key to group contents of different language by source.id
       const sourceSectionKey = `${c.data.source}.${c.data.id}`;
@@ -242,11 +244,11 @@ function parseContent(id: string, contentData: any, attrData: AttributeData): En
 
 export default class Parser {
   /**  Generates site data given entry files, some content types may not have translations */
-  parseEntry = (entryId: string, entryType: string, attrData: AttributeData, contentData: RawContent): EntryData => {
+  parseEntry = (entryId: string, entryType: string, attrData: AttributeData, contentData: RawContentData): EntryData => {
     try {
       // Convert raw attribute data into attr object keyed by attr name
       const entryAttr: Attribute = attrData[entryType][entryId];
-      const parsedAttr: any = parseAttribute(entryAttr, attrData);
+      const parsedAttr: ParsedAttribute = parseAttribute(entryAttr, attrData);
       // Packing it all together into a layout if there is one
       const layout: LayoutAttribute = "layout" in entryAttr ? mapAttrToLayout(entryAttr.layout, parsedAttr) : {};
       // Convert attribute into site metadata

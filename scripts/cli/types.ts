@@ -16,7 +16,9 @@ export type AppConfig = {
     }
     i18n: {
       [key: string]: {
-        [key: string]: any
+        en: string
+        ja: string
+        zh: string
       }
     }
   }
@@ -57,6 +59,10 @@ export interface Attribute {
   layout?: string[][]
 }
 
+export interface ParsedAttribute {
+  [key: string]: PreparedAttribute[] | { [key: string]: string }
+}
+
 export interface PreparedAttribute {
   id: string
   type: string
@@ -82,24 +88,24 @@ export interface EntryMetadata {
 }
 
 export interface RawContent {
-  [key: string]: {
-    content: string
-    data: {
-      parent: string
-      id: string
-      language: string
-      weight: number
-      source?: string
-      translation?: string
-      img?: string
-      name?: string
-      profile?: boolean
-      category?: string[]
-    }
-    isEmpty: boolean
-    excerpt: string
-    html: string
-  }[]
+  html: string
+  data: {
+    parent: string
+    id: string
+    language: string
+    weight: number
+    source?: string
+    translation?: string
+    img?: string
+    name?: string
+    profile?: boolean
+    category?: string[]
+  }
+  [key: string]: any
+}
+
+export interface RawContentData {
+  [key: string]: RawContent[]
 }
 
 export interface EntryContent {
@@ -111,6 +117,7 @@ export interface EntryContent {
   profile: boolean
   category: string[]
   i18n: {
+    // en, ja, zh
     [key: string]: {
       name: {
         id: string
@@ -157,6 +164,7 @@ export interface ListContent {
 export interface List {
   id: string
   name: {
+    // en, ja, zh
     [key: string]: string
   }
   source: string[]
@@ -202,7 +210,7 @@ export interface AppData {
 export interface BookEntry extends EntryContent {
   name: {
     [key: string]: string;
-  };
+  }
 }
 
 export interface Book {
