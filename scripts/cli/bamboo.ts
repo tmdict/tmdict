@@ -99,7 +99,7 @@ export default class Bamboo {
           attribute: {
             id: entryData.attribute.id,
             name: entryData.attribute.attr.name[lang],
-            alphabet: { id: en, name: attrData.alphabet[en].data.name[lang]},
+            alphabet: { id: en, name: attrData.alphabet[en].data.name[lang] },
             hiragana: { id: ja, name: attrData.hiragana[ja].data.name[lang] },
             hiraganaRow: { id: jaRow, name: attrData["hiragana-row"][jaRow].data.name[lang] },
           },

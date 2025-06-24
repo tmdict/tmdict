@@ -2,21 +2,33 @@ import { bamboo } from "./bamboo.js";
 import { builder } from "./builder.js";
 import { loader } from "./loader.js";
 import { parser } from "./parser.js";
-import { AttributeData, EntryContent, EntryData } from "./types.js";
+import {
+  AppData,
+  AttributeData,
+  Book,
+  EntryContent,
+  EntryData,
+  I18n,
+  List,
+  RawContent,
+  SearchData,
+  Sitemap,
+  StaticEntryPaths
+} from "./types.js";
 
 console.log("\nBuilding: tmdict");
 
 // Load attributes and content
 const appConfig = loader.loadConfig();
 const attrData: AttributeData = loader.loadAttrData(appConfig.paths);
-const contentData: any = loader.loadContentData(appConfig.paths);
+const contentData: RawContent = loader.loadContentData(appConfig.paths);
 
 // Init data
-const appData: { [key: string]: any } = {};
-const bookData: { [key: string]: any } = {};
-const staticEntryPaths: { [key: string]: any } = {};
-const sitemap: { [key: string]: any }[] = [];
-const searchData: { [key: string]: any }[] = [];
+const appData: AppData = {};
+const bookData: { [key: string]: Book } = {};
+const staticEntryPaths: StaticEntryPaths = {};
+const sitemap: Sitemap[] = [];
+const searchData: SearchData[] = [];
 
 // Sitemap
 sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
@@ -46,7 +58,6 @@ const pageData = parser.parseEntry("page", "page", attrData, contentData).conten
       [page.id]: {
         id: page.id,
         i18n: page.i18n
-      
       }
     }}
   }, {});
@@ -124,12 +135,12 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       appConfig.content[contentType]
     );
     // Append Work attr to filterlist data object
-    const workAttr = entryAttrFilterlist["source"]
-      .map((src: string) => attrData["source"][src].attribute["work"])
+    const workAttr = entryAttrFilterlist.source
+      .flatMap((src: string) => attrData.source[src].attribute["work"])
       .filter((val: string, i: number, arr: string[]) => arr.indexOf(val) == i); // Dedupe
-    const entryFilterlist: { [key: string]: any } = { ...entryAttrFilterlist, ...{ work: workAttr } };
+    const entryFilterlist: List = { ...entryAttrFilterlist, ...{ work: workAttr } };
     // Prep i18n data for filterlist attributes
-    const entryAttrI18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
+    const entryAttrI18n: I18n = parser.parseFilterlistI18n(entryId, entryData, attrData, appConfig.content[contentType]);
     // Glossary-only
     if (contentType === "glossary") {
       // Add category to filterlist
@@ -217,7 +228,7 @@ Object.keys(bookData).forEach((id: string) => {
 });
 builder.toJsonExport("src/lib/__generated/data/book.json", Object.keys(bookData)
   .map((id) => bookData[id])
-  .sort((a: any, b: any) => {
+  .sort((a: Book, b: Book) => {
     return a.source.weight - b.source.weight;
   })
 );

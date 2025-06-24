@@ -81,6 +81,27 @@ export interface EntryMetadata {
   layout: LayoutAttribute
 }
 
+export interface RawContent {
+  [key: string]: {
+    content: string
+    data: {
+      parent: string
+      id: string
+      language: string
+      weight: number
+      source?: string
+      translation?: string
+      img?: string
+      name?: string
+      profile?: boolean
+      category?: string[]
+    }
+    isEmpty: boolean
+    excerpt: string
+    html: string
+  }[]
+}
+
 export interface EntryContent {
   parent: string
   source: string
@@ -125,11 +146,93 @@ export interface Filter {
   }
 }
 
+export interface ListContent {
+  [key: string]: {
+    id: string
+    source: string
+    html: string
+  }
+}
+
+export interface List {
+  id: string
+  name: {
+    [key: string]: string
+  }
+  source: string[]
+  work: string[]
+  uid: string
+  content?: ListContent[]
+  alphabet?: string[]
+  "hiragana-row"?: string[]
+  star?: string[]
+  class?: string[]
+  en?: string
+  ja?: string
+  jaRow?: string
+  category?: string[]
+}
+
+export interface I18n {
+  [key: string]: {
+    [key: string]: {
+      // en, ja, zh
+      [key: string]: string
+    }
+  }
+}
+
 export interface FilterList {
-  attribute: Filter
-  content: {
-    [key: string]: any
+  list: List[]
+  i18n: I18n
+}
+
+export interface AppData {
+  [key: string]: {
+    entries: {
+      [key: string]: {
+        data: EntryData
+        filepath: string
+      }
+    }
+    filterlist: FilterList
+  }
+}
+
+export interface BookEntry extends EntryContent {
+  name: {
+    [key: string]: string;
+  };
+}
+
+export interface Book {
+  glossary: Attribute
+  source: Attribute
+  entries: BookEntry[]
+}
+
+export interface BookData {
+  [key: string]: Book
+}
+
+export interface SearchData {
+ title: string
+ lang: string
+ url: string
+ type: string
+ text: string
+}
+
+export interface StaticEntryPaths {
+  [key: string]: {
+    lang: string;
+    glossary?: string;
+    profile?: string;
   }[]
-  i18n: any
-  env: string
+}
+
+export interface Sitemap {
+  changefreq: string;
+  priority: number;
+  url: string;
 }

@@ -5,8 +5,11 @@ import {
   EntryData,
   EntryMetadata,
   Filter,
+  I18n,
   LayoutAttribute,
+  List,
   PreparedAttribute,
+  RawContent,
 } from "./types.js";
 
 /** Converts custom content markup into HTML */
@@ -239,12 +242,7 @@ function parseContent(id: string, contentData: any, attrData: AttributeData): En
 
 export default class Parser {
   /**  Generates site data given entry files, some content types may not have translations */
-  parseEntry = (
-    entryId: string,
-    entryType: string,
-    attrData: AttributeData,
-    contentData: any = {}
-  ): EntryData => {
+  parseEntry = (entryId: string, entryType: string, attrData: AttributeData, contentData: RawContent): EntryData => {
     try {
       // Convert raw attribute data into attr object keyed by attr name
       const entryAttr: Attribute = attrData[entryType][entryId];
@@ -279,7 +277,7 @@ export default class Parser {
     entryData: EntryData,
     attrData: AttributeData,
     filterlist: Filter
-  ): { [key: string]: any } => {
+  ): List => {
     try {
       const entry: Attribute = attrData[filterlist.type][entryId];
       const attributes: any = {};
@@ -325,10 +323,10 @@ export default class Parser {
   };
 
   /** Generate an i18n map for all filterlist filters that appears for this entry, a map of attrType->attrName->i18n */
-  parseFilterlistI18n = (entryId: string, entryData: EntryData, attrData: AttributeData, filterlist: Filter): any => {
+  parseFilterlistI18n = (entryId: string, entryData: EntryData, attrData: AttributeData, filterlist: Filter): I18n => {
     try {
       const entry: Attribute = attrData[filterlist.type][entryId];
-      const i18n: { [key: string]: { [key: string]: { [key: string]: string } } } = {};
+      const i18n: I18n = {};
       for (const attr of filterlist.filter) {
         // Get array of filterable attributes
         if (entry.attribute && entry.attribute[attr]) {
