@@ -10,6 +10,7 @@ import {
   AppConfig,
   AttributeData,
   ContentData,
+  EntryContent,
   EntryData,
   Filter,
   I18nData,
@@ -92,7 +93,9 @@ export default class Bamboo {
         const hiragana = entryData.attribute.hiragana;
         const entryPath = `${lang}/${hiragana}.${entryData.attribute.id}`;
         // Get i18n content for each content[] for template
-        const entryContent = entryData.content.map((c) => c.i18n[lang]);
+        const entryContent = entryData.content.map((c: EntryContent) => { 
+          return { ...c.i18n[lang], ...{ img: c.img } };
+        });
         // Generate meta description
         const cleaned = entryContent[0].html.replace(/(?:<[^>]*>|\n)+/g, " ").substring(1, 160);
         const metaDescription = cleaned.substring(0, cleaned.lastIndexOf(" "));
