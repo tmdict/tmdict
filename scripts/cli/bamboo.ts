@@ -24,7 +24,7 @@ const filters: Filter = {
     "ja": "glossary",
     "zh": "glossary"
   },
-  "filter": ["en", "ja", "source"],
+  "filter": ["en", "ja", "source", "category"],
   "contentFilter": ["source", "category"]
 }
 
@@ -172,7 +172,7 @@ export default class Bamboo {
       // Build filterlist app
       const appjs = fs.readFileSync("scripts/legacy/js/app.js", "utf8");
       fs.outputFileSync("static/legacy/src/js/app.js", UglyJS.minify(appjs).code);
-      fs.copySync("scripts/legacy/js/mithril-2.2.15.min.js", "static/legacy/src/js/mithril-2.2.15.min.js", { overwrite: true });
+      fs.copySync("scripts/legacy/js/mithril-2.3.3.min.js", "static/legacy/src/js/mithril.min.js", { overwrite: true });
       // Build filterlist page
       toTemplate(templates["app.html"], `static/legacy/${lang}/index.html`, {
         i18n: appConfig.app.i18n,
