@@ -12,17 +12,6 @@
   let contentHeightOverflow = $derived((screenHeight - contentHeight) > 325);
   let topStyle = $derived(`${(screenTop > 300) ? 0 : (350 - screenTop)}px`);
   let leftStyle = $derived(`${0.5*screenWidth + 400 + (contentHeightOverflow ? 32 : 25)}px`);
-
-  function preventDefault(fn) {
-    return function (event) {
-      event.preventDefault();
-      fn.call(this, event);
-    };
-  }
-
-  function scrollTo(id) {
-    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-  }
 </script>
 
 <svelte:window bind:innerWidth={screenWidth} bind:innerHeight={screenHeight} bind:scrollY={screenTop} />
@@ -34,7 +23,7 @@
       {#each content as section}
         {#if section.i18n[lang]}
           <li class="sidebar-item">
-            <a onclick={preventDefault(scrollTo(`${section.id}`))} href={`#${section.id}`}>
+            <a href={`#${section.id}`}>
               <div class="status">{section.i18n[lang].name}</div>
             </a>
           </li>
