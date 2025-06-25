@@ -31,6 +31,29 @@ export interface AttributeData {
   };
 }
 
+export interface Content {
+  html: string;
+  data: {
+    parent: string;
+    id: string;
+    language: Lang;
+    weight: number;
+    source?: string;
+    translation?: string;
+    img?: string;
+    name?: string;
+    profile?: boolean;
+    category?: string[];
+  };
+  /** Loaded fields e.g. content, isEmpty, excerpt */
+  [key: string]: any;
+}
+
+export interface ContentData {
+  /** Content parent (attr id) */
+  [key: string]: Content[];
+}
+
 export interface DataAttr {
   /** En, Ja, Zh */
   [key: string]: string;
@@ -65,29 +88,6 @@ export interface EntryMetadata {
   ja?: string;
   hiragana?: string;
   page?: string;
-}
-
-export interface Content {
-  html: string;
-  data: {
-    parent: string;
-    id: string;
-    language: Lang;
-    weight: number;
-    source?: string;
-    translation?: string;
-    img?: string;
-    name?: string;
-    profile?: boolean;
-    category?: string[];
-  };
-  /** Loaded fields e.g. content, isEmpty, excerpt */
-  [key: string]: any;
-}
-
-export interface ContentData {
-  /** Content parent (attr id) */
-  [key: string]: Content[];
 }
 
 export interface EntryContent {
