@@ -20,7 +20,7 @@
       },
       "filter": [
         "en",
-        "hiragana-row",
+        "ja",
         "source"
       ],
       "contentFilter": [
@@ -166,7 +166,6 @@
       "gender": { "en": "Gender", "ja": "性别", "zh": "性别" },
       "height": { "en": "Height", "ja": "身長", "zh": "身高" },
       "height-weight": { "en": "Height/Weight", "ja": "身長・体重", "zh": "身高·体重" },
-      "hiragana-row": { "en": "Hiragana", "ja": "ひら", "zh": "ひら" },
       "illustrator": { "en": "Illustrator", "ja": "キャラクターデザイン", "zh": "绘师" },
       "img_na": { "en": "", "ja": "", "zh": "" },
       "img_s1": { "en": "Stage 1", "ja": "第一段階", "zh": "第一阶段" },
@@ -177,6 +176,7 @@
       "img_s4_old": { "en": "Stage 4 Old", "ja": "最終再臨（Old）", "zh": "第四阶段（Old）" },
       "img_april-fools": { "en": "April Fools", "ja": "エイプリルフール", "zh": "愚人节" },
       "img_april-fools-ortinax": { "en": "April Fools (Ortinax)", "ja": "エイプリルフール（オルテナウス）", "zh": "愚人节（奥特瑙斯）" },
+      "ja": { "en": "Hiragana", "ja": "ひら", "zh": "ひら" },
       "lifetime-complicated-matter": { "en": "Complicated Matter for Rest of Life", "ja": "一生苦手なもの", "zh": "一辈子棘手的东西" },
       "likes": { "en": "Likes", "ja": "好きなもの", "zh": "喜欢的东西" },
       "lostbelt-setting.character-setting": { "en": "Lostbelt Setting", "ja": "異聞帯用設定", "zh": "异闻帯设定" },

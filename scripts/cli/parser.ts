@@ -162,8 +162,7 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: ParsedAttribute, layout
     layout: layout,
     uid: entryAttr.uid ? entryAttr.uid : "-",
     // Conditionally add attr to metadata if they are available
-    ...(entryAttr.attribute.hiragana && { ja: entryAttr.attribute.hiragana as string }),
-    ...(entryAttr.attribute["hiragana-row"] && { jaRow: entryAttr.attribute["hiragana-row"] as string }),
+    ...(entryAttr.attribute.hiragana && { hiragana: entryAttr.attribute.hiragana as string }),
     ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }),
     ...(entryAttr.page && { page: entryAttr.page }),
   };
@@ -316,8 +315,7 @@ export default class Parser {
           id: entry.id,
           name: entry.data.name,
           uid: entry.uid ? entry.uid : "-",
-          ...(entry.attribute.hiragana && { ja: entry.attribute.hiragana as string }),
-          ...(entry.attribute["hiragana-row"] && { jaRow: entry.attribute["hiragana-row"] as string }),
+          ...(entry.attribute.hiragana && { hiragana: entry.attribute.hiragana as string }),
         }
       };
     } catch (err) {

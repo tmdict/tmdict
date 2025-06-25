@@ -60,7 +60,7 @@ export interface EntryMetadata {
   type: string;
   en?: string;
   ja?: string;
-  jaRow?: string;
+  hiragana?: string;
   uid: string;
   page?: string;
   attr: ParsedAttribute;
@@ -149,12 +149,11 @@ export interface List {
   work: string[];
   uid: string;
   content?: ListContent[];
-  "hiragana-row"?: string[];
   star?: string[];
   class?: string[];
   en?: string;
   ja?: string;
-  jaRow?: string;
+  hiragana?: string;
   category?: string[];
 }
 

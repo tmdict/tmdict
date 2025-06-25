@@ -6,7 +6,7 @@ let filterSrc = "";
 function getFilterlistEntry(data, nav, nl, ni, src) {
   const filteredContent = data.reduce((acc, entry) => {
     // Add to array if "all" or current id matches selected index
-    const nlId = nl === "en" ? "en" : "jaRow";
+    const nlId = nl === "en" ? "en" : "ja";
     if ((ni === "" || entry[nlId][0] === ni) && (src === "" || entry.source.includes(src))) {
       // Instantiate object for current index
       if (!(entry[nlId][0] in acc)) {
@@ -142,8 +142,8 @@ m.mount(document.getElementById("container"), {
               m("h3", section.name),
               m("ul", section.entries.map((entry, index) => {
                 return m("li", 
-                  m("a", {href: `${entry.ja}.${entry.id}.html`, title: entry.name}, 
-                    m("div.entry.filter-list-item.group", {class: (index === 0) ? " first" : ""}, 
+                  m("a", {href: `${entry.hiragana}.${entry.id}.html`, title: entry.name},
+                    m("div.entry.filter-list-item.group", {class: (index === 0) ? " first" : ""},
                       m("div.entry-title", entry.name),
                       m("div.entry-category", entry.category.length === 0 ? "-" : entry.category.map((category, i) => {
                         return ((i !== 0) ? " / " : "") + data.i18n.category[category][metadata.lang]

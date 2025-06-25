@@ -100,7 +100,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
     ["en", "ja", "zh"].forEach((lang: Lang) => {
       // Append to static paths
-      const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.ja}.${entryData.attribute.id}`;
+      const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.hiragana}.${entryData.attribute.id}`;
       staticEntryPaths[contentType].push({
         lang: lang,
         [contentType]: path

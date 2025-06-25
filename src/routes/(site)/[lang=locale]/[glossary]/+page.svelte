@@ -14,7 +14,7 @@
 <svelte:head>
   <title>{data.data.attribute.attr.name[data.lang]} | TMdict</title>
   <meta name="description" content={metaDescription} />
-  <link rel="canonical" href="https://www.tmdict.com/{data.lang}/{data.data.attribute.ja}.{data.data.attribute.id}" />
+  <link rel="canonical" href="https://www.tmdict.com/{data.lang}/{data.data.attribute.hiragana}.{data.data.attribute.id}" />
 </svelte:head>
 
 <Entry {...data} />

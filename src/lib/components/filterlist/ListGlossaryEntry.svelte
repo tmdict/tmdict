@@ -11,7 +11,7 @@
 
 <div class="entry-header" onclick={toggleDetails} onkeydown={toggleDetails} role="button" tabindex="0">
   <div class="name">
-    <a href="/{lang}/{entry.ja}.{entry.id}">
+    <a href="/{lang}/{entry.hiragana}.{entry.id}">
       {@html entry.name[lang]}
     </a>
   </div>
@@ -36,7 +36,7 @@
 </div>
 {#if showDetail}
   <div transition:slide={{ duration: 200 }} class="entry-content">
-    <a href="/{lang}/{entry.ja}.{entry.id}">
+    <a href="/{lang}/{entry.hiragana}.{entry.id}">
       {#each entry.content as content, j}
         <h2>{content[lang].id}</h2>
         <p>{@html content[lang].html}</p>

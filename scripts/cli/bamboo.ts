@@ -24,7 +24,7 @@ const filters: Filter = {
     "ja": "glossary",
     "zh": "glossary"
   },
-  "filter": ["en", "hiragana", "hiragana-row", "source", "category"],
+  "filter": ["en", "ja", "source"],
   "contentFilter": ["source", "category"]
 }
 
@@ -54,8 +54,8 @@ export default class Bamboo {
       en: Object.keys(attrData["en"])
         .map(id => ({ id: id, name: attrData["en"][id].data.name.en }))
         .sort((a, b) => a.name.localeCompare(b.name)),
-      ja: Object.keys(attrData["hiragana-row"])
-        .map(id => ({ id: id, name: attrData["hiragana-row"][id].data.name.ja }))
+      ja: Object.keys(attrData["ja"])
+        .map(id => ({ id: id, name: attrData["ja"][id].data.name.ja }))
         .sort((a, b) => a.name.localeCompare(b.name))
     };
     let filterlist: List[] = []; // Initial filterlist content array
@@ -89,10 +89,8 @@ export default class Bamboo {
       const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.book);
       // Generates HTML for Entries
       Object.keys(entryData.attribute.attr.name).forEach((lang: Lang) => {
-        const en = entryData.attribute.en;
-        const ja = entryData.attribute.ja;
-        const jaRow = entryData.attribute.jaRow;
-        const entryPath = `${lang}/${ja}.${entryData.attribute.id}`;
+        const hiragana = entryData.attribute.hiragana;
+        const entryPath = `${lang}/${hiragana}.${entryData.attribute.id}`;
         // Get i18n content for each content[] for template
         const entryContent = entryData.content.map((c) => c.i18n[lang]);
         // Generate meta description
@@ -100,25 +98,22 @@ export default class Bamboo {
         const metaDescription = cleaned.substring(0, cleaned.lastIndexOf(" "));
         toTemplate(templates["page.html"], `static/legacy/${entryPath}.html`, {
           isEntry: true,
-          id: `${ja}.${entryData.attribute.id}`,
+          id: `${hiragana}.${entryData.attribute.id}`,
           app: appConfig.app,
           lang: lang,
           nav: nav,
           metaDescription: metaDescription,
           attribute: {
-            id: entryData.attribute.id,
             name: entryData.attribute.attr.name[lang],
-            en:  entryData.attribute.attr.en,
-            hiragana: { id: ja, name: attrData.hiragana[ja].data.name[lang] },
-            hiraganaRow: { id: jaRow, name: attrData["hiragana-row"][jaRow].data.name[lang] },
+            ja: (entryData.attribute.attr.ja as any)[0],
           },
           content: entryContent,
           sidebar: {
-            fname: attrData["hiragana"][ja].data.name[lang],
+            fname: attrData["hiragana"][hiragana].data.name[lang],
             lname: "",
             content: sideData[lang],
           },
-          back: `/${lang}/${ja}.${entryData.attribute.id}`,
+          back: `/${lang}/${hiragana}.${entryData.attribute.id}`,
         });
       });
       // Add parsed data to filterlist data and i18n collection

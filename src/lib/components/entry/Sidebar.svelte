@@ -43,7 +43,7 @@
     {/if}
     <li class="sidebar-item"><a href="/contact/#{lang}.{attribute.id}">{APP.i18n.report[lang]}</a></li>
     {#if attribute.type === "glossary"}
-      <li class="sidebar-item"><a href="/legacy/{lang}/{attribute.ja}.{attribute.id}.html">{APP.i18n.legacy[lang]}</a></li>
+      <li class="sidebar-item"><a href="/legacy/{lang}/{attribute.hiragana}.{attribute.id}.html">{APP.i18n.legacy[lang]}</a></li>
     {/if}
     <li class="sidebar-item"><a href="/{lang}/{attribute.type}">BACK</a></li>
   </ul>
