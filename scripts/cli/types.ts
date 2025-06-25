@@ -31,12 +31,12 @@ export interface AttributeData {
   };
 }
 
-export interface DataAttribute {
+export interface DataAttr {
   /** En, Ja, Zh */
   [key: string]: string;
 }
 
-export interface CommonAttribute extends DataAttribute {
+export interface CommonAttr extends DataAttr {
   id: string;
   type: string;
 }
@@ -44,7 +44,7 @@ export interface CommonAttribute extends DataAttribute {
 export interface ParsedAttribute {
   name: I18n;
   /** Attr name */
-  [key: string]: CommonAttribute[] | DataAttribute;
+  [key: string]: CommonAttr[] | DataAttr;
 }
 
 export interface LayoutAttribute {
@@ -121,7 +121,6 @@ export interface EntryContent {
 }
 
 export interface EntryData {
-  entryType: string;
   attribute: EntryMetadata;
   content: EntryContent[];
 }

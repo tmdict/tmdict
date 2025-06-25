@@ -1,10 +1,10 @@
 import {
   Attribute,
   AttributeData,
-  CommonAttribute,
+  CommonAttr,
   Content,
   ContentData,
-  DataAttribute,
+  DataAttr,
   EntryContent,
   EntryData,
   EntryMetadata,
@@ -60,8 +60,8 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
  * Flattens an Attribute's `data {...}` into { type: ..., <key>: ..., en: <name>, ja: <name>, zh: <name> }
  * and append links to attributes that have their own page
  */
-function flattenAttributeData(attr: Attribute): CommonAttribute {
-  let attrName: DataAttribute = {};
+function flattenAttributeData(attr: Attribute): CommonAttr {
+  let attrName: DataAttr = {};
   try {
     // If attr type is `profile` or `glossary`, make it linkable
     if (["profile", "glossary"].includes(attr.type)) {
@@ -140,7 +140,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: ParsedAttribute): Layou
           // Populate content for each attr section
           const attrContent = Array.isArray(parsedAttr[key])
             ? // Attributes with array of values
-              (parsedAttr[key]).map((e: CommonAttribute) => e[lang])
+              (parsedAttr[key]).map((commonAttr: CommonAttr) => commonAttr[lang])
             : // Attribute with a single value
               [parsedAttr[key][lang]];
           return { ...a, ...{ [key]: attrContent } };
@@ -266,7 +266,6 @@ export default class Parser {
             })
           : [];
       return {
-        entryType: entryType, // Type of entry
         attribute: metadata, // Attributes are converted to site metadata
         content: content, // Content translations are converted to site content
       };
@@ -390,7 +389,6 @@ export default class Parser {
       sourceFilter.includes(entryContent.source)
     );
     return {
-      entryType: entryData.entryType,
       attribute: entryData.attribute,
       content: filteredContent,
     };
