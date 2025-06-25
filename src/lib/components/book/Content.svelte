@@ -1,7 +1,7 @@
 <script>
+  import EditIcon from "$lib/components/svg/Edit.svelte"
   import APP from "$lib/__generated/constants.json";
   import { bookstore } from "$lib/util/stores.svelte.js"
-  import gitIcon from "$lib/img/edit.svg"
 
   let { entry } = $props();
   let contentLang = $derived(bookstore.lang);
@@ -33,7 +33,7 @@
 
   <div class="entry-lang group">
     <a href={`https://github.com/tmdict/tmdict/blob/main/data/content/${entry.source}/${entry.parent}.${contentLang}.md`}>
-      <img title="git" src={gitIcon} alt="git" />
+      <EditIcon />
     </a>{" ・ "}
     {#each Object.keys(APP.lang) as lang, i}
       {#if i !== 0}{" ・ "}{/if}

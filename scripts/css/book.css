@@ -208,8 +208,9 @@ a:hover {
   color: #c93b0e;
 }
 
-.entry-lang img {
+.entry-lang svg {
   width: 20px;
+  height: 20px;
   vertical-align: bottom;
 }
 
