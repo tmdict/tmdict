@@ -142,6 +142,10 @@
       width: 180px;
     }
 
+    .content td a {
+      text-decoration: none;
+    }
+
     .content td .source {
       color: var(--primary-link-highlight);
     }

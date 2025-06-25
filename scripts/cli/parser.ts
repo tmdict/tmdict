@@ -158,13 +158,14 @@ function parseMetadata(entryAttr: Attribute, parsedAttr: ParsedAttribute, layout
   return {
     id: entryAttr.id,
     type: entryAttr.type,
-    attr: parsedAttr,
-    layout: layout,
     uid: entryAttr.uid ? entryAttr.uid : "-",
+    name: parsedAttr.name,
+    layout: layout,
     // Conditionally add attr to metadata if they are available
-    ...(entryAttr.attribute.hiragana && { hiragana: entryAttr.attribute.hiragana as string }),
-    ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }),
-    ...(entryAttr.page && { page: entryAttr.page }),
+    ...(entryAttr.attribute.ja && { ja: entryAttr.attribute.ja as string }), // Legacy nav highlight
+    ...(entryAttr.attribute.hiragana && { hiragana: entryAttr.attribute.hiragana as string }), // Legacy sidebar heading
+    ...(entryAttr.releaseDate && { releaseDate: entryAttr.releaseDate }), // Book
+    ...(entryAttr.page && { page: entryAttr.page }), // Book
   };
 }
 

@@ -15,7 +15,7 @@
 {/if}
 
 <div class="content">
-  <h1 id="{data.attribute.id}">{data.attribute.attr.name[lang]}</h1>
+  <h1 id="{data.attribute.id}">{data.attribute.name[lang]}</h1>
 </div>
 
 {#if data.attribute.type === "profile" && data.attribute.layout[Object.keys(data.attribute.layout)[0]].length > 0}

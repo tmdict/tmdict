@@ -58,13 +58,13 @@ export interface LayoutAttribute {
 export interface EntryMetadata {
   id: string;
   type: string;
+  uid: string;
+  name: I18n;
+  layout: LayoutAttribute;
   en?: string;
   ja?: string;
   hiragana?: string;
-  uid: string;
   page?: string;
-  attr: ParsedAttribute;
-  layout: LayoutAttribute;
 }
 
 export interface Content {

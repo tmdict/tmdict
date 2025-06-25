@@ -5,7 +5,7 @@
   let { data } = $props();
 
   const metaDescription = (() => {
-    let attrContent = data.data.attribute.attr.name[data.lang];
+    let attrContent = data.data.attribute.name[data.lang];
     if (data.data.attribute.layout[data.lang].length > 0) {
       // If has attr data
       const layoutAttr = [
@@ -29,7 +29,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.data.attribute.attr.name[data.lang]} | TMdict</title>
+  <title>{data.data.attribute.name[data.lang]} | TMdict</title>
   <meta name="description" content={metaDescription} />
   <link rel="canonical" href="https://www.tmdict.com/{data.lang}/profile/{data.data.attribute.id}" />
 </svelte:head>

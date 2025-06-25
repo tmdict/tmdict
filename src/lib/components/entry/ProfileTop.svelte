@@ -22,7 +22,7 @@
   <picture>
     <source srcset={getImage(data.attribute.uid, "avif")} type="image/avif" />
     <img src={getImage(data.attribute.uid, "jpg")} 
-      title={data.attribute.attr.name[lang]}
+      title={data.attribute.name[lang]}
       alt={data.attribute.uid}
     />
   </picture>

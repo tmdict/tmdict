@@ -20,7 +20,7 @@
           <div class="nav-title"><a href="../{{lang}}/">TM<span class="tm">dict</span></a></div>
           <div class="nav-index">
             {{~#each nav.ja~}}
-              <span class="{{#unless @index}}first{{/unless}}"><a class="{{#if (equals this.id ../attribute.ja.id)}}active{{/if}}" href="../{{../lang}}/index.html?nl=ja&ni={{this.id}}" title="{{this.name}}">{{this.name}}</a></span>
+              <span class="{{#unless @index}}first{{/unless}}"><a class="{{#if (equals this.id ../attribute.ja)}}active{{/if}}" href="../{{../lang}}/index.html?nl=ja&ni={{this.id}}" title="{{this.name}}">{{this.name}}</a></span>
             {{~/each~}}
             <span><a href="../{{lang}}/index.html?nl=ja" title="全">全</a></span>
           <br />

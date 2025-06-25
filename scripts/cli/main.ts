@@ -116,7 +116,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
         .map((c: EntryContent) => (c.i18n[lang] ? c.i18n[lang].html : ''))
         .join(' ');
       searchData.push({
-        title: entryData.attribute.attr.name[lang],
+        title: entryData.attribute.name[lang],
         url: `https://www.tmdict.com/${lang}/${(contentType === "profile") ? "profile/" : ""}${path}`,
         lang: lang,
         type: contentType,
