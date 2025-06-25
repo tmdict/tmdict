@@ -149,18 +149,13 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
         return [...new Set([...acc, ...item.category])];
       }, []);
-      // If glossary, include entry content for filter list
-      entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => {
-        return ["en", "ja", "zh"].reduce((acc, lang: Lang) => {
-          return { ...acc, ...{
-            [lang]: {
-              id: entry.i18n[lang] ? attrData["content-id"][entry.id].data.name[lang] : "", // Get content-id name
-              source: entry.i18n[lang] ? attrData["source"][entry.source].data.name[lang] : "", // Get source name
-              html: entry.i18n[lang] ? parser.parseSearchMarkup(entry.i18n[lang].html) : "",
-            },
-          }};
-        }, {});
-      });
+      // If glossary, include entry content for filterlist
+      entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => ({
+        cid: entry.id, // Get content-id name,
+        en: parser.parseSearchMarkup(entry.i18n.en?.html ?? ""),
+        ja: parser.parseSearchMarkup(entry.i18n.ja?.html ?? ""),
+        zh: parser.parseSearchMarkup(entry.i18n.zh?.html ?? ""),
+      }));
     }
     // Merge parsed entry filterlist data and i18n data into accumulator
     appData[contentType].filterlist.list.push(entryFilterlist);
@@ -202,10 +197,12 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     appData[contentType].filterlist.i18n["work"][work] = attrData["work"][work].data.name;
   });
   if (contentType === "glossary") {
-    // Append category i18n data
-    appData[contentType].filterlist.i18n["category"] = {};
-    Object.keys(attrData["category"]).forEach((category) => {
-      appData[contentType].filterlist.i18n["category"][category] = attrData["category"][category].data.name;
+    // Append category and content-id i18n data
+    ["category", "content-id"].forEach((attrType) => {
+      appData[contentType].filterlist.i18n[attrType] = {};
+      Object.entries(attrData[attrType]).forEach(([attrId, attrValue]) => {
+        appData[contentType].filterlist.i18n[attrType][attrId] = attrValue.data.name;
+      });
     });
   }
 

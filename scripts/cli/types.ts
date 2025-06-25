@@ -123,12 +123,10 @@ export interface Filter {
 }
 
 export interface ListContent {
-  /** En, Ja, Zh */
-  [key: string]: {
-    id: string;
-    source: string;
-    html: string;
-  };
+  cid: string;
+  en?: string;
+  ja?: string;
+  zh?: string;
 }
 
 export interface List {

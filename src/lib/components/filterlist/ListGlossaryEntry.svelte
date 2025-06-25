@@ -27,19 +27,17 @@
     ]
   </div>
   <div class="work">
-    [
     {#each entry.work as work, i}
       {#if i > 0}{", "}{/if}{i18n["work"][work][lang]}
     {/each}
-    ]
   </div>
 </div>
 {#if showDetail}
   <div transition:slide={{ duration: 200 }} class="entry-content">
     <a href="/{lang}/{entry.hiragana}.{entry.id}">
       {#each entry.content as content, j}
-        <h2>{content[lang].id}</h2>
-        <p>{@html content[lang].html}</p>
+        <h2>{i18n["content-id"][content.cid][lang]}</h2>
+        <p>{@html content[lang]}</p>
       {/each}
     </a>
   </div>
