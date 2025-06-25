@@ -19,7 +19,7 @@
         "zh": "用语辞典"
       },
       "filter": [
-        "alphabet",
+        "en",
         "hiragana-row",
         "source"
       ],
@@ -154,12 +154,12 @@
       "agility.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "agility1.parameter": { "en": "Agility", "ja": "敏捷", "zh": "敏捷" },
       "alignment": { "en": "Alignment", "ja": "属性", "zh": "属性" },
-      "alphabet": { "en": "EN", "ja": "EN", "zh": "EN" },
       "category": { "en": "Category", "ja": "カテゴリー", "zh": "类别" },
       "character-setting": { "en": "Character Setting", "ja": "設定作成", "zh": "设定" },
       "character-voice": { "en": "Character Voice", "ja": "CV", "zh": "CV" },
       "class": { "en": "Class", "ja": "职阶", "zh": "职阶" },
       "dislikes": { "en": "Dislikes", "ja": "嫌いなもの", "zh": "讨厌的东西" },
+      "en": { "en": "EN", "ja": "EN", "zh": "EN" },
       "endurance.parameter": { "en": "Endurance", "ja": "耐久", "zh": "耐久" },
       "endurance1.parameter": { "en": "Endurance", "ja": "耐久", "zh": "耐久" },
       "expand": { "en": "Expand", "ja": "広がる", "zh": "展开" },

@@ -7,12 +7,12 @@ function getFilterlistEntry(data, nav, nl, ni, src) {
   const filteredContent = data.reduce((acc, entry) => {
     // Add to array if "all" or current id matches selected index
     const nlId = nl === "en" ? "en" : "jaRow";
-    if ((ni === "" || entry[nlId] === ni) && (src === "" || entry.source.includes(src))) {
+    if ((ni === "" || entry[nlId][0] === ni) && (src === "" || entry.source.includes(src))) {
       // Instantiate object for current index
-      if (!(entry[nlId] in acc)) {
-        acc[entry[nlId]] = [];
+      if (!(entry[nlId][0] in acc)) {
+        acc[entry[nlId][0]] = [];
       }
-      acc[entry[nlId]].push(entry);
+      acc[entry[nlId][0]].push(entry);
     }
     return acc;
   }, {});

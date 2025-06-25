@@ -8,7 +8,7 @@
 
   const sorted = filterValues.sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang]))
 
-  if (["alphabet", "star"].includes(filterKey)) {
+  if (["en", "star"].includes(filterKey)) {
     showFilter = true;
   }
 

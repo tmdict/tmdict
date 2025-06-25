@@ -24,7 +24,7 @@ const filters: Filter = {
     "ja": "glossary",
     "zh": "glossary"
   },
-  "filter": ["alphabet", "hiragana", "hiragana-row", "source", "category"],
+  "filter": ["en", "hiragana", "hiragana-row", "source", "category"],
   "contentFilter": ["source", "category"]
 }
 
@@ -51,8 +51,8 @@ export default class Bamboo {
     const templates = loader.loadTemplate("scripts/legacy/template");
     // Top navbar data
     const nav = { 
-      en: Object.keys(attrData["alphabet"])
-      .map(id => ({ id: id, name: attrData["alphabet"][id].data.name.en }))
+      en: Object.keys(attrData["en"])
+        .map(id => ({ id: id, name: attrData["en"][id].data.name.en }))
         .sort((a, b) => a.name.localeCompare(b.name)),
       ja: Object.keys(attrData["hiragana-row"])
         .map(id => ({ id: id, name: attrData["hiragana-row"][id].data.name.ja }))
@@ -108,7 +108,7 @@ export default class Bamboo {
           attribute: {
             id: entryData.attribute.id,
             name: entryData.attribute.attr.name[lang],
-            alphabet: { id: en, name: attrData.alphabet[en].data.name[lang] },
+            en:  entryData.attribute.attr.en,
             hiragana: { id: ja, name: attrData.hiragana[ja].data.name[lang] },
             hiraganaRow: { id: jaRow, name: attrData["hiragana-row"][jaRow].data.name[lang] },
           },

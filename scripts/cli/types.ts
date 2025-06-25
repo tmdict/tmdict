@@ -149,7 +149,6 @@ export interface List {
   work: string[];
   uid: string;
   content?: ListContent[];
-  alphabet?: string[];
   "hiragana-row"?: string[];
   star?: string[];
   class?: string[];
