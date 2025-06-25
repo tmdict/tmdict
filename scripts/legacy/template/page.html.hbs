@@ -53,7 +53,7 @@
                 {{#if this.category}}
                 <div class="entry-category">
                   {{~#each this.category~}}
-                    {{#if @index}} · {{/if}}{{this.name}}
+                    {{#if @index}} · {{/if}}{{this}}
                   {{~/each~}}
                 </div>
                 {{/if}}
@@ -61,9 +61,9 @@
                   {{{this.html}}}
                 </div>
                 {{#if this.img}}
-                  <div class="entry-image"><img title="{{this.source.name}}" src="../src/img/{{this.img}}" alt="{{this.img}}" /></div>
+                  <div class="entry-image"><img title="{{this.source}}" src="../src/img/{{this.img}}" alt="{{this.img}}" /></div>
                 {{/if}}
-                <div class="entry-source">{{this.source.name}}: {{this.name.name}}</div>
+                <div class="entry-source">{{this.source}}: {{this.name}}</div>
               </div>
             {{/each}}
           {{else}}

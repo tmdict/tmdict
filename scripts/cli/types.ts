@@ -101,19 +101,9 @@ export interface EntryContent {
   i18n: {
     /** En, Ja, Zh */
     [key: string]: {
-      name: {
-        id: string;
-        name: string;
-      };
-      source: {
-        id: string;
-        name: string;
-      };
-      category: {
-        id: string;
-        name: string;
-      }[];
-      img: string;
+      name: string;
+      source: string;
+      category: string[];
       translation: string;
       html: string;
     };

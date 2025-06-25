@@ -35,7 +35,7 @@
         {#if section.i18n[lang]}
           <li class="sidebar-item">
             <a onclick={preventDefault(scrollTo(`${section.id}`))} href={`#${section.id}`}>
-              <div class="status">{section.i18n[lang].name.name}</div>
+              <div class="status">{section.i18n[lang].name}</div>
             </a>
           </li>
         {/if}

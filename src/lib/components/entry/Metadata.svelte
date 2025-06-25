@@ -13,14 +13,14 @@
 <div class="metadata">
   {#if data.i18n && data.i18n[contentLang] && data.i18n[contentLang].source}
     <div class="source">
-      {APP.i18n.source[contentLang]}: {data.i18n[contentLang].source.name} · {data.i18n[contentLang].name.name}
+      {APP.i18n.source[contentLang]}: {data.i18n[contentLang].source} · {data.i18n[contentLang].name}
     </div>
   {/if}
   {#if data.i18n && data.i18n[contentLang] && data.i18n[contentLang].category.length > 0}
     <div class="category">
       {APP.i18n.category[contentLang]}: 
       {#each data.i18n[contentLang].category as cat, i}
-      {#if i > 0},{/if} {cat.name}
+        {#if i > 0},{/if} {cat}
       {/each}
     </div>
   {/if}

@@ -149,12 +149,12 @@ export default class Bamboo {
           nav: nav,
           attribute: {
             id: page.id,
-            name: page.i18n[lang].name.name,
+            name: page.i18n[lang].name,
           },
           content: page.i18n[lang].html,
           sidebar: {
-            fname: page.i18n.en.name.name[0],
-            lname: page.i18n.en.name.name.substring(1),
+            fname: page.i18n.en.name[0],
+            lname: page.i18n.en.name.substring(1),
             content: sideData[lang],
           },
           back: `/${lang}/${page.id}`,

@@ -199,10 +199,7 @@ function parseContent(id: string, contentData: Content[], attrData: AttributeDat
       const categoryi18n =
         "category" in c.data
           ? c.data.category.map((cat: string) => {
-              return {
-                id: cat,
-                name: attrData["category"][cat]["data"]["name"][c.data.language],
-              };
+              return attrData["category"][cat]["data"]["name"][c.data.language];
             })
           : [];
       // Instantiate content data if there is no content under current source.id key
@@ -220,17 +217,8 @@ function parseContent(id: string, contentData: Content[], attrData: AttributeDat
       }
       // Add new content under its language
       parsedContent[sourceSectionKey].i18n[c.data.language] = {
-        name: {
-          // Optional
-          id: c.data.id,
-          name: name,
-        },
-        source: {
-          // Optional
-          id: sourceId,
-          name: sourceLang,
-        },
-        img: img, // Optional
+        name: name,
+        source: sourceLang,
         translation: translation, // Optional
         category: categoryi18n, // Optional
         html: parsedHtml,

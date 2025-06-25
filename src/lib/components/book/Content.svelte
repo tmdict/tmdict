@@ -44,7 +44,7 @@
   <div class="entry-main group">
     {#if entry.i18n[contentLang].category.length > 0}
       <div class="entry-category">
-        {entry.i18n[contentLang].category.map(c => c.name).join("/")}
+        {entry.i18n[contentLang].category.join("/")}
       </div>
     {/if}
     <div class="entry-content">{@html entry.i18n[contentLang].html}</div>

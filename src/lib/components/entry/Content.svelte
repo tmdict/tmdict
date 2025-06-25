@@ -21,8 +21,8 @@
 
 {#if data.i18n[contentLang]}
   <div id="{data.id}" class="content">
-    {#if data.i18n[contentLang].name.name && entryType !== "glossary"}
-      <h2>{data.i18n[contentLang].name.name} <a href="#{data.id}">#</a></h2>
+    {#if data.i18n[contentLang].name && entryType !== "glossary"}
+      <h2>{data.i18n[contentLang].name} <a href="#{data.id}">#</a></h2>
     {/if}
 
     <Metadata
@@ -40,7 +40,7 @@
         <picture>
           <source srcset={getImage(data.img, "avif")} type="image/avif" />
           <img src={getImage(data.img, "jpg")} 
-            title={data.i18n[contentLang].name.name}
+            title={data.i18n[contentLang].name}
             alt={data.img}
             style:border="1px dashed #777"
           />
