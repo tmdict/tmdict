@@ -1,8 +1,15 @@
 <script>
+  import { page } from "$app/state";
+  import { onMount } from 'svelte';
   import APP from "$lib/__generated/constants.json";
   import { bookstore } from "$lib/util/stores.svelte.js"
 
   let { book } = $props();
+
+  onMount(() => {
+    const hash = page.url.hash.substring(1);
+    document.getElementById(hash).scrollIntoView();
+  });
 
   function updateActiveLang(lang) {
     bookstore.lang = "";

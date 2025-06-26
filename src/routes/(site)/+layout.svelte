@@ -57,6 +57,8 @@
     @media only screen and (max-width: 660px) {
       .content {
         line-height: 1.8rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
       }
     }
 
@@ -142,10 +144,6 @@
       width: 180px;
     }
 
-    .content td a {
-      text-decoration: none;
-    }
-
     .content td .source {
       color: var(--primary-link-highlight);
     }
@@ -161,8 +159,9 @@
     }
 
     @media only screen and (max-width: 660px) {
-      .content td:nth-child(1) {
-        width: 140px;
+      .content td:nth-child(1),
+      .content td.title:nth-child(1) {
+        width: 135px;
       }
     }
   }

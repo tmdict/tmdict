@@ -27,14 +27,16 @@
   <div class="entry-header group">
     <div class="entry-title">{entry.name[contentLang]}</div>
     <div class="permalink">
-      <a href={`#${entry.source}.${entry.parent}`} title={entry.name[contentLang]}>#</a>
+      <a href={`#${entry.source}.${entry.parent}`} id="{entry.source}.{entry.parent}">#</a>
     </div>
   </div>
 
   <div class="entry-lang group">
-    <a href={`https://github.com/tmdict/tmdict/blob/main/data/content/${entry.source}/${entry.parent}.${contentLang}.md`}>
-      <EditIcon />
-    </a>{" ・ "}
+    <span class="edit">
+      <a href={`https://github.com/tmdict/tmdict/blob/main/data/content/${entry.source}/${entry.parent}.${contentLang}.md`}>
+        <EditIcon />
+      </a>{" ・ "}
+    </span>
     {#each Object.keys(APP.lang) as lang, i}
       {#if i !== 0}{" ・ "}{/if}
       <a class:active={contentLang === lang} onclick={preventDefault(() => updateContentLang(lang))} href="#{entry.source}.{entry.parent}">{APP.lang[lang].name}</a>
