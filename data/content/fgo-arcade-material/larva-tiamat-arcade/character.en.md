@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -36,4 +36,7 @@ Tiamat created an Alter Ego with the setting of “resetting herself and being r
 
 ### Dialogue Examples
 
-{{missing}}
+Typically speaks in halting, broken phrases.
+She is arrogant when in her young girl form, but flips to a weak tone when an adult.
+“I am Tiamat. Your Servant, ya’ jackass.” (Girl) 
+“I, Tiamat…… am your Servant…… mhn” (Adult)

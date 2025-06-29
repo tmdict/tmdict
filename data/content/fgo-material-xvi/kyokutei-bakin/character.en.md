@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -28,7 +28,34 @@ Like a samurai serving their lord he tries to understand Masters’ intentions a
 
 ### Dialogue Examples
 
-{{missing}}
+#### Bakin
+
+“Pleased to make your acquaintance! If you know me, it’s for Hakkenden! If you don’t know me, it’s for Hakkenden!”{{n1}}
+“That’s him, he is the one!” “Floating butterflies of Shenxian magic!”
+“Back off! You dimwit!” “As a bird shoots a bird, so does a bird shoot a sparrow!”
+“Indolent bandits, my dogs are enough for you! Take that!”
+“Dou Dai Gensou Kobukenoshinoshinobuea!!”
+“Benevolence, justice, courtesy, wisdom, sincerity, loyalty, faith, and filial piety. Eight pearls gathered in the sky. The clouds part, the winds blow, you will now know the full extent of man! The moonlight that breaks through the darkness and illuminates the road! Nanso! Satomi, Hakkenden!”
+“Did you call me father?” “Tetsuzo is an…… octopus, what!?” “What, Tetsuzou!!”
+“Writing cheap novellas was everything to me! There was nothing else I could do to satisfy myself. Writing came hand-in-hand with despair! I could do nothing but scribble fictitious tales to entertain the masses. There was nothing else!”
+“That’s right……. those were our days of tricks and riddles, me and you.”
+
+#### Michi
+
+“To the Inari-san in Yokomachi on the other side of the street, won’t you give me a penny~♪.”{{n2}}
+“Take a break, fancy a dango? Fufu.”
+“Now, dogs, it’s time for you to do your duty…… Hey, those are Master’s shoes. Put them back.”
+“Month Y, Day X: Sunny. Master came. We chatted awhile. Played with the dogs. For a snack we had millet cake, cold sugar water, egg souffle, etc. It was a good snack.”
+“……Yes, he was a good man. Izo-sama.”
+
+#### Fusehime
+
+“Let the fresh air flow through us and fear not death……! Follow my lead!”
+“Demons cannot best virtue!” “How did you foresee that?” “A worthy foe!”
+“My blade will wet you like a storm!” “White is the color of the Minamoto family.” “Yatsufusa, you did well.”
+“What if I were to call you ‘Chiba’ from time to time?” Hm …… a peanut. A pear monster. Nezumi-land? What is this? It’s a drink like mud in a can……?”{{n3}}
+“If any of you face a challenge, it is my duty as a goddess to help you.”
+“Godspeed.”
 
 ### Historical Image · Character Image
 
@@ -139,8 +166,11 @@ Ah…, they’re great aren’t they? All the pretty boys. Pretty boys with a th
 
 Famous swords from around the whole world gathered in one place…… Yes, what fine swords….
 
-It would most definitely cause a disturbance but I absolutely want to have a battle here… I’ve been secretly hoping that the lord here would organize a swordsmanship tournament. (Fusehime){{n1}}
+It would most definitely cause a disturbance but I absolutely want to have a battle here… I’ve been secretly hoping that the lord here would organize a swordsmanship tournament. (Fusehime){{n4}}
 
 ##### {{notes}}
 
-1. {{note1}} Okay so this one is a bit weird. In the JP what Fusehime says she’s been secretly hoping for is a 御前試合 or a match attended by a Lord. After some researching I found out that a 御前試合 can either be a contest a Lord organizes or a contest that a Lord is invited to. Given the way the sentence is I decided to translate it as her hoping Guda would organize a contest.
+1. {{note1}} Kyokutei Bakin is the author of the epic Nansō Satomi Hakkenden.
+2. {{note2}} These are lyrics from an old Warabe Uta, a style of Japanese children’s song.
+3. {{note3}} This is talking about Chiba Prefecture, which is home to many peanut farms, Tokyo Disneyland, and Funassyi. Nezumi-land (Mouse-land) is a reference to Disneyland.
+4. {{note4}} Okay so this one is a bit weird. In the JP what Fusehime says she’s been secretly hoping for is a 御前試合 or a match attended by a Lord. After some researching I found out that a 御前試合 can either be a contest a Lord organizes or a contest that a Lord is invited to. Given the way the sentence is I decided to translate it as her hoping Guda would organize a contest.

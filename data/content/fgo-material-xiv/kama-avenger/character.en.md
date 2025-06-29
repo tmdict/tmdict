@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -27,7 +27,16 @@ Her basic stance hasn’t changed and she still isn’t conscious of wanting to 
 
 ### Dialogue Examples
 
-{{missing}}
+(First Ascension) 
+"What? I’m not excited at all.”
+“Master, did you really want to eat shaved ice with me that badly? I guess it can’t be helped. Here you go, say ahh.”
+
+(Second Ascension) 
+“Makara Beauty, on the way……”
+“Master, it’s time for some tanning oil. Come on, lie down here…… What, the other way around? I thought people usually try to have it applied to themselves…… Hm, if you think about it, this is certainly more effective. Indeed……? (blush)”
+
+(Third Ascension) 
+“Oh my. I feel like this look on me reminds me of when the Mara side of me comes out. As the demon king of summer, I will help you make memories with all my might. Even if it is a selfish desire, such as how a pirate wants for treasure. I will love you from the bottom of my heart……?”
 
 ### Character Image in “FateGO”
 

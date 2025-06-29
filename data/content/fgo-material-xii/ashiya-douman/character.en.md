@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "ComunCoutinho"
+translation: "ComunCoutinho, RHuot"
 ---
 
 <table>
@@ -61,7 +61,14 @@ The Divine Spirits and evil spirit are listed as follows:
 2. The evil god Chernobog from Slav mythology
 3. The grudgeful spirit Demonic Minister of the Left from Heian Japan.
 
-{{missing}}
+After fusing with these three, he gained the mighty power of a High Servant and took the name “Caster Limbo” working for the Alien God…… Or so it seemed……?
+
+<>
+
+The Alter Ego Ashiya Douman, summoned to Chaldea, acts as a disciple of the Alien God and pretends to have no recollection of the fact that he often antagonized Chaldea. He declares that he has “no idea” why he was summoned as an Alter Ego with various powers that would have been impossible for him to have wielded in life. Of course, this is false.
+
+The Alter Ego Limbo summoned to Chaldea is unmistakably hostile to Chaldea and encompasses the record of Ashiya Douman who strived to make his darkness cover the world.
+Was it an accidental coincidence arising from Chaldea’s interactions with him, or was it derived from pan-human history that questions not the source of power as long as power can be gained, or did the Alter Ego Ashiya Douman wish it to be so? (The effect of a Heroic Spirit wishing for such a thing is entirely unverified. What effect might it have on summoning or on the present world?).
 
 ### In Seven Duels of the Heroic Spirit Swordmasters
 

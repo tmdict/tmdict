@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -30,7 +30,15 @@ Her desire for the Holy Grail is ’revenge against the French royal family’ a
 
 ### Dialogue Examples
 
-{{missing}}
+“I just say it how it is. I’m Jacques de Molay, the last Grand Master of the Knights Templar! After having this and that heresy put on me and being burned at the stake, anyone might turn a bit droll, eh? And after it was all over I get the ‘oops you were innocent’ treatment.”
+“Kukuー♪” “I’ll curse you to death!” “Me-ru-me-ru-merci☆”
+“Well, well, well, shall we go scream curses in the middle of Paris?”
+“Jacques de Molay, the Saber with a ‘Lawful Good’ alignment? I don’t like it. There is no such a thing. If there were, I’d be happy to let you bury me under the Île de la Cité!”
+“Chaldea and Shiva…… I am so happy to be able to protect the ‘cathedral’ left by Solomon with my own hands……. It is truly a great honor. This is my last joy as a Knight Templar……. I’ll never…… lose it.”
+“We demand a cathedral of curses! Pay the price for the depraved flames of corruption!”
+Wealthy and poor alike, beg for your life, and let the Tour du Temple be stained with a mist of your blood!”
+“Hail hail…..! We crave for flesh and soul. We love darkness over light, we shall enter our mother’s womb and be reborn……”
+“In the name of the Mother, the Son, and the Fall, this night is the Witches’ Sabbath…… illuminate the mirror ball of the moon!”
 
 ### Historical Image · Character Image
 

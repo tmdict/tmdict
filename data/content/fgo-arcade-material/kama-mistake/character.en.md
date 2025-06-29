@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -41,7 +41,10 @@ However, because their intimacy level increased so easily, Kama started blushing
 
 ### Dialogue Examples
 
-{{missing}}
+“Are you asking about compatibility with that person? Seems fine, not that I would know.”
+“You’re special, Master. Do you have someone you like? Just ask me and I’ll arrange everything for you. Even if you don’t do anything, I will help you fall into the happiness of passionate desire and…… lustful depravity.”
+“Let the god of love draw you in. Give in to the sweet and dangerous fervor beating in the depths of your heart. Kama Sammohana! Fufu, let me corrupt you…”
+“I am the God of Love. Love is the greatest! I am the God of love. Love is the greatest! …… Phew, that finishes up today’s practice. It can’t be helped, but having to do this every day hurts my brain……”
 
 ### Character Image in “FGOAC”
 

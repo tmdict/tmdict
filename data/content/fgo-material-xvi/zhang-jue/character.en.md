@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -47,7 +47,11 @@ All this being said even if the cloth were to be wrapped around Master due to a 
 
 ### Dialogue Examples
 
-{{missing}}
+“Ho, ho, ho. I am The Great Teacher, Zhang Jue! Worry not. Now that I am here, I will surely bring the world great fortune!”
+(After eating) “Master, when do we eat? Ho, ho, ho. A joke, of course.”
+“The Azure Sky is already dead; the Yellow Sky will soon rise. When the year is jiǎzǐ, there will be prosperity under heaven!”
+“Lu Bu (Chen Gong, Kong Ming, etc…… )? No idea who. What backwater place is he from?”
+At the time of the Yellow Turban Rebellion, most of the generals were not yet well known, so they were treated as young men.
 
 ### Historical Image · Character Image
 

@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -24,7 +24,14 @@ His wishes for the Holy Grail are the “Reclamation of the Holy Land” and the
 
 ### Dialogue Examples
 
-{{missing}}
+“Saber. Jacques de Molay at your call. Aha…… Please call me Molay, a pleasure to make your acquaintance……”
+“Order! (control thyself)” “Time to pay up!” “A necessary business expense.”
+“How much? What is the value you place on your life.” “Well, Master is the one who always throws off my assessment.”
+“The shield of my cross is the shield of faith. My oath unbreakable! A solid foundation that can never be cracked…… well, uhhh…… maybe we need to consider the possibility I waver.”
+“There is no such thing as gold heavier than life. Life itself is an unlimited wealth. The oath of our Templar knights is the light that protects the pilgrims———. ……That’s great and all but can I get back what I lent you?”
+“Defeated as a knight, broken as a friar, and disgraced as Grand Master, I have done nothing. I was reduced to ashes without accomplishing anything, and I will make up for it here and now!”
+“Pèlerinage du Temple! (Such a Long Pilgrimage)”
+“Sheep…… are cute, aren’t they? That creature is really a sheep, 100% an unadulterated sheep. Ah…… what a miracle.”
 
 ### Historical Image · Character Image
 

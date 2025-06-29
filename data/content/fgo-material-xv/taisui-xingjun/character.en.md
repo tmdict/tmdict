@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 #### As a Child
@@ -53,7 +53,11 @@ He is aware that he is not the kind of person who should be in the public eye. H
 
 ### Dialogue Examples
 
-{{missing}}
+“Han-nama!{{n1}}”
+“Woe to those who disturb my sleep……”
+“I like anything that’s fun! I also like to sleep. Under the ground it’s nice and quiet, but right now…… have you heard about sunbathing! I didn’t know it was that warm and cozy to laze around under the sun.”
+“Eating instead of being eaten, that’s something new.”
+“Something I like……? I’m not sure…… But being with everyone here is…… fun……”
 
 ### Historical Image · Character Image
 
@@ -116,3 +120,7 @@ She seems familiar, but maybe not. They became good friends as they’re similar
 #### Mysterious Alter-Ego Λ
 
 I loved being hugged by LamLam.
+
+##### {{notes}}
+
+1. {{note1}}  This is a made up word that is a rough portmanteau of the Japanese katakana spelling of  Hello + Konichiwa + Namaste used as a greeting phrase in the “Spring 2022 Sea Monster Crisis Event”.

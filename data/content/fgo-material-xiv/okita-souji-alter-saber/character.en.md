@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 #### Okita Alter
@@ -60,7 +60,28 @@ For the time being Rengoku recognizes them as the Master of their Wielder, howev
 
 ### Dialogue Examples
 
-{{missing}}
+・First and Second Spirit Origin
+Okita: “Look at the art for my former self (Okita Souji). Don’t you think that thing on the back of my swimsuit is cool, Rengoku?”
+Rengoku: “No, not at all.”
+Okita: “The sword is shining too, looks sick, as expected of my former self. Rengoku, you should work hard to shine brighter.”
+Rengoku: “I’ll do my best.”
+Rengoku: “I get so sleepy at night, it’s not good. I can’t help but feel unbearably sleepy. This is no different from how you are, jeez.”
+Okita: “Rengoku is growing up, so you have to sleep a lot.”
+Rengoku: “That’s not what I mean.”
+Okita: “If I had to say something I like, I’d say I like humans. Yes, and of course I like Master. Somehow I can clearly feel this.”
+Rengoku: “…… I see.”
+Okita: “Oops, I cut up something risky again…”
+Rengoku: “Yes, you overdid it.”
+Okita: “I’ll show you the combination of Okita-chans.”
+Rengoku: “What are Okita-chans?”
+
+・Third Spirit Origin
+Okita: “———Rengoku, get ready to fight!”
+Rengoku: “Of course. I swear on my name, I’ll open the path.”
+Okita: “Did you level up too, Rengoku?”
+Rengoku: “Despite appearances, I am the type of sword that can level up.”
+Rengoku: “As long as I can move, nothing will block my wielder’s path. Now is the time, let us go beyond the sky.”
+Okita: “Absolute Unbound Epiphany!”
 
 ### General Armaments
 

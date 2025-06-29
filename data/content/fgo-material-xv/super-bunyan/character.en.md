@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 <table>
@@ -26,7 +26,9 @@ As a boss herself she thinks she should provide proper guidance to Master on the
 
 ### Dialogue Examples
 
-{{missing}}
+“Enchanté! Servant, Alter Ego, Paul Bunyan. At last, my long awaited arrival. At …… last, at last, I’ve appeared as an Extra Class. This is great! Leave the rest to me! …… Huh? My body feels…… small……? Why? Why am I a girl? This is messed up!?”
+“Everybody do your best!”
+“Master, you are my employer, you have to properly focus on me!”
 
 ### Character Image in “FateGO”
 

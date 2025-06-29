@@ -5,7 +5,7 @@ id: character
 language: en
 weight: 4
 profile: true
-translation: "IreyimikaTheLost"
+translation: "IreyimikaTheLost, RHuot"
 ---
 
 #### Don Quixote
@@ -38,7 +38,11 @@ In his First and Second Ascensions he comes off as a confident knight, but when 
 
 ### Dialogue Examples
 
-{{missing}}
+“Oh, my name is Don Quixote de la Mancha! I am a knight errant traveling the world seeking the love of a princess! Behold my magnificent figure in all its glory!” (Don Quixote) 
+“Come, come, Rocinante! My charge is fast as a flash!” (Don Quixote) 
+“You can do it! Go, go, go! Sir knight~” (Sancho) 
+“What more do you want from a shabby old man like me? You have nothing left to want” (Don Quixote) 
+“Sir knight, that is not true. What they want is your courage above all else.” (Sancho) 
 
 ### Historical Image · Character Image
 
