@@ -37,8 +37,8 @@
           {#if data.attribute.uid.split(":")[1] === "fgosvt"} 
             <tr><td class="title">ID</td><td>{data.attribute.uid.split(":")[0]}</td></tr>
           {/if}
-          {#each data.attribute.layout[contentLang] as section, i}
-            {#each Object.keys(section) as attr, j}
+          {#each data.attribute.layout[contentLang] as section, i (i)}
+            {#each Object.keys(section) as attr, j (attr)}
               <tr class:break={i !== 0 && j === 0}>
                 <td class="title">{APP.i18n[attr][contentLang]}</td>
                 {#if ["origin", "region"].includes(attr)}

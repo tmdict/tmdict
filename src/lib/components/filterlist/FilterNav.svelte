@@ -34,7 +34,7 @@
     </h6>
     {#if showFilter}
     <div class="content-row" transition:slide>
-      {#each filterValues as item}
+      {#each filterValues as item (item)}
         <div class="filter-item" class:active={item === filterlist.get(filterKey).quick || filterlist.get(filterKey).common.includes(item)}>
           <div class="quick"
             class:active={item === filterlist.get(filterKey).quick}

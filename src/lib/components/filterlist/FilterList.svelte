@@ -87,7 +87,7 @@
   </div>
   {#if store.showfilter}
     <div transition:slide>
-      {#each Object.keys(filterValues) as filterKey}
+      {#each Object.keys(filterValues) as filterKey (filterKey)}
         <FilterNav {lang} {filterKey} filterValues={filterValues[filterKey]} i18n={data.content.i18n} />
       {/each}
     </div>

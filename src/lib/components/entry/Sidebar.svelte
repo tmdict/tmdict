@@ -20,7 +20,7 @@
   <ul>
     {#if content.length > 0}
       <li class="sidebar-item"><a href="#{attribute.id}">TOP</a></li>
-      {#each content as section}
+      {#each content as section (section.id)}
         {#if section.i18n[lang]}
           <li class="sidebar-item">
             <a href={`#${section.id}`}>

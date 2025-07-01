@@ -10,7 +10,7 @@
 
   <div class="wrapper">
     <div id="main">
-      {#each book.entries as entry}
+      {#each book.entries as entry (entry.parent)}
         <Content {entry} />
       {/each}
     </div>

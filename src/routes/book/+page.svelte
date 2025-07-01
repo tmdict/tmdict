@@ -60,7 +60,7 @@
       </div>
       <div class="separator"></div>
       <ul>
-        {#each BOOK_DATA as book}
+        {#each BOOK_DATA as book (book.source.id)}
           <li>
             <a href={`#${book.source.id}`} id={`${book.source.id}`} title={book.glossary.data.name[bookstore.lang]}>
               <div class="info" class:new={book.source.releaseDate.split("-")[0] === NEW}>

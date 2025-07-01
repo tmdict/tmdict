@@ -18,7 +18,7 @@
   <div class="category">
     [
       {#if entry.category.length > 0}
-        {#each entry.category as category, i}
+        {#each entry.category as category, i (category)}
           {#if i > 0}{" / "}{/if}{i18n["category"][category][lang]}
         {/each}
       {:else}
@@ -27,7 +27,7 @@
     ]
   </div>
   <div class="work">
-    {#each entry.work as work, i}
+    {#each entry.work as work, i (work)}
       {#if i > 0}{", "}{/if}{i18n["work"][work][lang]}
     {/each}
   </div>
@@ -35,7 +35,7 @@
 {#if showDetail}
   <div transition:slide={{ duration: 200 }} class="entry-content">
     <a href="/{lang}/{entry.hiragana}.{entry.id}">
-      {#each entry.content as content, j}
+      {#each entry.content as content, j (content.cid)}
         <h2>{i18n["content-id"][content.cid][lang]}</h2>
         <p>{@html content[lang]}</p>
       {/each}

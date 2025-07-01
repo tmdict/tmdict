@@ -22,6 +22,6 @@
   <ProfileTop {lang} {data} />
 {/if}
 
-{#each data.content as section}
+{#each data.content as section (section.id)}
   <Content {lang} data={section} entryType={data.attribute.type} entryId={data.attribute.id} />
 {/each}

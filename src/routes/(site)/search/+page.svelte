@@ -117,7 +117,7 @@
   </div>
 
   <div class="content">
-    {#each paginatedResults as result}
+    {#each paginatedResults as result (result.title)}
       <div class="result">
         <a href={result.url}>
           <div class="title">{@html result.title}</div>
