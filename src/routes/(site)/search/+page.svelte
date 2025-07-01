@@ -117,14 +117,14 @@
   </div>
 
   <div class="content">
-    {#each paginatedResults as result (result.title)}
+    {#each paginatedResults as result (result.url)}
       <div class="result">
         <a href={result.url}>
           <div class="title">{@html result.title}</div>
           <div class="info">
             {APP.i18n[result.type][result.lang]}
               · {APP.lang[result.lang].name}
-            <span class="url"> · {result.url}</span>
+            <span class="url"> · https://www.tmdict.com{result.url}</span>
           </div>
           <div class="text">{@html result.text}</div>
         </a>
