@@ -30,7 +30,11 @@
   if (params.q !== null && params.q.length > 0 && params.q.length >= minChar) {
     const results = fuse.search(params.q.replace("+", " "));
     if (results.length > 0) {
-      searchResults = structuredClone(highlight(results, true));
+      searchResults = highlight(results, true).map(result => ({
+        ...result,
+        // Trim text if only title is highlighted
+        text: result.text.length > 500 ? result.text.substring(0, 500) + "..." : result.text
+      }));
     }
   }
 
@@ -124,7 +128,7 @@
           <div class="info">
             {APP.i18n[result.type][result.lang]}
               · {APP.lang[result.lang].name}
-            <span class="url"> · https://www.tmdict.com{result.url}</span>
+            <span class="url"> · www.tmdict.com{result.url}</span>
           </div>
           <div class="text">{@html result.text}</div>
         </a>
