@@ -46,7 +46,7 @@
 </div>
 
 <div class="content">
-  <h2>{PAGES.collaborate.i18n[data.lang].name.name}</h2>
+  <h2>{PAGES.collaborate.i18n[data.lang].name}</h2>
   <div>{@html PAGES.collaborate.i18n[data.lang].html}</div>
 </div>
 
