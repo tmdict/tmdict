@@ -6,8 +6,9 @@
   import PAGES from "$lib/__generated/pages.json";
   import profileBanner from "$lib/img/banner_profile.png?enhanced";
   import glossaryBanner from "$lib/img/banner_glossary.png?enhanced";
-  import tsukikan from "$lib/img/tsukikan.png?enhanced";
-  import mhy from "$lib/img/mhy.png?enhanced";
+  import afkj from "$lib/img/banner_afkj.png?enhanced";
+  import mhy from "$lib/img/banner_mhy.png?enhanced";
+  import tsukikan from "$lib/img/banner_tsukikan.png?enhanced";
 
   let { data } = $props();
 
@@ -50,12 +51,15 @@
   <div>{@html PAGES.collaborate.i18n[data.lang].html}</div>
 </div>
 
-  <a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
-    <enhanced:img class="center img" src={tsukikan} title="Tsuki-kan" alt="Tsuki-kan" />
-  </a>
-  <a class="project" href="https://mhy.tmdict.com/" aria-label="mHY一图流">
-    <enhanced:img class="center img" src={mhy} title="mHY一图流" alt="mHY一图流" />
-  </a>
+<a class="project" href="https://stargazer.tmdict.com/" aria-label="Stargazer">
+  <enhanced:img class="center img" src={afkj} title="Stargazer" alt="Stargazer" />
+</a>
+<a class="project" href="https://mhy.tmdict.com/" aria-label="mHY一图流">
+  <enhanced:img class="center img" src={mhy} title="mHY一图流" alt="mHY一图流" />
+</a>
+<a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
+  <enhanced:img class="center img" src={tsukikan} title="Tsuki-kan" alt="Tsuki-kan" />
+</a>
 
 <style>
   .center {
