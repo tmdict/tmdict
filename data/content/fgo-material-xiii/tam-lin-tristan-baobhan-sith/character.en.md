@@ -40,7 +40,7 @@ A beguiling, elegant, and wicked form, fitting of Queen Morgan’s successor. He
 Ascension 3: Beloved Baobhan Sith
 …The Baobhan Sith summoned at Chaldea is a ‘dream’ she is watching, with the records of the Fairy Kingdom as its foundation. It is the form she would have taken after having lost the divine protection of Morgan’s magecraft, driven solely by her hatred towards the fae, one in which she’s lost even her sense of self. The sacrificial priestess who became the main cause of the curse calamity. No matter what spells or love she possesses, she will never recover. …However. If there were to be an awakening from the ‘inside’, not a treatment from the ‘outside’. If she were to acquire the strength to take in and overcome the curse, instead of spreading death in fear of it, then perhaps…
 
-### Fighting Style
+### Combat Style
 
 Just like a vampire, she attacks by extending her claws (akin to red lines, they’re like a red version of Tristan’s aerial attack). Being a young witch, she also uses magecraft. She is an expert in the Gandr shot, and is the Gandr firing idol of the fairy world. Her Failnaught Noble Phantasm is also essentially a ‘Suuuuper Gandr’.
 
