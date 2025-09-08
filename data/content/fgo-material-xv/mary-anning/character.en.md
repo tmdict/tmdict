@@ -31,7 +31,7 @@ Anning thinks that her Master should be grateful to her because she is helping t
 
 ### Historical Image · Character Image
 
-An aloof fossil collector who no one in the paleontology world does not know of. Anning was born into and raised by a poor family living in the seaside town of Lyme Regis. She excavated fossils together with her family from when she was a child and had chosen to sell them to supplement her family finances, but she gathered attention when she found an ichthyosaurus fossil at the tender age of 13.{{n2}} Afterwards, she dug out more various valuable fossils and personally sold them to scholars and aristocrats. She spent most of her life excavating fossils in her hometown.
+An aloof fossil collector who no one in the paleontology world does not know of. Anning was born into and raised by a poor family living in the seaside town of Lyme Regis. She excavated fossils together with her family from when she was a child and had chosen to sell them to supplement her family finances, but she gathered attention when she found an ichthyosaurus fossil at the tender age of 13.{{n1}} Afterwards, she dug out more various valuable fossils and personally sold them to scholars and aristocrats. She spent most of her life excavating fossils in her hometown.
 
 ### Character Image in “FateGO”
 
