@@ -1,0 +1,53 @@
+{
+  "type": "profile",
+  "uid": "fgosvt:353",
+
+  "attribute": {
+    "class": "pretender",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["legend-of-king-arthur", "other"],
+    "region": ["western-european-countries"],
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "e",
+    "agility.parameter": "c",
+    "magic.parameter": "app",
+    "luck.parameter": "a",
+    "noble-phantasm.parameter": "a",
+    "character-setting": ["sakurai-hikaru", "nasu-kinoko"],
+    "illustrator": "taiki",
+    "character-voice": "kawasumi-ayako",
+    "major-appearances": ["fate-grand-order-arcade", "fate-grand-order"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Lady Avalon",
+      "ja": "レディ・アヴァロン",
+      "zh": "阿瓦隆女士"
+    },
+    "true-name": {
+      "en": "???",
+      "ja": "???",
+      "zh": "???"
+    },
+    "height": {
+      "en": "156cm",
+      "ja": "156cm",
+      "zh": "156cm"
+    },
+    "weight": {
+      "en": "20kg",
+      "ja": "20kg",
+      "zh": "20kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

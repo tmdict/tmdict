@@ -1,0 +1,17 @@
+{
+  "type": "source",
+  "releaseDate": "2025-05-02",
+  "weight": 20250502,
+
+  "attribute": {
+    "work": "fate-go"
+  },
+
+  "data": {
+    "name": {
+      "en": "FGO material XVII",
+      "ja": "FGO material XVII",
+      "zh": "FGO material XVII"
+    }
+  }
+}

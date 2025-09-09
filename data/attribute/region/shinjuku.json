@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Shinjuku",
+      "ja": "新宿",
+      "zh": "新宿"
+    }
+  }
+}

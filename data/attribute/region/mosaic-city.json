@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Mosaic City",
+      "ja": "モザイク市",
+      "zh": "马赛克市"
+    }
+  }
+}

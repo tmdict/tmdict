@@ -1,0 +1,55 @@
+{
+  "type": "profile",
+  "uid": "fgosvt:357",
+
+  "attribute": {
+    "class": "ruler",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["norse-mythology", "celtic-mythology", "other"],
+    "region": "europe",
+    "alignment": "chaotic-good",
+    "strength.parameter": "e",
+    "endurance.parameter": "c",
+    "agility.parameter": "d",
+    "magic.parameter": "ex",
+    "luck.parameter": "ap",
+    "noble-phantasm.parameter": "a",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "koyama-hirokazu",
+    "character-voice": "noto-mamiko",
+    "major-appearances": "fate-grand-order",
+    "related.profile": ["scathach", "scathach-assassin", "scathach-skadi"]
+  },
+
+  "data": {
+    "name": {
+      "en": "Scáthach-Skadi (Ruler)",
+      "ja": "スカサハ＝スカディ（ルーラー）",
+      "zh": "斯卡哈·斯卡蒂（Ruler）"
+    },
+    "true-name": {
+      "en": "Scáthach-Skadi",
+      "ja": "スカサハ＝スカディ",
+      "zh": "斯卡哈·斯卡蒂"
+    },
+    "height": {
+      "en": "162cm",
+      "ja": "162cm",
+      "zh": "162cm"
+    },
+    "weight": {
+      "en": "50kg",
+      "ja": "50kg",
+      "zh": "50kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

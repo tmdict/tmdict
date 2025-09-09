@@ -24,6 +24,11 @@ name: "サイト"
 
 ## ニュース
 
+**2025-09-08**
+
+- Added missing character profiles: Merlin (Prototype), Mysterious Ranmaru X, Mary Anning.
+- Added FGO Material 17 character profiles.
+
 ### 2025-08-15
 
 We’ve recently launched a small app for the game AFK Journey: [stargazer.tmdict.com](https://stargazer.tmdict.com/). Stargazer is an AFKJ arena simulator and planning tool. It lets you experiment with different hero positions and team compositions on a hexagonal grid, and simulates various in-game mechanics like pathfinding and hero skills, just like the game’s battle arena!

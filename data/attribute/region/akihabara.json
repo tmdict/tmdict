@@ -1,0 +1,11 @@
+{
+  "type": "region",
+
+  "data": {
+    "name": {
+      "en": "Akihabara",
+      "ja": "秋葉原",
+      "zh": "秋叶原"
+    }
+  }
+}

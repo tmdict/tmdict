@@ -6,6 +6,11 @@ weight: 1
 name: "网站更新"
 ---
 
+### 2025-09-08
+
+- 添加人物简介: 梅林（Prototype）, 谜之兰丸X, 玛丽·安宁.
+- 添加FGO Material 17人物简介。
+
 ### 2025-08-15
 
 我们最近推出了一个剑与远征：启程的小APP：[stargazer.tmdict.com](https://stargazer.tmdict.com/)。Stargazer 是一个剑与远征：启程（AFK Journey）竞技场模拟器和规划工具。它让玩家可以在竞技场地图上尝试不同的英雄位置和队伍组合，并模拟各种游戏的机制，比如寻路算法和英雄技能，跟游戏的战斗竞技场一模一样！

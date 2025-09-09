@@ -1,0 +1,55 @@
+{
+  "type": "profile",
+  "uid": "fgosvt:354",
+
+  "attribute": {
+    "class": "saber",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["legend-of-king-arthur", "other"],
+    "region": ["united-kingdom"],
+    "alignment": "lawful-summer",
+    "strength.parameter": "cp",
+    "endurance.parameter": "cp",
+    "agility.parameter": "a",
+    "magic.parameter": "d",
+    "luck.parameter": "d",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "nekotawawa",
+    "character-voice": "kuwahara-yuuki",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "gareth"
+  },
+
+  "data": {
+    "name": {
+      "en": "Gareth (Saber)",
+      "ja": "ガレス（セイバー）",
+      "zh": "加雷斯（Saber）"
+    },
+    "true-name": {
+      "en": "Gareth",
+      "ja": "ガレス",
+      "zh": "加雷斯"
+    },
+    "height": {
+      "en": "153cm",
+      "ja": "153cm",
+      "zh": "153cm"
+    },
+    "weight": {
+      "en": "41kg",
+      "ja": "41kg",
+      "zh": "41kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}

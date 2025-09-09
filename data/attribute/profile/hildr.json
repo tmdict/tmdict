@@ -1,0 +1,53 @@
+{
+  "type": "profile",
+  "uid": "fgosvt:360",
+
+  "attribute": {
+    "class": "assassin",
+    "star": "star_4",
+    "gender": "female",
+    "origin": ["norse-mythology", "other"],
+    "region": "europe",
+    "alignment": "lawful-summer",
+    "strength.parameter": "d",
+    "endurance.parameter": "c",
+    "agility.parameter": "a",
+    "magic.parameter": "ap",
+    "luck.parameter": "b",
+    "noble-phantasm.parameter": "b",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "takeuchi-takashi",
+    "character-voice": "komatsu-mikako",
+    "major-appearances": "fate-grand-order"
+  },
+
+  "data": {
+    "name": {
+      "en": "Hildr",
+      "ja": "ヒルド",
+      "zh": "希露德"
+    },
+    "true-name": {
+      "en": "Valkyrie Hildr / Valkyrie Rún (as a simple Spiritron Dress for Hildr)",
+      "ja": "ワルキューレ・ヒルド／ワルキューレ・エルン（ヒルドの簡易霊衣として）",
+      "zh": "女武神·希露德／女武神·奥露恩（作为希露德的简易灵衣）"
+    },
+    "height": {
+      "en": "159cm",
+      "ja": "159cm",
+      "zh": "159cm"
+    },
+    "weight": {
+      "en": "46kg",
+      "ja": "46kg",
+      "zh": "46kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+  ]
+}

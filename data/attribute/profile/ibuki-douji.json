@@ -18,7 +18,8 @@
     "character-setting": "sakurai-hikaru",
     "illustrator": "honjou-raita",
     "character-voice": "yuuki-aoi",
-    "major-appearances": "fate-grand-order"
+    "major-appearances": "fate-grand-order",
+    "related.profile": "ibuki-douji-berserker"
   },
 
   "data": {
@@ -48,6 +49,7 @@
     ["star", "class"],
     ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
     ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
-    ["character-setting", "illustrator", "character-voice", "major-appearances"]
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
   ]
 }

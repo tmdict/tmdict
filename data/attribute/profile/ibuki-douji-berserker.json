@@ -1,0 +1,55 @@
+{
+  "type": "profile",
+  "uid": "fgosvt:355",
+
+  "attribute": {
+    "class": "berserker",
+    "star": "star_5",
+    "gender": "female",
+    "origin": ["shuten-douji-emaki", "otogizoushi", "etc"],
+    "region": "japan",
+    "alignment": "chaotic-summer",
+    "strength.parameter": "bp",
+    "endurance.parameter": "b",
+    "agility.parameter": "c",
+    "magic.parameter": "ex",
+    "luck.parameter": "c",
+    "noble-phantasm.parameter": "bp",
+    "character-setting": "sakurai-hikaru",
+    "illustrator": "honjou-raita",
+    "character-voice": "yuuki-aoi",
+    "major-appearances": "fate-grand-order",
+    "related.profile": "ibuki-douji"
+  },
+
+  "data": {
+    "name": {
+      "en": "Ibuki-Douji (Saber)",
+      "ja": "伊吹童子（バーサーカー）",
+      "zh": "伊吹童子（Berserker）"
+    },
+    "true-name": {
+      "en": "Ibuki-Douji",
+      "ja": "伊吹童子",
+      "zh": "伊吹童子"
+    },
+    "height": {
+      "en": "180cm / 300cm (during combat)",
+      "ja": "180cm／ 300cm （戦闘時）",
+      "zh": "180cm／ 300cm （战斗时）"
+    },
+    "weight": {
+      "en": "??kg",
+      "ja": "??kg",
+      "zh": "??kg"
+    }
+  },
+
+  "layout": [
+    ["star", "class"],
+    ["true-name", "gender", "origin", "region", "alignment", "height", "weight"],
+    ["strength.parameter", "endurance.parameter", "agility.parameter", "magic.parameter", "luck.parameter", "noble-phantasm.parameter"],
+    ["character-setting", "illustrator", "character-voice", "major-appearances"],
+    ["related.profile"]
+  ]
+}
