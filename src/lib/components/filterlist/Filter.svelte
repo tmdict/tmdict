@@ -149,11 +149,18 @@
   }
 
   @media only screen and (max-width: 840px) {
-    .filter { width: 120px; }
-    .item { font-size: 0.75rem; }
+    .filter {
+      width: 120px;
+    }
+
+    .item {
+      font-size: 0.75rem;
+    }
   }
 
   @media only screen and (max-width: 660px) {
-    .filter { display: none; }
+    .filter {
+      display: none;
+    }
   }
 </style>

@@ -32,7 +32,7 @@
   }
 
   @media only screen and (max-width: 660px) {
-      #footer {
+    #footer {
       grid-column: 1 / 2;
       grid-row: row-2 / row-end;
     }

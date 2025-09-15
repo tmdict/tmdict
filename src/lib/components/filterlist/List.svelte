@@ -143,12 +143,22 @@
   }
 
   @media only screen and (max-width: 840px) {
-    .list { width: 540px; }
-    .list.expanded { width: 100%; }
+    .list {
+      width: 540px;
+    }
+
+    .list.expanded {
+      width: 100%;
+    }
   }
 
   @media only screen and (max-width: 660px) {
-    .list { width: 100%; }
-    .list .header .expand-filter { display: none; }
+    .list {
+      width: 100%;
+    }
+
+    .list .header .expand-filter {
+      display: none;
+    }
   }
 </style>

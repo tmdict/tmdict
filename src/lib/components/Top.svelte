@@ -213,9 +213,17 @@
       grid-row: row-start / row-1;
     }
 
-    #header a { font-size: 0.9rem; }
-    #header #language a { font-size: 0.8rem; }
-    #name a { font-size: 2rem; }
+    #header a {
+      font-size: 0.9rem;
+    }
+
+    #header #language a {
+      font-size: 0.8rem;
+    }
+
+    #name a {
+      font-size: 2rem;
+    }
   }
 
   .search {

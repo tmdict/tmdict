@@ -69,6 +69,8 @@
       width: calc(80% - 100px);
     }
 
-    .work { display: none; }
+    .work {
+      display: none;
+    }
   }
 </style>

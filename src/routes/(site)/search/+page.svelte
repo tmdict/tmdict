@@ -172,7 +172,9 @@
   }
 
   @media only screen and (max-width: 660px) {
-    .filters .count { display: none; }
+    .filters .count {
+      display: none;
+    }
   }
 
   .filters .filter.active {

@@ -28,4 +28,10 @@
   h1 {
     margin-bottom: 40px;
   }
+
+  @media only screen and (max-width: 660px) {
+    h1 {
+      margin-bottom: 30px;
+    }
+  }
 </style>
