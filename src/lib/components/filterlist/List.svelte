@@ -1,5 +1,4 @@
 <script>
-  import { slide } from "svelte/transition";
   import ListGlossaryEntry from "$lib/components/filterlist/ListGlossaryEntry.svelte";
   import ListProfileEntry from "$lib/components/filterlist/ListProfileEntry.svelte";
   import SortHeader from "$lib/components/filterlist/SortHeader.svelte";
@@ -46,7 +45,7 @@
   </style>
 </svelte:head>
 
-<div class="list" class:expanded={!expandFilter} transition:slide={{ duration: 200 }}>
+<div class="list" class:expanded={!expandFilter}>
   <div class="header item {listType}">
     {#if listType === "profile"}
       <SortHeader {lang} headerId="id" marginLeft={70} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />

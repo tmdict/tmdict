@@ -10,7 +10,7 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data } = $props();
-  let expandFilter = $state(true);
+  let expandFilter = $state(data.attribute.type !== "glossary");
 
   filterlist.init(data.attribute.filter);
 
@@ -118,7 +118,7 @@
     font-size: 0.8rem;
     margin-top: 2em;
   }
-  
+
   .search {
     display: flex;
   }
