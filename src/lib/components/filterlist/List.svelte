@@ -10,7 +10,6 @@
   const defaultSortOrder = (listType !== "profile");
   let sortBy = $state(defaultSortBy);
   let sortOrder = $state(defaultSortOrder);
-  let expandAll = $state(false);
 
   let sortedEntries = $derived.by(() => {
     return entryList.toSorted((a, b) => {
@@ -42,31 +41,17 @@
 
 <svelte:head>
   <style>
-    .entry-header .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
-    .entry-content p .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
-    .entry-content p { padding: 0 5px; }
-    .entry-content h3 { font-size: .75rem; margin: 0 0 0 5px; }
-    .entry-content h4 { font-size: 0.8rem; margin-left: 5px; }
-    .entry-content h5 { margin: 15px 0 5px 15px; }
+    .entry-item .name .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
   </style>
 </svelte:head>
 
 <div class="list">
   <div class="header item {listType}">
     {#if listType === "profile"}
-      <SortHeader {lang} headerId="id" margin={64} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
-      <SortHeader {lang} headerId="name" margin={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="id" marginLeft={70} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+      <SortHeader {lang} headerId="name" marginLeft={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
     {:else}
-      <SortHeader {lang} headerId="name" margin={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
-      <div
-        class="expand-all"
-        role="button"
-        tabindex="0"
-        onclick={() => (expandAll = !expandAll)}
-        onkeydown={() => (expandAll = !expandAll)}
-      >
-        {expandAll ? `${APP.i18n.expand[lang]} -` : `${APP.i18n.expand[lang]} +`}
-      </div>
+      <SortHeader {lang} headerId="name" marginLeft={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
     {/if}
   </div>
 
@@ -79,9 +64,9 @@
               <ListProfileEntry {lang} {entry} {i18n} />
             </a>
           {:else}
-            <div class="item">
-              <ListGlossaryEntry {lang} {entry} {i18n} showDetail={expandAll} />
-            </div>
+            <a href="/{lang}/{entry.hiragana}.{entry.id}">
+              <ListGlossaryEntry {lang} {entry} {i18n} />
+            </a>
           {/if}
         </li>
       {/each}
@@ -121,12 +106,6 @@
 
   .header:hover { cursor: pointer; }
 
-  .header.glossary .expand-all {
-    margin: 0 16px;
-    margin-left: auto;
-    font-weight: bold;
-  }
-
   .item {
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +123,5 @@
 
   @media only screen and (max-width: 660px) {
     .list { width: 100%; }
-    .list .header.glossary .expand-all { display: none; }
   }
 </style>

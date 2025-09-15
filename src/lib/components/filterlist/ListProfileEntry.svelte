@@ -10,7 +10,7 @@
   }
 </script>
 
-<div class="profile" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
+<div class="entry-item" role="presentation" onmouseenter={() => isHover = true} onmouseleave={() => isHover = false}>
   <div class="icon">
     <picture>
       <source srcset={getImage(entry.uid, "avif")} type="image/avif" />
@@ -27,7 +27,7 @@
 </div>
 
 <style>
-  .profile {
+  .entry-item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

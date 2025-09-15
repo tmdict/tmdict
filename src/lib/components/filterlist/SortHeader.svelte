@@ -5,7 +5,7 @@
     lang,
     headerId,
     i18n,
-    margin = 0,
+    marginLeft = 0,
     sortBy,
     sortOrder,
     style,
@@ -20,7 +20,7 @@
 
 <div {style}
   style:width="{width}px"
-  style:margin-left="{margin}px"
+  style:margin-left="{marginLeft}px"
   role="button"
   tabindex="0"
   onclick={() => updateSort(headerId)}

@@ -52,7 +52,7 @@
         const fuse = new Fuse(filtered, {
           ...searchOptions,
           minMatchCharLength: searchTerm.length,
-          keys: ["name." + lang, "content." + lang + ".html"],
+          keys: ["name." + lang],
         });
         const results = fuse.search(searchTerm);
         return (results.length > 0) ? structuredClone(highlight(results)) : [];
