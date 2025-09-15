@@ -10,6 +10,7 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data } = $props();
+  let expandFilter = $state(true);
 
   filterlist.init(data.attribute.filter);
 
@@ -95,8 +96,21 @@
 </div>
 
 <div class="filter-list">
-  <List {lang} listType={data.attribute.type} {entryList} i18n={data.content.i18n} />
-  <Filter {lang} type={data.attribute.type} filterValues={sourceFilterValues} i18n={data.content.i18n} />
+  <List
+    {lang}
+    listType={data.attribute.type}
+    {entryList}
+    i18n={data.content.i18n}
+    bind:expandFilter
+  />
+  {#if expandFilter}
+    <Filter
+      {lang} type={data.attribute.type}
+      filterValues={sourceFilterValues}
+      i18n={data.content.i18n}
+      bind:expandFilter
+    />
+  {/if}
 </div>
 
 <style>

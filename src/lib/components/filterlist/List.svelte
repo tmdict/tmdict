@@ -1,10 +1,11 @@
 <script>
+  import { slide } from "svelte/transition";
   import ListGlossaryEntry from "$lib/components/filterlist/ListGlossaryEntry.svelte";
   import ListProfileEntry from "$lib/components/filterlist/ListProfileEntry.svelte";
   import SortHeader from "$lib/components/filterlist/SortHeader.svelte";
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, listType, entryList, i18n } = $props();
+  let { lang, listType, entryList, i18n, expandFilter = $bindable() } = $props();
 
   const defaultSortBy = (listType === "profile") ? "id" : "name";
   const defaultSortOrder = (listType !== "profile");
@@ -45,13 +46,24 @@
   </style>
 </svelte:head>
 
-<div class="list">
+<div class="list" class:expanded={!expandFilter} transition:slide={{ duration: 200 }}>
   <div class="header item {listType}">
     {#if listType === "profile"}
       <SortHeader {lang} headerId="id" marginLeft={70} width={40} {i18n} {sortBy} {sortOrder} {updateSortBy} />
       <SortHeader {lang} headerId="name" marginLeft={12} {i18n} {sortBy} {sortOrder} {updateSortBy} />
     {:else}
       <SortHeader {lang} headerId="name" marginLeft={6} {i18n} {sortBy} {sortOrder} {updateSortBy} />
+    {/if}
+    {#if !expandFilter}
+      <div
+        class="expand-filter"
+        role="button"
+        tabindex="0"
+        onclick={() => expandFilter = !expandFilter}
+        onkeydown={() => expandFilter = !expandFilter}
+      >
+        <span class="highlight">{APP.i18n.source[lang]}</span> +
+      </div>
     {/if}
   </div>
 
@@ -82,6 +94,10 @@
     width: 600px;
   }
 
+  .list.expanded {
+    width: 100%;
+  }
+
   ul {
     list-style: none;
     margin: 0;
@@ -106,6 +122,16 @@
 
   .header:hover { cursor: pointer; }
 
+  .header .expand-filter {
+    margin: 0 16px;
+    margin-left: auto;
+    font-weight: bold;
+  }
+
+  .header .expand-filter .highlight {
+    color: var(--primary-heading);
+  }
+
   .item {
     display: flex;
     flex-wrap: wrap;
@@ -119,9 +145,11 @@
 
   @media only screen and (max-width: 840px) {
     .list { width: 540px; }
+    .list.expanded { width: 100%; }
   }
 
   @media only screen and (max-width: 660px) {
     .list { width: 100%; }
+    .list .header .expand-filter { display: none; }
   }
 </style>

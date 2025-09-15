@@ -3,7 +3,7 @@
   import { filterlist } from "$lib/util/filterlist.svelte.js"
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, type, filterValues, i18n } = $props();
+  let { lang, type, filterValues, i18n, expandFilter = $bindable() } = $props();
 
   // https://stackoverflow.com/questions/48601273/sorting-royal-names-using-javascript
   const romanToNum = (roman) => {
@@ -38,7 +38,18 @@
 
 <div class="filter">
   {#each Object.keys(filterValues) as filterKey (filterKey)}
-    <h6>{APP.i18n[filterKey][lang]}</h6>
+    <div
+      class="filter-header"
+      role="button"
+      tabindex="0"
+      onclick={() => expandFilter = !expandFilter}
+      onkeydown={() => expandFilter = !expandFilter}
+    >
+      <h6>
+        {APP.i18n[filterKey][lang]}
+        <span class="arrow">▶</span>
+      </h6>
+    </div>
     <ul>
       <li>
         <div class="item"
@@ -85,6 +96,20 @@
     float: left;
     line-height: 1.4em;
     margin: 0 6px;
+  }
+
+  .filter-header {
+    cursor: pointer;
+  }
+
+  .filter-header h6 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filter-header h6 .arrow {
+    color: var(--text-dark);
+    font-size: 0.8em;
   }
 
   ul {
