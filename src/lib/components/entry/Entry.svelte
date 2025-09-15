@@ -14,9 +14,7 @@
   <Sidebar {lang} attribute={data.attribute} content={data.content} />
 {/if}
 
-<div class="content">
-  <h1 id="{data.attribute.id}">{data.attribute.name[lang]}</h1>
-</div>
+<h1 id="{data.attribute.id}">{data.attribute.name[lang]}</h1>
 
 {#if data.attribute.type === "profile" && data.attribute.layout[Object.keys(data.attribute.layout)[0]].length > 0}
   <ProfileTop {lang} {data} />
@@ -25,3 +23,9 @@
 {#each data.content as section (`${section.id}-${section.weight}`)}
   <Content {lang} data={section} entryType={data.attribute.type} entryId={data.attribute.id} />
 {/each}
+
+<style>
+  h1 {
+    margin-bottom: 40px;
+  }
+</style>

@@ -11,6 +11,8 @@
 
   let { lang, data } = $props();
   let expandFilter = $state(data.attribute.type !== "glossary");
+  let screenWidth = $state(0);
+  let prevWidth = $state(9999);
 
   filterlist.init(data.attribute.filter);
 
@@ -61,7 +63,16 @@
       }
       return structuredClone(filtered);
   })
+
+  $effect(() => {
+    if (screenWidth < 660 && prevWidth >= 660) {
+      store.showfilter = false;
+    }
+    prevWidth = screenWidth;
+  })
 </script>
+
+<svelte:window bind:innerWidth={screenWidth} />
 
 <h1>{data.attribute.name[lang]}</h1>
 
@@ -168,10 +179,6 @@
   @media only screen and (max-width: 660px) {
     input {
       margin: 30px 6px 0;
-    }
-
-    .filter-nav {
-      display: none;
     }
   }
 </style>
