@@ -162,7 +162,7 @@
 
   .clear-button {
     position: absolute;
-    right: 20px;
+    right: 1em;
     top: 50%;
     transform: translateY(-50%);
     background: none;
@@ -218,6 +218,10 @@
 
     input {
       width: 90%;
+    }
+
+    .clear-button {
+      right: 2%;
     }
   }
 </style>
