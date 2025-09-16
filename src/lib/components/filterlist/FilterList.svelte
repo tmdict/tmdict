@@ -143,13 +143,15 @@
   }
 
   .search {
+    display: flex;
+    justify-content: center;
     position: relative;
     margin: 30px 15px 0;
   }
 
   input {
     padding: 10px 36px 10px 10px;
-    width: 94%;
+    width: 100%;
     font-size: 1.4rem;
     line-height: 2rem;
     border-radius: 10px;
@@ -162,7 +164,7 @@
 
   .clear-button {
     position: absolute;
-    right: 1em;
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
     background: none;
