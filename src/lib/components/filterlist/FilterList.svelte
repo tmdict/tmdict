@@ -217,11 +217,11 @@
     }
 
     input {
-      width: 90%;
+      width: 88%;
     }
 
     .clear-button {
-      right: 2%;
+      right: 4%;
     }
   }
 </style>
