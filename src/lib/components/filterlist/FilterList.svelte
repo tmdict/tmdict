@@ -1,7 +1,8 @@
 <script>
+  import Clear from "$lib/components/svg/Clear.svelte";
+  import Filter from "$lib/components/filterlist/Filter.svelte";
   import FilterNav from "$lib/components/filterlist/FilterNav.svelte";
   import List from "$lib/components/filterlist/List.svelte";
-  import Filter from "$lib/components/filterlist/Filter.svelte";
   import Fuse from "fuse.js";
   import { slide } from "svelte/transition";
   import { store } from "$lib/util/stores.svelte.js";
@@ -83,6 +84,17 @@
       bind:value={searchTerm}
       placeholder="{APP.i18n.search[lang]}{lang === "en" ? " " : ""}{data.attribute.name[lang]}..."
     />
+    {#if searchTerm}
+      <button
+        class="clear-button"
+        onclick={() => searchTerm = ""}
+        onkeydown={(e) => (e.key === "Enter" || e.key === " ") && (searchTerm = "")}
+        aria-label="Clear search"
+        type="button"
+      >
+        <Clear />
+      </button>
+    {/if}
   </div>
 {/if}
 
@@ -131,13 +143,13 @@
   }
 
   .search {
-    display: flex;
+    position: relative;
+    margin: 30px 15px 0;
   }
 
   input {
-    margin: 30px 15px 0;
-    padding: 10px;
-    flex: 1 1 auto;
+    padding: 10px 36px 10px 10px;
+    width: 94%;
     font-size: 1.4rem;
     line-height: 2rem;
     border-radius: 10px;
@@ -146,6 +158,29 @@
 
   input::placeholder {
     opacity: 0.5;
+  }
+
+  .clear-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+  }
+
+  .clear-button:hover {
+    color: #666;
+  }
+
+  .clear-button:active {
+    opacity: 0.7;
   }
 
   .filter-nav {
@@ -177,8 +212,12 @@
   }
   
   @media only screen and (max-width: 660px) {
-    input {
+    .search {
       margin: 30px 6px 0;
+    }
+
+    input {
+      width: 90%;
     }
   }
 </style>
