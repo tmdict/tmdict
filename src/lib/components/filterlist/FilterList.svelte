@@ -56,13 +56,13 @@
         const fuse = new Fuse(filtered, {
           ...searchOptions,
           minMatchCharLength: searchTerm.length,
-          keys: ["name." + lang],
+          keys: ["name." + lang, "content." + lang],
         });
         const results = fuse.search(searchTerm);
         return (results.length > 0) ? structuredClone(highlight(results)) : [];
-        }
       }
-      return structuredClone(filtered);
+    }
+    return structuredClone(filtered);
   })
 
   $effect(() => {

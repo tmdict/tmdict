@@ -21,6 +21,7 @@
 <svelte:head>
   <style>
     .entry-item .name .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
+    .entry-content .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
     .entry-content p { padding: 0 5px; }
     .entry-content h3 { font-size: .75rem; margin: 0 0 0 5px; }
     .entry-content h4 { font-size: 0.8rem; margin-left: 5px; }

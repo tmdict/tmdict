@@ -4,13 +4,15 @@ export function highlight(searchResult, truncate = false, highlightClassName = "
     const pathValue = match.key.split(".");
     let i;
     for (i = 0; i < pathValue.length - 1; i++) {
-      if (Array.isArray(item) && "refIndex" in match) {
-        item = item[match.refIndex][pathValue[i]];
+      // Check if current item is an array and we have a refIndex
+      if (Array.isArray(item[pathValue[i]]) && "refIndex" in match) {
+        item = item[pathValue[i]][match.refIndex];
       } else {
         item = item[pathValue[i]];
       }
     }
-    if (Array.isArray(item) && "refIndex" in match) {
+    // Set the final value
+    if (Array.isArray(item[pathValue[i]]) && "refIndex" in match) {
       item[pathValue[i]][match.refIndex] = value;
     } else {
       item[pathValue[i]] = value;
