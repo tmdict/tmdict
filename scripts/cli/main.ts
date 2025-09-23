@@ -149,6 +149,13 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
       entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
         return [...new Set([...acc, ...item.category])];
       }, []);
+      // If glossary, include entry content for filterlist
+      entryFilterlist["content"] = entryData.content.map((entry: EntryContent) => ({
+        cid: entry.id, // Get content-id name,
+        en: parser.parseSearchMarkup(entry.i18n.en?.html ?? ""),
+        ja: parser.parseSearchMarkup(entry.i18n.ja?.html ?? ""),
+        zh: parser.parseSearchMarkup(entry.i18n.zh?.html ?? ""),
+      }));
     }
     // Merge parsed entry filterlist data and i18n data into accumulator
     appData[contentType].filterlist.list.push(entryFilterlist);

@@ -3,7 +3,30 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, entry, i18n } = $props();
+
+  let showDetail = $state(false);
+
+  function toggleDetails() {
+    showDetail = !showDetail;
+  }
+
+  function preventDefault(fn) {
+    return function (event) {
+      event.preventDefault();
+      fn.call(this, event);
+    };
+  }
 </script>
+
+<svelte:head>
+  <style>
+    .entry-item .name .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
+    .entry-content p { padding: 0 5px; }
+    .entry-content h3 { font-size: .75rem; margin: 0 0 0 5px; }
+    .entry-content h4 { font-size: 0.8rem; margin-left: 5px; }
+    .entry-content h5 { margin: 15px 0 5px 15px; }
+  </style>
+</svelte:head>
 
 <div class="entry-item">
   <div class="name">
@@ -25,12 +48,26 @@
       {#if i > 0}{", "}{/if}{i18n["work"][work][lang]}
     {/each}
   </div>
+  <div class="expand" onclick={preventDefault(() => toggleDetails())} onkeydown={toggleDetails} role="button" tabindex="0">
+    {showDetail ? "-" : "+"}
+  </div>
 </div>
+{#if showDetail}
+<div transition:slide class="entry-content">
+  <a href="/{lang}/{entry.hiragana}.{entry.id}">
+    {#each entry.content as content, j}
+      <h2>{i18n["content-id"][content.cid][lang]}</h2>
+      <p>{@html content[lang]}</p>
+    {/each}
+  </a>
+</div>
+{/if}
 
 <style>
   .entry-item {
     display: flex;
     flex: 0 0 100%;
+    align-items: stretch;
   }
 
   .entry-item:hover {
@@ -38,38 +75,79 @@
   }
 
   .name {
-    float: left;
     color: var(--text-medium);
     margin: 4px 6px;
     font-weight: bold;
-    width: calc(100% - 208px);
+    flex: 1 1 352px;
+    display: flex;
+    align-items: center;
+    min-width: 0;
   }
 
   .category {
-    float: left;
+    color: var(--primary-link-highlight);
     font-size: 0.95em;
     margin: 4px 6px;
-    width: calc(100% - 360px);
-    align-content: center;
-    color: var(--primary-link-highlight);
+    flex: 0 1 240px;
+    display: flex;
+    align-items: center;
+    min-width: 0;
   }
 
   .work {
-    float: left;
+    color: var(--primary-link);
     font-size: 0.9em;
     margin: 4px 6px;
-    width: calc(100% - 380px);
-    align-content: center;
-    color: var(--primary-link);
+    flex: 0 1 220px;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .expand {
+    color: var(--text-medium);
+    font-size: 0.9em;
+    padding: 0 10px;
+    flex: 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .expand:hover {
+    color: var(--primary-link-highlight);
+    border-left: 1px dotted #aaa;
+    border-right: 1px dotted #aaa;
+  }
+
+  .entry-content {
+    flex: 0 0 100%;
+    background: var(--bg-main);
+    border-top: 1px dotted #aaa;
+  }
+
+  .entry-content h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: 30px 0 0 10px;
+  }
+
+  .entry-content a {
+    text-decoration: none;
+  }
+
+  .entry-content p {
+    color: var(--text-medium);
   }
 
   @media only screen and (max-width: 660px) {
     .category {
-      float: right;
-      width: calc(80% - 100px);
+      flex: 1 1 195px;
     }
 
-    .work {
+    .work,
+    .expand {
       display: none;
     }
   }

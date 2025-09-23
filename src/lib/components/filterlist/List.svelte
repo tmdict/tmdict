@@ -39,12 +39,6 @@
   }
 </script>
 
-<svelte:head>
-  <style>
-    .entry-item .name .search-highlight { color: var(--primary-highlight); background-color: var(--text-dark); }
-  </style>
-</svelte:head>
-
 <div class="list" class:expanded={!expandFilter}>
   <div class="header item {listType}">
     {#if listType === "profile"}
@@ -113,7 +107,6 @@
   ul li:nth-child(even) { background: var(--bg-row-grey-light); }
   ul li:hover { background: var(--bg-row-grey-dark); }
 
-
   .header {
     font-weight: bold;
     margin: 18px 0 6px;
@@ -122,7 +115,7 @@
   .header:hover { cursor: pointer; }
 
   .header .expand-filter {
-    margin: 0 16px;
+    margin: 0 15px;
     margin-left: auto;
     font-weight: bold;
   }
