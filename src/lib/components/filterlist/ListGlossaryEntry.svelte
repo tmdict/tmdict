@@ -147,9 +147,12 @@
       flex: 1 1 195px;
     }
 
-    .work,
-    .expand {
+    .work {
       display: none;
+    }
+
+    .expand {
+      padding: 0 6px;
     }
   }
 </style>

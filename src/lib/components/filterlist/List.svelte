@@ -120,6 +120,10 @@
     font-weight: bold;
   }
 
+  .header .expand-filter:hover {
+    color: var(--secondary-highlight);
+  }
+
   .header .expand-filter .highlight {
     color: var(--primary-heading);
   }

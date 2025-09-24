@@ -112,6 +112,10 @@
     font-size: 0.8em;
   }
 
+  .filter-header:hover .arrow {
+    color: var(--secondary-highlight);
+  }
+
   ul {
     list-style: none;
     margin: 0 0 2em;
