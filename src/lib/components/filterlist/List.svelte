@@ -169,6 +169,10 @@
     .list.expanded {
       width: 100%;
     }
+
+    .header .expand-filter + .expand-contents {
+      margin-left: 50px;
+    }
   }
 
   @media only screen and (max-width: 660px) {
@@ -178,6 +182,11 @@
 
     .list .header .expand-filter {
       display: none;
+    }
+
+    .header .expand-filter + .expand-contents {
+      margin-left: auto;
+      margin-right: 11px;
     }
   }
 </style>
