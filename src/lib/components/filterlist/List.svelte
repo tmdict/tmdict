@@ -82,7 +82,7 @@
             </a>
           {:else}
             <a href="/{lang}/{entry.hiragana}.{entry.id}">
-              <ListGlossaryEntry {lang} {entry} {i18n} showDetail={expandAll} />
+              <ListGlossaryEntry {lang} {entry} {i18n} {expandAll} />
             </a>
           {/if}
         </li>

@@ -2,7 +2,9 @@
   import { slide } from "svelte/transition";
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, entry, i18n, showDetail = false } = $props();
+  let { lang, entry, i18n, expandAll = false } = $props();
+
+  let showDetail = $derived(expandAll);
 
   function toggleDetails() {
     showDetail = !showDetail;
@@ -52,7 +54,7 @@
   </div>
 </div>
 {#if showDetail}
-<div transition:slide class="entry-content">
+<div transition:slide={{ duration: expandAll ? 0 : 200 }} class="entry-content">
   <a href="/{lang}/{entry.hiragana}.{entry.id}">
     {#each entry.content as content, j}
       <h2>{i18n["content-id"][content.cid][lang]}</h2>
