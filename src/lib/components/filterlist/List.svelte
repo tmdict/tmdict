@@ -10,6 +10,7 @@
   const defaultSortOrder = (listType !== "profile");
   let sortBy = $state(defaultSortBy);
   let sortOrder = $state(defaultSortOrder);
+  let expandAll = $state(false);
 
   let sortedEntries = $derived.by(() => {
     return entryList.toSorted((a, b) => {
@@ -56,6 +57,17 @@
         onkeydown={() => expandFilter = !expandFilter}
       >
         <span class="highlight">{APP.i18n.source[lang]}</span> +
+      </div>
+    {/if}
+    {#if listType === "glossary"}
+      <div
+        class="expand-all"
+        role="button"
+        tabindex="0"
+        onclick={() => (expandAll = !expandAll)}
+        onkeydown={() => (expandAll = !expandAll)}
+      >
+        {expandAll ? `${APP.i18n.expand[lang]} -` : `${APP.i18n.expand[lang]} +`}
       </div>
     {/if}
   </div>
@@ -115,8 +127,8 @@
   .header:hover { cursor: pointer; }
 
   .header .expand-filter {
-    margin: 0 15px;
     margin-left: auto;
+    margin-right: 10px;
     font-weight: bold;
   }
 
@@ -126,6 +138,16 @@
 
   .header .expand-filter .highlight {
     color: var(--primary-heading);
+  }
+
+  .header .expand-all {
+    margin-left: auto;
+    margin-right: 15px;
+  }
+
+  /* Adjacent sibling selector (+): fixed spacing when both elements are visible */
+  .header .expand-filter + .expand-all {
+    margin-left: 83px;
   }
 
   .item {
