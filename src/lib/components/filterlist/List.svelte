@@ -186,6 +186,9 @@
 
     .header .expand-filter + .expand-contents {
       margin-left: auto;
+    }
+
+    .header .expand-contents {
       margin-right: 11px;
     }
   }
