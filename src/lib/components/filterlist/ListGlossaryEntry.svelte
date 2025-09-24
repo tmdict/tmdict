@@ -2,9 +2,7 @@
   import { slide } from "svelte/transition";
   import APP from "$lib/__generated/constants.json";
 
-  let { lang, entry, i18n } = $props();
-
-  let showDetail = $state(false);
+  let { lang, entry, i18n, showDetail = false } = $props();
 
   function toggleDetails() {
     showDetail = !showDetail;

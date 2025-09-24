@@ -61,7 +61,7 @@
     {/if}
     {#if listType === "glossary"}
       <div
-        class="expand-all"
+        class="expand-contents"
         role="button"
         tabindex="0"
         onclick={() => (expandAll = !expandAll)}
@@ -82,7 +82,7 @@
             </a>
           {:else}
             <a href="/{lang}/{entry.hiragana}.{entry.id}">
-              <ListGlossaryEntry {lang} {entry} {i18n} />
+              <ListGlossaryEntry {lang} {entry} {i18n} showDetail={expandAll} />
             </a>
           {/if}
         </li>
@@ -140,13 +140,13 @@
     color: var(--primary-heading);
   }
 
-  .header .expand-all {
+  .header .expand-contents {
     margin-left: auto;
     margin-right: 15px;
   }
 
   /* Adjacent sibling selector (+): fixed spacing when both elements are visible */
-  .header .expand-filter + .expand-all {
+  .header .expand-filter + .expand-contents {
     margin-left: 83px;
   }
 
