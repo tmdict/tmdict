@@ -25,14 +25,14 @@
     "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
     "handlebars": "^4.7.8",
-    "marked": "^15.0.12",
+    "marked": "^16.4.1",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",
     "rimraf": "^6.0.1",
     "sharp": "^0.34.2",
-    "sitemap": "^8.0.0",
+    "sitemap": "^8.0.1",
     "svelte": "^5.42.2",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.3",
     "uglify-js": "^3.19.3",
     "vite": "^7.1.12"
   }
