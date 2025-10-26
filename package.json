@@ -13,10 +13,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.8",
-    "@sveltejs/enhanced-img": "^0.6.0",
-    "@sveltejs/kit": "^2.22.0",
-    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/enhanced-img": "^0.8.4",
+    "@sveltejs/kit": "^2.48.0",
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "@types/fs-extra": "^11.0.4",
     "@types/postcss-import": "^14.0.3",
     "@types/uglify-js": "^3.17.5",
@@ -31,9 +31,9 @@
     "rimraf": "^6.0.1",
     "sharp": "^0.34.2",
     "sitemap": "^8.0.0",
-    "svelte": "^5.34.7",
+    "svelte": "^5.42.2",
     "typescript": "^5.8.3",
     "uglify-js": "^3.19.3",
-    "vite": "^6.3.5"
+    "vite": "^7.1.12"
   }
 }
