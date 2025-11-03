@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /legacy/*
 
 Sitemap: https://www.tmdict.com/sitemap.xml
