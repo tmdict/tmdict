@@ -5,6 +5,7 @@
   import List from "$lib/components/filterlist/List.svelte";
   import Fuse from "fuse.js";
   import { slide } from "svelte/transition";
+  import { untrack } from "svelte";
   import { store } from "$lib/util/stores.svelte.js";
   import { highlight } from "$lib/util/highlight.js";
   import { filterlist } from "$lib/util/filterlist.svelte.js"
@@ -15,7 +16,7 @@
   let screenWidth = $state(0);
   let prevWidth = $state(9999);
 
-  filterlist.init(data.attribute.filter);
+  untrack(() => filterlist.init(data.attribute.filter));
 
   // Preprocess a list of filter values given filter keys and data to be filtered
   const filterValues = $derived(data.attribute.filter.filter(f => f !== "source").reduce(

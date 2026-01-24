@@ -6,7 +6,7 @@
   let { lang, filterKey, filterValues, i18n } = $props();
   let showFilter = $derived(["en", "star"].includes(filterKey));
 
-  const sorted = $derived(filterValues.sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang])));
+  const sorted = $derived([...filterValues].sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang])));
 
   function getWidthByLongestElement(arr) {
     const maxLength = Math.max(...arr.map(item => {
@@ -30,11 +30,11 @@
     </h6>
     {#if showFilter}
     <div class="content-row" transition:slide>
-      {#each filterValues as item (item)}
+      {#each sorted as item (item)}
         <div class="filter-item" class:active={item === filterlist.get(filterKey).quick || filterlist.get(filterKey).common.includes(item)}>
           <div class="quick"
             class:active={item === filterlist.get(filterKey).quick}
-            style:min-width={getWidthByLongestElement(filterValues)}
+            style:min-width={getWidthByLongestElement(sorted)}
             style:padding-left={(i18n[filterKey][item][lang].length) === 1 ? "10px" : "5px"}
             role="button"
             tabindex="0"
