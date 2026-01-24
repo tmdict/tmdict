@@ -4,11 +4,11 @@
 
   let { data } = $props();
 
-  const parsed = data.data.content
+  const parsed = $derived(data.data.content
     .filter(ctn => !ctn.profile)[0].i18n[data.lang].html
     .replace(/(?:<[^>]*>|\n)+/g, " ")
-    .substring(1, 161);
-  const metaDescription = (parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed;
+    .substring(1, 161));
+  const metaDescription = $derived((parsed.lastIndexOf(" ") !== -1) ? parsed.substring(0, parsed.lastIndexOf(" ")) : parsed);
 </script>
 
 <svelte:head>

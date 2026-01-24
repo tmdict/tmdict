@@ -11,14 +11,14 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, data } = $props();
-  let expandFilter = $state(data.attribute.type !== "glossary");
+  let expandFilter = $derived(data.attribute.type !== "glossary");
   let screenWidth = $state(0);
   let prevWidth = $state(9999);
 
   filterlist.init(data.attribute.filter);
 
   // Preprocess a list of filter values given filter keys and data to be filtered
-  const filterValues = data.attribute.filter.filter(f => f !== "source").reduce(
+  const filterValues = $derived(data.attribute.filter.filter(f => f !== "source").reduce(
     // For each filter id
     (acc, filter) => {
       const flattened = data.content.list
@@ -31,12 +31,12 @@
       };
     },
     {} // Default empty {} for reducer
-  );
+  ));
 
   // Source filter for sidebar
-  const sourceFilterValues = { source: [...new Set(
+  const sourceFilterValues = $derived({ source: [...new Set(
     data.content.list.flatMap(d => d["source"]).filter(Boolean)
-  )] };
+  )] });
 
   // Initialize search options
   let searchTerm = $state("");
@@ -212,7 +212,7 @@
     content: ' + ';
     color: #777;
   }
-  
+
   @media only screen and (max-width: 660px) {
     .search {
       margin: 30px 6px 0;

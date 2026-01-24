@@ -4,13 +4,9 @@
   import APP from "$lib/__generated/constants.json";
 
   let { lang, filterKey, filterValues, i18n } = $props();
-  let showFilter = $state(false);
+  let showFilter = $derived(["en", "star"].includes(filterKey));
 
-  const sorted = filterValues.sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang]))
-
-  if (["en", "star"].includes(filterKey)) {
-    showFilter = true;
-  }
+  const sorted = $derived(filterValues.sort((a, b) => i18n[filterKey][a][lang].localeCompare(i18n[filterKey][b][lang])));
 
   function getWidthByLongestElement(arr) {
     const maxLength = Math.max(...arr.map(item => {
