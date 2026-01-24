@@ -6,10 +6,8 @@
 
   let { lang, listType, entryList, i18n, expandFilter = $bindable() } = $props();
 
-  const defaultSortBy = $derived((listType === "profile") ? "id" : "name");
-  const defaultSortOrder = $derived((listType !== "profile"));
-  let sortBy = $derived(defaultSortBy);
-  let sortOrder = $derived(defaultSortOrder);
+  let sortBy = $derived((listType === "profile") ? "id" : "name");
+  let sortOrder = $derived((listType !== "profile"));
   let expandAll = $state(false);
 
   let sortedEntries = $derived.by(() => {
