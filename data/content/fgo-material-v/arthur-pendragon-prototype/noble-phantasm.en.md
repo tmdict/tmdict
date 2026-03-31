@@ -18,6 +18,7 @@ translation: "Clyton"
 </table>
 
 Strike Air as an attack Noble Phantasm. Invisible Air is its normal state. The force of wind that conceals the Holy Sword. It also functions as a sheath to conceal the sword blade. All sorts of applications, such as defense and attack, are feasible. If its power is unleashed, it is further able to perform a long-distance area of effect attack called “Strike Air: The Wind King’s Hammer”, but it is not able to be rapid-fired.
+In “Fate/Grand Order”, True Name release of this form is typically not performed.
 
 ### Excalibur: Sword of Promised Victory
 
@@ -29,6 +30,7 @@ Strike Air as an attack Noble Phantasm. Invisible Air is its normal state. The f
 </table>
 
 The Strongest Illusion. One drop of the planet’s light. Crossing over all periods of time, it is the unfulfilled dream itself of many humans. After having lost the Sword of Selection, it is reported that this Holy Sword was brought to Arthur by the Lady of the Lake. Even in spite of being equipped with a condition where its true power is being restricted due to its sheath, which is endowed with the “Thirteen Restraints” that were designated with the names of the Knights of the Round Table, it still has a power befitting an Anti-Fortress classification.
+In “Fate/Grand Order”, True Name release of this form is not performed.
 
 ### Excalibur: Sword of Promised Victory
 
@@ -40,5 +42,4 @@ The Strongest Illusion. One drop of the planet’s light. Crossing over all peri
 </table>
 
 The radiant Holy Sword that saves the planet. A golden blade that completely repels every evil, constructed for the sake of defeating foreign enemies that destroy the planet. The form taken when up to six restraints among the Holy Sword’s “Thirteen Restraints” are released. Although, it has not yet been able to show its true power since over half the restraints – seven restraints or more in other words – have not been released————And yet, there is no doubt that it is an intense light that destroys a powerful evil.
-
 In “Fate/Grand Order”, the release of the “Bedivere Restraint” is being automatically approved where a decisive battle against a great being is thought to be assumed.
