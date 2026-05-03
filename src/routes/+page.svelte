@@ -2,7 +2,6 @@
   import afkj from "$lib/img/link_afkj.png?enhanced";
   import mhy from "$lib/img/link_mhy.png?enhanced";
   import tsukikan from "$lib/img/link_tsukikan.png?enhanced";
-  import legacy from "$lib/img/link_chaldea.png?enhanced";
 </script>
 
 <svelte:head>
@@ -38,11 +37,6 @@
   <div class="banner-block">
     <a class="project" href="https://tsukikan.com/" aria-label="Tsukikan">
       <enhanced:img src={tsukikan} title="Tsuki-kan" alt="Tsuki-kan" style="display: block;" />
-    </a>
-  </div>
-  <div class="banner-block">
-    <a class="project" href="/legacy/en/index.html" aria-label="Classic">
-      <enhanced:img src={legacy} title="Classic" alt="Classic" style="display: block;" />
     </a>
   </div>
 </div>
@@ -103,20 +97,21 @@
 
   #banners {
     margin: 10px auto;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .banner-block {
     width: 150px;
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
-  }
-
-  .banner-block {
-    padding: 0 0 6px 0;
     display: flex;
     justify-content: center;
-  }
-
-  .banner-block:last-child {
-    padding-bottom: 0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
   .banner-block a {
