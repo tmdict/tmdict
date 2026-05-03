@@ -13,7 +13,7 @@ import { AppPaths } from "./types.js";
  * @param path Directory + filename of output file
  */
 function outputFile(content: string, path: string): void {
-  fs.outputFile(path, content, (err: Error) => {
+  fs.outputFile(path, content, (err) => {
     if (err) {
       return console.log(err);
     }
@@ -66,7 +66,7 @@ export default class Builder {
   // Generate JSON data with `name` as key
   toJsonExport = (path: string, data: any, formatted = false): void => {
     try {
-      outputFile(JSON.stringify(data, null, formatted ? 2 : null), path);
+      outputFile(JSON.stringify(data, null, formatted ? 2 : undefined), path);
     } catch (err) {
       console.log(`[ERROR toJsonExport] [${path}]: ${err}`);
     }

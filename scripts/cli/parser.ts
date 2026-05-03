@@ -65,7 +65,7 @@ function flattenAttributeData(attr: Attribute): CommonAttr {
   try {
     // If attr type is `profile` or `glossary`, make it linkable
     if (["profile", "glossary"].includes(attr.type)) {
-      Object.keys(attr.data.name).forEach((lang: Lang) => {
+      (Object.keys(attr.data.name) as Lang[]).forEach((lang) => {
         const link = (attr.type === "profile")
           ? `<a href="/${lang}/${attr.type}/${attr.id}">${attr.data.name[lang]}</a>`
           : `<a href="/${lang}/${attr.id}">${attr.data.name[lang]}</a>`;
@@ -150,6 +150,7 @@ function mapAttrToLayout(layout: string[][], parsedAttr: ParsedAttribute): Layou
     }, {});
   } catch (err) {
     console.log(`[ERROR mapAttrToLayout] [${parsedAttr.id} (${parsedAttr.name.en})]: ${err}`);
+    return {};
   }
 }
 
@@ -182,26 +183,22 @@ function parseContent(id: string, contentData: Content[], attrData: AttributeDat
       // Parse custom {{}} markup
       const parsedHtml: string = parseContentMarkup(c.html, lang, sourceSectionKey);
       // Replace optional member with "" if not present
-      const sourceId = "source" in c.data ? c.data.source : "";
-      const sourceLang = "source" in c.data ? attrData["source"][sourceId]["data"]["name"][lang] : "";
-      const translation = "translation" in c.data ? c.data.translation : "";
-      const img = "img" in c.data ? c.data.img : "";
+      const sourceId = c.data.source ?? "";
+      const sourceLang = c.data.source ? attrData["source"][sourceId]["data"]["name"][lang] : "";
+      const translation = c.data.translation ?? "";
+      const img = c.data.img ?? "";
       const profile = "profile" in c.data ? true : false; // Used to sort profile content
       // Use common attr ID for name, if not use "name" override, else ""
       const name =
-        "name" in c.data
-          ? c.data.name
-          : c.data.id in attrData["content-id"]
+        c.data.name ??
+        (c.data.id in attrData["content-id"]
           ? attrData["content-id"][c.data.id]["data"]["name"][c.data.language]
-          : "";
+          : "");
       // Use common attr ID for category
-      const category = "category" in c.data ? c.data.category : [];
-      const categoryi18n =
-        "category" in c.data
-          ? c.data.category.map((cat: string) => {
-              return attrData["category"][cat]["data"]["name"][c.data.language];
-            })
-          : [];
+      const category = c.data.category ?? [];
+      const categoryi18n = category.map((cat: string) => {
+        return attrData["category"][cat]["data"]["name"][c.data.language];
+      });
       // Instantiate content data if there is no content under current source.id key
       if (!parsedContent.hasOwnProperty(sourceSectionKey)) {
         parsedContent[sourceSectionKey] = {
@@ -240,7 +237,7 @@ export default class Parser {
       const entryAttr: Attribute = attrData[entryType][entryId];
       const parsedAttr: ParsedAttribute = parseAttribute(entryAttr, attrData);
       // Packing it all together into a layout if there is one
-      const layout: LayoutAttribute = "layout" in entryAttr ? mapAttrToLayout(entryAttr.layout, parsedAttr) : {};
+      const layout: LayoutAttribute = entryAttr.layout ? mapAttrToLayout(entryAttr.layout, parsedAttr) : {};
       // Convert attribute into site metadata
       const metadata: EntryMetadata = parseMetadata(entryAttr, parsedAttr, layout);
       // Generate content then sort by their weight
@@ -248,8 +245,8 @@ export default class Parser {
         entryId in contentData && contentData[entryId].length
           ? parseContent(entryId, contentData[entryId], attrData).sort((a, b) => {
               // Sort content by type (profile vs glossary), then source weight, then content weight
-              const aSource: number = attrData.source[a.source] ? attrData.source[a.source].weight : 0;
-              const bSource: number = attrData.source[b.source] ? attrData.source[b.source].weight : 0;
+              const aSource: number = attrData.source[a.source]?.weight ?? 0;
+              const bSource: number = attrData.source[b.source]?.weight ?? 0;
               return (a.profile ? 1 : 0) - (b.profile ? 1 : 0) || aSource - bSource || a.weight - b.weight;
             })
           : [];
@@ -259,6 +256,7 @@ export default class Parser {
       };
     } catch (err) {
       console.log(`[ERROR parseEntry] [${entryId}]: ${err}`);
+      return { attribute: {} as EntryMetadata, content: [] };
     }
   };
 
@@ -283,13 +281,14 @@ export default class Parser {
         } else {
           // Extract filterable attributes from content if it exists
           if (filterlist.contentFilter && filterlist.contentFilter.includes(attr)) {
-            const contentFilters = entryData.content.reduce((acc: string[], content: any) => {
+            const contentFilters = entryData.content.reduce<string[]>((acc, content: any) => {
               if (content[attr]) {
                 const contentFilterKeys = Array.isArray(content[attr])
                   ? (content[attr] as string[])
                   : [content[attr] as string];
                 return acc.concat(contentFilterKeys);
               }
+              return acc;
             }, []);
             // Dedupe and add content filters to collection
             attributes[attr] = [...new Set(contentFilters)];
@@ -308,6 +307,7 @@ export default class Parser {
       };
     } catch (err) {
       console.log(`[ERROR parseAttributeFilterlist] [${entryId}]: ${err}`);
+      return {} as List;
     }
   };
 
@@ -334,13 +334,14 @@ export default class Parser {
         } else {
           // Extract filterable attributes from content
           if (filterlist.contentFilter && filterlist.contentFilter.includes(attr)) {
-            const contentFilters = entryData.content.reduce((acc: string[], content: any) => {
+            const contentFilters = entryData.content.reduce<string[]>((acc, content: any) => {
               if (content[attr]) {
                 const contentFilterKeys = Array.isArray(content[attr])
                   ? (content[attr] as string[])
                   : [content[attr] as string];
                 return acc.concat(contentFilterKeys);
               }
+              return acc;
             }, []);
             // Dedupe and add content filters to collection
             contentFilters
@@ -356,6 +357,7 @@ export default class Parser {
       return i18n;
     } catch (err) {
       console.log(`[ERROR parseFilterlistI18n] [${entryId}]: ${err}`);
+      return {};
     }
   };
 

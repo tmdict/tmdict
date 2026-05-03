@@ -14,13 +14,6 @@ TMdict does not aim to be a comprehensive encyclopedia or a wiki, and does not c
 
 ## Contributors
 
-- <span class="highlight">Contributor:</span> gum, Sasaki546, 都谷捻柏
-- <span class="highlight">Translation:</span> RHuot, 浮云般飘过, 六条秋分, vt789123, Akiraka
-- <span class="highlight">Proofreading:</span> Eclipse, 南宫月汐
-- <span class="highlight">Special Thanks:</span> <a href="http://tsukikan.com/">Tsuki-kan</a>, <a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
-
-## Translators
-
 Translations on this site come from different translators, as such, translations are proofread and edited to eliminate errors and inconsistencies. We try to limit the modifications to a minimum to remain faithful to the original translation.
 
 - <span class="highlight">Fate Encyclopedia:</span> <a href="http://z13.invisionfree.com/Mobius_Space/index.php?act=idx">food</a>, <a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://tieba.baidu.com/f?kw=%D4%C2%D2%B9%D6%AE%BF%D5">十三维</a>, <a href="https://tieba.baidu.com/p/1504291610">路过的零</a>
@@ -53,11 +46,17 @@ FGO material:
 - <span class="highlight">FGOM (EN):</span> <a href="https://www.reddit.com/user/amplifiedscans">amplified</a>, <a href="https://twitter.com/BananaShiki">BananaShiki</a>, <a href="https://www.reddit.com/user/castor212">castor212</a>, <a href="https://www.reddit.com/u/Kinalvin/">Clyton</a>, <a href="https://www.reddit.com/u/ComunCoutinho/">ComunCoutinho</a>, <a href="https://forums.nrvnqsr.com/member.php/6911-fumei">fumei</a>, <a href="https://www.reddit.com/user/IreyimikaTheLost">IreyimikaTheLost</a>, <a href="https://www.reddit.com/user/JunnaMoonlight">JunnaMoonlight</a>, <a href="https://www.reddit.com/user/Justiciar_Jyggalag/">Justiciar_Jyggalag</a>, <a href="https://www.reddit.com/user/Konchew">Konchew</a>, <a href="https://www.reddit.com/user/King_of_Padoru">King of Padoru</a>, <a href="http://forums.nrvnqsr.com/member.php/6793-Lily-Emilio">Lily Emilio</a>, <a href="https://forums.nrvnqsr.com/member.php/1147-Petrikow">Petrikow</a>, <a href="https://www.reddit.com/user/PkFreezeAlpha">PkFreezeAlpha</a>, <a href="https://new.reddit.com/user/Radiant-Hope-469/">Radiant-Hope-469</a>, <a href="https://www.reddit.com/user/shinyklefkey">shinyklefkey</a>, <a href="https://www.reddit.com/user/Smoof101">Smoof101</a>, <a href="https://www.reddit.com/user/UdonSamurai/">UdonSamurai</a>
 - <span class="highlight">FGOM (中):</span> <a href="https://www.weibo.com/u/6537160863">Akiraka</a>, <a href="http://tieba.baidu.com/home/main?un=%D0%CD%C8%D5%B3%F8">型日厨</a>
 
+Misc:
+
+- gum, vt789123, RHuot, Akiraka, Sasaki546, 都谷捻柏, 浮云般飘过, 六条秋分, 南宫月汐
+
 Special thanks to the following sites, for various game contents and materials:
 
 - <a href="https://atlasacademy.io/">Atlas Academy</a>
 - <a href="https://chaldeum.wordpress.com/">Chaldeum</a>
 - <a href="https://fgo.wiki/w/%E9%A6%96%E9%A1%B5">Mooncell</a>
+- <a href="http://tsukikan.com/">Tsuki-kan</a>
+- <a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
 - <a href="https://kazemai.github.io/fgo-vz/">茹西教王的理想乡</a>
 - <a href="https://grand_order.wicurio.com/">FGO攻略まとめwiki</a>
 

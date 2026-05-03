@@ -89,8 +89,8 @@ export default class Bamboo {
       const entryDataRaw: EntryData = parser.parseEntry(entryId, "glossary", attrData, contentData);
       const entryData: EntryData = parser.filterContentBySource(entryDataRaw, appConfig.sources.book);
       // Generates HTML for Entries
-      Object.keys(entryData.attribute.name).forEach((lang: Lang) => {
-        const hiragana = entryData.attribute.hiragana;
+      (Object.keys(entryData.attribute.name) as Lang[]).forEach((lang) => {
+        const hiragana = entryData.attribute.hiragana as string;
         const entryPath = `${lang}/${hiragana}.${entryData.attribute.id}`;
         // Get i18n content for each content[] for template
         const entryContent = entryData.content.map((c: EntryContent) => { 
@@ -141,7 +141,7 @@ export default class Bamboo {
     Object.keys(attrData["work"]).forEach((work: string) => {
       i18n["work"][work] = attrData["work"][work].data.name;
     });
-    Object.keys(appConfig.app.lang).forEach((lang: Lang) => {
+    (Object.keys(appConfig.app.lang) as Lang[]).forEach((lang) => {
       // Build pages
       pageData.content.forEach((page) => {
         toTemplate(templates["page.html"], `static/legacy/${lang}/${page.id}.html`, {

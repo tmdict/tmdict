@@ -14,13 +14,6 @@ name: "关于"
 
 ## 合作人员
 
-- <span class="highlight">支援：</span> gum，Sasaki546，都谷捻柏
-- <span class="highlight">翻译：</span> RHuot，浮云般飘过，六条秋分，vt789123，Akiraka
-- <span class="highlight">校对：</span> Eclipse，南宫月汐
-- <span class="highlight">特别感谢：</span> <a href="http://tsukikan.com/">Tsuki-kan</a>，<a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
-
-## 翻译人员
-
 这里的内容翻译来自很多不同的人，因此可能会有一些翻译上的错误和不一致的地方，我们会尽可能的修改它们。与此同时，我们也会尽力限制修改的规模，以保持翻译者原文的本意。
 
 - <span class="highlight">Fate用语词典:</span> <a href="http://z13.invisionfree.com/Mobius_Space/index.php?act=idx">food</a>，<a href="http://forums.nrvnqsr.com/showthread.php/4880-Mcjon01-Translates-Things">Mcjon01</a> / <a href="http://tieba.baidu.com/f?kw=%D4%C2%D2%B9%D6%AE%BF%D5">十三维</a>，<a href="https://tieba.baidu.com/p/1504291610">路过的零</a>
@@ -54,11 +47,17 @@ FGO material:
   </td></tr>
 - <span class="highlight">FGOM（中）:</span> <a href="https://www.weibo.com/u/6537160863">Akiraka</a>, <a href="http://tieba.baidu.com/home/main?un=%D0%CD%C8%D5%B3%F8">型日厨</a>
 
+其他:
+
+- gum, vt789123, RHuot, Akiraka, Sasaki546, 都谷捻柏, 浮云般飘过, 六条秋分, 南宫月汐
+
 感谢以下的网站，给予帮助、相关参考、以及不同素材的来源：
 
 - <a href="https://atlasacademy.io/">Atlas Academy</a>
 - <a href="https://chaldeum.wordpress.com/">Chaldeum</a>
 - <a href="https://fgo.wiki/w/%E9%A6%96%E9%A1%B5">Mooncell</a>
+- <a href="http://tsukikan.com/">Tsuki-kan</a>
+- <a href="https://bbs.sumisora.net/thread.php?fid=14">SumiSora Type-Moon应援会</a>
 - <a href="https://kazemai.github.io/fgo-vz/">茹西教王的理想乡</a>
 - <a href="https://grand_order.wicurio.com/">FGO攻略まとめwiki</a>
 

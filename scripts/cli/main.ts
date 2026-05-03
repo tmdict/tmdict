@@ -34,7 +34,7 @@ const searchData: SearchData[] = [];
 
 // Sitemap
 sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
-["en", "ja", "zh"].forEach((lang: Lang) => {
+(["en", "ja", "zh"] as const).forEach((lang) => {
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/about`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/site`});
@@ -98,7 +98,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
 
     // STATIC PATHS, SITEMAP, SEARCH
 
-    ["en", "ja", "zh"].forEach((lang: Lang) => {
+    (["en", "ja", "zh"] as const).forEach((lang) => {
       // Append to static paths
       const path = (contentType === "profile") ? entryData.attribute.id : `${entryData.attribute.hiragana}.${entryData.attribute.id}`;
       staticEntryPaths[contentType].push({
@@ -146,7 +146,7 @@ Object.keys(appConfig.content).forEach((contentType: string) => {
     // Glossary-only
     if (contentType === "glossary") {
       // Add category to filterlist
-      entryFilterlist["category"] = entryData.content.reduce((acc, item) => {
+      entryFilterlist["category"] = entryData.content.reduce<string[]>((acc, item) => {
         return [...new Set([...acc, ...item.category])];
       }, []);
       // If glossary, include entry content for filterlist
@@ -228,7 +228,7 @@ Object.keys(bookData).forEach((id: string) => {
 builder.toJsonExport("src/lib/__generated/data/book.json", Object.keys(bookData)
   .map((id) => bookData[id])
   .sort((a: Book, b: Book) => {
-    return a.source.weight - b.source.weight;
+    return (a.source.weight ?? 0) - (b.source.weight ?? 0);
   })
 );
 
