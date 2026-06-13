@@ -29,6 +29,9 @@ const filters: Filter = {
   "contentFilter": ["source", "category"]
 }
 
+/** Standalone pages mirrored by the legacy site; other _page content are embedded blocks. */
+const LEGACY_PAGES = ["about", "site", "misc"];
+
 /** Generates a file for the given template and data */
 function toTemplate(template: string, path: string, data: any): void {
   try {
@@ -142,8 +145,9 @@ export default class Bamboo {
       i18n["work"][work] = attrData["work"][work].data.name;
     });
     (Object.keys(appConfig.app.lang) as Lang[]).forEach((lang) => {
-      // Build pages
-      pageData.content.forEach((page) => {
+      // Skip _page content that are embedded blocks, not standalone pages.
+      const pages = pageData.content.filter((page) => LEGACY_PAGES.includes(page.id));
+      pages.forEach((page) => {
         toTemplate(templates["page.html"], `static/legacy/${lang}/${page.id}.html`, {
           isEntry: false,
           id: page.id,
