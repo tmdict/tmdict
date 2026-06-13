@@ -18,7 +18,7 @@ This site uses images and materials from the game to enrich the user experience,
 
 ## Collaborate
 
-If you are interested in contributing, please <a href="/contact/">send us a message</a>. You can also contribute directly <a href="https://github.com/tmdict/tmdict/tree/main/data">via GitHub</a>.
+If you are interested in contributing, please <a href="/contact">send us a message</a>. You can also contribute directly <a href="https://github.com/tmdict/tmdict/tree/main/data">via GitHub</a>.
 
 Alternatively, there is a “Report Error” link on each page for user to easily report errors or inconsistencies while browsing the site.
 

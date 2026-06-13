@@ -28,7 +28,7 @@ function parseContentMarkup(html: string, lang: string, id = ""): string {
       // Missing content
       .replace(
         /{{missing}}/g,
-        `<span id="contact" class="contact"><a href="/contact/">!missing・contribute</a></span>`
+        `<span id="contact" class="contact"><a href="/contact">!missing・contribute</a></span>`
       )
       // TL notes
       .replace(/{{notes}}/g, tlnotes[lang])

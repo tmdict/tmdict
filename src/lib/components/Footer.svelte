@@ -9,7 +9,7 @@
   <a href="/{lang}/site">{APP.i18n.site[lang]}</a> · 
   <a href="/{lang}/misc">{APP.i18n.misc[lang]}</a> · 
   <a href="/legacy/{lang}/index.html">{APP.i18n.legacy[lang]}</a> · 
-  <a href="/contact/">{APP.i18n.contact[lang]}</a>
+  <a href="/contact">{APP.i18n.contact[lang]}</a>
 </div>
 
 <style>

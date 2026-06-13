@@ -8,4 +8,4 @@ name: "Contribute"
 
 ## Contribute
 
-Have a question? Find an error? Want to contribute? <a href="/contact/">Contact us</a>!
+Have a question? Find an error? Want to contribute? <a href="/contact">Contact us</a>!

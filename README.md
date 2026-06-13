@@ -15,7 +15,7 @@ To contribute to this project, create a branch off of `main` branch and make you
 ready, submit a pull request. The project maintainers will review the change and merge it into the
 main site.
 
-If you have questions, feel free to reach out to us [here](https://www.tmdict.com/contact/).
+If you have questions, feel free to reach out to us [here](https://www.tmdict.com/contact).
 
 ## Project Structure
 
