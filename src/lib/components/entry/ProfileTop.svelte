@@ -34,8 +34,8 @@
 
       <div>
         <table><tbody>
-          {#if data.attribute.uid.split(":")[1] === "fgosvt"} 
-            <tr><td class="title">ID</td><td>{data.attribute.uid.split(":")[0]}</td></tr>
+          {#if data.attribute.uid.split(":")[0] === "fgosvt"} 
+            <tr><td class="title">ID</td><td>{data.attribute.uid.split(":")[1]}</td></tr>
           {/if}
           {#each data.attribute.layout[contentLang] as section, i}
             {#each Object.keys(section) as attr, j}

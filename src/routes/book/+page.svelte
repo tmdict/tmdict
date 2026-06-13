@@ -27,8 +27,8 @@
 
   onMount(() => {
     window.addEventListener('hashchange', handleHashChange);
-    // Initialize with current hash
-    currentSource = parseUrlSource();
+    // Initialize with current hash (validates against BOOK_DATA, falls back to "")
+    handleHashChange();
     return () => {
       window.removeEventListener('hashchange', handleHashChange);
     };

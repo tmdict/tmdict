@@ -1,0 +1,17 @@
+{
+  "type": "glossary",
+
+  "attribute": {
+    "en": "a",
+    "ja": "_",
+    "hiragana": "a"
+  },
+
+  "data": {
+    "name": {
+      "en": "Aristoteles",
+      "ja": "アリストテレス",
+      "zh": "亚里士多德"
+    }
+  }
+}

@@ -8,7 +8,7 @@
 
   onMount(() => {
     const hash = page.url.hash.substring(1);
-    document.getElementById(hash).scrollIntoView();
+    document.getElementById(hash)?.scrollIntoView();
   });
 
   function updateActiveLang(lang) {

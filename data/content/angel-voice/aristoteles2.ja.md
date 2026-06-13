@@ -1,11 +1,11 @@
 ---
-parent: aristoteles
+parent: aristoteles2
 source: angel-voice
 id: notes
 language: ja
 weight: 19
 category:
-- ultimate-one
+  - ultimate-one
 ---
 
 他の天体より飛来した八体の生命体。
