@@ -57,7 +57,7 @@ He utilizes two guns; a two sword style by means of the pair of guns “Kanshou 
 
 #### Emiya
 
-My past self, who put a bitter smile as if saying he can’t put a complain even if killed.{{n1}}
+My past self, who put a bitter smile as if saying he can’t put a complain even if killed.{{n2}}
 
 #### Sesshouin Kiara
 
@@ -70,4 +70,4 @@ I will simply kill her, no matter how many times, if her way of being propagates
 
 ##### {{notes}}
 
-1. {{note1}} With how Japanese works this is veryambigue, I can’t say who is being killed in this sentence, Emiya or Emiya, although the answer is obviously Emiya.
+1. {{note1}} {{note2}} With how Japanese works this is veryambigue, I can’t say who is being killed in this sentence, Emiya or Emiya, although the answer is obviously Emiya.

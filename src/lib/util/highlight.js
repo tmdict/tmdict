@@ -40,15 +40,25 @@ export function highlight(searchResult, truncate = false, highlightClassName = "
     return content;
   };
 
-  // Truncate result (text only) using first result index as starting point
-  const truncateText = (inputText, match, maxLength = 400) => {
-    if (inputText.length <= maxLength || match.key !== "text") {
-      return inputText;
+  // Truncate the raw text to a window around the first match, remapping the
+  // match indices into that window. Truncating BEFORE highlighting guarantees
+  // the inserted <span> tags are never split by the cut.
+  const truncateText = (inputText, indices, maxLength = 400, lead = 50) => {
+    if (inputText.length <= maxLength) {
+      return { text: inputText, indices, pre: "", post: "" };
     }
-    const start = Math.max(0, match.indices[0][0] - 50);
-    const pre = start === 0 ? "" : "...";
-    return pre + inputText.slice(start, start + maxLength) + "...";
-  }
+    const start = Math.max(0, indices[0][0] - lead);
+    const end = start + maxLength;
+    return {
+      text: inputText.slice(start, end),
+      // Keep highlights that start inside the window; clamp ends to the window
+      indices: indices
+        .filter(([s]) => s >= start && s < end)
+        .map(([s, e]) => [s - start, Math.min(e, end - 1) - start]),
+      pre: start === 0 ? "" : "...",
+      post: "...",
+    };
+  };
 
   return searchResult
     .filter(({ matches }) => matches && matches.length)
@@ -56,9 +66,12 @@ export function highlight(searchResult, truncate = false, highlightClassName = "
       const highlightedItem = { ...item };
       // For each match, highlight the search result item
       matches.forEach((match) => {
-        const highlight = generateHighlightedText(match.value, match.indices);
-        const parsed = truncate ? truncateText(highlight, match) : highlight;
-        set(highlightedItem, match, parsed);
+        if (truncate && match.key === "text") {
+          const { text, indices, pre, post } = truncateText(match.value, match.indices);
+          set(highlightedItem, match, pre + generateHighlightedText(text, indices) + post);
+        } else {
+          set(highlightedItem, match, generateHighlightedText(match.value, match.indices));
+        }
       });
       return highlightedItem;
     });

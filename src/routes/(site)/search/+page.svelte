@@ -32,8 +32,11 @@
     if (results.length > 0) {
       searchResults = highlight(results, true).map(result => ({
         ...result,
-        // Trim text if only title is highlighted
-        text: result.text.length > 500 ? result.text.substring(0, 500) + "..." : result.text
+        // Trim text only when it has no highlight (title-only match); highlighted
+        // snippets are already bounded and must not be cut mid-<span>
+        text: (result.text.length > 500 && !result.text.includes("<span"))
+          ? result.text.substring(0, 500) + "..."
+          : result.text
       }));
     }
   }
@@ -68,7 +71,7 @@
 
 <svelte:head>
   <title>Search | TMdict</title>
-  <link rel="canonical" href="https://www.tmdict.com/contact" />
+  <link rel="canonical" href="https://www.tmdict.com/search" />
   <style>
     .search-highlight { color: var(--bg-main); background-color: var(--text-dark); font-size: 1.1em; }
   </style>

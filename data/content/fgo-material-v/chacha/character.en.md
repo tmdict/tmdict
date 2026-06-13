@@ -55,7 +55,7 @@ After that, Nobunaga was defeated by Akechi Mitsuhide at the Honnōji Incident, 
 Around the succession of the Oda family, Katsuie confronted and lost to Hideyoshi at the Battle of Shizugatake, her mother Oichi no Kata committed suicide along with Katsuie, but Chacha and her sister were set free and received protection from Hideyoshi. Eh? Your Highness is cruel, or isn’t cruel?
 
 Afterwards, she became the concubine of Hideyoshi, who fulfilled the unification of the country. She gave birth to an abandoned child (Tsurumatsu){{n1}}, and a rejoiced Hideyoshi gave her the mountain castle Yodo castle, receiving the name of 『Yodo no Kata』since then.
-Tsurumatsu died in his childhood, but later, she gave birth to a picked child (Hideyori){{n1}}, and grasped the authority of the Toyotomi family as a guardian of Hideyori after Hideyoshi’s death. There it is! Chacha’s premonition of her golden age’s arrival! We were bain-boing!
+Tsurumatsu died in his childhood, but later, she gave birth to a picked child (Hideyori){{n3}}, and grasped the authority of the Toyotomi family as a guardian of Hideyori after Hideyoshi’s death. There it is! Chacha’s premonition of her golden age’s arrival! We were bain-boing!
 
 After the battle of Sekigahara, the conflict with the Tokugawa deepened, and the winter campaign of the siege to Ōsaka broke out. She encouraged the soldiers by wearing armor herself, and made peace after receiving a bombardment to Honmaru. Ca-cannons are unfair……
 Despite having established peace, the connections were severed the following year, and the Ōsaka palace finally fell in the summer campaign of the siege to Ōsaka. In the burning palace, she committed suicide along with her son Hideyori.
@@ -98,5 +98,5 @@ We lived a dazzling life under the protection of the nobleman Hideyoshi. Althoug
 
 ##### {{notes}}
 
-1. {{note1}} I’m not really sure of how to translate these sentences properly. For example, 捨 is “abandoned”, but Tsurumatsu wasn’t abandoned according to what I found.
+1. {{note1}} {{note3}} I’m not really sure of how to translate these sentences properly. For example, 捨 is “abandoned”, but Tsurumatsu wasn’t abandoned according to what I found.
 2. {{note2}} Here they use デジマ, which would literally translate into something like “lyriousse”, instead of マジデ. I preferred not to invert the wording to make the translation clearer.

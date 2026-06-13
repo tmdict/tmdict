@@ -6,7 +6,7 @@ language: en
 weight: 19
 translation: "EvoSpace"
 category:
-  - ultimate-one
+- ultimate-one
 ---
 
 Life forms that came from the other planets.

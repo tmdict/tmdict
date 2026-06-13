@@ -6,7 +6,7 @@ language: zh
 weight: 19
 translation: "幽远, jabal"
 category:
-  - ultimate-one
+- ultimate-one
 ---
 
 由其他天体飞来的八个生命体。

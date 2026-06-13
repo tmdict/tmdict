@@ -33,7 +33,7 @@ const sitemap: Sitemap[] = [];
 const searchData: SearchData[] = [];
 
 // Sitemap
-sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book`});
+sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/book/`});
 (["en", "ja", "zh"] as const).forEach((lang) => {
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/`});
   sitemap.push({changefreq: 'monthly', priority: 1.0, url: `https://www.tmdict.com/${lang}/about`});

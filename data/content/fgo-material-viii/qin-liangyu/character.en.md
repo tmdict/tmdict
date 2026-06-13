@@ -74,7 +74,7 @@ Her spear.
 
 ### Blackbeard / Bartholomew Roberts
 
-“They’re pirates, aren’t they? Alright, I shall do them innn!”{{n1}}
+“They’re pirates, aren’t they? Alright, I shall do them innn!”{{n3}}
 
 ### Anne Bonny & Mary Read
 
@@ -86,5 +86,5 @@ Her spear.
 
 ##### {{notes}}
 
-1. {{note1}} Qin Liangyu often says やります and 殺ります, both pronounced as ‘yarimasu’. The first can mean to do something, while the second means to kill someone/do someone in. This is why in her first speech example, she was correcting herself and trying to dispel any misunderstandings on what she just said.
+1. {{note1}} {{note3}} Qin Liangyu often says やります and 殺ります, both pronounced as ‘yarimasu’. The first can mean to do something, while the second means to kill someone/do someone in. This is why in her first speech example, she was correcting herself and trying to dispel any misunderstandings on what she just said.
 2. {{note2}} Qin Liangyu actually appeared as a living human in the Lostbelt, not as a Servant.
