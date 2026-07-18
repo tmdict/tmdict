@@ -85,10 +85,9 @@ export default class Builder {
     try {
       paths.css.files.forEach((file) => {
         const css = fs.readFileSync(`scripts/css/${file}.css`, "utf8");
-        const unixTs = Math.floor(Date.now() / 1000);
         const hash = crypto.createHash("md5").update(css).digest("hex");
-        console.log(`css: ${file} - hash: ${unixTs}-${hash}`);
-        hashes[file] = `${unixTs}-${hash}`;
+        console.log(`css: ${file} - hash: ${hash}`);
+        hashes[file] = hash;
         postcss()
           .use(atImport())
           .use(cssnano({ preset: ["default", { 
@@ -98,7 +97,7 @@ export default class Builder {
             from: `scripts/css/${file}.css`
           })
           .then((output) => {
-            outputFile(output.css, `static/__generated/css/${unixTs}-${hash}.css`);
+            outputFile(output.css, `static/__generated/css/${hash}.css`);
           })
       });
       this.toJsonExport("src/lib/__generated/hashes.json", hashes);

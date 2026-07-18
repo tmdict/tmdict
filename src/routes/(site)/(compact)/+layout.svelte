@@ -1,6 +1,4 @@
 <script>
-  import hashes from "$lib/__generated/hashes.json";
-
   let { children } = $props();
 </script>
 
