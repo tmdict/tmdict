@@ -32,7 +32,7 @@
     "sharp": "^0.35.3",
     "sitemap": "^9.0.1",
     "svelte": "^5.56.10",
-    "typescript": "^7.0.2",
+    "typescript": "^6.0.3",
     "uglify-js": "^3.19.3",
     "vite": "^8.2.2"
   }
